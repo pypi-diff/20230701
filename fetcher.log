@@ -1774,3 +1774,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 01:19:42] INFO root fetch - main [MainThread]: End processing [mycotools]: success
 [2023-07-01 01:19:42] INFO root fetch - main [MainThread]: End processing [mycotools]: success
 [2023-07-01 01:19:42] INFO root fetch - main [MainThread]: Store serial: [18717127]
+[2023-07-01 01:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717127]
+[2023-07-01 01:24:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dql-alpha
+[2023-07-01 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFintech
+[2023-07-01 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refuel-autolabel
+[2023-07-01 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvc
+[2023-07-01 01:24:52] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-01 01:24:52] INFO root fetch - processPackages [OpenFintech]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 01:24:52] INFO root fetch - processPackages [refuel-autolabel]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 01:24:52] INFO root fetch - processPackages [dvc]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-07-01 01:24:52] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/43/30/f0c4f8343c50d47764e7b17841f891f5c830644161864255d13c00908fe2/refuel-autolabel-0.0.5.tar.gz
+[2023-07-01 01:24:52] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-07-01 01:24:52] INFO root fetch - processPackages [OpenFintech]: Downloading https://files.pythonhosted.org/packages/21/16/82bf077789508f987679717d86fccb01674acb65650f4fd94c54392f6036/OpenFintech-0.0.7.tar.gz
+[2023-07-01 01:24:52] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/33/c7/0574c78423b1ce670a79032c1c3de2d579af7362662be2ba1e3b98231aee/dvc-3.2.3.tar.gz
+[2023-07-01 01:24:52] INFO root fetch - processPackages [refuel-autolabel]: Downloading https://files.pythonhosted.org/packages/52/db/a9ac1ac47deb19017fa3830dd5376960cc52a46ccf2f8361b4e08f97c85c/refuel-autolabel-0.0.6.tar.gz
+[2023-07-01 01:24:52] INFO root fetch - processPackages [refuel-autolabel]: executing diffoscope
+[2023-07-01 01:24:52] INFO root fetch - processPackages [refuel-autolabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refuel-autolabel-0.0.5.tar.gz tmp/refuel-autolabel-0.0.6.tar.gz --markdown 20230701/r/refuel-autolabel/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 01:24:52] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-07-01 01:24:52] INFO root fetch - processPackages [OpenFintech]: Downloading https://files.pythonhosted.org/packages/b5/cc/7bdb9c735e15df9a4dafa21fd5dd50044fed15b5c021bd9b3b851d53ff8a/OpenFintech-0.0.8.tar.gz
+[2023-07-01 01:24:53] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/13/2f/337301e0b6b84e44e497e26de70185d450e3969d47b7f9477f7164965253/dvc-3.2.4.tar.gz
+[2023-07-01 01:24:53] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-07-01 01:24:53] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230701/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 01:24:53] INFO root fetch - processPackages [OpenFintech]: executing diffoscope
+[2023-07-01 01:24:53] INFO root fetch - processPackages [OpenFintech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFintech-0.0.7.tar.gz tmp/OpenFintech-0.0.8.tar.gz --markdown 20230701/O/OpenFintech/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 01:24:53] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2023-07-01 01:24:53] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.2.3.tar.gz tmp/dvc-3.2.4.tar.gz --markdown 20230701/d/dvc/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-07-01 01:24:53] INFO root fetch - processPackages [OpenFintech]: Remove: archive file [/home/abi/fetcher/tmp/OpenFintech-0.0.7.tar.gz]
+[2023-07-01 01:24:53] INFO root fetch - processPackages [OpenFintech]: Remove: archive file [/home/abi/fetcher/tmp/OpenFintech-0.0.8.tar.gz]
+[2023-07-01 01:24:53] INFO root fetch - main [MainThread]: End processing [OpenFintech]: success
+[2023-07-01 01:24:54] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.5.tar.gz]
+[2023-07-01 01:24:54] INFO root fetch - processPackages [refuel-autolabel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-autolabel-0.0.6.tar.gz]
+[2023-07-01 01:24:54] INFO root fetch - main [MainThread]: End processing [refuel-autolabel]: success
+[2023-07-01 01:24:54] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.8.0.tar.gz]
+[2023-07-01 01:24:54] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.9.0.tar.gz]
+[2023-07-01 01:24:54] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-07-01 01:24:57] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.3.tar.gz]
+[2023-07-01 01:24:57] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.4.tar.gz]
+[2023-07-01 01:24:57] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2023-07-01 01:24:57] INFO root fetch - main [MainThread]: Store serial: [18717145]
