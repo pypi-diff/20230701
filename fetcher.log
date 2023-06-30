@@ -1686,3 +1686,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 01:09:16] INFO root fetch - processPackages [requests-cache]: Remove: archive file [/home/abi/fetcher/tmp/requests_cache-1.1.0.tar.gz]
 [2023-07-01 01:09:16] INFO root fetch - main [MainThread]: End processing [requests-cache]: success
 [2023-07-01 01:09:16] INFO root fetch - main [MainThread]: Store serial: [18717094]
+[2023-07-01 01:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717094]
+[2023-07-01 01:14:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Leye
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fabman
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyppbox
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appthreat-depscan
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitmopy
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ss13-tools
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: felt-upload
+[2023-07-01 01:14:25] INFO root fetch - processPackages [fabman]: New version: [1.1.20] Old Version: [1.1.17]
+[2023-07-01 01:14:25] INFO root fetch - processPackages [felt-upload]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 01:14:25] INFO root fetch - processPackages [gitmopy]: New version: [0.4.0] Old Version: [0.3.5.2]
+[2023-07-01 01:14:25] INFO root fetch - processPackages [pyppbox]: New version: [3.0b4] Old Version: [3.0b3]
+[2023-07-01 01:14:25] WARNING root fetch - processPackages [Leye]: Skipping, unable to determine old version
+[2023-07-01 01:14:25] INFO root fetch - main [MainThread]: End processing [Leye] error
+[2023-07-01 01:14:25] INFO root fetch - processPackages [appthreat-depscan]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ss13-tools]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-07-01 01:14:25] INFO root fetch - processPackages [felt-upload]: Downloading https://files.pythonhosted.org/packages/d5/75/00713c2657590fc70ff11895e253f911f1d50a2d7d921651f008a37dfca7/felt_upload-0.1.1.tar.gz
+[2023-07-01 01:14:25] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/79/af/ab7ca0bb9374bb47e488d39ad5ca17b8dfc4d934de15e25f04edcb13716f/pyppbox-3.0b3.tar.gz
+[2023-07-01 01:14:25] INFO root fetch - processPackages [fabman]: Downloading https://files.pythonhosted.org/packages/03/d0/b209f0f7b9479d4e49a912fd370b9694bc0243577b055bd8a7d2737e9c72/fabman-1.1.17.tar.gz
+[2023-07-01 01:14:25] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/48/66/66741ae7b6e5f0157c3863dd44ffee3a2077f0797948f653d4fece20ca1f/gitmopy-0.3.5.2.tar.gz
+[2023-07-01 01:14:25] INFO root fetch - processPackages [ss13-tools]: Downloading https://files.pythonhosted.org/packages/9b/79/dbf7c62c533ffea453a1295496e1102ab915a0918d271af596b75f32fcf9/ss13_tools-2.3.2.tar.gz
+[2023-07-01 01:14:25] INFO root fetch - processPackages [appthreat-depscan]: Downloading https://files.pythonhosted.org/packages/45/64/0689080d723df5d6b8989e62a34b1851ca5a1344d817090820e18827fb0f/appthreat-depscan-4.1.2.tar.gz
+[2023-07-01 01:14:25] INFO root fetch - processPackages [felt-upload]: Downloading https://files.pythonhosted.org/packages/dd/a3/61da1040068ef874e1d014c1c9dbf50f606d4dc023c9945cc94fd3afa4c9/felt_upload-0.1.2.tar.gz
+[2023-07-01 01:14:26] INFO root fetch - processPackages [pyppbox]: Downloading https://files.pythonhosted.org/packages/25/19/044d1146748334b20e21c03281a5fef0fe339034f30e906b2e921bfee74a/pyppbox-3.0b4.tar.gz
+[2023-07-01 01:14:26] INFO root fetch - processPackages [fabman]: Downloading https://files.pythonhosted.org/packages/9b/73/37a861857149fb76682b42fd5b628dc7733ebf8b6b96768ab80a3fc29887/fabman-1.1.20.tar.gz
+[2023-07-01 01:14:26] INFO root fetch - processPackages [gitmopy]: Downloading https://files.pythonhosted.org/packages/ac/74/11e162c2b915ed42cbef6cb89cae1724a9ea240df6ee31f842f0f43ac1c5/gitmopy-0.4.0.tar.gz
+[2023-07-01 01:14:26] INFO root fetch - processPackages [ss13-tools]: Downloading https://files.pythonhosted.org/packages/8c/89/6612cc271ae23955411fec59b8a0a3ee5fad37a1698045db1a582ccf1df1/ss13_tools-2.3.3.tar.gz
+[2023-07-01 01:14:26] INFO root fetch - processPackages [felt-upload]: executing diffoscope
+[2023-07-01 01:14:26] INFO root fetch - processPackages [felt-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felt_upload-0.1.1.tar.gz tmp/felt_upload-0.1.2.tar.gz --markdown 20230701/f/felt-upload/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 01:14:26] INFO root fetch - processPackages [gitmopy]: executing diffoscope
+[2023-07-01 01:14:26] INFO root fetch - processPackages [gitmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitmopy-0.3.5.2.tar.gz tmp/gitmopy-0.4.0.tar.gz --markdown 20230701/g/gitmopy/0.3.5.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 01:14:26] INFO root fetch - processPackages [appthreat-depscan]: Downloading https://files.pythonhosted.org/packages/21/f6/c9fd428b10946ce94d244a3da6cf53a2cd159fa90f26013b1acf6e92bbc2/appthreat-depscan-4.2.0.tar.gz
+[2023-07-01 01:14:26] INFO root fetch - processPackages [fabman]: executing diffoscope
+[2023-07-01 01:14:26] INFO root fetch - processPackages [fabman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabman-1.1.17.tar.gz tmp/fabman-1.1.20.tar.gz --markdown 20230701/f/fabman/1.1.17-1.1.20/diff.md --exclude *.pyd
+[2023-07-01 01:14:26] INFO root fetch - processPackages [ss13-tools]: executing diffoscope
+[2023-07-01 01:14:26] INFO root fetch - processPackages [ss13-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ss13_tools-2.3.2.tar.gz tmp/ss13_tools-2.3.3.tar.gz --markdown 20230701/s/ss13-tools/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-07-01 01:14:26] INFO root fetch - processPackages [pyppbox]: executing diffoscope
+[2023-07-01 01:14:26] INFO root fetch - processPackages [pyppbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox-3.0b3.tar.gz tmp/pyppbox-3.0b4.tar.gz --markdown 20230701/p/pyppbox/3.0b3-3.0b4/diff.md --exclude *.pyd
+[2023-07-01 01:14:26] INFO root fetch - processPackages [appthreat-depscan]: executing diffoscope
+[2023-07-01 01:14:26] INFO root fetch - processPackages [appthreat-depscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-depscan-4.1.2.tar.gz tmp/appthreat-depscan-4.2.0.tar.gz --markdown 20230701/a/appthreat-depscan/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-07-01 01:14:27] INFO root fetch - processPackages [felt-upload]: Remove: archive file [/home/abi/fetcher/tmp/felt_upload-0.1.1.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - processPackages [felt-upload]: Remove: archive file [/home/abi/fetcher/tmp/felt_upload-0.1.2.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - main [MainThread]: End processing [felt-upload]: success
+[2023-07-01 01:14:27] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.3.5.2.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - processPackages [gitmopy]: Remove: archive file [/home/abi/fetcher/tmp/gitmopy-0.4.0.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - main [MainThread]: End processing [gitmopy]: success
+[2023-07-01 01:14:27] INFO root fetch - processPackages [ss13-tools]: Remove: archive file [/home/abi/fetcher/tmp/ss13_tools-2.3.2.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - processPackages [ss13-tools]: Remove: archive file [/home/abi/fetcher/tmp/ss13_tools-2.3.3.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - main [MainThread]: End processing [ss13-tools]: success
+[2023-07-01 01:14:27] INFO root fetch - processPackages [fabman]: Remove: archive file [/home/abi/fetcher/tmp/fabman-1.1.17.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - processPackages [fabman]: Remove: archive file [/home/abi/fetcher/tmp/fabman-1.1.20.tar.gz]
+[2023-07-01 01:14:27] INFO root fetch - main [MainThread]: End processing [fabman]: success
+[2023-07-01 01:14:29] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.0b3.tar.gz]
+[2023-07-01 01:14:29] INFO root fetch - processPackages [pyppbox]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox-3.0b4.tar.gz]
+[2023-07-01 01:14:29] INFO root fetch - main [MainThread]: End processing [pyppbox]: success
+[2023-07-01 01:14:32] INFO root fetch - processPackages [appthreat-depscan]: Remove: archive file [/home/abi/fetcher/tmp/appthreat-depscan-4.1.2.tar.gz]
+[2023-07-01 01:14:32] INFO root fetch - processPackages [appthreat-depscan]: Remove: archive file [/home/abi/fetcher/tmp/appthreat-depscan-4.2.0.tar.gz]
+[2023-07-01 01:14:32] INFO root fetch - main [MainThread]: End processing [appthreat-depscan]: success
+[2023-07-01 01:14:32] INFO root fetch - main [MainThread]: Store serial: [18717118]
