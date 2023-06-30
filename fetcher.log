@@ -1559,3 +1559,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 00:58:53] INFO root fetch - processPackages [drmmsdk]: Remove: archive file [/home/abi/fetcher/tmp/drmmsdk-0.0.3.tar.gz]
 [2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [drmmsdk]: success
 [2023-07-01 00:58:53] INFO root fetch - main [MainThread]: Store serial: [18717043]
+[2023-07-01 01:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717043]
+[2023-07-01 01:04:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: electricalsim-opf-quadratic
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hera-calibration
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyfi
+[2023-07-01 01:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantnb
+[2023-07-01 01:04:02] WARNING root fetch - processPackages [electricalsim-opf-quadratic]: Skipping, unable to determine old version
+[2023-07-01 01:04:02] INFO root fetch - main [MainThread]: End processing [electricalsim-opf-quadratic] error
+[2023-07-01 01:04:02] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230630] Old Version: [0.7.0b20230629]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.383] Old Version: [0.3.382]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [hera-calibration]: New version: [3.3.0] Old Version: [3.2.3]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [quantnb]: New version: [0.2.4] Old Version: [0.2.3.post2]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230630] Old Version: [0.7.0b20230629]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230630] Old Version: [1.5.0.dev20230629]
+[2023-07-01 01:04:02] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/86/6d/b99fbcec3bcc56cba53ff18be0290ca585e2be17930988bbde4f1ee2f698/tmnt-0.7.0b20230629.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/c9/24/3c9126da7a4d79308a713e51b5746ef6de2d59e6cea49d0477bb2b2c96e6/flwr_nightly-1.5.0.dev20230629.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/37/1a/d0c7e9aa2087e2f7a1d7a953048a4b8b1569867bdf71f0cceac75de1fc16/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/3b/57/3f62229a124932d75b9f09a9c53db7d15a6c528b9d6eb217503507aa7d71/tmnt-cu101-0.7.0b20230629.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [hera-calibration]: Downloading https://files.pythonhosted.org/packages/54/42/8ffd0bc34c678b0978972c89054b56546cc68b429788fa7bd7b3e8bb1291/hera-calibration-3.2.3.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/5f/cb/f66f61895454b4f6e169d7c4fd987a0235f923d6612c3eef7a05e0974c4c/quantnb-0.2.3.post2.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-07-01 01:04:02] WARNING root fetch - processPackages [hera-calibration]: Skipping package: exceeds size limit 63852023>=10485760
+[2023-07-01 01:04:02] INFO root fetch - main [MainThread]: End processing [hera-calibration] error
+[2023-07-01 01:04:02] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/7c/08/a86a0757d62331c01439fcbbe56d263191c77c1b8976cd070c5f95f67e1a/flwr_nightly-1.5.0.dev20230630.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f4/7d/7a41e98e4c8de57a43cd96a1d8b40c0f7c81e2b289c3cf390ec2515912e8/tmnt-0.7.0b20230630.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/24/a5/fd89fff7867adecc6978a9ef4a16c7c50f362eada617aab1076c1fc99a7e/pepperize.cdk-ses-smtp-credentials-0.3.383.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/ec/a0/d3688ee3b584fe6cb0638830f8012289bb7e9f9849407f4a1f5b2fcdcfd1/tmnt-cu101-0.7.0b20230630.tar.gz
+[2023-07-01 01:04:02] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/6a/78/7a27a917cb925422b96a775756b0b099f940fc03e2f586c34d3857f60c2e/quantnb-0.2.4.tar.gz
+[2023-07-01 01:04:03] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-01 01:04:03] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230701/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 01:04:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-07-01 01:04:03] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.383.tar.gz --markdown 20230701/p/pepperize.cdk-ses-smtp-credentials/0.3.382-0.3.383/diff.md --exclude *.pyd
+[2023-07-01 01:04:03] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-01 01:04:03] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230629.tar.gz tmp/flwr_nightly-1.5.0.dev20230630.tar.gz --markdown 20230701/f/flwr-nightly/1.5.0.dev20230629-1.5.0.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 01:04:03] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-01 01:04:03] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230629.tar.gz tmp/tmnt-0.7.0b20230630.tar.gz --markdown 20230701/t/tmnt/0.7.0b20230629-0.7.0b20230630/diff.md --exclude *.pyd
+[2023-07-01 01:04:03] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-01 01:04:03] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230629.tar.gz tmp/tmnt-cu101-0.7.0b20230630.tar.gz --markdown 20230701/t/tmnt-cu101/0.7.0b20230629-0.7.0b20230630/diff.md --exclude *.pyd
+[2023-07-01 01:04:03] INFO root fetch - processPackages [quantnb]: executing diffoscope
+[2023-07-01 01:04:03] INFO root fetch - processPackages [quantnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantnb-0.2.3.post2.tar.gz tmp/quantnb-0.2.4.tar.gz --markdown 20230701/q/quantnb/0.2.3.post2-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 01:04:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.382.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.383.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-07-01 01:04:04] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230629.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230630.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-01 01:04:04] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.3.post2.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.4.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [quantnb]: success
+[2023-07-01 01:04:04] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-01 01:04:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230629.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230630.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-01 01:04:04] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230629.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230630.tar.gz]
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-01 01:04:04] INFO root fetch - main [MainThread]: Store serial: [18717069]
