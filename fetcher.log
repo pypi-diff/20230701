@@ -1490,3 +1490,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 00:53:42] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.2.tar.gz]
 [2023-07-01 00:53:42] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
 [2023-07-01 00:53:42] INFO root fetch - main [MainThread]: Store serial: [18717019]
+[2023-07-01 00:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717019]
+[2023-07-01 00:58:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hagrid
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bs-testpkg-630
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-near
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-ml-py
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mycotools
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-sso-client
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Ekidna
+[2023-07-01 00:58:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drmmsdk
+[2023-07-01 00:58:51] INFO root fetch - processPackages [Ekidna]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 00:58:51] INFO root fetch - processPackages [nvidia-ml-py]: New version: [7.352.0] Old Version: [7.346.0]
+[2023-07-01 00:58:51] INFO root fetch - processPackages [py-near]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-01 00:58:51] WARNING root fetch - processPackages [bs-testpkg-630]: Skipping, unable to determine old version
+[2023-07-01 00:58:51] INFO root fetch - main [MainThread]: End processing [bs-testpkg-630] error
+[2023-07-01 00:58:51] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 00:58:51] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-01 00:58:51] INFO root fetch - processPackages [django-sso-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 00:58:51] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/5f/b3/141e9440dd12f8e172447dc08203015863b3955f978829b1b9924dbf0ffd/py_near-1.1.4.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [drmmsdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 00:58:51] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/8a/1e/ca026b0cef7bb10dd75308156a79b4a83f9c89dae784ce7fe36e43bc6528/django-sso-client-0.0.8.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [Ekidna]: Downloading https://files.pythonhosted.org/packages/a8/8a/7f9859a17da85a956e6dce2ae83bbfa75239dfbe67a9441840267222a329/Ekidna-0.0.6.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/3d/c2/72aaf55adbf953904332934d234686880d4765c0f9ee83d5de1995e825ac/nvidia-ml-py-7.346.0.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [drmmsdk]: Downloading https://files.pythonhosted.org/packages/ba/22/c6600cfba79e1f716809692713998641667eff949b20a36607d594197385/drmmsdk-0.0.2.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-07-01 00:58:51] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230701/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-01 00:58:51] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-01 00:58:51] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230701/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 00:58:51] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/0a/ae/9eaba3305a97ef0a51a6242886141a6ba4a8bbfac604f82224e404f278ee/py_near-1.1.5.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [django-sso-client]: Downloading https://files.pythonhosted.org/packages/8d/2a/e49f9a6dabc14add733f7199976b9a4a684212e8541dd4c100f2aff7f367/django-sso-client-0.0.9.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [drmmsdk]: Downloading https://files.pythonhosted.org/packages/da/e8/8e2b157f500bcd3c302e7295aa6cc717c6e5580eb8a704333468fd3db3bc/drmmsdk-0.0.3.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [Ekidna]: Downloading https://files.pythonhosted.org/packages/8a/4e/0f2c50f93f512645c61a4e4550efb56aa54660c4c89d0054b50bd5cd366f/Ekidna-0.0.7.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/72/31/378ca145e919ca415641a0f17f2669fa98c482a81f1f8fdfb72b1f9dbb37/nvidia-ml-py-7.352.0.tar.gz
+[2023-07-01 00:58:51] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2023-07-01 00:58:51] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.4.tar.gz tmp/py_near-1.1.5.tar.gz --markdown 20230701/p/py-near/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-01 00:58:51] INFO root fetch - processPackages [Ekidna]: executing diffoscope
+[2023-07-01 00:58:51] INFO root fetch - processPackages [Ekidna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Ekidna-0.0.6.tar.gz tmp/Ekidna-0.0.7.tar.gz --markdown 20230701/E/Ekidna/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 00:58:51] INFO root fetch - processPackages [django-sso-client]: executing diffoscope
+[2023-07-01 00:58:51] INFO root fetch - processPackages [django-sso-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sso-client-0.0.8.tar.gz tmp/django-sso-client-0.0.9.tar.gz --markdown 20230701/d/django-sso-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 00:58:52] INFO root fetch - processPackages [drmmsdk]: executing diffoscope
+[2023-07-01 00:58:52] INFO root fetch - processPackages [drmmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drmmsdk-0.0.2.tar.gz tmp/drmmsdk-0.0.3.tar.gz --markdown 20230701/d/drmmsdk/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 00:58:52] INFO root fetch - processPackages [nvidia-ml-py]: executing diffoscope
+[2023-07-01 00:58:52] INFO root fetch - processPackages [nvidia-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-ml-py-7.346.0.tar.gz tmp/nvidia-ml-py-7.352.0.tar.gz --markdown 20230701/n/nvidia-ml-py/7.346.0-7.352.0/diff.md --exclude *.pyd
+[2023-07-01 00:58:53] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-07-01 00:58:53] INFO root fetch - processPackages [django-sso-client]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-0.0.8.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [django-sso-client]: Remove: archive file [/home/abi/fetcher/tmp/django-sso-client-0.0.9.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [django-sso-client]: success
+[2023-07-01 00:58:53] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-01 00:58:53] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.346.0.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.352.0.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [nvidia-ml-py]: success
+[2023-07-01 00:58:53] INFO root fetch - processPackages [Ekidna]: Remove: archive file [/home/abi/fetcher/tmp/Ekidna-0.0.6.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [Ekidna]: Remove: archive file [/home/abi/fetcher/tmp/Ekidna-0.0.7.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [Ekidna]: success
+[2023-07-01 00:58:53] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.4.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.5.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2023-07-01 00:58:53] INFO root fetch - processPackages [drmmsdk]: Remove: archive file [/home/abi/fetcher/tmp/drmmsdk-0.0.2.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - processPackages [drmmsdk]: Remove: archive file [/home/abi/fetcher/tmp/drmmsdk-0.0.3.tar.gz]
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: End processing [drmmsdk]: success
+[2023-07-01 00:58:53] INFO root fetch - main [MainThread]: Store serial: [18717043]
