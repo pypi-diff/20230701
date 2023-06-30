@@ -1624,3 +1624,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 01:04:04] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230630.tar.gz]
 [2023-07-01 01:04:04] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-07-01 01:04:04] INFO root fetch - main [MainThread]: Store serial: [18717069]
+[2023-07-01 01:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717069]
+[2023-07-01 01:09:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requests-cache
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcan
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domino-code-assist
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-quality-rules-tools
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantnb
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mycotools
+[2023-07-01 01:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythonbible
+[2023-07-01 01:09:13] INFO root fetch - processPackages [domino-code-assist]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [quantnb]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [arcan]: New version: [1.3.0] Old Version: [1.2.5]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [requests-cache]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/6a/78/7a27a917cb925422b96a775756b0b099f940fc03e2f586c34d3857f60c2e/quantnb-0.2.4.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/fd/44/4d122d325845e5e16cfc37128d0ed275d6fd49a3f3bd067d4bcca820e6ea/spark_quality_rules_tools-0.3.3.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [pythonbible]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-01 01:09:13] INFO root fetch - processPackages [domino-code-assist]: Downloading https://files.pythonhosted.org/packages/1f/6b/193a602c40d8f54baa0ed14ea24200974a228ad5e0fbd0cfb989026b7f37/domino_code_assist-1.2.1.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [requests-cache]: Downloading https://files.pythonhosted.org/packages/41/b5/a191bc8acd761ecc90085355ceb38608ddcd1aadeb5195dba13008fa7fc3/requests_cache-1.0.1.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/1b/06/c58bc65c3cceb3fea6f39af4b2866ee8585b3924e958bed70ff1953a122e/arcan-1.2.5.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/5c/d3/7588bde2e795ec5a5cff2098390348ac79cc8c190df374955032cc973de0/quantnb-0.2.5.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [pythonbible]: Downloading https://files.pythonhosted.org/packages/9d/fd/29ca981f6b5a098a525905fba6c6537e24cfc09f81753f7c526fd3b9d6d5/pythonbible-0.9.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/78/9d/8ee700b2f0fd702780008e788ee2b4937dd4c18fee9364969fabf2688893/spark_quality_rules_tools-0.3.4.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-01 01:09:13] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.3.3.tar.gz tmp/spark_quality_rules_tools-0.3.4.tar.gz --markdown 20230701/s/spark-quality-rules-tools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-01 01:09:13] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/c4/70/5b7f1ac2d515153bd099641ab9486a6817e7eb46fdf6f08d574d7c03ce67/arcan-1.3.0.tar.gz
+[2023-07-01 01:09:13] WARNING root fetch - processPackages [pythonbible]: Skipping package: exceeds size limit 19656452>=10485760
+[2023-07-01 01:09:13] INFO root fetch - main [MainThread]: End processing [pythonbible] error
+[2023-07-01 01:09:13] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-07-01 01:09:13] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230701/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-01 01:09:13] INFO root fetch - processPackages [quantnb]: executing diffoscope
+[2023-07-01 01:09:13] INFO root fetch - processPackages [quantnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantnb-0.2.4.tar.gz tmp/quantnb-0.2.5.tar.gz --markdown 20230701/q/quantnb/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 01:09:13] INFO root fetch - processPackages [requests-cache]: Downloading https://files.pythonhosted.org/packages/79/13/c37358338bbbe223caf2ec59580be675c1657f3f295598ac69e275590140/requests_cache-1.1.0.tar.gz
+[2023-07-01 01:09:13] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-07-01 01:09:13] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.2.5.tar.gz tmp/arcan-1.3.0.tar.gz --markdown 20230701/a/arcan/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2023-07-01 01:09:14] INFO root fetch - processPackages [requests-cache]: executing diffoscope
+[2023-07-01 01:09:14] INFO root fetch - processPackages [requests-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_cache-1.0.1.tar.gz tmp/requests_cache-1.1.0.tar.gz --markdown 20230701/r/requests-cache/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 01:09:14] INFO root fetch - processPackages [domino-code-assist]: Downloading https://files.pythonhosted.org/packages/e9/b1/3c6bbb35b12e0658a94f3283f8fc30e03dcd021f907351f40f63bb0c24e5/domino_code_assist-1.3.0.tar.gz
+[2023-07-01 01:09:14] INFO root fetch - processPackages [domino-code-assist]: executing diffoscope
+[2023-07-01 01:09:14] INFO root fetch - processPackages [domino-code-assist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino_code_assist-1.2.1.tar.gz tmp/domino_code_assist-1.3.0.tar.gz --markdown 20230701/d/domino-code-assist/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-01 01:09:14] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.3.tar.gz]
+[2023-07-01 01:09:14] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.4.tar.gz]
+[2023-07-01 01:09:14] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-01 01:09:15] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.4.tar.gz]
+[2023-07-01 01:09:15] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.5.tar.gz]
+[2023-07-01 01:09:15] INFO root fetch - main [MainThread]: End processing [quantnb]: success
+[2023-07-01 01:09:15] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-07-01 01:09:15] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-07-01 01:09:15] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-07-01 01:09:15] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.2.5.tar.gz]
+[2023-07-01 01:09:15] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.0.tar.gz]
+[2023-07-01 01:09:15] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-07-01 01:09:16] INFO root fetch - processPackages [domino-code-assist]: Remove: archive file [/home/abi/fetcher/tmp/domino_code_assist-1.2.1.tar.gz]
+[2023-07-01 01:09:16] INFO root fetch - processPackages [domino-code-assist]: Remove: archive file [/home/abi/fetcher/tmp/domino_code_assist-1.3.0.tar.gz]
+[2023-07-01 01:09:16] INFO root fetch - main [MainThread]: End processing [domino-code-assist]: success
+[2023-07-01 01:09:16] INFO root fetch - processPackages [requests-cache]: Remove: archive file [/home/abi/fetcher/tmp/requests_cache-1.0.1.tar.gz]
+[2023-07-01 01:09:16] INFO root fetch - processPackages [requests-cache]: Remove: archive file [/home/abi/fetcher/tmp/requests_cache-1.1.0.tar.gz]
+[2023-07-01 01:09:16] INFO root fetch - main [MainThread]: End processing [requests-cache]: success
+[2023-07-01 01:09:16] INFO root fetch - main [MainThread]: Store serial: [18717094]
