@@ -1,0 +1,137 @@
+[2023-07-01 00:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18716502]
+[2023-07-01 00:05:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycotools
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: raspi-gpio
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: general-superstaq
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiskit-superstaq
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-superstaq
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Supermarq
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: owe-python-sdk
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: igann
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ovos-skill-homescreen
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bullmq
+[2023-07-01 00:05:14] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [raspi-gpio]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [Supermarq]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [general-superstaq]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [bullmq]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ovos-skill-homescreen]: New version: [0.0.3a5] Old Version: [0.0.3a4]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [igann]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-01 00:05:14] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/68/d4/b6871ea8d0babacbc4ce12d62c2a5ed1628169f63e919197b3bd64745206/raspi_gpio-0.1.1.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/9d/a2/0c3ce18c609e2e6379facd0eb6ad01c8ec2df0a5ba51f1268dcd0b1433c7/owe_python_sdk-0.0.1.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/34/7f/59c626b938c118444f9b4934a602e09482b18c2df7756a040b35118aefbe/qiskit_superstaq-0.4.0-py3-none-any.whl
+[2023-07-01 00:05:14] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/f5/38/e437d9084563a2b9e17520881dd9e0b09739460dd7595f912c1257efc0c7/general_superstaq-0.4.0-py3-none-any.whl
+[2023-07-01 00:05:14] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/6b/e3/41471b702456833f4140cf9d5e729ca4e87acb9e1d4ce666b327f795f0ce/cirq_superstaq-0.4.0-py3-none-any.whl
+[2023-07-01 00:05:14] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/56/77/925f31802054eb1b09e9a7af57ccca273c2708d5a88a0002041c41010154/bullmq-1.3.1.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/97/01/1689161bb7e62879419d747b88088152192dd937e0434e69ca8186b50ebb/Supermarq-0.4.0-py3-none-any.whl
+[2023-07-01 00:05:14] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [igann]: Downloading https://files.pythonhosted.org/packages/78/11/306e78a44a0bc835b21bb5440900deb835c3e5d26804199599520430b282/igann-0.1.0.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/2e/b2/a3104cb1d75a9ea195d72ac6ac837f21ffe95c750d214b543b12889232f7/raspi_gpio-0.1.2.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [ovos-skill-homescreen]: Downloading https://files.pythonhosted.org/packages/91/af/ad90bf5ee170ccee3912db9a8b04e93897a531dfe3ca82b1da52f0bb1cd5/ovos-skill-homescreen-0.0.3a5.tar.gz
+[2023-07-01 00:05:14] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/f8/7b/a48d68c865b0e145d6f3bd83a3e177450b8485bd7f3a896d177d0154c660/owe_python_sdk-0.0.1a0.tar.gz
+[2023-07-01 00:05:15] INFO root fetch - processPackages [raspi-gpio]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [raspi-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspi_gpio-0.1.1.tar.gz tmp/raspi_gpio-0.1.2.tar.gz --markdown 20230701/r/raspi-gpio/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/98/37/f3a54a496788134be805848bf31657cb44ebf842ca6875a884968322e5cb/general_superstaq-0.4.1-py3-none-any.whl
+[2023-07-01 00:05:15] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/8b/17/1d77e7ea9730e31239d83d5f0a644ecc0c84b91fca63eb010ea350bdebab/cirq_superstaq-0.4.1-py3-none-any.whl
+[2023-07-01 00:05:15] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/cb/7a/745232791ed8f4b59accd6f09be63816b40f45360f45aa9cd071b92f0d91/qiskit_superstaq-0.4.1-py3-none-any.whl
+[2023-07-01 00:05:15] INFO root fetch - processPackages [igann]: Downloading https://files.pythonhosted.org/packages/4e/35/1f8b95129dcdf1c7f543835d6b881ee9f7cc9bfc00dd7a8831ec9a8b038d/igann-0.1.1.tar.gz
+[2023-07-01 00:05:15] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/6f/94/43a0403d2a56cb2db18e5a2d65b206414299d460c35e8400057053a049e7/bullmq-1.4.0.tar.gz
+[2023-07-01 00:05:15] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1.tar.gz tmp/owe_python_sdk-0.0.1a0.tar.gz --markdown 20230701/o/owe-python-sdk/0.0.1-0.0.1a0/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-07-01 00:05:15] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general_superstaq-0.4.0-py3-none-any.whl.zip tmp/general_superstaq-0.4.1-py3-none-any.whl.zip --markdown 20230701/g/general-superstaq/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [igann]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [igann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igann-0.1.0.tar.gz tmp/igann-0.1.1.tar.gz --markdown 20230701/i/igann/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-1.3.1.tar.gz tmp/bullmq-1.4.0.tar.gz --markdown 20230701/b/bullmq/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_superstaq-0.4.0-py3-none-any.whl.zip tmp/qiskit_superstaq-0.4.1-py3-none-any.whl.zip --markdown 20230701/q/qiskit-superstaq/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_superstaq-0.4.0-py3-none-any.whl.zip tmp/cirq_superstaq-0.4.1-py3-none-any.whl.zip --markdown 20230701/c/cirq-superstaq/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230701/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/4c/85/855eb53be4463663b020ffb26efd715d94d7f734c42b280a987014b64732/Supermarq-0.4.1-py3-none-any.whl
+[2023-07-01 00:05:15] INFO root fetch - processPackages [ovos-skill-homescreen]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [ovos-skill-homescreen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-skill-homescreen-0.0.3a4.tar.gz tmp/ovos-skill-homescreen-0.0.3a5.tar.gz --markdown 20230701/o/ovos-skill-homescreen/0.0.3a4-0.0.3a5/diff.md --exclude *.pyd
+[2023-07-01 00:05:15] INFO root fetch - processPackages [Supermarq]: executing diffoscope
+[2023-07-01 00:05:15] INFO root fetch - processPackages [Supermarq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supermarq-0.4.0-py3-none-any.whl.zip tmp/Supermarq-0.4.1-py3-none-any.whl.zip --markdown 20230701/S/Supermarq/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 00:05:17] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.1.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.2.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [raspi-gpio]: Start processing: glass
+[2023-07-01 00:05:17] INFO root fetch - main [MainThread]: End processing [raspi-gpio]: success
+[2023-07-01 00:05:17] INFO root fetch - processPackages [glass]: New version: [2023.6] Old Version: [2023.5]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a0.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [owe-python-sdk]: Start processing: returnn
+[2023-07-01 00:05:17] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-01 00:05:17] INFO root fetch - processPackages [returnn]: New version: [1.20230630.93532] Old Version: [1.20230630.233220]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/69/1e/95e9e1aa0b62ffb9cfd32e58d7e1ab2a758b45e90876e6100566d159e483/returnn-1.20230630.233220.tar.gz
+[2023-07-01 00:05:17] INFO root fetch - processPackages [glass]: Downloading https://files.pythonhosted.org/packages/12/23/ae4ff4ab6e6ac4ab14962f7726ecd0f209245e45546fae0eb3a3e1675d7d/glass-2023.5.tar.gz
+[2023-07-01 00:05:17] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.3.1.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.4.0.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [bullmq]: Start processing: flytekit
+[2023-07-01 00:05:17] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-07-01 00:05:17] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.0-py3-none-any.whl.zip]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_superstaq-0.4.1-py3-none-any.whl.zip]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [cirq-superstaq]: Start processing: flytekitplugins-athena
+[2023-07-01 00:05:17] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2023-07-01 00:05:17] INFO root fetch - processPackages [igann]: Remove: archive file [/home/abi/fetcher/tmp/igann-0.1.0.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [igann]: Remove: archive file [/home/abi/fetcher/tmp/igann-0.1.1.tar.gz]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [igann]: Start processing: flytekitplugins-awsbatch
+[2023-07-01 00:05:17] INFO root fetch - main [MainThread]: End processing [igann]: success
+[2023-07-01 00:05:17] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.0-py3-none-any.whl.zip]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_superstaq-0.4.1-py3-none-any.whl.zip]
+[2023-07-01 00:05:17] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2023-07-01 00:05:17] INFO root fetch - processPackages [glass]: Downloading https://files.pythonhosted.org/packages/d0/60/765ae3af4e6722b7ebd302675ef0f5e4226c77e268ce5e1cef729e3c8176/glass-2023.6.tar.gz
+[2023-07-01 00:05:17] INFO root fetch - processPackages [flytekitplugins-athena]: New version: [1.7.1b1] Old Version: [1.7.1b0]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [flytekit]: New version: [1.7.1b1] Old Version: [1.7.1b0]
+[2023-07-01 00:05:17] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/8d/f2/62097226974f5a605bbe2b9505b1f7b6eb50447f91332f10291c40136656/returnn-1.20230630.93532.tar.gz
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekitplugins-awsbatch]: New version: [1.7.1b1] Old Version: [1.7.1b0]
+[2023-07-01 00:05:18] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.0-py3-none-any.whl.zip]
+[2023-07-01 00:05:18] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.4.1-py3-none-any.whl.zip]
+[2023-07-01 00:05:18] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
+[2023-07-01 00:05:18] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.0-py3-none-any.whl.zip]
+[2023-07-01 00:05:18] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general_superstaq-0.4.1-py3-none-any.whl.zip]
+[2023-07-01 00:05:18] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2023-07-01 00:05:18] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-01 00:05:18] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230630.233220.tar.gz tmp/returnn-1.20230630.93532.tar.gz --markdown 20230701/r/returnn/1.20230630.233220-1.20230630.93532/diff.md --exclude *.pyd
+[2023-07-01 00:05:18] INFO root fetch - processPackages [glass]: executing diffoscope
+[2023-07-01 00:05:18] INFO root fetch - processPackages [glass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glass-2023.5.tar.gz tmp/glass-2023.6.tar.gz --markdown 20230701/g/glass/2023.5-2023.6/diff.md --exclude *.pyd
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekitplugins-athena]: Downloading https://files.pythonhosted.org/packages/45/2e/4100e8ec7128c7a017782d0a71dc03c31f464153e33cf21a3c685d3613df/flytekitplugins-athena-1.7.1b0.tar.gz
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekit]: Downloading https://files.pythonhosted.org/packages/5c/f0/e3cccb8fb32ae1c4f2283079e5ad0d6e115f268de5f25a3623c4f8bf3d40/flytekit-1.7.1b0.tar.gz
+[2023-07-01 00:05:18] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-07-01 00:05:18] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-07-01 00:05:18] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekitplugins-athena]: Downloading https://files.pythonhosted.org/packages/3f/06/b47929f59265710207addf594b6c9d6d9c98bc4cdaa2d004586034b639c0/flytekitplugins-athena-1.7.1b1.tar.gz
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekitplugins-athena]: executing diffoscope
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekitplugins-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-athena-1.7.1b0.tar.gz tmp/flytekitplugins-athena-1.7.1b1.tar.gz --markdown 20230701/f/flytekitplugins-athena/1.7.1b0-1.7.1b1/diff.md --exclude *.pyd
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekit]: Downloading https://files.pythonhosted.org/packages/0d/aa/caa1a56b9318473741354424ff3e9b323cc07e925c80878b9554cc4bdfec/flytekit-1.7.1b1.tar.gz
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekit]: executing diffoscope
+[2023-07-01 00:05:18] INFO root fetch - processPackages [flytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekit-1.7.1b0.tar.gz tmp/flytekit-1.7.1b1.tar.gz --markdown 20230701/f/flytekit/1.7.1b0-1.7.1b1/diff.md --exclude *.pyd
+[2023-07-01 00:05:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Downloading https://files.pythonhosted.org/packages/49/94/e90e77f3aedc07df4b976f55860b705250aa66fac928f25548f202e00c60/flytekitplugins-awsbatch-1.7.1b0.tar.gz
+[2023-07-01 00:05:19] INFO root fetch - processPackages [glass]: Remove: archive file [/home/abi/fetcher/tmp/glass-2023.5.tar.gz]
+[2023-07-01 00:05:19] INFO root fetch - processPackages [glass]: Remove: archive file [/home/abi/fetcher/tmp/glass-2023.6.tar.gz]
+[2023-07-01 00:05:19] INFO root fetch - main [MainThread]: End processing [glass]: success
+[2023-07-01 00:05:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Downloading https://files.pythonhosted.org/packages/7c/20/fb47523e418ccc0bca51ac0706ef27227a83da7c560a12a3360135c916f7/flytekitplugins-awsbatch-1.7.1b1.tar.gz
+[2023-07-01 00:05:19] INFO root fetch - processPackages [flytekitplugins-athena]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-athena-1.7.1b0.tar.gz]
+[2023-07-01 00:05:19] INFO root fetch - processPackages [flytekitplugins-athena]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-athena-1.7.1b1.tar.gz]
+[2023-07-01 00:05:19] INFO root fetch - main [MainThread]: End processing [flytekitplugins-athena]: success
+[2023-07-01 00:05:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: executing diffoscope
+[2023-07-01 00:05:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-awsbatch-1.7.1b0.tar.gz tmp/flytekitplugins-awsbatch-1.7.1b1.tar.gz --markdown 20230701/f/flytekitplugins-awsbatch/1.7.1b0-1.7.1b1/diff.md --exclude *.pyd
+[2023-07-01 00:05:20] INFO root fetch - processPackages [ovos-skill-homescreen]: Remove: archive file [/home/abi/fetcher/tmp/ovos-skill-homescreen-0.0.3a4.tar.gz]
+[2023-07-01 00:05:20] INFO root fetch - processPackages [ovos-skill-homescreen]: Remove: archive file [/home/abi/fetcher/tmp/ovos-skill-homescreen-0.0.3a5.tar.gz]
+[2023-07-01 00:05:20] INFO root fetch - main [MainThread]: End processing [ovos-skill-homescreen]: success
+[2023-07-01 00:05:20] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-awsbatch-1.7.1b0.tar.gz]
+[2023-07-01 00:05:20] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-awsbatch-1.7.1b1.tar.gz]
+[2023-07-01 00:05:20] INFO root fetch - main [MainThread]: End processing [flytekitplugins-awsbatch]: success
+[2023-07-01 00:05:21] INFO root fetch - processPackages [flytekit]: Remove: archive file [/home/abi/fetcher/tmp/flytekit-1.7.1b0.tar.gz]
+[2023-07-01 00:05:21] INFO root fetch - processPackages [flytekit]: Remove: archive file [/home/abi/fetcher/tmp/flytekit-1.7.1b1.tar.gz]
+[2023-07-01 00:05:21] INFO root fetch - main [MainThread]: End processing [flytekit]: success
+[2023-07-01 00:05:23] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230630.233220.tar.gz]
+[2023-07-01 00:05:23] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230630.93532.tar.gz]
+[2023-07-01 00:05:23] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-01 00:05:23] INFO root fetch - main [MainThread]: Store serial: [18716537]
