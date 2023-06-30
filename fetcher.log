@@ -1398,3 +1398,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 00:48:26] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230701.3857.tar.gz]
 [2023-07-01 00:48:26] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-07-01 00:48:26] INFO root fetch - main [MainThread]: Store serial: [18716985]
+[2023-07-01 00:53:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18716985]
+[2023-07-01 00:53:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tomtoolkit
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owe-python-sdk
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dominodatalab-data
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selfcord.py
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioblend
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scenic
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-separator
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-advert-framework
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EclipsingBinaries
+[2023-07-01 00:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rdap
+[2023-07-01 00:53:34] INFO root fetch - processPackages [selfcord.py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [dominodatalab-data]: New version: [5.7.0] Old Version: [5.6.0.dev2]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [scenic]: New version: [3.0.0b2] Old Version: [2.1.0b4]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [tomtoolkit]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [audio-separator]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [rdap]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [bioblend]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-01 00:53:34] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.255] Old Version: [2.8.4]
+[2023-07-01 00:53:35] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/0e/97/e9e2af6059cf2eae742852770c051db62c01c519cb053212f908f0ce686c/owe_python_sdk-0.0.1a1.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/39/02/d1cff078cc13aef881486c9f336eea8c4e7ca4dfb8e1d7d270b0a2c216ab/dominodatalab_data-5.6.0.dev2.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [bioblend]: Downloading https://files.pythonhosted.org/packages/61/62/365fa03e894336b8f388bd4c61ab3268605256b7e30f571902b3a9dec1c4/bioblend-1.1.1.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/10/86/5704a04070e2dd6827655b3202ecb6d6667793e4b35bdf2506a787a8a541/selfcord.py-0.2.1.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/33/b0/1cacbdf4b0ad29c3231bb29a0a716c706ea5941d9e895d6bfa82de260c0c/audio_separator-0.2.2.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/2e/18/d0f42d8924abcb6ee5a727ed833a1e2b25892c0e27ca84d362e7025c6066/tomtoolkit-2.9.1.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [scenic]: Downloading https://files.pythonhosted.org/packages/6a/19/754a519181d41681fd009f9797465c5b4da79b6f8623d547538c071304ef/scenic-2.1.0b4.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/32/68/f231f4118db57b07dab22c1dd1f916f283bdccdc07901cbe801427ec51cd/discord-advert-framework-2.8.4.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [rdap]: Downloading https://files.pythonhosted.org/packages/d8/bb/ee6d3d761a662dc45c4041b7803cc423fc7b744c171d370fb09fa75303ac/rdap-1.3.1.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/58/87/81236db3b05506a49b04ee9206461ace932502147279f37327bd2c7fff84/EclipsingBinaries-3.1.5.tar.gz
+[2023-07-01 00:53:35] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18344561>=10485760
+[2023-07-01 00:53:35] INFO root fetch - processPackages [discord-advert-framework]: Start processing: drmmsdk
+[2023-07-01 00:53:35] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-01 00:53:35] WARNING root fetch - processPackages [drmmsdk]: Skipping, unable to determine old version
+[2023-07-01 00:53:35] INFO root fetch - main [MainThread]: End processing [drmmsdk] error
+[2023-07-01 00:53:35] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/42/8c/14251d0cfee9f88b0aa01df316d5bf26dcb0ade874f449a2523aeb0f4cb1/owe_python_sdk-0.0.1a2.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/d3/1b/453c9de4114588c2e72e46880324a3185cf62741d5464d0b0bee81612e54/selfcord.py-0.2.2.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [dominodatalab-data]: Downloading https://files.pythonhosted.org/packages/bb/0f/c6b154b20f39f22ca39e6366e86cdb8c8c31d3d9ca86f1f35b448c43a2ef/dominodatalab_data-5.7.0.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/c2/57/7a515293d5992cf8fcc053e1d57e4b7c6723e250bb36e8e8bb5c6196f43a/audio_separator-0.2.3.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a1.tar.gz tmp/owe_python_sdk-0.0.1a2.tar.gz --markdown 20230701/o/owe-python-sdk/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [rdap]: Downloading https://files.pythonhosted.org/packages/74/e8/8298f7d9053bd598250d625552ae01f101b62ac609b1871e7fd715aacb32/rdap-1.4.0.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.2.1.tar.gz tmp/selfcord.py-0.2.2.tar.gz --markdown 20230701/s/selfcord.py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [bioblend]: Downloading https://files.pythonhosted.org/packages/12/a7/fab827d46e2b8439e7260736a72bf809384a4c08a3908a1b42f49cfd6822/bioblend-1.2.0.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/6e/6e/d4fc983d5f96c479f6a0fcfec1b15d37a204683d2e283a3fdee7321646a9/EclipsingBinaries-3.1.6-py3-none-any.whl
+[2023-07-01 00:53:35] INFO root fetch - processPackages [dominodatalab-data]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [dominodatalab-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dominodatalab_data-5.6.0.dev2.tar.gz tmp/dominodatalab_data-5.7.0.tar.gz --markdown 20230701/d/dominodatalab-data/5.6.0.dev2-5.7.0/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [scenic]: Downloading https://files.pythonhosted.org/packages/82/b7/ac52f12e76b01044a982d8d31329d4c39b68396bb31e5b026e324120582b/scenic-3.0.0b2.tar.gz
+[2023-07-01 00:53:35] INFO root fetch - processPackages [rdap]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [rdap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdap-1.3.1.tar.gz tmp/rdap-1.4.0.tar.gz --markdown 20230701/r/rdap/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-3.1.5.tar.gz tmp/EclipsingBinaries-3.1.6-py3-none-any.whl.zip --markdown 20230701/E/EclipsingBinaries/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [bioblend]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [bioblend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioblend-1.1.1.tar.gz tmp/bioblend-1.2.0.tar.gz --markdown 20230701/b/bioblend/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.2.2.tar.gz tmp/audio_separator-0.2.3.tar.gz --markdown 20230701/a/audio-separator/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-01 00:53:35] INFO root fetch - processPackages [scenic]: executing diffoscope
+[2023-07-01 00:53:35] INFO root fetch - processPackages [scenic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenic-2.1.0b4.tar.gz tmp/scenic-3.0.0b2.tar.gz --markdown 20230701/s/scenic/2.1.0b4-3.0.0b2/diff.md --exclude *.pyd
+[2023-07-01 00:53:36] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/b4/d6/06d7b659b2225273b399ed75420195b3c428a784f7b84284c6348f096284/tomtoolkit-2.9.2.tar.gz
+[2023-07-01 00:53:36] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a1.tar.gz]
+[2023-07-01 00:53:36] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a2.tar.gz]
+[2023-07-01 00:53:36] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-01 00:53:36] INFO root fetch - processPackages [rdap]: Remove: archive file [/home/abi/fetcher/tmp/rdap-1.3.1.tar.gz]
+[2023-07-01 00:53:36] INFO root fetch - processPackages [rdap]: Remove: archive file [/home/abi/fetcher/tmp/rdap-1.4.0.tar.gz]
+[2023-07-01 00:53:36] INFO root fetch - main [MainThread]: End processing [rdap]: success
+[2023-07-01 00:53:37] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.5.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.6-py3-none-any.whl.zip]
+[2023-07-01 00:53:37] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-07-01 00:53:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.2.2.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.2.3.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-07-01 00:53:37] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.2.1.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - processPackages [selfcord.py]: Remove: archive file [/home/abi/fetcher/tmp/selfcord.py-0.2.2.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-07-01 00:53:37] INFO root fetch - processPackages [scenic]: Remove: archive file [/home/abi/fetcher/tmp/scenic-2.1.0b4.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - processPackages [scenic]: Remove: archive file [/home/abi/fetcher/tmp/scenic-3.0.0b2.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - main [MainThread]: End processing [scenic]: success
+[2023-07-01 00:53:37] INFO root fetch - processPackages [bioblend]: Remove: archive file [/home/abi/fetcher/tmp/bioblend-1.1.1.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - processPackages [bioblend]: Remove: archive file [/home/abi/fetcher/tmp/bioblend-1.2.0.tar.gz]
+[2023-07-01 00:53:37] INFO root fetch - main [MainThread]: End processing [bioblend]: success
+[2023-07-01 00:53:38] INFO root fetch - processPackages [tomtoolkit]: executing diffoscope
+[2023-07-01 00:53:38] INFO root fetch - processPackages [tomtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomtoolkit-2.9.1.tar.gz tmp/tomtoolkit-2.9.2.tar.gz --markdown 20230701/t/tomtoolkit/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-07-01 00:53:39] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.6.0.dev2.tar.gz]
+[2023-07-01 00:53:39] INFO root fetch - processPackages [dominodatalab-data]: Remove: archive file [/home/abi/fetcher/tmp/dominodatalab_data-5.7.0.tar.gz]
+[2023-07-01 00:53:39] INFO root fetch - main [MainThread]: End processing [dominodatalab-data]: success
+[2023-07-01 00:53:42] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.1.tar.gz]
+[2023-07-01 00:53:42] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.2.tar.gz]
+[2023-07-01 00:53:42] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
+[2023-07-01 00:53:42] INFO root fetch - main [MainThread]: Store serial: [18717019]
