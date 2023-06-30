@@ -1813,3 +1813,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 01:24:57] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.2.4.tar.gz]
 [2023-07-01 01:24:57] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2023-07-01 01:24:57] INFO root fetch - main [MainThread]: Store serial: [18717145]
+[2023-07-01 01:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717145]
+[2023-07-01 01:30:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaghm
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-codeocean-api
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspylib-clitt
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-simplewebsite-deploy
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utf-queue-client
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: summo
+[2023-07-01 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beanie
+[2023-07-01 01:30:06] INFO root fetch - processPackages [yaghm]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [aind-codeocean-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [summo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [utf-queue-client]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [beanie]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-01 01:30:06] INFO root fetch - processPackages [yaghm]: Downloading https://files.pythonhosted.org/packages/d1/d3/ef30c845340fe5463f6cc0f26f639031c1a9c7dc3ab65c9419cbd262ee12/yaghm-0.3.0.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/df/d2/9890cd53a6adf8aa5f09588e4f0ab204abf9ab424880a904e8299d25b9b7/aind_codeocean_api-0.2.2.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a0/0f/42b890c8f02902edfff9f8ea73ea79d8acfea76c705b6966ff73e809437a/hspylib-clitt-0.9.8.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [utf-queue-client]: Downloading https://files.pythonhosted.org/packages/f4/a5/7ea326c15a63e6a631add51034113cad6b2b131bdc771cba0cfc78faccb5/utf-queue-client-1.9.4.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [summo]: Downloading https://files.pythonhosted.org/packages/bc/5b/7694b1f9749f6c5d107d8f7af39f7233428b5a5c29e2701c871b93db60f7/summo-0.0.1.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [beanie]: Downloading https://files.pythonhosted.org/packages/1b/c5/1bcd1572c58cd6fb43bc4e22e3353a90af249b01bcb65c16242d7c366010/beanie-1.9.1.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/02/09/509568941e2977294b6ec9c2c0e2cac9e1ce7100d236a2d2edb7092f92f6/cdk-simplewebsite-deploy-2.0.8.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [yaghm]: Downloading https://files.pythonhosted.org/packages/5d/8f/b0940a7e0a7653761c8316324b5701420e4cb5065986114a302b96913145/yaghm-0.3.1.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [summo]: Downloading https://files.pythonhosted.org/packages/01/47/fb1ef832d8b613a5688d47141a4df699b3972304dbc5a580ba5fa29bc5d8/summo-0.0.2.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/2e/f7/d1501512213563e3115d738795aa6a87cb2b45132ddaf89d073b44d2a075/aind_codeocean_api-0.2.3.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/47/f9/72c8e44dc280a8f3542b8890670b05e5c03581d2712648f572e4b0717836/hspylib-clitt-0.9.9.tar.gz
+[2023-07-01 01:30:06] INFO root fetch - processPackages [yaghm]: executing diffoscope
+[2023-07-01 01:30:06] INFO root fetch - processPackages [yaghm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaghm-0.3.0.tar.gz tmp/yaghm-0.3.1.tar.gz --markdown 20230701/y/yaghm/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-01 01:30:06] INFO root fetch - processPackages [summo]: executing diffoscope
+[2023-07-01 01:30:06] INFO root fetch - processPackages [summo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summo-0.0.1.tar.gz tmp/summo-0.0.2.tar.gz --markdown 20230701/s/summo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 01:30:06] INFO root fetch - processPackages [aind-codeocean-api]: executing diffoscope
+[2023-07-01 01:30:06] INFO root fetch - processPackages [aind-codeocean-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_codeocean_api-0.2.2.tar.gz tmp/aind_codeocean_api-0.2.3.tar.gz --markdown 20230701/a/aind-codeocean-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-01 01:30:07] INFO root fetch - processPackages [utf-queue-client]: Downloading https://files.pythonhosted.org/packages/73/f9/0049a0f247e6d022e33ae04053deb8dc492d53e2adfb5c83ff1687889346/utf-queue-client-1.9.5.tar.gz
+[2023-07-01 01:30:07] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-01 01:30:07] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230701/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 01:30:07] INFO root fetch - processPackages [beanie]: Downloading https://files.pythonhosted.org/packages/15/f6/48e3215c8c778c536fdd8326c67e9d6a9e20c5e9f721cc66ecf07f8299b8/beanie-1.9.2.tar.gz
+[2023-07-01 01:30:07] INFO root fetch - processPackages [utf-queue-client]: executing diffoscope
+[2023-07-01 01:30:07] INFO root fetch - processPackages [utf-queue-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utf-queue-client-1.9.4.tar.gz tmp/utf-queue-client-1.9.5.tar.gz --markdown 20230701/u/utf-queue-client/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-01 01:30:07] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2023-07-01 01:30:07] INFO root fetch - processPackages [beanie]: executing diffoscope
+[2023-07-01 01:30:07] INFO root fetch - processPackages [beanie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beanie-1.9.1.tar.gz tmp/beanie-1.9.2.tar.gz --markdown 20230701/b/beanie/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-01 01:30:07] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2023-07-01 01:30:07] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20230701/c/cdk-simplewebsite-deploy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-01 01:30:08] INFO root fetch - processPackages [summo]: Remove: archive file [/home/abi/fetcher/tmp/summo-0.0.1.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [summo]: Remove: archive file [/home/abi/fetcher/tmp/summo-0.0.2.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [summo]: success
+[2023-07-01 01:30:08] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.2.2.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.2.3.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [aind-codeocean-api]: success
+[2023-07-01 01:30:08] INFO root fetch - processPackages [yaghm]: Remove: archive file [/home/abi/fetcher/tmp/yaghm-0.3.0.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [yaghm]: Remove: archive file [/home/abi/fetcher/tmp/yaghm-0.3.1.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [yaghm]: success
+[2023-07-01 01:30:08] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-01 01:30:08] INFO root fetch - processPackages [beanie]: Remove: archive file [/home/abi/fetcher/tmp/beanie-1.9.1.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [beanie]: Remove: archive file [/home/abi/fetcher/tmp/beanie-1.9.2.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [beanie]: success
+[2023-07-01 01:30:08] INFO root fetch - processPackages [utf-queue-client]: Remove: archive file [/home/abi/fetcher/tmp/utf-queue-client-1.9.4.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [utf-queue-client]: Remove: archive file [/home/abi/fetcher/tmp/utf-queue-client-1.9.5.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [utf-queue-client]: success
+[2023-07-01 01:30:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2023-07-01 01:30:08] INFO root fetch - main [MainThread]: Store serial: [18717171]
