@@ -1332,3 +1332,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 00:43:11] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2023-07-01 00:43:11] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2023-07-01 00:43:11] INFO root fetch - main [MainThread]: Store serial: [18716963]
+[2023-07-01 00:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18716963]
+[2023-07-01 00:48:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-near
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UW-RestClients-HRP
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: returnn
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-better-repr
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audio-separator
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycsgogpt
+[2023-07-01 00:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itential.py
+[2023-07-01 00:48:19] INFO root fetch - processPackages [UW-RestClients-HRP]: New version: [1.3.2] Old Version: [1.3.1.2]
+[2023-07-01 00:48:19] INFO root fetch - processPackages [py-near]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-01 00:48:19] INFO root fetch - processPackages [audio-separator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 00:48:19] INFO root fetch - processPackages [django-better-repr]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 00:48:19] INFO root fetch - processPackages [pycsgogpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 00:48:20] INFO root fetch - processPackages [returnn]: New version: [1.20230701.3857] Old Version: [1.20230630.93532]
+[2023-07-01 00:48:20] INFO root fetch - processPackages [itential.py]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-07-01 00:48:20] INFO root fetch - processPackages [django-better-repr]: Downloading https://files.pythonhosted.org/packages/34/03/731314fc0e791cecaa69e867a19d93ad2a915658085ed84e66d611e414b7/django-better-repr-1.0.2.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/1e/2a/1338a1b73d92b9dcb9a17c5a387e25a40459dd728773fe4abd2cbe26fed2/audio_separator-0.2.0.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/8d/f2/62097226974f5a605bbe2b9505b1f7b6eb50447f91332f10291c40136656/returnn-1.20230630.93532.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [UW-RestClients-HRP]: Downloading https://files.pythonhosted.org/packages/32/89/56a0d4c317b56d37b71bd25c1da4c8cba1361d3c4acce80bbddf895f7f9e/UW-RestClients-HRP-1.3.1.2.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/4a/da/e107e179594f604b07937179ef01abb631a619b3cc8969d3cd24c19c6e99/py_near-1.1.3.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [pycsgogpt]: Downloading https://files.pythonhosted.org/packages/13/df/d4327eb844f913d3909348855327933bb12c65ea7225051a80ecd83c5a1b/pycsgogpt-0.1.0.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [itential.py]: Downloading https://files.pythonhosted.org/packages/69/8b/7b0e75a66e598b3861b3fdd957cb3ecb2cdfe47b348b2e9c4f31bcae45dc/itential.py-0.0.6.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/63/92/5de29bcb458be1d24065286c9d5ffaf41820b587da179b8a6b5f22f18e93/audio_separator-0.2.1.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [django-better-repr]: Downloading https://files.pythonhosted.org/packages/bf/85/e0039f1208062964975da794382ca4ddab294e89085f337491a711bb4a75/django-better-repr-1.0.3.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.2.0.tar.gz tmp/audio_separator-0.2.1.tar.gz --markdown 20230701/a/audio-separator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 00:48:20] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/14/f4/ca5b10b28b1b780a0df95b0c2fc59b29517a5f8a753d272096921fbafda2/returnn-1.20230701.3857.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/5f/b3/141e9440dd12f8e172447dc08203015863b3955f978829b1b9924dbf0ffd/py_near-1.1.4.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [UW-RestClients-HRP]: Downloading https://files.pythonhosted.org/packages/39/c6/227d9838d329eb3ea9027bf4f65f179ec3d2854a637b67df302b050b43d8/UW-RestClients-HRP-1.3.2.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [django-better-repr]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [django-better-repr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-better-repr-1.0.2.tar.gz tmp/django-better-repr-1.0.3.tar.gz --markdown 20230701/d/django-better-repr/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 00:48:20] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.3.tar.gz tmp/py_near-1.1.4.tar.gz --markdown 20230701/p/py-near/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-01 00:48:20] INFO root fetch - processPackages [pycsgogpt]: Downloading https://files.pythonhosted.org/packages/28/60/d615c968783c24a5ba70305f341c03c0c5a79d84e818f02a64b3e2641b96/pycsgogpt-0.1.1.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [UW-RestClients-HRP]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [UW-RestClients-HRP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UW-RestClients-HRP-1.3.1.2.tar.gz tmp/UW-RestClients-HRP-1.3.2.tar.gz --markdown 20230701/U/UW-RestClients-HRP/1.3.1.2-1.3.2/diff.md --exclude *.pyd
+[2023-07-01 00:48:20] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230630.93532.tar.gz tmp/returnn-1.20230701.3857.tar.gz --markdown 20230701/r/returnn/1.20230630.93532-1.20230701.3857/diff.md --exclude *.pyd
+[2023-07-01 00:48:20] INFO root fetch - processPackages [itential.py]: Downloading https://files.pythonhosted.org/packages/24/2a/3dfc187fc76eddce54abeb25885c6c7da8415e67a6a5f2805e69b48dfe02/itential.py-1.0.0.tar.gz
+[2023-07-01 00:48:20] INFO root fetch - processPackages [pycsgogpt]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [pycsgogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsgogpt-0.1.0.tar.gz tmp/pycsgogpt-0.1.1.tar.gz --markdown 20230701/p/pycsgogpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 00:48:20] INFO root fetch - processPackages [itential.py]: executing diffoscope
+[2023-07-01 00:48:20] INFO root fetch - processPackages [itential.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itential.py-0.0.6.tar.gz tmp/itential.py-1.0.0.tar.gz --markdown 20230701/i/itential.py/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-01 00:48:21] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.2.0.tar.gz]
+[2023-07-01 00:48:21] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.2.1.tar.gz]
+[2023-07-01 00:48:21] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-07-01 00:48:22] INFO root fetch - processPackages [pycsgogpt]: Remove: archive file [/home/abi/fetcher/tmp/pycsgogpt-0.1.0.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - processPackages [pycsgogpt]: Remove: archive file [/home/abi/fetcher/tmp/pycsgogpt-0.1.1.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - main [MainThread]: End processing [pycsgogpt]: success
+[2023-07-01 00:48:22] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.3.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.4.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2023-07-01 00:48:22] INFO root fetch - processPackages [django-better-repr]: Remove: archive file [/home/abi/fetcher/tmp/django-better-repr-1.0.2.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - processPackages [django-better-repr]: Remove: archive file [/home/abi/fetcher/tmp/django-better-repr-1.0.3.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - main [MainThread]: End processing [django-better-repr]: success
+[2023-07-01 00:48:22] INFO root fetch - processPackages [UW-RestClients-HRP]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-HRP-1.3.1.2.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - processPackages [UW-RestClients-HRP]: Remove: archive file [/home/abi/fetcher/tmp/UW-RestClients-HRP-1.3.2.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - main [MainThread]: End processing [UW-RestClients-HRP]: success
+[2023-07-01 00:48:22] INFO root fetch - processPackages [itential.py]: Remove: archive file [/home/abi/fetcher/tmp/itential.py-0.0.6.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - processPackages [itential.py]: Remove: archive file [/home/abi/fetcher/tmp/itential.py-1.0.0.tar.gz]
+[2023-07-01 00:48:22] INFO root fetch - main [MainThread]: End processing [itential.py]: success
+[2023-07-01 00:48:26] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230630.93532.tar.gz]
+[2023-07-01 00:48:26] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230701.3857.tar.gz]
+[2023-07-01 00:48:26] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-01 00:48:26] INFO root fetch - main [MainThread]: Store serial: [18716985]
