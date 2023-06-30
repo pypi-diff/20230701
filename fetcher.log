@@ -1746,3 +1746,31 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 01:14:32] INFO root fetch - processPackages [appthreat-depscan]: Remove: archive file [/home/abi/fetcher/tmp/appthreat-depscan-4.2.0.tar.gz]
 [2023-07-01 01:14:32] INFO root fetch - main [MainThread]: End processing [appthreat-depscan]: success
 [2023-07-01 01:14:32] INFO root fetch - main [MainThread]: Store serial: [18717118]
+[2023-07-01 01:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717118]
+[2023-07-01 01:19:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 01:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mycotools
+[2023-07-01 01:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: braintrust
+[2023-07-01 01:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycotools
+[2023-07-01 01:19:41] INFO root fetch - processPackages [braintrust]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-07-01 01:19:41] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/1f/e2/f3611e6aad4d2cc67592ab66284e111cc0624cd10584c147b5d44e9c4039/braintrust-0.0.6.tar.gz
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230701/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-07-01 01:19:41] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230701/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-07-01 01:19:41] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/bc/6a/fd6fe37b075fc6f1b46d3a71e0bc67bcedfc964e0f8eb9890160f91388c7/braintrust-0.0.7.tar.gz
+[2023-07-01 01:19:42] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2023-07-01 01:19:42] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.6.tar.gz tmp/braintrust-0.0.7.tar.gz --markdown 20230701/b/braintrust/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 01:19:42] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.6.tar.gz]
+[2023-07-01 01:19:42] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.7.tar.gz]
+[2023-07-01 01:19:42] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2023-07-01 01:19:42] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-07-01 01:19:42] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-07-01 01:19:42] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-07-01 01:19:42] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-07-01 01:19:42] INFO root fetch - main [MainThread]: Store serial: [18717127]
