@@ -1257,3 +1257,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 00:37:55] INFO root fetch - processPackages [flasc]: Remove: archive file [/home/abi/fetcher/tmp/flasc-1.3.1.tar.gz]
 [2023-07-01 00:37:55] INFO root fetch - main [MainThread]: End processing [flasc]: success
 [2023-07-01 00:37:55] INFO root fetch - main [MainThread]: Store serial: [18716891]
+[2023-07-01 00:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18716891]
+[2023-07-01 00:43:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-near
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubi
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eesunhong
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-near-primitives
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbrlabs-pulumi-cockroach
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idem
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PB-Sent
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcs-sdk-python
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: photos-where
+[2023-07-01 00:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycsgogpt
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near-primitives]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 00:43:04] WARNING root fetch - processPackages [pycsgogpt]: Skipping, unable to determine old version
+[2023-07-01 00:43:04] INFO root fetch - main [MainThread]: End processing [pycsgogpt] error
+[2023-07-01 00:43:04] INFO root fetch - processPackages [photos-where]: New version: [1.2] Old Version: [1.1]
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-01 00:43:04] WARNING root fetch - processPackages [eesunhong]: Skipping, unable to determine old version
+[2023-07-01 00:43:04] INFO root fetch - main [MainThread]: End processing [eesunhong] error
+[2023-07-01 00:43:04] INFO root fetch - processPackages [lbrlabs-pulumi-cockroach]: New version: [0.0.3a1688163899] Old Version: [0.0.2a1688151673]
+[2023-07-01 00:43:04] WARNING root fetch - processPackages [PB-Sent]: Skipping, unable to determine old version
+[2023-07-01 00:43:04] INFO root fetch - main [MainThread]: End processing [PB-Sent] error
+[2023-07-01 00:43:04] INFO root fetch - processPackages [rubi]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-07-01 00:43:04] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.0rc3]
+[2023-07-01 00:43:04] INFO root fetch - processPackages [idem]: New version: [9] Old Version: [7.6]
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near-primitives]: Downloading https://files.pythonhosted.org/packages/8c/77/3aad200d9a92b23c86cf6a7881c0566b56e1110bbb64eb8c75c1543bc3a0/py_near_primitives-0.2.1.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [lbrlabs-pulumi-cockroach]: Downloading https://files.pythonhosted.org/packages/3c/ec/a7a6c2f46dff80095dd6b19c21dda638a1f3385d3ffb0b1f1a9f726afcb3/lbrlabs_pulumi_cockroach-0.0.2a1688151673.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [photos-where]: Downloading https://files.pythonhosted.org/packages/ac/58/3f8dd3a6d0d27208b060b7d562c1fec87fe118d7087f4bab71540c2de302/photos-where-1.1.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/18/05/4c98ca6c0ddff64eacd4b8e70b5974dd7ade3273324bf891a3ce0520e0b7/py_near-1.1.2.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/7b/83/acf0637fa2534a3c7f144c8530be8d09b4443e786adda5fe01b8761d1254/qcs_sdk_python-0.9.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 00:43:04] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/05/d1/ae55ae3db2dbdf032cc9b659329f3421a2cbccba05c19626eccb74e0a7e4/idem-7.6.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/97/83/b69cec66e371df4e409d26d44fe53dd91de4bbd5b33afe8d49734e53c991/rubi-2.0.5.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [photos-where]: Downloading https://files.pythonhosted.org/packages/27/af/a45debdd17747ad57b0d6b76a66d3c62dba8fcb446c9799614b378dbaac8/photos_where-1.2.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [lbrlabs-pulumi-cockroach]: Downloading https://files.pythonhosted.org/packages/13/07/a3da8559fdb70304deb85368a91b12d92657443ab83d09ab85bf10e63835/lbrlabs_pulumi_cockroach-0.0.3a1688163899.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near-primitives]: Downloading https://files.pythonhosted.org/packages/14/7b/b5943f6120fa704177fb33225a0270e1636906f1dbe4eda07861ce90aa75/py_near_primitives-0.2.2.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/4a/da/e107e179594f604b07937179ef01abb631a619b3cc8969d3cd24c19c6e99/py_near-1.1.3.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [photos-where]: executing diffoscope
+[2023-07-01 00:43:04] INFO root fetch - processPackages [photos-where]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photos-where-1.1.tar.gz tmp/photos_where-1.2.tar.gz --markdown 20230701/p/photos-where/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-01 00:43:04] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/3e/f8/4dabce88352ef858986d79a1b795d2753fd5779c43b941ed168e6a0fb835/rubi-2.0.6.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [lbrlabs-pulumi-cockroach]: executing diffoscope
+[2023-07-01 00:43:04] INFO root fetch - processPackages [lbrlabs-pulumi-cockroach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_cockroach-0.0.2a1688151673.tar.gz tmp/lbrlabs_pulumi_cockroach-0.0.3a1688163899.tar.gz --markdown 20230701/l/lbrlabs-pulumi-cockroach/0.0.2a1688151673-0.0.3a1688163899/diff.md --exclude *.pyd
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near-primitives]: executing diffoscope
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near_primitives-0.2.1.tar.gz tmp/py_near_primitives-0.2.2.tar.gz --markdown 20230701/p/py-near-primitives/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 00:43:04] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/80/07/c0fcb9ef8650ecb03eb10da8b61f2177eeeb1d6f19fd169f6f615646a69d/idem-9.tar.gz
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2023-07-01 00:43:04] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.2.tar.gz tmp/py_near-1.1.3.tar.gz --markdown 20230701/p/py-near/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-01 00:43:04] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-01 00:43:04] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.0.5.tar.gz tmp/rubi-2.0.6.tar.gz --markdown 20230701/r/rubi/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-07-01 00:43:04] INFO root fetch - processPackages [idem]: executing diffoscope
+[2023-07-01 00:43:04] INFO root fetch - processPackages [idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-7.6.tar.gz tmp/idem-9.tar.gz --markdown 20230701/i/idem/7.6-9/diff.md --exclude *.pyd
+[2023-07-01 00:43:05] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/f1/ea/542b3482a277228b4908ac18f2bef3d3d8d96d98896ca06c4901cc0481c7/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-01 00:43:05] ERROR root fetch - processPackages [lbrlabs-pulumi-cockroach]: Diffoscope failed: Error: error creating container storage: the container name "busy_ganguly" is already in use by "4ff28e15f89251ed9e24288cf93c2096e37a37164af646e1800c87f1b4364f66". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-07-01 00:43:05] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-cockroach] error
+[2023-07-01 00:43:05] INFO root fetch - processPackages [photos-where]: Remove: archive file [/home/abi/fetcher/tmp/photos-where-1.1.tar.gz]
+[2023-07-01 00:43:05] INFO root fetch - processPackages [photos-where]: Remove: archive file [/home/abi/fetcher/tmp/photos_where-1.2.tar.gz]
+[2023-07-01 00:43:05] INFO root fetch - main [MainThread]: End processing [photos-where]: success
+[2023-07-01 00:43:06] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.2.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.3.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2023-07-01 00:43:06] INFO root fetch - processPackages [py-near-primitives]: Remove: archive file [/home/abi/fetcher/tmp/py_near_primitives-0.2.1.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - processPackages [py-near-primitives]: Remove: archive file [/home/abi/fetcher/tmp/py_near_primitives-0.2.2.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - main [MainThread]: End processing [py-near-primitives]: success
+[2023-07-01 00:43:06] INFO root fetch - processPackages [idem]: Remove: archive file [/home/abi/fetcher/tmp/idem-7.6.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - processPackages [idem]: Remove: archive file [/home/abi/fetcher/tmp/idem-9.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - main [MainThread]: End processing [idem]: success
+[2023-07-01 00:43:06] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.5.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.0.6.tar.gz]
+[2023-07-01 00:43:06] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-01 00:43:08] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-07-01 00:43:08] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230701/q/qcs-sdk-python/0.9.0rc3-0.9.1rc0/diff.md --exclude *.pyd
+[2023-07-01 00:43:11] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 00:43:11] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-01 00:43:11] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-07-01 00:43:11] INFO root fetch - main [MainThread]: Store serial: [18716963]
