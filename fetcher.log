@@ -8709,3 +8709,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:12:39] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.2-py3-none-any.whl.zip]
 [2023-07-01 06:12:39] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-07-01 06:12:39] INFO root fetch - main [MainThread]: Store serial: [18719693]
+[2023-07-01 06:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719693]
+[2023-07-01 06:17:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 06:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sesg
+[2023-07-01 06:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: functions-MVO
+[2023-07-01 06:17:47] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 06:17:47] WARNING root fetch - processPackages [functions-MVO]: Skipping, unable to determine old version
+[2023-07-01 06:17:47] INFO root fetch - main [MainThread]: End processing [functions-MVO] error
+[2023-07-01 06:17:48] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-07-01 06:17:48] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-07-01 06:17:48] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-07-01 06:17:48] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230701/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 06:17:50] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.8.tar.gz]
+[2023-07-01 06:17:50] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.9.tar.gz]
+[2023-07-01 06:17:50] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-07-01 06:17:50] INFO root fetch - main [MainThread]: Store serial: [18719700]
