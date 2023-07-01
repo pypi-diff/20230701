@@ -11045,3 +11045,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:10:36] INFO root fetch - processPackages [stravalib]: Remove: archive file [/home/abi/fetcher/tmp/stravalib-1.3.2.tar.gz]
 [2023-07-01 10:10:36] INFO root fetch - main [MainThread]: End processing [stravalib]: success
 [2023-07-01 10:10:36] INFO root fetch - main [MainThread]: Store serial: [18720583]
+[2023-07-01 10:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720583]
+[2023-07-01 10:15:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 10:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aunly-captcha-infer
+[2023-07-01 10:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: suitesparse-graphblas
+[2023-07-01 10:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hr-timesheet-name-customer
+[2023-07-01 10:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphractal
+[2023-07-01 10:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SiteScraper
+[2023-07-01 10:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: createpass
+[2023-07-01 10:15:45] WARNING root fetch - processPackages [aunly-captcha-infer]: Skipping, unable to determine old version
+[2023-07-01 10:15:45] INFO root fetch - main [MainThread]: End processing [aunly-captcha-infer] error
+[2023-07-01 10:15:45] INFO root fetch - processPackages [suitesparse-graphblas]: New version: [8.0.2.1] Old Version: [8.0.2.0a1]
+[2023-07-01 10:15:45] WARNING root fetch - processPackages [odoo-addon-hr-timesheet-name-customer]: Skipping, unable to determine old version
+[2023-07-01 10:15:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-name-customer] error
+[2023-07-01 10:15:45] INFO root fetch - processPackages [sphractal]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-01 10:15:45] WARNING root fetch - processPackages [createpass]: Skipping, unable to determine old version
+[2023-07-01 10:15:45] INFO root fetch - main [MainThread]: End processing [createpass] error
+[2023-07-01 10:15:45] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/b7/de/d442eb423a63d87bb5b3d9d5404ab89045b0e4a7f31acc21e49963d9d74c/suitesparse-graphblas-8.0.2.0a1.tar.gz
+[2023-07-01 10:15:45] INFO root fetch - processPackages [SiteScraper]: New version: [2.2.1] Old Version: [2.1.2]
+[2023-07-01 10:15:45] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/79/75/0104e3b00da946e031c98b81119ed8fd7aab63204c1d91e245add2641b7d/SiteScraper-2.1.2.tar.gz
+[2023-07-01 10:15:45] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/da/74/85640eeff0d84e9d78ad5e22a2ff23a89806a50a5550da70cfe52efe99c3/sphractal-0.4.2.tar.gz
+[2023-07-01 10:15:45] INFO root fetch - processPackages [suitesparse-graphblas]: Downloading https://files.pythonhosted.org/packages/43/2c/ae8afea2798bdd1733bdf145facfc43cbb0581d7e72c42800a74b6288b4c/suitesparse-graphblas-8.0.2.1.tar.gz
+[2023-07-01 10:15:46] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/92/20/58bbd41d2859c32f3b202ab8965802ed57ea207920478d8d592a96bed9e9/SiteScraper-2.2.1.tar.gz
+[2023-07-01 10:15:46] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/67/99/a4f30a27446ea84d5d5ecc63c71de6065c47993c61f74eafac550b2014f2/sphractal-0.4.3.tar.gz
+[2023-07-01 10:15:46] INFO root fetch - processPackages [suitesparse-graphblas]: executing diffoscope
+[2023-07-01 10:15:46] INFO root fetch - processPackages [suitesparse-graphblas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suitesparse-graphblas-8.0.2.0a1.tar.gz tmp/suitesparse-graphblas-8.0.2.1.tar.gz --markdown 20230701/s/suitesparse-graphblas/8.0.2.0a1-8.0.2.1/diff.md --exclude *.pyd
+[2023-07-01 10:15:46] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-07-01 10:15:46] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-2.1.2.tar.gz tmp/SiteScraper-2.2.1.tar.gz --markdown 20230701/S/SiteScraper/2.1.2-2.2.1/diff.md --exclude *.pyd
+[2023-07-01 10:15:46] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2023-07-01 10:15:46] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-0.4.2.tar.gz tmp/sphractal-0.4.3.tar.gz --markdown 20230701/s/sphractal/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-01 10:15:47] INFO root fetch - processPackages [SiteScraper]: Remove: archive file [/home/abi/fetcher/tmp/SiteScraper-2.1.2.tar.gz]
+[2023-07-01 10:15:47] INFO root fetch - processPackages [SiteScraper]: Remove: archive file [/home/abi/fetcher/tmp/SiteScraper-2.2.1.tar.gz]
+[2023-07-01 10:15:47] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-07-01 10:15:47] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.4.2.tar.gz]
+[2023-07-01 10:15:47] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-0.4.3.tar.gz]
+[2023-07-01 10:15:47] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2023-07-01 10:15:47] INFO root fetch - processPackages [suitesparse-graphblas]: Remove: archive file [/home/abi/fetcher/tmp/suitesparse-graphblas-8.0.2.0a1.tar.gz]
+[2023-07-01 10:15:47] INFO root fetch - processPackages [suitesparse-graphblas]: Remove: archive file [/home/abi/fetcher/tmp/suitesparse-graphblas-8.0.2.1.tar.gz]
+[2023-07-01 10:15:47] INFO root fetch - main [MainThread]: End processing [suitesparse-graphblas]: success
+[2023-07-01 10:15:47] INFO root fetch - main [MainThread]: Store serial: [18720628]
