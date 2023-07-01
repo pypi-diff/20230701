@@ -14382,3 +14382,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:40:14] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.7.0.tar.gz]
 [2023-07-01 15:40:14] INFO root fetch - main [MainThread]: End processing [lino]: success
 [2023-07-01 15:40:14] INFO root fetch - main [MainThread]: Store serial: [18722103]
+[2023-07-01 15:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722103]
+[2023-07-01 15:45:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sihl
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veleslibrary
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: katottglib
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openseries
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Abg
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: headless
+[2023-07-01 15:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: templatise
+[2023-07-01 15:45:23] INFO root fetch - processPackages [sihl]: New version: [0.0.3.dev0] Old Version: [0.0.2.dev0]
+[2023-07-01 15:45:23] INFO root fetch - processPackages [Abg]: New version: [2.1] Old Version: [2.0]
+[2023-07-01 15:45:23] INFO root fetch - processPackages [katottglib]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-01 15:45:23] WARNING root fetch - processPackages [veleslibrary]: Skipping, unable to determine old version
+[2023-07-01 15:45:23] INFO root fetch - main [MainThread]: End processing [veleslibrary] error
+[2023-07-01 15:45:23] INFO root fetch - processPackages [templatise]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-07-01 15:45:23] INFO root fetch - processPackages [openseries]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 15:45:23] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-01 15:45:23] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.1] Old Version: [2023.6.30]
+[2023-07-01 15:45:23] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/6d/b0/fa39ef45dfaff7d2daa747bfeea8b097a2d6e2d547072ac831ff08a28055/Abg-2.0.tar.gz
+[2023-07-01 15:45:23] INFO root fetch - processPackages [sihl]: Downloading https://files.pythonhosted.org/packages/6e/ce/bb9ca576e77b38cf918617ceb87cdcdb0a941c4bd302a9ec7332e11c8236/sihl-0.0.2.dev0.tar.gz
+[2023-07-01 15:45:23] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/27/3e/819db6fcba649d5baa8f79545d9962310fa76f8627349aedf3a09302a1ce/openseries-0.9.8.tar.gz
+[2023-07-01 15:45:23] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/e0/e2/c464a0b4e5160c24759069665e4db42aeaf58352439d98d52eb2e90978c7/katottglib-0.1.0.tar.gz
+[2023-07-01 15:45:23] INFO root fetch - processPackages [templatise]: Downloading https://files.pythonhosted.org/packages/24/48/33b8e7cabd437169b25b681caec28ef874d76843c5a951ae717fa63c3473/templatise-1.0.2.tar.gz
+[2023-07-01 15:45:23] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-07-01 15:45:23] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/a3/be/7e3302c6ec38647ae27b4d3493be26c1f47aea73089cf228caaf37c5692e/fbgemm_gpu_nightly-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-01 15:45:23] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/3b/67/1e887aef016cc80ad2700456d85708e4f0469c334d1724b6811d79d005a0/Abg-2.1.tar.gz
+[2023-07-01 15:45:23] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 260059883>=10485760
+[2023-07-01 15:45:23] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-01 15:45:23] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-07-01 15:45:23] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-2.0.tar.gz tmp/Abg-2.1.tar.gz --markdown 20230701/A/Abg/2.0-2.1/diff.md --exclude *.pyd
+[2023-07-01 15:45:24] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-07-01 15:45:24] INFO root fetch - processPackages [templatise]: Downloading https://files.pythonhosted.org/packages/d7/47/82cf49a9bf51f15b9c3985050aed1669f8ab409dfe2fa298c2f437508da7/templatise-1.1.2.tar.gz
+[2023-07-01 15:45:24] INFO root fetch - processPackages [sihl]: Downloading https://files.pythonhosted.org/packages/24/97/79dc43d40625ca5adfddd03e99581e0aef42cf3609ce4717c6cafa0cc52b/sihl-0.0.3.dev0.tar.gz
+[2023-07-01 15:45:24] INFO root fetch - processPackages [katottglib]: Downloading https://files.pythonhosted.org/packages/bb/44/a3f595897a781e69b658985d48027168e7eb38c6101ab0ad1e6711bafb05/katottglib-0.2.0.tar.gz
+[2023-07-01 15:45:24] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-07-01 15:45:24] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230701/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-01 15:45:24] INFO root fetch - processPackages [templatise]: executing diffoscope
+[2023-07-01 15:45:24] INFO root fetch - processPackages [templatise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templatise-1.0.2.tar.gz tmp/templatise-1.1.2.tar.gz --markdown 20230701/t/templatise/1.0.2-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 15:45:24] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/f3/c1/0164029540ca70576138c3893424e40bb88eede48177ef628e0ae3e107cc/openseries-0.9.9.tar.gz
+[2023-07-01 15:45:24] INFO root fetch - processPackages [katottglib]: executing diffoscope
+[2023-07-01 15:45:24] INFO root fetch - processPackages [katottglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katottglib-0.1.0.tar.gz tmp/katottglib-0.2.0.tar.gz --markdown 20230701/k/katottglib/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 15:45:24] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-07-01 15:45:24] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-0.9.8.tar.gz tmp/openseries-0.9.9.tar.gz --markdown 20230701/o/openseries/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 15:45:24] INFO root fetch - processPackages [sihl]: executing diffoscope
+[2023-07-01 15:45:24] INFO root fetch - processPackages [sihl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sihl-0.0.2.dev0.tar.gz tmp/sihl-0.0.3.dev0.tar.gz --markdown 20230701/s/sihl/0.0.2.dev0-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-07-01 15:45:25] INFO root fetch - processPackages [templatise]: Remove: archive file [/home/abi/fetcher/tmp/templatise-1.0.2.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - processPackages [templatise]: Remove: archive file [/home/abi/fetcher/tmp/templatise-1.1.2.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [templatise]: success
+[2023-07-01 15:45:25] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.1.0.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - processPackages [katottglib]: Remove: archive file [/home/abi/fetcher/tmp/katottglib-0.2.0.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [katottglib]: success
+[2023-07-01 15:45:25] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.0.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.1.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-07-01 15:45:25] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-0.9.8.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-0.9.9.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-07-01 15:45:25] INFO root fetch - processPackages [sihl]: Remove: archive file [/home/abi/fetcher/tmp/sihl-0.0.2.dev0.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - processPackages [sihl]: Remove: archive file [/home/abi/fetcher/tmp/sihl-0.0.3.dev0.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [sihl]: success
+[2023-07-01 15:45:25] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-07-01 15:45:25] INFO root fetch - main [MainThread]: Store serial: [18722134]
