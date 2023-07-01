@@ -18986,3 +18986,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:24:29] INFO root fetch - processPackages [pydiscordself]: Remove: archive file [/home/abi/fetcher/tmp/pydiscordself-0.2-py3.11.egg]
 [2023-07-01 21:24:29] INFO root fetch - main [MainThread]: End processing [pydiscordself]: success
 [2023-07-01 21:24:29] INFO root fetch - main [MainThread]: Store serial: [18724255]
+[2023-07-01 21:29:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724255]
+[2023-07-01 21:29:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 21:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xycu
+[2023-07-01 21:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-07-01 21:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourlib
+[2023-07-01 21:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vspreview
+[2023-07-01 21:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lambda-handler
+[2023-07-01 21:29:38] WARNING root fetch - processPackages [ourlib]: Skipping, unable to determine old version
+[2023-07-01 21:29:38] INFO root fetch - main [MainThread]: End processing [ourlib] error
+[2023-07-01 21:29:38] WARNING root fetch - processPackages [xycu]: Skipping, unable to determine old version
+[2023-07-01 21:29:38] INFO root fetch - main [MainThread]: End processing [xycu] error
+[2023-07-01 21:29:38] INFO root fetch - processPackages [lambda-handler]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-01 21:29:38] INFO root fetch - processPackages [vspreview]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-01 21:29:38] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-07-01 21:29:38] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/05/34/e944e50cd67764aa5f9e0260e0b9d92b398954d96431eed49b9cd6477324/lambda-handler-1.1.1.tar.gz
+[2023-07-01 21:29:38] INFO root fetch - processPackages [vspreview]: Downloading https://files.pythonhosted.org/packages/dd/c3/73d3e2cd4749ee9056a29c0da723be56a87a0a8e26764d1b8c55034c8417/vspreview-0.7.0.tar.gz
+[2023-07-01 21:29:38] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/20/e2/9525c475d78ddb8f55f4a1bae496297a76dbb150ee89dcbba20c6ae9c070/tastytrade_sdk-0.0.4a0.dev79.tar.gz
+[2023-07-01 21:29:38] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/42/17/15b368c8cce6ce62ef1525dabb6910315b5f7c94027d24e68d98085abf87/lambda_handler-1.1.2.tar.gz
+[2023-07-01 21:29:38] INFO root fetch - processPackages [vspreview]: Downloading https://files.pythonhosted.org/packages/fc/60/f8dba053c5bf0d6ad57b286dc2d675969d0c36935db180dbf638afeae85a/vspreview-0.7.1.tar.gz
+[2023-07-01 21:29:38] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-01 21:29:38] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda-handler-1.1.1.tar.gz tmp/lambda_handler-1.1.2.tar.gz --markdown 20230701/l/lambda-handler/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 21:29:38] INFO root fetch - processPackages [tastytrade-sdk]: Downloading https://files.pythonhosted.org/packages/d9/6a/51b8c369e61b319b379822ac9e7f57bdaa4e98bf2333a5dc6ccfa464be59/tastytrade-sdk-0.0.dev1.tar.gz
+[2023-07-01 21:29:39] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-07-01 21:29:39] INFO root fetch - processPackages [vspreview]: executing diffoscope
+[2023-07-01 21:29:39] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230701/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-07-01 21:29:39] INFO root fetch - processPackages [vspreview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vspreview-0.7.0.tar.gz tmp/vspreview-0.7.1.tar.gz --markdown 20230701/v/vspreview/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-01 21:29:39] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda-handler-1.1.1.tar.gz]
+[2023-07-01 21:29:39] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-1.1.2.tar.gz]
+[2023-07-01 21:29:39] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-01 21:29:40] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz]
+[2023-07-01 21:29:40] INFO root fetch - processPackages [tastytrade-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tastytrade-sdk-0.0.dev1.tar.gz]
+[2023-07-01 21:29:40] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-07-01 21:29:40] INFO root fetch - processPackages [vspreview]: Remove: archive file [/home/abi/fetcher/tmp/vspreview-0.7.0.tar.gz]
+[2023-07-01 21:29:40] INFO root fetch - processPackages [vspreview]: Remove: archive file [/home/abi/fetcher/tmp/vspreview-0.7.1.tar.gz]
+[2023-07-01 21:29:40] INFO root fetch - main [MainThread]: End processing [vspreview]: success
+[2023-07-01 21:29:40] INFO root fetch - main [MainThread]: Store serial: [18724273]
