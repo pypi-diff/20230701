@@ -16085,3 +16085,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:59:34] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.1.1.tar.gz]
 [2023-07-01 17:59:34] INFO root fetch - main [MainThread]: End processing [pySWXF]: success
 [2023-07-01 17:59:34] INFO root fetch - main [MainThread]: Store serial: [18722942]
+[2023-07-01 18:04:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722942]
+[2023-07-01 18:04:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 18:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-webflow
+[2023-07-01 18:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dww-test
+[2023-07-01 18:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unbelievaboat
+[2023-07-01 18:04:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-client
+[2023-07-01 18:04:43] INFO root fetch - processPackages [fast-webflow]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 18:04:43] INFO root fetch - processPackages [unbelievaboat]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 18:04:43] INFO root fetch - processPackages [dww-test]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 18:04:43] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/d6/c1/0f2978303c6bb663b83aaeeccb72d6eabc6239aad36f7d4caa965ea65a9a/unbelievaboat-1.0.2.tar.gz
+[2023-07-01 18:04:43] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/c2/85/d1e9bc9b4318fa9563e93b49d85c98122c7e16c697e306788577e2a858c2/dww_test-0.0.4-py3-none-any.whl
+[2023-07-01 18:04:43] INFO root fetch - processPackages [llm-client]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-01 18:04:43] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/1b/8a/0e0dc36fedee7fd830b85e4bfb1c8682f888bb5a6c5cc7d2baf4c7c9bc83/fast-webflow-0.1.0.tar.gz
+[2023-07-01 18:04:43] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/7e/a0/06ca137c2c2d84a43708d8d363d5b785d5a172567d842106d5230b685be4/unbelievaboat-1.0.3.tar.gz
+[2023-07-01 18:04:43] INFO root fetch - processPackages [llm-client]: Downloading https://files.pythonhosted.org/packages/d7/6a/ec1fed49052098d3b20cedd4717fa173b0b599b595fd520abe56e772d9c4/llm_client-0.6.1.tar.gz
+[2023-07-01 18:04:43] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/45/de/c1a4d4b2bfcd8e503538c52380a9373b8b11724dce992d610e76e97ecacc/dww_test-0.0.5-py3-none-any.whl
+[2023-07-01 18:04:43] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-01 18:04:43] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.0.2.tar.gz tmp/unbelievaboat-1.0.3.tar.gz --markdown 20230701/u/unbelievaboat/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 18:04:43] INFO root fetch - processPackages [dww-test]: executing diffoscope
+[2023-07-01 18:04:43] INFO root fetch - processPackages [dww-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dww_test-0.0.4-py3-none-any.whl.zip tmp/dww_test-0.0.5-py3-none-any.whl.zip --markdown 20230701/d/dww-test/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 18:04:43] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/c1/b4/5e8526e954e13af2739c925138f071408907944fe77e7e316fb0ae7365ab/fast-webflow-0.1.1.tar.gz
+[2023-07-01 18:04:43] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-01 18:04:43] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.1.0.tar.gz tmp/fast-webflow-0.1.1.tar.gz --markdown 20230701/f/fast-webflow/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 18:04:44] INFO root fetch - processPackages [llm-client]: Downloading https://files.pythonhosted.org/packages/72/c2/44dc4340cc3a3fdc879aedcaa318fa1b4a3028931507deba17d35d6a7ee9/llm_client-0.6.2.tar.gz
+[2023-07-01 18:04:44] INFO root fetch - processPackages [llm-client]: executing diffoscope
+[2023-07-01 18:04:44] INFO root fetch - processPackages [llm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_client-0.6.1.tar.gz tmp/llm_client-0.6.2.tar.gz --markdown 20230701/l/llm-client/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-01 18:04:44] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.4-py3-none-any.whl.zip]
+[2023-07-01 18:04:44] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.5-py3-none-any.whl.zip]
+[2023-07-01 18:04:44] INFO root fetch - main [MainThread]: End processing [dww-test]: success
+[2023-07-01 18:04:44] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.2.tar.gz]
+[2023-07-01 18:04:44] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.3.tar.gz]
+[2023-07-01 18:04:44] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-01 18:04:45] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.1.0.tar.gz]
+[2023-07-01 18:04:45] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.1.1.tar.gz]
+[2023-07-01 18:04:45] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-01 18:04:46] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.6.1.tar.gz]
+[2023-07-01 18:04:46] INFO root fetch - processPackages [llm-client]: Remove: archive file [/home/abi/fetcher/tmp/llm_client-0.6.2.tar.gz]
+[2023-07-01 18:04:46] INFO root fetch - main [MainThread]: End processing [llm-client]: success
+[2023-07-01 18:04:46] INFO root fetch - main [MainThread]: Store serial: [18722954]
