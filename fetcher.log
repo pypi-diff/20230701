@@ -13474,3 +13474,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:16:29] INFO root fetch - processPackages [homewizard-climate-ws]: Remove: archive file [/home/abi/fetcher/tmp/homewizard_climate_ws-0.0.9.tar.gz]
 [2023-07-01 14:16:29] INFO root fetch - main [MainThread]: End processing [homewizard-climate-ws]: success
 [2023-07-01 14:16:29] INFO root fetch - main [MainThread]: Store serial: [18721693]
+[2023-07-01 14:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721693]
+[2023-07-01 14:21:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastgenerateapi
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misura
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-web-ir-actions-act-view-reload
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-web-ir-actions-act-window-message
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-web-ir-actions-act-multi
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cocoserver
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cloud-storages
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-email-accounts
+[2023-07-01 14:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AshCrypt
+[2023-07-01 14:21:37] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: New version: [14.0.1.0.1.dev2] Old Version: [14.0.1.0.1]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [misura]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.2]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [AshCrypt]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/fa/cc/bbf0bf4690e6d57d15d9cf38b9ac7ea27cc921654d8a192dbd2839486b89/AshCrypt-1.2.1.tar.gz
+[2023-07-01 14:21:37] INFO root fetch - processPackages [cocoserver]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 14:21:37] INFO root fetch - processPackages [django-email-accounts]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: Downloading https://files.pythonhosted.org/packages/f3/f9/4439a0f93f2bbb309a856b016eae84a309df939a86093805e1bb0869f139/odoo14_addon_web_ir_actions_act_view_reload-14.0.1.0.2-py3-none-any.whl
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: Downloading https://files.pythonhosted.org/packages/7f/c3/ba8ce1d50753c9ac120e21b0d044f46c0387a851b7c5e79ddada79a19955/odoo14_addon_web_ir_actions_act_window_message-14.0.1.0.1-py3-none-any.whl
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-email-accounts]: Downloading https://files.pythonhosted.org/packages/00/30/a382eb6f9689cd6cb796d34c9046d5357c37ee274945f00aaef14c663a85/django-email-accounts-0.3.0.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/1a/9a/41f3ca00339a95e97b534c638fd1ce121968873c7f11e5eb8b780194ada7/misura-1.6.2.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/08/1b/6124ed665fbed26ec948c95cf11a08c04fb50a062b40181414482abc8d42/django_cloud_storages-1.1.1.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: Downloading https://files.pythonhosted.org/packages/cd/b1/0052a6bdf0956009b1a1785226f3ee2f77303fff4104f8eaec180f2c282c/odoo14_addon_web_ir_actions_act_multi-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-07-01 14:21:38] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/5c/dc/b56c061ff445a858051180168b8d05f9a5308b952965a8a432de5d811686/cocoserver-1.0.8.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [AshCrypt]: Downloading https://files.pythonhosted.org/packages/32/bd/2af7789ceb0b822d1a95f2b540689d63fb0bb6ac8f6efb3df4cc79f065cd/AshCrypt-1.2.2.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [AshCrypt]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [AshCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AshCrypt-1.2.1.tar.gz tmp/AshCrypt-1.2.2.tar.gz --markdown 20230701/A/AshCrypt/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [misura]: Downloading https://files.pythonhosted.org/packages/93/24/0736a04e2b723799fbf38baf00cec733de5cb7e5cdc0a01b7d40f331cc80/misura-1.6.3.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: Downloading https://files.pythonhosted.org/packages/b9/74/0eec37839e312ce6260c6ed9001f90119f74bd6f2811c673be4ddaf98249/odoo14_addon_web_ir_actions_act_window_message-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/78/ba/337db422758984f77ed72f1d3b54fa48058a76652201d742591db040123e/django_cloud_storages-1.1.2.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-email-accounts]: Downloading https://files.pythonhosted.org/packages/8b/55/5703ca2fda216fc127200a3340edb5c1e31f18ac0336a33cb1a5391c1a6d/django-email-accounts-0.3.1.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: Downloading https://files.pythonhosted.org/packages/25/a9/81bf02f3b4fc19df41ef72cdd70f4e647420ed19c3404515bff42fc7985e/odoo14_addon_web_ir_actions_act_view_reload-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-07-01 14:21:38] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [misura]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [misura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misura-1.6.2.tar.gz tmp/misura-1.6.3.tar.gz --markdown 20230701/m/misura/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/a6/02/5c78d1aa066295f9e13e19e722bc82ee0779dfd366fb4b5cccbbe69bd0e8/cocoserver-1.0.9.tar.gz
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_ir_actions_act_window_message-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_web_ir_actions_act_window_message-14.0.1.0.1.dev2-py3-none-any.whl.zip --markdown 20230701/o/odoo14-addon-web-ir-actions-act-window-message/14.0.1.0.1-14.0.1.0.1.dev2/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.1.tar.gz tmp/django_cloud_storages-1.1.2.tar.gz --markdown 20230701/d/django-cloud-storages/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-email-accounts]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [django-email-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-email-accounts-0.3.0.tar.gz tmp/django-email-accounts-0.3.1.tar.gz --markdown 20230701/d/django-email-accounts/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230701/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: Downloading https://files.pythonhosted.org/packages/84/7a/6a89b4899ededb80632452211564ed82174dc73169573570cfcb0ee4897f/odoo14_addon_web_ir_actions_act_multi-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_ir_actions_act_view_reload-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_web_ir_actions_act_view_reload-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20230701/o/odoo14-addon-web-ir-actions-act-view-reload/14.0.1.0.2-14.0.1.0.2.dev1/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [cocoserver]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [cocoserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoserver-1.0.8.tar.gz tmp/cocoserver-1.0.9.tar.gz --markdown 20230701/c/cocoserver/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: executing diffoscope
+[2023-07-01 14:21:38] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_ir_actions_act_multi-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_web_ir_actions_act_multi-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230701/o/odoo14-addon-web-ir-actions-act-multi/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-07-01 14:21:39] INFO root fetch - processPackages [misura]: Remove: archive file [/home/abi/fetcher/tmp/misura-1.6.2.tar.gz]
+[2023-07-01 14:21:39] INFO root fetch - processPackages [misura]: Remove: archive file [/home/abi/fetcher/tmp/misura-1.6.3.tar.gz]
+[2023-07-01 14:21:39] INFO root fetch - main [MainThread]: End processing [misura]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.1.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.2.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_ir_actions_act_view_reload-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-view-reload]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_ir_actions_act_view_reload-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-ir-actions-act-view-reload]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.2.1.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [AshCrypt]: Remove: archive file [/home/abi/fetcher/tmp/AshCrypt-1.2.2.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [AshCrypt]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_ir_actions_act_window_message-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-window-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_ir_actions_act_window_message-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-ir-actions-act-window-message]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.8.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.9.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [cocoserver]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_ir_actions_act_multi-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [odoo14-addon-web-ir-actions-act-multi]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_ir_actions_act_multi-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-ir-actions-act-multi]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [django-email-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django-email-accounts-0.3.0.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [django-email-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django-email-accounts-0.3.1.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [django-email-accounts]: success
+[2023-07-01 14:21:40] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-07-01 14:21:40] INFO root fetch - main [MainThread]: Store serial: [18721740]
