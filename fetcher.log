@@ -9218,3 +9218,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:00:49] INFO root fetch - processPackages [myfuncs]: Remove: archive file [/home/abi/fetcher/tmp/myfuncs-1.0.0.tar.gz]
 [2023-07-01 07:00:49] INFO root fetch - main [MainThread]: End processing [myfuncs]: success
 [2023-07-01 07:00:49] INFO root fetch - main [MainThread]: Store serial: [18719889]
+[2023-07-01 07:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719889]
+[2023-07-01 07:05:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 07:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jplaw
+[2023-07-01 07:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-07-01 07:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hugchat-api
+[2023-07-01 07:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wemp
+[2023-07-01 07:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-07-01 07:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mrgrain.cdk-esbuild
+[2023-07-01 07:05:57] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-07-01 07:05:57] INFO root fetch - processPackages [hugchat-api]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-07-01 07:05:57] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230630] Old Version: [0.1.1.dev20230629]
+[2023-07-01 07:05:57] INFO root fetch - processPackages [wemp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 07:05:57] INFO root fetch - processPackages [jplaw]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 07:05:57] INFO root fetch - processPackages [hugchat-api]: Downloading https://files.pythonhosted.org/packages/19/88/687d753347d1d31c4d4c9c6c2331367ab1b70f8bd2ef1fdeb054485e0f01/hugchat_api-0.0.1.3.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/6a/ea/3c66dd9a7b8d8667d3987cbe70a78f9eabcae0218c9d93db3e7016c2036b/rapid_pe-0.1.1.dev20230629.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-07-01 07:05:58] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/1a/13/1e73f6aa315b20f7486d87a5e4df6c186a0259598ac7c01b387317a17553/wemp-1.0.8-py3-none-any.whl
+[2023-07-01 07:05:58] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/03/c9/b57a3d395ac16f1902232768be3a1b8b2b63e14e432578110cce1e06a40f/jplaw-0.1.3.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/56/75/54c0e12842e49983934d84f31548b619fd175ad19b8c19b5f97f794eb94e/mrgrain.cdk-esbuild-4.1.8.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [hugchat-api]: Downloading https://files.pythonhosted.org/packages/26/5c/a1d57bfda4994c9b482d786440cee74fa2e169d25b28cdd2976721cc7f0a/hugchat_api-0.0.1.4.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/d4/07/50e5017399f7fbfcf24ce42677f0694830f8572fcbffbaba4c615be6c375/rapid_pe-0.1.1.dev20230630.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [hugchat-api]: executing diffoscope
+[2023-07-01 07:05:58] INFO root fetch - processPackages [hugchat-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat_api-0.0.1.3.tar.gz tmp/hugchat_api-0.0.1.4.tar.gz --markdown 20230701/h/hugchat-api/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-07-01 07:05:58] INFO root fetch - processPackages [wemp]: Downloading https://files.pythonhosted.org/packages/5b/2a/958e2388d3349bd8feadf3a2d238eaccfc84cf6311fd8c63dfb14e58f527/wemp-1.0.9-py3-none-any.whl
+[2023-07-01 07:05:58] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-01 07:05:58] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230629.tar.gz tmp/rapid_pe-0.1.1.dev20230630.tar.gz --markdown 20230701/r/rapid-pe/0.1.1.dev20230629-0.1.1.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 07:05:58] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-01 07:05:58] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230701/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-07-01 07:05:58] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/4e/47/bb0c7caae364948e3415be538975de911ccadeadd47945d4dcea188fdd6d/jplaw-0.1.4.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [wemp]: executing diffoscope
+[2023-07-01 07:05:58] INFO root fetch - processPackages [wemp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wemp-1.0.8-py3-none-any.whl.zip tmp/wemp-1.0.9-py3-none-any.whl.zip --markdown 20230701/w/wemp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 07:05:58] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-07-01 07:05:58] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.3.tar.gz tmp/jplaw-0.1.4.tar.gz --markdown 20230701/j/jplaw/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 07:05:58] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Downloading https://files.pythonhosted.org/packages/8f/4d/f07f5f7e8663e5c3a7bdcce04614832dec7d8ce7766d77dad96f4796e451/mrgrain.cdk-esbuild-4.1.9.tar.gz
+[2023-07-01 07:05:58] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: executing diffoscope
+[2023-07-01 07:05:58] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz --markdown 20230701/m/mrgrain.cdk-esbuild/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-07-01 07:05:59] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.8-py3-none-any.whl.zip]
+[2023-07-01 07:05:59] INFO root fetch - processPackages [wemp]: Remove: archive file [/home/abi/fetcher/tmp/wemp-1.0.9-py3-none-any.whl.zip]
+[2023-07-01 07:05:59] INFO root fetch - main [MainThread]: End processing [wemp]: success
+[2023-07-01 07:05:59] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230629.tar.gz]
+[2023-07-01 07:05:59] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230630.tar.gz]
+[2023-07-01 07:05:59] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-01 07:05:59] INFO root fetch - processPackages [hugchat-api]: Remove: archive file [/home/abi/fetcher/tmp/hugchat_api-0.0.1.3.tar.gz]
+[2023-07-01 07:05:59] INFO root fetch - processPackages [hugchat-api]: Remove: archive file [/home/abi/fetcher/tmp/hugchat_api-0.0.1.4.tar.gz]
+[2023-07-01 07:05:59] INFO root fetch - main [MainThread]: End processing [hugchat-api]: success
+[2023-07-01 07:06:00] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-07-01 07:06:00] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-07-01 07:06:00] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-01 07:06:00] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.3.tar.gz]
+[2023-07-01 07:06:00] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.4.tar.gz]
+[2023-07-01 07:06:00] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-07-01 07:06:01] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.8.tar.gz]
+[2023-07-01 07:06:01] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
+[2023-07-01 07:06:01] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
+[2023-07-01 07:06:01] INFO root fetch - main [MainThread]: Store serial: [18719906]
