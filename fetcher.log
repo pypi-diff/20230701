@@ -13075,3 +13075,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:39:59] INFO root fetch - processPackages [kas]: Remove: archive file [/home/abi/fetcher/tmp/kas-4.0.tar.gz]
 [2023-07-01 13:39:59] INFO root fetch - main [MainThread]: End processing [kas]: success
 [2023-07-01 13:39:59] INFO root fetch - main [MainThread]: Store serial: [18721543]
+[2023-07-01 13:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721543]
+[2023-07-01 13:45:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 13:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsn-probability
+[2023-07-01 13:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tissue-tag
+[2023-07-01 13:45:08] WARNING root fetch - processPackages [dsn-probability]: Skipping, unable to determine old version
+[2023-07-01 13:45:08] INFO root fetch - main [MainThread]: End processing [dsn-probability] error
+[2023-07-01 13:45:08] INFO root fetch - processPackages [tissue-tag]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 13:45:09] INFO root fetch - processPackages [tissue-tag]: Downloading https://files.pythonhosted.org/packages/78/6a/4f6de5eb54d021887ed4aa392440021ea9cbde9991f7c904bf0e79bd77d7/tissue-tag-0.1.0.tar.gz
+[2023-07-01 13:45:09] INFO root fetch - processPackages [tissue-tag]: Downloading https://files.pythonhosted.org/packages/15/ac/680bbdc35ef4ecf60351432bde95a85a12386b2545399e32ca850e70664c/tissue-tag-0.1.1.tar.gz
+[2023-07-01 13:45:09] INFO root fetch - processPackages [tissue-tag]: executing diffoscope
+[2023-07-01 13:45:09] INFO root fetch - processPackages [tissue-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tissue-tag-0.1.0.tar.gz tmp/tissue-tag-0.1.1.tar.gz --markdown 20230701/t/tissue-tag/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 13:45:10] INFO root fetch - processPackages [tissue-tag]: Remove: archive file [/home/abi/fetcher/tmp/tissue-tag-0.1.0.tar.gz]
+[2023-07-01 13:45:10] INFO root fetch - processPackages [tissue-tag]: Remove: archive file [/home/abi/fetcher/tmp/tissue-tag-0.1.1.tar.gz]
+[2023-07-01 13:45:10] INFO root fetch - main [MainThread]: End processing [tissue-tag]: success
+[2023-07-01 13:45:10] INFO root fetch - main [MainThread]: Store serial: [18721550]
