@@ -9472,3 +9472,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:32:32] INFO root fetch - processPackages [swoop.db]: Remove: archive file [/home/abi/fetcher/tmp/swoop.db-7.0.0.tar.gz]
 [2023-07-01 07:32:32] INFO root fetch - main [MainThread]: End processing [swoop.db]: success
 [2023-07-01 07:32:32] INFO root fetch - main [MainThread]: Store serial: [18719980]
+[2023-07-01 07:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719980]
+[2023-07-01 07:37:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 07:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testghacookiecutter
+[2023-07-01 07:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nics
+[2023-07-01 07:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanorequests
+[2023-07-01 07:37:42] INFO root fetch - processPackages [testghacookiecutter]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-01 07:37:42] WARNING root fetch - processPackages [nanorequests]: Skipping, unable to determine old version
+[2023-07-01 07:37:42] INFO root fetch - main [MainThread]: End processing [nanorequests] error
+[2023-07-01 07:37:42] INFO root fetch - processPackages [nics]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-01 07:37:42] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/10/26/7beee3126079b48f59bb337d5246a5abf5717dfb497c7e11c8e2a9b3b0ba/nics-2.1.0.tar.gz
+[2023-07-01 07:37:42] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/a0/9f/760f5df93b39f4535df55008a230da5ca583387d736ffc39052076bd348a/testghacookiecutter-0.0.93-cp39-cp39-win_amd64.whl
+[2023-07-01 07:37:42] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/9e/36/a31da24cfede3c347f3e43e18a2dd5f13ff4dfd1944740855d6ebae83549/nics-2.1.1.tar.gz
+[2023-07-01 07:37:42] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/31/db/50f5a1602e42dd6ed4328ac01e39d200c13f99d841f22a1ef65f4267639e/testghacookiecutter-0.0.94-cp39-cp39-win_amd64.whl
+[2023-07-01 07:37:42] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 07:37:42] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.1.0.tar.gz tmp/nics-2.1.1.tar.gz --markdown 20230701/n/nics/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-01 07:37:42] INFO root fetch - processPackages [testghacookiecutter]: executing diffoscope
+[2023-07-01 07:37:42] INFO root fetch - processPackages [testghacookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testghacookiecutter-0.0.93-cp39-cp39-win_amd64.whl.zip tmp/testghacookiecutter-0.0.94-cp39-cp39-win_amd64.whl.zip --markdown 20230701/t/testghacookiecutter/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-01 07:37:43] INFO root fetch - processPackages [testghacookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/testghacookiecutter-0.0.93-cp39-cp39-win_amd64.whl.zip]
+[2023-07-01 07:37:43] INFO root fetch - processPackages [testghacookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/testghacookiecutter-0.0.94-cp39-cp39-win_amd64.whl.zip]
+[2023-07-01 07:37:43] INFO root fetch - main [MainThread]: End processing [testghacookiecutter]: success
+[2023-07-01 07:37:43] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.0.tar.gz]
+[2023-07-01 07:37:43] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.1.tar.gz]
+[2023-07-01 07:37:43] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 07:37:43] INFO root fetch - main [MainThread]: Store serial: [18720008]
