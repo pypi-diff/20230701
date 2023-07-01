@@ -10219,3 +10219,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:01:10] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
 [2023-07-01 09:01:10] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
 [2023-07-01 09:01:10] INFO root fetch - main [MainThread]: Store serial: [18720286]
+[2023-07-01 09:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720286]
+[2023-07-01 09:06:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanorequests
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: joonmyung
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-git-gitlab
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flux-burst-gke
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-nightly-cuda120
+[2023-07-01 09:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyparc
+[2023-07-01 09:06:19] INFO root fetch - processPackages [flux-burst-gke]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nanorequests]: New version: [0.4] Old Version: [0.3]
+[2023-07-01 09:06:19] INFO root fetch - processPackages [joonmyung]: New version: [1.4.8] Old Version: [1.4.6]
+[2023-07-01 09:06:19] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 09:06:19] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-01 09:06:19] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/5f/79/da6784ead91cd15d01d62f690486a1e61a817bd14ca49cbac7ebb28c75f8/nanorequests-0.3.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230630] Old Version: [1.28.0.dev20230628]
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230630] Old Version: [1.28.0.dev20230628]
+[2023-07-01 09:06:19] WARNING root fetch - processPackages [pyparc]: Skipping, unable to determine old version
+[2023-07-01 09:06:19] INFO root fetch - main [MainThread]: End processing [pyparc] error
+[2023-07-01 09:06:19] INFO root fetch - processPackages [flux-burst-gke]: Downloading https://files.pythonhosted.org/packages/94/f7/d485fbff362a0f1d8ab03a208e1449fb7151c5a06e05d21068a2c30e7818/flux-burst-gke-0.0.0.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/a3/08/162a525780f7c210d94e9803ff8c28b31e4f14411b697cb80597fb9afef3/joonmyung-1.4.6.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-07-01 09:06:19] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/f9/00/3f3cd8f261fa3ea5f8ca0a1e826a65378cafb52c1d9580cb566f9e2e8158/nvidia-dali-nightly-cuda120-1.28.0.dev20230628.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/5b/54/37fba7ac5103cdee79ad1c7fa2d36582a687fe84d9b5d82c04336e4ba6b0/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230628.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-07-01 09:06:19] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 09:06:19] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-01 09:06:19] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230701/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/84/e6/0745c0f33fd7a5ef85e713a01e83c8dd5561b0423e275595513b312c86be/nanorequests-0.4.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [flux-burst-gke]: Downloading https://files.pythonhosted.org/packages/65/2c/0c978bab59660051a1cd0c091d6686f807f257262eedb0ab238d1027a41a/flux-burst-gke-0.0.1.tar.gz
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:06:19] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.3.tar.gz tmp/nanorequests-0.4.tar.gz --markdown 20230701/n/nanorequests/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-01 09:06:20] INFO root fetch - processPackages [flux-burst-gke]: executing diffoscope
+[2023-07-01 09:06:20] INFO root fetch - processPackages [flux-burst-gke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-burst-gke-0.0.0.tar.gz tmp/flux-burst-gke-0.0.1.tar.gz --markdown 20230701/f/flux-burst-gke/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-01 09:06:20] INFO root fetch - processPackages [joonmyung]: Downloading https://files.pythonhosted.org/packages/0f/8e/5835f55bc01138b8289ba37afc8d9cb4626e3aacfc3ad25db68b482d34f2/joonmyung-1.4.8.tar.gz
+[2023-07-01 09:06:20] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/91/c0/fe8dc7301715a25fc66046afe8e22dd6a83531f393923cf4a2f7da2f9855/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230630.tar.gz
+[2023-07-01 09:06:20] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-07-01 09:06:20] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230628.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230630.tar.gz --markdown 20230701/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230628-1.28.0.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 09:06:20] INFO root fetch - processPackages [joonmyung]: executing diffoscope
+[2023-07-01 09:06:20] INFO root fetch - processPackages [joonmyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joonmyung-1.4.6.tar.gz tmp/joonmyung-1.4.8.tar.gz --markdown 20230701/j/joonmyung/1.4.6-1.4.8/diff.md --exclude *.pyd
+[2023-07-01 09:06:20] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/54/7c/3223edcdbdbeae30c76a5171cc67de76af9b778c0248f3ef1219b17d28c0/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz
+[2023-07-01 09:06:20] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-07-01 09:06:20] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230628.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz --markdown 20230701/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230628-1.28.0.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 09:06:20] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 09:06:20] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 09:06:20] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-07-01 09:06:21] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.3.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.4.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:06:21] INFO root fetch - processPackages [flux-burst-gke]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-gke-0.0.0.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - processPackages [flux-burst-gke]: Remove: archive file [/home/abi/fetcher/tmp/flux-burst-gke-0.0.1.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [flux-burst-gke]: success
+[2023-07-01 09:06:21] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230628.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230630.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-07-01 09:06:21] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-01 09:06:21] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.4.6.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - processPackages [joonmyung]: Remove: archive file [/home/abi/fetcher/tmp/joonmyung-1.4.8.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [joonmyung]: success
+[2023-07-01 09:06:21] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230628.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz]
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-07-01 09:06:21] INFO root fetch - main [MainThread]: Store serial: [18720311]
