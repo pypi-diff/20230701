@@ -14930,3 +14930,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:27:29] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.4.tar.gz]
 [2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-07-01 16:27:29] INFO root fetch - main [MainThread]: Store serial: [18722368]
+[2023-07-01 16:32:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722368]
+[2023-07-01 16:32:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctd-python
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-embed-video
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vendor-grab
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lokzz-pylibrary
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maroon
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AI4XDE
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jarvis-ironman
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: martin-binance
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LyricLib
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: changelist
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ctd-python]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-01 16:32:38] WARNING root fetch - processPackages [vendor-grab]: Skipping, unable to determine old version
+[2023-07-01 16:32:38] INFO root fetch - main [MainThread]: End processing [vendor-grab] error
+[2023-07-01 16:32:38] INFO root fetch - processPackages [maroon]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-07-01 16:32:38] INFO root fetch - processPackages [django-embed-video]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-01 16:32:38] INFO root fetch - processPackages [lokzz-pylibrary]: New version: [1.0.0.0.0.0.0.1] Old Version: [1.0]
+[2023-07-01 16:32:38] WARNING root fetch - processPackages [AI4XDE]: Skipping, unable to determine old version
+[2023-07-01 16:32:38] INFO root fetch - main [MainThread]: End processing [AI4XDE] error
+[2023-07-01 16:32:38] INFO root fetch - processPackages [jarvis-ironman]: New version: [3.0a0] Old Version: [3.0]
+[2023-07-01 16:32:38] INFO root fetch - processPackages [martin-binance]: New version: [1.3.2.post2] Old Version: [1.3.2]
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ca/e3/44d69b67ce272fc21dcd1f8ceb3a81914c80dd1683facf38dddc869436da/ctd-python-0.1.3.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/6c/72/36da1246fb49d43333501af660e158f2ee343025f8a0482c8cb0329a1af9/maroon-0.1.42.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [LyricLib]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2023-07-01 16:32:38] WARNING root fetch - processPackages [changelist]: Skipping, unable to determine old version
+[2023-07-01 16:32:38] INFO root fetch - main [MainThread]: End processing [changelist] error
+[2023-07-01 16:32:38] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/b6/c7/0fa754d5470e36587385074474b1be6eceaa012fcd6ddb212d1fae67dd8f/jarvis_ironman-3.0-py3-none-any.whl
+[2023-07-01 16:32:38] INFO root fetch - processPackages [django-embed-video]: Downloading https://files.pythonhosted.org/packages/f1/ba/37992eb69bc46b2d15b35210d9d5c2845f49fcbe86f9414cf8c25ee222c0/django-embed-video-1.4.8.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [lokzz-pylibrary]: Downloading https://files.pythonhosted.org/packages/66/10/ae2d7bfd5422ca63bfce43b76c31a58e97ed331eac2a852fa4fe3b1ab63c/lokzz--pylibrary-1.0.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/6f/91/e27cc067091040f424c7f23d000748b6e623040a566ccefe287d6f0f7b8a/martin_binance-1.3.2.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ff/a9/8640a3a291357641662e646b2066923ea843dd3203609cd746f454453102/ctd-python-0.2.0.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/4f/00/ca1abf40ab7478106319bdf60f5578b0fb90cde224d5c3e85ec7ed29ba37/maroon-0.1.43.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [LyricLib]: Downloading https://files.pythonhosted.org/packages/b4/af/9c55ffa93244aeeda6bff01a0cffcdb01453b9f85544a155fce34b0a3272/LyricLib-0.0.3.1.tar.gz
+[2023-07-01 16:32:38] INFO root fetch - processPackages [maroon]: executing diffoscope
+[2023-07-01 16:32:38] INFO root fetch - processPackages [maroon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maroon-0.1.42.tar.gz tmp/maroon-0.1.43.tar.gz --markdown 20230701/m/maroon/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-07-01 16:32:39] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-07-01 16:32:39] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.1.3.tar.gz tmp/ctd-python-0.2.0.tar.gz --markdown 20230701/c/ctd-python/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 16:32:39] INFO root fetch - processPackages [lokzz-pylibrary]: Downloading https://files.pythonhosted.org/packages/c1/14/e8e3f05022325c24229bb9519984ef368304fa456a0cc24982713b449989/lokzz-pylibrary-1.0.0.0.0.0.0.1.tar.gz
+[2023-07-01 16:32:39] INFO root fetch - processPackages [django-embed-video]: Downloading https://files.pythonhosted.org/packages/67/5f/e22c8a4a85648173cf41c45ac979936c6ef50c2c96ccc5032224d5a28540/django-embed-video-1.4.9.tar.gz
+[2023-07-01 16:32:39] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/d8/0e/431daaf52c2950bf017df9e5676764b7b1d1d1395dbf908b078814cfeb35/martin_binance-1.3.2.post2.tar.gz
+[2023-07-01 16:32:39] INFO root fetch - processPackages [lokzz-pylibrary]: executing diffoscope
+[2023-07-01 16:32:39] INFO root fetch - processPackages [lokzz-pylibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzz--pylibrary-1.0.tar.gz tmp/lokzz-pylibrary-1.0.0.0.0.0.0.1.tar.gz --markdown 20230701/l/lokzz-pylibrary/1.0-1.0.0.0.0.0.0.1/diff.md --exclude *.pyd
+[2023-07-01 16:32:39] INFO root fetch - processPackages [LyricLib]: Downloading https://files.pythonhosted.org/packages/39/b4/8c4642b3a055698736347504f12a2d86b0bfb1be44854ded44b46597f2ca/LyricLib-0.0.3.2.tar.gz
+[2023-07-01 16:32:39] INFO root fetch - processPackages [django-embed-video]: executing diffoscope
+[2023-07-01 16:32:39] INFO root fetch - processPackages [django-embed-video]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-embed-video-1.4.8.tar.gz tmp/django-embed-video-1.4.9.tar.gz --markdown 20230701/d/django-embed-video/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-01 16:32:39] INFO root fetch - processPackages [martin-binance]: executing diffoscope
+[2023-07-01 16:32:39] INFO root fetch - processPackages [martin-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martin_binance-1.3.2.tar.gz tmp/martin_binance-1.3.2.post2.tar.gz --markdown 20230701/m/martin-binance/1.3.2-1.3.2.post2/diff.md --exclude *.pyd
+[2023-07-01 16:32:39] INFO root fetch - processPackages [LyricLib]: executing diffoscope
+[2023-07-01 16:32:39] INFO root fetch - processPackages [LyricLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LyricLib-0.0.3.1.tar.gz tmp/LyricLib-0.0.3.2.tar.gz --markdown 20230701/L/LyricLib/0.0.3.1-0.0.3.2/diff.md --exclude *.pyd
+[2023-07-01 16:32:39] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/c1/63/4ad2a24201e6698d6640b4aa2ff34db267e34d1b007786fb3d7c39064e22/jarvis_ironman-3.0a0-py3-none-any.whl
+[2023-07-01 16:32:39] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-07-01 16:32:39] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-3.0-py3-none-any.whl.zip tmp/jarvis_ironman-3.0a0-py3-none-any.whl.zip --markdown 20230701/j/jarvis-ironman/3.0-3.0a0/diff.md --exclude *.pyd
+[2023-07-01 16:32:40] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.42.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.43.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - main [MainThread]: End processing [maroon]: success
+[2023-07-01 16:32:40] INFO root fetch - processPackages [lokzz-pylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzz--pylibrary-1.0.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - processPackages [lokzz-pylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzz-pylibrary-1.0.0.0.0.0.0.1.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - main [MainThread]: End processing [lokzz-pylibrary]: success
+[2023-07-01 16:32:40] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.1.3.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.2.0.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-07-01 16:32:40] INFO root fetch - processPackages [LyricLib]: Remove: archive file [/home/abi/fetcher/tmp/LyricLib-0.0.3.1.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - processPackages [LyricLib]: Remove: archive file [/home/abi/fetcher/tmp/LyricLib-0.0.3.2.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - main [MainThread]: End processing [LyricLib]: success
+[2023-07-01 16:32:40] INFO root fetch - processPackages [django-embed-video]: Remove: archive file [/home/abi/fetcher/tmp/django-embed-video-1.4.8.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - processPackages [django-embed-video]: Remove: archive file [/home/abi/fetcher/tmp/django-embed-video-1.4.9.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - main [MainThread]: End processing [django-embed-video]: success
+[2023-07-01 16:32:40] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin_binance-1.3.2.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin_binance-1.3.2.post2.tar.gz]
+[2023-07-01 16:32:40] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
+[2023-07-01 16:32:43] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.0-py3-none-any.whl.zip]
+[2023-07-01 16:32:43] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.0a0-py3-none-any.whl.zip]
+[2023-07-01 16:32:43] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-07-01 16:32:43] INFO root fetch - main [MainThread]: Store serial: [18722403]
