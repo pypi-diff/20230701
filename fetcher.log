@@ -12700,3 +12700,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:06:09] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.4.0.tar.gz]
 [2023-07-01 13:06:09] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
 [2023-07-01 13:06:09] INFO root fetch - main [MainThread]: Store serial: [18721412]
+[2023-07-01 13:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721412]
+[2023-07-01 13:11:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 13:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vit-b16-keras
+[2023-07-01 13:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cloud-storages
+[2023-07-01 13:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitaudit
+[2023-07-01 13:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeugvars
+[2023-07-01 13:11:19] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.1] Old Version: [0.1.6]
+[2023-07-01 13:11:19] INFO root fetch - processPackages [zeugvars]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 13:11:19] INFO root fetch - processPackages [vit-b16-keras]: New version: [0.5] Old Version: [0.4]
+[2023-07-01 13:11:19] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-07-01 13:11:19] INFO root fetch - processPackages [vit-b16-keras]: Downloading https://files.pythonhosted.org/packages/ef/6a/b8b7a06b04e9b5270e3f0a1d03c5407ab6dc6c4c6d23ec46f9e74ebc7e7f/vit-b16-keras-0.4.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/ab/d8/471dbbffcf747126e140e6fa1cd4527d555b8b8fbc94d4740c45c5896136/zeugvars-0.1.2.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/e3/a6/9a5f9ecf853825d40e8fcac0f47c921a8a52c8e5c7dd80f2dbb5bc146c6f/django_cloud_storages-0.1.6.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [vit-b16-keras]: Downloading https://files.pythonhosted.org/packages/92/61/69874a8fd7ef9012c332d4babbb0f39c8b1f3c496a18904dc1d36666dbb0/vit-b16-keras-0.5.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/a4/d3/7a56bc040b22aec26e48ae8f379f875e281d7e314072a685226f56191c9c/zeugvars-0.1.3.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [zeugvars]: executing diffoscope
+[2023-07-01 13:11:19] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/08/1b/6124ed665fbed26ec948c95cf11a08c04fb50a062b40181414482abc8d42/django_cloud_storages-1.1.1.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [zeugvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeugvars-0.1.2.tar.gz tmp/zeugvars-0.1.3.tar.gz --markdown 20230701/z/zeugvars/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 13:11:19] INFO root fetch - processPackages [vit-b16-keras]: executing diffoscope
+[2023-07-01 13:11:19] INFO root fetch - processPackages [vit-b16-keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vit-b16-keras-0.4.tar.gz tmp/vit-b16-keras-0.5.tar.gz --markdown 20230701/v/vit-b16-keras/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-01 13:11:19] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-01 13:11:19] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-0.1.6.tar.gz tmp/django_cloud_storages-1.1.1.tar.gz --markdown 20230701/d/django-cloud-storages/0.1.6-1.1.1/diff.md --exclude *.pyd
+[2023-07-01 13:11:19] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-07-01 13:11:19] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-07-01 13:11:19] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230701/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 13:11:20] INFO root fetch - processPackages [vit-b16-keras]: Remove: archive file [/home/abi/fetcher/tmp/vit-b16-keras-0.4.tar.gz]
+[2023-07-01 13:11:20] INFO root fetch - processPackages [vit-b16-keras]: Remove: archive file [/home/abi/fetcher/tmp/vit-b16-keras-0.5.tar.gz]
+[2023-07-01 13:11:20] INFO root fetch - main [MainThread]: End processing [vit-b16-keras]: success
+[2023-07-01 13:11:20] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-0.1.6.tar.gz]
+[2023-07-01 13:11:20] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.1.tar.gz]
+[2023-07-01 13:11:20] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-01 13:11:20] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.1.2.tar.gz]
+[2023-07-01 13:11:20] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.1.3.tar.gz]
+[2023-07-01 13:11:20] INFO root fetch - main [MainThread]: End processing [zeugvars]: success
+[2023-07-01 13:11:21] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-07-01 13:11:21] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-07-01 13:11:21] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-07-01 13:11:21] INFO root fetch - main [MainThread]: Store serial: [18721424]
