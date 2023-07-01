@@ -9804,3 +9804,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:24:31] INFO root fetch - processPackages [numgrids]: Remove: archive file [/home/abi/fetcher/tmp/numgrids-0.2.1.tar.gz]
 [2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [numgrids]: success
 [2023-07-01 08:24:31] INFO root fetch - main [MainThread]: Store serial: [18720127]
+[2023-07-01 08:29:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720127]
+[2023-07-01 08:29:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tech-ninja-tistory-api
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: revChatGPT
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyQt6-Fluent-Widgets
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numgrids
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module-latest
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: f-dpi
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: numgrids
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-random-useragent
+[2023-07-01 08:29:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Flask-SimplePay
+[2023-07-01 08:29:40] WARNING root fetch - processPackages [tech-ninja-tistory-api]: Skipping, unable to determine old version
+[2023-07-01 08:29:40] INFO root fetch - main [MainThread]: End processing [tech-ninja-tistory-api] error
+[2023-07-01 08:29:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 08:29:40] WARNING root fetch - processPackages [f-dpi]: Skipping, unable to determine old version
+[2023-07-01 08:29:40] INFO root fetch - main [MainThread]: End processing [f-dpi] error
+[2023-07-01 08:29:40] INFO root fetch - processPackages [py-random-useragent]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 08:29:40] INFO root fetch - processPackages [numgrids]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 08:29:40] INFO root fetch - processPackages [revChatGPT]: New version: [6.7.4] Old Version: [6.7.3]
+[2023-07-01 08:29:40] INFO root fetch - processPackages [numgrids]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 08:29:40] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230701] Old Version: [20230630]
+[2023-07-01 08:29:40] INFO root fetch - processPackages [numgrids]: Downloading https://files.pythonhosted.org/packages/14/5f/375538efaff60b7d15563d86b4831a4be7d37f34974a224d1540724af008/numgrids-0.2.1.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [Flask-SimplePay]: New version: [1.3] Old Version: [1.2]
+[2023-07-01 08:29:40] INFO root fetch - processPackages [py-random-useragent]: Downloading https://files.pythonhosted.org/packages/43/c1/40386ef7530ae390edc53446c638921bae3f9bde2e846fbb7261650184da/py_random_useragent-0.1.2.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/31/92/b7e2d1727ca6228599b85453254316b7c7c1ec5ba4565cca308e6186186e/revChatGPT-6.7.3.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [numgrids]: Downloading https://files.pythonhosted.org/packages/14/5f/375538efaff60b7d15563d86b4831a4be7d37f34974a224d1540724af008/numgrids-0.2.1.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/80/99/0d1461fc1bd65f162d6ccf2a8f372d743136031ce66bd304c17171d7d71d/PyQt6-Fluent-Widgets-0.9.8.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d5/84/1c1c0ac91f3da2277c7c2e338c20c89b1d26979e47303b85c17f2adf6663/fake-bpy-module-latest-20230630.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [py-random-useragent]: Downloading https://files.pythonhosted.org/packages/d5/51/197cf69c8eb692ea39b21621b1905bee83aeaa8a7eeb3c0ebc6b4256d002/py_random_useragent-0.1.3.tar.gz
+[2023-07-01 08:29:40] ERROR root fetch - processPackages [numgrids]: Unable to fetch info: No such project/version 'numgrids' 0.2.2
+[2023-07-01 08:29:40] INFO root fetch - main [MainThread]: End processing [numgrids] error
+[2023-07-01 08:29:40] ERROR root fetch - processPackages [numgrids]: Unable to fetch info: No such project/version 'numgrids' 0.2.2
+[2023-07-01 08:29:40] INFO root fetch - main [MainThread]: End processing [numgrids] error
+[2023-07-01 08:29:40] INFO root fetch - processPackages [py-random-useragent]: executing diffoscope
+[2023-07-01 08:29:40] INFO root fetch - processPackages [py-random-useragent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_random_useragent-0.1.2.tar.gz tmp/py_random_useragent-0.1.3.tar.gz --markdown 20230701/p/py-random-useragent/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 08:29:40] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/9a/4e/dfc5a0e4bbcb49f2c6a65a2b28acac0c084e4d1f11fad4c25546e3749371/Flask-SimplePay-1.2.tar.gz
+[2023-07-01 08:29:40] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/18/d8/a34391633dc50d565fa9cd2b41250916b26a852c87c8963b2c45f503adf7/revChatGPT-6.7.4.tar.gz
+[2023-07-01 08:29:41] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-07-01 08:29:41] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.7.3.tar.gz tmp/revChatGPT-6.7.4.tar.gz --markdown 20230701/r/revChatGPT/6.7.3-6.7.4/diff.md --exclude *.pyd
+[2023-07-01 08:29:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4a/f6/051d3b235fbe544bd4828711c2326c56027a3b0eaea2fcf96f3d75c1e8d0/fake-bpy-module-latest-20230701.tar.gz
+[2023-07-01 08:29:41] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-07-01 08:29:41] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230630.tar.gz tmp/fake-bpy-module-latest-20230701.tar.gz --markdown 20230701/f/fake-bpy-module-latest/20230630-20230701/diff.md --exclude *.pyd
+[2023-07-01 08:29:41] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/eb/70/5d12190d7364762be26ede0439dad7bb866abad0fa8a8238fe3d4825c137/Flask-SimplePay-1.3.tar.gz
+[2023-07-01 08:29:41] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/c5/a2/5d4f3ecb64b992911d44cbc9a665c5a07c1e1132293b104115fc7bfce74a/PyQt6-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-01 08:29:41] INFO root fetch - processPackages [Flask-SimplePay]: executing diffoscope
+[2023-07-01 08:29:41] INFO root fetch - processPackages [Flask-SimplePay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SimplePay-1.2.tar.gz tmp/Flask-SimplePay-1.3.tar.gz --markdown 20230701/F/Flask-SimplePay/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-01 08:29:41] INFO root fetch - processPackages [py-random-useragent]: Remove: archive file [/home/abi/fetcher/tmp/py_random_useragent-0.1.2.tar.gz]
+[2023-07-01 08:29:41] INFO root fetch - processPackages [py-random-useragent]: Remove: archive file [/home/abi/fetcher/tmp/py_random_useragent-0.1.3.tar.gz]
+[2023-07-01 08:29:41] INFO root fetch - main [MainThread]: End processing [py-random-useragent]: success
+[2023-07-01 08:29:42] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.7.3.tar.gz]
+[2023-07-01 08:29:42] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.7.4.tar.gz]
+[2023-07-01 08:29:42] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-07-01 08:29:42] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-07-01 08:29:42] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230701/P/PyQt6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 08:29:42] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.2.tar.gz]
+[2023-07-01 08:29:42] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.3.tar.gz]
+[2023-07-01 08:29:42] INFO root fetch - main [MainThread]: End processing [Flask-SimplePay]: success
+[2023-07-01 08:29:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-07-01 08:29:43] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-01 08:29:43] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-07-01 08:29:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230630.tar.gz]
+[2023-07-01 08:29:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230701.tar.gz]
+[2023-07-01 08:29:47] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-07-01 08:29:47] INFO root fetch - main [MainThread]: Store serial: [18720165]
