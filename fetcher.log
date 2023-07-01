@@ -11923,3 +11923,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 11:46:26] INFO root fetch - processPackages [egune]: Remove: archive file [/home/abi/fetcher/tmp/egune-0.2.9.tar.gz]
 [2023-07-01 11:46:26] INFO root fetch - main [MainThread]: End processing [egune]: success
 [2023-07-01 11:46:26] INFO root fetch - main [MainThread]: Store serial: [18721068]
+[2023-07-01 11:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721068]
+[2023-07-01 11:51:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freeGPT
+[2023-07-01 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md2site
+[2023-07-01 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hugchat
+[2023-07-01 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: munch
+[2023-07-01 11:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazysdk
+[2023-07-01 11:51:34] INFO root fetch - processPackages [freeGPT]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-01 11:51:34] INFO root fetch - processPackages [munch]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-07-01 11:51:34] INFO root fetch - processPackages [hugchat]: New version: [0.0.8] Old Version: [0.0.7.1]
+[2023-07-01 11:51:34] INFO root fetch - processPackages [md2site]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 11:51:34] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 11:51:35] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/fb/a0/7d3381e4447ed00480638c1dc09964e6e9459c6b8b1546ba6d10a5817243/freeGPT-1.2.1.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/f5/17/d26333638d035b9b85c92b665c4fbbcd03305c166678c7ea825ce0a35722/md2site-0.0.1.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/12/3f/a4a98199a1d7424a75e9f83a1be27a128347da6d63f1f4c027badfe89132/hugchat-0.0.7.1.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [munch]: Downloading https://files.pythonhosted.org/packages/e1/40/5dcab397be4682839a1c669b2c24c857e59f073d691a2bcf9b14cebb054a/munch-3.0.0.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [freeGPT]: Downloading https://files.pythonhosted.org/packages/68/0c/4aedcecb4e0e2cdf9aef143ce798c8f3d1c48bf825d7e0541b2ea5ea1b2c/freeGPT-1.2.2.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-01 11:51:35] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230701/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 11:51:35] INFO root fetch - processPackages [freeGPT]: executing diffoscope
+[2023-07-01 11:51:35] INFO root fetch - processPackages [freeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeGPT-1.2.1.tar.gz tmp/freeGPT-1.2.2.tar.gz --markdown 20230701/f/freeGPT/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-01 11:51:35] INFO root fetch - processPackages [munch]: Downloading https://files.pythonhosted.org/packages/e7/2b/45098135b5f9f13221820d90f9e0516e11a2a0f55012c13b081d202b782a/munch-4.0.0.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/ae/aa/aaa310b3150c97740778c32b78f14ccd75c131ce376ccb0ac1adbdf14df5/hugchat-0.0.8.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/ce/5d/1fbeeb517377698098232b0a72f8246f8da2bc146ef9d53c16dbca81f5d4/md2site-0.0.2.tar.gz
+[2023-07-01 11:51:35] INFO root fetch - processPackages [munch]: executing diffoscope
+[2023-07-01 11:51:35] INFO root fetch - processPackages [munch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munch-3.0.0.tar.gz tmp/munch-4.0.0.tar.gz --markdown 20230701/m/munch/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-01 11:51:35] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-07-01 11:51:35] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.7.1.tar.gz tmp/hugchat-0.0.8.tar.gz --markdown 20230701/h/hugchat/0.0.7.1-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 11:51:35] INFO root fetch - processPackages [md2site]: executing diffoscope
+[2023-07-01 11:51:35] INFO root fetch - processPackages [md2site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2site-0.0.1.tar.gz tmp/md2site-0.0.2.tar.gz --markdown 20230701/m/md2site/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 11:51:36] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-01 11:51:36] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.1.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - processPackages [freeGPT]: Remove: archive file [/home/abi/fetcher/tmp/freeGPT-1.2.2.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - main [MainThread]: End processing [freeGPT]: success
+[2023-07-01 11:51:36] INFO root fetch - processPackages [munch]: Remove: archive file [/home/abi/fetcher/tmp/munch-3.0.0.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - processPackages [munch]: Remove: archive file [/home/abi/fetcher/tmp/munch-4.0.0.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - main [MainThread]: End processing [munch]: success
+[2023-07-01 11:51:36] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.0.7.1.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.0.8.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-07-01 11:51:36] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.1.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.2.tar.gz]
+[2023-07-01 11:51:36] INFO root fetch - main [MainThread]: End processing [md2site]: success
+[2023-07-01 11:51:36] INFO root fetch - main [MainThread]: Store serial: [18721088]
