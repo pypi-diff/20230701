@@ -14785,3 +14785,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:17:05] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.9.tar.gz]
 [2023-07-01 16:17:05] INFO root fetch - main [MainThread]: End processing [convocations]: success
 [2023-07-01 16:17:05] INFO root fetch - main [MainThread]: Store serial: [18722297]
+[2023-07-01 16:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722297]
+[2023-07-01 16:22:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: darwinio
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dexcolor
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhdtoolkit
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oproai
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OnlinePVT
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camel-converter
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dinov2-retrieval
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: darkgw
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyasd
+[2023-07-01 16:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opro
+[2023-07-01 16:22:14] INFO root fetch - processPackages [dexcolor]: New version: [0.1.2] Old Version: [0.1]
+[2023-07-01 16:22:14] WARNING root fetch - processPackages [dinov2-retrieval]: Skipping, unable to determine old version
+[2023-07-01 16:22:14] INFO root fetch - main [MainThread]: End processing [dinov2-retrieval] error
+[2023-07-01 16:22:14] INFO root fetch - processPackages [camel-converter]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-01 16:22:14] INFO root fetch - processPackages [darwinio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 16:22:14] INFO root fetch - processPackages [OnlinePVT]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 16:22:14] INFO root fetch - processPackages [pyhdtoolkit]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-01 16:22:14] WARNING root fetch - processPackages [darkgw]: Skipping, unable to determine old version
+[2023-07-01 16:22:14] INFO root fetch - main [MainThread]: End processing [darkgw] error
+[2023-07-01 16:22:14] WARNING root fetch - processPackages [oproai]: Skipping, unable to determine old version
+[2023-07-01 16:22:14] INFO root fetch - main [MainThread]: End processing [oproai] error
+[2023-07-01 16:22:14] INFO root fetch - processPackages [pyasd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 16:22:14] WARNING root fetch - processPackages [opro]: Skipping, unable to determine old version
+[2023-07-01 16:22:14] INFO root fetch - main [MainThread]: End processing [opro] error
+[2023-07-01 16:22:14] INFO root fetch - processPackages [camel-converter]: Downloading https://files.pythonhosted.org/packages/52/3b/8f475d8d9c057f45ac0f3f29e574e484f7cef098a5bd3881d55ac67c7d3f/camel_converter-3.0.1.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/dd/a8/d5f647ab3b7934f812cdf10a32ffdfba07045e138989a9d1ab9c358d4aa2/darwinio-0.0.8.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/00/21/17cf9ac13d4b9459bf13d6a17dd2cfdeadb6752366e33d674c30e233fcc4/dexcolor-0.1.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [OnlinePVT]: Downloading https://files.pythonhosted.org/packages/0d/ae/f5b97eb75d6e984386a1adf8b6de51dca3f0ca0e1ec98fd841c190a966bb/onlinepvt-0.0.8.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/2b/1f/5f1f819ae8d3df77600bc3e7244c1d87f8c47d7e7839b24dd89d429c2a49/pyhdtoolkit-1.3.1.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/1e/3c/e5da3440b3de1912ef22aa718f0ba2bdd5adfc11c88683f2b96d50aa99f5/pyasd-0.0.8.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [dexcolor]: Downloading https://files.pythonhosted.org/packages/b3/62/064dd96453cbe5c2611058f370d91fed1d63c7d65507e5749d87b846286e/dexcolor-0.1.2.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [camel-converter]: Downloading https://files.pythonhosted.org/packages/ef/76/78f586cb8e74b117dbe0120f4962cbbcbd095be83e6bc700c244456a6ecd/camel_converter-3.0.2.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [dexcolor]: executing diffoscope
+[2023-07-01 16:22:15] INFO root fetch - processPackages [dexcolor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexcolor-0.1.tar.gz tmp/dexcolor-0.1.2.tar.gz --markdown 20230701/d/dexcolor/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 16:22:15] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/e6/ce/d94ffd130cd106c3805d8e2376cb33ac8dd70b28bdd86aa1e3241252cc26/pyhdtoolkit-1.3.2.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [camel-converter]: executing diffoscope
+[2023-07-01 16:22:15] INFO root fetch - processPackages [camel-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camel_converter-3.0.1.tar.gz tmp/camel_converter-3.0.2.tar.gz --markdown 20230701/c/camel-converter/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-01 16:22:15] INFO root fetch - processPackages [OnlinePVT]: Downloading https://files.pythonhosted.org/packages/38/7b/29a970bf392fe4ec578c4e4e8976b53aa422a28205fd3e66755a7adfa8c3/onlinepvt-0.0.9.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [OnlinePVT]: executing diffoscope
+[2023-07-01 16:22:15] INFO root fetch - processPackages [OnlinePVT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepvt-0.0.8.tar.gz tmp/onlinepvt-0.0.9.tar.gz --markdown 20230701/O/OnlinePVT/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 16:22:15] INFO root fetch - processPackages [pyhdtoolkit]: executing diffoscope
+[2023-07-01 16:22:15] INFO root fetch - processPackages [pyhdtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdtoolkit-1.3.1.tar.gz tmp/pyhdtoolkit-1.3.2.tar.gz --markdown 20230701/p/pyhdtoolkit/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-01 16:22:15] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/2a/9c/65d9b07912858fef7e771123e50efba0cc932eb4a750042ceb23a9a4677a/darwinio-0.0.9.tar.gz
+[2023-07-01 16:22:15] INFO root fetch - processPackages [pyasd]: Downloading https://files.pythonhosted.org/packages/82/16/f1a02173580a74fed24f629373a8eed9ab8fcd8f14a02a6fff44d466e831/pyasd-0.0.9.tar.gz
+[2023-07-01 16:22:16] INFO root fetch - processPackages [pyasd]: executing diffoscope
+[2023-07-01 16:22:16] INFO root fetch - processPackages [pyasd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasd-0.0.8.tar.gz tmp/pyasd-0.0.9.tar.gz --markdown 20230701/p/pyasd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 16:22:16] INFO root fetch - processPackages [camel-converter]: Remove: archive file [/home/abi/fetcher/tmp/camel_converter-3.0.1.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - processPackages [camel-converter]: Remove: archive file [/home/abi/fetcher/tmp/camel_converter-3.0.2.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - main [MainThread]: End processing [camel-converter]: success
+[2023-07-01 16:22:16] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.1.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - processPackages [dexcolor]: Remove: archive file [/home/abi/fetcher/tmp/dexcolor-0.1.2.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - main [MainThread]: End processing [dexcolor]: success
+[2023-07-01 16:22:16] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-07-01 16:22:16] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.0.8.tar.gz tmp/darwinio-0.0.9.tar.gz --markdown 20230701/d/darwinio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 16:22:16] INFO root fetch - processPackages [pyhdtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyhdtoolkit-1.3.1.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - processPackages [pyhdtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyhdtoolkit-1.3.2.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - main [MainThread]: End processing [pyhdtoolkit]: success
+[2023-07-01 16:22:16] INFO root fetch - processPackages [OnlinePVT]: Remove: archive file [/home/abi/fetcher/tmp/onlinepvt-0.0.8.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - processPackages [OnlinePVT]: Remove: archive file [/home/abi/fetcher/tmp/onlinepvt-0.0.9.tar.gz]
+[2023-07-01 16:22:16] INFO root fetch - main [MainThread]: End processing [OnlinePVT]: success
+[2023-07-01 16:22:18] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.8.tar.gz]
+[2023-07-01 16:22:18] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.9.tar.gz]
+[2023-07-01 16:22:18] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-07-01 16:22:18] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.8.tar.gz]
+[2023-07-01 16:22:18] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.9.tar.gz]
+[2023-07-01 16:22:18] INFO root fetch - main [MainThread]: End processing [pyasd]: success
+[2023-07-01 16:22:18] INFO root fetch - main [MainThread]: Store serial: [18722341]
