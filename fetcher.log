@@ -12150,3 +12150,97 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:12:22] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.98.tar.gz]
 [2023-07-01 12:12:22] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2023-07-01 12:12:22] INFO root fetch - main [MainThread]: Store serial: [18721156]
+[2023-07-01 12:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721156]
+[2023-07-01 12:17:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domain-admin
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DetaMetrics
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbrl-gymnasium
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NanoComp
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deairequest
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygrb-lc
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfrecords
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datawhispers
+[2023-07-01 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drkp
+[2023-07-01 12:17:31] INFO root fetch - processPackages [DetaMetrics]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [deairequest]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-01 12:17:31] WARNING root fetch - processPackages [datawhispers]: Skipping, unable to determine old version
+[2023-07-01 12:17:31] INFO root fetch - processPackages [datawhispers]: Start processing: bbrl-gymnasium
+[2023-07-01 12:17:31] INFO root fetch - main [MainThread]: End processing [datawhispers] error
+[2023-07-01 12:17:31] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [pygrb-lc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [NanoComp]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [tfrecords]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [DetaMetrics]: Downloading https://files.pythonhosted.org/packages/d1/f0/f90d934cb804f4cb10c3cd1cc157c541cf063647acf03ee8ea84b4b92531/DetaMetrics-0.0.4.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/ba/1e/a7357f1ee6c0887a4a42e530b6861aeb02a0f6ca848a1e74f3ffbad7b0dc/deairequest-0.0.8.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [NanoComp]: Downloading https://files.pythonhosted.org/packages/f3/ec/a4ee750ccef5c346268ca155b8941ee9f2faa62c343861e488f9c495989e/NanoComp-1.9.1.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/44/db/b61c40028830b0e60ea577ed569f7a4fe0cb66d8ce9c34cfcc286d0cd97e/bbrl_gymnasium-0.1.7.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/44/db/b61c40028830b0e60ea577ed569f7a4fe0cb66d8ce9c34cfcc286d0cd97e/bbrl_gymnasium-0.1.7.tar.gz
+[2023-07-01 12:17:31] WARNING root fetch - processPackages [drkp]: Skipping, unable to determine old version
+[2023-07-01 12:17:31] INFO root fetch - processPackages [drkp]: Start processing: colt
+[2023-07-01 12:17:31] INFO root fetch - main [MainThread]: End processing [drkp] error
+[2023-07-01 12:17:31] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/dc/ed/6da28b13869354504234acf93a011d04e617bf6d22fa9e372b333a228965/pygrb_lc-0.0.8.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [tfrecords]: Downloading https://files.pythonhosted.org/packages/05/04/f392a2049760781234f460f402c6e1ad7bea926e4e7b82d02a95565bf25e/tfrecords-0.2.6-cp39-cp39-win_amd64.whl
+[2023-07-01 12:17:31] INFO root fetch - processPackages [NanoComp]: Downloading https://files.pythonhosted.org/packages/c1/9c/32d11a236bcdb9184941f12413704398bd46fa984d43387cb8f02d0472d4/NanoComp-1.9.2.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [colt]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-01 12:17:31] INFO root fetch - processPackages [DetaMetrics]: Downloading https://files.pythonhosted.org/packages/28/88/d8a21a1833b16920bdf32e22c663448070171b612afac3111145867bfe58/DetaMetrics-0.0.5.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/fe/6a/17a98fe8650785a2e2a0ed1fdd780e64cdee8f3a619be6b8d3456baeb877/deairequest-0.0.9.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [NanoComp]: executing diffoscope
+[2023-07-01 12:17:31] INFO root fetch - processPackages [NanoComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NanoComp-1.9.1.tar.gz tmp/NanoComp-1.9.2.tar.gz --markdown 20230701/N/NanoComp/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/82/f7/2faaeb185c299868c0e6d2bd92523a9c844276a2004c4a53d11f0ce51194/bbrl_gymnasium-0.1.8.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-01 12:17:31] INFO root fetch - processPackages [DetaMetrics]: executing diffoscope
+[2023-07-01 12:17:31] INFO root fetch - processPackages [DetaMetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DetaMetrics-0.0.4.tar.gz tmp/DetaMetrics-0.0.5.tar.gz --markdown 20230701/D/DetaMetrics/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 12:17:31] INFO root fetch - processPackages [colt]: Downloading https://files.pythonhosted.org/packages/36/ca/96996917dc3d8a739948f1131a4a9bb2bdb795df4b7113b87ffa6c7c5575/colt-0.9.2.tar.gz
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.7.tar.gz tmp/bbrl_gymnasium-0.1.8.tar.gz --markdown 20230701/b/bbrl-gymnasium/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-01 12:17:31] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.7.tar.gz tmp/bbrl_gymnasium-0.1.8.tar.gz --markdown 20230701/b/bbrl-gymnasium/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-01 12:17:32] INFO root fetch - processPackages [deairequest]: executing diffoscope
+[2023-07-01 12:17:32] INFO root fetch - processPackages [deairequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deairequest-0.0.8.tar.gz tmp/deairequest-0.0.9.tar.gz --markdown 20230701/d/deairequest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 12:17:32] INFO root fetch - processPackages [pygrb-lc]: Downloading https://files.pythonhosted.org/packages/42/12/fd3cc57b75f172184914dff3e104854d260f7408aa3f42696c4a90c2de41/pygrb_lc-0.0.9.tar.gz
+[2023-07-01 12:17:32] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-01 12:17:32] INFO root fetch - processPackages [pygrb-lc]: executing diffoscope
+[2023-07-01 12:17:32] INFO root fetch - processPackages [pygrb-lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrb_lc-0.0.8.tar.gz tmp/pygrb_lc-0.0.9.tar.gz --markdown 20230701/p/pygrb-lc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 12:17:32] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-01 12:17:32] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230701/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-01 12:17:32] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-01 12:17:32] INFO root fetch - processPackages [colt]: Downloading https://files.pythonhosted.org/packages/fb/8f/dfa8977d73d35b6bd615bcd525646456d72a46c119737c74395eaae9c2df/colt-0.9.3.tar.gz
+[2023-07-01 12:17:32] INFO root fetch - processPackages [colt]: executing diffoscope
+[2023-07-01 12:17:32] INFO root fetch - processPackages [colt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colt-0.9.2.tar.gz tmp/colt-0.9.3.tar.gz --markdown 20230701/c/colt/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-01 12:17:32] INFO root fetch - processPackages [tfrecords]: Downloading https://files.pythonhosted.org/packages/3f/a5/128410296d9e5b87745c64223f8cb518a6cef6952dcb0b851f1475683c7b/tfrecords-0.2.7-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-01 12:17:32] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-01 12:17:32] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230701/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-01 12:17:32] WARNING root fetch - processPackages [tfrecords]: Skipping package: exceeds size limit 15414899>=10485760
+[2023-07-01 12:17:32] INFO root fetch - main [MainThread]: End processing [tfrecords] error
+[2023-07-01 12:17:33] INFO root fetch - processPackages [DetaMetrics]: Remove: archive file [/home/abi/fetcher/tmp/DetaMetrics-0.0.4.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - processPackages [DetaMetrics]: Remove: archive file [/home/abi/fetcher/tmp/DetaMetrics-0.0.5.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - main [MainThread]: End processing [DetaMetrics]: success
+[2023-07-01 12:17:33] INFO root fetch - processPackages [NanoComp]: Remove: archive file [/home/abi/fetcher/tmp/NanoComp-1.9.1.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - processPackages [NanoComp]: Remove: archive file [/home/abi/fetcher/tmp/NanoComp-1.9.2.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - main [MainThread]: End processing [NanoComp]: success
+[2023-07-01 12:17:33] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.8.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - processPackages [pygrb-lc]: Remove: archive file [/home/abi/fetcher/tmp/pygrb_lc-0.0.9.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - main [MainThread]: End processing [pygrb-lc]: success
+[2023-07-01 12:17:33] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.7.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.8.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-01 12:17:33] INFO root fetch - processPackages [colt]: Remove: archive file [/home/abi/fetcher/tmp/colt-0.9.2.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - processPackages [colt]: Remove: archive file [/home/abi/fetcher/tmp/colt-0.9.3.tar.gz]
+[2023-07-01 12:17:33] INFO root fetch - main [MainThread]: End processing [colt]: success
+[2023-07-01 12:17:33] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-01 12:17:34] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.8.tar.gz]
+[2023-07-01 12:17:34] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.9.tar.gz]
+[2023-07-01 12:17:34] INFO root fetch - main [MainThread]: End processing [deairequest]: success
+[2023-07-01 12:17:45] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-01 12:17:45] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-01 12:17:45] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-01 12:18:25] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-01 12:18:25] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-01 12:18:25] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-01 12:18:25] INFO root fetch - main [MainThread]: Store serial: [18721208]
