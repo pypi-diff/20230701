@@ -9532,3 +9532,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:42:54] INFO root fetch - processPackages [frida]: Remove: archive file [/home/abi/fetcher/tmp/frida-9.1.9.tar.gz]
 [2023-07-01 07:42:54] INFO root fetch - main [MainThread]: End processing [frida]: success
 [2023-07-01 07:42:54] INFO root fetch - main [MainThread]: Store serial: [18720033]
+[2023-07-01 07:47:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720033]
+[2023-07-01 07:48:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-01 07:48:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySide6-Fluent-Widgets
+[2023-07-01 07:48:03] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 07:48:03] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/7f/10/c963e0f91f6d8a83f5035491106245cee8a7eec51fbba33a22c47e371ec2/PySide6-Fluent-Widgets-0.9.8.tar.gz
+[2023-07-01 07:48:04] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/6b/bd/54ca10274cbee556aa6a79d64197c4e765cba4d3dfd14dcc758b91e4b422/PySide6-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-01 07:48:04] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-07-01 07:48:04] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz --markdown 20230701/P/PySide6-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 07:48:06] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.8.tar.gz]
+[2023-07-01 07:48:06] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-01 07:48:06] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-07-01 07:48:06] INFO root fetch - main [MainThread]: Store serial: [18720036]
