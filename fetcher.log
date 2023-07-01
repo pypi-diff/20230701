@@ -14506,3 +14506,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:50:37] INFO root fetch - processPackages [autobean-refactor]: Remove: archive file [/home/abi/fetcher/tmp/autobean-refactor-0.2.4.tar.gz]
 [2023-07-01 15:50:37] INFO root fetch - main [MainThread]: End processing [autobean-refactor]: success
 [2023-07-01 15:50:37] INFO root fetch - main [MainThread]: Store serial: [18722163]
+[2023-07-01 15:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722163]
+[2023-07-01 15:55:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datawhispers
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellworld
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-tpp
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CartiMorph-nnUNet
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: market-engine
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rvtools
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas-xlwt
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fogLedger
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mhn
+[2023-07-01 15:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Musicreater
+[2023-07-01 15:55:46] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 15:55:46] INFO root fetch - processPackages [fogLedger]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-07-01 15:55:46] WARNING root fetch - processPackages [pandas-xlwt]: Skipping, unable to determine old version
+[2023-07-01 15:55:46] INFO root fetch - processPackages [pandas-xlwt]: Start processing: dark-web3-lib
+[2023-07-01 15:55:46] INFO root fetch - processPackages [datawhispers]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-01 15:55:46] INFO root fetch - main [MainThread]: End processing [pandas-xlwt] error
+[2023-07-01 15:55:46] WARNING root fetch - processPackages [CartiMorph-nnUNet]: Skipping, unable to determine old version
+[2023-07-01 15:55:46] INFO root fetch - processPackages [CartiMorph-nnUNet]: Start processing: tensordict-nightly
+[2023-07-01 15:55:46] INFO root fetch - main [MainThread]: End processing [CartiMorph-nnUNet] error
+[2023-07-01 15:55:46] INFO root fetch - processPackages [rvtools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 15:55:46] INFO root fetch - processPackages [mhn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 15:55:46] INFO root fetch - processPackages [Musicreater]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-01 15:55:46] WARNING root fetch - processPackages [easy-tpp]: Skipping, unable to determine old version
+[2023-07-01 15:55:46] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:55:46] INFO root fetch - main [MainThread]: End processing [easy-tpp] error
+[2023-07-01 15:55:46] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/a0/46/2b1b0f389bef0e01140e46f392ebf3f74d918bc1ac75a2b6f9016681b035/datawhispers-0.2.5.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [rvtools]: Downloading https://files.pythonhosted.org/packages/72/f7/f587e669cf2890874dcd0351ed29ac1ab9afbc805f09d55015ae931a5289/rvtools-0.1.5.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-01 15:55:46] WARNING root fetch - processPackages [dark-web3-lib]: Skipping, unable to determine old version
+[2023-07-01 15:55:46] INFO root fetch - main [MainThread]: End processing [dark-web3-lib] error
+[2023-07-01 15:55:46] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.1] Old Version: [2023.6.8]
+[2023-07-01 15:55:46] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/b0/14/07cf25e9f1c436ceff65d30fb5f312554c6989d306ca9ce0950848f78178/fogLedger-1.1.2.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/e0/7b/2aecf2dcdbc0ead2167730f561dbc0a3d65d3feae547b872c8b083732a35/Musicreater-1.1.0.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [mhn]: Downloading https://files.pythonhosted.org/packages/3b/a1/0d19b95f39da60af8aa123e0886cb4b578e1b03de64ef2be927c8ea31e01/mhn-0.0.8.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [rvtools]: Downloading https://files.pythonhosted.org/packages/d0/c4/f1b898e1d93063605b2646f9052d45dbc0ab2b94eb535adf82407161e594/rvtools-0.1.6.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/5a/19/ce1b823f8027da656922d1f590dc75a293ce0387049067f2128a38ae86ad/datawhispers-0.2.6.tar.gz
+[2023-07-01 15:55:46] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-01 15:55:46] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230701/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:55:46] INFO root fetch - processPackages [rvtools]: executing diffoscope
+[2023-07-01 15:55:46] INFO root fetch - processPackages [rvtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rvtools-0.1.5.tar.gz tmp/rvtools-0.1.6.tar.gz --markdown 20230701/r/rvtools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 15:55:46] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-07-01 15:55:46] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 15:55:46] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.5.tar.gz tmp/datawhispers-0.2.6.tar.gz --markdown 20230701/d/datawhispers/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-01 15:55:46] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-01 15:55:47] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/60/da/879af6e751ef0ca9572ca5a3dc08c7851e5cc0c7020ad9d4b0a932948364/fogLedger-2.0.0.tar.gz
+[2023-07-01 15:55:47] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-01 15:55:47] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230701/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 15:55:47] INFO root fetch - processPackages [mhn]: Downloading https://files.pythonhosted.org/packages/1c/ef/ff4796ee073b5cc45c8393f492654dc7144b79e5348f85cded722984d02e/mhn-0.0.9.tar.gz
+[2023-07-01 15:55:47] INFO root fetch - processPackages [fogLedger]: executing diffoscope
+[2023-07-01 15:55:47] INFO root fetch - processPackages [fogLedger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedger-1.1.2.tar.gz tmp/fogLedger-2.0.0.tar.gz --markdown 20230701/f/fogLedger/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-07-01 15:55:47] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ec/40/c1888d13eb6588e9835da067dc1cc6d841d6a4251743401345238d80a544/tensordict_nightly-2023.7.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-07-01 15:55:47] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/99/76/bbdbf699b8dbeaffe9bf2d12e35fdcbf158beb9d0939bf0833dd3e0ca8cf/Musicreater-1.2.0.tar.gz
+[2023-07-01 15:55:47] INFO root fetch - processPackages [mhn]: executing diffoscope
+[2023-07-01 15:55:47] INFO root fetch - processPackages [mhn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhn-0.0.8.tar.gz tmp/mhn-0.0.9.tar.gz --markdown 20230701/m/mhn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 15:55:47] INFO root fetch - processPackages [Musicreater]: executing diffoscope
+[2023-07-01 15:55:47] INFO root fetch - processPackages [Musicreater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Musicreater-1.1.0.tar.gz tmp/Musicreater-1.2.0.tar.gz --markdown 20230701/M/Musicreater/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-01 15:55:47] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-01 15:55:47] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.7.1-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230701/t/tensordict-nightly/2023.6.8-2023.7.1/diff.md --exclude *.pyd
+[2023-07-01 15:55:48] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.5.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.6.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 15:55:48] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-1.1.2.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.0.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
+[2023-07-01 15:55:48] INFO root fetch - processPackages [rvtools]: Remove: archive file [/home/abi/fetcher/tmp/rvtools-0.1.5.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [rvtools]: Remove: archive file [/home/abi/fetcher/tmp/rvtools-0.1.6.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [rvtools]: success
+[2023-07-01 15:55:48] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-01 15:55:48] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-01 15:55:48] INFO root fetch - processPackages [mhn]: Remove: archive file [/home/abi/fetcher/tmp/mhn-0.0.8.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [mhn]: Remove: archive file [/home/abi/fetcher/tmp/mhn-0.0.9.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [mhn]: success
+[2023-07-01 15:55:48] INFO root fetch - processPackages [Musicreater]: Remove: archive file [/home/abi/fetcher/tmp/Musicreater-1.1.0.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - processPackages [Musicreater]: Remove: archive file [/home/abi/fetcher/tmp/Musicreater-1.2.0.tar.gz]
+[2023-07-01 15:55:48] INFO root fetch - main [MainThread]: End processing [Musicreater]: success
+[2023-07-01 15:55:49] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-07-01 15:55:49] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.1-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 15:55:49] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-01 15:55:49] INFO root fetch - main [MainThread]: Store serial: [18722204]
