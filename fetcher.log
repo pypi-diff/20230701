@@ -17509,3 +17509,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:38:29] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.9.tar.gz]
 [2023-07-01 19:38:29] INFO root fetch - main [MainThread]: End processing [pyasd]: success
 [2023-07-01 19:38:29] INFO root fetch - main [MainThread]: Store serial: [18723426]
+[2023-07-01 19:43:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723426]
+[2023-07-01 19:43:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 19:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SecureMessaging
+[2023-07-01 19:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-07-01 19:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Galvatron
+[2023-07-01 19:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: market-engine
+[2023-07-01 19:43:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-synchronizer
+[2023-07-01 19:43:38] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 19:43:38] INFO root fetch - processPackages [SecureMessaging]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 19:43:38] INFO root fetch - processPackages [dxsp]: New version: [3.0.0] Old Version: [2.6.9]
+[2023-07-01 19:43:38] INFO root fetch - processPackages [Galvatron]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 19:43:38] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-01 19:43:38] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/87/bd/78370fef69231a7c538b41f91bf6c0de955f9239875e1dd9eb21588dfc88/SecureMessaging-1.0.2-py3-none-any.whl
+[2023-07-01 19:43:38] INFO root fetch - processPackages [xia-synchronizer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 19:43:38] INFO root fetch - processPackages [Galvatron]: Downloading https://files.pythonhosted.org/packages/bf/b0/3b7b5c6f8b2d1cf101094d20bc6f2c6d912d8f7fd173f3fd93f7c0dd39bf/Galvatron-0.0.1.tar.gz
+[2023-07-01 19:43:38] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/8e/36/ebff45e8fcfc7c802f316046901c42642ea5b4cf5a7cca835e9dba832590/dxsp-2.6.9.tar.gz
+[2023-07-01 19:43:38] ERROR root fetch - processPackages [SecureMessaging]: Unable to fetch info: No such project/version 'SecureMessaging' 1.0.3
+[2023-07-01 19:43:38] INFO root fetch - main [MainThread]: End processing [SecureMessaging] error
+[2023-07-01 19:43:38] INFO root fetch - processPackages [xia-synchronizer]: Downloading https://files.pythonhosted.org/packages/0a/6c/ec0ab839234b048403ec48c9f5880b2a0a57f9c5d7f18a4418392bfcbc35/xia_synchronizer-0.0.5-cp39-none-win_amd64.whl
+[2023-07-01 19:43:38] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-01 19:43:38] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-01 19:43:38] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230701/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:43:38] INFO root fetch - processPackages [Galvatron]: Downloading https://files.pythonhosted.org/packages/cf/48/1f6d64dad82ac229d00f4f2bbb4bdb4b169cbc2ac19a4d9954fb7132a187/Galvatron-0.0.2.tar.gz
+[2023-07-01 19:43:38] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/42/74/2cd761d59a9ba5a4402fb94e12690017cab0481dda559c5a7ee6f87bdd47/dxsp-3.0.0.tar.gz
+[2023-07-01 19:43:39] INFO root fetch - processPackages [Galvatron]: executing diffoscope
+[2023-07-01 19:43:39] INFO root fetch - processPackages [Galvatron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Galvatron-0.0.1.tar.gz tmp/Galvatron-0.0.2.tar.gz --markdown 20230701/G/Galvatron/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 19:43:39] INFO root fetch - processPackages [xia-synchronizer]: Downloading https://files.pythonhosted.org/packages/e9/13/df34816343f6a63cb47e9313575d03d26e599a8d64347c4750e82813cb33/xia_synchronizer-0.0.6-cp39-none-win_amd64.whl
+[2023-07-01 19:43:39] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-01 19:43:39] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.6.9.tar.gz tmp/dxsp-3.0.0.tar.gz --markdown 20230701/d/dxsp/2.6.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-01 19:43:39] INFO root fetch - processPackages [xia-synchronizer]: executing diffoscope
+[2023-07-01 19:43:39] INFO root fetch - processPackages [xia-synchronizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_synchronizer-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_synchronizer-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-synchronizer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 19:43:39] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-01 19:43:39] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-01 19:43:39] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-01 19:43:40] INFO root fetch - processPackages [Galvatron]: Remove: archive file [/home/abi/fetcher/tmp/Galvatron-0.0.1.tar.gz]
+[2023-07-01 19:43:40] INFO root fetch - processPackages [Galvatron]: Remove: archive file [/home/abi/fetcher/tmp/Galvatron-0.0.2.tar.gz]
+[2023-07-01 19:43:40] INFO root fetch - main [MainThread]: End processing [Galvatron]: success
+[2023-07-01 19:43:40] INFO root fetch - processPackages [xia-synchronizer]: Remove: archive file [/home/abi/fetcher/tmp/xia_synchronizer-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:43:40] INFO root fetch - processPackages [xia-synchronizer]: Remove: archive file [/home/abi/fetcher/tmp/xia_synchronizer-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:43:40] INFO root fetch - main [MainThread]: End processing [xia-synchronizer]: success
+[2023-07-01 19:43:40] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-2.6.9.tar.gz]
+[2023-07-01 19:43:40] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.0.tar.gz]
+[2023-07-01 19:43:40] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-01 19:43:40] INFO root fetch - main [MainThread]: Store serial: [18723445]
