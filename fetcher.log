@@ -9433,3 +9433,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:27:22] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.7.tar.gz]
 [2023-07-01 07:27:22] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
 [2023-07-01 07:27:22] INFO root fetch - main [MainThread]: Store serial: [18719970]
+[2023-07-01 07:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719970]
+[2023-07-01 07:32:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 07:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systempath
+[2023-07-01 07:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swoop.db
+[2023-07-01 07:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-deta
+[2023-07-01 07:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-07-01 07:32:31] INFO root fetch - processPackages [systempath]: New version: [1.0a8] Old Version: [1.0.9]
+[2023-07-01 07:32:31] INFO root fetch - processPackages [swoop.db]: New version: [7.0.0] Old Version: [2.0.0]
+[2023-07-01 07:32:31] INFO root fetch - processPackages [sql-deta]: New version: [0.0.8a4] Old Version: [0.0.8a3]
+[2023-07-01 07:32:31] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.1.1] Old Version: [2023.7.1.0]
+[2023-07-01 07:32:31] INFO root fetch - processPackages [sql-deta]: Downloading https://files.pythonhosted.org/packages/32/f4/ac2e9e69afa3f5dc69897799e9abdfce2c2208bed32e8de4407a57912e9c/sql_deta-0.0.8a3-py3-none-any.whl
+[2023-07-01 07:32:31] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/c6/c1/551096b80eb6abdfb109f8b3abc9e1a2bef203143460c023f157623f7da4/crazy-thursday-2023.7.1.0.tar.gz
+[2023-07-01 07:32:31] INFO root fetch - processPackages [systempath]: Downloading https://files.pythonhosted.org/packages/bf/b4/77dfa6237413c94ec17ea902d6d8b878e98b99e22a353da2eddb79f95822/systempath-1.0.9-py3-none-any.whl
+[2023-07-01 07:32:31] INFO root fetch - processPackages [sql-deta]: Downloading https://files.pythonhosted.org/packages/a4/af/6e68a76103f607432cbfe492ab691cfc0cc9527095bdee18b329893c861c/sql_deta-0.0.8a4-py3-none-any.whl
+[2023-07-01 07:32:31] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/7c/14/5355ab74cb4529f408b117fd17b69355d4399ff832d874935587d64069ba/crazy-thursday-2023.7.1.1.tar.gz
+[2023-07-01 07:32:31] INFO root fetch - processPackages [sql-deta]: executing diffoscope
+[2023-07-01 07:32:31] INFO root fetch - processPackages [sql-deta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_deta-0.0.8a3-py3-none-any.whl.zip tmp/sql_deta-0.0.8a4-py3-none-any.whl.zip --markdown 20230701/s/sql-deta/0.0.8a3-0.0.8a4/diff.md --exclude *.pyd
+[2023-07-01 07:32:31] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-01 07:32:31] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.1.0.tar.gz tmp/crazy-thursday-2023.7.1.1.tar.gz --markdown 20230701/c/crazy-thursday/2023.7.1.0-2023.7.1.1/diff.md --exclude *.pyd
+[2023-07-01 07:32:31] INFO root fetch - processPackages [swoop.db]: Downloading https://files.pythonhosted.org/packages/9c/2f/487ec3113b888c5e88e84fa21b00fac13355c4f72297211c4234a7006d61/swoop.db-2.0.0.tar.gz
+[2023-07-01 07:32:31] INFO root fetch - processPackages [systempath]: Downloading https://files.pythonhosted.org/packages/5b/bc/611934e160a19307b2fb112a066801478805258d04ba94d63eeac2b835f2/systempath-1.0a8-py3-none-any.whl
+[2023-07-01 07:32:31] INFO root fetch - processPackages [systempath]: executing diffoscope
+[2023-07-01 07:32:31] INFO root fetch - processPackages [systempath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systempath-1.0.9-py3-none-any.whl.zip tmp/systempath-1.0a8-py3-none-any.whl.zip --markdown 20230701/s/systempath/1.0.9-1.0a8/diff.md --exclude *.pyd
+[2023-07-01 07:32:31] INFO root fetch - processPackages [swoop.db]: Downloading https://files.pythonhosted.org/packages/3a/b3/0b3092dcdb8861b9cd0956903e8dde774a2c6207c4400934ab36f4ed72f9/swoop.db-7.0.0.tar.gz
+[2023-07-01 07:32:31] INFO root fetch - processPackages [swoop.db]: executing diffoscope
+[2023-07-01 07:32:31] INFO root fetch - processPackages [swoop.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swoop.db-2.0.0.tar.gz tmp/swoop.db-7.0.0.tar.gz --markdown 20230701/s/swoop.db/2.0.0-7.0.0/diff.md --exclude *.pyd
+[2023-07-01 07:32:32] INFO root fetch - processPackages [sql-deta]: Remove: archive file [/home/abi/fetcher/tmp/sql_deta-0.0.8a3-py3-none-any.whl.zip]
+[2023-07-01 07:32:32] INFO root fetch - processPackages [sql-deta]: Remove: archive file [/home/abi/fetcher/tmp/sql_deta-0.0.8a4-py3-none-any.whl.zip]
+[2023-07-01 07:32:32] INFO root fetch - main [MainThread]: End processing [sql-deta]: success
+[2023-07-01 07:32:32] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.1.0.tar.gz]
+[2023-07-01 07:32:32] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.1.1.tar.gz]
+[2023-07-01 07:32:32] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-01 07:32:32] INFO root fetch - processPackages [systempath]: Remove: archive file [/home/abi/fetcher/tmp/systempath-1.0.9-py3-none-any.whl.zip]
+[2023-07-01 07:32:32] INFO root fetch - processPackages [systempath]: Remove: archive file [/home/abi/fetcher/tmp/systempath-1.0a8-py3-none-any.whl.zip]
+[2023-07-01 07:32:32] INFO root fetch - main [MainThread]: End processing [systempath]: success
+[2023-07-01 07:32:32] INFO root fetch - processPackages [swoop.db]: Remove: archive file [/home/abi/fetcher/tmp/swoop.db-2.0.0.tar.gz]
+[2023-07-01 07:32:32] INFO root fetch - processPackages [swoop.db]: Remove: archive file [/home/abi/fetcher/tmp/swoop.db-7.0.0.tar.gz]
+[2023-07-01 07:32:32] INFO root fetch - main [MainThread]: End processing [swoop.db]: success
+[2023-07-01 07:32:32] INFO root fetch - main [MainThread]: Store serial: [18719980]
