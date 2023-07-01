@@ -14593,3 +14593,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:55:49] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.1-cp39-cp39-macosx_11_0_x86_64.whl.zip]
 [2023-07-01 15:55:49] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
 [2023-07-01 15:55:49] INFO root fetch - main [MainThread]: Store serial: [18722204]
+[2023-07-01 16:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722204]
+[2023-07-01 16:00:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tech-ninja-tistory-api
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cla
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waveglowpkg
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycategory
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heimdallm
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: canvassyncer
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tech-ninja-tistory-api
+[2023-07-01 16:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellworld
+[2023-07-01 16:00:58] INFO root fetch - processPackages [cla]: New version: [1.2.0] Old Version: [1.1.7]
+[2023-07-01 16:00:58] ERROR root fetch - processPackages [pycategory]: Unable to get metadata: No such project 'pycategory'
+[2023-07-01 16:00:58] INFO root fetch - main [MainThread]: End processing [pycategory] error
+[2023-07-01 16:00:58] INFO root fetch - processPackages [heimdallm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 16:00:58] INFO root fetch - processPackages [tech-ninja-tistory-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 16:00:58] INFO root fetch - processPackages [tech-ninja-tistory-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 16:00:58] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 16:00:58] INFO root fetch - processPackages [waveglowpkg]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 16:00:58] INFO root fetch - processPackages [canvassyncer]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-07-01 16:00:58] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-01 16:00:58] INFO root fetch - processPackages [tech-ninja-tistory-api]: Downloading https://files.pythonhosted.org/packages/29/ab/fd4bb9404830d261ff3e60f5d993e5a4ba3e337d47e7e8efc57ce77b11e0/tech-ninja-tistory-api-1.0.2.tar.gz
+[2023-07-01 16:00:58] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/d4/58/7e53683e65a7fe6ced285da65608300ef1f7f361f0247a195e203f8de548/cla-1.1.7.tar.gz
+[2023-07-01 16:00:58] INFO root fetch - processPackages [tech-ninja-tistory-api]: Downloading https://files.pythonhosted.org/packages/29/ab/fd4bb9404830d261ff3e60f5d993e5a4ba3e337d47e7e8efc57ce77b11e0/tech-ninja-tistory-api-1.0.2.tar.gz
+[2023-07-01 16:00:58] INFO root fetch - processPackages [waveglowpkg]: Downloading https://files.pythonhosted.org/packages/33/bc/40a245cfe37f6b6273993059e0193928353dfdb82a06386b988134929825/waveglowpkg-0.0.1.tar.gz
+[2023-07-01 16:00:58] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/21/c1/97f5e25f96be758a448414b6d6b8bece5a945684d963538dc6f33a5fa6ea/heimdallm-0.1.1.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [canvassyncer]: Downloading https://files.pythonhosted.org/packages/6a/87/072907493a50606bd6c8fa1ed12dacd942be718920a8057c1a9bff8b6fe8/canvassyncer-2.0.7.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230701/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 16:00:59] INFO root fetch - processPackages [cla]: Downloading https://files.pythonhosted.org/packages/19/e8/4968d9a99117bfe84e7cc341e8b7c264a4fd820d94fb691dde4de40e9c59/cla-1.2.0.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [waveglowpkg]: Downloading https://files.pythonhosted.org/packages/25/88/cbd7afa401d9d44771cb1841dec5f7fc46f6a1fd8d29c9a3be94136c79f8/waveglowpkg-0.0.2.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [heimdallm]: Downloading https://files.pythonhosted.org/packages/4b/f9/899b8ae9e9811479483a398216c9e83ce46f0ea13e8d21fb44e5db6019b5/heimdallm-0.1.2.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [tech-ninja-tistory-api]: Downloading https://files.pythonhosted.org/packages/c3/d1/14f55c4af487c6d3c9b2777654076432d971bb8948761626b630a3ab85c2/tech-ninja-tistory-api-1.0.3.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [tech-ninja-tistory-api]: Downloading https://files.pythonhosted.org/packages/c3/d1/14f55c4af487c6d3c9b2777654076432d971bb8948761626b630a3ab85c2/tech-ninja-tistory-api-1.0.3.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [cla]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [cla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cla-1.1.7.tar.gz tmp/cla-1.2.0.tar.gz --markdown 20230701/c/cla/1.1.7-1.2.0/diff.md --exclude *.pyd
+[2023-07-01 16:00:59] INFO root fetch - processPackages [canvassyncer]: Downloading https://files.pythonhosted.org/packages/c1/97/39e4f58f2405ad3240f381916dd7bb29a51be0566352a9752672b44d6ede/canvassyncer-2.0.9.tar.gz
+[2023-07-01 16:00:59] INFO root fetch - processPackages [tech-ninja-tistory-api]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [tech-ninja-tistory-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-ninja-tistory-api-1.0.2.tar.gz tmp/tech-ninja-tistory-api-1.0.3.tar.gz --markdown 20230701/t/tech-ninja-tistory-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 16:00:59] INFO root fetch - processPackages [heimdallm]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [heimdallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heimdallm-0.1.1.tar.gz tmp/heimdallm-0.1.2.tar.gz --markdown 20230701/h/heimdallm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 16:00:59] INFO root fetch - processPackages [tech-ninja-tistory-api]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [tech-ninja-tistory-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-ninja-tistory-api-1.0.2.tar.gz tmp/tech-ninja-tistory-api-1.0.3.tar.gz --markdown 20230701/t/tech-ninja-tistory-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 16:00:59] INFO root fetch - processPackages [canvassyncer]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [canvassyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvassyncer-2.0.7.tar.gz tmp/canvassyncer-2.0.9.tar.gz --markdown 20230701/c/canvassyncer/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-07-01 16:00:59] INFO root fetch - processPackages [waveglowpkg]: executing diffoscope
+[2023-07-01 16:00:59] INFO root fetch - processPackages [waveglowpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveglowpkg-0.0.1.tar.gz tmp/waveglowpkg-0.0.2.tar.gz --markdown 20230701/w/waveglowpkg/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 16:01:00] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-01 16:01:00] INFO root fetch - processPackages [tech-ninja-tistory-api]: Remove: archive file [/home/abi/fetcher/tmp/tech-ninja-tistory-api-1.0.2.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - processPackages [tech-ninja-tistory-api]: Remove: archive file [/home/abi/fetcher/tmp/tech-ninja-tistory-api-1.0.3.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - main [MainThread]: End processing [tech-ninja-tistory-api]: success
+[2023-07-01 16:01:00] INFO root fetch - main [MainThread]: End processing [tech-ninja-tistory-api]: success
+[2023-07-01 16:01:00] INFO root fetch - processPackages [waveglowpkg]: Remove: archive file [/home/abi/fetcher/tmp/waveglowpkg-0.0.1.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - processPackages [waveglowpkg]: Remove: archive file [/home/abi/fetcher/tmp/waveglowpkg-0.0.2.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - main [MainThread]: End processing [waveglowpkg]: success
+[2023-07-01 16:01:00] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.1.7.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - processPackages [cla]: Remove: archive file [/home/abi/fetcher/tmp/cla-1.2.0.tar.gz]
+[2023-07-01 16:01:00] INFO root fetch - main [MainThread]: End processing [cla]: success
+[2023-07-01 16:01:01] INFO root fetch - processPackages [canvassyncer]: Remove: archive file [/home/abi/fetcher/tmp/canvassyncer-2.0.7.tar.gz]
+[2023-07-01 16:01:01] INFO root fetch - processPackages [canvassyncer]: Remove: archive file [/home/abi/fetcher/tmp/canvassyncer-2.0.9.tar.gz]
+[2023-07-01 16:01:01] INFO root fetch - main [MainThread]: End processing [canvassyncer]: success
+[2023-07-01 16:01:01] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.1.1.tar.gz]
+[2023-07-01 16:01:01] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.1.2.tar.gz]
+[2023-07-01 16:01:01] INFO root fetch - main [MainThread]: End processing [heimdallm]: success
+[2023-07-01 16:01:01] INFO root fetch - main [MainThread]: Store serial: [18722234]
