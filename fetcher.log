@@ -12927,3 +12927,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:28:43] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-07-01 13:28:43] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-07-01 13:28:43] INFO root fetch - main [MainThread]: Store serial: [18721491]
+[2023-07-01 13:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721491]
+[2023-07-01 13:33:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nidalee
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djdantic
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tendril-filestore
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nopasaran
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djfapi
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tarandm-predictive-model-support
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-nano
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-llm
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos
+[2023-07-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-serving
+[2023-07-01 13:33:52] WARNING root fetch - processPackages [tarandm-predictive-model-support]: Skipping, unable to determine old version
+[2023-07-01 13:33:52] INFO root fetch - processPackages [tarandm-predictive-model-support]: Start processing: nonebot-adapter-villa
+[2023-07-01 13:33:52] INFO root fetch - main [MainThread]: End processing [tarandm-predictive-model-support] error
+[2023-07-01 13:33:52] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 13:33:52] WARNING root fetch - processPackages [nopasaran]: Skipping, unable to determine old version
+[2023-07-01 13:33:52] INFO root fetch - main [MainThread]: End processing [nopasaran] error
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [nidalee]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [nonebot-adapter-villa]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-01 13:33:52] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/ff/96/4aad9c3007b27a6e75538624bc0864be73be018aab0bc08e2fae5027d615/tendril-filestore-0.2.8.tar.gz
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/f1/d3/d3a6fc529390863492cce68a9c55f796bbfb9d14b59c0de39637d2fb11fb/bigdl_serving-2.4.0b20230630-py2.py3-none-any.whl
+[2023-07-01 13:33:52] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-07-01 13:33:52] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/2f/ff/a0999f732e88b722cefe44540986135016924bbf569bcbcbd3f36a145615/nonebot_adapter_villa-0.4.1.tar.gz
+[2023-07-01 13:33:52] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/10/7a/59bae3ebb58ef342466a6f44f31ea5ed574cfcd1206172174c0eae90c40f/nidalee-0.1.8-py3-none-any.whl
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/ed/47/020e3817107a9aeaa1f635af192f707ee5b13b71b20e22761eebfe9912f6/bigdl_chronos-2.4.0b20230630-py3-none-win_amd64.whl
+[2023-07-01 13:33:52] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/80/bc/206b7d9a11fb91bf9f6eeab2206c73bde3ed3f16a04818107002ed648287/bigdl_llm-2.4.0b20230630-py3-none-win_amd64.whl
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/12/2d/3bf694ff4b0a24fdec479eb8af1f437b2288bb3bcbd3a75de12ec9fa97c7/bigdl_nano-2.4.0b20230630-py3-none-win_amd64.whl
+[2023-07-01 13:33:52] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/d9/1e/d54f6db51c670a79d285b3c3d863de03484e3747b5637814806029bf69b5/tendril-filestore-0.2.9.tar.gz
+[2023-07-01 13:33:52] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/ab/ef/0166a7e4f408445dee07d9ce8665b8dfdfa487a651f3f3f1266a39a80d4f/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl
+[2023-07-01 13:33:52] INFO root fetch - processPackages [nonebot-adapter-villa]: Downloading https://files.pythonhosted.org/packages/42/15/8969cb170f63827fb75fc585808a92d46997518260f35eae469a53c41d45/nonebot_adapter_villa-0.4.2.tar.gz
+[2023-07-01 13:33:52] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-07-01 13:33:52] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.8.tar.gz tmp/tendril-filestore-0.2.9.tar.gz --markdown 20230701/t/tendril-filestore/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/56/b7/ac0c4eaa1337ac6fcaff5018308f1b8bf0eec2d931765e0edaafe3ed9b0b/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-01 13:33:53] INFO root fetch - processPackages [nonebot-adapter-villa]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [nonebot-adapter-villa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_villa-0.4.1.tar.gz tmp/nonebot_adapter_villa-0.4.2.tar.gz --markdown 20230701/n/nonebot-adapter-villa/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230630-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl.zip --markdown 20230701/b/bigdl-serving/2.4.0b20230630-2.4.0b20230701/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/7f/60/d8a9b39c64d96aba156a3f4b3c47fc589ae2ae6e96ab43b2e08053b1baf3/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-01 13:33:53] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-07-01 13:33:53] INFO root fetch - processPackages [nidalee]: Downloading https://files.pythonhosted.org/packages/7b/aa/5d7542fb6437eddba82a60b311003a8763fdde7cc5d9bce83abd335996cd/nidalee-0.1.9-py3-none-any.whl
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/ea/20/795e5333e51f116eebc23cfb6f6475d9f5ce710f7e778f18fdbd279b63d1/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl
+[2023-07-01 13:33:53] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20230701/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [nidalee]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [nidalee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nidalee-0.1.8-py3-none-any.whl.zip tmp/nidalee-0.1.9-py3-none-any.whl.zip --markdown 20230701/n/nidalee/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230630-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl.zip --markdown 20230701/b/bigdl-chronos/2.4.0b20230630-2.4.0b20230701/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230630-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip --markdown 20230701/b/bigdl-nano/2.4.0b20230630-2.4.0b20230701/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230630-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl.zip --markdown 20230701/b/bigdl-llm/2.4.0b20230630-2.4.0b20230701/diff.md --exclude *.pyd
+[2023-07-01 13:33:53] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-07-01 13:33:53] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230701/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 13:33:54] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.4.1.tar.gz]
+[2023-07-01 13:33:54] INFO root fetch - processPackages [nonebot-adapter-villa]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_villa-0.4.2.tar.gz]
+[2023-07-01 13:33:54] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-villa]: success
+[2023-07-01 13:33:54] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230630-py2.py3-none-any.whl.zip]
+[2023-07-01 13:33:54] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230701-py2.py3-none-any.whl.zip]
+[2023-07-01 13:33:54] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-01 13:33:54] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.8-py3-none-any.whl.zip]
+[2023-07-01 13:33:54] INFO root fetch - processPackages [nidalee]: Remove: archive file [/home/abi/fetcher/tmp/nidalee-0.1.9-py3-none-any.whl.zip]
+[2023-07-01 13:33:54] INFO root fetch - main [MainThread]: End processing [nidalee]: success
+[2023-07-01 13:33:54] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2023-07-01 13:33:54] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2023-07-01 13:33:54] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2023-07-01 13:33:54] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2023-07-01 13:33:54] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2023-07-01 13:33:54] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-07-01 13:33:55] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230630-py3-none-win_amd64.whl.zip]
+[2023-07-01 13:33:55] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-01 13:33:55] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-01 13:33:55] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230630-py3-none-win_amd64.whl.zip]
+[2023-07-01 13:33:55] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-01 13:33:55] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-01 13:33:56] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230630-py3-none-win_amd64.whl.zip]
+[2023-07-01 13:33:56] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230701-py3-none-win_amd64.whl.zip]
+[2023-07-01 13:33:56] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-01 13:34:47] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.8.tar.gz]
+[2023-07-01 13:34:47] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
+[2023-07-01 13:34:47] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-07-01 13:34:47] INFO root fetch - main [MainThread]: Store serial: [18721524]
