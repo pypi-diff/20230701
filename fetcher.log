@@ -17232,3 +17232,175 @@ EOFError: EOF read where object expected
 [2023-07-01 19:22:53] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
 [2023-07-01 19:22:53] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
 [2023-07-01 19:22:53] INFO root fetch - main [MainThread]: Store serial: [18723350]
+[2023-07-01 19:27:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723350]
+[2023-07-01 19:28:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-harness
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jerrymander
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinabs
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-local-features
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: market-engine
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phable
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linfa-vi
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sinabs
+[2023-07-01 19:28:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-puller-flask
+[2023-07-01 19:28:02] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: New version: [0.0.6a1688229249] Old Version: [0.0.6]
+[2023-07-01 19:28:02] WARNING root fetch - processPackages [jerrymander]: Skipping, unable to determine old version
+[2023-07-01 19:28:02] INFO root fetch - main [MainThread]: End processing [jerrymander] error
+[2023-07-01 19:28:02] INFO root fetch - processPackages [easy-local-features]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-01 19:28:02] INFO root fetch - processPackages [linfa-vi]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-01 19:28:02] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev1] Old Version: [1.2.6.dev6]
+[2023-07-01 19:28:02] INFO root fetch - processPackages [market-engine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 19:28:02] INFO root fetch - processPackages [xia-puller-flask]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 19:28:02] INFO root fetch - processPackages [phable]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 19:28:02] INFO root fetch - processPackages [sinabs]: New version: [1.2.7.dev1] Old Version: [1.2.6.dev6]
+[2023-07-01 19:28:03] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/6a/4c/b5c5e7c22233f75d705ab9b54d580a756e5662ca56a9066cac54a659751c/linfa_vi-1.0.0.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 19:28:03] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/65/b8/cc0815b769875bbc57b0c5f199b0a3987be090f1fafab07531252b2972a2/market-engine-0.0.8.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/43/c3/81f438c978735fd3c1af6c41ac8e41a886352f6c7276520b475bfae6e462/sinabs-1.2.6.dev6.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/43/c3/81f438c978735fd3c1af6c41ac8e41a886352f6c7276520b475bfae6e462/sinabs-1.2.6.dev6.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Downloading https://files.pythonhosted.org/packages/62/01/22472ce198a04afcc480b0a863cfa26699dba066f57f9af24518ce745171/lbrlabs_pulumi_harness-0.0.6.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [xia-puller-flask]: Downloading https://files.pythonhosted.org/packages/19/23/82a4ad7bb000bd5da03d6217cec4715a30414160255b6d4399d996efa047/xia_puller_flask-0.0.8-cp39-none-win_amd64.whl
+[2023-07-01 19:28:03] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/2a/a3/56a0fc32e5fa56b527d68337469c068204f59f8476bf34bab128d9bdd6ee/easy_local_features-0.2.3.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/30/a6/d813ba5e7a51e15726c607daa98754b678ab982f0cb1628c2f85291c1ca8/phable-0.1.8.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/0b/88/47639a851c5081b1dbc460316d90eb0716fb29e775062a14575a98e3ef54/market-engine-0.0.9.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/b3/e1/ceb293135cd3ce4eecb01c953e03a4b923728e631ff04ff483d5fec6cd6d/linfa_vi-1.0.2.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [xia-puller-flask]: Downloading https://files.pythonhosted.org/packages/9a/f6/987f24b4e06ad2038a2ebea96475cd0ead95155af8e2c0758b050577b53d/xia_puller_flask-0.0.9-cp39-none-win_amd64.whl
+[2023-07-01 19:28:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.0.0.tar.gz tmp/linfa_vi-1.0.2.tar.gz --markdown 20230701/l/linfa-vi/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/82/2d/3a8ea8a32a694519cacaa74de7d4d45ccd4f524e5eacdd1654370365bc85/phable-0.1.9.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Downloading https://files.pythonhosted.org/packages/c2/2f/49d31c0e7f48e152560ba4ec35afa42316f92015599ea76964c91cabd22f/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/31/75/07f67cf8540501e5dcd52eb30f38665ddada9d0e611c955ed53647ae2192/sinabs-1.2.7.dev1.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [easy-local-features]: Downloading https://files.pythonhosted.org/packages/dd/d6/3b3abfa3b12dfda67cfa235516e43b1ca5ddc20bca7922bc5b0bfce5ff8e/easy_local_features-0.3.0.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/31/75/07f67cf8540501e5dcd52eb30f38665ddada9d0e611c955ed53647ae2192/sinabs-1.2.7.dev1.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [xia-puller-flask]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [xia-puller-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller_flask-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_puller_flask-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-puller-flask/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [phable]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [phable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phable-0.1.8.tar.gz tmp/phable-0.1.9.tar.gz --markdown 20230701/p/phable/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_harness-0.0.6.tar.gz tmp/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz --markdown 20230701/l/lbrlabs-pulumi-harness/0.0.6-0.0.6a1688229249/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [easy-local-features]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [easy-local-features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_local_features-0.2.3.tar.gz tmp/easy_local_features-0.3.0.tar.gz --markdown 20230701/e/easy-local-features/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.0.8.tar.gz tmp/market-engine-0.0.9.tar.gz --markdown 20230701/m/market-engine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev6.tar.gz tmp/sinabs-1.2.7.dev1.tar.gz --markdown 20230701/s/sinabs/1.2.6.dev6-1.2.7.dev1/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev6.tar.gz tmp/sinabs-1.2.7.dev1.tar.gz --markdown 20230701/s/sinabs/1.2.6.dev6-1.2.7.dev1/diff.md --exclude *.pyd
+[2023-07-01 19:28:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 19:28:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 19:28:04] INFO root fetch - processPackages [xia-puller-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller_flask-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:28:04] INFO root fetch - processPackages [xia-puller-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller_flask-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:28:04] INFO root fetch - main [MainThread]: End processing [xia-puller-flask]: success
+[2023-07-01 19:28:04] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.0.0.tar.gz]
+[2023-07-01 19:28:04] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.0.2.tar.gz]
+[2023-07-01 19:28:04] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-01 19:28:05] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.8.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.0.9.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2023-07-01 19:28:05] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.2.3.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - processPackages [easy-local-features]: Remove: archive file [/home/abi/fetcher/tmp/easy_local_features-0.3.0.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - main [MainThread]: End processing [easy-local-features]: success
+[2023-07-01 19:28:05] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.8.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.9.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - main [MainThread]: End processing [phable]: success
+[2023-07-01 19:28:05] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 19:28:05] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev6.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.7.dev1.tar.gz]
+[2023-07-01 19:28:05] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-07-01 19:28:06] ERROR root fetch - processPackages [sinabs]: Diffoscope failed: gzip: tmp/sinabs-1.2.7.dev1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/sinabs-1.2.7.dev1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-01 19:28:06] INFO root fetch - main [MainThread]: End processing [sinabs] error
+[2023-07-01 19:28:06] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_harness-0.0.6.tar.gz]
+[2023-07-01 19:28:06] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz]
+[2023-07-01 19:28:06] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-harness]: success
+[2023-07-01 19:28:06] INFO root fetch - main [MainThread]: Store serial: [18723379]
