@@ -16896,3 +16896,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:02:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz]
 [2023-07-01 19:02:03] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-harness]: success
 [2023-07-01 19:02:03] INFO root fetch - main [MainThread]: Store serial: [18723241]
+[2023-07-01 19:07:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723241]
+[2023-07-01 19:07:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbelievaboat
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nics
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourceknight
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sashimi-domains
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdup
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iza
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellworld
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atproto
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ifstate
+[2023-07-01 19:07:12] INFO root fetch - processPackages [unbelievaboat]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [nics]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [sourceknight]: New version: [0.3] Old Version: [0.2]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [iza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [sashimi-domains]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/bb/e4/7d82bd9ca82b19d78408f21a9c4b4a304c1fc9f662e06c2faec83efe0979/iza-0.0.7.tar.gz
+[2023-07-01 19:07:12] INFO root fetch - processPackages [atproto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [ifstate]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-07-01 19:07:12] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/7e/a0/06ca137c2c2d84a43708d8d363d5b785d5a172567d842106d5230b685be4/unbelievaboat-1.0.3.tar.gz
+[2023-07-01 19:07:12] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sourceknight]: Downloading https://files.pythonhosted.org/packages/ab/a0/73be7feec9113cf7f011c05f92863637c00ec2652f7c19da001500087cf2/sourceknight-0.2.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/e0/80/9477aeaae7ad2a31a9b3ac43852a91c65271573db4aea57d25b5cd6d4901/nics-2.4.0.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/8e/36/9bb47fdd13107c51f1b71186865e6f58fead91e2821a41b1c4b4eb33167e/sashimi_domains-0.9.2.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-07-01 19:07:13] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/56/45/c6f3c48f703c21cd01145c663486f051f3d98b12a1dd86e8b022af78f343/iza-0.0.8.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/41/b1/8fd5cf9bb765a6bab94fe28a2c42c4f7961bca68115339fa301a2551b814/atproto-0.0.8.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [ifstate]: Downloading https://files.pythonhosted.org/packages/d3/63/7d1d54526921561551ace1d597c6878a78092d336a3f6ecfe768dc8334a9/ifstate-1.8.4.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.7.tar.gz tmp/iza-0.0.8.tar.gz --markdown 20230701/i/iza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/cb/1e/d4b42123e79786d179e1a0d3762bf24cfa9cd82d15b5f4ee22bf31bf7a07/unbelievaboat-1.0.4.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/7d/f0/6b0653248b96934eca3587b0930337d277e4f9469aa5bf4ff6e08ab1b168/nics-2.4.1.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230701/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sourceknight]: Downloading https://files.pythonhosted.org/packages/4c/cd/cb9e5dab946e2453e093edc79b8a9f3d4f05911af1a97e1625cc1cf8f7ad/sourceknight-0.3.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/a2/02/81939ad557c50fb4d406b1a538cc0e3cd33c8cb397ead7d0e069a10fbdaa/sashimi_domains-0.9.3.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sourceknight]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sourceknight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourceknight-0.2.tar.gz tmp/sourceknight-0.3.tar.gz --markdown 20230701/s/sourceknight/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.4.0.tar.gz tmp/nics-2.4.1.tar.gz --markdown 20230701/n/nics/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [ifstate]: Downloading https://files.pythonhosted.org/packages/79/f7/861f207e22bc28d09b39c85d5c1e601d73801cfbee4f700499dd85bad47e/ifstate-1.8.5.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.0.3.tar.gz tmp/unbelievaboat-1.0.4.tar.gz --markdown 20230701/u/unbelievaboat/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [atproto]: Downloading https://files.pythonhosted.org/packages/77/1e/7dc305471e00c4c47363abdd5b249d56887681dfb22aa19f38866d6e7506/atproto-0.0.9.tar.gz
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sashimi-domains]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [sashimi-domains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sashimi_domains-0.9.2.tar.gz tmp/sashimi_domains-0.9.3.tar.gz --markdown 20230701/s/sashimi-domains/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [ifstate]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [ifstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifstate-1.8.4.tar.gz tmp/ifstate-1.8.5.tar.gz --markdown 20230701/i/ifstate/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] INFO root fetch - processPackages [atproto]: executing diffoscope
+[2023-07-01 19:07:13] INFO root fetch - processPackages [atproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atproto-0.0.8.tar.gz tmp/atproto-0.0.9.tar.gz --markdown 20230701/a/atproto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:07:13] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-07-01 19:07:13] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-07-01 19:07:14] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-01 19:07:14] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.7.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.8.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-07-01 19:07:14] INFO root fetch - processPackages [sourceknight]: Remove: archive file [/home/abi/fetcher/tmp/sourceknight-0.2.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - processPackages [sourceknight]: Remove: archive file [/home/abi/fetcher/tmp/sourceknight-0.3.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - main [MainThread]: End processing [sourceknight]: success
+[2023-07-01 19:07:14] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.4.0.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.4.1.tar.gz]
+[2023-07-01 19:07:14] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 19:07:15] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.3.tar.gz]
+[2023-07-01 19:07:15] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.4.tar.gz]
+[2023-07-01 19:07:15] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-01 19:07:15] INFO root fetch - processPackages [ifstate]: Remove: archive file [/home/abi/fetcher/tmp/ifstate-1.8.4.tar.gz]
+[2023-07-01 19:07:15] INFO root fetch - processPackages [ifstate]: Remove: archive file [/home/abi/fetcher/tmp/ifstate-1.8.5.tar.gz]
+[2023-07-01 19:07:15] INFO root fetch - main [MainThread]: End processing [ifstate]: success
+[2023-07-01 19:07:15] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.2.tar.gz]
+[2023-07-01 19:07:15] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.3.tar.gz]
+[2023-07-01 19:07:15] INFO root fetch - main [MainThread]: End processing [sashimi-domains]: success
+[2023-07-01 19:07:18] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.8.tar.gz]
+[2023-07-01 19:07:18] INFO root fetch - processPackages [atproto]: Remove: archive file [/home/abi/fetcher/tmp/atproto-0.0.9.tar.gz]
+[2023-07-01 19:07:18] INFO root fetch - main [MainThread]: End processing [atproto]: success
+[2023-07-01 19:07:18] INFO root fetch - main [MainThread]: Store serial: [18723270]
