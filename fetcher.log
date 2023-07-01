@@ -15629,3 +15629,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:19:37] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.3.1.tar.gz]
 [2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [cnstd]: success
 [2023-07-01 17:19:37] INFO root fetch - main [MainThread]: Store serial: [18722738]
+[2023-07-01 17:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722738]
+[2023-07-01 17:24:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lessweb
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: experimaestro
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miley
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: performancetest
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runpod
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parcoords
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-cpp
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miley
+[2023-07-01 17:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timer-module
+[2023-07-01 17:24:46] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [lessweb]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [performancetest]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [runpod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [nics]: New version: [2.3.0] Old Version: [2.2.3]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [timer-module]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [miley]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [json-cpp]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-01 17:24:46] WARNING root fetch - processPackages [parcoords]: Skipping, unable to determine old version
+[2023-07-01 17:24:46] INFO root fetch - processPackages [miley]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 17:24:46] INFO root fetch - processPackages [parcoords]: Start processing: smolnet
+[2023-07-01 17:24:46] INFO root fetch - main [MainThread]: End processing [parcoords] error
+[2023-07-01 17:24:47] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/ef/b4/0e326b582051fd1e2a12c70f4f34f6b5483cf94ca1f01b79231bde82873d/timer-module-1.1.1.tar.gz
+[2023-07-01 17:24:47] WARNING root fetch - processPackages [smolnet]: Skipping, unable to determine old version
+[2023-07-01 17:24:47] INFO root fetch - main [MainThread]: End processing [smolnet] error
+[2023-07-01 17:24:47] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-07-01 17:24:47] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/9d/b7/0805ee51651a1de19b66622b10022cd1e49375a1535b2f762f7bde77d7a0/nics-2.2.3.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/1b/7a/b1245a4a5dd60c65f3061a366b35ef72fb8c28b3133f87003eeaf956c2e3/miley-1.0.1.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/1b/7a/b1245a4a5dd60c65f3061a366b35ef72fb8c28b3133f87003eeaf956c2e3/miley-1.0.1.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [json-cpp]: Downloading https://files.pythonhosted.org/packages/cb/f5/92823a56ede4b83f5a18a5d3e5c6f9b62e59e09b6a0733b3c5bf34472010/json-cpp-1.0.7.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/34/be/af5a831c613df4a66a0c8ef9f769b18c28418164bbfa14524976d16e9940/performancetest-0.0.7.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/65/94/c63ba4e61ac4b062265e923eb0749224ce28e234ea9d1c91dc14ed782b37/runpod-0.9.8.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [lessweb]: Downloading https://files.pythonhosted.org/packages/92/23/fe690067e9da681aa3a8519e25ae35fb741f3d5bb9b34ebc9679e33eabf3/lessweb-1.0.7.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/6d/8e/9b3b5ba554da0fb0a3a36d0a565b16aca87a05ca9582a066f06a88b9857d/timer-module-1.1.2.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/64/8d/5452bdfbadded54a549aafca457d3d02e5524667cbee6b9e2fffc0a7fe3b/nics-2.3.0.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/a3/d9/f5a3408b8e643a08fa71410471a0e178923b217c28298c2bee290ed8bc6f/miley-1.0.2.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/a3/d9/f5a3408b8e643a08fa71410471a0e178923b217c28298c2bee290ed8bc6f/miley-1.0.2.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [performancetest]: Downloading https://files.pythonhosted.org/packages/dd/22/34b6734457030fe5a04dd12bcd56c60f6caa312fd589fb7bde47985d5e69/performancetest-0.0.9.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [lessweb]: Downloading https://files.pythonhosted.org/packages/34/26/3a4d9ae390c0b32d60b10e2a5659e018355545266e5012e57e16eb1d00f0/lessweb-1.0.8.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/e9/f2/4a673681aa4a4b97f410e58578db97b7ed000f6f75c54ea823143f095587/runpod-0.9.9.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [timer-module]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [timer-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-module-1.1.1.tar.gz tmp/timer-module-1.1.2.tar.gz --markdown 20230701/t/timer-module/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 17:24:47] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.2.3.tar.gz tmp/nics-2.3.0.tar.gz --markdown 20230701/n/nics/2.2.3-2.3.0/diff.md --exclude *.pyd
+[2023-07-01 17:24:47] INFO root fetch - processPackages [json-cpp]: Downloading https://files.pythonhosted.org/packages/f2/05/01011fd6b9ebb4f197425c4bbd2fff63845ebccf46b5236d5f8e7f8792ee/json-cpp-1.0.9.tar.gz
+[2023-07-01 17:24:47] INFO root fetch - processPackages [lessweb]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [lessweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lessweb-1.0.7.tar.gz tmp/lessweb-1.0.8.tar.gz --markdown 20230701/l/lessweb/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miley-1.0.1.tar.gz tmp/miley-1.0.2.tar.gz --markdown 20230701/m/miley/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 17:24:47] INFO root fetch - processPackages [miley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miley-1.0.1.tar.gz tmp/miley-1.0.2.tar.gz --markdown 20230701/m/miley/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 17:24:47] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.8.tar.gz tmp/runpod-0.9.9.tar.gz --markdown 20230701/r/runpod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 17:24:47] INFO root fetch - processPackages [performancetest]: executing diffoscope
+[2023-07-01 17:24:47] INFO root fetch - processPackages [performancetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/performancetest-0.0.7.tar.gz tmp/performancetest-0.0.9.tar.gz --markdown 20230701/p/performancetest/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 17:24:48] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-07-01 17:24:48] INFO root fetch - processPackages [json-cpp]: executing diffoscope
+[2023-07-01 17:24:48] INFO root fetch - processPackages [json-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-cpp-1.0.7.tar.gz tmp/json-cpp-1.0.9.tar.gz --markdown 20230701/j/json-cpp/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 17:24:48] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.1.tar.gz]
+[2023-07-01 17:24:48] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.2.tar.gz]
+[2023-07-01 17:24:48] INFO root fetch - main [MainThread]: End processing [timer-module]: success
+[2023-07-01 17:24:48] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-07-01 17:24:48] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230701/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 17:24:49] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.0.7.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.0.8.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [lessweb]: success
+[2023-07-01 17:24:49] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.2.3.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.3.0.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 17:24:49] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-1.0.1.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-1.0.2.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [miley]: success
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [miley]: success
+[2023-07-01 17:24:49] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.7.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [json-cpp]: Remove: archive file [/home/abi/fetcher/tmp/json-cpp-1.0.7.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [performancetest]: Remove: archive file [/home/abi/fetcher/tmp/performancetest-0.0.9.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [json-cpp]: Remove: archive file [/home/abi/fetcher/tmp/json-cpp-1.0.9.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [performancetest]: success
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [json-cpp]: success
+[2023-07-01 17:24:49] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-0.9.8.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-0.9.9.tar.gz]
+[2023-07-01 17:24:49] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-07-01 17:24:51] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip]
+[2023-07-01 17:24:51] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-07-01 17:24:51] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-07-01 17:24:51] INFO root fetch - main [MainThread]: Store serial: [18722775]
