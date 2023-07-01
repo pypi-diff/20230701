@@ -19022,3 +19022,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:29:40] INFO root fetch - processPackages [vspreview]: Remove: archive file [/home/abi/fetcher/tmp/vspreview-0.7.1.tar.gz]
 [2023-07-01 21:29:40] INFO root fetch - main [MainThread]: End processing [vspreview]: success
 [2023-07-01 21:29:40] INFO root fetch - main [MainThread]: Store serial: [18724273]
+[2023-07-01 21:34:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724273]
+[2023-07-01 21:34:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 21:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-icg20660
+[2023-07-01 21:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openplugincore
+[2023-07-01 21:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wpdetect
+[2023-07-01 21:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: va
+[2023-07-01 21:34:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-07-01 21:34:49] INFO root fetch - processPackages [openplugincore]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-01 21:34:49] INFO root fetch - processPackages [nics]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-01 21:34:49] INFO root fetch - processPackages [va]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-07-01 21:34:49] WARNING root fetch - processPackages [micropython-icg20660]: Skipping, unable to determine old version
+[2023-07-01 21:34:49] INFO root fetch - main [MainThread]: End processing [micropython-icg20660] error
+[2023-07-01 21:34:49] INFO root fetch - processPackages [wpdetect]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-01 21:34:49] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/fa/2c/2fc89fc1fe5881464dc066a596d3cc948977887523a812832ac1881eb198/openplugincore-0.3.2.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/16/3f/88c89ab0f385d4670e110aa5225601288de9d1b61e3c9e5f966462477b43/nics-2.5.1.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/97/9a/6d3a58d48f5a6503626563c9effd553075ebe2efc4c54b79db6807d71bd0/wpdetect-1.4.2.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [va]: Downloading https://files.pythonhosted.org/packages/84/dc/19ec91588d36b94ebc9a8507213d34067d9c08110fe5d510a5e61a375125/va-0.0.1.dev8.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f4/0f/56fc59bb89b92d63c1a1da03d3844e3fdf945c04254b41b1a729d6176fdd/nics-2.5.2.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/94/2c/732c9d59fbe0a8863c86d3db8ff9292beef808dba65a2bb289b2c5240289/openplugincore-0.3.3.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/dd/ce/74ffcaa15cf6bfa99dfd027488c2ed7c6ba5e99de2043099cc45230e60d7/wpdetect-1.4.3.tar.gz
+[2023-07-01 21:34:49] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 21:34:49] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.5.1.tar.gz tmp/nics-2.5.2.tar.gz --markdown 20230701/n/nics/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-01 21:34:49] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-01 21:34:49] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.3.2.tar.gz tmp/openplugincore-0.3.3.tar.gz --markdown 20230701/o/openplugincore/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-01 21:34:50] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-01 21:34:50] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.2.tar.gz tmp/wpdetect-1.4.3.tar.gz --markdown 20230701/w/wpdetect/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-01 21:34:50] INFO root fetch - processPackages [va]: Downloading https://files.pythonhosted.org/packages/da/45/8dbf0ee1a431e10c42bb8606716779ca5c8fa1e46baba6f1aaf9774da824/va-0.0.1.dev9.tar.gz
+[2023-07-01 21:34:50] INFO root fetch - processPackages [va]: executing diffoscope
+[2023-07-01 21:34:50] INFO root fetch - processPackages [va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/va-0.0.1.dev8.tar.gz tmp/va-0.0.1.dev9.tar.gz --markdown 20230701/v/va/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-01 21:34:51] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.1.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.2.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 21:34:51] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.2.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.3.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-01 21:34:51] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.2.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.3.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-01 21:34:51] INFO root fetch - processPackages [va]: Remove: archive file [/home/abi/fetcher/tmp/va-0.0.1.dev8.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - processPackages [va]: Remove: archive file [/home/abi/fetcher/tmp/va-0.0.1.dev9.tar.gz]
+[2023-07-01 21:34:51] INFO root fetch - main [MainThread]: End processing [va]: success
+[2023-07-01 21:34:51] INFO root fetch - main [MainThread]: Store serial: [18724290]
