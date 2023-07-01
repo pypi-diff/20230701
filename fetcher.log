@@ -20226,3 +20226,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:34:42] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
 [2023-07-01 23:34:42] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
 [2023-07-01 23:34:42] INFO root fetch - main [MainThread]: Store serial: [18724745]
+[2023-07-01 23:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724745]
+[2023-07-01 23:39:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 23:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datascience-cookiecutter
+[2023-07-01 23:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zundamonai-streamer
+[2023-07-01 23:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: couchbed
+[2023-07-01 23:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyassist
+[2023-07-01 23:39:51] INFO root fetch - processPackages [pyassist]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 23:39:51] INFO root fetch - processPackages [couchbed]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-01 23:39:51] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 23:39:51] INFO root fetch - processPackages [zundamonai-streamer]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-01 23:39:51] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/82/0b/19ba2323dedb1068cbef17e1ffac2c0a42ea7bcfb7d31362cfdc285b9be4/pyassist-0.2.1.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/62/43/627fdeb9e6c4bd587045bb14dec1a3f6d898b4dfe66b4cba5c7644b138b3/couchbed-0.1.2.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/da/e8/a74082528b1b1bc7264e2da04165c4c0d17a75814f6cdda92e099a39da6d/datascience_cookiecutter-0.1.1.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [zundamonai-streamer]: Downloading https://files.pythonhosted.org/packages/78/88/cd68ac13645a1d63ec167e34ae1b7555aebfb2653138a627cfe908a2f1bf/zundamonai-streamer-2.0.0.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/0d/6c/7b7b5b09e02931fd4a8d2d2634f0cea571a42020662324cff54700da1a00/datascience_cookiecutter-0.1.2.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/fa/20/36117de5a84966167f5fd03bebbbecac8b2d8228484ebc40a1477e06b652/couchbed-0.1.4.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/4e/c2/de40b66d5f9a0b4fd5aedecc3817b4229032b58cb954299e55a03c96b275/pyassist-0.2.2.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-01 23:39:51] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.1.1.tar.gz tmp/datascience_cookiecutter-0.1.2.tar.gz --markdown 20230701/d/datascience-cookiecutter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 23:39:51] INFO root fetch - processPackages [zundamonai-streamer]: Downloading https://files.pythonhosted.org/packages/2e/8e/682caae962b03a4f602a10bc90d8075d5d2818f2cc3bcc42b7e05bce9d46/zundamonai-streamer-2.0.1.tar.gz
+[2023-07-01 23:39:51] INFO root fetch - processPackages [couchbed]: executing diffoscope
+[2023-07-01 23:39:51] INFO root fetch - processPackages [couchbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchbed-0.1.2.tar.gz tmp/couchbed-0.1.4.tar.gz --markdown 20230701/c/couchbed/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 23:39:51] INFO root fetch - processPackages [pyassist]: executing diffoscope
+[2023-07-01 23:39:51] INFO root fetch - processPackages [pyassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassist-0.2.1.tar.gz tmp/pyassist-0.2.2.tar.gz --markdown 20230701/p/pyassist/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 23:39:51] INFO root fetch - processPackages [zundamonai-streamer]: executing diffoscope
+[2023-07-01 23:39:51] INFO root fetch - processPackages [zundamonai-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zundamonai-streamer-2.0.0.tar.gz tmp/zundamonai-streamer-2.0.1.tar.gz --markdown 20230701/z/zundamonai-streamer/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-01 23:39:52] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.1.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.2.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-01 23:39:52] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.1.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.2.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - main [MainThread]: End processing [pyassist]: success
+[2023-07-01 23:39:52] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.2.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.4.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - main [MainThread]: End processing [couchbed]: success
+[2023-07-01 23:39:52] INFO root fetch - processPackages [zundamonai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/zundamonai-streamer-2.0.0.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - processPackages [zundamonai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/zundamonai-streamer-2.0.1.tar.gz]
+[2023-07-01 23:39:52] INFO root fetch - main [MainThread]: End processing [zundamonai-streamer]: success
+[2023-07-01 23:39:52] INFO root fetch - main [MainThread]: Store serial: [18724755]
