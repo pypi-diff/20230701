@@ -10668,3 +10668,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:44:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
 [2023-07-01 09:44:15] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-01 09:44:15] INFO root fetch - main [MainThread]: Store serial: [18720449]
+[2023-07-01 09:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720449]
+[2023-07-01 09:49:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: season
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ats-base
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lycoris-lora
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweepai
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bimmer-connected
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanorequests
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-nightly
+[2023-07-01 09:49:24] INFO root fetch - processPackages [sweepai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [season]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ats-base]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev3] Old Version: [1.8.0.dev2]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [nanorequests]: New version: [0.8] Old Version: [0.7]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [bimmer-connected]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-07-01 09:49:24] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/98/2a/042b632888d77be09fbb161efe89aaa20ff1b0fa90327bb8f1b57bad0e2f/lycoris_lora-1.8.0.dev2.tar.gz
+[2023-07-01 09:49:24] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/88/92/015877b359e3132471a628ecedfad3f030ac7ccb669909cd77dd58286200/nanorequests-0.7.tar.gz
+[2023-07-01 09:49:24] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/f6/20/2215a2b47ada13e13cb932bd203c01695f13b420478437bbad7447a00f2f/sweepai-0.1.0.tar.gz
+[2023-07-01 09:49:24] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-07-01 09:49:24] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/ff/c0/ceae42c9248e6c2b60f56d2ed27e9685c62c5b4083307ef441a62f14251b/season-2.3.8-py3-none-any.whl
+[2023-07-01 09:49:24] INFO root fetch - processPackages [ats-base]: Downloading https://files.pythonhosted.org/packages/f0/e7/58bc49deb7e5cee01c1ed789a60a85e9c1583ad2648893704a10dd12a265/ats_base-1.1.5.tar.gz
+[2023-07-01 09:49:24] INFO root fetch - processPackages [bimmer-connected]: Downloading https://files.pythonhosted.org/packages/7c/aa/46a3e536f963dd4b99f0fa5e5e99e187586a44cd1708628848fda21dd74c/bimmer_connected-0.9.5.tar.gz
+[2023-07-01 09:49:24] WARNING root fetch - processPackages [season]: Skipping package: exceeds size limit 13772906>=10485760
+[2023-07-01 09:49:24] INFO root fetch - main [MainThread]: End processing [season] error
+[2023-07-01 09:49:25] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/da/da/302a8c570efabacf87e54009301612c105451bbe6d0f1254f218db7a3fe7/nanorequests-0.8.tar.gz
+[2023-07-01 09:49:25] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-07-01 09:49:25] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/11/a6/8d598e8f62c3160f08b32de27cd4b782b676e9cb304ddd3467469ce79c2e/sweepai-0.1.1.tar.gz
+[2023-07-01 09:49:25] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/95/19/de3012cda9af05a3bf43357dde011ff1202d2f551b849a6ffe36bd6f12c2/lycoris_lora-1.8.0.dev3.tar.gz
+[2023-07-01 09:49:25] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-01 09:49:25] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.0.tar.gz tmp/sweepai-0.1.1.tar.gz --markdown 20230701/s/sweepai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 09:49:25] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-07-01 09:49:25] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230701/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-07-01 09:49:25] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-01 09:49:25] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev2.tar.gz tmp/lycoris_lora-1.8.0.dev3.tar.gz --markdown 20230701/l/lycoris-lora/1.8.0.dev2-1.8.0.dev3/diff.md --exclude *.pyd
+[2023-07-01 09:49:25] INFO root fetch - processPackages [ats-base]: Downloading https://files.pythonhosted.org/packages/1d/a9/115b4cfcfe6366ff8a708d60bbfa6b3e08e0a0f4224799d2743167e1f613/ats_base-1.1.6.tar.gz
+[2023-07-01 09:49:25] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:49:25] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.7.tar.gz tmp/nanorequests-0.8.tar.gz --markdown 20230701/n/nanorequests/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-01 09:49:25] INFO root fetch - processPackages [ats-base]: executing diffoscope
+[2023-07-01 09:49:25] INFO root fetch - processPackages [ats-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_base-1.1.5.tar.gz tmp/ats_base-1.1.6.tar.gz --markdown 20230701/a/ats-base/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-01 09:49:26] INFO root fetch - processPackages [bimmer-connected]: Downloading https://files.pythonhosted.org/packages/f0/5b/7c1571b36dc97d1164dee2b34b947abbb48769488c33d9204d82aaee852d/bimmer_connected-0.9.6.tar.gz
+[2023-07-01 09:49:26] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev2.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev3.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-01 09:49:26] INFO root fetch - processPackages [ats-base]: Remove: archive file [/home/abi/fetcher/tmp/ats_base-1.1.5.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - processPackages [ats-base]: Remove: archive file [/home/abi/fetcher/tmp/ats_base-1.1.6.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - main [MainThread]: End processing [ats-base]: success
+[2023-07-01 09:49:26] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.0.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.1.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-01 09:49:26] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.7.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.8.tar.gz]
+[2023-07-01 09:49:26] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:49:28] INFO root fetch - processPackages [bimmer-connected]: executing diffoscope
+[2023-07-01 09:49:28] INFO root fetch - processPackages [bimmer-connected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimmer_connected-0.9.5.tar.gz tmp/bimmer_connected-0.9.6.tar.gz --markdown 20230701/b/bimmer-connected/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-01 09:49:30] INFO root fetch - processPackages [bimmer-connected]: Remove: archive file [/home/abi/fetcher/tmp/bimmer_connected-0.9.5.tar.gz]
+[2023-07-01 09:49:30] INFO root fetch - processPackages [bimmer-connected]: Remove: archive file [/home/abi/fetcher/tmp/bimmer_connected-0.9.6.tar.gz]
+[2023-07-01 09:49:30] INFO root fetch - main [MainThread]: End processing [bimmer-connected]: success
+[2023-07-01 09:49:34] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-07-01 09:49:34] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-07-01 09:49:34] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-07-01 09:49:34] INFO root fetch - main [MainThread]: Store serial: [18720470]
