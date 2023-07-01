@@ -3440,3 +3440,30 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 03:17:23] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2023-07-01 03:17:23] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-07-01 03:17:23] INFO root fetch - main [MainThread]: Store serial: [18717880]
+[2023-07-01 03:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717880]
+[2023-07-01 03:22:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 03:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AnusPy
+[2023-07-01 03:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aemcmc-nightly
+[2023-07-01 03:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-07-01 03:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartinspectPython
+[2023-07-01 03:22:32] WARNING root fetch - processPackages [smartinspectPython]: Skipping, unable to determine old version
+[2023-07-01 03:22:32] INFO root fetch - main [MainThread]: End processing [smartinspectPython] error
+[2023-07-01 03:22:32] WARNING root fetch - processPackages [AnusPy]: Skipping, unable to determine old version
+[2023-07-01 03:22:32] INFO root fetch - main [MainThread]: End processing [AnusPy] error
+[2023-07-01 03:22:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-01 03:22:32] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230701] Old Version: [0.0.8.dev20230630]
+[2023-07-01 03:22:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-01 03:22:32] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/9d/16/3fc6403e7c1d8d456e4d54064f526e95b3f8af555614431e8cacca0c71a9/aemcmc-nightly-0.0.8.dev20230630.tar.gz
+[2023-07-01 03:22:32] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-01 03:22:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-01 03:22:33] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230701/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:22:33] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/dd/8a/df51c31661d04637db33473c25f926b52a9b0ad578f2d15a9a1d65bfb611/aemcmc-nightly-0.0.8.dev20230701.tar.gz
+[2023-07-01 03:22:33] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-07-01 03:22:33] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230630.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230701.tar.gz --markdown 20230701/a/aemcmc-nightly/0.0.8.dev20230630-0.0.8.dev20230701/diff.md --exclude *.pyd
+[2023-07-01 03:22:34] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230630.tar.gz]
+[2023-07-01 03:22:34] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230701.tar.gz]
+[2023-07-01 03:22:34] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-07-01 03:22:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-01 03:22:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-01 03:22:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-01 03:22:34] INFO root fetch - main [MainThread]: Store serial: [18717893]
