@@ -19064,3 +19064,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:34:51] INFO root fetch - processPackages [va]: Remove: archive file [/home/abi/fetcher/tmp/va-0.0.1.dev9.tar.gz]
 [2023-07-01 21:34:51] INFO root fetch - main [MainThread]: End processing [va]: success
 [2023-07-01 21:34:51] INFO root fetch - main [MainThread]: Store serial: [18724290]
+[2023-07-01 21:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724290]
+[2023-07-01 21:40:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 21:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: no-vtf
+[2023-07-01 21:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhafas
+[2023-07-01 21:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spice-agent
+[2023-07-01 21:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-robocopy
+[2023-07-01 21:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mltrainer
+[2023-07-01 21:40:01] WARNING root fetch - processPackages [py-robocopy]: Skipping, unable to determine old version
+[2023-07-01 21:40:01] INFO root fetch - main [MainThread]: End processing [py-robocopy] error
+[2023-07-01 21:40:01] INFO root fetch - processPackages [pyhafas]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-01 21:40:01] WARNING root fetch - processPackages [spice-agent]: Skipping, unable to determine old version
+[2023-07-01 21:40:01] INFO root fetch - main [MainThread]: End processing [spice-agent] error
+[2023-07-01 21:40:01] INFO root fetch - processPackages [no-vtf]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-07-01 21:40:01] INFO root fetch - processPackages [mltrainer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 21:40:01] INFO root fetch - processPackages [no-vtf]: Downloading https://files.pythonhosted.org/packages/1c/0b/a758631ed882bd7cedbee35a5a78f67a837b809f00b03f7bb00107f5bc11/no_vtf-3.0.1.tar.gz
+[2023-07-01 21:40:01] INFO root fetch - processPackages [pyhafas]: Downloading https://files.pythonhosted.org/packages/00/8f/801975ac1e7b2ceb9ba83da436747fb15d9ff4fd74bd9289bcb2effea4b9/pyhafas-0.3.1.tar.gz
+[2023-07-01 21:40:01] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/c8/30/148887dbae27bca90f59a9ab09492ad58f92bbd13aa4adae1c6e52d85e7b/mltrainer-0.1.4.tar.gz
+[2023-07-01 21:40:01] INFO root fetch - processPackages [no-vtf]: Downloading https://files.pythonhosted.org/packages/4d/5e/31063aa019cdb69c2400824abee1cbedaaf6aaf6b15532107ebd45038d8a/no_vtf-3.1.0.tar.gz
+[2023-07-01 21:40:01] INFO root fetch - processPackages [no-vtf]: executing diffoscope
+[2023-07-01 21:40:01] INFO root fetch - processPackages [no-vtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_vtf-3.0.1.tar.gz tmp/no_vtf-3.1.0.tar.gz --markdown 20230701/n/no-vtf/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-07-01 21:40:01] INFO root fetch - processPackages [pyhafas]: Downloading https://files.pythonhosted.org/packages/81/f1/6be86465015d9d0e4c97504fd45e21e358a332cf0e23e03450ce4596ee53/pyhafas-0.4.0.tar.gz
+[2023-07-01 21:40:02] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/96/10/edbafdd4ea9a05e0c1971852570fd4761746b2517138e8e1cb9be66406e6/mltrainer-0.1.5.tar.gz
+[2023-07-01 21:40:02] INFO root fetch - processPackages [pyhafas]: executing diffoscope
+[2023-07-01 21:40:02] INFO root fetch - processPackages [pyhafas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhafas-0.3.1.tar.gz tmp/pyhafas-0.4.0.tar.gz --markdown 20230701/p/pyhafas/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 21:40:02] INFO root fetch - processPackages [mltrainer]: executing diffoscope
+[2023-07-01 21:40:02] INFO root fetch - processPackages [mltrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltrainer-0.1.4.tar.gz tmp/mltrainer-0.1.5.tar.gz --markdown 20230701/m/mltrainer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 21:40:03] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.4.tar.gz]
+[2023-07-01 21:40:03] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.5.tar.gz]
+[2023-07-01 21:40:03] INFO root fetch - main [MainThread]: End processing [mltrainer]: success
+[2023-07-01 21:40:03] INFO root fetch - processPackages [no-vtf]: Remove: archive file [/home/abi/fetcher/tmp/no_vtf-3.0.1.tar.gz]
+[2023-07-01 21:40:03] INFO root fetch - processPackages [no-vtf]: Remove: archive file [/home/abi/fetcher/tmp/no_vtf-3.1.0.tar.gz]
+[2023-07-01 21:40:03] INFO root fetch - main [MainThread]: End processing [no-vtf]: success
+[2023-07-01 21:40:03] INFO root fetch - processPackages [pyhafas]: Remove: archive file [/home/abi/fetcher/tmp/pyhafas-0.3.1.tar.gz]
+[2023-07-01 21:40:03] INFO root fetch - processPackages [pyhafas]: Remove: archive file [/home/abi/fetcher/tmp/pyhafas-0.4.0.tar.gz]
+[2023-07-01 21:40:03] INFO root fetch - main [MainThread]: End processing [pyhafas]: success
+[2023-07-01 21:40:03] INFO root fetch - main [MainThread]: Store serial: [18724311]
