@@ -12661,3 +12661,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:00:57] INFO root fetch - processPackages [endi-celery]: Remove: archive file [/home/abi/fetcher/tmp/endi_celery-6.6.6.tar.gz]
 [2023-07-01 13:00:57] INFO root fetch - main [MainThread]: End processing [endi-celery]: success
 [2023-07-01 13:00:57] INFO root fetch - main [MainThread]: Store serial: [18721391]
+[2023-07-01 13:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721391]
+[2023-07-01 13:06:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NanoPlot
+[2023-07-01 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sympy-plot-backends
+[2023-07-01 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liblinear-official
+[2023-07-01 13:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: erscipcard
+[2023-07-01 13:06:05] INFO root fetch - processPackages [NanoPlot]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-01 13:06:05] INFO root fetch - processPackages [liblinear-official]: New version: [2.47.0] Old Version: [2.46.1]
+[2023-07-01 13:06:05] INFO root fetch - processPackages [sympy-plot-backends]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-01 13:06:05] INFO root fetch - processPackages [erscipcard]: New version: [1.2] Old Version: [1.19]
+[2023-07-01 13:06:05] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/fc/61/5589c691557954d76916b82b0c931b7092ff82cd6af56540d2841b22fd4b/erscipcard-1.19.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [liblinear-official]: Downloading https://files.pythonhosted.org/packages/b6/35/5bc429b4227d2399c88764a1fd0aea7b7446bf37e4b428667470dea6e138/liblinear-official-2.46.1.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/35/34/74fcf3191c963d861b5c1ad1759cdf7681aa57d1c70132c9b048c71f09e5/sympy_plot_backends-2.3.0.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [NanoPlot]: Downloading https://files.pythonhosted.org/packages/25/1f/67b9bd889d98b1b43682cb1e84c48b65cfb9f6b18b9c9cb58c71cc95c1aa/NanoPlot-1.9.2.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/eb/88/f577a270b10f780d61877d2f223defda5678360f6152e6403f48f02ae6a2/erscipcard-1.2.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 13:06:06] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.19.tar.gz tmp/erscipcard-1.2.tar.gz --markdown 20230701/e/erscipcard/1.19-1.2/diff.md --exclude *.pyd
+[2023-07-01 13:06:06] INFO root fetch - processPackages [liblinear-official]: Downloading https://files.pythonhosted.org/packages/68/0a/750963afe755ec70d1653ded72c66f6c45d752890c8005db4bb703fa9764/liblinear-official-2.47.0.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [NanoPlot]: Downloading https://files.pythonhosted.org/packages/b9/e3/cb6dfa5094d8992700d63ba261110e07840a807028dab2c991ae442b2004/NanoPlot-1.9.3.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [liblinear-official]: executing diffoscope
+[2023-07-01 13:06:06] INFO root fetch - processPackages [liblinear-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblinear-official-2.46.1.tar.gz tmp/liblinear-official-2.47.0.tar.gz --markdown 20230701/l/liblinear-official/2.46.1-2.47.0/diff.md --exclude *.pyd
+[2023-07-01 13:06:06] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/80/1e/5957bfc58c334ff2bfa53620b5e64bce69e096a3d26410b2a132170b4d98/sympy_plot_backends-2.4.0.tar.gz
+[2023-07-01 13:06:06] INFO root fetch - processPackages [NanoPlot]: executing diffoscope
+[2023-07-01 13:06:06] INFO root fetch - processPackages [NanoPlot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NanoPlot-1.9.2.tar.gz tmp/NanoPlot-1.9.3.tar.gz --markdown 20230701/N/NanoPlot/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-01 13:06:06] INFO root fetch - processPackages [sympy-plot-backends]: executing diffoscope
+[2023-07-01 13:06:06] INFO root fetch - processPackages [sympy-plot-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympy_plot_backends-2.3.0.tar.gz tmp/sympy_plot_backends-2.4.0.tar.gz --markdown 20230701/s/sympy-plot-backends/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-01 13:06:07] INFO root fetch - processPackages [NanoPlot]: Remove: archive file [/home/abi/fetcher/tmp/NanoPlot-1.9.2.tar.gz]
+[2023-07-01 13:06:07] INFO root fetch - processPackages [NanoPlot]: Remove: archive file [/home/abi/fetcher/tmp/NanoPlot-1.9.3.tar.gz]
+[2023-07-01 13:06:07] INFO root fetch - main [MainThread]: End processing [NanoPlot]: success
+[2023-07-01 13:06:07] INFO root fetch - processPackages [liblinear-official]: Remove: archive file [/home/abi/fetcher/tmp/liblinear-official-2.46.1.tar.gz]
+[2023-07-01 13:06:07] INFO root fetch - processPackages [liblinear-official]: Remove: archive file [/home/abi/fetcher/tmp/liblinear-official-2.47.0.tar.gz]
+[2023-07-01 13:06:07] INFO root fetch - main [MainThread]: End processing [liblinear-official]: success
+[2023-07-01 13:06:07] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.19.tar.gz]
+[2023-07-01 13:06:07] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.2.tar.gz]
+[2023-07-01 13:06:07] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 13:06:09] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.3.0.tar.gz]
+[2023-07-01 13:06:09] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.4.0.tar.gz]
+[2023-07-01 13:06:09] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
+[2023-07-01 13:06:09] INFO root fetch - main [MainThread]: Store serial: [18721412]
