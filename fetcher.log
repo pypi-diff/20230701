@@ -2269,3 +2269,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 02:04:11] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
 [2023-07-01 02:04:11] INFO root fetch - main [MainThread]: End processing [faker-file]: success
 [2023-07-01 02:04:11] INFO root fetch - main [MainThread]: Store serial: [18717398]
+[2023-07-01 02:09:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717398]
+[2023-07-01 02:09:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchdatasets-nightly
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: croncaster
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ag-llama-api
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beam-postgres-connector
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinecone-client-nightly
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: string-treatment
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discord-advert-framework
+[2023-07-01 02:09:19] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-01 02:09:19] WARNING root fetch - processPackages [croncaster]: Skipping, unable to determine old version
+[2023-07-01 02:09:19] INFO root fetch - processPackages [croncaster]: Start processing: ml-compiler-opt
+[2023-07-01 02:09:19] INFO root fetch - main [MainThread]: End processing [croncaster] error
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ag-llama-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230630] Old Version: [0.0.8.dev20230629]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [string-treatment]: New version: [0.3.0] Old Version: [0.1.1]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [beam-postgres-connector]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.0.1] Old Version: [2.8.4]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307010008] Old Version: [0.0.1.dev202306300007]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-01 02:09:19] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/02/6c/bc999947a681dd177356262c49806f9906e0d262969aa0c6cec292c7fe64/jaxutils-nightly-0.0.8.dev20230629.tar.gz
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/e7/db/6c93bb8ec9653fafd298258240710b4768345a45843013bc715cf9e658f7/ag_llama_api-0.0.8.tar.gz
+[2023-07-01 02:09:19] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688169846] Old Version: [1688083420]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [pinecone-client-nightly]: New version: [2.2.2.dev20230701000655] Old Version: [2.2.2.dev20230627000653]
+[2023-07-01 02:09:19] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/d4/6e/e46bed8c651a483a1b4ded119a7cfe4069739709cb0cd216b5482836a941/ml-compiler-opt-0.0.1.dev202306300007.tar.gz
+[2023-07-01 02:09:19] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230701.post444] Old Version: [1.9.0.20230630.post425]
+[2023-07-01 02:09:20] INFO root fetch - processPackages [string-treatment]: Downloading https://files.pythonhosted.org/packages/26/c9/9d6a8d7a88fa441d3f66d7c93f35271018ac2eaf289dc059929faa652ed2/string_treatment-0.1.1.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [beam-postgres-connector]: Downloading https://files.pythonhosted.org/packages/ee/93/072940f349c853b6e0e5c7c32567b049f1e250f623b58ad36e03406451ee/beam_postgres_connector-0.0.0.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/32/68/f231f4118db57b07dab22c1dd1f916f283bdccdc07901cbe801427ec51cd/discord-advert-framework-2.8.4.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/86/73/5bb809d953019c98c0a2ee7b39aff6497e579d28d4f623329768fe26748e/torchdatasets-nightly-1688083420.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [ag-llama-api]: Downloading https://files.pythonhosted.org/packages/0e/45/5ce146425eb4c54590e514bf53d436ec8eb7cbeee70953b613dcd4e56824/ag_llama_api-0.0.9.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/2c/02/c89f6de322516bb1b7e3be2b5c6a136ec54c6039f111a4f33952fc3d2ea2/jaxutils-nightly-0.0.8.dev20230630.tar.gz
+[2023-07-01 02:09:20] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18344561>=10485760
+[2023-07-01 02:09:20] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-01 02:09:20] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/5b/f4/b3914af8cd91156e98dd7e5b4dc4a2b38990cacf8346ca2c279c93e88bd3/pinecone-client-nightly-2.2.2.dev20230627000653.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/86/8e/ff06232280591e9dca8734c917026b25e2b72f375503697224371ea83f93/mct-nightly-1.9.0.20230630.post425.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/4c/7b/1aa95f04c6b9eb025ec94e04d1aac83dec882c00c477ad3a8caac98973ef/ml-compiler-opt-0.0.1.dev202307010008.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230629.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230630.tar.gz --markdown 20230701/j/jaxutils-nightly/0.0.8.dev20230629-0.0.8.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [ag-llama-api]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [ag-llama-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ag_llama_api-0.0.8.tar.gz tmp/ag_llama_api-0.0.9.tar.gz --markdown 20230701/a/ag-llama-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [string-treatment]: Downloading https://files.pythonhosted.org/packages/cd/71/4d44a2d79ff2ea929303e2d695ba72c06989bfd3fc27e5d213bfbf93ce10/string_treatment-0.3.0.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [beam-postgres-connector]: Downloading https://files.pythonhosted.org/packages/59/d0/e774fa3625fc1815c49966bbd1c80dd4f16d00f78c7d26fc8257ef60b28f/beam_postgres_connector-0.1.0.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/c5/c1/9d6258d2d44fa19792d012da3d33a6fcb2caad243bad92c4871a31f221bf/torchdatasets-nightly-1688169846.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306300007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202307010008.tar.gz --markdown 20230701/m/ml-compiler-opt/0.0.1.dev202306300007-0.0.1.dev202307010008/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [pinecone-client-nightly]: Downloading https://files.pythonhosted.org/packages/15/36/d287aa999d801d89e0a7455c16ddb0dd3756b7778ef07b60d1a422c2ee46/pinecone-client-nightly-2.2.2.dev20230701000655.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230701/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/45/bd/1b40913091ab87008b9bc9daeae29485e9e5d48bf990dfce529f6e4c4250/mct-nightly-1.9.0.20230701.post444.tar.gz
+[2023-07-01 02:09:20] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688083420.tar.gz tmp/torchdatasets-nightly-1688169846.tar.gz --markdown 20230701/t/torchdatasets-nightly/1688083420-1688169846/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [string-treatment]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [string-treatment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string_treatment-0.1.1.tar.gz tmp/string_treatment-0.3.0.tar.gz --markdown 20230701/s/string-treatment/0.1.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [beam-postgres-connector]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [beam-postgres-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_postgres_connector-0.0.0.tar.gz tmp/beam_postgres_connector-0.1.0.tar.gz --markdown 20230701/b/beam-postgres-connector/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [pinecone-client-nightly]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [pinecone-client-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-nightly-2.2.2.dev20230627000653.tar.gz tmp/pinecone-client-nightly-2.2.2.dev20230701000655.tar.gz --markdown 20230701/p/pinecone-client-nightly/2.2.2.dev20230627000653-2.2.2.dev20230701000655/diff.md --exclude *.pyd
+[2023-07-01 02:09:20] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-01 02:09:20] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230630.post425.tar.gz tmp/mct-nightly-1.9.0.20230701.post444.tar.gz --markdown 20230701/m/mct-nightly/1.9.0.20230630.post425-1.9.0.20230701.post444/diff.md --exclude *.pyd
+[2023-07-01 02:09:21] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.8.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - processPackages [ag-llama-api]: Remove: archive file [/home/abi/fetcher/tmp/ag_llama_api-0.0.9.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - main [MainThread]: End processing [ag-llama-api]: success
+[2023-07-01 02:09:21] INFO root fetch - processPackages [string-treatment]: Remove: archive file [/home/abi/fetcher/tmp/string_treatment-0.1.1.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - processPackages [string-treatment]: Remove: archive file [/home/abi/fetcher/tmp/string_treatment-0.3.0.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - main [MainThread]: End processing [string-treatment]: success
+[2023-07-01 02:09:21] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688083420.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688169846.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-01 02:09:21] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-01 02:09:21] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-01 02:09:22] INFO root fetch - processPackages [beam-postgres-connector]: Remove: archive file [/home/abi/fetcher/tmp/beam_postgres_connector-0.0.0.tar.gz]
+[2023-07-01 02:09:22] INFO root fetch - processPackages [beam-postgres-connector]: Remove: archive file [/home/abi/fetcher/tmp/beam_postgres_connector-0.1.0.tar.gz]
+[2023-07-01 02:09:22] INFO root fetch - main [MainThread]: End processing [beam-postgres-connector]: success
+[2023-07-01 02:09:22] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230629.tar.gz]
+[2023-07-01 02:09:22] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230630.tar.gz]
+[2023-07-01 02:09:22] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-01 02:09:22] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230627000653.tar.gz]
+[2023-07-01 02:09:22] INFO root fetch - processPackages [pinecone-client-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-nightly-2.2.2.dev20230701000655.tar.gz]
+[2023-07-01 02:09:22] INFO root fetch - main [MainThread]: End processing [pinecone-client-nightly]: success
+[2023-07-01 02:09:24] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306300007.tar.gz]
+[2023-07-01 02:09:24] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307010008.tar.gz]
+[2023-07-01 02:09:24] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-01 02:09:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230630.post425.tar.gz]
+[2023-07-01 02:09:24] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230701.post444.tar.gz]
+[2023-07-01 02:09:24] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-01 02:09:24] INFO root fetch - main [MainThread]: Store serial: [18717434]
