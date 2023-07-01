@@ -7797,3 +7797,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 05:01:56] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-01 05:01:56] INFO root fetch - main [MainThread]: End processing [qworker]: success
 [2023-07-01 05:01:56] INFO root fetch - main [MainThread]: Store serial: [18719406]
+[2023-07-01 05:06:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719406]
+[2023-07-01 05:07:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CalSim
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: couchbed
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mctk-py
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redashsync
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meth
+[2023-07-01 05:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowtask
+[2023-07-01 05:07:04] INFO root fetch - processPackages [CalSim]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 05:07:04] INFO root fetch - processPackages [mctk-py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 05:07:04] WARNING root fetch - processPackages [redashsync]: Skipping, unable to determine old version
+[2023-07-01 05:07:04] INFO root fetch - main [MainThread]: End processing [redashsync] error
+[2023-07-01 05:07:04] WARNING root fetch - processPackages [meth]: Skipping, unable to determine old version
+[2023-07-01 05:07:04] WARNING root fetch - processPackages [couchbed]: Skipping, unable to determine old version
+[2023-07-01 05:07:04] INFO root fetch - main [MainThread]: End processing [meth] error
+[2023-07-01 05:07:04] INFO root fetch - main [MainThread]: End processing [couchbed] error
+[2023-07-01 05:07:04] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230701] Old Version: [1.2.20230630]
+[2023-07-01 05:07:04] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/09/7a/46f1cc1648111ce913b84352ba35380b11d5bc6353d6ec0774b59c93925a/calsim-0.0.4.tar.gz
+[2023-07-01 05:07:04] INFO root fetch - processPackages [flowtask]: New version: [4.5.9] Old Version: [4.5.8]
+[2023-07-01 05:07:04] INFO root fetch - processPackages [mctk-py]: Downloading https://files.pythonhosted.org/packages/6e/ad/4181984c7ee9eb92842bdbdd34fac5657634c88e21955918fb6f3302d954/mctk-py-0.1.0.tar.gz
+[2023-07-01 05:07:04] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/97/7c/7ae7fd3a33c5e6c0aac713b65a54ad3291892a4a55e19a1a5e59295eb923/iam_actions-1.2.20230630.tar.gz
+[2023-07-01 05:07:04] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/ad/e7/2a7bdbefc43301a163c5989db8711c8a7285f1cad001672a53b0613d45cc/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 05:07:04] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/31/10/1dcf7b7f8807f76f620381ed96f188a4423c5fdb85575afb673611a27c62/calsim-0.0.5.tar.gz
+[2023-07-01 05:07:05] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/f5/f7/ab70c37b8e6e15a915e083a0952a4bc0edf56633ecf53f70e0a526db4ab4/iam_actions-1.2.20230701.tar.gz
+[2023-07-01 05:07:05] INFO root fetch - processPackages [mctk-py]: Downloading https://files.pythonhosted.org/packages/7b/0e/90b5427f091c39277ca311e4a5e6e445e479c95681560fd085779dae5cb0/mctk-py-0.1.1.tar.gz
+[2023-07-01 05:07:05] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-01 05:07:05] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.4.tar.gz tmp/calsim-0.0.5.tar.gz --markdown 20230701/C/CalSim/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 05:07:05] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-07-01 05:07:05] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230630.tar.gz tmp/iam_actions-1.2.20230701.tar.gz --markdown 20230701/i/iam-actions/1.2.20230630-1.2.20230701/diff.md --exclude *.pyd
+[2023-07-01 05:07:05] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/76/cb/ef23ff55853e577b3477d762009a1fc68908a244c1bfb016650886d6699b/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 05:07:05] INFO root fetch - processPackages [mctk-py]: executing diffoscope
+[2023-07-01 05:07:05] INFO root fetch - processPackages [mctk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mctk-py-0.1.0.tar.gz tmp/mctk-py-0.1.1.tar.gz --markdown 20230701/m/mctk-py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 05:07:05] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-07-01 05:07:05] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/f/flowtask/4.5.8-4.5.9/diff.md --exclude *.pyd
+[2023-07-01 05:07:06] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.4.tar.gz]
+[2023-07-01 05:07:06] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.5.tar.gz]
+[2023-07-01 05:07:06] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-01 05:07:06] INFO root fetch - processPackages [mctk-py]: Remove: archive file [/home/abi/fetcher/tmp/mctk-py-0.1.0.tar.gz]
+[2023-07-01 05:07:06] INFO root fetch - processPackages [mctk-py]: Remove: archive file [/home/abi/fetcher/tmp/mctk-py-0.1.1.tar.gz]
+[2023-07-01 05:07:06] INFO root fetch - main [MainThread]: End processing [mctk-py]: success
+[2023-07-01 05:07:08] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 05:07:08] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 05:07:08] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-07-01 05:07:11] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230630.tar.gz]
+[2023-07-01 05:07:11] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230701.tar.gz]
+[2023-07-01 05:07:11] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-07-01 05:07:11] INFO root fetch - main [MainThread]: Store serial: [18719432]
