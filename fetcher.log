@@ -10406,3 +10406,38 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:17:22] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
 [2023-07-01 09:17:22] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
 [2023-07-01 09:17:22] INFO root fetch - main [MainThread]: Store serial: [18720356]
+[2023-07-01 09:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720356]
+[2023-07-01 09:22:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 09:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyparc
+[2023-07-01 09:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verse-core
+[2023-07-01 09:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfq-nightly
+[2023-07-01 09:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nanorequests
+[2023-07-01 09:22:32] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230630] Old Version: [0.7.3.dev20230629]
+[2023-07-01 09:22:32] INFO root fetch - processPackages [verse-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 09:22:32] INFO root fetch - processPackages [nanorequests]: New version: [0.6] Old Version: [0.5]
+[2023-07-01 09:22:32] INFO root fetch - processPackages [pyparc]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-01 09:22:32] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/11/6d/3d6406cae1947e2b15befc67b862da4f836902bf3ec10d61dfcf60744211/pyparc-2.0.2.tar.gz
+[2023-07-01 09:22:32] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/b2/f3/9b5f547a44d4f3838d1ee89c09c5a5b431fda88c37fa2cf23192f1948dbf/nanorequests-0.5.tar.gz
+[2023-07-01 09:22:32] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/87/58/fe0990bb53f33fbb33f83b2e9e6ffab9bf709efdc65ccdb77ea1ec83d4d4/verse-core-0.0.8.tar.gz
+[2023-07-01 09:22:32] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/30/34/071c5c8f2b70b3f6e390dcf807b389d26f30a95827776ac1e882d1e51731/tfq_nightly-0.7.3.dev20230629-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 09:22:32] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/eb/32/eab393c231a6ed31c77b7439d22ecf9ce2b76a2e9619d544cb1923cdbdd9/pyparc-2.0.3.tar.gz
+[2023-07-01 09:22:32] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-07-01 09:22:32] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-01 09:22:32] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/3c/26/39813eb8295519561138d7e2cf874baf3c25b064a77663d27f56d0cb97f0/nanorequests-0.6.tar.gz
+[2023-07-01 09:22:32] INFO root fetch - processPackages [pyparc]: executing diffoscope
+[2023-07-01 09:22:32] INFO root fetch - processPackages [pyparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparc-2.0.2.tar.gz tmp/pyparc-2.0.3.tar.gz --markdown 20230701/p/pyparc/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-01 09:22:32] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:22:32] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.5.tar.gz tmp/nanorequests-0.6.tar.gz --markdown 20230701/n/nanorequests/0.5-0.6/diff.md --exclude *.pyd
+[2023-07-01 09:22:32] INFO root fetch - processPackages [verse-core]: Downloading https://files.pythonhosted.org/packages/7d/78/6941139614540bdd1b28a38eaa3d582bb418254917805cd425aae3304e76/verse-core-0.0.9.tar.gz
+[2023-07-01 09:22:32] INFO root fetch - processPackages [verse-core]: executing diffoscope
+[2023-07-01 09:22:32] INFO root fetch - processPackages [verse-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verse-core-0.0.8.tar.gz tmp/verse-core-0.0.9.tar.gz --markdown 20230701/v/verse-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 09:22:33] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.5.tar.gz]
+[2023-07-01 09:22:33] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.6.tar.gz]
+[2023-07-01 09:22:33] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:22:33] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.2.tar.gz]
+[2023-07-01 09:22:33] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.3.tar.gz]
+[2023-07-01 09:22:33] INFO root fetch - main [MainThread]: End processing [pyparc]: success
+[2023-07-01 09:23:27] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.8.tar.gz]
+[2023-07-01 09:23:27] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.9.tar.gz]
+[2023-07-01 09:23:27] INFO root fetch - main [MainThread]: End processing [verse-core]: success
+[2023-07-01 09:23:27] INFO root fetch - main [MainThread]: Store serial: [18720366]
