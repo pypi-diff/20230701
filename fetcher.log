@@ -9544,3 +9544,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:48:06] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.9.tar.gz]
 [2023-07-01 07:48:06] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-07-01 07:48:06] INFO root fetch - main [MainThread]: Store serial: [18720036]
+[2023-07-01 07:53:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720036]
+[2023-07-01 07:53:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiovantage
+[2023-07-01 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nicovideo.py
+[2023-07-01 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yambs
+[2023-07-01 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cursesdict
+[2023-07-01 07:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omneer
+[2023-07-01 07:53:15] INFO root fetch - processPackages [aiovantage]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-01 07:53:15] INFO root fetch - processPackages [yambs]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-01 07:53:15] WARNING root fetch - processPackages [cursesdict]: Skipping, unable to determine old version
+[2023-07-01 07:53:15] INFO root fetch - main [MainThread]: End processing [cursesdict] error
+[2023-07-01 07:53:15] INFO root fetch - processPackages [nicovideo.py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 07:53:15] INFO root fetch - processPackages [omneer]: New version: [0.11] Old Version: [0.1]
+[2023-07-01 07:53:15] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/78/d4/009657ac4a89732157bf653f5c7ce0a221953b9693925589f0673eb91160/omneer-0.1.tar.gz
+[2023-07-01 07:53:15] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/54/03/129dafbe147045a0fac705115b98471a0d48ce80d28780776792d2bc1fdf/yambs-1.9.0.tar.gz
+[2023-07-01 07:53:15] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/ba/68/742c5cad3fb071c502c54bc5e071069271dc20e38c84553e5c49e3f4e870/aiovantage-0.4.0.tar.gz
+[2023-07-01 07:53:15] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/8e/e2/f5249af059fe9f148fa9df55b9cfd83050f7c7fe1a66b1adb08c5729b92e/nicovideo.py-0.0.3.tar.gz
+[2023-07-01 07:53:15] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/74/6d/f99cd937cb68f92aa5eca52c16db098c152eb9321e2924c1e78c168b24ed/nicovideo.py-0.0.4.tar.gz
+[2023-07-01 07:53:16] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/fd/b8/d2f22a1504e6f9fae14f333825b7e3b96f171908494cf78f51c5ceee069a/omneer-0.11.tar.gz
+[2023-07-01 07:53:16] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/ba/38/9e4c7e614878def76a3fade540f9045634f1b19578a7ea9152c657af6093/yambs-1.9.1.tar.gz
+[2023-07-01 07:53:16] INFO root fetch - processPackages [aiovantage]: Downloading https://files.pythonhosted.org/packages/ac/8e/d5fd08819bf25d65f4694a3325a7651e2510ae5786e867d1e766658d5567/aiovantage-0.5.0.tar.gz
+[2023-07-01 07:53:16] INFO root fetch - processPackages [aiovantage]: executing diffoscope
+[2023-07-01 07:53:16] INFO root fetch - processPackages [aiovantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovantage-0.4.0.tar.gz tmp/aiovantage-0.5.0.tar.gz --markdown 20230701/a/aiovantage/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 07:53:16] INFO root fetch - processPackages [nicovideo.py]: executing diffoscope
+[2023-07-01 07:53:16] INFO root fetch - processPackages [nicovideo.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicovideo.py-0.0.3.tar.gz tmp/nicovideo.py-0.0.4.tar.gz --markdown 20230701/n/nicovideo.py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 07:53:16] INFO root fetch - processPackages [omneer]: executing diffoscope
+[2023-07-01 07:53:16] INFO root fetch - processPackages [omneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omneer-0.1.tar.gz tmp/omneer-0.11.tar.gz --markdown 20230701/o/omneer/0.1-0.11/diff.md --exclude *.pyd
+[2023-07-01 07:53:16] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-01 07:53:16] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.9.0.tar.gz tmp/yambs-1.9.1.tar.gz --markdown 20230701/y/yambs/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-01 07:53:17] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.3.tar.gz]
+[2023-07-01 07:53:17] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.4.tar.gz]
+[2023-07-01 07:53:17] INFO root fetch - main [MainThread]: End processing [nicovideo.py]: success
+[2023-07-01 07:53:17] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.1.tar.gz]
+[2023-07-01 07:53:17] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.11.tar.gz]
+[2023-07-01 07:53:17] INFO root fetch - main [MainThread]: End processing [omneer]: success
+[2023-07-01 07:53:17] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.0.tar.gz]
+[2023-07-01 07:53:17] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.1.tar.gz]
+[2023-07-01 07:53:17] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-01 07:53:18] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.4.0.tar.gz]
+[2023-07-01 07:53:18] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.5.0.tar.gz]
+[2023-07-01 07:53:18] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
+[2023-07-01 07:53:18] INFO root fetch - main [MainThread]: Store serial: [18720056]
