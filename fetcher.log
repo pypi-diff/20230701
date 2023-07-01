@@ -10171,3 +10171,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:55:58] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.4.tar.gz]
 [2023-07-01 08:55:58] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
 [2023-07-01 08:55:58] INFO root fetch - main [MainThread]: Store serial: [18720268]
+[2023-07-01 09:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720268]
+[2023-07-01 09:01:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 09:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-puller-flask
+[2023-07-01 09:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statute-utils
+[2023-07-01 09:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waivek
+[2023-07-01 09:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lm-datahandler
+[2023-07-01 09:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-devops-repository-archiver
+[2023-07-01 09:01:07] INFO root fetch - processPackages [azure-devops-repository-archiver]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-01 09:01:07] INFO root fetch - processPackages [xia-puller-flask]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 09:01:07] INFO root fetch - processPackages [statute-utils]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-01 09:01:07] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 09:01:07] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 09:01:07] INFO root fetch - processPackages [azure-devops-repository-archiver]: Downloading https://files.pythonhosted.org/packages/bd/42/885a31bbdcd92b7a49e53df1c3154c3ab3e58d998c68d27da3db5dbda0dd/azure-devops-repository-archiver-1.5.8.tar.gz
+[2023-07-01 09:01:07] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/28/91/cef90e95861c19efecdc5d9514e52229ab3420a0899253795badc268b2b9/statute_utils-0.5.0.tar.gz
+[2023-07-01 09:01:07] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-07-01 09:01:07] INFO root fetch - processPackages [xia-puller-flask]: Downloading https://files.pythonhosted.org/packages/19/23/82a4ad7bb000bd5da03d6217cec4715a30414160255b6d4399d996efa047/xia_puller_flask-0.0.8-cp39-none-win_amd64.whl
+[2023-07-01 09:01:07] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-07-01 09:01:08] INFO root fetch - processPackages [azure-devops-repository-archiver]: Downloading https://files.pythonhosted.org/packages/a1/9e/1933c59221ace0afa0c820584d26907e43f109692bab3dac69c9cf09bc34/azure-devops-repository-archiver-1.5.9.tar.gz
+[2023-07-01 09:01:08] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/88/92/6432e3685bc538be4c99378b80413b9ed925b90fef9e4eed87ca235c9093/statute_utils-0.5.1.tar.gz
+[2023-07-01 09:01:08] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-07-01 09:01:08] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-07-01 09:01:08] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230701/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 09:01:08] INFO root fetch - processPackages [xia-puller-flask]: Downloading https://files.pythonhosted.org/packages/9a/f6/987f24b4e06ad2038a2ebea96475cd0ead95155af8e2c0758b050577b53d/xia_puller_flask-0.0.9-cp39-none-win_amd64.whl
+[2023-07-01 09:01:08] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-01 09:01:08] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.5.0.tar.gz tmp/statute_utils-0.5.1.tar.gz --markdown 20230701/s/statute-utils/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-01 09:01:08] INFO root fetch - processPackages [xia-puller-flask]: executing diffoscope
+[2023-07-01 09:01:08] INFO root fetch - processPackages [xia-puller-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller_flask-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_puller_flask-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-puller-flask/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 09:01:08] INFO root fetch - processPackages [azure-devops-repository-archiver]: executing diffoscope
+[2023-07-01 09:01:08] INFO root fetch - processPackages [azure-devops-repository-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-devops-repository-archiver-1.5.8.tar.gz tmp/azure-devops-repository-archiver-1.5.9.tar.gz --markdown 20230701/a/azure-devops-repository-archiver/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-01 09:01:08] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-07-01 09:01:08] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-07-01 09:01:08] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230701/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 09:01:09] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.0.tar.gz]
+[2023-07-01 09:01:09] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.1.tar.gz]
+[2023-07-01 09:01:09] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-01 09:01:09] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-07-01 09:01:09] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-07-01 09:01:09] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-07-01 09:01:09] INFO root fetch - processPackages [xia-puller-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller_flask-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 09:01:09] INFO root fetch - processPackages [xia-puller-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller_flask-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 09:01:09] INFO root fetch - main [MainThread]: End processing [xia-puller-flask]: success
+[2023-07-01 09:01:09] INFO root fetch - processPackages [azure-devops-repository-archiver]: Remove: archive file [/home/abi/fetcher/tmp/azure-devops-repository-archiver-1.5.8.tar.gz]
+[2023-07-01 09:01:09] INFO root fetch - processPackages [azure-devops-repository-archiver]: Remove: archive file [/home/abi/fetcher/tmp/azure-devops-repository-archiver-1.5.9.tar.gz]
+[2023-07-01 09:01:09] INFO root fetch - main [MainThread]: End processing [azure-devops-repository-archiver]: success
+[2023-07-01 09:01:10] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-07-01 09:01:10] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-07-01 09:01:10] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-07-01 09:01:10] INFO root fetch - main [MainThread]: Store serial: [18720286]
