@@ -16347,3 +16347,154 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 18:25:36] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-0.1.2.tar.gz]
 [2023-07-01 18:25:36] INFO root fetch - main [MainThread]: End processing [wasc]: success
 [2023-07-01 18:25:36] INFO root fetch - main [MainThread]: Store serial: [18723049]
+[2023-07-01 18:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723049]
+[2023-07-01 18:30:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aggregate
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promemoria
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqrack
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cloud-storages
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EventHandler-Edog0049a
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchlights
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Functions-ITA-MVO-41
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchlights
+[2023-07-01 18:30:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-webflow
+[2023-07-01 18:30:46] WARNING root fetch - processPackages [EventHandler-Edog0049a]: Skipping, unable to determine old version
+[2023-07-01 18:30:46] INFO root fetch - main [MainThread]: End processing [EventHandler-Edog0049a] error
+[2023-07-01 18:30:46] INFO root fetch - processPackages [torchlights]: New version: [0.4.0] Old Version: [0.3.8.1]
+[2023-07-01 18:30:46] INFO root fetch - processPackages [aggregate]: New version: [0.9.6.8] Old Version: [0.9.6.5]
+[2023-07-01 18:30:46] WARNING root fetch - processPackages [Functions-ITA-MVO-41]: Skipping, unable to determine old version
+[2023-07-01 18:30:46] INFO root fetch - main [MainThread]: End processing [Functions-ITA-MVO-41] error
+[2023-07-01 18:30:46] WARNING root fetch - processPackages [promemoria]: Skipping, unable to determine old version
+[2023-07-01 18:30:46] INFO root fetch - main [MainThread]: End processing [promemoria] error
+[2023-07-01 18:30:46] INFO root fetch - processPackages [torchlights]: New version: [0.4.0] Old Version: [0.3.8.1]
+[2023-07-01 18:30:46] INFO root fetch - processPackages [fast-webflow]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 18:30:46] INFO root fetch - processPackages [django-cloud-storages]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-01 18:30:46] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-01 18:30:46] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/1b/8a/0e0dc36fedee7fd830b85e4bfb1c8682f888bb5a6c5cc7d2baf4c7c9bc83/fast-webflow-0.1.0.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/c1/b4/5e8526e954e13af2739c925138f071408907944fe77e7e316fb0ae7365ab/fast-webflow-0.1.1.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/a1/2e/4e242c1aea148c7a00311a62a4ce27f9f31388bd67bd1b41b501879fbd6d/aggregate-0.9.6.5.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [torchlights]: Downloading https://files.pythonhosted.org/packages/0c/e2/06fcaa726d780761cf5ac714a2475a01a078375dd439ca691cf105a06645/torchlights-0.3.8.1.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [torchlights]: Downloading https://files.pythonhosted.org/packages/0c/e2/06fcaa726d780761cf5ac714a2475a01a078375dd439ca691cf105a06645/torchlights-0.3.8.1.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/78/ba/337db422758984f77ed72f1d3b54fa48058a76652201d742591db040123e/django_cloud_storages-1.1.2.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-01 18:30:46] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.1.0.tar.gz tmp/fast-webflow-0.1.1.tar.gz --markdown 20230701/f/fast-webflow/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 18:30:46] INFO root fetch - processPackages [django-cloud-storages]: Downloading https://files.pythonhosted.org/packages/2b/45/14a13dabc1aa9edb0af9c1852adcb7115a9d6fb83319de326dc2ed0394b7/django_cloud_storages-1.1.3.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [aggregate]: Downloading https://files.pythonhosted.org/packages/1c/1c/8b870217624ab1debcc4bfab850525095bd82c0d23359788efb2af71306b/aggregate-0.9.6.8.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [torchlights]: Downloading https://files.pythonhosted.org/packages/1f/2d/4d57442b6770fa0659e3181c4d8281c4c9f07787de1b195396d15dcdc7e1/torchlights-0.4.0.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [torchlights]: Downloading https://files.pythonhosted.org/packages/1f/2d/4d57442b6770fa0659e3181c4d8281c4c9f07787de1b195396d15dcdc7e1/torchlights-0.4.0.tar.gz
+[2023-07-01 18:30:46] INFO root fetch - processPackages [aggregate]: executing diffoscope
+[2023-07-01 18:30:46] INFO root fetch - processPackages [aggregate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aggregate-0.9.6.5.tar.gz tmp/aggregate-0.9.6.8.tar.gz --markdown 20230701/a/aggregate/0.9.6.5-0.9.6.8/diff.md --exclude *.pyd
+[2023-07-01 18:30:47] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-07-01 18:30:47] INFO root fetch - processPackages [django-cloud-storages]: executing diffoscope
+[2023-07-01 18:30:47] INFO root fetch - processPackages [django-cloud-storages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloud_storages-1.1.2.tar.gz tmp/django_cloud_storages-1.1.3.tar.gz --markdown 20230701/d/django-cloud-storages/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-01 18:30:47] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-07-01 18:30:47] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230701/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-01 18:30:47] INFO root fetch - processPackages [torchlights]: executing diffoscope
+[2023-07-01 18:30:47] INFO root fetch - processPackages [torchlights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlights-0.3.8.1.tar.gz tmp/torchlights-0.4.0.tar.gz --markdown 20230701/t/torchlights/0.3.8.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 18:30:47] INFO root fetch - processPackages [torchlights]: executing diffoscope
+[2023-07-01 18:30:47] INFO root fetch - processPackages [torchlights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlights-0.3.8.1.tar.gz tmp/torchlights-0.4.0.tar.gz --markdown 20230701/t/torchlights/0.3.8.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 18:30:47] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.1.0.tar.gz]
+[2023-07-01 18:30:47] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.1.1.tar.gz]
+[2023-07-01 18:30:47] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-01 18:30:48] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.2.tar.gz]
+[2023-07-01 18:30:48] INFO root fetch - processPackages [django-cloud-storages]: Remove: archive file [/home/abi/fetcher/tmp/django_cloud_storages-1.1.3.tar.gz]
+[2023-07-01 18:30:48] INFO root fetch - main [MainThread]: End processing [django-cloud-storages]: success
+[2023-07-01 18:30:48] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-07-01 18:30:48] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-07-01 18:30:48] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-07-01 18:30:48] INFO root fetch - processPackages [aggregate]: Remove: archive file [/home/abi/fetcher/tmp/aggregate-0.9.6.5.tar.gz]
+[2023-07-01 18:30:48] INFO root fetch - processPackages [aggregate]: Remove: archive file [/home/abi/fetcher/tmp/aggregate-0.9.6.8.tar.gz]
+[2023-07-01 18:30:48] INFO root fetch - main [MainThread]: End processing [aggregate]: success
+[2023-07-01 18:30:49] INFO root fetch - processPackages [torchlights]: Remove: archive file [/home/abi/fetcher/tmp/torchlights-0.3.8.1.tar.gz]
+[2023-07-01 18:30:49] INFO root fetch - processPackages [torchlights]: Remove: archive file [/home/abi/fetcher/tmp/torchlights-0.4.0.tar.gz]
+[2023-07-01 18:30:49] INFO root fetch - main [MainThread]: End processing [torchlights]: success
+[2023-07-01 18:30:49] ERROR root fetch - processPackages [torchlights]: Diffoscope failed: gzip: tmp/torchlights-0.4.0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/torchlights-0.4.0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-01 18:30:49] INFO root fetch - main [MainThread]: End processing [torchlights] error
+[2023-07-01 18:30:49] INFO root fetch - main [MainThread]: Store serial: [18723091]
