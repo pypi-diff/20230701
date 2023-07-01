@@ -19840,3 +19840,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:50:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.1.tar.gz]
 [2023-07-01 22:50:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-01 22:50:02] INFO root fetch - main [MainThread]: Store serial: [18724595]
+[2023-07-01 22:55:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724595]
+[2023-07-01 22:55:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 22:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redun
+[2023-07-01 22:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osu
+[2023-07-01 22:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pqdict
+[2023-07-01 22:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: user-discord
+[2023-07-01 22:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kermit-sdr
+[2023-07-01 22:55:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kanonym4text
+[2023-07-01 22:55:12] INFO root fetch - processPackages [kanonym4text]: New version: [1.1.5] Old Version: [0.1.4]
+[2023-07-01 22:55:12] WARNING root fetch - processPackages [kermit-sdr]: Skipping, unable to determine old version
+[2023-07-01 22:55:12] INFO root fetch - main [MainThread]: End processing [kermit-sdr] error
+[2023-07-01 22:55:12] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/40/dc/8acfdb07767ba58786bf3ea3f792e24aeda061ec274edc673af4c630eb32/kanonym4text-0.1.4.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [user-discord]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-01 22:55:12] INFO root fetch - processPackages [osu]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 22:55:12] INFO root fetch - processPackages [redun]: New version: [0.8.9] Old Version: [0.8.7]
+[2023-07-01 22:55:12] INFO root fetch - processPackages [pqdict]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-07-01 22:55:12] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/49/16/5cf6901f9df840d98448540e2072d64dcde2e9a40a26899d689951870405/kanonym4text-1.1.5.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-01 22:55:12] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.1.4.tar.gz tmp/kanonym4text-1.1.5.tar.gz --markdown 20230701/k/kanonym4text/0.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-01 22:55:12] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/8f/d1/71ac3ac2f0af4bdb636ae91e0afd4122cbd29cf5354b30a24551082f4fab/osu-1.0.3.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [pqdict]: Downloading https://files.pythonhosted.org/packages/b9/51/5bc0d1817a2899ac078af79d156450a4d2073df81d699b5c4ecb197ba641/pqdict-1.2.1.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/85/25/422d4606e0bd20be38857f129cf896175694f0cb90304d4694925fd56e7a/redun-0.8.7.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/3a/8c/cc645b032438772df7c02c5522084316d390ff4983fe0e5260a5d6fa7654/user_discord-1.3.5.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/00/0f/933fbc28d3760836d56a1f7ebf3dd2db809257e34bbc02d439cd22fac3d0/osu-1.0.4.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/c3/d3/46c5a21bc2ef71bfc01843bf6398ad3e3241f906ce8a68b421e165fd9043/user_discord-1.3.6.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [redun]: Downloading https://files.pythonhosted.org/packages/b3/d8/0604235bbf8956059d989390616cee00b64b165656582299cdef8933efbf/redun-0.8.9.tar.gz
+[2023-07-01 22:55:12] INFO root fetch - processPackages [osu]: executing diffoscope
+[2023-07-01 22:55:12] INFO root fetch - processPackages [osu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu-1.0.3.tar.gz tmp/osu-1.0.4.tar.gz --markdown 20230701/o/osu/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 22:55:12] INFO root fetch - processPackages [pqdict]: Downloading https://files.pythonhosted.org/packages/d5/a4/c7426403e99e1061d8745ce0fce2802df9072416844838f715d6cedf3b03/pqdict-1.3.0.tar.gz
+[2023-07-01 22:55:13] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-07-01 22:55:13] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.3.5.tar.gz tmp/user_discord-1.3.6.tar.gz --markdown 20230701/u/user-discord/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-01 22:55:13] INFO root fetch - processPackages [pqdict]: executing diffoscope
+[2023-07-01 22:55:13] INFO root fetch - processPackages [pqdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqdict-1.2.1.tar.gz tmp/pqdict-1.3.0.tar.gz --markdown 20230701/p/pqdict/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-07-01 22:55:13] INFO root fetch - processPackages [redun]: executing diffoscope
+[2023-07-01 22:55:13] INFO root fetch - processPackages [redun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redun-0.8.7.tar.gz tmp/redun-0.8.9.tar.gz --markdown 20230701/r/redun/0.8.7-0.8.9/diff.md --exclude *.pyd
+[2023-07-01 22:55:13] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.0.3.tar.gz]
+[2023-07-01 22:55:13] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.0.4.tar.gz]
+[2023-07-01 22:55:13] INFO root fetch - main [MainThread]: End processing [osu]: success
+[2023-07-01 22:55:14] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.5.tar.gz]
+[2023-07-01 22:55:14] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.6.tar.gz]
+[2023-07-01 22:55:14] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-07-01 22:55:14] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.4.tar.gz]
+[2023-07-01 22:55:14] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-1.1.5.tar.gz]
+[2023-07-01 22:55:14] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-01 22:55:14] INFO root fetch - processPackages [pqdict]: Remove: archive file [/home/abi/fetcher/tmp/pqdict-1.2.1.tar.gz]
+[2023-07-01 22:55:14] INFO root fetch - processPackages [pqdict]: Remove: archive file [/home/abi/fetcher/tmp/pqdict-1.3.0.tar.gz]
+[2023-07-01 22:55:14] INFO root fetch - main [MainThread]: End processing [pqdict]: success
+[2023-07-01 22:55:16] INFO root fetch - processPackages [redun]: Remove: archive file [/home/abi/fetcher/tmp/redun-0.8.7.tar.gz]
+[2023-07-01 22:55:16] INFO root fetch - processPackages [redun]: Remove: archive file [/home/abi/fetcher/tmp/redun-0.8.9.tar.gz]
+[2023-07-01 22:55:16] INFO root fetch - main [MainThread]: End processing [redun]: success
+[2023-07-01 22:55:16] INFO root fetch - main [MainThread]: Store serial: [18724615]
