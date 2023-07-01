@@ -3077,3 +3077,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 02:37:52] INFO root fetch - main [MainThread]: End processing [suitesparse-graphblas]: success
 [2023-07-01 02:38:43] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
 [2023-07-01 02:38:43] INFO root fetch - main [MainThread]: Store serial: [18717731]
+[2023-07-01 02:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717731]
+[2023-07-01 02:43:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 02:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: container-helpers
+[2023-07-01 02:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: everdrop-aws-cdk-constructs
+[2023-07-01 02:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webint-search
+[2023-07-01 02:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-ecr-deployment
+[2023-07-01 02:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-07-01 02:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeppl-nightly
+[2023-07-01 02:43:51] INFO root fetch - processPackages [cdk-ecr-deployment]: New version: [2.5.6] Old Version: [2.5.5]
+[2023-07-01 02:43:52] INFO root fetch - processPackages [webint-search]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/64/bf/1264153be589ef27e35f9c6dce5fa20c62679465383b177c27cb15215559/cdk-ecr-deployment-2.5.5.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230701] Old Version: [0.1.5.dev20230630]
+[2023-07-01 02:43:52] INFO root fetch - processPackages [webint-search]: Downloading https://files.pythonhosted.org/packages/7a/6b/181b93e913af0ddd75a88043bcec6eecfeebb98b56f06969776e7f851a3c/webint_search-0.0.7.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [container-helpers]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-01 02:43:52] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [container-helpers]: Downloading https://files.pythonhosted.org/packages/3e/be/db7f55872276324b61b0b635b89292a6883a872289ccc89f33fe875cee05/container_helpers-0.0.1.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [webint-search]: Downloading https://files.pythonhosted.org/packages/00/e0/63169ccbffb5729bb0775a138b9f806e6a70dfc269c23450b5dc7ca40720/webint_search-0.0.8.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/97/9a/ce4cd3a88114e0b4597914e996519a03aea66a08a56e414de1b7ec106f96/aeppl-nightly-0.1.5.dev20230630.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/a9/ca/aeb84cd566bb1f059094a5e3cbe0acf53d1ad8c9b296d5bcd1a26a57c600/everdrop-aws-cdk-constructs-0.0.98.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [webint-search]: executing diffoscope
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk-ecr-deployment]: Downloading https://files.pythonhosted.org/packages/00/31/421538c00ab58bb86c2af0ece51b9158717b04501999bd689351ea5ae8f2/cdk-ecr-deployment-2.5.6.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [webint-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint_search-0.0.7.tar.gz tmp/webint_search-0.0.8.tar.gz --markdown 20230701/w/webint-search/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk-ecr-deployment]: executing diffoscope
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk-ecr-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecr-deployment-2.5.5.tar.gz tmp/cdk-ecr-deployment-2.5.6.tar.gz --markdown 20230701/c/cdk-ecr-deployment/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2023-07-01 02:43:52] INFO root fetch - processPackages [container-helpers]: Downloading https://files.pythonhosted.org/packages/13/e6/f13ad0653d1bdd0ddea9c50c984ff0e080d38b4b0c2902e5403aa09c4d09/container_helpers-0.0.3.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/ba/e1/34dff9d00ac2779522d025899f60c8b8d5579695389a50f873ff90fa24fc/everdrop-aws-cdk-constructs-0.0.99.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-01 02:43:52] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230701/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-01 02:43:52] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/35/d3/332b0af5f9af33fa4d8b65f393fe8689520792ddc56a6006291b65199c2a/aeppl-nightly-0.1.5.dev20230701.tar.gz
+[2023-07-01 02:43:52] INFO root fetch - processPackages [container-helpers]: executing diffoscope
+[2023-07-01 02:43:52] INFO root fetch - processPackages [container-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/container_helpers-0.0.1.tar.gz tmp/container_helpers-0.0.3.tar.gz --markdown 20230701/c/container-helpers/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 02:43:52] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-07-01 02:43:52] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.98.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz --markdown 20230701/e/everdrop-aws-cdk-constructs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 02:43:52] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-07-01 02:43:52] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230630.tar.gz tmp/aeppl-nightly-0.1.5.dev20230701.tar.gz --markdown 20230701/a/aeppl-nightly/0.1.5.dev20230630-0.1.5.dev20230701/diff.md --exclude *.pyd
+[2023-07-01 02:43:53] INFO root fetch - processPackages [webint-search]: Remove: archive file [/home/abi/fetcher/tmp/webint_search-0.0.7.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - processPackages [webint-search]: Remove: archive file [/home/abi/fetcher/tmp/webint_search-0.0.8.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - main [MainThread]: End processing [webint-search]: success
+[2023-07-01 02:43:53] INFO root fetch - processPackages [container-helpers]: Remove: archive file [/home/abi/fetcher/tmp/container_helpers-0.0.1.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - processPackages [container-helpers]: Remove: archive file [/home/abi/fetcher/tmp/container_helpers-0.0.3.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - main [MainThread]: End processing [container-helpers]: success
+[2023-07-01 02:43:53] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.5.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - processPackages [cdk-ecr-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecr-deployment-2.5.6.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - main [MainThread]: End processing [cdk-ecr-deployment]: success
+[2023-07-01 02:43:53] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230630.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230701.tar.gz]
+[2023-07-01 02:43:53] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-07-01 02:43:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-01 02:43:54] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-01 02:43:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-01 02:43:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.98.tar.gz]
+[2023-07-01 02:43:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz]
+[2023-07-01 02:43:54] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-07-01 02:43:54] INFO root fetch - main [MainThread]: Store serial: [18717751]
