@@ -8766,3 +8766,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:23:07] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-07-01 06:23:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-07-01 06:23:07] INFO root fetch - main [MainThread]: Store serial: [18719714]
+[2023-07-01 06:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719714]
+[2023-07-01 06:28:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 06:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finops
+[2023-07-01 06:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linki
+[2023-07-01 06:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gptconsole
+[2023-07-01 06:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fileaccess
+[2023-07-01 06:28:16] INFO root fetch - processPackages [finops]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-01 06:28:16] INFO root fetch - processPackages [gptconsole]: New version: [0.7] Old Version: [0.5]
+[2023-07-01 06:28:16] INFO root fetch - processPackages [fileaccess]: New version: [0.2.16] Old Version: [0.2.13]
+[2023-07-01 06:28:16] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/81/aa/95d62361f7a6f2bf3c4576ee2c39e283fefd0273c7859052553df1f8e7ea/gptconsole-0.5.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [linki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 06:28:16] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/ac/cf/0f0b942a2a048ab2b8ca756856cda56749982d3129284456f385c0a2c8ad/finops-0.1.7.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [fileaccess]: Downloading https://files.pythonhosted.org/packages/9d/d6/34443b5dd0755dc065fb329ddeddbbb80b8f794856685b20debd97f79e79/fileaccess-0.2.13.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/1f/85/5cc91e9ba525e91d9979fdf45309b1dc543c1583960a1f3826269d8c2e78/linki-0.0.8.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/53/8b/5efeadeb61cbad49f4cc1e1b2cd1c9f4dd4a568e45223a2ec2b04831ead1/gptconsole-0.7.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [gptconsole]: executing diffoscope
+[2023-07-01 06:28:16] INFO root fetch - processPackages [gptconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptconsole-0.5.tar.gz tmp/gptconsole-0.7.tar.gz --markdown 20230701/g/gptconsole/0.5-0.7/diff.md --exclude *.pyd
+[2023-07-01 06:28:16] INFO root fetch - processPackages [finops]: Downloading https://files.pythonhosted.org/packages/a2/1d/1ab400fa3c5ab04a747b8821478224ea1bfc81600115869fdd9a96474264/finops-0.1.8.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [finops]: executing diffoscope
+[2023-07-01 06:28:16] INFO root fetch - processPackages [finops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops-0.1.7.tar.gz tmp/finops-0.1.8.tar.gz --markdown 20230701/f/finops/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-01 06:28:16] INFO root fetch - processPackages [fileaccess]: Downloading https://files.pythonhosted.org/packages/0c/39/2f720fd0b688f9933574a436dfdebd96955e41388cc6ff2e0ee712a3be21/fileaccess-0.2.16.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/77/c3/ace975f260cef9236206242f89437c9d83bbafcd4ab12e568c92d930794e/linki-0.0.9.tar.gz
+[2023-07-01 06:28:16] INFO root fetch - processPackages [fileaccess]: executing diffoscope
+[2023-07-01 06:28:16] INFO root fetch - processPackages [fileaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileaccess-0.2.13.tar.gz tmp/fileaccess-0.2.16.tar.gz --markdown 20230701/f/fileaccess/0.2.13-0.2.16/diff.md --exclude *.pyd
+[2023-07-01 06:28:16] INFO root fetch - processPackages [linki]: executing diffoscope
+[2023-07-01 06:28:16] INFO root fetch - processPackages [linki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linki-0.0.8.tar.gz tmp/linki-0.0.9.tar.gz --markdown 20230701/l/linki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 06:28:17] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.5.tar.gz]
+[2023-07-01 06:28:17] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.7.tar.gz]
+[2023-07-01 06:28:17] INFO root fetch - main [MainThread]: End processing [gptconsole]: success
+[2023-07-01 06:28:17] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.7.tar.gz]
+[2023-07-01 06:28:17] INFO root fetch - processPackages [finops]: Remove: archive file [/home/abi/fetcher/tmp/finops-0.1.8.tar.gz]
+[2023-07-01 06:28:17] INFO root fetch - main [MainThread]: End processing [finops]: success
+[2023-07-01 06:28:17] INFO root fetch - processPackages [fileaccess]: Remove: archive file [/home/abi/fetcher/tmp/fileaccess-0.2.13.tar.gz]
+[2023-07-01 06:28:17] INFO root fetch - processPackages [fileaccess]: Remove: archive file [/home/abi/fetcher/tmp/fileaccess-0.2.16.tar.gz]
+[2023-07-01 06:28:17] INFO root fetch - main [MainThread]: End processing [fileaccess]: success
+[2023-07-01 06:28:18] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.8.tar.gz]
+[2023-07-01 06:28:18] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.9.tar.gz]
+[2023-07-01 06:28:18] INFO root fetch - main [MainThread]: End processing [linki]: success
+[2023-07-01 06:28:18] INFO root fetch - main [MainThread]: Store serial: [18719727]
