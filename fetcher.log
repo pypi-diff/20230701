@@ -14262,3 +14262,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:32:20] INFO root fetch - processPackages [savepagenow]: Remove: archive file [/home/abi/fetcher/tmp/savepagenow-1.3.0.tar.gz]
 [2023-07-01 15:32:20] INFO root fetch - main [MainThread]: End processing [savepagenow]: success
 [2023-07-01 15:32:20] INFO root fetch - main [MainThread]: Store serial: [18722055]
+[2023-07-01 15:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722055]
+[2023-07-01 15:37:29] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: showyourwork2
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudflared
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lino
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-efd-client
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gecs
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datawhispers
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lycoris-lora
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrumit
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-nanoid
+[2023-07-01 15:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modal-client
+[2023-07-01 15:37:29] WARNING root fetch - processPackages [showyourwork2]: Skipping, unable to determine old version
+[2023-07-01 15:37:29] INFO root fetch - processPackages [showyourwork2]: Start processing: modal
+[2023-07-01 15:37:29] INFO root fetch - main [MainThread]: End processing [showyourwork2] error
+[2023-07-01 15:37:29] INFO root fetch - processPackages [cloudflared]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-07-01 15:37:29] INFO root fetch - processPackages [lsst-efd-client]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-01 15:37:29] WARNING root fetch - processPackages [django-nanoid]: Skipping, unable to determine old version
+[2023-07-01 15:37:29] INFO root fetch - processPackages [django-nanoid]: Start processing: cloudflared
+[2023-07-01 15:37:29] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev6] Old Version: [1.8.0.dev5]
+[2023-07-01 15:37:29] INFO root fetch - main [MainThread]: End processing [django-nanoid] error
+[2023-07-01 15:37:29] INFO root fetch - processPackages [gecs]: New version: [0.27] Old Version: [0.22.0]
+[2023-07-01 15:37:29] INFO root fetch - processPackages [lino]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-01 15:37:29] INFO root fetch - processPackages [datawhispers]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 15:37:29] WARNING root fetch - processPackages [scrumit]: Skipping, unable to determine old version
+[2023-07-01 15:37:29] INFO root fetch - processPackages [scrumit]: Start processing: waveglowpkg
+[2023-07-01 15:37:29] INFO root fetch - main [MainThread]: End processing [scrumit] error
+[2023-07-01 15:37:29] INFO root fetch - processPackages [modal]: New version: [0.49.2532] Old Version: [0.49.2527]
+[2023-07-01 15:37:29] INFO root fetch - processPackages [modal-client]: New version: [0.49.2532] Old Version: [0.49.2527]
+[2023-07-01 15:37:29] INFO root fetch - processPackages [cloudflared]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-07-01 15:37:29] WARNING root fetch - processPackages [waveglowpkg]: Skipping, unable to determine old version
+[2023-07-01 15:37:29] INFO root fetch - processPackages [waveglowpkg]: Start processing: lino-react
+[2023-07-01 15:37:29] INFO root fetch - main [MainThread]: End processing [waveglowpkg] error
+[2023-07-01 15:37:29] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/ad/49/74947c115ce7823820820f70f9192505d38b66ad10546411fd46843b3ebd/lycoris_lora-1.8.0.dev5.tar.gz
+[2023-07-01 15:37:29] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/fa/4c/c1ed42111047ca7092351231955eae77f9ddffabe721a7dc5b9c4877c776/datawhispers-0.2.4.tar.gz
+[2023-07-01 15:37:29] INFO root fetch - processPackages [lino-react]: New version: [23.7.0] Old Version: [23.6.2]
+[2023-07-01 15:37:29] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/bd/eb/955dc731c08cb56ff34eb99fa0c49b16e73bcec35a3a99679e4146ae729f/modal_client-0.49.2527-py3-none-any.whl
+[2023-07-01 15:37:29] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/fb/de/915694f602ae20fbc730613b1eeb2e5e505eb295a6d71f9512ab76a5e7b2/modal-0.49.2527-py3-none-any.whl
+[2023-07-01 15:37:29] INFO root fetch - processPackages [cloudflared]: Downloading https://files.pythonhosted.org/packages/7f/27/a893f2273e307c4dcf36a3cd80b9edf9db24edadc2c855baf06f41661b84/cloudflared-1.0.0.1.tar.gz
+[2023-07-01 15:37:29] INFO root fetch - processPackages [cloudflared]: Downloading https://files.pythonhosted.org/packages/7f/27/a893f2273e307c4dcf36a3cd80b9edf9db24edadc2c855baf06f41661b84/cloudflared-1.0.0.1.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/04/41/826da2d905da830cc02b07f165b5121cf1d748d3e4ed9e7dfc1c22a5fd08/gecs-0.22.0.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lsst-efd-client]: Downloading https://files.pythonhosted.org/packages/d5/db/9cffc7e87fbd7238c26a4e9a9b1afabea9dc1910fcfe4d1bd7b21408af69/lsst-efd-client-0.9.0.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/54/00/8a7a14cd068ce4df9c21bc310cc1cf84d4e8d5be8594b448e5854785d37e/lino_react-23.6.2.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/a0/46/2b1b0f389bef0e01140e46f392ebf3f74d918bc1ac75a2b6f9016681b035/datawhispers-0.2.5.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/38/a6/299c8d600a00b6580a0471284f42144460d492be7302bc1d8ef6f98a360d/modal-0.49.2532-py3-none-any.whl
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/52/e8/f25a6153091253c81894aa846fc97ccc8fab2ef9bbe9487191fd24e6d724/modal_client-0.49.2532-py3-none-any.whl
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/f7/7f/0d4f7496829128fc7c498ba1b0565b18ac2bfc5a31efedaea31d3e4c8089/lino-23.7.0.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.4.tar.gz tmp/datawhispers-0.2.5.tar.gz --markdown 20230701/d/datawhispers/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2527-py3-none-any.whl.zip tmp/modal-0.49.2532-py3-none-any.whl.zip --markdown 20230701/m/modal/0.49.2527-0.49.2532/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/16/b5/4d48e0888528a362e3a51034b5ff99885fc445bd522ec119a5e65338c17f/lycoris_lora-1.8.0.dev6.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2527-py3-none-any.whl.zip tmp/modal_client-0.49.2532-py3-none-any.whl.zip --markdown 20230701/m/modal-client/0.49.2527-0.49.2532/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [gecs]: Downloading https://files.pythonhosted.org/packages/6b/1e/040001fc0f3e4603539fb82b8baae126d090f27ea8941479ce9d51f5791f/gecs-0.27.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [cloudflared]: Downloading https://files.pythonhosted.org/packages/c3/71/cfafdb22c8977a23f4dfda3b5b481ebade5f8c2bf067c708683b85d108fe/cloudflared-1.0.0.2.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [cloudflared]: Downloading https://files.pythonhosted.org/packages/c3/71/cfafdb22c8977a23f4dfda3b5b481ebade5f8c2bf067c708683b85d108fe/cloudflared-1.0.0.2.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [gecs]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [gecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gecs-0.22.0.tar.gz tmp/gecs-0.27.tar.gz --markdown 20230701/g/gecs/0.22.0-0.27/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [cloudflared]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [cloudflared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflared-1.0.0.1.tar.gz tmp/cloudflared-1.0.0.2.tar.gz --markdown 20230701/c/cloudflared/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [cloudflared]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [cloudflared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflared-1.0.0.1.tar.gz tmp/cloudflared-1.0.0.2.tar.gz --markdown 20230701/c/cloudflared/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] ERROR root fetch - processPackages [modal]: Diffoscope failed: Error: error creating container storage: the container name "pedantic_torvalds" is already in use by "43a11e2efb8812a63b17cd75f58259b3fa7d0d841b202e9ebb9ae275d91a41dd". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-07-01 15:37:30] INFO root fetch - processPackages [modal]: Start processing: grizli
+[2023-07-01 15:37:30] INFO root fetch - main [MainThread]: End processing [modal] error
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev5.tar.gz tmp/lycoris_lora-1.8.0.dev6.tar.gz --markdown 20230701/l/lycoris-lora/1.8.0.dev5-1.8.0.dev6/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/47/98/b8f181536ba0ac182a5ed3bb4cce45fcc180658b940dfac85a092c1d6dae/lino_react-23.7.0.tar.gz
+[2023-07-01 15:37:30] INFO root fetch - processPackages [grizli]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-07-01 15:37:30] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.6.2.tar.gz tmp/lino_react-23.7.0.tar.gz --markdown 20230701/l/lino-react/23.6.2-23.7.0/diff.md --exclude *.pyd
+[2023-07-01 15:37:30] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/84/df/83a334a427624911a9ea0ca02069df1000b94b8d99278675fcb1a4751c73/grizli-1.8.8.tar.gz
+[2023-07-01 15:37:31] INFO root fetch - processPackages [lsst-efd-client]: Downloading https://files.pythonhosted.org/packages/5a/91/ec0b2c32131d627bc20c622c46b7bdf787840350680435d4ada2f9c9d8ad/lsst-efd-client-0.9.1.tar.gz
+[2023-07-01 15:37:31] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.22.0.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - processPackages [gecs]: Remove: archive file [/home/abi/fetcher/tmp/gecs-0.27.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - processPackages [gecs]: Start processing: toyota-na
+[2023-07-01 15:37:31] INFO root fetch - main [MainThread]: End processing [gecs]: success
+[2023-07-01 15:37:31] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.4.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.5.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 15:37:31] INFO root fetch - processPackages [cloudflared]: Remove: archive file [/home/abi/fetcher/tmp/cloudflared-1.0.0.1.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - processPackages [cloudflared]: Remove: archive file [/home/abi/fetcher/tmp/cloudflared-1.0.0.2.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - main [MainThread]: End processing [cloudflared]: success
+[2023-07-01 15:37:31] INFO root fetch - processPackages [toyota-na]: New version: [2.1.1.dev2] Old Version: [2.1.1]
+[2023-07-01 15:37:31] INFO root fetch - main [MainThread]: End processing [cloudflared]: success
+[2023-07-01 15:37:31] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev5.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev6.tar.gz]
+[2023-07-01 15:37:31] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-01 15:37:32] INFO root fetch - processPackages [toyota-na]: Downloading https://files.pythonhosted.org/packages/0c/57/45e0db16e4f8d2f1fe864205ee90adcc8a9b8451eec045f69f9a4b42acf3/toyota-na-2.1.1.tar.gz
+[2023-07-01 15:37:32] INFO root fetch - processPackages [lsst-efd-client]: executing diffoscope
+[2023-07-01 15:37:32] INFO root fetch - processPackages [lsst-efd-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-efd-client-0.9.0.tar.gz tmp/lsst-efd-client-0.9.1.tar.gz --markdown 20230701/l/lsst-efd-client/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 15:37:32] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/e1/f3/8d12e9615ea7469aa712ec22dea7bf95267fbba4b840d64b994e41f92b1d/grizli-1.8.9.tar.gz
+[2023-07-01 15:37:32] INFO root fetch - processPackages [lino]: executing diffoscope
+[2023-07-01 15:37:32] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-23.6.0.tar.gz tmp/lino-23.7.0.tar.gz --markdown 20230701/l/lino/23.6.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-01 15:37:32] INFO root fetch - processPackages [toyota-na]: Downloading https://files.pythonhosted.org/packages/a0/3d/b7f5b4ccfe5d0a7f99fa98cc01d34a0299f419bf94c440c79cecac8a32a9/toyota-na-2.1.1.dev2.tar.gz
+[2023-07-01 15:37:32] INFO root fetch - processPackages [toyota-na]: executing diffoscope
+[2023-07-01 15:37:32] INFO root fetch - processPackages [toyota-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toyota-na-2.1.1.tar.gz tmp/toyota-na-2.1.1.dev2.tar.gz --markdown 20230701/t/toyota-na/2.1.1-2.1.1.dev2/diff.md --exclude *.pyd
+[2023-07-01 15:37:32] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2527-py3-none-any.whl.zip]
+[2023-07-01 15:37:32] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2532-py3-none-any.whl.zip]
+[2023-07-01 15:37:32] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-01 15:37:33] INFO root fetch - processPackages [toyota-na]: Remove: archive file [/home/abi/fetcher/tmp/toyota-na-2.1.1.tar.gz]
+[2023-07-01 15:37:33] INFO root fetch - processPackages [toyota-na]: Remove: archive file [/home/abi/fetcher/tmp/toyota-na-2.1.1.dev2.tar.gz]
+[2023-07-01 15:37:33] INFO root fetch - main [MainThread]: End processing [toyota-na]: success
+[2023-07-01 15:37:33] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-07-01 15:37:33] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.8.tar.gz tmp/grizli-1.8.9.tar.gz --markdown 20230701/g/grizli/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-01 15:37:34] INFO root fetch - processPackages [lsst-efd-client]: Remove: archive file [/home/abi/fetcher/tmp/lsst-efd-client-0.9.0.tar.gz]
+[2023-07-01 15:37:34] INFO root fetch - processPackages [lsst-efd-client]: Remove: archive file [/home/abi/fetcher/tmp/lsst-efd-client-0.9.1.tar.gz]
+[2023-07-01 15:37:34] INFO root fetch - main [MainThread]: End processing [lsst-efd-client]: success
+[2023-07-01 15:37:37] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.8.8.tar.gz]
+[2023-07-01 15:37:37] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.8.9.tar.gz]
+[2023-07-01 15:37:37] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-07-01 15:37:43] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.6.2.tar.gz]
+[2023-07-01 15:37:43] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.7.0.tar.gz]
+[2023-07-01 15:37:43] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-07-01 15:40:14] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.6.0.tar.gz]
+[2023-07-01 15:40:14] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.7.0.tar.gz]
+[2023-07-01 15:40:14] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2023-07-01 15:40:14] INFO root fetch - main [MainThread]: Store serial: [18722103]
