@@ -7937,3 +7937,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 05:17:33] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.1.tar.gz]
 [2023-07-01 05:17:33] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
 [2023-07-01 05:17:33] INFO root fetch - main [MainThread]: Store serial: [18719464]
+[2023-07-01 05:22:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719464]
+[2023-07-01 05:22:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 05:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meth
+[2023-07-01 05:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redashsync
+[2023-07-01 05:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raspi-gpio
+[2023-07-01 05:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asgihandler
+[2023-07-01 05:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-fieldservice-route-account
+[2023-07-01 05:22:42] INFO root fetch - processPackages [redashsync]: New version: [0.0.6] Old Version: [0.0.1]
+[2023-07-01 05:22:42] INFO root fetch - processPackages [raspi-gpio]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 05:22:42] WARNING root fetch - processPackages [meth]: Skipping, unable to determine old version
+[2023-07-01 05:22:42] INFO root fetch - main [MainThread]: End processing [meth] error
+[2023-07-01 05:22:42] INFO root fetch - processPackages [asgihandler]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-01 05:22:42] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/47/8b/d2dd93926174053aa01915281b4a98738b7b2ea1ad52c6f6b7dbbb35dbe1/raspi_gpio-0.1.5.tar.gz
+[2023-07-01 05:22:42] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: New version: [12.0.1.1.1.99.dev8] Old Version: [12.0.1.1.1.99.dev7]
+[2023-07-01 05:22:42] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/d3/d2/823618f9e17b6592678ba72d5a46a207eb373dd64b4c44a61b4efef19c0d/asgihandler-0.5.0.tar.gz
+[2023-07-01 05:22:42] INFO root fetch - processPackages [redashsync]: Downloading https://files.pythonhosted.org/packages/31/dd/18f1b3c586ec4ed1edb9006edcdd68e0da8239c15498bbf412ec4d8c62bc/redashsync-0.0.1.tar.gz
+[2023-07-01 05:22:42] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/3e/63/a36299f5b18aa876a1174c978ddc6ccb008e45104513adb8f6e79bcb1963/raspi_gpio-0.1.6.tar.gz
+[2023-07-01 05:22:42] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: Downloading https://files.pythonhosted.org/packages/87/7f/c931d4f5609dd147076c1ce955e41efc9ed782c3cd0907495a4da325e5b2/odoo12_addon_fieldservice_route_account-12.0.1.1.1.99.dev7-py3-none-any.whl
+[2023-07-01 05:22:42] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/0f/76/e661bdb9a73b3f2c4f7aca2a4c9f59ccdad6c46dcc958986239fc53911f4/asgihandler-0.5.1.tar.gz
+[2023-07-01 05:22:42] INFO root fetch - processPackages [raspi-gpio]: executing diffoscope
+[2023-07-01 05:22:42] INFO root fetch - processPackages [raspi-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspi_gpio-0.1.5.tar.gz tmp/raspi_gpio-0.1.6.tar.gz --markdown 20230701/r/raspi-gpio/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 05:22:42] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-07-01 05:22:42] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.5.0.tar.gz tmp/asgihandler-0.5.1.tar.gz --markdown 20230701/a/asgihandler/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-01 05:22:42] INFO root fetch - processPackages [redashsync]: Downloading https://files.pythonhosted.org/packages/f9/7a/2d63e7fa4dd57c85e316644bc935b447336ff871e53c418374bdceb1e939/redashsync-0.0.6-py3-none-any.whl
+[2023-07-01 05:22:42] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: Downloading https://files.pythonhosted.org/packages/4d/aa/1b0c469477394ffc679cd25d2b19bb2fa7068716a3163e1558cfc788394f/odoo12_addon_fieldservice_route_account-12.0.1.1.1.99.dev8-py3-none-any.whl
+[2023-07-01 05:22:42] INFO root fetch - processPackages [redashsync]: executing diffoscope
+[2023-07-01 05:22:42] INFO root fetch - processPackages [redashsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redashsync-0.0.1.tar.gz tmp/redashsync-0.0.6-py3-none-any.whl.zip --markdown 20230701/r/redashsync/0.0.1-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 05:22:42] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: executing diffoscope
+[2023-07-01 05:22:42] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_route_account-12.0.1.1.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_route_account-12.0.1.1.1.99.dev8-py3-none-any.whl.zip --markdown 20230701/o/odoo12-addon-fieldservice-route-account/12.0.1.1.1.99.dev7-12.0.1.1.1.99.dev8/diff.md --exclude *.pyd
+[2023-07-01 05:22:43] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.5.tar.gz]
+[2023-07-01 05:22:43] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.6.tar.gz]
+[2023-07-01 05:22:43] INFO root fetch - main [MainThread]: End processing [raspi-gpio]: success
+[2023-07-01 05:22:43] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.5.0.tar.gz]
+[2023-07-01 05:22:43] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.5.1.tar.gz]
+[2023-07-01 05:22:43] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-07-01 05:22:43] INFO root fetch - processPackages [redashsync]: Remove: archive file [/home/abi/fetcher/tmp/redashsync-0.0.1.tar.gz]
+[2023-07-01 05:22:43] INFO root fetch - processPackages [redashsync]: Remove: archive file [/home/abi/fetcher/tmp/redashsync-0.0.6-py3-none-any.whl.zip]
+[2023-07-01 05:22:43] INFO root fetch - main [MainThread]: End processing [redashsync]: success
+[2023-07-01 05:22:43] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_route_account-12.0.1.1.1.99.dev7-py3-none-any.whl.zip]
+[2023-07-01 05:22:43] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_route_account-12.0.1.1.1.99.dev8-py3-none-any.whl.zip]
+[2023-07-01 05:22:43] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-route-account]: success
+[2023-07-01 05:22:43] INFO root fetch - main [MainThread]: Store serial: [18719479]
