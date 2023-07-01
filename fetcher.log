@@ -3222,3 +3222,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 02:54:24] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.6.tar.gz]
 [2023-07-01 02:54:24] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
 [2023-07-01 02:54:24] INFO root fetch - main [MainThread]: Store serial: [18717781]
+[2023-07-01 02:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717781]
+[2023-07-01 02:59:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycde
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gantry
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captum-rise
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asgihandler
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moesifdjango
+[2023-07-01 02:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-comprehend-s3olap
+[2023-07-01 02:59:33] INFO root fetch - processPackages [gantry]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-01 02:59:33] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-01 02:59:33] WARNING root fetch - processPackages [captum-rise]: Skipping, unable to determine old version
+[2023-07-01 02:59:33] INFO root fetch - main [MainThread]: End processing [captum-rise] error
+[2023-07-01 02:59:33] INFO root fetch - processPackages [asgihandler]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-01 02:59:33] INFO root fetch - processPackages [moesifdjango]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-01 02:59:33] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-01 02:59:33] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev874]
+[2023-07-01 02:59:33] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-01 02:59:33] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/76/2b/288183b1e864d68d85614fd18d07b829e21eb5fe00a6f07dc86aba8f97a3/gantry-0.6.7.tar.gz
+[2023-07-01 02:59:33] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-01 02:59:33] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-01 02:59:33] INFO root fetch - processPackages [moesifdjango]: Downloading https://files.pythonhosted.org/packages/45/91/0b14c04e1105ba3508d055eb9769bd7c7006099b86f81aa180524d126e1e/moesifdjango-2.3.1.tar.gz
+[2023-07-01 02:59:33] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/3f/d2/76a0b8b862075cb86af7d430b79709d11a01a7ab6b20613a6e09a5ddbc7d/asgihandler-0.4.8.tar.gz
+[2023-07-01 02:59:33] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-07-01 02:59:33] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-07-01 02:59:33] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-07-01 02:59:33] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/fb/a4/085cfde1ceee8a52dbe605d99ba636d6ae2f8e5aca286ad8112d687c0458/pycde-0.2.1.dev874-cp39-cp39-win_amd64.whl
+[2023-07-01 02:59:33] INFO root fetch - processPackages [gantry]: Downloading https://files.pythonhosted.org/packages/04/92/e8194247a54c8ff4acda78faf77cd72fd5e8a24d636da7989581a789eb05/gantry-0.6.8.tar.gz
+[2023-07-01 02:59:33] INFO root fetch - processPackages [moesifdjango]: Downloading https://files.pythonhosted.org/packages/31/0b/ea5698d7304709d9199fbdbd794a66af5091aa944d688e7b9f5c0bc6db58/moesifdjango-2.3.2.tar.gz
+[2023-07-01 02:59:33] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/bc/5b/0ad9aeab7b5ac633afc586c476c77964e16c1cb0205296f2c4639d50d952/asgihandler-0.4.9.tar.gz
+[2023-07-01 02:59:34] INFO root fetch - processPackages [gantry]: executing diffoscope
+[2023-07-01 02:59:34] INFO root fetch - processPackages [gantry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gantry-0.6.7.tar.gz tmp/gantry-0.6.8.tar.gz --markdown 20230701/g/gantry/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-01 02:59:34] INFO root fetch - processPackages [moesifdjango]: executing diffoscope
+[2023-07-01 02:59:34] INFO root fetch - processPackages [moesifdjango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifdjango-2.3.1.tar.gz tmp/moesifdjango-2.3.2.tar.gz --markdown 20230701/m/moesifdjango/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-01 02:59:34] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-07-01 02:59:34] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.4.8.tar.gz tmp/asgihandler-0.4.9.tar.gz --markdown 20230701/a/asgihandler/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-01 02:59:34] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.4.8.tar.gz]
+[2023-07-01 02:59:34] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.4.9.tar.gz]
+[2023-07-01 02:59:34] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-07-01 02:59:35] INFO root fetch - processPackages [moesifdjango]: Remove: archive file [/home/abi/fetcher/tmp/moesifdjango-2.3.1.tar.gz]
+[2023-07-01 02:59:35] INFO root fetch - processPackages [moesifdjango]: Remove: archive file [/home/abi/fetcher/tmp/moesifdjango-2.3.2.tar.gz]
+[2023-07-01 02:59:35] INFO root fetch - main [MainThread]: End processing [moesifdjango]: success
+[2023-07-01 02:59:35] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/02/67/a0802e854af7f826dd695e46eb4ae1d0ab14c4a75671d50c34a7eb8074a8/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl
+[2023-07-01 02:59:35] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-07-01 02:59:35] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev874-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230701/p/pycde/0.2.1.dev874-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-07-01 02:59:35] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.7.tar.gz]
+[2023-07-01 02:59:35] INFO root fetch - processPackages [gantry]: Remove: archive file [/home/abi/fetcher/tmp/gantry-0.6.8.tar.gz]
+[2023-07-01 02:59:35] INFO root fetch - main [MainThread]: End processing [gantry]: success
+[2023-07-01 03:00:21] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev874-cp39-cp39-win_amd64.whl.zip]
+[2023-07-01 03:00:21] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-01 03:00:21] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-07-01 03:00:21] INFO root fetch - main [MainThread]: Store serial: [18717808]
