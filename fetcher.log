@@ -11189,3 +11189,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:26:09] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230701-py2.py3-none-any.whl.zip]
 [2023-07-01 10:26:09] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
 [2023-07-01 10:26:09] INFO root fetch - main [MainThread]: Store serial: [18720656]
+[2023-07-01 10:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720656]
+[2023-07-01 10:31:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commented-json
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erscipcard
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spinneroo
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-filestore
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sweepai
+[2023-07-01 10:31:18] INFO root fetch - processPackages [erscipcard]: New version: [1.18.95] Old Version: [1.18.94]
+[2023-07-01 10:31:18] INFO root fetch - processPackages [sweepai]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-07-01 10:31:18] INFO root fetch - processPackages [tendril-filestore]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-07-01 10:31:18] WARNING root fetch - processPackages [commented-json]: Skipping, unable to determine old version
+[2023-07-01 10:31:18] INFO root fetch - main [MainThread]: End processing [commented-json] error
+[2023-07-01 10:31:18] INFO root fetch - processPackages [spinneroo]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-01 10:31:18] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/e3/8a/a4933d040a1976d90d66a8b5e3ad191952a65ea823e4ef7bc24e87b28739/sweepai-0.1.2.tar.gz
+[2023-07-01 10:31:18] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/05/97/5a6ebcf7c9c59a5f49585bbb01eefcdfb4b483cee28bf24afce191479491/erscipcard-1.18.94.tar.gz
+[2023-07-01 10:31:18] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-07-01 10:31:18] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/ff/96/4aad9c3007b27a6e75538624bc0864be73be018aab0bc08e2fae5027d615/tendril-filestore-0.2.8.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/61/dc/44b65fe156c5fd6a6d0e798be1174e4c58c293155c8b520514a6affa7704/spinneroo-1.0.0.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [tendril-filestore]: Downloading https://files.pythonhosted.org/packages/d9/1e/d54f6db51c670a79d285b3c3d863de03484e3747b5637814806029bf69b5/tendril-filestore-0.2.9.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/3c/61/94c9f62b972612c816231ec4bda3be29aced4e2271fdcbbaa39f2475feeb/erscipcard-1.18.95.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/8a/89/8f005b87fd8839d451dfed2f537936d72f289a63a18ebd5237c5b1953969/sweepai-0.1.5.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [tendril-filestore]: executing diffoscope
+[2023-07-01 10:31:19] INFO root fetch - processPackages [tendril-filestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-filestore-0.2.8.tar.gz tmp/tendril-filestore-0.2.9.tar.gz --markdown 20230701/t/tendril-filestore/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 10:31:19] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 10:31:19] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.94.tar.gz tmp/erscipcard-1.18.95.tar.gz --markdown 20230701/e/erscipcard/1.18.94-1.18.95/diff.md --exclude *.pyd
+[2023-07-01 10:31:19] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-01 10:31:19] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.2.tar.gz tmp/sweepai-0.1.5.tar.gz --markdown 20230701/s/sweepai/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 10:31:19] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-01 10:31:19] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230701/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-07-01 10:31:19] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/7d/3b/56f7374e84ff0497b0fd377277056ce54796ff5d85e237c4d9f680f6e2ba/spinneroo-1.0.1.tar.gz
+[2023-07-01 10:31:19] INFO root fetch - processPackages [spinneroo]: executing diffoscope
+[2023-07-01 10:31:19] INFO root fetch - processPackages [spinneroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinneroo-1.0.0.tar.gz tmp/spinneroo-1.0.1.tar.gz --markdown 20230701/s/spinneroo/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-01 10:31:20] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.0.0.tar.gz]
+[2023-07-01 10:31:20] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.0.1.tar.gz]
+[2023-07-01 10:31:20] INFO root fetch - main [MainThread]: End processing [spinneroo]: success
+[2023-07-01 10:31:20] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.2.tar.gz]
+[2023-07-01 10:31:20] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.5.tar.gz]
+[2023-07-01 10:31:20] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-01 10:31:21] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.94.tar.gz]
+[2023-07-01 10:31:21] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.95.tar.gz]
+[2023-07-01 10:31:21] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 10:31:21] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.8.tar.gz]
+[2023-07-01 10:31:21] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
+[2023-07-01 10:31:21] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
+[2023-07-01 10:31:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-07-01 10:31:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-07-01 10:31:28] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-01 10:31:28] INFO root fetch - main [MainThread]: Store serial: [18720673]
