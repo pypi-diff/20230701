@@ -11710,3 +11710,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 11:15:17] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.9.tar.gz]
 [2023-07-01 11:15:17] INFO root fetch - main [MainThread]: End processing [tensorstore]: success
 [2023-07-01 11:15:17] INFO root fetch - main [MainThread]: Store serial: [18720953]
+[2023-07-01 11:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720953]
+[2023-07-01 11:20:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 11:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-advert-framework
+[2023-07-01 11:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyCompGeomAlgorithms
+[2023-07-01 11:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inels-mqtt-new
+[2023-07-01 11:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphdata
+[2023-07-01 11:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maroon
+[2023-07-01 11:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shellserver
+[2023-07-01 11:20:26] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.0.4] Old Version: [2.8.4]
+[2023-07-01 11:20:26] WARNING root fetch - processPackages [graphdata]: Skipping, unable to determine old version
+[2023-07-01 11:20:26] INFO root fetch - main [MainThread]: End processing [graphdata] error
+[2023-07-01 11:20:26] INFO root fetch - processPackages [PyCompGeomAlgorithms]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-01 11:20:26] INFO root fetch - processPackages [maroon]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-07-01 11:20:26] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-07-01 11:20:26] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/21/9f/3bb85704d53adba9e79807f3d345456ffac5d263128f11dab389cce9b569/maroon-0.1.41.tar.gz
+[2023-07-01 11:20:26] INFO root fetch - processPackages [shellserver]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 11:20:26] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/f3/b4/aad26ab80dde8799302dbe662e01e1fe40a55a40eba4691be5a5ebcc58a7/inels-mqtt-new-0.2.9a1.tar.gz
+[2023-07-01 11:20:26] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/32/68/f231f4118db57b07dab22c1dd1f916f283bdccdc07901cbe801427ec51cd/discord-advert-framework-2.8.4.tar.gz
+[2023-07-01 11:20:26] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18344561>=10485760
+[2023-07-01 11:20:26] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-01 11:20:26] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/87/8d/46c4df7b8876f51dd01b7b7e2b2ee36598d76aab88e746f16676e6d53372/PyCompGeomAlgorithms-1.0.7.tar.gz
+[2023-07-01 11:20:26] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/5c/47/219c71a9756984e255fc347c7058c2b030ce84aaa8d8b977e6c76f068480/shellserver-0.0.8.tar.gz
+[2023-07-01 11:20:26] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-07-01 11:20:26] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230701/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-07-01 11:20:27] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/6c/72/36da1246fb49d43333501af660e158f2ee343025f8a0482c8cb0329a1af9/maroon-0.1.42.tar.gz
+[2023-07-01 11:20:27] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Downloading https://files.pythonhosted.org/packages/30/8b/6e606d2d9e9edf6afe4106b9fc0602f260f70fefce85a767acd72ddd9ce0/PyCompGeomAlgorithms-1.0.8.tar.gz
+[2023-07-01 11:20:27] INFO root fetch - processPackages [maroon]: executing diffoscope
+[2023-07-01 11:20:27] INFO root fetch - processPackages [maroon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maroon-0.1.41.tar.gz tmp/maroon-0.1.42.tar.gz --markdown 20230701/m/maroon/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-07-01 11:20:27] INFO root fetch - processPackages [PyCompGeomAlgorithms]: executing diffoscope
+[2023-07-01 11:20:27] INFO root fetch - processPackages [PyCompGeomAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCompGeomAlgorithms-1.0.7.tar.gz tmp/PyCompGeomAlgorithms-1.0.8.tar.gz --markdown 20230701/P/PyCompGeomAlgorithms/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-01 11:20:27] INFO root fetch - processPackages [shellserver]: Downloading https://files.pythonhosted.org/packages/52/7f/995ec55e8f719ed1bf75502ac03981f54e3cec768591d0a6369c07ac9d28/shellserver-0.0.9.tar.gz
+[2023-07-01 11:20:27] INFO root fetch - processPackages [shellserver]: executing diffoscope
+[2023-07-01 11:20:27] INFO root fetch - processPackages [shellserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellserver-0.0.8.tar.gz tmp/shellserver-0.0.9.tar.gz --markdown 20230701/s/shellserver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 11:20:28] INFO root fetch - processPackages [inels-mqtt-new]: Remove: archive file [/home/abi/fetcher/tmp/inels-mqtt-new-0.2.9a1.tar.gz]
+[2023-07-01 11:20:28] INFO root fetch - processPackages [inels-mqtt-new]: Remove: archive file [/home/abi/fetcher/tmp/inels-mqtt-new-0.2.9a2.tar.gz]
+[2023-07-01 11:20:28] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-07-01 11:20:28] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.41.tar.gz]
+[2023-07-01 11:20:28] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.42.tar.gz]
+[2023-07-01 11:20:28] INFO root fetch - main [MainThread]: End processing [maroon]: success
+[2023-07-01 11:20:28] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.7.tar.gz]
+[2023-07-01 11:20:28] INFO root fetch - processPackages [PyCompGeomAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/PyCompGeomAlgorithms-1.0.8.tar.gz]
+[2023-07-01 11:20:28] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms]: success
+[2023-07-01 11:20:29] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.0.8.tar.gz]
+[2023-07-01 11:20:29] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.0.9.tar.gz]
+[2023-07-01 11:20:29] INFO root fetch - main [MainThread]: End processing [shellserver]: success
+[2023-07-01 11:20:29] INFO root fetch - main [MainThread]: Store serial: [18720994]
