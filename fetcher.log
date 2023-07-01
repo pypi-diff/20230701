@@ -18827,3 +18827,26 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:58:16] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.3.tar.gz]
 [2023-07-01 20:58:16] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2023-07-01 20:58:16] INFO root fetch - main [MainThread]: Store serial: [18724145]
+[2023-07-01 21:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724145]
+[2023-07-01 21:03:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 21:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iq-lib
+[2023-07-01 21:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crackle-codec
+[2023-07-01 21:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-scatter
+[2023-07-01 21:03:26] WARNING root fetch - processPackages [iq-lib]: Skipping, unable to determine old version
+[2023-07-01 21:03:26] INFO root fetch - main [MainThread]: End processing [iq-lib] error
+[2023-07-01 21:03:26] INFO root fetch - processPackages [jupyter-scatter]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-01 21:03:26] INFO root fetch - processPackages [crackle-codec]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-07-01 21:03:26] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/52/d5/fdc26b2c812cb9385e85072bac02324d0ca1640b477dc79843e799450fac/jupyter-scatter-0.8.0.tar.gz
+[2023-07-01 21:03:27] INFO root fetch - processPackages [crackle-codec]: Downloading https://files.pythonhosted.org/packages/70/72/e05479859b299f37126a414be4ee05e89720ba744f42b4518e6a2b3298dd/crackle_codec-0.7.0-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-07-01 21:03:27] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/cd/a3/bab2feeb3c3ea460132cda34d75a2f6aac2e8c38ab82342eeae49bea3540/jupyter-scatter-0.9.0.tar.gz
+[2023-07-01 21:03:28] INFO root fetch - processPackages [crackle-codec]: executing diffoscope
+[2023-07-01 21:03:28] INFO root fetch - processPackages [crackle-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackle-codec-0.6.2.tar.gz tmp/crackle_codec-0.7.0-cp38-cp38-macosx_10_9_x86_64.whl.zip --markdown 20230701/c/crackle-codec/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-07-01 21:03:28] INFO root fetch - processPackages [jupyter-scatter]: executing diffoscope
+[2023-07-01 21:03:28] INFO root fetch - processPackages [jupyter-scatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-scatter-0.8.0.tar.gz tmp/jupyter-scatter-0.9.0.tar.gz --markdown 20230701/j/jupyter-scatter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 21:03:29] INFO root fetch - processPackages [crackle-codec]: Remove: archive file [/home/abi/fetcher/tmp/crackle-codec-0.6.2.tar.gz]
+[2023-07-01 21:03:29] INFO root fetch - processPackages [crackle-codec]: Remove: archive file [/home/abi/fetcher/tmp/crackle_codec-0.7.0-cp38-cp38-macosx_10_9_x86_64.whl.zip]
+[2023-07-01 21:03:29] INFO root fetch - main [MainThread]: End processing [crackle-codec]: success
+[2023-07-01 21:03:43] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.8.0.tar.gz]
+[2023-07-01 21:03:43] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.9.0.tar.gz]
+[2023-07-01 21:03:43] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
+[2023-07-01 21:03:43] INFO root fetch - main [MainThread]: Store serial: [18724172]
