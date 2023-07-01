@@ -15904,3 +15904,37 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:40:27] INFO root fetch - processPackages [pytest-csv-params]: Remove: archive file [/home/abi/fetcher/tmp/pytest_csv_params-1.1.0.tar.gz]
 [2023-07-01 17:40:27] INFO root fetch - main [MainThread]: End processing [pytest-csv-params]: success
 [2023-07-01 17:40:27] INFO root fetch - main [MainThread]: Store serial: [18722867]
+[2023-07-01 17:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722867]
+[2023-07-01 17:45:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 17:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unbelievaboat
+[2023-07-01 17:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyMCTranslate
+[2023-07-01 17:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unbelievaboat
+[2023-07-01 17:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cigsegy
+[2023-07-01 17:45:37] INFO root fetch - processPackages [unbelievaboat]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 17:45:37] INFO root fetch - processPackages [unbelievaboat]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 17:45:37] INFO root fetch - processPackages [PyMCTranslate]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-01 17:45:37] INFO root fetch - processPackages [cigsegy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-01 17:45:37] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/a0/66/74a5de2b4094d1fd02c574837f6b25b16b48ec4f55aecd9fec74743202da/unbelievaboat-1.0.1.tar.gz
+[2023-07-01 17:45:37] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/a0/66/74a5de2b4094d1fd02c574837f6b25b16b48ec4f55aecd9fec74743202da/unbelievaboat-1.0.1.tar.gz
+[2023-07-01 17:45:37] INFO root fetch - processPackages [cigsegy]: Downloading https://files.pythonhosted.org/packages/b5/14/81a28d11307c30f040958cdd4252d0bc3a9ea68700f8556894d4348c5cf0/cigsegy-1.1.2.tar.gz
+[2023-07-01 17:45:38] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/d6/c1/0f2978303c6bb663b83aaeeccb72d6eabc6239aad36f7d4caa965ea65a9a/unbelievaboat-1.0.2.tar.gz
+[2023-07-01 17:45:38] INFO root fetch - processPackages [unbelievaboat]: Downloading https://files.pythonhosted.org/packages/d6/c1/0f2978303c6bb663b83aaeeccb72d6eabc6239aad36f7d4caa965ea65a9a/unbelievaboat-1.0.2.tar.gz
+[2023-07-01 17:45:38] INFO root fetch - processPackages [PyMCTranslate]: executing diffoscope
+[2023-07-01 17:45:38] INFO root fetch - processPackages [PyMCTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMCTranslate-1.2.8.tar.gz tmp/PyMCTranslate-1.2.9.tar.gz --markdown 20230701/P/PyMCTranslate/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-01 17:45:38] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-01 17:45:38] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.0.1.tar.gz tmp/unbelievaboat-1.0.2.tar.gz --markdown 20230701/u/unbelievaboat/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 17:45:38] INFO root fetch - processPackages [unbelievaboat]: executing diffoscope
+[2023-07-01 17:45:38] INFO root fetch - processPackages [unbelievaboat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbelievaboat-1.0.1.tar.gz tmp/unbelievaboat-1.0.2.tar.gz --markdown 20230701/u/unbelievaboat/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 17:45:38] INFO root fetch - processPackages [cigsegy]: Downloading https://files.pythonhosted.org/packages/c0/07/b0c158df4174b53caa2e07c4e5770a45b7cd883ffc933484a7d747462699/cigsegy-1.1.3-cp39-cp39-macosx_13_0_arm64.whl
+[2023-07-01 17:45:38] INFO root fetch - processPackages [cigsegy]: executing diffoscope
+[2023-07-01 17:45:38] INFO root fetch - processPackages [cigsegy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cigsegy-1.1.2.tar.gz tmp/cigsegy-1.1.3-cp39-cp39-macosx_13_0_arm64.whl.zip --markdown 20230701/c/cigsegy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-01 17:45:39] INFO root fetch - processPackages [cigsegy]: Remove: archive file [/home/abi/fetcher/tmp/cigsegy-1.1.2.tar.gz]
+[2023-07-01 17:45:39] INFO root fetch - processPackages [cigsegy]: Remove: archive file [/home/abi/fetcher/tmp/cigsegy-1.1.3-cp39-cp39-macosx_13_0_arm64.whl.zip]
+[2023-07-01 17:45:39] INFO root fetch - main [MainThread]: End processing [cigsegy]: success
+[2023-07-01 17:45:39] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.1.tar.gz]
+[2023-07-01 17:45:39] INFO root fetch - processPackages [unbelievaboat]: Remove: archive file [/home/abi/fetcher/tmp/unbelievaboat-1.0.2.tar.gz]
+[2023-07-01 17:45:39] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-01 17:45:39] INFO root fetch - main [MainThread]: End processing [unbelievaboat]: success
+[2023-07-01 17:48:38] ERROR root fetch - processPackages [PyMCTranslate]: Timeout during execution of pkgdiff
+[2023-07-01 17:48:38] INFO root fetch - main [MainThread]: End processing [PyMCTranslate] error
+[2023-07-01 17:48:38] INFO root fetch - main [MainThread]: Store serial: [18722883]
