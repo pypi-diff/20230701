@@ -15091,3 +15091,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:43:04] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.2.tar.gz]
 [2023-07-01 16:43:04] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2023-07-01 16:43:04] INFO root fetch - main [MainThread]: Store serial: [18722447]
+[2023-07-01 16:48:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722447]
+[2023-07-01 16:48:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgetest
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: couchbed
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyJwtRequest
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cv2filters
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: balepy
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wks
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threed-optix
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: powertools-oas-validator
+[2023-07-01 16:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lokzz-pylibrary
+[2023-07-01 16:48:13] INFO root fetch - processPackages [edgetest]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-07-01 16:48:13] INFO root fetch - processPackages [balepy]: New version: [0.7] Old Version: [0.6]
+[2023-07-01 16:48:13] WARNING root fetch - processPackages [pyJwtRequest]: Skipping, unable to determine old version
+[2023-07-01 16:48:13] INFO root fetch - main [MainThread]: End processing [pyJwtRequest] error
+[2023-07-01 16:48:13] INFO root fetch - processPackages [threed-optix]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-01 16:48:13] INFO root fetch - processPackages [wks]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-07-01 16:48:13] WARNING root fetch - processPackages [cv2filters]: Skipping, unable to determine old version
+[2023-07-01 16:48:13] INFO root fetch - main [MainThread]: End processing [cv2filters] error
+[2023-07-01 16:48:13] ERROR root fetch - processPackages [lokzz-pylibrary]: Unable to get metadata: No such project 'lokzz-pylibrary'
+[2023-07-01 16:48:13] INFO root fetch - main [MainThread]: End processing [lokzz-pylibrary] error
+[2023-07-01 16:48:13] WARNING root fetch - processPackages [powertools-oas-validator]: Skipping, unable to determine old version
+[2023-07-01 16:48:13] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator] error
+[2023-07-01 16:48:13] INFO root fetch - processPackages [couchbed]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 16:48:13] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/a0/02/fd289fbc978395b00e5a44a7a70dd34be19cbf8e9c554e1fdd6e31b7f47e/wks-0.3.1.tar.gz
+[2023-07-01 16:48:13] INFO root fetch - processPackages [edgetest]: Downloading https://files.pythonhosted.org/packages/a9/7f/4202014a8ef62258ef15ff30a9b871714a1aca364d1d60c78def72a58b31/edgetest-2023.6.0.tar.gz
+[2023-07-01 16:48:13] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/96/40/1353fe2a1b9730d6e82ea9d237fb776c0ce9858216de81f6df52257b04e6/threed_optix-1.0.4.tar.gz
+[2023-07-01 16:48:13] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/bb/3f/9d9108efd63b28b3c974d9f7b00276dae79c8c3f5d3ddb2e7b386c13bda6/balepy-0.6.tar.gz
+[2023-07-01 16:48:13] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/1a/a6/bffb50f9a20192af901e26c2060662ec0d056d12408de73e834945ff60e0/couchbed-0.1.0.tar.gz
+[2023-07-01 16:48:14] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/cb/fa/65bd0dda04f4d4d6c769d767389efe52196f1e793ddc1e92d51010de29b9/wks-0.3.3.tar.gz
+[2023-07-01 16:48:14] INFO root fetch - processPackages [balepy]: Downloading https://files.pythonhosted.org/packages/d4/86/218668be170bde3a927c9187c21df4c04aabbc80e5267ef97d94fafa78b7/balepy-0.7.tar.gz
+[2023-07-01 16:48:14] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/d3/8d/5d91ff23d27445b903579354af7ca9d494c19cdebbc4428670b47f5735a1/threed_optix-1.0.5.tar.gz
+[2023-07-01 16:48:14] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/2a/a7/ce9259097c574395f214840357a1a6ad173b7331ee8e01731e1cb9315cc0/couchbed-0.1.1.tar.gz
+[2023-07-01 16:48:14] INFO root fetch - processPackages [edgetest]: Downloading https://files.pythonhosted.org/packages/c9/4f/6924cae1b89207ca9de49f7f579e395afe9081812d7507e1f5b2d1c9a44d/edgetest-2023.6.1.tar.gz
+[2023-07-01 16:48:14] INFO root fetch - processPackages [wks]: executing diffoscope
+[2023-07-01 16:48:14] INFO root fetch - processPackages [wks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wks-0.3.1.tar.gz tmp/wks-0.3.3.tar.gz --markdown 20230701/w/wks/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-07-01 16:48:14] INFO root fetch - processPackages [balepy]: executing diffoscope
+[2023-07-01 16:48:14] INFO root fetch - processPackages [balepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balepy-0.6.tar.gz tmp/balepy-0.7.tar.gz --markdown 20230701/b/balepy/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-01 16:48:14] INFO root fetch - processPackages [couchbed]: executing diffoscope
+[2023-07-01 16:48:14] INFO root fetch - processPackages [couchbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchbed-0.1.0.tar.gz tmp/couchbed-0.1.1.tar.gz --markdown 20230701/c/couchbed/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 16:48:14] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2023-07-01 16:48:14] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-1.0.4.tar.gz tmp/threed_optix-1.0.5.tar.gz --markdown 20230701/t/threed-optix/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-01 16:48:14] INFO root fetch - processPackages [edgetest]: executing diffoscope
+[2023-07-01 16:48:14] INFO root fetch - processPackages [edgetest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgetest-2023.6.0.tar.gz tmp/edgetest-2023.6.1.tar.gz --markdown 20230701/e/edgetest/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-07-01 16:48:15] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.6.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - processPackages [balepy]: Remove: archive file [/home/abi/fetcher/tmp/balepy-0.7.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - main [MainThread]: End processing [balepy]: success
+[2023-07-01 16:48:15] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-1.0.4.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-1.0.5.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2023-07-01 16:48:15] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.0.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.1.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - main [MainThread]: End processing [couchbed]: success
+[2023-07-01 16:48:15] INFO root fetch - processPackages [wks]: Remove: archive file [/home/abi/fetcher/tmp/wks-0.3.1.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - processPackages [wks]: Remove: archive file [/home/abi/fetcher/tmp/wks-0.3.3.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - main [MainThread]: End processing [wks]: success
+[2023-07-01 16:48:15] INFO root fetch - processPackages [edgetest]: Remove: archive file [/home/abi/fetcher/tmp/edgetest-2023.6.0.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - processPackages [edgetest]: Remove: archive file [/home/abi/fetcher/tmp/edgetest-2023.6.1.tar.gz]
+[2023-07-01 16:48:15] INFO root fetch - main [MainThread]: End processing [edgetest]: success
+[2023-07-01 16:48:15] INFO root fetch - main [MainThread]: Store serial: [18722479]
