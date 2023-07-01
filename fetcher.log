@@ -18643,3 +18643,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:41:21] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-01 20:41:21] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
 [2023-07-01 20:41:21] INFO root fetch - main [MainThread]: Store serial: [18724074]
+[2023-07-01 20:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724074]
+[2023-07-01 20:46:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 20:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microviewer
+[2023-07-01 20:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f1-telemetry
+[2023-07-01 20:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: igem-uploads
+[2023-07-01 20:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Calculate-asmd
+[2023-07-01 20:46:30] WARNING root fetch - processPackages [Calculate-asmd]: Skipping, unable to determine old version
+[2023-07-01 20:46:30] INFO root fetch - main [MainThread]: End processing [Calculate-asmd] error
+[2023-07-01 20:46:30] INFO root fetch - processPackages [igem-uploads]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-01 20:46:30] INFO root fetch - processPackages [f1-telemetry]: New version: [2023.1.0] Old Version: [2022.1.7]
+[2023-07-01 20:46:30] INFO root fetch - processPackages [microviewer]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-01 20:46:30] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/b2/4e/feda29158d9fa0e254ffb4f8406851b848fe1d126ba47545bb84dd740ae9/microviewer-1.4.0.tar.gz
+[2023-07-01 20:46:30] INFO root fetch - processPackages [igem-uploads]: Downloading https://files.pythonhosted.org/packages/6b/60/6aee095300124cca1e9821b9ae1eb5effabcb721905b506bd0303385b3b2/igem-uploads-0.0.1.tar.gz
+[2023-07-01 20:46:30] INFO root fetch - processPackages [f1-telemetry]: Downloading https://files.pythonhosted.org/packages/fc/95/c0ec6d0f105718a94af023c974c922879e175d21f1be4fa41f05ea499e87/f1_telemetry-2022.1.7.tar.gz
+[2023-07-01 20:46:30] INFO root fetch - processPackages [microviewer]: Downloading https://files.pythonhosted.org/packages/2b/61/ed41d9adf93a8f99acb9fd5b005d99821615960d0705acd64a8d271bf40e/microviewer-1.4.1.tar.gz
+[2023-07-01 20:46:30] INFO root fetch - processPackages [igem-uploads]: Downloading https://files.pythonhosted.org/packages/f4/3b/20b6923f4289779702f4c5d6d820f2eed99dbdf369a923cea7d7ae9d5013/igem-uploads-0.1.0.tar.gz
+[2023-07-01 20:46:30] INFO root fetch - processPackages [microviewer]: executing diffoscope
+[2023-07-01 20:46:30] INFO root fetch - processPackages [microviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microviewer-1.4.0.tar.gz tmp/microviewer-1.4.1.tar.gz --markdown 20230701/m/microviewer/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-01 20:46:30] INFO root fetch - processPackages [f1-telemetry]: Downloading https://files.pythonhosted.org/packages/b6/0a/59a65b9e05e6e24c16bb6465d1ff34c8d13e9de2c95bcb52c5344b83c86c/f1_telemetry-2023.1.0.tar.gz
+[2023-07-01 20:46:30] INFO root fetch - processPackages [igem-uploads]: executing diffoscope
+[2023-07-01 20:46:30] INFO root fetch - processPackages [igem-uploads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igem-uploads-0.0.1.tar.gz tmp/igem-uploads-0.1.0.tar.gz --markdown 20230701/i/igem-uploads/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-01 20:46:30] INFO root fetch - processPackages [f1-telemetry]: executing diffoscope
+[2023-07-01 20:46:30] INFO root fetch - processPackages [f1-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f1_telemetry-2022.1.7.tar.gz tmp/f1_telemetry-2023.1.0.tar.gz --markdown 20230701/f/f1-telemetry/2022.1.7-2023.1.0/diff.md --exclude *.pyd
+[2023-07-01 20:46:31] INFO root fetch - processPackages [igem-uploads]: Remove: archive file [/home/abi/fetcher/tmp/igem-uploads-0.0.1.tar.gz]
+[2023-07-01 20:46:31] INFO root fetch - processPackages [igem-uploads]: Remove: archive file [/home/abi/fetcher/tmp/igem-uploads-0.1.0.tar.gz]
+[2023-07-01 20:46:31] INFO root fetch - main [MainThread]: End processing [igem-uploads]: success
+[2023-07-01 20:46:31] INFO root fetch - processPackages [f1-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/f1_telemetry-2022.1.7.tar.gz]
+[2023-07-01 20:46:31] INFO root fetch - processPackages [f1-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/f1_telemetry-2023.1.0.tar.gz]
+[2023-07-01 20:46:31] INFO root fetch - main [MainThread]: End processing [f1-telemetry]: success
+[2023-07-01 20:46:32] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.4.0.tar.gz]
+[2023-07-01 20:46:32] INFO root fetch - processPackages [microviewer]: Remove: archive file [/home/abi/fetcher/tmp/microviewer-1.4.1.tar.gz]
+[2023-07-01 20:46:32] INFO root fetch - main [MainThread]: End processing [microviewer]: success
+[2023-07-01 20:46:32] INFO root fetch - main [MainThread]: Store serial: [18724091]
