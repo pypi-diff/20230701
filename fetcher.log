@@ -18288,3 +18288,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:15:15] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b1.tar.gz]
 [2023-07-01 20:15:15] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-07-01 20:15:15] INFO root fetch - main [MainThread]: Store serial: [18723889]
+[2023-07-01 20:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723889]
+[2023-07-01 20:20:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-cache
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-engine
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CommandAlarm
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-fields
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wpdetect
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-mail
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raspberry-sensors
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aa-standingssync
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-token-flask
+[2023-07-01 20:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proteomics-downstream-analysis
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-cache]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [raspberry-sensors]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-engine]: New version: [0.8.28] Old Version: [0.8.27]
+[2023-07-01 20:20:26] WARNING root fetch - processPackages [CommandAlarm]: Skipping, unable to determine old version
+[2023-07-01 20:20:26] INFO root fetch - processPackages [CommandAlarm]: Start processing: xia-storer
+[2023-07-01 20:20:26] INFO root fetch - main [MainThread]: End processing [CommandAlarm] error
+[2023-07-01 20:20:26] INFO root fetch - processPackages [aa-standingssync]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [proteomics-downstream-analysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-token-flask]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [wpdetect]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-fields]: New version: [0.3.14] Old Version: [0.3.13]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-mail]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-storer]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-token-flask]: Downloading https://files.pythonhosted.org/packages/ad/36/4485586a56a42d2eed27a85f20bcf73f11ef434bc818c8600eaa5b795174/xia_token_flask-0.1.15-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-cache]: Downloading https://files.pythonhosted.org/packages/df/61/0e57871b1be504c6e7329a5d064cc4ebca220b7943b0ec08c8c5a941c4a0/xia_cache-0.1.5-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [raspberry-sensors]: Downloading https://files.pythonhosted.org/packages/59/6a/be1c34bf626365c540c5925cb2143211ae0ed292e0224fd83a3d9f98d2fd/raspberry-sensors-0.2.1.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/cb/96/0d3f6fb25ef506f2c2663eb86197b5f2311c73e0b6bc7078ec7be53520ab/xia_engine-0.8.27-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [proteomics-downstream-analysis]: Downloading https://files.pythonhosted.org/packages/06/7a/20b3d93be3cb135c4666dc35ba7a101d34907f537f3f13242672d12c300b/proteomics_downstream_analysis-0.1.0.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/38/62/ea9f48cdc89361acce27d216b79b1c9584b93b205d36725480fe627bf63a/wpdetect-1.4.1.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-fields]: Downloading https://files.pythonhosted.org/packages/b3/39/937e0b908ee2226e76e57515a378623bc6e37845c7794ede8fb1ffefa416/xia_fields-0.3.13-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-storer]: Downloading https://files.pythonhosted.org/packages/ee/c8/ad57f62cc2a84fe662729b62c4a0afcb4303c03c9ab258684cc5760132f5/xia_storer-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [aa-standingssync]: Downloading https://files.pythonhosted.org/packages/5e/81/2e9a423679ad8a84514250ebc07127b3483c3c1981369e14e4f45553c09c/aa-standingssync-1.8.1.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-mail]: Downloading https://files.pythonhosted.org/packages/85/5b/f5189e7349c6c3c7f7aa504fbb107beaf23f9df97a7205a060269450ded6/xia_mail-0.1.2-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-cache]: Downloading https://files.pythonhosted.org/packages/3f/a4/1d290917136dbcf86a39ee118a7cc5fd1da0bade5a5e0dbcbda694eb2be9/xia_cache-0.1.6-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [proteomics-downstream-analysis]: Downloading https://files.pythonhosted.org/packages/07/19/fa061b5023f4d31496d6867e838191ef79b9be7eae808f3a4e8847f16b7f/proteomics_downstream_analysis-0.1.1.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/27/e4/5a4e446ce13bf0a8c572847bafa718db1891d8ac64b95f045f2ad90d57ff/xia_engine-0.8.28-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/97/9a/6d3a58d48f5a6503626563c9effd553075ebe2efc4c54b79db6807d71bd0/wpdetect-1.4.2.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-fields]: Downloading https://files.pythonhosted.org/packages/a9/d0/16a2e252908e5840d4761c2ec86d28df119074aa319e9cd436b72e91b792/xia_fields-0.3.14-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-cache]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_cache-0.1.5-cp39-none-win_amd64.whl.zip tmp/xia_cache-0.1.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-cache/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.4.1.tar.gz tmp/wpdetect-1.4.2.tar.gz --markdown 20230701/w/wpdetect/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [proteomics-downstream-analysis]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [proteomics-downstream-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteomics_downstream_analysis-0.1.0.tar.gz tmp/proteomics_downstream_analysis-0.1.1.tar.gz --markdown 20230701/p/proteomics-downstream-analysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-fields]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-fields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_fields-0.3.13-cp39-none-win_amd64.whl.zip tmp/xia_fields-0.3.14-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-fields/0.3.13-0.3.14/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-token-flask]: Downloading https://files.pythonhosted.org/packages/d7/d9/b5feff89baa53d51f46f2e647af4ad5b7902353ac2efe3e29bdd33949b7d/xia_token_flask-0.1.16-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.27-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.28-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-engine/0.8.27-0.8.28/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-storer]: Downloading https://files.pythonhosted.org/packages/e9/66/6943569942d978188e8e573a17d70dbe37e9621c92cd51c1b7b137d321cb/xia_storer-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-mail]: Downloading https://files.pythonhosted.org/packages/c3/67/57e7855b00446abac7dbd3f4530358844dd28493d92a7e27304590c3f4d8/xia_mail-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:20:26] INFO root fetch - processPackages [aa-standingssync]: Downloading https://files.pythonhosted.org/packages/a9/e0/a585d2bec9570b3ea4f60cb747841a91596e45ccf7a5a2d0064afe9da5a2/aa_standingssync-1.9.0.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [raspberry-sensors]: Downloading https://files.pythonhosted.org/packages/3b/ba/4fd5fedc6eb60a42e12d83bdc88403ddb1ffe026698249bec0484764354a/raspberry-sensors-0.2.3.tar.gz
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-storer]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-storer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_storer-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_storer-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-storer/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-mail]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_mail-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_mail-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-mail/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-token-flask]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [raspberry-sensors]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [xia-token-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_token_flask-0.1.15-cp39-none-win_amd64.whl.zip tmp/xia_token_flask-0.1.16-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-token-flask/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [raspberry-sensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspberry-sensors-0.2.1.tar.gz tmp/raspberry-sensors-0.2.3.tar.gz --markdown 20230701/r/raspberry-sensors/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-01 20:20:26] INFO root fetch - processPackages [aa-standingssync]: executing diffoscope
+[2023-07-01 20:20:26] INFO root fetch - processPackages [aa-standingssync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-standingssync-1.8.1.tar.gz tmp/aa_standingssync-1.9.0.tar.gz --markdown 20230701/a/aa-standingssync/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-cache]: Remove: archive file [/home/abi/fetcher/tmp/xia_cache-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-cache]: Remove: archive file [/home/abi/fetcher/tmp/xia_cache-0.1.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-cache]: Start processing: trongrid-extractor
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [xia-cache]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [trongrid-extractor]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/7e/aa/481bbc97ab165d2e80432fb4d7527f64d73db81af67abdc544189ab64d69/trongrid_extractor-0.3.8.tar.gz
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-fields]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields-0.3.13-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/a5/62/ba802bdb2fef932f68b775f46a022ff2e73259d0eddc2ce5743f6314c9d0/trongrid_extractor-0.3.9.tar.gz
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-fields]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields-0.3.14-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-fields]: Start processing: types-redis
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [xia-fields]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [types-redis]: New version: [4.6.0.1] Old Version: [4.6.0.0]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.1.tar.gz]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.2.tar.gz]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [wpdetect]: Start processing: badev
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [trongrid-extractor]: executing diffoscope
+[2023-07-01 20:20:28] INFO root fetch - processPackages [trongrid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trongrid_extractor-0.3.8.tar.gz tmp/trongrid_extractor-0.3.9.tar.gz --markdown 20230701/t/trongrid-extractor/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.27-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-engine]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine-0.8.28-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-07-01 20:20:28] WARNING root fetch - processPackages [badev]: Skipping, unable to determine old version
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [badev] error
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-storer]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-storer]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [xia-storer]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/79/64/95e4f4c2072df03424446ed77c26ffbdbffc63d6b7b7162037f117e7017d/types-redis-4.6.0.0.tar.gz
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-mail]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-mail]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [xia-mail]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [raspberry-sensors]: Remove: archive file [/home/abi/fetcher/tmp/raspberry-sensors-0.2.1.tar.gz]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [raspberry-sensors]: Remove: archive file [/home/abi/fetcher/tmp/raspberry-sensors-0.2.3.tar.gz]
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [raspberry-sensors]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-token-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_token_flask-0.1.15-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [xia-token-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_token_flask-0.1.16-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [xia-token-flask]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [proteomics-downstream-analysis]: Remove: archive file [/home/abi/fetcher/tmp/proteomics_downstream_analysis-0.1.0.tar.gz]
+[2023-07-01 20:20:28] INFO root fetch - processPackages [proteomics-downstream-analysis]: Remove: archive file [/home/abi/fetcher/tmp/proteomics_downstream_analysis-0.1.1.tar.gz]
+[2023-07-01 20:20:28] INFO root fetch - main [MainThread]: End processing [proteomics-downstream-analysis]: success
+[2023-07-01 20:20:28] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/b0/5b/3d514eb5708923dfa5b5a02c2e9f14a41f984b963667c0949978845a50dd/types-redis-4.6.0.1.tar.gz
+[2023-07-01 20:20:29] INFO root fetch - processPackages [aa-standingssync]: Remove: archive file [/home/abi/fetcher/tmp/aa-standingssync-1.8.1.tar.gz]
+[2023-07-01 20:20:29] INFO root fetch - processPackages [aa-standingssync]: Remove: archive file [/home/abi/fetcher/tmp/aa_standingssync-1.9.0.tar.gz]
+[2023-07-01 20:20:29] INFO root fetch - main [MainThread]: End processing [aa-standingssync]: success
+[2023-07-01 20:20:29] INFO root fetch - processPackages [types-redis]: executing diffoscope
+[2023-07-01 20:20:29] INFO root fetch - processPackages [types-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-redis-4.6.0.0.tar.gz tmp/types-redis-4.6.0.1.tar.gz --markdown 20230701/t/types-redis/4.6.0.0-4.6.0.1/diff.md --exclude *.pyd
+[2023-07-01 20:20:29] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.8.tar.gz]
+[2023-07-01 20:20:29] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.9.tar.gz]
+[2023-07-01 20:20:29] INFO root fetch - main [MainThread]: End processing [trongrid-extractor]: success
+[2023-07-01 20:20:30] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.0.tar.gz]
+[2023-07-01 20:20:30] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.1.tar.gz]
+[2023-07-01 20:20:30] INFO root fetch - main [MainThread]: End processing [types-redis]: success
+[2023-07-01 20:20:30] INFO root fetch - main [MainThread]: Store serial: [18723967]
