@@ -13844,3 +13844,43 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:54:14] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
 [2023-07-01 14:54:14] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-01 14:54:14] INFO root fetch - main [MainThread]: Store serial: [18721865]
+[2023-07-01 14:59:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721865]
+[2023-07-01 14:59:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 14:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-07-01 14:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: season
+[2023-07-01 14:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: css-inline
+[2023-07-01 14:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gofigr
+[2023-07-01 14:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: freefang-server
+[2023-07-01 14:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uio-exoplanet-group
+[2023-07-01 14:59:22] INFO root fetch - processPackages [css-inline]: New version: [0.9.0] Old Version: [0.8.7]
+[2023-07-01 14:59:22] INFO root fetch - processPackages [season]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-01 14:59:22] INFO root fetch - processPackages [gofigr]: New version: [0.12.0] Old Version: [0.11.4]
+[2023-07-01 14:59:22] INFO root fetch - processPackages [khoj-assistant]: New version: [0.7.0] Old Version: [0.6.3.dev98]
+[2023-07-01 14:59:22] WARNING root fetch - processPackages [freefang-server]: Skipping, unable to determine old version
+[2023-07-01 14:59:22] INFO root fetch - main [MainThread]: End processing [freefang-server] error
+[2023-07-01 14:59:22] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/ff/c0/ceae42c9248e6c2b60f56d2ed27e9685c62c5b4083307ef441a62f14251b/season-2.3.8-py3-none-any.whl
+[2023-07-01 14:59:22] WARNING root fetch - processPackages [uio-exoplanet-group]: Skipping, unable to determine old version
+[2023-07-01 14:59:22] INFO root fetch - main [MainThread]: End processing [uio-exoplanet-group] error
+[2023-07-01 14:59:22] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/53/4d/511e3155bf8f863d129e8d1006cc01f26ecfb36b2622dd32551c654c5f66/css_inline-0.8.7.tar.gz
+[2023-07-01 14:59:22] WARNING root fetch - processPackages [season]: Skipping package: exceeds size limit 13772906>=10485760
+[2023-07-01 14:59:22] INFO root fetch - main [MainThread]: End processing [season] error
+[2023-07-01 14:59:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-07-01 14:59:23] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/ef/70/f9f7f8dba4440d7d5ac031c2dc8b747d38a5d2b2fc31a00402c85437ba2b/khoj_assistant-0.7.0.tar.gz
+[2023-07-01 14:59:23] INFO root fetch - processPackages [gofigr]: Downloading https://files.pythonhosted.org/packages/2a/5f/f6b7db109b0be59554d190a937f68ed8e6846ca25740744372146505aa1a/gofigr-0.12.0.tar.gz
+[2023-07-01 14:59:23] INFO root fetch - processPackages [css-inline]: Downloading https://files.pythonhosted.org/packages/b6/8a/f5f42b7f417e1a8c1e5764caecc6d9f03a4da93449225918f9cf4aa5f590/css_inline-0.9.0.tar.gz
+[2023-07-01 14:59:23] INFO root fetch - processPackages [gofigr]: executing diffoscope
+[2023-07-01 14:59:23] INFO root fetch - processPackages [gofigr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gofigr-0.11.4.tar.gz tmp/gofigr-0.12.0.tar.gz --markdown 20230701/g/gofigr/0.11.4-0.12.0/diff.md --exclude *.pyd
+[2023-07-01 14:59:23] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-01 14:59:23] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev98.tar.gz tmp/khoj_assistant-0.7.0.tar.gz --markdown 20230701/k/khoj-assistant/0.6.3.dev98-0.7.0/diff.md --exclude *.pyd
+[2023-07-01 14:59:23] INFO root fetch - processPackages [css-inline]: executing diffoscope
+[2023-07-01 14:59:23] INFO root fetch - processPackages [css-inline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/css_inline-0.8.7.tar.gz tmp/css_inline-0.9.0.tar.gz --markdown 20230701/c/css-inline/0.8.7-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 14:59:24] INFO root fetch - processPackages [gofigr]: Remove: archive file [/home/abi/fetcher/tmp/gofigr-0.11.4.tar.gz]
+[2023-07-01 14:59:24] INFO root fetch - processPackages [gofigr]: Remove: archive file [/home/abi/fetcher/tmp/gofigr-0.12.0.tar.gz]
+[2023-07-01 14:59:24] INFO root fetch - main [MainThread]: End processing [gofigr]: success
+[2023-07-01 14:59:24] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.8.7.tar.gz]
+[2023-07-01 14:59:24] INFO root fetch - processPackages [css-inline]: Remove: archive file [/home/abi/fetcher/tmp/css_inline-0.9.0.tar.gz]
+[2023-07-01 14:59:24] INFO root fetch - main [MainThread]: End processing [css-inline]: success
+[2023-07-01 14:59:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-07-01 14:59:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.0.tar.gz]
+[2023-07-01 14:59:25] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-01 14:59:25] INFO root fetch - main [MainThread]: Store serial: [18721905]
