@@ -15425,3 +15425,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:09:10] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230630-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-01 17:09:10] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
 [2023-07-01 17:09:10] INFO root fetch - main [MainThread]: Store serial: [18722646]
+[2023-07-01 17:14:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722646]
+[2023-07-01 17:14:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AI4XDE
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dww-test
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semremover
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyNyaaTa
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: donpapi
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhdtoolkit
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fogLedger
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lokzzpylibrary
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: granny-pliers
+[2023-07-01 17:14:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-rds20140815-py2
+[2023-07-01 17:14:19] WARNING root fetch - processPackages [dww-test]: Skipping, unable to determine old version
+[2023-07-01 17:14:19] INFO root fetch - processPackages [dww-test]: Start processing: finops-crawler
+[2023-07-01 17:14:19] INFO root fetch - main [MainThread]: End processing [dww-test] error
+[2023-07-01 17:14:19] WARNING root fetch - processPackages [AI4XDE]: Skipping, unable to determine old version
+[2023-07-01 17:14:19] INFO root fetch - processPackages [AI4XDE]: Start processing: tech-ninja-tistory-api
+[2023-07-01 17:14:19] INFO root fetch - main [MainThread]: End processing [AI4XDE] error
+[2023-07-01 17:14:19] INFO root fetch - processPackages [semremover]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [fogLedger]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [pyhdtoolkit]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [lokzzpylibrary]: New version: [0.1.dev15] Old Version: [0.1.dev14]
+[2023-07-01 17:14:19] WARNING root fetch - processPackages [donpapi]: Skipping, unable to determine old version
+[2023-07-01 17:14:19] INFO root fetch - processPackages [donpapi]: Start processing: miley
+[2023-07-01 17:14:19] INFO root fetch - main [MainThread]: End processing [donpapi] error
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [PyNyaaTa]: New version: [202307011512] Old Version: [202306302015]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [tech-ninja-tistory-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/e6/ce/d94ffd130cd106c3805d8e2376cb33ac8dd70b28bdd86aa1e3241252cc26/pyhdtoolkit-1.3.2.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/d6/a0/dbd4ae913dce52c57283090e4c4a778dfd7285a51f87b9ca2d45e0b29e5c/fogLedger-2.0.2.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/10/98/a3e90fe513153cf78472baf349b5fe0889b02b22d7bfa51d7ef2b6719c99/PyNyaaTa-202306302015.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.13]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/ca/ce/2a6af359d07d0b61fcf9569fa57811eadf5c26b6175fdead8a518fd59b83/alibabacloud_rds20140815_py2-1.0.9.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [tech-ninja-tistory-api]: Downloading https://files.pythonhosted.org/packages/29/ab/fd4bb9404830d261ff3e60f5d993e5a4ba3e337d47e7e8efc57ce77b11e0/tech-ninja-tistory-api-1.0.2.tar.gz
+[2023-07-01 17:14:19] WARNING root fetch - processPackages [finops-crawler]: Skipping, unable to determine old version
+[2023-07-01 17:14:19] INFO root fetch - processPackages [finops-crawler]: Start processing: alibabacloud-rds20140815
+[2023-07-01 17:14:19] INFO root fetch - main [MainThread]: End processing [finops-crawler] error
+[2023-07-01 17:14:19] INFO root fetch - processPackages [miley]: New version: [1.0.0] Old Version: [0.1.3]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/cb/bd/5367e9ef9684e042d2586b6139f5093ae24277faaf7b71d8e22289ee4ef1/lokzzpylibrary-0.1.dev14.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-01 17:14:19] INFO root fetch - processPackages [tech-ninja-tistory-api]: Downloading https://files.pythonhosted.org/packages/c3/d1/14f55c4af487c6d3c9b2777654076432d971bb8948761626b630a3ab85c2/tech-ninja-tistory-api-1.0.3.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [semremover]: Downloading https://files.pythonhosted.org/packages/50/95/a5aa4404585264d3150097a238e518414d21af551babb6b32201b92ab432/semremover-0.0.4.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/c7/b7/95183a888b5e2b1351bf76f141e2405758a71b7004555718686b5f39eebd/alibabacloud_rds20140815-2.1.8.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/c5/3a/458f8b023ec207836d63551f2a85d9e326048ff97155d28096d6b411a628/granny-pliers-0.0.13.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [pyhdtoolkit]: Downloading https://files.pythonhosted.org/packages/3a/82/9a47091b813a96dd32b47031e06ea1cf8b6f35e490b8bb49bbe04ff1520d/pyhdtoolkit-1.4.0.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/d6/ba/93b79e6e47e198a413e78bbd8538da9c79c28ce3c2d4fa3a8dcf69e9b4ee/fogLedger-2.0.3-py3-none-any.whl
+[2023-07-01 17:14:19] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c5/2a/1915a70b8101f87d014965655e4c90a0e5ed002c187b3035ee2dd2999d8e/PyNyaaTa-202307011512.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/3b/eb/845a199767fd9cdfbe7a515c0503b0abe62eff82eda4ad7c3342ab271626/alibabacloud_rds20140815_py2-1.1.0.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [tech-ninja-tistory-api]: executing diffoscope
+[2023-07-01 17:14:19] INFO root fetch - processPackages [tech-ninja-tistory-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-ninja-tistory-api-1.0.2.tar.gz tmp/tech-ninja-tistory-api-1.0.3.tar.gz --markdown 20230701/t/tech-ninja-tistory-api/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 17:14:19] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/56/6c/9ced232974524c5eea6c5980a5025dfddd412241144b03683120d9f01b41/lokzzpylibrary-0.1.dev15.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/fe/d7/8310bbf89465d3393b6e8b808261d129c750055996b6599df464b4041cf1/miley-0.1.3.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [semremover]: Downloading https://files.pythonhosted.org/packages/60/f6/d165e0837d1d890dbbc86edeaefc3da83d501aa75de73df914ed6024bb24/semremover-1.0.0.tar.gz
+[2023-07-01 17:14:19] INFO root fetch - processPackages [fogLedger]: executing diffoscope
+[2023-07-01 17:14:19] INFO root fetch - processPackages [fogLedger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedger-2.0.2.tar.gz tmp/fogLedger-2.0.3-py3-none-any.whl.zip --markdown 20230701/f/fogLedger/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-01 17:14:19] INFO root fetch - processPackages [pyhdtoolkit]: executing diffoscope
+[2023-07-01 17:14:19] INFO root fetch - processPackages [pyhdtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdtoolkit-1.3.2.tar.gz tmp/pyhdtoolkit-1.4.0.tar.gz --markdown 20230701/p/pyhdtoolkit/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-01 17:14:19] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-07-01 17:14:19] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202306302015.tar.gz tmp/PyNyaaTa-202307011512.tar.gz --markdown 20230701/P/PyNyaaTa/202306302015-202307011512/diff.md --exclude *.pyd
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-07-01 17:14:19] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.0.9.tar.gz tmp/alibabacloud_rds20140815_py2-1.1.0.tar.gz --markdown 20230701/a/alibabacloud-rds20140815-py2/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 17:14:19] INFO root fetch - processPackages [lokzzpylibrary]: executing diffoscope
+[2023-07-01 17:14:19] INFO root fetch - processPackages [lokzzpylibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylibrary-0.1.dev14.tar.gz tmp/lokzzpylibrary-0.1.dev15.tar.gz --markdown 20230701/l/lokzzpylibrary/0.1.dev14-0.1.dev15/diff.md --exclude *.pyd
+[2023-07-01 17:14:20] INFO root fetch - processPackages [semremover]: executing diffoscope
+[2023-07-01 17:14:20] INFO root fetch - processPackages [semremover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semremover-0.0.4.tar.gz tmp/semremover-1.0.0.tar.gz --markdown 20230701/s/semremover/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-01 17:14:20] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/c4/db/e930beb83a6be3196223e1ef38f0b1862ef01389b41658d95b6119871cd6/alibabacloud_rds20140815-2.1.9.tar.gz
+[2023-07-01 17:14:20] INFO root fetch - processPackages [miley]: Downloading https://files.pythonhosted.org/packages/cc/ad/b2965b39ae9d30a70c192bafdc8324db090a1f72dbc140582c4095fd6eef/miley-1.0.0.tar.gz
+[2023-07-01 17:14:20] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-07-01 17:14:20] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-07-01 17:14:20] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.13.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230701/g/granny-pliers/0.0.13-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 17:14:20] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-07-01 17:14:20] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.1.8.tar.gz tmp/alibabacloud_rds20140815-2.1.9.tar.gz --markdown 20230701/a/alibabacloud-rds20140815/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-01 17:14:20] INFO root fetch - processPackages [miley]: executing diffoscope
+[2023-07-01 17:14:20] INFO root fetch - processPackages [miley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miley-0.1.3.tar.gz tmp/miley-1.0.0.tar.gz --markdown 20230701/m/miley/0.1.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-01 17:14:21] INFO root fetch - processPackages [tech-ninja-tistory-api]: Remove: archive file [/home/abi/fetcher/tmp/tech-ninja-tistory-api-1.0.2.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [tech-ninja-tistory-api]: Remove: archive file [/home/abi/fetcher/tmp/tech-ninja-tistory-api-1.0.3.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [tech-ninja-tistory-api]: success
+[2023-07-01 17:14:21] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.2.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.3-py3-none-any.whl.zip]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
+[2023-07-01 17:14:21] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev14.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev15.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [lokzzpylibrary]: success
+[2023-07-01 17:14:21] INFO root fetch - processPackages [semremover]: Remove: archive file [/home/abi/fetcher/tmp/semremover-0.0.4.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [semremover]: Remove: archive file [/home/abi/fetcher/tmp/semremover-1.0.0.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [semremover]: success
+[2023-07-01 17:14:21] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202306302015.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307011512.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-07-01 17:14:21] INFO root fetch - processPackages [pyhdtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyhdtoolkit-1.3.2.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [pyhdtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyhdtoolkit-1.4.0.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [pyhdtoolkit]: success
+[2023-07-01 17:14:21] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-0.1.3.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - processPackages [miley]: Remove: archive file [/home/abi/fetcher/tmp/miley-1.0.0.tar.gz]
+[2023-07-01 17:14:21] INFO root fetch - main [MainThread]: End processing [miley]: success
+[2023-07-01 17:14:22] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.13.tar.gz]
+[2023-07-01 17:14:22] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-07-01 17:14:22] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-07-01 17:14:24] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.0.9.tar.gz]
+[2023-07-01 17:14:24] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.1.0.tar.gz]
+[2023-07-01 17:14:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-07-01 17:14:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.1.8.tar.gz]
+[2023-07-01 17:14:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.1.9.tar.gz]
+[2023-07-01 17:14:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-07-01 17:14:24] INFO root fetch - main [MainThread]: Store serial: [18722700]
