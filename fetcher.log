@@ -13953,3 +13953,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:05:09] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-01 15:05:10] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-01 15:05:10] INFO root fetch - main [MainThread]: Store serial: [18721927]
+[2023-07-01 15:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721927]
+[2023-07-01 15:10:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bark-monitor
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nopasaran
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: combidata
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dan-build
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-stdlib
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bark-monitor
+[2023-07-01 15:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-07-01 15:10:19] INFO root fetch - processPackages [bark-monitor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nopasaran]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [combidata]: New version: [0.2.1.2] Old Version: [0.2.1.1]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [bark-monitor]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.30] Old Version: [2023.6.29]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [dan-build]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:10:19] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/ca/aa/4f00fbf24fce1398f68e5ad8019ed79c4b5662c765c044eae7cf1d0ad76b/combidata-0.2.1.1.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f5/c1/c75ac4e835e5c0a56c5cf6ebaa51a0cf74d7aa002c91ddd64b7cba56d4af/fbgemm_gpu_nightly_cpu-2023.6.29-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-01 15:10:19] INFO root fetch - processPackages [bark-monitor]: Downloading https://files.pythonhosted.org/packages/ad/2c/1631b9fa8cce63b57edf43f31d0fb32bda9557427b8b8a90642d5f7ed53e/bark_monitor-0.0.2.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [bark-monitor]: Downloading https://files.pythonhosted.org/packages/ad/2c/1631b9fa8cce63b57edf43f31d0fb32bda9557427b8b8a90642d5f7ed53e/bark_monitor-0.0.2.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/3d/16/72d995e098f827d32d11d008a3475291472eb8ee225d5fc2d309f2a56408/nopasaran-0.2.1.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [dan-build]: Downloading https://files.pythonhosted.org/packages/05/f4/91430007d3b52e8f0b40e4070489ffe621cadb5f8ee4078524d686832dfe/dan-build-0.2.4.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-01 15:10:19] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-01 15:10:20] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f7/e8/78410c5d8b3f468f30f937aa93a03a065cd9d0482bc2b03f9453f8e0e2cc/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230701/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:10:20] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/00/aa/40d90a76533139b7ed2d99893838cd7daf34872393a18c9e335cfa982376/combidata-0.2.1.2.tar.gz
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230701/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/d4/5e/18afa197a103977418f0b0bf5a431bd0723003ced93554ad84b9050c9553/nopasaran-0.2.2.tar.gz
+[2023-07-01 15:10:20] INFO root fetch - processPackages [combidata]: executing diffoscope
+[2023-07-01 15:10:20] INFO root fetch - processPackages [combidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combidata-0.2.1.1.tar.gz tmp/combidata-0.2.1.2.tar.gz --markdown 20230701/c/combidata/0.2.1.1-0.2.1.2/diff.md --exclude *.pyd
+[2023-07-01 15:10:20] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-01 15:10:20] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.29-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230701/f/fbgemm-gpu-nightly-cpu/2023.6.29-2023.6.30/diff.md --exclude *.pyd
+[2023-07-01 15:10:20] INFO root fetch - processPackages [dan-build]: Downloading https://files.pythonhosted.org/packages/a3/eb/3a7b4f563cff1abe2b13215cfbb640907eb4e8bf1b6dab518fda5d4440e5/dan-build-0.2.5.tar.gz
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-01 15:10:20] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.1.tar.gz tmp/nopasaran-0.2.2.tar.gz --markdown 20230701/n/nopasaran/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 15:10:20] INFO root fetch - processPackages [dan-build]: executing diffoscope
+[2023-07-01 15:10:20] INFO root fetch - processPackages [dan-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dan-build-0.2.4.tar.gz tmp/dan-build-0.2.5.tar.gz --markdown 20230701/d/dan-build/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 15:10:20] INFO root fetch - processPackages [bark-monitor]: Downloading https://files.pythonhosted.org/packages/06/e7/8597219144ea1364fe8d7f5dd9151dca1dd19de9ca943b181678ab9d0f23/bark_monitor-0.0.3.tar.gz
+[2023-07-01 15:10:20] INFO root fetch - processPackages [bark-monitor]: Downloading https://files.pythonhosted.org/packages/06/e7/8597219144ea1364fe8d7f5dd9151dca1dd19de9ca943b181678ab9d0f23/bark_monitor-0.0.3.tar.gz
+[2023-07-01 15:10:21] INFO root fetch - processPackages [bark-monitor]: executing diffoscope
+[2023-07-01 15:10:21] INFO root fetch - processPackages [bark-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bark_monitor-0.0.2.tar.gz tmp/bark_monitor-0.0.3.tar.gz --markdown 20230701/b/bark-monitor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 15:10:21] INFO root fetch - processPackages [bark-monitor]: executing diffoscope
+[2023-07-01 15:10:21] INFO root fetch - processPackages [bark-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bark_monitor-0.0.2.tar.gz tmp/bark_monitor-0.0.3.tar.gz --markdown 20230701/b/bark-monitor/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 15:10:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-01 15:10:21] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-01 15:10:21] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.1.1.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.1.2.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - main [MainThread]: End processing [combidata]: success
+[2023-07-01 15:10:21] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.1.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.2.tar.gz]
+[2023-07-01 15:10:21] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-01 15:10:22] INFO root fetch - processPackages [dan-build]: Remove: archive file [/home/abi/fetcher/tmp/dan-build-0.2.4.tar.gz]
+[2023-07-01 15:10:22] INFO root fetch - processPackages [dan-build]: Remove: archive file [/home/abi/fetcher/tmp/dan-build-0.2.5.tar.gz]
+[2023-07-01 15:10:22] INFO root fetch - main [MainThread]: End processing [dan-build]: success
+[2023-07-01 15:10:22] INFO root fetch - processPackages [bark-monitor]: Remove: archive file [/home/abi/fetcher/tmp/bark_monitor-0.0.2.tar.gz]
+[2023-07-01 15:10:22] INFO root fetch - processPackages [bark-monitor]: Remove: archive file [/home/abi/fetcher/tmp/bark_monitor-0.0.3.tar.gz]
+[2023-07-01 15:10:22] INFO root fetch - main [MainThread]: End processing [bark-monitor]: success
+[2023-07-01 15:10:22] INFO root fetch - main [MainThread]: End processing [bark-monitor]: success
+[2023-07-01 15:11:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.29-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-01 15:11:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-01 15:11:04] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-01 15:11:04] INFO root fetch - main [MainThread]: Store serial: [18721957]
