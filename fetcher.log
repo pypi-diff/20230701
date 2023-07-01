@@ -17706,3 +17706,135 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:48:53] INFO root fetch - processPackages [setup-cfg-fmt]: Remove: archive file [/home/abi/fetcher/tmp/setup_cfg_fmt-2.4.0.tar.gz]
 [2023-07-01 19:48:53] INFO root fetch - main [MainThread]: End processing [setup-cfg-fmt]: success
 [2023-07-01 19:48:53] INFO root fetch - main [MainThread]: Store serial: [18723518]
+[2023-07-01 19:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723518]
+[2023-07-01 19:54:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-broadcast-fastapi
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fullask-rest-framework
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-broadcast-listener
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofscraper
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-coder
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-cloudmailin
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fun-with-ast
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ypricemagic
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-compiler-openapi
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-compiler-jsoneditor
+[2023-07-01 19:54:02] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-cloudmailin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-compiler-openapi]: New version: [0.1.22] Old Version: [0.1.21]
+[2023-07-01 19:54:02] WARNING root fetch - processPackages [fun-with-ast]: Skipping, unable to determine old version
+[2023-07-01 19:54:02] INFO root fetch - processPackages [fun-with-ast]: Start processing: xia-easy-proto
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-fastapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 19:54:02] INFO root fetch - main [MainThread]: End processing [fun-with-ast] error
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-compiler-jsoneditor]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-coder]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ofscraper]: New version: [2.6.3] Old Version: [2.6.1]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-listener]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ypricemagic]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-easy-proto]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-fastapi]: Downloading https://files.pythonhosted.org/packages/d3/93/1080ebad0fbc08d7c976a0787bf7ef40cdadcec64236cb4f5abff1f8de16/xia_broadcast_fastapi-0.1.2-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/3d/45/ab4cd4889af0228c4b159112d099b1b9706aa7f668bdfa29505c9fec6f32/ofscraper-2.6.1.tar.gz
+[2023-07-01 19:54:02] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/e5/3e/db2a125cce02bd0f2be6247fed52d06b16fd0f6c97263a18c4a71b35b118/fullask_rest_framework-0.4.0.tar.gz
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-cloudmailin]: Downloading https://files.pythonhosted.org/packages/ee/0b/f3b1eaf9ac983bc23e169e1960c95fbd21946e3c62916a8f6b1eb11cc27e/xia_cloudmailin-0.0.8-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/54/7b/fe830952c726da63fcd47aeb6c29316026efd93bf262a9df02a8ad667265/ypricemagic-2.5.1.tar.gz
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-listener]: Downloading https://files.pythonhosted.org/packages/75/16/52d39cc2deb8e19644f5f4547bbec06e0faab78f95ac1fd366cfcac046bb/xia_broadcast_listener-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/60/15/44ca760a33b83870b2ddc1a0621c3bee1976b3934dcabede96d6aef775a2/xia_compiler_openapi-0.1.21-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Downloading https://files.pythonhosted.org/packages/fa/a5/6a691762a04d399fe7c800151c14111ebeec64de56e1e71c57edb5a44456/xia_compiler_jsoneditor-0.1.5-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-fastapi]: Downloading https://files.pythonhosted.org/packages/f6/4f/a12e56345a06135c2e8e18accce4debce21320d257498c42948a73cb8b95/xia_broadcast_fastapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-easy-proto]: Downloading https://files.pythonhosted.org/packages/16/39/0961586a6f503e21ef87ff3700f57b7c717d0d3c71477ae457d1bc4f9e34/xia_easy_proto-1.0.7-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-coder]: Downloading https://files.pythonhosted.org/packages/44/2c/b847b7eb8ddd2e9fd3ac59b5da190737f02683df360bcb418ddeb96e7db9/xia_coder-0.0.7-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-fastapi]: executing diffoscope
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_broadcast_fastapi-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_broadcast_fastapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-broadcast-fastapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/de/bb/6dd4035b01c6e85d72e77b1c5ee7744515bf98b9af3a033c6aa7d38db233/ofscraper-2.6.3.tar.gz
+[2023-07-01 19:54:02] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/a2/9a/2ac054cd22d203b7a602bec11c0bb395d51fa3923e7bb876418a88978b3c/fullask_rest_framework-0.5.0.tar.gz
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-broadcast-listener]: Downloading https://files.pythonhosted.org/packages/17/80/edc940936ab6b31b22627fe398fcec7fc03d995a1f69aafc290957845fc9/xia_broadcast_listener-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Downloading https://files.pythonhosted.org/packages/fd/1a/57dfec3c709518c1fe015d29fa720aea0948499d53d6c7f5115b82d4ba33/xia_compiler_jsoneditor-0.1.6-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-cloudmailin]: Downloading https://files.pythonhosted.org/packages/fb/91/bb1ee7a91c1f2df165e4a938838e924233bc541b1828575ec7470a90964b/xia_cloudmailin-0.0.9-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-07-01 19:54:02] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask_rest_framework-0.4.0.tar.gz tmp/fullask_rest_framework-0.5.0.tar.gz --markdown 20230701/f/fullask-rest-framework/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 19:54:02] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/69/81/6fc732c58821818a052f1208c9f314e314dd2aa619f12c36d38b903518e2/ypricemagic-2.5.2.tar.gz
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-compiler-openapi]: Downloading https://files.pythonhosted.org/packages/60/f6/13e45aaa824afc306e6db3868ce2d7f1ff0bb39a2245d1b0eba1d40ef9fc/xia_compiler_openapi-0.1.22-cp39-none-win_amd64.whl
+[2023-07-01 19:54:02] INFO root fetch - processPackages [xia-coder]: Downloading https://files.pythonhosted.org/packages/8d/91/fa258f809c97724a60cdd3d5f7e7ae6f74f0c68216b97f039e457dd6e8ed/xia_coder-0.0.8-cp39-none-win_amd64.whl
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-easy-proto]: Downloading https://files.pythonhosted.org/packages/29/40/e010c5796c5349d918f4d8b7ac09088ccc4c07d218755d6cada8095dc377/xia_easy_proto-1.0.8-cp39-none-win_amd64.whl
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-broadcast-listener]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-broadcast-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_broadcast_listener-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_broadcast_listener-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-broadcast-listener/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-cloudmailin]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-cloudmailin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_cloudmailin-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_cloudmailin-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-cloudmailin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-compiler-jsoneditor]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.6.1.tar.gz tmp/ofscraper-2.6.3.tar.gz --markdown 20230701/o/ofscraper/2.6.1-2.6.3/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-compiler-jsoneditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_jsoneditor-0.1.5-cp39-none-win_amd64.whl.zip tmp/xia_compiler_jsoneditor-0.1.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-compiler-jsoneditor/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-easy-proto]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-easy-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_easy_proto-1.0.7-cp39-none-win_amd64.whl.zip tmp/xia_easy_proto-1.0.8-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-easy-proto/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-compiler-openapi]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-compiler-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_openapi-0.1.21-cp39-none-win_amd64.whl.zip tmp/xia_compiler_openapi-0.1.22-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-compiler-openapi/0.1.21-0.1.22/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-coder]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [xia-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_coder-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_coder-0.0.8-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-coder/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 19:54:03] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-07-01 19:54:03] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.5.1.tar.gz tmp/ypricemagic-2.5.2.tar.gz --markdown 20230701/y/ypricemagic/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-broadcast-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast_fastapi-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-broadcast-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast_fastapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-broadcast-fastapi]: Start processing: pycatsearch
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-broadcast-fastapi]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.9.1] Old Version: [5.1.9]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/ef/f7/8a802ac0a16276dd8ee7c48387a587e3d58f796196c3c3d92e536be64b58/pycatsearch-5.1.9.tar.gz
+[2023-07-01 19:54:04] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/67/6e/95d88d9c5d5ff86627baa16761c50429c3ba2ddc6e0a2ed399f754c4be8b/pycatsearch-5.1.9.1.tar.gz
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-cloudmailin]: Remove: archive file [/home/abi/fetcher/tmp/xia_cloudmailin-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-cloudmailin]: Remove: archive file [/home/abi/fetcher/tmp/xia_cloudmailin-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-cloudmailin]: Start processing: aws-s3-cli
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-cloudmailin]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-07-01 19:54:04] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.9.tar.gz tmp/pycatsearch-5.1.9.1.tar.gz --markdown 20230701/p/pycatsearch/5.1.9-5.1.9.1/diff.md --exclude *.pyd
+[2023-07-01 19:54:04] INFO root fetch - processPackages [aws-s3-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_jsoneditor-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_jsoneditor-0.1.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-compiler-jsoneditor]: Start processing: SecureMessaging
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-compiler-jsoneditor]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-easy-proto]: Remove: archive file [/home/abi/fetcher/tmp/xia_easy_proto-1.0.7-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-easy-proto]: Remove: archive file [/home/abi/fetcher/tmp/xia_easy_proto-1.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-easy-proto]: Start processing: rtorrent-rpc
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-easy-proto]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [SecureMessaging]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [aws-s3-cli]: Downloading https://files.pythonhosted.org/packages/29/3d/ffbb26245ad774d04ba30ce64262e7c1b25ec8eb7523dddfa49aae3fcb6b/aws-s3-cli-0.0.4.tar.gz
+[2023-07-01 19:54:04] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.4.0.tar.gz]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.5.0.tar.gz]
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/a4/ce/1891cab800fed694b4b7b09a1f1d8db1fe608844e80240674ee31a89d9c6/rtorrent_rpc-0.0.5.tar.gz
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-compiler-openapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_openapi-0.1.21-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-compiler-openapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_openapi-0.1.22-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-compiler-openapi]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-broadcast-listener]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast_listener-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-broadcast-listener]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast_listener-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-broadcast-listener]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-coder]: Remove: archive file [/home/abi/fetcher/tmp/xia_coder-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - processPackages [xia-coder]: Remove: archive file [/home/abi/fetcher/tmp/xia_coder-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:54:04] INFO root fetch - main [MainThread]: End processing [xia-coder]: success
+[2023-07-01 19:54:04] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/6f/e1/b7513eb63f94e17dbbc4b0737ee0d0ff1e3139214f9920331a616fe2b6e8/rtorrent_rpc-0.0.6.tar.gz
+[2023-07-01 19:54:04] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/e9/77/fe67fcd94acd5c6acac455fa6b35dd150faefa5c54b56e5c504b6f820f4d/SecureMessaging-1.0.1-py3-none-any.whl
+[2023-07-01 19:54:05] INFO root fetch - processPackages [aws-s3-cli]: Downloading https://files.pythonhosted.org/packages/16/79/1527d6da423deb3536d3de092dc0af80e3c1976ab2f05d05113f7cb971c7/aws-s3-cli-0.0.5.tar.gz
+[2023-07-01 19:54:05] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-07-01 19:54:05] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.5.tar.gz tmp/rtorrent_rpc-0.0.6.tar.gz --markdown 20230701/r/rtorrent-rpc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 19:54:05] INFO root fetch - processPackages [aws-s3-cli]: executing diffoscope
+[2023-07-01 19:54:05] INFO root fetch - processPackages [aws-s3-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-s3-cli-0.0.4.tar.gz tmp/aws-s3-cli-0.0.5.tar.gz --markdown 20230701/a/aws-s3-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 19:54:05] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/87/bd/78370fef69231a7c538b41f91bf6c0de955f9239875e1dd9eb21588dfc88/SecureMessaging-1.0.2-py3-none-any.whl
+[2023-07-01 19:54:05] INFO root fetch - processPackages [SecureMessaging]: executing diffoscope
+[2023-07-01 19:54:05] INFO root fetch - processPackages [SecureMessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecureMessaging-1.0.1-py3-none-any.whl.zip tmp/SecureMessaging-1.0.2-py3-none-any.whl.zip --markdown 20230701/S/SecureMessaging/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 19:54:05] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.1.tar.gz]
+[2023-07-01 19:54:05] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.5.2.tar.gz]
+[2023-07-01 19:54:05] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-07-01 19:54:05] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.1.tar.gz]
+[2023-07-01 19:54:05] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.3.tar.gz]
+[2023-07-01 19:54:05] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-01 19:54:06] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.5.tar.gz]
+[2023-07-01 19:54:06] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.6.tar.gz]
+[2023-07-01 19:54:06] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-07-01 19:54:06] INFO root fetch - processPackages [aws-s3-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-s3-cli-0.0.4.tar.gz]
+[2023-07-01 19:54:06] INFO root fetch - processPackages [aws-s3-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-s3-cli-0.0.5.tar.gz]
+[2023-07-01 19:54:06] INFO root fetch - main [MainThread]: End processing [aws-s3-cli]: success
+[2023-07-01 19:54:06] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.1-py3-none-any.whl.zip]
+[2023-07-01 19:54:06] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.2-py3-none-any.whl.zip]
+[2023-07-01 19:54:06] INFO root fetch - main [MainThread]: End processing [SecureMessaging]: success
+[2023-07-01 19:54:07] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.9.tar.gz]
+[2023-07-01 19:54:07] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.9.1.tar.gz]
+[2023-07-01 19:54:07] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-07-01 19:54:07] INFO root fetch - main [MainThread]: Store serial: [18723604]
