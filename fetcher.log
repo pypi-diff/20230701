@@ -10568,3 +10568,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:33:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
 [2023-07-01 09:33:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-01 09:33:52] INFO root fetch - main [MainThread]: Store serial: [18720413]
+[2023-07-01 09:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720413]
+[2023-07-01 09:39:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpilib
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectree
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwak-sdk
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itertree
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heimdallm
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanorequests
+[2023-07-01 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atooms-pp
+[2023-07-01 09:39:01] WARNING root fetch - processPackages [cpilib]: Skipping, unable to determine old version
+[2023-07-01 09:39:01] INFO root fetch - main [MainThread]: End processing [cpilib] error
+[2023-07-01 09:39:01] INFO root fetch - processPackages [atooms-pp]: New version: [3.2.0] Old Version: [3.1.3]
+[2023-07-01 09:39:01] INFO root fetch - processPackages [qwak-sdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-01 09:39:01] INFO root fetch - processPackages [nanorequests]: New version: [0.8] Old Version: [0.7]
+[2023-07-01 09:39:01] WARNING root fetch - processPackages [heimdallm]: Skipping, unable to determine old version
+[2023-07-01 09:39:01] INFO root fetch - processPackages [spectree]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-01 09:39:01] INFO root fetch - main [MainThread]: End processing [heimdallm] error
+[2023-07-01 09:39:01] INFO root fetch - processPackages [itertree]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-07-01 09:39:01] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/88/92/015877b359e3132471a628ecedfad3f030ac7ccb669909cd77dd58286200/nanorequests-0.7.tar.gz
+[2023-07-01 09:39:01] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/54/73/b232213196f61ccf5d744e25bd0300ead695e86f48708d735193d80f05ff/qwak_sdk-0.5.8.tar.gz
+[2023-07-01 09:39:01] INFO root fetch - processPackages [spectree]: Downloading https://files.pythonhosted.org/packages/e3/9c/8c7aecb56585aedfcf480e2ddeaadd050af809b600969354d0fa10deee3c/spectree-1.1.3.tar.gz
+[2023-07-01 09:39:01] INFO root fetch - processPackages [atooms-pp]: Downloading https://files.pythonhosted.org/packages/3c/af/fe09dfa720ca380b954281343401da7231a83088b633d4ce52f5d895a3e6/atooms-pp-3.1.3.tar.gz
+[2023-07-01 09:39:01] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/da/da/302a8c570efabacf87e54009301612c105451bbe6d0f1254f218db7a3fe7/nanorequests-0.8.tar.gz
+[2023-07-01 09:39:02] INFO root fetch - processPackages [itertree]: executing diffoscope
+[2023-07-01 09:39:02] INFO root fetch - processPackages [itertree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itertree-1.0.1.tar.gz tmp/itertree-1.0.3.tar.gz --markdown 20230701/i/itertree/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 09:39:02] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:39:02] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.7.tar.gz tmp/nanorequests-0.8.tar.gz --markdown 20230701/n/nanorequests/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-01 09:39:02] INFO root fetch - processPackages [qwak-sdk]: Downloading https://files.pythonhosted.org/packages/d4/93/8fee5951ae6175bb756e71b252346e876a32a52652955f82fb606c69fb2c/qwak_sdk-0.5.9.tar.gz
+[2023-07-01 09:39:02] INFO root fetch - processPackages [qwak-sdk]: executing diffoscope
+[2023-07-01 09:39:02] INFO root fetch - processPackages [qwak-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_sdk-0.5.8.tar.gz tmp/qwak_sdk-0.5.9.tar.gz --markdown 20230701/q/qwak-sdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-01 09:39:02] INFO root fetch - processPackages [spectree]: Downloading https://files.pythonhosted.org/packages/7b/ca/aab3d711b5f07182c3dce1f8721aca8fdf9c1c43743945f7262d2f6d9fb9/spectree-1.1.4.tar.gz
+[2023-07-01 09:39:02] INFO root fetch - processPackages [atooms-pp]: Downloading https://files.pythonhosted.org/packages/05/ed/aa1681e928055cea96054f813ddc24fe2e959e1ec66864d04ccd18d596d2/atooms-pp-3.2.0.tar.gz
+[2023-07-01 09:39:02] INFO root fetch - processPackages [atooms-pp]: executing diffoscope
+[2023-07-01 09:39:02] INFO root fetch - processPackages [atooms-pp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atooms-pp-3.1.3.tar.gz tmp/atooms-pp-3.2.0.tar.gz --markdown 20230701/a/atooms-pp/3.1.3-3.2.0/diff.md --exclude *.pyd
+[2023-07-01 09:39:02] INFO root fetch - processPackages [spectree]: executing diffoscope
+[2023-07-01 09:39:02] INFO root fetch - processPackages [spectree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectree-1.1.3.tar.gz tmp/spectree-1.1.4.tar.gz --markdown 20230701/s/spectree/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-01 09:39:02] INFO root fetch - processPackages [itertree]: Remove: archive file [/home/abi/fetcher/tmp/itertree-1.0.1.tar.gz]
+[2023-07-01 09:39:02] INFO root fetch - processPackages [itertree]: Remove: archive file [/home/abi/fetcher/tmp/itertree-1.0.3.tar.gz]
+[2023-07-01 09:39:02] INFO root fetch - main [MainThread]: End processing [itertree]: success
+[2023-07-01 09:39:03] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.7.tar.gz]
+[2023-07-01 09:39:03] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.8.tar.gz]
+[2023-07-01 09:39:03] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:39:03] INFO root fetch - processPackages [atooms-pp]: Remove: archive file [/home/abi/fetcher/tmp/atooms-pp-3.1.3.tar.gz]
+[2023-07-01 09:39:03] INFO root fetch - processPackages [atooms-pp]: Remove: archive file [/home/abi/fetcher/tmp/atooms-pp-3.2.0.tar.gz]
+[2023-07-01 09:39:03] INFO root fetch - main [MainThread]: End processing [atooms-pp]: success
+[2023-07-01 09:39:03] INFO root fetch - processPackages [spectree]: Remove: archive file [/home/abi/fetcher/tmp/spectree-1.1.3.tar.gz]
+[2023-07-01 09:39:03] INFO root fetch - processPackages [spectree]: Remove: archive file [/home/abi/fetcher/tmp/spectree-1.1.4.tar.gz]
+[2023-07-01 09:39:03] INFO root fetch - main [MainThread]: End processing [spectree]: success
+[2023-07-01 09:39:04] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.8.tar.gz]
+[2023-07-01 09:39:04] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
+[2023-07-01 09:39:04] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
+[2023-07-01 09:39:04] INFO root fetch - main [MainThread]: Store serial: [18720434]
