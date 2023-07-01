@@ -3353,3 +3353,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 03:06:19] INFO root fetch - processPackages [gpt4all]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-1.0.1-py3-none-win_amd64.whl.zip]
 [2023-07-01 03:06:19] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
 [2023-07-01 03:06:19] INFO root fetch - main [MainThread]: Store serial: [18717849]
+[2023-07-01 03:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717849]
+[2023-07-01 03:11:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kdslibs
+[2023-07-01 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-07-01 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TMDBTraktSyncer
+[2023-07-01 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policy-sentry
+[2023-07-01 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vodex
+[2023-07-01 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudsplaining
+[2023-07-01 03:11:35] INFO root fetch - processPackages [vodex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 03:11:35] INFO root fetch - processPackages [kdslibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 03:11:35] INFO root fetch - processPackages [policy-sentry]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-01 03:11:35] INFO root fetch - processPackages [cloudsplaining]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-01 03:11:35] INFO root fetch - processPackages [TMDBTraktSyncer]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-01 03:11:35] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-01 03:11:35] INFO root fetch - processPackages [vodex]: Downloading https://files.pythonhosted.org/packages/d9/95/a20800c4624984ef5ac6f658d9665a85f83feeea53ce9c96f07a5f972032/vodex-1.0.8.tar.gz
+[2023-07-01 03:11:35] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/d1/75/31dbf40a1710caa843016d509bed4139740781b5ab155d4223917f122df5/kdslibs-0.0.8.tar.gz
+[2023-07-01 03:11:35] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-07-01 03:11:35] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/a6/32/9e72b66c2924b5c23770457e9c326913504f41f76508f560590cf7e77b86/TMDBTraktSyncer-1.4.0.tar.gz
+[2023-07-01 03:11:35] INFO root fetch - processPackages [policy-sentry]: Downloading https://files.pythonhosted.org/packages/e6/ac/58bf50d3e2807b44e061ab312d3064c4fcdf28d0df6537357a23c99cc3cf/policy_sentry-0.9.0.tar.gz
+[2023-07-01 03:11:35] INFO root fetch - processPackages [cloudsplaining]: Downloading https://files.pythonhosted.org/packages/93/85/0e491f3d439ad79ff93cd60edf6d2bccc06d1c9caa152cec05d5b09d94a5/cloudsplaining-0.5.1.tar.gz
+[2023-07-01 03:11:36] INFO root fetch - processPackages [TMDBTraktSyncer]: Downloading https://files.pythonhosted.org/packages/6e/56/7829817ee309073b5107816d1b741320b85cd3cb6e588a962f9ff23edb9d/TMDBTraktSyncer-1.4.1.tar.gz
+[2023-07-01 03:11:36] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/a7/f7/51c720c9cb636a40208740673b1da5adb53e747e77e7976eae2f73d5b616/kdslibs-0.0.9.tar.gz
+[2023-07-01 03:11:36] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-07-01 03:11:36] INFO root fetch - processPackages [TMDBTraktSyncer]: executing diffoscope
+[2023-07-01 03:11:36] INFO root fetch - processPackages [TMDBTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMDBTraktSyncer-1.4.0.tar.gz tmp/TMDBTraktSyncer-1.4.1.tar.gz --markdown 20230701/T/TMDBTraktSyncer/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-01 03:11:36] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-07-01 03:11:36] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.8.tar.gz tmp/kdslibs-0.0.9.tar.gz --markdown 20230701/k/kdslibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 03:11:36] INFO root fetch - processPackages [cloudsplaining]: Downloading https://files.pythonhosted.org/packages/f2/ed/08d964b0d78a414bdfabbd1c5cf33eccfb99145c9060e6fccf5dd405c6ca/cloudsplaining-0.5.2.tar.gz
+[2023-07-01 03:11:36] INFO root fetch - processPackages [cloudsplaining]: executing diffoscope
+[2023-07-01 03:11:36] INFO root fetch - processPackages [cloudsplaining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsplaining-0.5.1.tar.gz tmp/cloudsplaining-0.5.2.tar.gz --markdown 20230701/c/cloudsplaining/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-01 03:11:36] INFO root fetch - processPackages [policy-sentry]: Downloading https://files.pythonhosted.org/packages/ee/7b/2aa24bcd1c15d828f2b8f374e583a012c0a4f2f40f8f19138ca314eaa083/policy_sentry-0.9.1.tar.gz
+[2023-07-01 03:11:36] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-07-01 03:11:36] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230701/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:11:37] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.8.tar.gz]
+[2023-07-01 03:11:37] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.9.tar.gz]
+[2023-07-01 03:11:37] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-07-01 03:11:37] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.4.0.tar.gz]
+[2023-07-01 03:11:37] INFO root fetch - processPackages [TMDBTraktSyncer]: Remove: archive file [/home/abi/fetcher/tmp/TMDBTraktSyncer-1.4.1.tar.gz]
+[2023-07-01 03:11:37] INFO root fetch - main [MainThread]: End processing [TMDBTraktSyncer]: success
+[2023-07-01 03:11:37] INFO root fetch - processPackages [policy-sentry]: executing diffoscope
+[2023-07-01 03:11:37] INFO root fetch - processPackages [policy-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policy_sentry-0.9.0.tar.gz tmp/policy_sentry-0.9.1.tar.gz --markdown 20230701/p/policy-sentry/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 03:11:37] INFO root fetch - processPackages [vodex]: Downloading https://files.pythonhosted.org/packages/c2/93/a66e9555b3b0d2f5af21c70f003cc110ab8260821e0d03c33bd4a687dfbc/vodex-1.0.9.tar.gz
+[2023-07-01 03:11:37] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-07-01 03:11:37] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-07-01 03:11:37] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-07-01 03:11:39] INFO root fetch - processPackages [vodex]: executing diffoscope
+[2023-07-01 03:11:39] INFO root fetch - processPackages [vodex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodex-1.0.8.tar.gz tmp/vodex-1.0.9.tar.gz --markdown 20230701/v/vodex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 03:11:41] INFO root fetch - processPackages [cloudsplaining]: Remove: archive file [/home/abi/fetcher/tmp/cloudsplaining-0.5.1.tar.gz]
+[2023-07-01 03:11:41] INFO root fetch - processPackages [cloudsplaining]: Remove: archive file [/home/abi/fetcher/tmp/cloudsplaining-0.5.2.tar.gz]
+[2023-07-01 03:11:41] INFO root fetch - main [MainThread]: End processing [cloudsplaining]: success
+[2023-07-01 03:11:43] INFO root fetch - processPackages [vodex]: Remove: archive file [/home/abi/fetcher/tmp/vodex-1.0.8.tar.gz]
+[2023-07-01 03:11:43] INFO root fetch - processPackages [vodex]: Remove: archive file [/home/abi/fetcher/tmp/vodex-1.0.9.tar.gz]
+[2023-07-01 03:11:43] INFO root fetch - main [MainThread]: End processing [vodex]: success
+[2023-07-01 03:12:09] INFO root fetch - processPackages [policy-sentry]: Remove: archive file [/home/abi/fetcher/tmp/policy_sentry-0.9.0.tar.gz]
+[2023-07-01 03:12:09] INFO root fetch - processPackages [policy-sentry]: Remove: archive file [/home/abi/fetcher/tmp/policy_sentry-0.9.1.tar.gz]
+[2023-07-01 03:12:09] INFO root fetch - main [MainThread]: End processing [policy-sentry]: success
+[2023-07-01 03:12:09] INFO root fetch - main [MainThread]: Store serial: [18717869]
