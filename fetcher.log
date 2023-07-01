@@ -9586,3 +9586,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:53:18] INFO root fetch - processPackages [aiovantage]: Remove: archive file [/home/abi/fetcher/tmp/aiovantage-0.5.0.tar.gz]
 [2023-07-01 07:53:18] INFO root fetch - main [MainThread]: End processing [aiovantage]: success
 [2023-07-01 07:53:18] INFO root fetch - main [MainThread]: Store serial: [18720056]
+[2023-07-01 07:58:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720056]
+[2023-07-01 07:58:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embiggen
+[2023-07-01 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2023-07-01 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agixt
+[2023-07-01 07:58:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cursesdict
+[2023-07-01 07:58:26] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-01 07:58:26] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-01 07:58:26] INFO root fetch - processPackages [atksh-utils]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 07:58:26] INFO root fetch - processPackages [cursesdict]: New version: [0.11] Old Version: [0.10]
+[2023-07-01 07:58:26] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-07-01 07:58:26] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/d0/46/fb6269a029aefab6e556cb636b9d06a406b73db51b6bc52494b1664e7a34/atksh-utils-0.2.0.tar.gz
+[2023-07-01 07:58:26] INFO root fetch - processPackages [cursesdict]: Downloading https://files.pythonhosted.org/packages/60/79/b72485df24953b08d4e5c7e2c0a63525b9cc1892c93754dcec2d3031c988/cursesdict-0.10.tar.gz
+[2023-07-01 07:58:26] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-07-01 07:58:27] INFO root fetch - processPackages [cursesdict]: Downloading https://files.pythonhosted.org/packages/3d/23/a955cffb165d85a56a49f09ce13e41662783e00482d35eda87b0089a77f1/cursesdict-0.11.tar.gz
+[2023-07-01 07:58:27] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/16/6f/c2b46260742d0cba9e434b6a77bc2507acc85a7733e413e7d5aa9492487f/atksh-utils-0.2.1.tar.gz
+[2023-07-01 07:58:27] INFO root fetch - processPackages [cursesdict]: executing diffoscope
+[2023-07-01 07:58:27] INFO root fetch - processPackages [cursesdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesdict-0.10.tar.gz tmp/cursesdict-0.11.tar.gz --markdown 20230701/c/cursesdict/0.10-0.11/diff.md --exclude *.pyd
+[2023-07-01 07:58:27] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-07-01 07:58:27] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2023-07-01 07:58:27] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh-utils-0.2.0.tar.gz tmp/atksh-utils-0.2.1.tar.gz --markdown 20230701/a/atksh-utils/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 07:58:27] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-07-01 07:58:27] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-01 07:58:27] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230701/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-01 07:58:27] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-07-01 07:58:27] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230701/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-01 07:58:28] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.2.0.tar.gz]
+[2023-07-01 07:58:28] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh-utils-0.2.1.tar.gz]
+[2023-07-01 07:58:28] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2023-07-01 07:58:28] INFO root fetch - processPackages [cursesdict]: Remove: archive file [/home/abi/fetcher/tmp/cursesdict-0.10.tar.gz]
+[2023-07-01 07:58:28] INFO root fetch - processPackages [cursesdict]: Remove: archive file [/home/abi/fetcher/tmp/cursesdict-0.11.tar.gz]
+[2023-07-01 07:58:28] INFO root fetch - main [MainThread]: End processing [cursesdict]: success
+[2023-07-01 07:58:28] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-07-01 07:58:28] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-07-01 07:58:28] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-07-01 07:58:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-07-01 07:58:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-07-01 07:58:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-01 07:58:29] INFO root fetch - main [MainThread]: Store serial: [18720067]
