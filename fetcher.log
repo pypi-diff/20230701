@@ -9275,3 +9275,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:06:01] INFO root fetch - processPackages [mrgrain.cdk-esbuild]: Remove: archive file [/home/abi/fetcher/tmp/mrgrain.cdk-esbuild-4.1.9.tar.gz]
 [2023-07-01 07:06:01] INFO root fetch - main [MainThread]: End processing [mrgrain.cdk-esbuild]: success
 [2023-07-01 07:06:01] INFO root fetch - main [MainThread]: Store serial: [18719906]
+[2023-07-01 07:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719906]
+[2023-07-01 07:11:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 07:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDhelper
+[2023-07-01 07:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-07-01 07:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-model-maker-nightly
+[2023-07-01 07:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypatrol
+[2023-07-01 07:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thonny-quecpython
+[2023-07-01 07:11:10] INFO root fetch - processPackages [TDhelper]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-07-01 07:11:10] INFO root fetch - processPackages [skypatrol]: New version: [0.6.8] Old Version: [0.6.5]
+[2023-07-01 07:11:10] INFO root fetch - processPackages [thonny-quecpython]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306300510] Old Version: [0.4.3.dev202306290508]
+[2023-07-01 07:11:10] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230701] Old Version: [23.8.0a230630]
+[2023-07-01 07:11:10] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/b1/fb/3eb8d6543570a2863329d2820088a6178d49ab1969a160f88379325fae49/TDhelper-2.6.3.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/d3/4b/00ae0f7f080e6af5bd9982eacd12aa12fc9b1a851af2c968f95da9954b34/tflite-model-maker-nightly-0.4.3.dev202306290508.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [thonny-quecpython]: Downloading https://files.pythonhosted.org/packages/3e/7f/12edbd0a5086eb4e74107f878ae8e18f720d2ae3453dfd91dfc27b3923f8/thonny-quecpython-0.1.1.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b2/aa/224101dd79c81a9eb2699d7e4a46f76682a57ab1948707a2664611a78006/dask-cuda-23.8.0a230630.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/50/d9/0fdd56e2628389a2388e1a1fe88e97746d098ad894457b269c260dc807b2/skypatrol-0.6.5.tar.gz
+[2023-07-01 07:11:10] WARNING root fetch - processPackages [thonny-quecpython]: Skipping package: exceeds size limit 23300406>=10485760
+[2023-07-01 07:11:10] INFO root fetch - main [MainThread]: End processing [thonny-quecpython] error
+[2023-07-01 07:11:10] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/8e/64/61550ae9ce9bb895b54d0b997f2b0b7bc2e5e4cd2b6ce6ab861b3449dd4a/TDhelper-2.6.4.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/34/87/d0dac8dc812501931891fb373f74fe7f2b3861df51b993145aba0ccf8f19/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/98/a4/399111d1f22562cf4a3205364ea3172ceb9f4fe59f5cf5f1634961ac9aa6/skypatrol-0.6.8.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-07-01 07:11:10] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ca/36/6fe2f803b769d22016bc33cce4f22d1561330309ed960f4f9dd1a8f2179a/dask-cuda-23.8.0a230701.tar.gz
+[2023-07-01 07:11:10] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.3.tar.gz tmp/TDhelper-2.6.4.tar.gz --markdown 20230701/T/TDhelper/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-07-01 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-01 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306290508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz --markdown 20230701/t/tflite-model-maker-nightly/0.4.3.dev202306290508-0.4.3.dev202306300510/diff.md --exclude *.pyd
+[2023-07-01 07:11:10] INFO root fetch - processPackages [skypatrol]: executing diffoscope
+[2023-07-01 07:11:10] INFO root fetch - processPackages [skypatrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypatrol-0.6.5.tar.gz tmp/skypatrol-0.6.8.tar.gz --markdown 20230701/s/skypatrol/0.6.5-0.6.8/diff.md --exclude *.pyd
+[2023-07-01 07:11:11] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-01 07:11:11] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230630.tar.gz tmp/dask-cuda-23.8.0a230701.tar.gz --markdown 20230701/d/dask-cuda/23.8.0a230630-23.8.0a230701/diff.md --exclude *.pyd
+[2023-07-01 07:11:11] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.5.tar.gz]
+[2023-07-01 07:11:11] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.8.tar.gz]
+[2023-07-01 07:11:11] INFO root fetch - main [MainThread]: End processing [skypatrol]: success
+[2023-07-01 07:11:12] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230630.tar.gz]
+[2023-07-01 07:11:12] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230701.tar.gz]
+[2023-07-01 07:11:12] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-01 07:11:12] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.3.tar.gz]
+[2023-07-01 07:11:12] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.4.tar.gz]
+[2023-07-01 07:11:12] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-07-01 07:11:13] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306290508.tar.gz]
+[2023-07-01 07:11:13] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306300510.tar.gz]
+[2023-07-01 07:11:13] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-01 07:11:13] INFO root fetch - main [MainThread]: Store serial: [18719920]
