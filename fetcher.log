@@ -15299,3 +15299,65 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:58:37] INFO root fetch - processPackages [deviceID]: Remove: archive file [/home/abi/fetcher/tmp/deviceID-0.1.5.tar.gz]
 [2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [deviceID]: success
 [2023-07-01 16:58:37] INFO root fetch - main [MainThread]: Store serial: [18722579]
+[2023-07-01 17:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722579]
+[2023-07-01 17:03:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: westat
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jarvis-ironman
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pcDataLoader
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycatsearch
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nics
+[2023-07-01 17:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynamer
+[2023-07-01 17:03:47] INFO root fetch - processPackages [anyon]: New version: [3.5.1] Old Version: [3.4.7]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pcDataLoader]: New version: [3.2.0] Old Version: [2.0.3]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [westat]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [nics]: New version: [2.2.2] Old Version: [2.2.0]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [jarvis-ironman]: New version: [3.1] Old Version: [3.0a0]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pynamer]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-01 17:03:47] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/48/73/892f0735cc2a5fe988cc5fa84dcbb3ee30cdc9a2df9169829979ea695110/nics-2.2.0.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/c1/63/4ad2a24201e6698d6640b4aa2ff34db267e34d1b007786fb3d7c39064e22/jarvis_ironman-3.0a0-py3-none-any.whl
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pcDataLoader]: Downloading https://files.pythonhosted.org/packages/97/02/c1cc7b637fec14a32b79722501a29e87cf1584bdde880e30801caca4ba61/pcdataloader-2.0.3.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/cb/0a/03a46f130d204fecaf242e9a0aa8a5125b4f23aa610db3b1ed598c23fd24/anyon-3.4.7-cp311-none-win_amd64.whl
+[2023-07-01 17:03:47] INFO root fetch - processPackages [westat]: Downloading https://files.pythonhosted.org/packages/16/ec/30e5a222ea75be825c8b78eb96bdbb7fefd0f4a7e0df4fd44e0be96e283a/westat-0.2.3.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/b2/94/80d10b88b271acc0eaf5ef789d9d2880a8eb3c5d5de7222016dbe8a58738/pycatsearch-5.1.8.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/58/95/6c8b5750133a2477ecc576dacf0234a4cae72ad255086e8232179a515d64/pynamer-2.1.7.tar.gz
+[2023-07-01 17:03:47] WARNING root fetch - processPackages [westat]: Skipping package: exceeds size limit 12675165>=10485760
+[2023-07-01 17:03:47] INFO root fetch - main [MainThread]: End processing [westat] error
+[2023-07-01 17:03:47] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/5f/6c/6f735253fff50c0648e9fbb37082ba8b733aec0bfd417e500e8ef9c3a76d/nics-2.2.2.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/ef/f7/8a802ac0a16276dd8ee7c48387a587e3d58f796196c3c3d92e536be64b58/pycatsearch-5.1.9.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 17:03:47] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.2.0.tar.gz tmp/nics-2.2.2.tar.gz --markdown 20230701/n/nics/2.2.0-2.2.2/diff.md --exclude *.pyd
+[2023-07-01 17:03:47] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/e1/98/66b9db2a83dfd11396ecfd78f9a2164351ca7ae41828ab528b1a37ad03f5/anyon-3.5.1-cp311-none-macosx_10_9_universal2.whl
+[2023-07-01 17:03:47] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-01 17:03:47] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.4.7-cp311-none-win_amd64.whl.zip tmp/anyon-3.5.1-cp311-none-macosx_10_9_universal2.whl.zip --markdown 20230701/a/anyon/3.4.7-3.5.1/diff.md --exclude *.pyd
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pynamer]: Downloading https://files.pythonhosted.org/packages/07/17/4f31855510287f517622f9a106bfc358a473ec62738fffdb6f57be46737e/pynamer-2.1.8.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pcDataLoader]: Downloading https://files.pythonhosted.org/packages/74/95/c824267cfcc1ee91409423721bffc559ca9545252da5bab57ec81bb77e99/pcdataloader-3.2.0.tar.gz
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.8.tar.gz tmp/pycatsearch-5.1.9.tar.gz --markdown 20230701/p/pycatsearch/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pcDataLoader]: executing diffoscope
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pcDataLoader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdataloader-2.0.3.tar.gz tmp/pcdataloader-3.2.0.tar.gz --markdown 20230701/p/pcDataLoader/2.0.3-3.2.0/diff.md --exclude *.pyd
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pynamer]: executing diffoscope
+[2023-07-01 17:03:47] INFO root fetch - processPackages [pynamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamer-2.1.7.tar.gz tmp/pynamer-2.1.8.tar.gz --markdown 20230701/p/pynamer/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-01 17:03:47] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/b7/78/1f7b689c6057fb1d66db224eec6b11d320c6955ca3efa2833792b2469506/jarvis_ironman-3.1-py3-none-any.whl
+[2023-07-01 17:03:48] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-07-01 17:03:48] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-3.0a0-py3-none-any.whl.zip tmp/jarvis_ironman-3.1-py3-none-any.whl.zip --markdown 20230701/j/jarvis-ironman/3.0a0-3.1/diff.md --exclude *.pyd
+[2023-07-01 17:03:48] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.2.0.tar.gz]
+[2023-07-01 17:03:48] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.2.2.tar.gz]
+[2023-07-01 17:03:48] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 17:03:48] INFO root fetch - processPackages [pcDataLoader]: Remove: archive file [/home/abi/fetcher/tmp/pcdataloader-2.0.3.tar.gz]
+[2023-07-01 17:03:48] INFO root fetch - processPackages [pcDataLoader]: Remove: archive file [/home/abi/fetcher/tmp/pcdataloader-3.2.0.tar.gz]
+[2023-07-01 17:03:48] INFO root fetch - main [MainThread]: End processing [pcDataLoader]: success
+[2023-07-01 17:03:48] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.7-cp311-none-win_amd64.whl.zip]
+[2023-07-01 17:03:48] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.1-cp311-none-macosx_10_9_universal2.whl.zip]
+[2023-07-01 17:03:48] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-01 17:03:49] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.8.tar.gz]
+[2023-07-01 17:03:49] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.9.tar.gz]
+[2023-07-01 17:03:49] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-07-01 17:03:49] INFO root fetch - processPackages [pynamer]: Remove: archive file [/home/abi/fetcher/tmp/pynamer-2.1.7.tar.gz]
+[2023-07-01 17:03:49] INFO root fetch - processPackages [pynamer]: Remove: archive file [/home/abi/fetcher/tmp/pynamer-2.1.8.tar.gz]
+[2023-07-01 17:03:49] INFO root fetch - main [MainThread]: End processing [pynamer]: success
+[2023-07-01 17:03:51] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.0a0-py3-none-any.whl.zip]
+[2023-07-01 17:03:51] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.1-py3-none-any.whl.zip]
+[2023-07-01 17:03:51] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-07-01 17:03:51] INFO root fetch - main [MainThread]: Store serial: [18722615]
