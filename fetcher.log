@@ -8571,3 +8571,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 05:48:53] INFO root fetch - processPackages [corpus-judge]: Remove: archive file [/home/abi/fetcher/tmp/corpus_judge-0.1.1.tar.gz]
 [2023-07-01 05:48:53] INFO root fetch - main [MainThread]: End processing [corpus-judge]: success
 [2023-07-01 05:48:53] INFO root fetch - main [MainThread]: Store serial: [18719638]
+[2023-07-01 05:53:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719638]
+[2023-07-01 05:54:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-fatturapa-out
+[2023-07-01 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: functions-Mahmud
+[2023-07-01 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citation-utils
+[2023-07-01 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monstermash
+[2023-07-01 05:54:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opencv-python-rolling
+[2023-07-01 05:54:02] INFO root fetch - processPackages [monstermash]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-07-01 05:54:02] WARNING root fetch - processPackages [functions-Mahmud]: Skipping, unable to determine old version
+[2023-07-01 05:54:02] INFO root fetch - main [MainThread]: End processing [functions-Mahmud] error
+[2023-07-01 05:54:02] INFO root fetch - processPackages [citation-utils]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-01 05:54:02] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: New version: [16.0.1.0.7.2] Old Version: [16.0.1.0.7]
+[2023-07-01 05:54:02] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-07-01 05:54:02] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/77/d4/9cea5cfe41a292e0c6eff35d9a35861ecfbca0f0b7873e3fd4aba4287a19/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7-py3-none-any.whl
+[2023-07-01 05:54:02] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/b9/ff/1ed69d40ed79975c50c3a416ce3ce32c979dac241812f69983c7e83869b2/monstermash-1.7.1.tar.gz
+[2023-07-01 05:54:02] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/cf/fa/eff9441d742fa9c6703fb6b8f9ffc3cd1c9a8b82da3340ff058a2c9eba72/citation_utils-0.4.7.tar.gz
+[2023-07-01 05:54:02] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-07-01 05:54:02] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Downloading https://files.pythonhosted.org/packages/92/dc/fb105d8c2ad15f1eb5a85f8c0d779b4c43784b3bc84f2b1dcdf287fe3e81/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7.2-py3-none-any.whl
+[2023-07-01 05:54:02] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-07-01 05:54:02] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-07-01 05:54:02] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/d4/e9/9027d5984c76d3ebb9ee95037f0747ab0ead21220fb5b17184cd60a3a1fe/monstermash-1.7.2.tar.gz
+[2023-07-01 05:54:02] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: executing diffoscope
+[2023-07-01 05:54:02] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7.2-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-l10n-it-fatturapa-out/16.0.1.0.7-16.0.1.0.7.2/diff.md --exclude *.pyd
+[2023-07-01 05:54:02] INFO root fetch - processPackages [citation-utils]: Downloading https://files.pythonhosted.org/packages/7e/8a/b9a82ff880eb7d5f5fdce917559e3f80939c2797a7cf2c389fb4e8bacd1a/citation_utils-0.4.8.tar.gz
+[2023-07-01 05:54:02] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-07-01 05:54:02] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-1.7.1.tar.gz tmp/monstermash-1.7.2.tar.gz --markdown 20230701/m/monstermash/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-07-01 05:54:02] INFO root fetch - processPackages [citation-utils]: executing diffoscope
+[2023-07-01 05:54:02] INFO root fetch - processPackages [citation-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_utils-0.4.7.tar.gz tmp/citation_utils-0.4.8.tar.gz --markdown 20230701/c/citation-utils/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-01 05:54:03] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.7.1.tar.gz]
+[2023-07-01 05:54:03] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.7.2.tar.gz]
+[2023-07-01 05:54:03] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-07-01 05:54:03] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.7.tar.gz]
+[2023-07-01 05:54:03] INFO root fetch - processPackages [citation-utils]: Remove: archive file [/home/abi/fetcher/tmp/citation_utils-0.4.8.tar.gz]
+[2023-07-01 05:54:03] INFO root fetch - main [MainThread]: End processing [citation-utils]: success
+[2023-07-01 05:54:07] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7-py3-none-any.whl.zip]
+[2023-07-01 05:54:07] INFO root fetch - processPackages [odoo-addon-l10n-it-fatturapa-out]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_fatturapa_out-16.0.1.0.7.2-py3-none-any.whl.zip]
+[2023-07-01 05:54:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-fatturapa-out]: success
+[2023-07-01 05:54:07] INFO root fetch - main [MainThread]: Store serial: [18719653]
