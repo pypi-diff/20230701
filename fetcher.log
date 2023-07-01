@@ -10620,3 +10620,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:39:04] INFO root fetch - processPackages [qwak-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qwak_sdk-0.5.9.tar.gz]
 [2023-07-01 09:39:04] INFO root fetch - main [MainThread]: End processing [qwak-sdk]: success
 [2023-07-01 09:39:04] INFO root fetch - main [MainThread]: Store serial: [18720434]
+[2023-07-01 09:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720434]
+[2023-07-01 09:44:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsondbupload
+[2023-07-01 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2023-07-01 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itertree
+[2023-07-01 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpilib
+[2023-07-01 09:44:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erscipcard
+[2023-07-01 09:44:13] INFO root fetch - processPackages [jsondbupload]: New version: [1.2] Old Version: [1.1]
+[2023-07-01 09:44:13] INFO root fetch - processPackages [erscipcard]: New version: [1.18.93] Old Version: [1.18.92]
+[2023-07-01 09:44:13] INFO root fetch - processPackages [cpilib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 09:44:13] INFO root fetch - processPackages [itertree]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-07-01 09:44:13] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-07-01 09:44:13] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/74/e7/60bc2e1dcea62dba66c763d1a3f50f9ce6e3ce4e1ab3e643cfaa1f456bf2/erscipcard-1.18.92.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [itertree]: Downloading https://files.pythonhosted.org/packages/36/07/89ba79d11e0fd10e49093b5a80bd03bf9f4917921e7f77c5c245b0d5f677/itertree-1.0.3.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/ec/0c/77aa266ca6123d9f2fd0b4701f7445e354488cda9b91fde521333b117603/cpilib-0.1.0.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [jsondbupload]: Downloading https://files.pythonhosted.org/packages/38/a3/808b067f3bcdf41ce2da606e9ea221754eb7888df1caea70d4fae91d0a0b/jsondbupload-1.1.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [itertree]: Downloading https://files.pythonhosted.org/packages/1f/64/5cb623089d42910f9a78657ca1fc8f1199efef324a1ae3ddd90ce4f2165b/itertree-1.0.5.tar.gz
+[2023-07-01 09:44:13] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/8c/06/ddc49f0b5d1f88d16fcbfbc5ffc418831ed0fd79b057d404c8b65f26b87a/erscipcard-1.18.93.tar.gz
+[2023-07-01 09:44:14] INFO root fetch - processPackages [jsondbupload]: Downloading https://files.pythonhosted.org/packages/5e/9f/3efd9b64b694e89f0f86d0c32446385ea6a9137f4f53a0c6f924d78fdcf4/jsondbupload-1.2.tar.gz
+[2023-07-01 09:44:14] INFO root fetch - processPackages [itertree]: executing diffoscope
+[2023-07-01 09:44:14] INFO root fetch - processPackages [itertree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itertree-1.0.3.tar.gz tmp/itertree-1.0.5.tar.gz --markdown 20230701/i/itertree/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-07-01 09:44:14] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-01 09:44:14] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230701/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-07-01 09:44:14] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/f8/c3/2d147888c67c283e0f98dee14a462afc86d4d7dc4047c2bd750dc97282ea/cpilib-0.1.1.tar.gz
+[2023-07-01 09:44:14] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 09:44:14] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.92.tar.gz tmp/erscipcard-1.18.93.tar.gz --markdown 20230701/e/erscipcard/1.18.92-1.18.93/diff.md --exclude *.pyd
+[2023-07-01 09:44:14] INFO root fetch - processPackages [jsondbupload]: executing diffoscope
+[2023-07-01 09:44:14] INFO root fetch - processPackages [jsondbupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsondbupload-1.1.tar.gz tmp/jsondbupload-1.2.tar.gz --markdown 20230701/j/jsondbupload/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-01 09:44:14] INFO root fetch - processPackages [cpilib]: executing diffoscope
+[2023-07-01 09:44:14] INFO root fetch - processPackages [cpilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpilib-0.1.0.tar.gz tmp/cpilib-0.1.1.tar.gz --markdown 20230701/c/cpilib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 09:44:15] INFO root fetch - processPackages [jsondbupload]: Remove: archive file [/home/abi/fetcher/tmp/jsondbupload-1.1.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - processPackages [jsondbupload]: Remove: archive file [/home/abi/fetcher/tmp/jsondbupload-1.2.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - main [MainThread]: End processing [jsondbupload]: success
+[2023-07-01 09:44:15] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.1.0.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.1.1.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - main [MainThread]: End processing [cpilib]: success
+[2023-07-01 09:44:15] INFO root fetch - processPackages [itertree]: Remove: archive file [/home/abi/fetcher/tmp/itertree-1.0.3.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - processPackages [itertree]: Remove: archive file [/home/abi/fetcher/tmp/itertree-1.0.5.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - main [MainThread]: End processing [itertree]: success
+[2023-07-01 09:44:15] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.92.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.93.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 09:44:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-07-01 09:44:15] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-01 09:44:15] INFO root fetch - main [MainThread]: Store serial: [18720449]
