@@ -9688,3 +9688,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:08:55] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230630.tar.gz]
 [2023-07-01 08:08:55] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-07-01 08:08:55] INFO root fetch - main [MainThread]: Store serial: [18720091]
+[2023-07-01 08:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720091]
+[2023-07-01 08:14:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 08:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: didas
+[2023-07-01 08:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2023-07-01 08:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal]: New version: [0.49.2527] Old Version: [0.49.2517]
+[2023-07-01 08:14:04] INFO root fetch - processPackages [didas]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal-client]: New version: [0.49.2527] Old Version: [0.49.2517]
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/f0/8e/51a17a98f7e79b38cdfa3d64a6a5e8fec2a6a0e7e4539b3e2725abff9e75/modal-0.49.2517-py3-none-any.whl
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/51/ce/9c2af27cc8e334473bc783e7e4816a8c73098d155dec6d2802ffd2828d24/modal_client-0.49.2517-py3-none-any.whl
+[2023-07-01 08:14:04] INFO root fetch - processPackages [didas]: Downloading https://files.pythonhosted.org/packages/db/2d/a280f148a4d59c0e6af81dda60af50354529e525aaf98af1d20982a70219/didas-3.1.0.tar.gz
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/bd/eb/955dc731c08cb56ff34eb99fa0c49b16e73bcec35a3a99679e4146ae729f/modal_client-0.49.2527-py3-none-any.whl
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/fb/de/915694f602ae20fbc730613b1eeb2e5e505eb295a6d71f9512ab76a5e7b2/modal-0.49.2527-py3-none-any.whl
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2517-py3-none-any.whl.zip tmp/modal-0.49.2527-py3-none-any.whl.zip --markdown 20230701/m/modal/0.49.2517-0.49.2527/diff.md --exclude *.pyd
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-01 08:14:04] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2517-py3-none-any.whl.zip tmp/modal_client-0.49.2527-py3-none-any.whl.zip --markdown 20230701/m/modal-client/0.49.2517-0.49.2527/diff.md --exclude *.pyd
+[2023-07-01 08:14:04] INFO root fetch - processPackages [didas]: Downloading https://files.pythonhosted.org/packages/a2/f5/31228699a6d0f8f4ec603c4a07b429641006a657dfbc052aeae4ba97345b/didas-3.1.1.tar.gz
+[2023-07-01 08:14:04] INFO root fetch - processPackages [didas]: executing diffoscope
+[2023-07-01 08:14:04] INFO root fetch - processPackages [didas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didas-3.1.0.tar.gz tmp/didas-3.1.1.tar.gz --markdown 20230701/d/didas/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-07-01 08:14:05] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2517-py3-none-any.whl.zip]
+[2023-07-01 08:14:05] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2527-py3-none-any.whl.zip]
+[2023-07-01 08:14:05] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-01 08:14:06] INFO root fetch - processPackages [didas]: Remove: archive file [/home/abi/fetcher/tmp/didas-3.1.0.tar.gz]
+[2023-07-01 08:14:06] INFO root fetch - processPackages [didas]: Remove: archive file [/home/abi/fetcher/tmp/didas-3.1.1.tar.gz]
+[2023-07-01 08:14:06] INFO root fetch - main [MainThread]: End processing [didas]: success
+[2023-07-01 08:14:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2517-py3-none-any.whl.zip]
+[2023-07-01 08:14:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2527-py3-none-any.whl.zip]
+[2023-07-01 08:14:06] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-01 08:14:06] INFO root fetch - main [MainThread]: Store serial: [18720098]
