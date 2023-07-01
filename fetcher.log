@@ -16298,3 +16298,52 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 18:20:25] INFO root fetch - processPackages [django-jacc]: Remove: archive file [/home/abi/fetcher/tmp/django-jacc-3.9.5.tar.gz]
 [2023-07-01 18:20:25] INFO root fetch - main [MainThread]: End processing [django-jacc]: success
 [2023-07-01 18:20:25] INFO root fetch - main [MainThread]: Store serial: [18723030]
+[2023-07-01 18:25:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723030]
+[2023-07-01 18:25:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 18:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kanonym4text
+[2023-07-01 18:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercury-sync
+[2023-07-01 18:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ITASJCfunctionsMVO41T24
+[2023-07-01 18:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-sync
+[2023-07-01 18:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dww-test
+[2023-07-01 18:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wasc
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 18:25:34] WARNING root fetch - processPackages [ITASJCfunctionsMVO41T24]: Skipping, unable to determine old version
+[2023-07-01 18:25:34] INFO root fetch - main [MainThread]: End processing [ITASJCfunctionsMVO41T24] error
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 18:25:34] INFO root fetch - processPackages [dww-test]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 18:25:34] INFO root fetch - processPackages [kanonym4text]: New version: [1.1.5] Old Version: [0.1.4]
+[2023-07-01 18:25:34] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/45/de/c1a4d4b2bfcd8e503538c52380a9373b8b11724dce992d610e76e97ecacc/dww_test-0.0.5-py3-none-any.whl
+[2023-07-01 18:25:34] INFO root fetch - processPackages [wasc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/40/dc/8acfdb07767ba58786bf3ea3f792e24aeda061ec274edc673af4c630eb32/kanonym4text-0.1.4.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [wasc]: Downloading https://files.pythonhosted.org/packages/12/ee/2b09111ac1288f64e84d89378debeb0cc58bcfac7eb697dc91b1976753f7/wasc-0.1.1.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/d0/7d/debce95e28cfc690d89c15335380e2c5379bbbe2168e90fda5c955ec7e8f/dww_test-0.0.6-py3-none-any.whl
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230701/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-01 18:25:34] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230701/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 18:25:34] INFO root fetch - processPackages [kanonym4text]: Downloading https://files.pythonhosted.org/packages/49/16/5cf6901f9df840d98448540e2072d64dcde2e9a40a26899d689951870405/kanonym4text-1.1.5.tar.gz
+[2023-07-01 18:25:34] INFO root fetch - processPackages [dww-test]: executing diffoscope
+[2023-07-01 18:25:34] INFO root fetch - processPackages [dww-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dww_test-0.0.5-py3-none-any.whl.zip tmp/dww_test-0.0.6-py3-none-any.whl.zip --markdown 20230701/d/dww-test/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 18:25:34] INFO root fetch - processPackages [kanonym4text]: executing diffoscope
+[2023-07-01 18:25:34] INFO root fetch - processPackages [kanonym4text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kanonym4text-0.1.4.tar.gz tmp/kanonym4text-1.1.5.tar.gz --markdown 20230701/k/kanonym4text/0.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-01 18:25:34] INFO root fetch - processPackages [wasc]: Downloading https://files.pythonhosted.org/packages/5e/0a/69d9903fe7b76001e46d1c827a34fca33ae16a57214c270cb9d5c91fe323/wasc-0.1.2.tar.gz
+[2023-07-01 18:25:35] INFO root fetch - processPackages [wasc]: executing diffoscope
+[2023-07-01 18:25:35] INFO root fetch - processPackages [wasc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasc-0.1.1.tar.gz tmp/wasc-0.1.2.tar.gz --markdown 20230701/w/wasc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 18:25:35] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.5-py3-none-any.whl.zip]
+[2023-07-01 18:25:35] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.6-py3-none-any.whl.zip]
+[2023-07-01 18:25:35] INFO root fetch - main [MainThread]: End processing [dww-test]: success
+[2023-07-01 18:25:36] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-01 18:25:36] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-01 18:25:36] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-01 18:25:36] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-01 18:25:36] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-0.1.4.tar.gz]
+[2023-07-01 18:25:36] INFO root fetch - processPackages [kanonym4text]: Remove: archive file [/home/abi/fetcher/tmp/kanonym4text-1.1.5.tar.gz]
+[2023-07-01 18:25:36] INFO root fetch - main [MainThread]: End processing [kanonym4text]: success
+[2023-07-01 18:25:36] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-0.1.1.tar.gz]
+[2023-07-01 18:25:36] INFO root fetch - processPackages [wasc]: Remove: archive file [/home/abi/fetcher/tmp/wasc-0.1.2.tar.gz]
+[2023-07-01 18:25:36] INFO root fetch - main [MainThread]: End processing [wasc]: success
+[2023-07-01 18:25:36] INFO root fetch - main [MainThread]: Store serial: [18723049]
