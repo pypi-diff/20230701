@@ -7743,3 +7743,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:56:45] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.9.tar.gz]
 [2023-07-01 04:56:45] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2023-07-01 04:56:45] INFO root fetch - main [MainThread]: Store serial: [18719379]
+[2023-07-01 05:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719379]
+[2023-07-01 05:01:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stability-matrix-tools
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CalSim
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CalSim
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CalSim
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CalSim
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qworker
+[2023-07-01 05:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redashecho
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 05:01:54] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 05:01:54] INFO root fetch - processPackages [qworker]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 05:01:54] WARNING root fetch - processPackages [redashecho]: Skipping, unable to determine old version
+[2023-07-01 05:01:54] INFO root fetch - main [MainThread]: End processing [redashecho] error
+[2023-07-01 05:01:54] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/d9/93/c73f84f02e6c9da1e8316bc56f27d0bae61e5ec28bc9a86e8967c7c52cdb/stability_matrix_tools-0.1.1.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/9b/67/1209f6e42b440d42baac45302a76d99da5b7b66846f124ab25595741b6ea/qworker-1.9.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/ab/0d/60ef7b32bd60d56629369ef856ea79999c6f090cc2ccf44108d9197d26d8/calsim-0.0.3.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/ab/0d/60ef7b32bd60d56629369ef856ea79999c6f090cc2ccf44108d9197d26d8/calsim-0.0.3.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/ab/0d/60ef7b32bd60d56629369ef856ea79999c6f090cc2ccf44108d9197d26d8/calsim-0.0.3.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/ab/0d/60ef7b32bd60d56629369ef856ea79999c6f090cc2ccf44108d9197d26d8/calsim-0.0.3.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/af/b1/9a999fc7e6fd64346b0132d3f854c701ce0cc2abfcc80beb44e00a1b2f14/stability_matrix_tools-0.1.2.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/09/7a/46f1cc1648111ce913b84352ba35380b11d5bc6353d6ec0774b59c93925a/calsim-0.0.4.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/09/7a/46f1cc1648111ce913b84352ba35380b11d5bc6353d6ec0774b59c93925a/calsim-0.0.4.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/09/7a/46f1cc1648111ce913b84352ba35380b11d5bc6353d6ec0774b59c93925a/calsim-0.0.4.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/09/7a/46f1cc1648111ce913b84352ba35380b11d5bc6353d6ec0774b59c93925a/calsim-0.0.4.tar.gz
+[2023-07-01 05:01:54] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/6b/10/48d3f87cc519f85468085965992aaab123785328d3b86e93c4d234ecaf72/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.3.tar.gz tmp/calsim-0.0.4.tar.gz --markdown 20230701/C/CalSim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.3.tar.gz tmp/calsim-0.0.4.tar.gz --markdown 20230701/C/CalSim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.3.tar.gz tmp/calsim-0.0.4.tar.gz --markdown 20230701/C/CalSim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-01 05:01:54] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.3.tar.gz tmp/calsim-0.0.4.tar.gz --markdown 20230701/C/CalSim/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 05:01:54] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-01 05:01:54] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.1.1.tar.gz tmp/stability_matrix_tools-0.1.2.tar.gz --markdown 20230701/s/stability-matrix-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 05:01:54] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-01 05:01:54] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/q/qworker/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-01 05:01:55] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.3.tar.gz]
+[2023-07-01 05:01:55] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.4.tar.gz]
+[2023-07-01 05:01:55] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-01 05:01:55] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-01 05:01:56] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.1.tar.gz]
+[2023-07-01 05:01:56] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.2.tar.gz]
+[2023-07-01 05:01:56] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-01 05:01:56] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-01 05:01:56] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-01 05:01:56] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 05:01:56] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 05:01:56] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-01 05:01:56] INFO root fetch - main [MainThread]: Store serial: [18719406]
