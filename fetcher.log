@@ -10514,3 +10514,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:28:39] INFO root fetch - processPackages [pip-tools]: Remove: archive file [/home/abi/fetcher/tmp/pip-tools-6.9.0.tar.gz]
 [2023-07-01 09:28:39] INFO root fetch - main [MainThread]: End processing [pip-tools]: success
 [2023-07-01 09:28:39] INFO root fetch - main [MainThread]: Store serial: [18720390]
+[2023-07-01 09:33:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720390]
+[2023-07-01 09:33:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaiclient
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweepai
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newrelic-sb-sdk
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a2y-wxtools
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanorequests
+[2023-07-01 09:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terminal-manager
+[2023-07-01 09:33:48] INFO root fetch - processPackages [zaiclient]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-07-01 09:33:48] INFO root fetch - processPackages [a2y-wxtools]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-01 09:33:48] INFO root fetch - processPackages [newrelic-sb-sdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-01 09:33:48] INFO root fetch - processPackages [nanorequests]: New version: [0.7] Old Version: [0.6]
+[2023-07-01 09:33:48] WARNING root fetch - processPackages [sweepai]: Skipping, unable to determine old version
+[2023-07-01 09:33:48] INFO root fetch - main [MainThread]: End processing [sweepai] error
+[2023-07-01 09:33:48] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-07-01 09:33:48] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/3c/26/39813eb8295519561138d7e2cf874baf3c25b064a77663d27f56d0cb97f0/nanorequests-0.6.tar.gz
+[2023-07-01 09:33:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-07-01 09:33:48] WARNING root fetch - processPackages [terminal-manager]: Skipping, unable to determine old version
+[2023-07-01 09:33:48] INFO root fetch - main [MainThread]: End processing [terminal-manager] error
+[2023-07-01 09:33:48] INFO root fetch - processPackages [a2y-wxtools]: Downloading https://files.pythonhosted.org/packages/48/a7/a36dbde1f0526e7e1c13d68f628620023f62843b2674f8cc4fdc6cf1825b/a2y_wxtools-0.9.7-cp36-cp36m-win32.whl
+[2023-07-01 09:33:48] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/e8/4b/59859dd94615736ca0423dc4a5abccfb3b29d03307e471c40a484815896c/zaiclient-3.1.1-py3-none-any.whl
+[2023-07-01 09:33:48] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/54/bd/62d93730e8b24898129b24db9c162c4023835824ab1b70ca2cd13b79e4d7/newrelic_sb_sdk-0.7.0.tar.gz
+[2023-07-01 09:33:48] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/88/92/015877b359e3132471a628ecedfad3f030ac7ccb669909cd77dd58286200/nanorequests-0.7.tar.gz
+[2023-07-01 09:33:48] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-07-01 09:33:48] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:33:48] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.6.tar.gz tmp/nanorequests-0.7.tar.gz --markdown 20230701/n/nanorequests/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-01 09:33:48] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-01 09:33:48] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230701/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-07-01 09:33:48] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/33/d4/9408ef36448ab84ac5cd78884776535e7c39ea1c37d4c76788053145622f/zaiclient-3.1.2.tar.gz
+[2023-07-01 09:33:48] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/04/d5/b22841ccaf4d2289329b33fd872c312a57bbe793e88d4b769f8d6a71773f/newrelic_sb_sdk-0.8.0.tar.gz
+[2023-07-01 09:33:48] INFO root fetch - processPackages [zaiclient]: executing diffoscope
+[2023-07-01 09:33:49] INFO root fetch - processPackages [zaiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaiclient-3.1.1-py3-none-any.whl.zip tmp/zaiclient-3.1.2.tar.gz --markdown 20230701/z/zaiclient/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-07-01 09:33:49] INFO root fetch - processPackages [a2y-wxtools]: Downloading https://files.pythonhosted.org/packages/36/5a/e58a02ee813b654014ae03bd93527c8074017a1d8e2bdec5cc9647a98017/a2y_wxtools-0.9.8-cp36-cp36m-win32.whl
+[2023-07-01 09:33:49] INFO root fetch - processPackages [a2y-wxtools]: executing diffoscope
+[2023-07-01 09:33:49] INFO root fetch - processPackages [a2y-wxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_wxtools-0.9.7-cp36-cp36m-win32.whl.zip tmp/a2y_wxtools-0.9.8-cp36-cp36m-win32.whl.zip --markdown 20230701/a/a2y-wxtools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-01 09:33:49] INFO root fetch - processPackages [newrelic-sb-sdk]: executing diffoscope
+[2023-07-01 09:33:49] INFO root fetch - processPackages [newrelic-sb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic_sb_sdk-0.7.0.tar.gz tmp/newrelic_sb_sdk-0.8.0.tar.gz --markdown 20230701/n/newrelic-sb-sdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-01 09:33:49] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.6.tar.gz]
+[2023-07-01 09:33:49] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.7.tar.gz]
+[2023-07-01 09:33:49] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:33:50] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-3.1.1-py3-none-any.whl.zip]
+[2023-07-01 09:33:50] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-3.1.2.tar.gz]
+[2023-07-01 09:33:50] INFO root fetch - main [MainThread]: End processing [zaiclient]: success
+[2023-07-01 09:33:50] INFO root fetch - processPackages [a2y-wxtools]: Remove: archive file [/home/abi/fetcher/tmp/a2y_wxtools-0.9.7-cp36-cp36m-win32.whl.zip]
+[2023-07-01 09:33:50] INFO root fetch - processPackages [a2y-wxtools]: Remove: archive file [/home/abi/fetcher/tmp/a2y_wxtools-0.9.8-cp36-cp36m-win32.whl.zip]
+[2023-07-01 09:33:50] INFO root fetch - main [MainThread]: End processing [a2y-wxtools]: success
+[2023-07-01 09:33:51] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.7.0.tar.gz]
+[2023-07-01 09:33:51] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.8.0.tar.gz]
+[2023-07-01 09:33:51] INFO root fetch - main [MainThread]: End processing [newrelic-sb-sdk]: success
+[2023-07-01 09:33:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-07-01 09:33:52] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-07-01 09:33:52] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-01 09:33:52] INFO root fetch - main [MainThread]: Store serial: [18720413]
