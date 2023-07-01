@@ -14660,3 +14660,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:01:01] INFO root fetch - processPackages [heimdallm]: Remove: archive file [/home/abi/fetcher/tmp/heimdallm-0.1.2.tar.gz]
 [2023-07-01 16:01:01] INFO root fetch - main [MainThread]: End processing [heimdallm]: success
 [2023-07-01 16:01:01] INFO root fetch - main [MainThread]: Store serial: [18722234]
+[2023-07-01 16:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722234]
+[2023-07-01 16:06:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 16:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2023-07-01 16:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fnattr
+[2023-07-01 16:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: termuxgui
+[2023-07-01 16:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: demo-csv-linter-leandro
+[2023-07-01 16:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fogLedger
+[2023-07-01 16:06:10] WARNING root fetch - processPackages [demo-csv-linter-leandro]: Skipping, unable to determine old version
+[2023-07-01 16:06:10] INFO root fetch - main [MainThread]: End processing [demo-csv-linter-leandro] error
+[2023-07-01 16:06:10] INFO root fetch - processPackages [fnattr]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-01 16:06:10] INFO root fetch - processPackages [termuxgui]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 16:06:10] INFO root fetch - processPackages [fogLedger]: New version: [2.0.2] Old Version: [2.0.0]
+[2023-07-01 16:06:10] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-01 16:06:10] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/60/da/879af6e751ef0ca9572ca5a3dc08c7851e5cc0c7020ad9d4b0a932948364/fogLedger-2.0.0.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fnattr]: Downloading https://files.pythonhosted.org/packages/23/44/0aa23d2d40a6bf83dcd72a4d8464666a123e6ae8645eafcdb166de9d3cd0/fnattr-0.2.8.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [termuxgui]: Downloading https://files.pythonhosted.org/packages/64/9b/bede874757b25b317d148501b397aba5125a54cfe632ad8befb5c9ec4bda/termuxgui-0.1.5.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/d6/a0/dbd4ae913dce52c57283090e4c4a778dfd7285a51f87b9ca2d45e0b29e5c/fogLedger-2.0.2.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-01 16:06:11] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230701/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fogLedger]: executing diffoscope
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fogLedger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedger-2.0.0.tar.gz tmp/fogLedger-2.0.2.tar.gz --markdown 20230701/f/fogLedger/2.0.0-2.0.2/diff.md --exclude *.pyd
+[2023-07-01 16:06:11] INFO root fetch - processPackages [termuxgui]: Downloading https://files.pythonhosted.org/packages/d3/4d/42d81a53012431b982f823fcfe2f6e49e2e199a9818ffc352e622484f594/termuxgui-0.1.6.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fnattr]: Downloading https://files.pythonhosted.org/packages/a4/a9/dace5d92918d14f44037151219fdf182035bf7691fa13cff635c0c722e60/fnattr-0.2.9.tar.gz
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fnattr]: executing diffoscope
+[2023-07-01 16:06:11] INFO root fetch - processPackages [fnattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnattr-0.2.8.tar.gz tmp/fnattr-0.2.9.tar.gz --markdown 20230701/f/fnattr/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 16:06:11] INFO root fetch - processPackages [termuxgui]: executing diffoscope
+[2023-07-01 16:06:11] INFO root fetch - processPackages [termuxgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termuxgui-0.1.5.tar.gz tmp/termuxgui-0.1.6.tar.gz --markdown 20230701/t/termuxgui/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 16:06:12] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.0.tar.gz]
+[2023-07-01 16:06:12] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.2.tar.gz]
+[2023-07-01 16:06:12] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
+[2023-07-01 16:06:12] INFO root fetch - processPackages [termuxgui]: Remove: archive file [/home/abi/fetcher/tmp/termuxgui-0.1.5.tar.gz]
+[2023-07-01 16:06:12] INFO root fetch - processPackages [termuxgui]: Remove: archive file [/home/abi/fetcher/tmp/termuxgui-0.1.6.tar.gz]
+[2023-07-01 16:06:12] INFO root fetch - main [MainThread]: End processing [termuxgui]: success
+[2023-07-01 16:06:14] INFO root fetch - processPackages [fnattr]: Remove: archive file [/home/abi/fetcher/tmp/fnattr-0.2.8.tar.gz]
+[2023-07-01 16:06:14] INFO root fetch - processPackages [fnattr]: Remove: archive file [/home/abi/fetcher/tmp/fnattr-0.2.9.tar.gz]
+[2023-07-01 16:06:14] INFO root fetch - main [MainThread]: End processing [fnattr]: success
+[2023-07-01 16:06:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-01 16:06:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-01 16:06:42] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-01 16:06:42] INFO root fetch - main [MainThread]: Store serial: [18722252]
