@@ -9188,3 +9188,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:55:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a2.tar.gz]
 [2023-07-01 06:55:37] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-07-01 06:55:37] INFO root fetch - main [MainThread]: Store serial: [18719879]
+[2023-07-01 07:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719879]
+[2023-07-01 07:00:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 07:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfuncs
+[2023-07-01 07:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatjsondict
+[2023-07-01 07:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dotstree
+[2023-07-01 07:00:47] INFO root fetch - processPackages [flatjsondict]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-01 07:00:47] INFO root fetch - processPackages [dotstree]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 07:00:47] INFO root fetch - processPackages [myfuncs]: New version: [1.0.0] Old Version: [0.1.6]
+[2023-07-01 07:00:48] INFO root fetch - processPackages [flatjsondict]: Downloading https://files.pythonhosted.org/packages/84/bc/98330e75b58fd0a54201760653727b76ce4f7a06b3db43f6aa0539721f74/flatjsondict-1.0.4.tar.gz
+[2023-07-01 07:00:48] INFO root fetch - processPackages [dotstree]: Downloading https://files.pythonhosted.org/packages/84/07/7ab76acc90715f7cf2640f3304045c37cbdef4399f43136643ba19b2d14c/dotstree-0.1.4.tar.gz
+[2023-07-01 07:00:48] INFO root fetch - processPackages [myfuncs]: Downloading https://files.pythonhosted.org/packages/ac/20/296fb5db96de585b4f2c251789fa6c0c9fc5899fa5c6ddfbb80ee95e4c77/myfuncs-0.1.6.tar.gz
+[2023-07-01 07:00:48] INFO root fetch - processPackages [flatjsondict]: Downloading https://files.pythonhosted.org/packages/99/83/9e75a232a4b6072e5982b3c2275d5128a8d6207af1e74da63c4b5fcf929f/flatjsondict-1.0.5.tar.gz
+[2023-07-01 07:00:48] INFO root fetch - processPackages [flatjsondict]: executing diffoscope
+[2023-07-01 07:00:48] INFO root fetch - processPackages [flatjsondict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatjsondict-1.0.4.tar.gz tmp/flatjsondict-1.0.5.tar.gz --markdown 20230701/f/flatjsondict/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-01 07:00:48] INFO root fetch - processPackages [dotstree]: Downloading https://files.pythonhosted.org/packages/96/15/90ab4a6b517400e6d2ff852763d8638b5140cb456af6835545825ed51853/dotstree-0.1.5.tar.gz
+[2023-07-01 07:00:48] INFO root fetch - processPackages [dotstree]: executing diffoscope
+[2023-07-01 07:00:48] INFO root fetch - processPackages [dotstree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotstree-0.1.4.tar.gz tmp/dotstree-0.1.5.tar.gz --markdown 20230701/d/dotstree/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 07:00:48] INFO root fetch - processPackages [myfuncs]: Downloading https://files.pythonhosted.org/packages/38/8c/c1d85e2905c62a59738b8ec4b35e67b8de81066c99c0032a1dd6ba922f6b/myfuncs-1.0.0.tar.gz
+[2023-07-01 07:00:48] INFO root fetch - processPackages [myfuncs]: executing diffoscope
+[2023-07-01 07:00:48] INFO root fetch - processPackages [myfuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfuncs-0.1.6.tar.gz tmp/myfuncs-1.0.0.tar.gz --markdown 20230701/m/myfuncs/0.1.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-01 07:00:49] INFO root fetch - processPackages [dotstree]: Remove: archive file [/home/abi/fetcher/tmp/dotstree-0.1.4.tar.gz]
+[2023-07-01 07:00:49] INFO root fetch - processPackages [dotstree]: Remove: archive file [/home/abi/fetcher/tmp/dotstree-0.1.5.tar.gz]
+[2023-07-01 07:00:49] INFO root fetch - main [MainThread]: End processing [dotstree]: success
+[2023-07-01 07:00:49] INFO root fetch - processPackages [flatjsondict]: Remove: archive file [/home/abi/fetcher/tmp/flatjsondict-1.0.4.tar.gz]
+[2023-07-01 07:00:49] INFO root fetch - processPackages [flatjsondict]: Remove: archive file [/home/abi/fetcher/tmp/flatjsondict-1.0.5.tar.gz]
+[2023-07-01 07:00:49] INFO root fetch - main [MainThread]: End processing [flatjsondict]: success
+[2023-07-01 07:00:49] INFO root fetch - processPackages [myfuncs]: Remove: archive file [/home/abi/fetcher/tmp/myfuncs-0.1.6.tar.gz]
+[2023-07-01 07:00:49] INFO root fetch - processPackages [myfuncs]: Remove: archive file [/home/abi/fetcher/tmp/myfuncs-1.0.0.tar.gz]
+[2023-07-01 07:00:49] INFO root fetch - main [MainThread]: End processing [myfuncs]: success
+[2023-07-01 07:00:49] INFO root fetch - main [MainThread]: Store serial: [18719889]
