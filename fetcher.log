@@ -16579,3 +16579,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 18:36:01] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.9.tar.gz]
 [2023-07-01 18:36:01] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress]: success
 [2023-07-01 18:36:01] INFO root fetch - main [MainThread]: Store serial: [18723129]
+[2023-07-01 18:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723129]
+[2023-07-01 18:41:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EventHandler-Edog0049a
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unihan-etl
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powertools-oas-validator
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymplog
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-master
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyechorobotics
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feathub-nightly
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: q2gui
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyvhs
+[2023-07-01 18:41:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SwiftyPy
+[2023-07-01 18:41:09] WARNING root fetch - processPackages [pymplog]: Skipping, unable to determine old version
+[2023-07-01 18:41:09] INFO root fetch - processPackages [EventHandler-Edog0049a]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 18:41:09] INFO root fetch - main [MainThread]: End processing [pymplog] error
+[2023-07-01 18:41:09] WARNING root fetch - processPackages [powertools-oas-validator]: Skipping, unable to determine old version
+[2023-07-01 18:41:09] INFO root fetch - main [MainThread]: End processing [powertools-oas-validator] error
+[2023-07-01 18:41:09] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-01 18:41:09] INFO root fetch - processPackages [pyechorobotics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 18:41:09] INFO root fetch - processPackages [api-master]: New version: [1.9] Old Version: [1.8]
+[2023-07-01 18:41:09] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230630] Old Version: [0.1.dev20230628]
+[2023-07-01 18:41:10] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/6a/33/b9e6f86dafcc33cef994c30facae7c1d1f3237a26a1b36960a9e950d2d65/feathub_nightly-0.1.dev20230628-py3-none-any.whl
+[2023-07-01 18:41:10] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/b0/ba/2b1c81d93c6d5d99ce60cb900b47c2b403f0bd49a0c3cf035666b8bfd3e0/eventhandler_edog0049a-0.1.1.tar.gz
+[2023-07-01 18:41:10] WARNING root fetch - processPackages [SwiftyPy]: Skipping, unable to determine old version
+[2023-07-01 18:41:10] INFO root fetch - main [MainThread]: End processing [SwiftyPy] error
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyvhs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 18:41:10] INFO root fetch - processPackages [q2gui]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-01 18:41:10] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12204641>=10485760
+[2023-07-01 18:41:10] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-07-01 18:41:10] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/2f/68/ea667a623384f21be53f753032814ae03f312cb4762f767c469ec24e7afb/pyechorobotics-0.0.8.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/da/df/070b30b0a1c7150a03418e23ad503463f67215d68bcb0e4aa8e979b19bc8/eventhandler_edog0049a-0.1.2.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyvhs]: Downloading https://files.pythonhosted.org/packages/42/5f/7dcfc9dc86683f31748fe6de473c61eba22b6e6acc483d39b0f2dc5b1e32/pyvhs-0.1.1.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [api-master]: Downloading https://files.pythonhosted.org/packages/f6/83/f887d5fe51e59c39834a1c7e6c50a55d9b7bbcd9cc7aba13324ca2e36989/api_master-1.8.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/0b/9d/ceebfc178561a67a98d5f72123f973872f615815de2052b9f59818d26828/q2gui-0.1.95.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [EventHandler-Edog0049a]: executing diffoscope
+[2023-07-01 18:41:10] INFO root fetch - processPackages [EventHandler-Edog0049a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventhandler_edog0049a-0.1.1.tar.gz tmp/eventhandler_edog0049a-0.1.2.tar.gz --markdown 20230701/E/EventHandler-Edog0049a/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 18:41:10] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/88/9c/d4a3d58349aca813fda23fc473eda5a0226aa69afc02fa7ea8c1fdd03f25/q2gui-0.1.96.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyechorobotics]: Downloading https://files.pythonhosted.org/packages/d3/96/7751f4b44f2cb4e1fb843b8f1ee28f65c46edae9b791a938210b09f775b4/pyechorobotics-0.0.9.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyvhs]: Downloading https://files.pythonhosted.org/packages/c8/19/7a0c1edb901a76e015089346d1b96904a0c594ca821e8e35120d4b300740/pyvhs-0.1.2.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [api-master]: Downloading https://files.pythonhosted.org/packages/50/ed/575eb6892ac1dbbed5802bb9785410028f5b48d6e92401d775d40282f76d/api_master-1.9.tar.gz
+[2023-07-01 18:41:10] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-07-01 18:41:10] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230701/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyechorobotics]: executing diffoscope
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyechorobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyechorobotics-0.0.8.tar.gz tmp/pyechorobotics-0.0.9.tar.gz --markdown 20230701/p/pyechorobotics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 18:41:10] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2023-07-01 18:41:10] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.95.tar.gz tmp/q2gui-0.1.96.tar.gz --markdown 20230701/q/q2gui/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-01 18:41:10] INFO root fetch - processPackages [api-master]: executing diffoscope
+[2023-07-01 18:41:10] INFO root fetch - processPackages [api-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_master-1.8.tar.gz tmp/api_master-1.9.tar.gz --markdown 20230701/a/api-master/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyvhs]: executing diffoscope
+[2023-07-01 18:41:10] INFO root fetch - processPackages [pyvhs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvhs-0.1.1.tar.gz tmp/pyvhs-0.1.2.tar.gz --markdown 20230701/p/pyvhs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 18:41:11] INFO root fetch - processPackages [EventHandler-Edog0049a]: Remove: archive file [/home/abi/fetcher/tmp/eventhandler_edog0049a-0.1.1.tar.gz]
+[2023-07-01 18:41:11] INFO root fetch - processPackages [EventHandler-Edog0049a]: Remove: archive file [/home/abi/fetcher/tmp/eventhandler_edog0049a-0.1.2.tar.gz]
+[2023-07-01 18:41:11] INFO root fetch - main [MainThread]: End processing [EventHandler-Edog0049a]: success
+[2023-07-01 18:41:11] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-07-01 18:41:11] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-07-01 18:41:11] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-07-01 18:41:12] INFO root fetch - processPackages [pyechorobotics]: Remove: archive file [/home/abi/fetcher/tmp/pyechorobotics-0.0.8.tar.gz]
+[2023-07-01 18:41:12] INFO root fetch - processPackages [pyechorobotics]: Remove: archive file [/home/abi/fetcher/tmp/pyechorobotics-0.0.9.tar.gz]
+[2023-07-01 18:41:12] INFO root fetch - main [MainThread]: End processing [pyechorobotics]: success
+[2023-07-01 18:41:12] INFO root fetch - processPackages [pyvhs]: Remove: archive file [/home/abi/fetcher/tmp/pyvhs-0.1.1.tar.gz]
+[2023-07-01 18:41:12] INFO root fetch - processPackages [pyvhs]: Remove: archive file [/home/abi/fetcher/tmp/pyvhs-0.1.2.tar.gz]
+[2023-07-01 18:41:12] INFO root fetch - main [MainThread]: End processing [pyvhs]: success
+[2023-07-01 18:41:12] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.95.tar.gz]
+[2023-07-01 18:41:12] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.96.tar.gz]
+[2023-07-01 18:41:12] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2023-07-01 18:41:13] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.8.tar.gz]
+[2023-07-01 18:41:13] INFO root fetch - processPackages [api-master]: Remove: archive file [/home/abi/fetcher/tmp/api_master-1.9.tar.gz]
+[2023-07-01 18:41:13] INFO root fetch - main [MainThread]: End processing [api-master]: success
+[2023-07-01 18:41:13] INFO root fetch - main [MainThread]: Store serial: [18723160]
