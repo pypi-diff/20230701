@@ -2245,3 +2245,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 01:58:58] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
 [2023-07-01 01:58:58] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2023-07-01 01:58:58] INFO root fetch - main [MainThread]: Store serial: [18717389]
+[2023-07-01 02:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717389]
+[2023-07-01 02:04:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 02:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zensols.dsprov
+[2023-07-01 02:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pens
+[2023-07-01 02:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faker-file
+[2023-07-01 02:04:08] WARNING root fetch - processPackages [zensols.dsprov]: Skipping, unable to determine old version
+[2023-07-01 02:04:08] INFO root fetch - main [MainThread]: End processing [zensols.dsprov] error
+[2023-07-01 02:04:08] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-01 02:04:08] INFO root fetch - processPackages [pens]: New version: [2023.6.30] Old Version: [0.0.8]
+[2023-07-01 02:04:08] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-07-01 02:04:08] INFO root fetch - processPackages [pens]: Downloading https://files.pythonhosted.org/packages/3e/bd/9691109375ab49c7f43686a53a43bcd6baeca6bdb95fa76b535b4ab56fba/pens-0.0.8.tar.gz
+[2023-07-01 02:04:08] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-07-01 02:04:08] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-07-01 02:04:08] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230701/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-01 02:04:08] INFO root fetch - processPackages [pens]: Downloading https://files.pythonhosted.org/packages/bc/f5/0bca6d46a0d99661a159ee9ce7292bbca18285d6a322aabe300cb0087f51/pens-2023.6.30.tar.gz
+[2023-07-01 02:04:08] INFO root fetch - processPackages [pens]: executing diffoscope
+[2023-07-01 02:04:08] INFO root fetch - processPackages [pens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pens-0.0.8.tar.gz tmp/pens-2023.6.30.tar.gz --markdown 20230701/p/pens/0.0.8-2023.6.30/diff.md --exclude *.pyd
+[2023-07-01 02:04:09] INFO root fetch - processPackages [pens]: Remove: archive file [/home/abi/fetcher/tmp/pens-0.0.8.tar.gz]
+[2023-07-01 02:04:09] INFO root fetch - processPackages [pens]: Remove: archive file [/home/abi/fetcher/tmp/pens-2023.6.30.tar.gz]
+[2023-07-01 02:04:09] INFO root fetch - main [MainThread]: End processing [pens]: success
+[2023-07-01 02:04:11] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-07-01 02:04:11] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-07-01 02:04:11] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-07-01 02:04:11] INFO root fetch - main [MainThread]: Store serial: [18717398]
