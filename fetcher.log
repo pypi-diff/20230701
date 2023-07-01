@@ -12379,3 +12379,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:34:56] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.92.tar.gz]
 [2023-07-01 12:34:56] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
 [2023-07-01 12:34:56] INFO root fetch - main [MainThread]: Store serial: [18721270]
+[2023-07-01 12:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721270]
+[2023-07-01 12:40:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prolog-primitives
+[2023-07-01 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-menu
+[2023-07-01 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cernrequests
+[2023-07-01 12:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datawhispers
+[2023-07-01 12:40:05] INFO root fetch - processPackages [datawhispers]: New version: [0.2] Old Version: [0.1]
+[2023-07-01 12:40:05] WARNING root fetch - processPackages [tui-menu]: Skipping, unable to determine old version
+[2023-07-01 12:40:05] INFO root fetch - main [MainThread]: End processing [tui-menu] error
+[2023-07-01 12:40:05] INFO root fetch - processPackages [cernrequests]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 12:40:05] INFO root fetch - processPackages [prolog-primitives]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 12:40:05] INFO root fetch - processPackages [cernrequests]: Downloading https://files.pythonhosted.org/packages/0e/5b/da30aa3b599567057afd9370a803275724adfe95091814ad5199202606ca/cernrequests-0.4.0.tar.gz
+[2023-07-01 12:40:05] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/0f/48/83977231037cefe1eb149ffe45c36f0d6f44146ed5b0ca9067faa8992bf3/prolog_primitives-0.4.0.tar.gz
+[2023-07-01 12:40:05] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/3f/e6/dba004c4e9d269ff87fe79e8fe4d23e7796bf00f1a077bd1605e17262d21/datawhispers-0.1.tar.gz
+[2023-07-01 12:40:05] INFO root fetch - processPackages [cernrequests]: Downloading https://files.pythonhosted.org/packages/1c/15/8e678c6de9254fc4d6168ec7f54344aca2d486faf0251b19c2c0782842ce/cernrequests-0.4.1.tar.gz
+[2023-07-01 12:40:05] INFO root fetch - processPackages [cernrequests]: executing diffoscope
+[2023-07-01 12:40:05] INFO root fetch - processPackages [cernrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cernrequests-0.4.0.tar.gz tmp/cernrequests-0.4.1.tar.gz --markdown 20230701/c/cernrequests/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 12:40:05] INFO root fetch - processPackages [prolog-primitives]: Downloading https://files.pythonhosted.org/packages/e8/c7/bd901759e73f502e7bd20b11e225f221ef94a43b6bdbf107ed7247349ba7/prolog_primitives-0.4.1.tar.gz
+[2023-07-01 12:40:05] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/58/6a/26121e1edd55d45a8d231e965304f431bfaca20c0eec655231419ff36be4/datawhispers-0.2-py2.py3-none-any.whl
+[2023-07-01 12:40:05] INFO root fetch - processPackages [prolog-primitives]: executing diffoscope
+[2023-07-01 12:40:05] INFO root fetch - processPackages [prolog-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolog_primitives-0.4.0.tar.gz tmp/prolog_primitives-0.4.1.tar.gz --markdown 20230701/p/prolog-primitives/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 12:40:05] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 12:40:05] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.1.tar.gz tmp/datawhispers-0.2-py2.py3-none-any.whl.zip --markdown 20230701/d/datawhispers/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-01 12:40:06] INFO root fetch - processPackages [cernrequests]: Remove: archive file [/home/abi/fetcher/tmp/cernrequests-0.4.0.tar.gz]
+[2023-07-01 12:40:06] INFO root fetch - processPackages [cernrequests]: Remove: archive file [/home/abi/fetcher/tmp/cernrequests-0.4.1.tar.gz]
+[2023-07-01 12:40:06] INFO root fetch - main [MainThread]: End processing [cernrequests]: success
+[2023-07-01 12:40:06] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.1.tar.gz]
+[2023-07-01 12:40:06] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2-py2.py3-none-any.whl.zip]
+[2023-07-01 12:40:06] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 12:40:07] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-0.4.0.tar.gz]
+[2023-07-01 12:40:07] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-0.4.1.tar.gz]
+[2023-07-01 12:40:07] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
+[2023-07-01 12:40:07] INFO root fetch - main [MainThread]: Store serial: [18721286]
