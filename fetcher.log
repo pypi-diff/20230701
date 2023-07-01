@@ -9625,3 +9625,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:58:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
 [2023-07-01 07:58:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
 [2023-07-01 07:58:29] INFO root fetch - main [MainThread]: Store serial: [18720067]
+[2023-07-01 08:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720067]
+[2023-07-01 08:03:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 08:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioarp
+[2023-07-01 08:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mfhpo-simulator
+[2023-07-01 08:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySide2-Fluent-Widgets
+[2023-07-01 08:03:38] INFO root fetch - processPackages [aioarp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 08:03:38] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 08:03:38] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-01 08:03:38] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/34/27/9534d9ebcbe9e8e05c50858b881dff670d1f16ceab7289ef073d07d6525e/aioarp-0.0.8.tar.gz
+[2023-07-01 08:03:38] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/d3/05/2018a913ce0cd7fe1332bfcc212b45f4d06d2cf57c8c383613cf5d12032e/PySide2-Fluent-Widgets-0.9.8.tar.gz
+[2023-07-01 08:03:38] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/4a/aa/2d34d5c96fd0e611c7547448b0b17ffa3a4acd118d67bef2be88d9716787/mfhpo_simulator-1.1.0-py3-none-any.whl
+[2023-07-01 08:03:38] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/e7/48/e8a5213f1116e61ac7ec7cce505f2852ff81279e01aa9e5ce20cdca42cc9/aioarp-0.0.9.tar.gz
+[2023-07-01 08:03:38] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/36/26/25899ee29818784522a5f16cfdc98aef38419d56b9c3f064fab057548a2a/mfhpo_simulator-1.2.0-py3-none-any.whl
+[2023-07-01 08:03:38] INFO root fetch - processPackages [aioarp]: executing diffoscope
+[2023-07-01 08:03:38] INFO root fetch - processPackages [aioarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioarp-0.0.8.tar.gz tmp/aioarp-0.0.9.tar.gz --markdown 20230701/a/aioarp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 08:03:38] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-07-01 08:03:38] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.1.0-py3-none-any.whl.zip tmp/mfhpo_simulator-1.2.0-py3-none-any.whl.zip --markdown 20230701/m/mfhpo-simulator/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-01 08:03:39] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0c/ac/0dedbf9a5cfc3ae2242417b37e3a1746cac1ee8eb58c929e61f214a62396/PySide2-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-01 08:03:39] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-07-01 08:03:39] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz tmp/PySide2-Fluent-Widgets-0.9.9.tar.gz --markdown 20230701/P/PySide2-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 08:03:39] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.1.0-py3-none-any.whl.zip]
+[2023-07-01 08:03:39] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.0-py3-none-any.whl.zip]
+[2023-07-01 08:03:39] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-07-01 08:03:40] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.8.tar.gz]
+[2023-07-01 08:03:40] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.9.tar.gz]
+[2023-07-01 08:03:40] INFO root fetch - main [MainThread]: End processing [aioarp]: success
+[2023-07-01 08:03:40] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.8.tar.gz]
+[2023-07-01 08:03:40] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-01 08:03:40] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-07-01 08:03:40] INFO root fetch - main [MainThread]: Store serial: [18720075]
