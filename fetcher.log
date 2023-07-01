@@ -10348,3 +10348,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:11:32] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-3.0.0.tar.gz]
 [2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
 [2023-07-01 09:11:32] INFO root fetch - main [MainThread]: Store serial: [18720336]
+[2023-07-01 09:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720336]
+[2023-07-01 09:16:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openapi-pydantic-models
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-terminal-manager
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyparc
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omneer
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-info
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanorequests
+[2023-07-01 09:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crypto-info
+[2023-07-01 09:16:40] WARNING root fetch - processPackages [ssh-terminal-manager]: Skipping, unable to determine old version
+[2023-07-01 09:16:40] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager] error
+[2023-07-01 09:16:40] INFO root fetch - processPackages [pyparc]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-01 09:16:40] INFO root fetch - processPackages [omneer]: New version: [0.12] Old Version: [0.11]
+[2023-07-01 09:16:40] INFO root fetch - processPackages [openapi-pydantic-models]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-07-01 09:16:40] INFO root fetch - processPackages [crypto-info]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-01 09:16:40] INFO root fetch - processPackages [crypto-info]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-01 09:16:40] INFO root fetch - processPackages [nanorequests]: New version: [0.5] Old Version: [0.4]
+[2023-07-01 09:16:40] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/fd/b8/d2f22a1504e6f9fae14f333825b7e3b96f171908494cf78f51c5ceee069a/omneer-0.11.tar.gz
+[2023-07-01 09:16:40] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/84/e6/0745c0f33fd7a5ef85e713a01e83c8dd5561b0423e275595513b312c86be/nanorequests-0.4.tar.gz
+[2023-07-01 09:16:40] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/8e/c3/ee87c7052841046729317a277b91884d57dd58e2a742b426de965c53c85c/pyparc-2.0.1.tar.gz
+[2023-07-01 09:16:40] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/2f/83/b9b8c8356f28be427219ac741616a9592178640f1e59134dbb0dc8cf267a/crypto-info-0.0.5.tar.gz
+[2023-07-01 09:16:40] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/2f/83/b9b8c8356f28be427219ac741616a9592178640f1e59134dbb0dc8cf267a/crypto-info-0.0.5.tar.gz
+[2023-07-01 09:16:41] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/88/f8/d676311f9a6c9a8f3e9ffd78d2522dcdba3491ca2e30e00de49ee6ac4ee9/openapi-pydantic-models-0.2.0.tar.gz
+[2023-07-01 09:16:41] INFO root fetch - processPackages [omneer]: Downloading https://files.pythonhosted.org/packages/b6/93/4ae7ef8689021fa7c5f1688f6e32bd82c764fe3c6a7dee26d2a59889ac5a/omneer-0.12.tar.gz
+[2023-07-01 09:16:41] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/b2/f3/9b5f547a44d4f3838d1ee89c09c5a5b431fda88c37fa2cf23192f1948dbf/nanorequests-0.5.tar.gz
+[2023-07-01 09:16:41] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/11/6d/3d6406cae1947e2b15befc67b862da4f836902bf3ec10d61dfcf60744211/pyparc-2.0.2.tar.gz
+[2023-07-01 09:16:41] INFO root fetch - processPackages [openapi-pydantic-models]: Downloading https://files.pythonhosted.org/packages/34/3e/949b9c4dbf8219f2c1ccde2f30e564f811bae14343966d42476d80d0d228/openapi-pydantic-models-1.0.0.tar.gz
+[2023-07-01 09:16:41] INFO root fetch - processPackages [omneer]: executing diffoscope
+[2023-07-01 09:16:41] INFO root fetch - processPackages [omneer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omneer-0.11.tar.gz tmp/omneer-0.12.tar.gz --markdown 20230701/o/omneer/0.11-0.12/diff.md --exclude *.pyd
+[2023-07-01 09:16:41] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:16:41] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.4.tar.gz tmp/nanorequests-0.5.tar.gz --markdown 20230701/n/nanorequests/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-01 09:16:41] INFO root fetch - processPackages [openapi-pydantic-models]: executing diffoscope
+[2023-07-01 09:16:41] INFO root fetch - processPackages [openapi-pydantic-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi-pydantic-models-0.2.0.tar.gz tmp/openapi-pydantic-models-1.0.0.tar.gz --markdown 20230701/o/openapi-pydantic-models/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-01 09:16:41] INFO root fetch - processPackages [pyparc]: executing diffoscope
+[2023-07-01 09:16:41] INFO root fetch - processPackages [pyparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparc-2.0.1.tar.gz tmp/pyparc-2.0.2.tar.gz --markdown 20230701/p/pyparc/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-01 09:16:42] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.11.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - processPackages [omneer]: Remove: archive file [/home/abi/fetcher/tmp/omneer-0.12.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - main [MainThread]: End processing [omneer]: success
+[2023-07-01 09:16:42] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.4.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.5.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:16:42] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.1.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.2.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - main [MainThread]: End processing [pyparc]: success
+[2023-07-01 09:16:42] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-0.2.0.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - processPackages [openapi-pydantic-models]: Remove: archive file [/home/abi/fetcher/tmp/openapi-pydantic-models-1.0.0.tar.gz]
+[2023-07-01 09:16:42] INFO root fetch - main [MainThread]: End processing [openapi-pydantic-models]: success
+[2023-07-01 09:16:42] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/f1/05/560c4aa62772c0f14edd8331f010404556f5d3621e2990fac53c8657340f/crypto-info-0.0.7.tar.gz
+[2023-07-01 09:16:42] INFO root fetch - processPackages [crypto-info]: Downloading https://files.pythonhosted.org/packages/f1/05/560c4aa62772c0f14edd8331f010404556f5d3621e2990fac53c8657340f/crypto-info-0.0.7.tar.gz
+[2023-07-01 09:16:43] INFO root fetch - processPackages [crypto-info]: executing diffoscope
+[2023-07-01 09:16:43] INFO root fetch - processPackages [crypto-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-info-0.0.5.tar.gz tmp/crypto-info-0.0.7.tar.gz --markdown 20230701/c/crypto-info/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 09:16:43] INFO root fetch - processPackages [crypto-info]: executing diffoscope
+[2023-07-01 09:16:43] INFO root fetch - processPackages [crypto-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-info-0.0.5.tar.gz tmp/crypto-info-0.0.7.tar.gz --markdown 20230701/c/crypto-info/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 09:17:22] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-0.0.5.tar.gz]
+[2023-07-01 09:17:22] INFO root fetch - processPackages [crypto-info]: Remove: archive file [/home/abi/fetcher/tmp/crypto-info-0.0.7.tar.gz]
+[2023-07-01 09:17:22] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
+[2023-07-01 09:17:22] INFO root fetch - main [MainThread]: End processing [crypto-info]: success
+[2023-07-01 09:17:22] INFO root fetch - main [MainThread]: Store serial: [18720356]
