@@ -14702,3 +14702,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:06:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-01 16:06:42] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-01 16:06:42] INFO root fetch - main [MainThread]: Store serial: [18722252]
+[2023-07-01 16:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722252]
+[2023-07-01 16:11:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 16:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-ryuutils-ryuuzu3118
+[2023-07-01 16:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TrimMCStruct
+[2023-07-01 16:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlmai
+[2023-07-01 16:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ryuutils
+[2023-07-01 16:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botiverse
+[2023-07-01 16:11:51] WARNING root fetch - processPackages [django-ryuutils]: Skipping, unable to determine old version
+[2023-07-01 16:11:51] INFO root fetch - main [MainThread]: End processing [django-ryuutils] error
+[2023-07-01 16:11:51] WARNING root fetch - processPackages [django-ryuutils-ryuuzu3118]: Skipping, unable to determine old version
+[2023-07-01 16:11:51] INFO root fetch - main [MainThread]: End processing [django-ryuutils-ryuuzu3118] error
+[2023-07-01 16:11:51] INFO root fetch - processPackages [TrimMCStruct]: New version: [0.0.5.9] Old Version: [0.0.5.8]
+[2023-07-01 16:11:51] WARNING root fetch - processPackages [openlmai]: Skipping, unable to determine old version
+[2023-07-01 16:11:51] INFO root fetch - main [MainThread]: End processing [openlmai] error
+[2023-07-01 16:11:51] INFO root fetch - processPackages [botiverse]: New version: [0.1.0] Old Version: [0.0.1101]
+[2023-07-01 16:11:51] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/06/43/d13afcc84a6109fa8f63006236eeb867e834951ef32cb3e10595d2a69ae2/botiverse-0.0.1101.tar.gz
+[2023-07-01 16:11:51] INFO root fetch - processPackages [TrimMCStruct]: Downloading https://files.pythonhosted.org/packages/6b/f3/5cbb3c7cab753a86a806407e25c6924113a5eef157d9c336e7dc05e1d4df/TrimMCStruct-0.0.5.8.tar.gz
+[2023-07-01 16:11:51] INFO root fetch - processPackages [botiverse]: Downloading https://files.pythonhosted.org/packages/88/03/cac3e590e7b959415a8c3abf3e8a0a8da13c36d33a1a174f28c33220706e/botiverse-0.1.0.tar.gz
+[2023-07-01 16:11:51] INFO root fetch - processPackages [TrimMCStruct]: Downloading https://files.pythonhosted.org/packages/4e/65/092df70fbdce9c4c506bba429a78a6d1d8c885822955730d83c321df8115/TrimMCStruct-0.0.5.9.tar.gz
+[2023-07-01 16:11:51] INFO root fetch - processPackages [TrimMCStruct]: executing diffoscope
+[2023-07-01 16:11:51] INFO root fetch - processPackages [TrimMCStruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimMCStruct-0.0.5.8.tar.gz tmp/TrimMCStruct-0.0.5.9.tar.gz --markdown 20230701/T/TrimMCStruct/0.0.5.8-0.0.5.9/diff.md --exclude *.pyd
+[2023-07-01 16:11:51] INFO root fetch - processPackages [botiverse]: executing diffoscope
+[2023-07-01 16:11:51] INFO root fetch - processPackages [botiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botiverse-0.0.1101.tar.gz tmp/botiverse-0.1.0.tar.gz --markdown 20230701/b/botiverse/0.0.1101-0.1.0/diff.md --exclude *.pyd
+[2023-07-01 16:11:52] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.0.1101.tar.gz]
+[2023-07-01 16:11:52] INFO root fetch - processPackages [botiverse]: Remove: archive file [/home/abi/fetcher/tmp/botiverse-0.1.0.tar.gz]
+[2023-07-01 16:11:52] INFO root fetch - main [MainThread]: End processing [botiverse]: success
+[2023-07-01 16:11:53] INFO root fetch - processPackages [TrimMCStruct]: Remove: archive file [/home/abi/fetcher/tmp/TrimMCStruct-0.0.5.8.tar.gz]
+[2023-07-01 16:11:53] INFO root fetch - processPackages [TrimMCStruct]: Remove: archive file [/home/abi/fetcher/tmp/TrimMCStruct-0.0.5.9.tar.gz]
+[2023-07-01 16:11:53] INFO root fetch - main [MainThread]: End processing [TrimMCStruct]: success
+[2023-07-01 16:11:53] INFO root fetch - main [MainThread]: Store serial: [18722273]
