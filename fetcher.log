@@ -7710,3 +7710,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:51:27] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.1.tar.gz]
 [2023-07-01 04:51:27] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-07-01 04:51:27] INFO root fetch - main [MainThread]: Store serial: [18719364]
+[2023-07-01 04:56:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719364]
+[2023-07-01 04:56:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 04:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstructured
+[2023-07-01 04:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lh-tool
+[2023-07-01 04:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: translucenttb
+[2023-07-01 04:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redash-echo
+[2023-07-01 04:56:42] INFO root fetch - processPackages [unstructured]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-01 04:56:42] INFO root fetch - processPackages [lh-tool]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-01 04:56:42] WARNING root fetch - processPackages [translucenttb]: Skipping, unable to determine old version
+[2023-07-01 04:56:42] INFO root fetch - main [MainThread]: End processing [translucenttb] error
+[2023-07-01 04:56:42] INFO root fetch - processPackages [redash-echo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 04:56:42] INFO root fetch - processPackages [redash-echo]: Downloading https://files.pythonhosted.org/packages/14/ee/9bc4d504046d36a3b2dd3cca1529dd45795255a91f65f4e1af296c6ff746/redash-echo-0.0.3.tar.gz
+[2023-07-01 04:56:42] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/aa/33/dd77a01a641fb6def48b7dcee4eb25b3cf645e425f851cf54776397cf4ba/unstructured-0.7.8.tar.gz
+[2023-07-01 04:56:42] INFO root fetch - processPackages [lh-tool]: Downloading https://files.pythonhosted.org/packages/31/b9/07f0fdb32828b08fa5bedac6d761a80ca45e93105c41b7bd7b9becbd28fa/lh-tool-1.7.0.tar.gz
+[2023-07-01 04:56:42] INFO root fetch - processPackages [lh-tool]: Downloading https://files.pythonhosted.org/packages/ca/db/8daf5551d8ec3a90fe6385e0ba47efeb435de9e7c68d45fcdf0a9af1b38a/lh-tool-1.7.1.tar.gz
+[2023-07-01 04:56:43] INFO root fetch - processPackages [redash-echo]: Downloading https://files.pythonhosted.org/packages/28/21/9196d3186cd777b06fca855910afbf9ec3317c684ee20d7806cce883878a/redash-echo-0.0.4.tar.gz
+[2023-07-01 04:56:43] INFO root fetch - processPackages [lh-tool]: executing diffoscope
+[2023-07-01 04:56:43] INFO root fetch - processPackages [lh-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lh-tool-1.7.0.tar.gz tmp/lh-tool-1.7.1.tar.gz --markdown 20230701/l/lh-tool/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-01 04:56:43] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/a2/97/24a5bde6bfaa74c089baa980b25a6dd4671c69e1d2b00c903d58be44a4c0/unstructured-0.7.9.tar.gz
+[2023-07-01 04:56:43] INFO root fetch - processPackages [redash-echo]: executing diffoscope
+[2023-07-01 04:56:43] INFO root fetch - processPackages [redash-echo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redash-echo-0.0.3.tar.gz tmp/redash-echo-0.0.4.tar.gz --markdown 20230701/r/redash-echo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 04:56:43] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-07-01 04:56:43] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.7.8.tar.gz tmp/unstructured-0.7.9.tar.gz --markdown 20230701/u/unstructured/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-01 04:56:44] INFO root fetch - processPackages [redash-echo]: Remove: archive file [/home/abi/fetcher/tmp/redash-echo-0.0.3.tar.gz]
+[2023-07-01 04:56:44] INFO root fetch - processPackages [redash-echo]: Remove: archive file [/home/abi/fetcher/tmp/redash-echo-0.0.4.tar.gz]
+[2023-07-01 04:56:44] INFO root fetch - main [MainThread]: End processing [redash-echo]: success
+[2023-07-01 04:56:44] INFO root fetch - processPackages [lh-tool]: Remove: archive file [/home/abi/fetcher/tmp/lh-tool-1.7.0.tar.gz]
+[2023-07-01 04:56:44] INFO root fetch - processPackages [lh-tool]: Remove: archive file [/home/abi/fetcher/tmp/lh-tool-1.7.1.tar.gz]
+[2023-07-01 04:56:44] INFO root fetch - main [MainThread]: End processing [lh-tool]: success
+[2023-07-01 04:56:45] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.8.tar.gz]
+[2023-07-01 04:56:45] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.9.tar.gz]
+[2023-07-01 04:56:45] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-07-01 04:56:45] INFO root fetch - main [MainThread]: Store serial: [18719379]
