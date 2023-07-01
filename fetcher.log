@@ -10288,3 +10288,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:06:21] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230630.tar.gz]
 [2023-07-01 09:06:21] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
 [2023-07-01 09:06:21] INFO root fetch - main [MainThread]: Store serial: [18720311]
+[2023-07-01 09:11:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720311]
+[2023-07-01 09:11:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubescaler
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-brainfuck
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yambs
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: passprotecttxt
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nicovideo.py
+[2023-07-01 09:11:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyparc
+[2023-07-01 09:11:30] INFO root fetch - processPackages [yambs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-01 09:11:30] INFO root fetch - processPackages [fast-brainfuck]: New version: [3.0.0] Old Version: [2.0.9]
+[2023-07-01 09:11:30] INFO root fetch - processPackages [kubescaler]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-01 09:11:30] INFO root fetch - processPackages [nicovideo.py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 09:11:30] WARNING root fetch - processPackages [passprotecttxt]: Skipping, unable to determine old version
+[2023-07-01 09:11:30] INFO root fetch - main [MainThread]: End processing [passprotecttxt] error
+[2023-07-01 09:11:30] INFO root fetch - processPackages [pyparc]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-01 09:11:30] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-07-01 09:11:30] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/ba/38/9e4c7e614878def76a3fade540f9045634f1b19578a7ea9152c657af6093/yambs-1.9.1.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/74/6d/f99cd937cb68f92aa5eca52c16db098c152eb9321e2924c1e78c168b24ed/nicovideo.py-0.0.4.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-07-01 09:11:30] INFO root fetch - processPackages [kubescaler]: Downloading https://files.pythonhosted.org/packages/88/ef/8672ef985c5333fc507379619fcda5cfc38791a4fe8616c4a149117dfd56/kubescaler-0.0.12.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/0e/6a/a12b76363112192d173bc73c8e5d8548d202fe6dfc48363de61f58cf5212/pyparc-2.0.0.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/a8/7a/e50f9888c47f044c38fa30ae4783ab1b72535615cde52ac86a8bc36e4fc3/fast-brainfuck-2.0.9.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bc/de/c8e0de2150ff70173e8603e117bc9f72cf2ab9d296bef3f2b076e79ae675/yambs-1.9.2.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/d7/6b/a776f0430185b64d22cc289611620d63a71a4b6a49835c72fa783b2d2bf4/nicovideo.py-0.0.5.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [kubescaler]: Downloading https://files.pythonhosted.org/packages/2f/5b/8874ea25551d02303a8cfa18372f6fb88984e7a37a0d7579d09a6a5254d0/kubescaler-0.0.13.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-07-01 09:11:30] INFO root fetch - processPackages [fast-brainfuck]: Downloading https://files.pythonhosted.org/packages/31/28/d4cceb18acbacdc654b5d886280c4bea1a33fe4929f0a4833f948c3b7d83/fast-brainfuck-3.0.0.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [pyparc]: Downloading https://files.pythonhosted.org/packages/8e/c3/ee87c7052841046729317a277b91884d57dd58e2a742b426de965c53c85c/pyparc-2.0.1.tar.gz
+[2023-07-01 09:11:30] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-01 09:11:30] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.9.1.tar.gz tmp/yambs-1.9.2.tar.gz --markdown 20230701/y/yambs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-01 09:11:30] INFO root fetch - processPackages [kubescaler]: executing diffoscope
+[2023-07-01 09:11:30] INFO root fetch - processPackages [kubescaler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubescaler-0.0.12.tar.gz tmp/kubescaler-0.0.13.tar.gz --markdown 20230701/k/kubescaler/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-01 09:11:30] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-07-01 09:11:30] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230701/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-07-01 09:11:30] INFO root fetch - processPackages [nicovideo.py]: executing diffoscope
+[2023-07-01 09:11:30] INFO root fetch - processPackages [nicovideo.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicovideo.py-0.0.4.tar.gz tmp/nicovideo.py-0.0.5.tar.gz --markdown 20230701/n/nicovideo.py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 09:11:30] INFO root fetch - processPackages [pyparc]: executing diffoscope
+[2023-07-01 09:11:30] INFO root fetch - processPackages [pyparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparc-2.0.0.tar.gz tmp/pyparc-2.0.1.tar.gz --markdown 20230701/p/pyparc/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-01 09:11:30] INFO root fetch - processPackages [fast-brainfuck]: executing diffoscope
+[2023-07-01 09:11:30] INFO root fetch - processPackages [fast-brainfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-brainfuck-2.0.9.tar.gz tmp/fast-brainfuck-3.0.0.tar.gz --markdown 20230701/f/fast-brainfuck/2.0.9-3.0.0/diff.md --exclude *.pyd
+[2023-07-01 09:11:32] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.0.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - processPackages [pyparc]: Remove: archive file [/home/abi/fetcher/tmp/pyparc-2.0.1.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [pyparc]: success
+[2023-07-01 09:11:32] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.4.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.5.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [nicovideo.py]: success
+[2023-07-01 09:11:32] INFO root fetch - processPackages [kubescaler]: Remove: archive file [/home/abi/fetcher/tmp/kubescaler-0.0.12.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - processPackages [kubescaler]: Remove: archive file [/home/abi/fetcher/tmp/kubescaler-0.0.13.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [kubescaler]: success
+[2023-07-01 09:11:32] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.1.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.2.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-01 09:11:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-07-01 09:11:32] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-07-01 09:11:32] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-2.0.9.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - processPackages [fast-brainfuck]: Remove: archive file [/home/abi/fetcher/tmp/fast-brainfuck-3.0.0.tar.gz]
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: End processing [fast-brainfuck]: success
+[2023-07-01 09:11:32] INFO root fetch - main [MainThread]: Store serial: [18720336]
