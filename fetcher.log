@@ -12790,3 +12790,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:16:32] INFO root fetch - processPackages [pycatalicism]: Remove: archive file [/home/abi/fetcher/tmp/pycatalicism-2.0.2.tar.gz]
 [2023-07-01 13:16:32] INFO root fetch - main [MainThread]: End processing [pycatalicism]: success
 [2023-07-01 13:16:32] INFO root fetch - main [MainThread]: Store serial: [18721443]
+[2023-07-01 13:21:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721443]
+[2023-07-01 13:21:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 13:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-spectacular-sidecar
+[2023-07-01 13:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-spider-tool
+[2023-07-01 13:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timer-module
+[2023-07-01 13:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-menu
+[2023-07-01 13:21:41] INFO root fetch - processPackages [drf-spectacular-sidecar]: New version: [2023.7.1] Old Version: [2023.6.1]
+[2023-07-01 13:21:41] INFO root fetch - processPackages [tui-menu]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 13:21:41] INFO root fetch - processPackages [timer-module]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-01 13:21:41] INFO root fetch - processPackages [easy-spider-tool]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-01 13:21:41] INFO root fetch - processPackages [tui-menu]: Downloading https://files.pythonhosted.org/packages/95/4b/6f68a7c98807a5ad37a505b5bd3b1b8cf91306326bdb650c687a3f77fe3c/tui-menu-0.1.5.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/d2/fc/9d9312bd05aa3d913a8ec17505da7be36e4221268d0859dc920bb3ed7a08/timer-module-1.1.0.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/c6/63/953c5fdace65236b8a441cabc4575ab0b792693232362bef43ee5a2ea4e1/drf-spectacular-sidecar-2023.6.1.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/ef/13/ad97510ad78f01e75719b8b4f7b801521375212006e57765c4a868fe1f92/easy_spider_tool-1.0.4.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [tui-menu]: Downloading https://files.pythonhosted.org/packages/42/95/53161055465dd2c35ca91be7ea5b396e0609c2d07298d51ece83365d6c47/tui-menu-0.1.6.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/44/cc/31b422a8582ae19eddffa7fdf9049bc4bb9f8f55edf72074e27e2c167c91/easy_spider_tool-1.0.5.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [tui-menu]: executing diffoscope
+[2023-07-01 13:21:41] INFO root fetch - processPackages [tui-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui-menu-0.1.5.tar.gz tmp/tui-menu-0.1.6.tar.gz --markdown 20230701/t/tui-menu/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 13:21:41] INFO root fetch - processPackages [timer-module]: Downloading https://files.pythonhosted.org/packages/ef/b4/0e326b582051fd1e2a12c70f4f34f6b5483cf94ca1f01b79231bde82873d/timer-module-1.1.1.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [easy-spider-tool]: executing diffoscope
+[2023-07-01 13:21:41] INFO root fetch - processPackages [easy-spider-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_spider_tool-1.0.4.tar.gz tmp/easy_spider_tool-1.0.5.tar.gz --markdown 20230701/e/easy-spider-tool/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-01 13:21:41] INFO root fetch - processPackages [timer-module]: executing diffoscope
+[2023-07-01 13:21:41] INFO root fetch - processPackages [timer-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timer-module-1.1.0.tar.gz tmp/timer-module-1.1.1.tar.gz --markdown 20230701/t/timer-module/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-01 13:21:41] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/79/a8/901a9513451a2d5b6e2da8bf16c22d5a8eb2f3099efb5a729f0ad3dabfd8/drf-spectacular-sidecar-2023.7.1.tar.gz
+[2023-07-01 13:21:41] INFO root fetch - processPackages [drf-spectacular-sidecar]: executing diffoscope
+[2023-07-01 13:21:41] INFO root fetch - processPackages [drf-spectacular-sidecar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-spectacular-sidecar-2023.6.1.tar.gz tmp/drf-spectacular-sidecar-2023.7.1.tar.gz --markdown 20230701/d/drf-spectacular-sidecar/2023.6.1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-01 13:21:42] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.0.tar.gz]
+[2023-07-01 13:21:42] INFO root fetch - processPackages [timer-module]: Remove: archive file [/home/abi/fetcher/tmp/timer-module-1.1.1.tar.gz]
+[2023-07-01 13:21:42] INFO root fetch - main [MainThread]: End processing [timer-module]: success
+[2023-07-01 13:21:42] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-1.0.4.tar.gz]
+[2023-07-01 13:21:42] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-1.0.5.tar.gz]
+[2023-07-01 13:21:42] INFO root fetch - main [MainThread]: End processing [easy-spider-tool]: success
+[2023-07-01 13:21:42] INFO root fetch - processPackages [tui-menu]: Remove: archive file [/home/abi/fetcher/tmp/tui-menu-0.1.5.tar.gz]
+[2023-07-01 13:21:42] INFO root fetch - processPackages [tui-menu]: Remove: archive file [/home/abi/fetcher/tmp/tui-menu-0.1.6.tar.gz]
+[2023-07-01 13:21:42] INFO root fetch - main [MainThread]: End processing [tui-menu]: success
+[2023-07-01 13:23:25] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-sidecar-2023.6.1.tar.gz]
+[2023-07-01 13:23:25] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-sidecar-2023.7.1.tar.gz]
+[2023-07-01 13:23:25] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
+[2023-07-01 13:23:25] INFO root fetch - main [MainThread]: Store serial: [18721454]
