@@ -15530,3 +15530,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:14:24] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.1.9.tar.gz]
 [2023-07-01 17:14:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
 [2023-07-01 17:14:24] INFO root fetch - main [MainThread]: Store serial: [18722700]
+[2023-07-01 17:19:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722700]
+[2023-07-01 17:19:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iza
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dark-gateway
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyNyaaTa
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fogLedger
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keyflow
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dww-test
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cy-account
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Qado-Lib
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cnstd
+[2023-07-01 17:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mke-sculib
+[2023-07-01 17:19:34] INFO root fetch - processPackages [iza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [dark-gateway]: New version: [0.0.1rc0] Old Version: [0.0.1b0]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [mke-sculib]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [fogLedger]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [keyflow]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [dww-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [cy-account]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [PyNyaaTa]: New version: [202307011515] Old Version: [202307011512]
+[2023-07-01 17:19:34] WARNING root fetch - processPackages [Qado-Lib]: Skipping, unable to determine old version
+[2023-07-01 17:19:34] INFO root fetch - processPackages [Qado-Lib]: Start processing: finops-crawler
+[2023-07-01 17:19:34] INFO root fetch - main [MainThread]: End processing [Qado-Lib] error
+[2023-07-01 17:19:34] INFO root fetch - processPackages [cnstd]: New version: [1.2.3.1] Old Version: [1.2.3]
+[2023-07-01 17:19:34] INFO root fetch - processPackages [mke-sculib]: Downloading https://files.pythonhosted.org/packages/55/a8/d9010836a1dbd6d819572b3a6509c423c1255342f9423247ba6a46cb648e/mke_sculib-1.4.7.tar.gz
+[2023-07-01 17:19:34] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/87/8b/96d0defacb25e78b7103d7dbc8431798f314dfc84548edfe00b4a9265696/cy_account-0.1.6.tar.gz
+[2023-07-01 17:19:34] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/bb/e4/7d82bd9ca82b19d78408f21a9c4b4a304c1fc9f662e06c2faec83efe0979/iza-0.0.7.tar.gz
+[2023-07-01 17:19:34] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/c5/2a/1915a70b8101f87d014965655e4c90a0e5ed002c187b3035ee2dd2999d8e/PyNyaaTa-202307011512.tar.gz
+[2023-07-01 17:19:34] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/e2/67/9669788ed76c0d7683a37398a2e4bef45d579a8003b688daf8f12c2e944e/dark-gateway-0.0.1b0.tar.gz
+[2023-07-01 17:19:34] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/d6/ba/93b79e6e47e198a413e78bbd8538da9c79c28ce3c2d4fa3a8dcf69e9b4ee/fogLedger-2.0.3-py3-none-any.whl
+[2023-07-01 17:19:34] WARNING root fetch - processPackages [finops-crawler]: Skipping, unable to determine old version
+[2023-07-01 17:19:34] INFO root fetch - processPackages [finops-crawler]: Start processing: lokzzpylibrary
+[2023-07-01 17:19:34] INFO root fetch - main [MainThread]: End processing [finops-crawler] error
+[2023-07-01 17:19:34] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/a2/75/3451dc99b5b8308bd383aa77d43d5d117fe2fa5ed1311ba90feec761e4da/dww_test-0.0.1-py3-none-any.whl
+[2023-07-01 17:19:34] INFO root fetch - processPackages [lokzzpylibrary]: New version: [0.1.dev15] Old Version: [0.1.dev14]
+[2023-07-01 17:19:35] INFO root fetch - processPackages [keyflow]: Downloading https://files.pythonhosted.org/packages/69/a1/4f1677f5056f6d2b4569f8ae089d4a330533a38d53a105e089925f0af2b2/keyflow-0.0.2.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/80/98/06b26f0bb751a0e267656d4269cecb66fe8101a5a4b1c9a5947d602dd1ad/dark-gateway-0.0.1rc0.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/cb/bd/5367e9ef9684e042d2586b6139f5093ae24277faaf7b71d8e22289ee4ef1/lokzzpylibrary-0.1.dev14.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cnstd]: Downloading https://files.pythonhosted.org/packages/4d/e4/3f8b0efb29417a9f10f4cb8ab7e333b4ffce33d4dfa84d280e4343417c9d/cnstd-1.2.3.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [mke-sculib]: Downloading https://files.pythonhosted.org/packages/fd/f9/4eda0162a0c5c20fca4e4f7e1ad676685609cbb87d68a916df8de9c10f21/mke_sculib-1.4.8.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/fd/6d/167ea8a07d69a07c241d2b6b53218bd91cf922766357b30af7c6ce36914e/cy_account-0.1.7.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [fogLedger]: Downloading https://files.pythonhosted.org/packages/7e/5f/b8748d6e78b5815f0ead16eb63085d648fdc4fd7e55cffb2972ba79d1ae5/fogLedger-2.0.4-py3-none-any.whl
+[2023-07-01 17:19:35] INFO root fetch - processPackages [dark-gateway]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [dark-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-gateway-0.0.1b0.tar.gz tmp/dark-gateway-0.0.1rc0.tar.gz --markdown 20230701/d/dark-gateway/0.0.1b0-0.0.1rc0/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/56/45/c6f3c48f703c21cd01145c663486f051f3d98b12a1dd86e8b022af78f343/iza-0.0.8.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/da/f0/06b9fcce1952f03a2d0f6e2d36354d0625b40b69391b72931125d0b205b3/dww_test-0.0.2-py3-none-any.whl
+[2023-07-01 17:19:35] INFO root fetch - processPackages [mke-sculib]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [mke-sculib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mke_sculib-1.4.7.tar.gz tmp/mke_sculib-1.4.8.tar.gz --markdown 20230701/m/mke-sculib/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/56/6c/9ced232974524c5eea6c5980a5025dfddd412241144b03683120d9f01b41/lokzzpylibrary-0.1.dev15.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cy-account]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cy-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy_account-0.1.6.tar.gz tmp/cy_account-0.1.7.tar.gz --markdown 20230701/c/cy-account/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/0b/75/a457e775bc9c43f52d54f103bec2789c336c6f7e59961b04ab603f9c6d59/PyNyaaTa-202307011515.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [keyflow]: Downloading https://files.pythonhosted.org/packages/9f/f7/3fa74f5e4bda9f8fea2c5ce1ec122ac7ac0895472de0a0fa0e30e1f24c97/keyflow-0.1.1.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [fogLedger]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [fogLedger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fogLedger-2.0.3-py3-none-any.whl.zip tmp/fogLedger-2.0.4-py3-none-any.whl.zip --markdown 20230701/f/fogLedger/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [keyflow]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [keyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyflow-0.0.2.tar.gz tmp/keyflow-0.1.1.tar.gz --markdown 20230701/k/keyflow/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cnstd]: Downloading https://files.pythonhosted.org/packages/39/6b/6f572dcaf5426e897b1bf82832473b4f19691b7954015ebc1b452f68364d/cnstd-1.2.3.1.tar.gz
+[2023-07-01 17:19:35] INFO root fetch - processPackages [dww-test]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [dww-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dww_test-0.0.1-py3-none-any.whl.zip tmp/dww_test-0.0.2-py3-none-any.whl.zip --markdown 20230701/d/dww-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.7.tar.gz tmp/iza-0.0.8.tar.gz --markdown 20230701/i/iza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [lokzzpylibrary]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [lokzzpylibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylibrary-0.1.dev14.tar.gz tmp/lokzzpylibrary-0.1.dev15.tar.gz --markdown 20230701/l/lokzzpylibrary/0.1.dev14-0.1.dev15/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cnstd]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [cnstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnstd-1.2.3.tar.gz tmp/cnstd-1.2.3.1.tar.gz --markdown 20230701/c/cnstd/1.2.3-1.2.3.1/diff.md --exclude *.pyd
+[2023-07-01 17:19:35] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-07-01 17:19:35] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202307011512.tar.gz tmp/PyNyaaTa-202307011515.tar.gz --markdown 20230701/P/PyNyaaTa/202307011512-202307011515/diff.md --exclude *.pyd
+[2023-07-01 17:19:36] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.3-py3-none-any.whl.zip]
+[2023-07-01 17:19:36] INFO root fetch - processPackages [fogLedger]: Remove: archive file [/home/abi/fetcher/tmp/fogLedger-2.0.4-py3-none-any.whl.zip]
+[2023-07-01 17:19:36] INFO root fetch - main [MainThread]: End processing [fogLedger]: success
+[2023-07-01 17:19:36] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.6.tar.gz]
+[2023-07-01 17:19:36] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.7.tar.gz]
+[2023-07-01 17:19:36] INFO root fetch - main [MainThread]: End processing [cy-account]: success
+[2023-07-01 17:19:36] INFO root fetch - processPackages [keyflow]: Remove: archive file [/home/abi/fetcher/tmp/keyflow-0.0.2.tar.gz]
+[2023-07-01 17:19:36] INFO root fetch - processPackages [keyflow]: Remove: archive file [/home/abi/fetcher/tmp/keyflow-0.1.1.tar.gz]
+[2023-07-01 17:19:36] INFO root fetch - main [MainThread]: End processing [keyflow]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.1b0.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.1rc0.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [dark-gateway]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [mke-sculib]: Remove: archive file [/home/abi/fetcher/tmp/mke_sculib-1.4.7.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [mke-sculib]: Remove: archive file [/home/abi/fetcher/tmp/mke_sculib-1.4.8.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [mke-sculib]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev14.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev15.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [lokzzpylibrary]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.7.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.8.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.1-py3-none-any.whl.zip]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.2-py3-none-any.whl.zip]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [dww-test]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307011512.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307011515.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-07-01 17:19:37] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.3.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - processPackages [cnstd]: Remove: archive file [/home/abi/fetcher/tmp/cnstd-1.2.3.1.tar.gz]
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: End processing [cnstd]: success
+[2023-07-01 17:19:37] INFO root fetch - main [MainThread]: Store serial: [18722738]
