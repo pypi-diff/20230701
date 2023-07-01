@@ -15047,3 +15047,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:37:53] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
 [2023-07-01 16:37:53] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
 [2023-07-01 16:37:53] INFO root fetch - main [MainThread]: Store serial: [18722423]
+[2023-07-01 16:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722423]
+[2023-07-01 16:43:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofscraper
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctd-python
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-fine-grained-token-client
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dark-gateway
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: topologicpy
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ofscraper]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-07-01 16:43:02] INFO root fetch - processPackages [dark-gateway]: New version: [0.0.1rc0] Old Version: [0.0.1b0]
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ctd-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 16:43:02] INFO root fetch - processPackages [github-fine-grained-token-client]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 16:43:02] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-01 16:43:02] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ff/a9/8640a3a291357641662e646b2066923ea843dd3203609cd746f454453102/ctd-python-0.2.0.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/e2/67/9669788ed76c0d7683a37398a2e4bef45d579a8003b688daf8f12c2e944e/dark-gateway-0.0.1b0.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [github-fine-grained-token-client]: Downloading https://files.pythonhosted.org/packages/84/02/1098fdfd8a32e4ba7949da63ca41155422cc8bb329e9e542e12287769a98/github_fine_grained_token_client-1.0.3.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/3d/45/ab4cd4889af0228c4b159112d099b1b9706aa7f668bdfa29505c9fec6f32/ofscraper-2.6.1.tar.gz
+[2023-07-01 16:43:03] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-07-01 16:43:03] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/29/a4/271025bffbf8237e3747d12aefb8fc6b2ad1b63e3a86f5761facd15c5372/ctd-python-0.2.1.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/80/98/06b26f0bb751a0e267656d4269cecb66fe8101a5a4b1c9a5947d602dd1ad/dark-gateway-0.0.1rc0.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [github-fine-grained-token-client]: Downloading https://files.pythonhosted.org/packages/4b/57/e1e8f1842e57f07be3f3e2bff53ad4dfe828303728224d4d282271b7adc3/github_fine_grained_token_client-1.0.4.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/2e/85/896273a5e2b1cf310350fb42e5041204c0aba149f08d1fbc22b745e5ecb0/ofscraper-2.6.2.tar.gz
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.2.0.tar.gz tmp/ctd-python-0.2.1.tar.gz --markdown 20230701/c/ctd-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 16:43:03] INFO root fetch - processPackages [github-fine-grained-token-client]: executing diffoscope
+[2023-07-01 16:43:03] INFO root fetch - processPackages [github-fine-grained-token-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_fine_grained_token_client-1.0.3.tar.gz tmp/github_fine_grained_token_client-1.0.4.tar.gz --markdown 20230701/g/github-fine-grained-token-client/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-01 16:43:03] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.6.1.tar.gz tmp/ofscraper-2.6.2.tar.gz --markdown 20230701/o/ofscraper/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-07-01 16:43:03] INFO root fetch - processPackages [dark-gateway]: executing diffoscope
+[2023-07-01 16:43:03] INFO root fetch - processPackages [dark-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-gateway-0.0.1b0.tar.gz tmp/dark-gateway-0.0.1rc0.tar.gz --markdown 20230701/d/dark-gateway/0.0.1b0-0.0.1rc0/diff.md --exclude *.pyd
+[2023-07-01 16:43:04] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.2.0.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.2.1.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-07-01 16:43:04] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.1b0.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.1rc0.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - main [MainThread]: End processing [dark-gateway]: success
+[2023-07-01 16:43:04] INFO root fetch - processPackages [github-fine-grained-token-client]: Remove: archive file [/home/abi/fetcher/tmp/github_fine_grained_token_client-1.0.3.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - processPackages [github-fine-grained-token-client]: Remove: archive file [/home/abi/fetcher/tmp/github_fine_grained_token_client-1.0.4.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - main [MainThread]: End processing [github-fine-grained-token-client]: success
+[2023-07-01 16:43:04] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.1.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.2.tar.gz]
+[2023-07-01 16:43:04] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-01 16:43:04] INFO root fetch - main [MainThread]: Store serial: [18722447]
