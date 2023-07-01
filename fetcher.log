@@ -17946,3 +17946,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:59:21] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.77.tar.gz]
 [2023-07-01 19:59:21] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
 [2023-07-01 19:59:21] INFO root fetch - main [MainThread]: Store serial: [18723662]
+[2023-07-01 20:04:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723662]
+[2023-07-01 20:04:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calendruparser
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-engine-terraform
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sobotify
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-engine-test
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-fields-network
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-git
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-git-gitlab
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openplugincore
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-s3-cli
+[2023-07-01 20:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-gpt
+[2023-07-01 20:04:32] WARNING root fetch - processPackages [sobotify]: Skipping, unable to determine old version
+[2023-07-01 20:04:32] INFO root fetch - processPackages [sobotify]: Start processing: xia-gpt-openai
+[2023-07-01 20:04:32] INFO root fetch - main [MainThread]: End processing [sobotify] error
+[2023-07-01 20:04:32] INFO root fetch - processPackages [openplugincore]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-01 20:04:32] WARNING root fetch - processPackages [calendruparser]: Skipping, unable to determine old version
+[2023-07-01 20:04:32] INFO root fetch - processPackages [calendruparser]: Start processing: hydrusvideodeduplicator
+[2023-07-01 20:04:32] INFO root fetch - main [MainThread]: End processing [calendruparser] error
+[2023-07-01 20:04:32] INFO root fetch - processPackages [aws-s3-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-test]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git-gitlab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt-openai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/92/b1/f665930988976d735c90a8c003aeba5c20bea03bd96a8d030f2ed2c2f9fc/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [aws-s3-cli]: Downloading https://files.pythonhosted.org/packages/16/79/1527d6da423deb3536d3de092dc0af80e3c1976ab2f05d05113f7cb971c7/aws-s3-cli-0.0.5.tar.gz
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-fields-network]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 20:04:32] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/73/f4/ce2f6a6bdf65e34103843a9f1a0f327badd01829538a18772f6143a984ca/openplugincore-0.3.0.tar.gz
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/a4/e5/1c16a34a7e2dbb768f7c4d9dd58aa711eeba9e7ebeb6c66264395da0a871/xia_engine_terraform-0.1.18-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git-gitlab]: Downloading https://files.pythonhosted.org/packages/75/bf/b4b1fd4ce01d8bdefccc982d9d85c0794307e529b68823871084d0ef833e/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/47/84/b1a4060a208734fecd3fc3b279cf721b47c79690830b11404e0d51d8d53d/xia_git-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-test]: Downloading https://files.pythonhosted.org/packages/c7/84/644778357b671e468ea0a878cc2cd94357caf78ca07591c40d47611ad563/xia_engine_test-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/05/52/53b59d12684a3ed28bafb15890ec113ca64f75857a5c81c3332e0a3e43ca/xia_gpt-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt-openai]: Downloading https://files.pythonhosted.org/packages/72/e8/b7a47f97a905dd5834582248750cc0ad2a0ffc8803204f9a196d274bb908/xia_gpt_openai-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/9e/7f/1ca7710c3caf8882500c947a59c6bc3a5ff3e3fef62ac8eee55ede556403/hydrusvideodeduplicator-0.1.8.tar.gz
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-fields-network]: Downloading https://files.pythonhosted.org/packages/8b/2d/c3d6bcb1e50a46f8ba3a66e22a6ae50eb5af3ab884ccf44a821cdbb41e26/xia_fields_network-0.0.5-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git-gitlab]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-git-gitlab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [aws-s3-cli]: Downloading https://files.pythonhosted.org/packages/35/fa/3e7b74b59af37df4cc5bb012f330a053ee5e8c5c7791112fff6bb78404c8/aws-s3-cli-0.0.6.tar.gz
+[2023-07-01 20:04:32] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/00/0c/092952414893b715f2fea855ffb91b912fa1810575eeb40e4fd0fe3abaa2/openplugincore-0.3.1.tar.gz
+[2023-07-01 20:04:32] INFO root fetch - processPackages [aws-s3-cli]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [aws-s3-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-s3-cli-0.0.5.tar.gz tmp/aws-s3-cli-0.0.6.tar.gz --markdown 20230701/a/aws-s3-cli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-test]: Downloading https://files.pythonhosted.org/packages/cc/e2/9165e685ae659202c91d9d23c656e918313bc353e1904fa08ef0b331b988/xia_engine_test-0.1.5-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/9f/63/eab16f38e13901233ec48f7740fc813b47ff1622e6f40665a6c93406135a/xia_engine_terraform-0.1.19-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-git]: Downloading https://files.pythonhosted.org/packages/6a/69/8baa7810fc51fdca75d43fb4c54a42ac69bf1b21115e5a84d78702700c71/xia_git-0.1.5-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.3.0.tar.gz tmp/openplugincore-0.3.1.tar.gz --markdown 20230701/o/openplugincore/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt-openai]: Downloading https://files.pythonhosted.org/packages/fa/64/4b6c571f1e16a3927bc57665f52c92bcb6f2d6e24a698cbc42e4b1547541/xia_gpt_openai-0.1.5-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-test]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_test-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_engine_test-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-engine-test/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/26/b1/81e3c94beedc0ef950c2eaf14a3f18e55b160a9eb15647a97fbea97f60b7/hydrusvideodeduplicator-0.1.9.tar.gz
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-fields-network]: Downloading https://files.pythonhosted.org/packages/7e/32/80e88de039a699ba5d2d69492d1b5a85dce0f0747963c15c00f704f8c535/xia_fields_network-0.0.6-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.18-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.19-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-engine-terraform/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt]: Downloading https://files.pythonhosted.org/packages/59/6b/b20f5c99cb0777ea6f92d58778c9068ca2e53294eb7fe35c4ef7855ec5da/xia_gpt-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt-openai]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-gpt-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt_openai-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_gpt_openai-0.1.5-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-gpt-openai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.8.tar.gz tmp/hydrusvideodeduplicator-0.1.9.tar.gz --markdown 20230701/h/hydrusvideodeduplicator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-fields-network]: executing diffoscope
+[2023-07-01 20:04:32] INFO root fetch - processPackages [xia-fields-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_fields_network-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_fields_network-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-fields-network/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 20:04:33] INFO root fetch - processPackages [xia-gpt]: executing diffoscope
+[2023-07-01 20:04:33] INFO root fetch - processPackages [xia-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_gpt-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_gpt-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-gpt/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 20:04:33] INFO root fetch - processPackages [xia-git]: executing diffoscope
+[2023-07-01 20:04:33] INFO root fetch - processPackages [xia-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_git-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_git-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-git/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-git-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/xia_git_gitlab-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-git-gitlab]: Start processing: xia-logger-gcp
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-git-gitlab]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-logger-gcp]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [aws-s3-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-s3-cli-0.0.5.tar.gz]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [aws-s3-cli]: Remove: archive file [/home/abi/fetcher/tmp/aws-s3-cli-0.0.6.tar.gz]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [aws-s3-cli]: Start processing: pydatawork
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [aws-s3-cli]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [pydatawork]: New version: [0.17.1.2] Old Version: [0.17.1.1]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/af/a6/453446e167d2417fb1fd1f468029d4711f2af3359a98cc228da99124161f/pydatawork-0.17.1.1.tar.gz
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-engine-test]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_test-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-engine-test]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_test-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-engine-test]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-logger-gcp]: Downloading https://files.pythonhosted.org/packages/02/f0/39d5cbb0ae198d347617c2942d9f270a9eb8fe2fc10a618c07ef0cd5f34b/xia_logger_gcp-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:04:34] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1d/7c/6d24606edb9d3bfdf91639db1a165de4d596d6f081a7fd3ca2817bb9368c/pydatawork-0.17.1.2.tar.gz
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-engine-terraform]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform-0.1.18-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-engine-terraform]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform-0.1.19-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-logger-gcp]: Downloading https://files.pythonhosted.org/packages/95/27/0eff0e437123dc9795e8c1724c4917ccef5a13d9079e0d29f29d8bf31516/xia_logger_gcp-0.1.4-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 20:04:34] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-01 20:04:34] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.1.1.tar.gz tmp/pydatawork-0.17.1.2.tar.gz --markdown 20230701/p/pydatawork/0.17.1.1-0.17.1.2/diff.md --exclude *.pyd
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-fields-network]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields_network-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-fields-network]: Remove: archive file [/home/abi/fetcher/tmp/xia_fields_network-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-fields-network]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-gpt]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-gpt]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.0.tar.gz]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.1.tar.gz]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-gpt-openai]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt_openai-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-gpt-openai]: Remove: archive file [/home/abi/fetcher/tmp/xia_gpt_openai-0.1.5-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-gpt-openai]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-logger-gcp]: executing diffoscope
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-logger-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger_gcp-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_logger_gcp-0.1.4-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-logger-gcp/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [xia-git]: Remove: archive file [/home/abi/fetcher/tmp/xia_git-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [xia-git]: success
+[2023-07-01 20:04:34] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.8.tar.gz]
+[2023-07-01 20:04:34] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.9.tar.gz]
+[2023-07-01 20:04:34] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-01 20:04:35] INFO root fetch - processPackages [xia-logger-gcp]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_gcp-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:04:35] INFO root fetch - processPackages [xia-logger-gcp]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_gcp-0.1.4-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 20:04:35] INFO root fetch - main [MainThread]: End processing [xia-logger-gcp]: success
+[2023-07-01 20:04:35] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.1.1.tar.gz]
+[2023-07-01 20:04:35] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.1.2.tar.gz]
+[2023-07-01 20:04:35] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-01 20:04:35] INFO root fetch - main [MainThread]: Store serial: [18723746]
