@@ -8621,3 +8621,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 05:59:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-16.0.2.1.0.1-py3-none-any.whl.zip]
 [2023-07-01 05:59:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
 [2023-07-01 05:59:18] INFO root fetch - main [MainThread]: Store serial: [18719656]
+[2023-07-01 06:04:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719656]
+[2023-07-01 06:04:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 06:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastervit
+[2023-07-01 06:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netron
+[2023-07-01 06:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod369
+[2023-07-01 06:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-07-01 06:04:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-l10n-spain
+[2023-07-01 06:04:27] INFO root fetch - processPackages [netron]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-07-01 06:04:27] INFO root fetch - processPackages [fastervit]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-01 06:04:27] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230629] Old Version: [1.0.3.dev20230628]
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230628.0] Old Version: [16.0.20230624.0]
+[2023-07-01 06:04:27] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/5a/6c/1831ba9ddb095a05c06d453465464fdcdfbe30e8ddd42da3eaa6354ccc09/evals-nightly-1.0.3.dev20230628.tar.gz
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: Downloading https://files.pythonhosted.org/packages/4d/e6/5142564a9f3cace0f5f7973ccaec5c90861b00e7a391a395d77ba791c25a/odoo_addon_l10n_es_aeat_mod369-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-01 06:04:27] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/b5/e6/94bdadea33b8dabbbf423fac740708f84c3b19fc726c76c652432f0dd76b/fastervit-0.8.9.tar.gz
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/1a/60/95286a559a2b6fab866ee7e22018cfbc22ae3d75b7bd6d3c88231b9dfe5d/odoo_addons_oca_l10n_spain-16.0.20230624.0-py3-none-any.whl
+[2023-07-01 06:04:27] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/0c/f0/44af1a2aef532019ff3894d773d1a9ca19833923f3dfa794b94f7016f032/netron-7.0.1-py3-none-any.whl
+[2023-07-01 06:04:27] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-07-01 06:04:27] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.0.0-py3-none-any.whl.zip tmp/netron-7.0.1-py3-none-any.whl.zip --markdown 20230701/n/netron/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-07-01 06:04:27] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/42/51/0f72ad409530751e5abfd90ea8eb176cc5439b1614b473db7dafa2b69498/evals-nightly-1.0.3.dev20230629.tar.gz
+[2023-07-01 06:04:27] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/8f/50/bdd16d579791e890cdae82e22c060845c0aa7db159ec347adad341bf7f86/fastervit-0.9.0.tar.gz
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: Downloading https://files.pythonhosted.org/packages/2f/b6/56ab548773eb21b9d017b4e8a92f4240b92f448c918e63aa91d2fc5b7912/odoo_addon_l10n_es_aeat_mod369-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/a1/60/f2ed749072ece8f90164873fec8fa42156287cb59c19b80377d18d6c84e2/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl
+[2023-07-01 06:04:27] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-07-01 06:04:27] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.8.9.tar.gz tmp/fastervit-0.9.0.tar.gz --markdown 20230701/f/fastervit/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 06:04:27] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-07-01 06:04:27] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230628.tar.gz tmp/evals-nightly-1.0.3.dev20230629.tar.gz --markdown 20230701/e/evals-nightly/1.0.3.dev20230628-1.0.3.dev20230629/diff.md --exclude *.pyd
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230624.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip --markdown 20230701/o/odoo-addons-oca-l10n-spain/16.0.20230624.0-16.0.20230628.0/diff.md --exclude *.pyd
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: executing diffoscope
+[2023-07-01 06:04:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod369-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod369-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-l10n-es-aeat-mod369/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-01 06:04:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230624.0-py3-none-any.whl.zip]
+[2023-07-01 06:04:28] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-07-01 06:04:28] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-07-01 06:04:29] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.9.tar.gz]
+[2023-07-01 06:04:29] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.0.tar.gz]
+[2023-07-01 06:04:29] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-07-01 06:04:29] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod369-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-01 06:04:29] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod369]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod369-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-01 06:04:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod369]: success
+[2023-07-01 06:04:30] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230628.tar.gz]
+[2023-07-01 06:04:30] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230629.tar.gz]
+[2023-07-01 06:04:30] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-07-01 06:07:27] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
+[2023-07-01 06:07:27] INFO root fetch - main [MainThread]: End processing [netron] error
+[2023-07-01 06:07:27] INFO root fetch - main [MainThread]: Store serial: [18719669]
