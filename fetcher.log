@@ -19100,3 +19100,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:40:03] INFO root fetch - processPackages [pyhafas]: Remove: archive file [/home/abi/fetcher/tmp/pyhafas-0.4.0.tar.gz]
 [2023-07-01 21:40:03] INFO root fetch - main [MainThread]: End processing [pyhafas]: success
 [2023-07-01 21:40:03] INFO root fetch - main [MainThread]: Store serial: [18724311]
+[2023-07-01 21:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724311]
+[2023-07-01 21:45:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydwm1001
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unigui
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambda-handler
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linfa-vi
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ku-proxy
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-simplewiki
+[2023-07-01 21:45:13] INFO root fetch - processPackages [pydwm1001]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-01 21:45:13] INFO root fetch - processPackages [linfa-vi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 21:45:13] INFO root fetch - processPackages [lambda-handler]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ku-proxy]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-01 21:45:13] INFO root fetch - processPackages [unigui]: New version: [1.6.0] Old Version: [1.5.4]
+[2023-07-01 21:45:13] INFO root fetch - processPackages [aa-simplewiki]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-01 21:45:13] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/fb/1e/1b0a4aba4499bdc0e15999f2a678b266ae64111927e65a22c08785aaae46/pydwm1001-0.8.0.tar.gz
+[2023-07-01 21:45:13] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/4c/69/cfaa9b0462dfaa5482d13c3f613e7582574b25c779f4b5db98998025a386/unigui-1.5.4.tar.gz
+[2023-07-01 21:45:13] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/56/25/171aea115101dd34a226db7d1766ab82b51e94f1cb22d4fa1bd1b65451f9/lambda_handler-1.2.0.tar.gz
+[2023-07-01 21:45:13] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/53/ed/5e332bbce9cb1fb0240049ce0c5a587420ccc83ed13c91652091600ddd6f/linfa_vi-1.0.3.tar.gz
+[2023-07-01 21:45:13] INFO root fetch - processPackages [ku-proxy]: Downloading https://files.pythonhosted.org/packages/c0/39/16833b3d0a3bdc885c982b61dc0e34cfedfe8885397ae6cc156b9660edec/ku_proxy-0.1.1-py3-none-any.whl
+[2023-07-01 21:45:13] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/77/e7/326352457886dd3ccb6bc2bb2920e2f82304868de58aa0a4b60add6d70ce/aa-simplewiki-1.0.4.tar.gz
+[2023-07-01 21:45:14] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/79/63/570a1874310ed0391afe36f62c27a79cff711273ec9fa3bda10bb9bd5424/pydwm1001-0.9.0.tar.gz
+[2023-07-01 21:45:14] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/c4/08/a64a934dbf979f2b2be56f6f9cec90a7d776e96f24a4cef7e6618b934a76/unigui-1.6.0.tar.gz
+[2023-07-01 21:45:14] INFO root fetch - processPackages [pydwm1001]: executing diffoscope
+[2023-07-01 21:45:14] INFO root fetch - processPackages [pydwm1001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwm1001-0.8.0.tar.gz tmp/pydwm1001-0.9.0.tar.gz --markdown 20230701/p/pydwm1001/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 21:45:14] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/5e/db/f5dded5d0b3161d85a98955ca62ab68cfd77fb3d91055d9dc331348a0bb2/lambda_handler-1.2.1.tar.gz
+[2023-07-01 21:45:14] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/74/80/2a2206ad9d3b8abe4db8ff4463fd028209750bee0ef6ce6a12ab4a5dba34/linfa_vi-1.0.4.tar.gz
+[2023-07-01 21:45:14] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/64/8f/940cac7fd17faddd5d68488a02a1af1204bf494a4cfd939c6c4e566f8278/aa-simplewiki-1.0.5.tar.gz
+[2023-07-01 21:45:14] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-01 21:45:14] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.5.4.tar.gz tmp/unigui-1.6.0.tar.gz --markdown 20230701/u/unigui/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2023-07-01 21:45:14] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-01 21:45:14] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.0.3.tar.gz tmp/linfa_vi-1.0.4.tar.gz --markdown 20230701/l/linfa-vi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 21:45:14] INFO root fetch - processPackages [ku-proxy]: Downloading https://files.pythonhosted.org/packages/79/60/424f055574749418228d1d1ddf9f654bb3077a4f7ba0524dac8d52c1eab5/ku_proxy-0.2.0-py3-none-any.whl
+[2023-07-01 21:45:14] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-01 21:45:14] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_handler-1.2.0.tar.gz tmp/lambda_handler-1.2.1.tar.gz --markdown 20230701/l/lambda-handler/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-01 21:45:14] INFO root fetch - processPackages [aa-simplewiki]: executing diffoscope
+[2023-07-01 21:45:14] INFO root fetch - processPackages [aa-simplewiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-simplewiki-1.0.4.tar.gz tmp/aa-simplewiki-1.0.5.tar.gz --markdown 20230701/a/aa-simplewiki/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-01 21:45:14] INFO root fetch - processPackages [ku-proxy]: executing diffoscope
+[2023-07-01 21:45:14] INFO root fetch - processPackages [ku-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_proxy-0.1.1-py3-none-any.whl.zip tmp/ku_proxy-0.2.0-py3-none-any.whl.zip --markdown 20230701/k/ku-proxy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 21:45:15] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.8.0.tar.gz]
+[2023-07-01 21:45:15] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.9.0.tar.gz]
+[2023-07-01 21:45:15] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
+[2023-07-01 21:45:15] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-1.2.0.tar.gz]
+[2023-07-01 21:45:15] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-1.2.1.tar.gz]
+[2023-07-01 21:45:15] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-01 21:45:15] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.0.3.tar.gz]
+[2023-07-01 21:45:15] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.0.4.tar.gz]
+[2023-07-01 21:45:15] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-01 21:45:15] INFO root fetch - processPackages [ku-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ku_proxy-0.1.1-py3-none-any.whl.zip]
+[2023-07-01 21:45:15] INFO root fetch - processPackages [ku-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ku_proxy-0.2.0-py3-none-any.whl.zip]
+[2023-07-01 21:45:15] INFO root fetch - main [MainThread]: End processing [ku-proxy]: success
+[2023-07-01 21:45:16] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.4.tar.gz]
+[2023-07-01 21:45:16] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.5.tar.gz]
+[2023-07-01 21:45:16] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
+[2023-07-01 21:45:17] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.4.tar.gz]
+[2023-07-01 21:45:17] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.6.0.tar.gz]
+[2023-07-01 21:45:17] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-01 21:45:17] INFO root fetch - main [MainThread]: Store serial: [18724329]
