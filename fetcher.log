@@ -19244,3 +19244,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:55:46] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.22.0.tar.gz]
 [2023-07-01 21:55:46] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
 [2023-07-01 21:55:46] INFO root fetch - main [MainThread]: Store serial: [18724353]
+[2023-07-01 22:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724353]
+[2023-07-01 22:00:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 22:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xycu
+[2023-07-01 22:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: splut
+[2023-07-01 22:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s-tool
+[2023-07-01 22:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-dantic
+[2023-07-01 22:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwf-wrangler
+[2023-07-01 22:00:55] INFO root fetch - processPackages [splut]: New version: [8] Old Version: [7]
+[2023-07-01 22:00:55] INFO root fetch - processPackages [xycu]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 22:00:55] INFO root fetch - processPackages [flask-dantic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 22:00:55] INFO root fetch - processPackages [s-tool]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 22:00:55] WARNING root fetch - processPackages [gwf-wrangler]: Skipping, unable to determine old version
+[2023-07-01 22:00:55] INFO root fetch - main [MainThread]: End processing [gwf-wrangler] error
+[2023-07-01 22:00:56] INFO root fetch - processPackages [xycu]: Downloading https://files.pythonhosted.org/packages/27/7b/5daffcc767873524af721dffe63c3b0b6231d4e2396085415f5387fa03cd/xycu-0.1.0.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [flask-dantic]: Downloading https://files.pythonhosted.org/packages/b6/e9/271ecd4cb69126f9c74702e45d659c57976433db0e482fb039a332cf207a/flask-dantic-0.0.6.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [splut]: Downloading https://files.pythonhosted.org/packages/da/18/205d456c3fda3696d77b05341802b5fbeb9027ed87d1983dee5502b7c760/splut-7.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [s-tool]: Downloading https://files.pythonhosted.org/packages/00/c1/d54fccb5970c009a7aaf165772590189e7f70df09b44a2e598289babccf4/s_tool-0.0.4.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [xycu]: Downloading https://files.pythonhosted.org/packages/8d/b5/8ae64d2c1938e35cfd3ed8859f3d1079f71d3aa062f1cadbee2fd040341e/xycu-0.1.1.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [xycu]: executing diffoscope
+[2023-07-01 22:00:56] INFO root fetch - processPackages [xycu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xycu-0.1.0.tar.gz tmp/xycu-0.1.1.tar.gz --markdown 20230701/x/xycu/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 22:00:56] INFO root fetch - processPackages [flask-dantic]: Downloading https://files.pythonhosted.org/packages/57/4f/4643120ae88bb9b0aa0e226905644a33113b1e1b96f316b376eec9104f54/flask-dantic-0.0.7.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [flask-dantic]: executing diffoscope
+[2023-07-01 22:00:56] INFO root fetch - processPackages [flask-dantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-dantic-0.0.6.tar.gz tmp/flask-dantic-0.0.7.tar.gz --markdown 20230701/f/flask-dantic/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 22:00:56] INFO root fetch - processPackages [s-tool]: Downloading https://files.pythonhosted.org/packages/cd/7b/6e708116f0848bcf4fecb4fb7b9f29e1c686087a5dc30c9fe1ccec418a73/s_tool-0.0.5.tar.gz
+[2023-07-01 22:00:56] INFO root fetch - processPackages [s-tool]: executing diffoscope
+[2023-07-01 22:00:56] INFO root fetch - processPackages [s-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s_tool-0.0.4.tar.gz tmp/s_tool-0.0.5.tar.gz --markdown 20230701/s/s-tool/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 22:00:56] INFO root fetch - processPackages [splut]: Downloading https://files.pythonhosted.org/packages/c6/af/6aa521d9ca6d1d09cf161bedd32cc8a463bdc1184019bbc3a4a97acec0a0/splut-8.tar.gz
+[2023-07-01 22:00:57] INFO root fetch - processPackages [splut]: executing diffoscope
+[2023-07-01 22:00:57] INFO root fetch - processPackages [splut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splut-7.tar.gz tmp/splut-8.tar.gz --markdown 20230701/s/splut/7-8/diff.md --exclude *.pyd
+[2023-07-01 22:00:57] INFO root fetch - processPackages [xycu]: Remove: archive file [/home/abi/fetcher/tmp/xycu-0.1.0.tar.gz]
+[2023-07-01 22:00:57] INFO root fetch - processPackages [xycu]: Remove: archive file [/home/abi/fetcher/tmp/xycu-0.1.1.tar.gz]
+[2023-07-01 22:00:57] INFO root fetch - main [MainThread]: End processing [xycu]: success
+[2023-07-01 22:00:57] INFO root fetch - processPackages [flask-dantic]: Remove: archive file [/home/abi/fetcher/tmp/flask-dantic-0.0.6.tar.gz]
+[2023-07-01 22:00:57] INFO root fetch - processPackages [flask-dantic]: Remove: archive file [/home/abi/fetcher/tmp/flask-dantic-0.0.7.tar.gz]
+[2023-07-01 22:00:57] INFO root fetch - main [MainThread]: End processing [flask-dantic]: success
+[2023-07-01 22:00:57] INFO root fetch - processPackages [s-tool]: Remove: archive file [/home/abi/fetcher/tmp/s_tool-0.0.4.tar.gz]
+[2023-07-01 22:00:57] INFO root fetch - processPackages [s-tool]: Remove: archive file [/home/abi/fetcher/tmp/s_tool-0.0.5.tar.gz]
+[2023-07-01 22:00:57] INFO root fetch - main [MainThread]: End processing [s-tool]: success
+[2023-07-01 22:00:58] INFO root fetch - processPackages [splut]: Remove: archive file [/home/abi/fetcher/tmp/splut-7.tar.gz]
+[2023-07-01 22:00:58] INFO root fetch - processPackages [splut]: Remove: archive file [/home/abi/fetcher/tmp/splut-8.tar.gz]
+[2023-07-01 22:00:58] INFO root fetch - main [MainThread]: End processing [splut]: success
+[2023-07-01 22:00:58] INFO root fetch - main [MainThread]: Store serial: [18724371]
