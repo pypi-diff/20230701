@@ -20370,3 +20370,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:50:16] INFO root fetch - processPackages [pyavb]: Remove: archive file [/home/abi/fetcher/tmp/pyavb-1.4.0.tar.gz]
 [2023-07-01 23:50:16] INFO root fetch - main [MainThread]: End processing [pyavb]: success
 [2023-07-01 23:50:16] INFO root fetch - main [MainThread]: Store serial: [18724829]
+[2023-07-01 23:55:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724829]
+[2023-07-01 23:55:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 23:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kdslibs
+[2023-07-01 23:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libsodium
+[2023-07-01 23:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QualysPy
+[2023-07-01 23:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiovodafone
+[2023-07-01 23:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lucianosyllvaPackageOne
+[2023-07-01 23:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yambs
+[2023-07-01 23:55:25] INFO root fetch - processPackages [libsodium]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-01 23:55:25] INFO root fetch - processPackages [kdslibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 23:55:25] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.1] Old Version: [0.3.9.0]
+[2023-07-01 23:55:25] INFO root fetch - processPackages [yambs]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-01 23:55:25] INFO root fetch - processPackages [libsodium]: Downloading https://files.pythonhosted.org/packages/c7/d0/f9a9ff9b26a200f161e9ab8d97d9ff735fcfe2646cf951fa837dabcc3530/libsodium-2.5.1.tar.gz
+[2023-07-01 23:55:25] INFO root fetch - processPackages [aiovodafone]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-01 23:55:25] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/ba/38/9e4c7e614878def76a3fade540f9045634f1b19578a7ea9152c657af6093/yambs-1.9.1.tar.gz
+[2023-07-01 23:55:25] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/4d/f0/d9128be5a2bc391cb5a10370e31b093e73ba449deac8d381cc07fdc5a82b/qualyspy-0.3.9.0.tar.gz
+[2023-07-01 23:55:25] WARNING root fetch - processPackages [lucianosyllvaPackageOne]: Skipping, unable to determine old version
+[2023-07-01 23:55:25] INFO root fetch - main [MainThread]: End processing [lucianosyllvaPackageOne] error
+[2023-07-01 23:55:25] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/d1/75/31dbf40a1710caa843016d509bed4139740781b5ab155d4223917f122df5/kdslibs-0.0.8.tar.gz
+[2023-07-01 23:55:25] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/bc/de/c8e0de2150ff70173e8603e117bc9f72cf2ab9d296bef3f2b076e79ae675/yambs-1.9.2.tar.gz
+[2023-07-01 23:55:25] INFO root fetch - processPackages [libsodium]: Downloading https://files.pythonhosted.org/packages/1c/30/0203f2b6331994cf2db79775c77cb629bb2723488c6d8f95415222cf1f98/libsodium-2.5.2.tar.gz
+[2023-07-01 23:55:25] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2023-07-01 23:55:25] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-1.9.1.tar.gz tmp/yambs-1.9.2.tar.gz --markdown 20230701/y/yambs/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-01 23:55:25] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/d9/c5/6eae4b90d0f908fbcdd2b9d6b01f9990bfcec7a015c4c48ddaa0f72065ae/qualyspy-0.3.9.1.tar.gz
+[2023-07-01 23:55:25] INFO root fetch - processPackages [libsodium]: executing diffoscope
+[2023-07-01 23:55:25] INFO root fetch - processPackages [libsodium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsodium-2.5.1.tar.gz tmp/libsodium-2.5.2.tar.gz --markdown 20230701/l/libsodium/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-01 23:55:25] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-01 23:55:25] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.9.0.tar.gz tmp/qualyspy-0.3.9.1.tar.gz --markdown 20230701/Q/QualysPy/0.3.9.0-0.3.9.1/diff.md --exclude *.pyd
+[2023-07-01 23:55:25] INFO root fetch - processPackages [aiovodafone]: Downloading https://files.pythonhosted.org/packages/aa/fd/2ee06c4a610354cc3754cc8c9f608eed1700a977645dd9d80a2f5aafcb11/aiovodafone-0.0.4.tar.gz
+[2023-07-01 23:55:26] INFO root fetch - processPackages [aiovodafone]: executing diffoscope
+[2023-07-01 23:55:26] INFO root fetch - processPackages [aiovodafone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiovodafone-0.0.2.tar.gz tmp/aiovodafone-0.0.4.tar.gz --markdown 20230701/a/aiovodafone/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 23:55:26] INFO root fetch - processPackages [kdslibs]: Downloading https://files.pythonhosted.org/packages/a7/f7/51c720c9cb636a40208740673b1da5adb53e747e77e7976eae2f73d5b616/kdslibs-0.0.9.tar.gz
+[2023-07-01 23:55:26] INFO root fetch - processPackages [kdslibs]: executing diffoscope
+[2023-07-01 23:55:26] INFO root fetch - processPackages [kdslibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdslibs-0.0.8.tar.gz tmp/kdslibs-0.0.9.tar.gz --markdown 20230701/k/kdslibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 23:55:26] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.5.1.tar.gz]
+[2023-07-01 23:55:26] INFO root fetch - processPackages [libsodium]: Remove: archive file [/home/abi/fetcher/tmp/libsodium-2.5.2.tar.gz]
+[2023-07-01 23:55:26] INFO root fetch - main [MainThread]: End processing [libsodium]: success
+[2023-07-01 23:55:27] INFO root fetch - processPackages [aiovodafone]: Remove: archive file [/home/abi/fetcher/tmp/aiovodafone-0.0.2.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - processPackages [aiovodafone]: Remove: archive file [/home/abi/fetcher/tmp/aiovodafone-0.0.4.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - main [MainThread]: End processing [aiovodafone]: success
+[2023-07-01 23:55:27] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.1.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-1.9.2.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2023-07-01 23:55:27] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.8.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - processPackages [kdslibs]: Remove: archive file [/home/abi/fetcher/tmp/kdslibs-0.0.9.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - main [MainThread]: End processing [kdslibs]: success
+[2023-07-01 23:55:27] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.0.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.1.tar.gz]
+[2023-07-01 23:55:27] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-01 23:55:27] INFO root fetch - main [MainThread]: Store serial: [18724849]
