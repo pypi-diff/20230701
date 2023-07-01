@@ -10730,3 +10730,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:49:34] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-01 09:49:34] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-01 09:49:34] INFO root fetch - main [MainThread]: Store serial: [18720470]
+[2023-07-01 09:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720470]
+[2023-07-01 09:54:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cronsim
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-terminal-manager
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pictl
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-meshroom
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasmoothie-tally-client
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ambrosio
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweepai
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: khoj-assistant
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lyrics-transcriber
+[2023-07-01 09:54:43] INFO root fetch - processPackages [cronsim]: New version: [2.5] Old Version: [2.4.1]
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ssh-terminal-manager]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 09:54:43] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-01 09:54:43] INFO root fetch - processPackages [datasmoothie-tally-client]: New version: [0.9] Old Version: [0.8]
+[2023-07-01 09:54:43] WARNING root fetch - processPackages [ambrosio]: Skipping, unable to determine old version
+[2023-07-01 09:54:43] INFO root fetch - processPackages [sweepai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 09:54:43] INFO root fetch - processPackages [ambrosio]: Start processing: nics
+[2023-07-01 09:54:43] INFO root fetch - main [MainThread]: End processing [ambrosio] error
+[2023-07-01 09:54:43] INFO root fetch - processPackages [pictl]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-01 09:54:43] WARNING root fetch - processPackages [auto-meshroom]: Skipping, unable to determine old version
+[2023-07-01 09:54:43] INFO root fetch - processPackages [auto-meshroom]: Start processing: nanorequests
+[2023-07-01 09:54:43] INFO root fetch - main [MainThread]: End processing [auto-meshroom] error
+[2023-07-01 09:54:44] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nics]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-01 09:54:44] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/0f/4a/cb866ee77d3a6cb7dd5eacc7ce515a7bdb67f1a7ffaf97cd67a5a89fa6d5/lyrics_transcriber-0.2.0.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nanorequests]: New version: [0.9] Old Version: [0.8]
+[2023-07-01 09:54:44] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/11/a6/8d598e8f62c3160f08b32de27cd4b782b676e9cb304ddd3467469ce79c2e/sweepai-0.1.1.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230701] Old Version: [2.14.0.dev20230630]
+[2023-07-01 09:54:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/9e/36/a31da24cfede3c347f3e43e18a2dd5f13ff4dfd1944740855d6ebae83549/nics-2.1.1.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/da/da/302a8c570efabacf87e54009301612c105451bbe6d0f1254f218db7a3fe7/nanorequests-0.8.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/5f/21/9793a19a63819a15560f20aa802263269fddaca979000c797d785d143ebe/ssh_terminal_manager-0.0.1.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [cronsim]: Downloading https://files.pythonhosted.org/packages/ef/68/9ae40fc73aeb952700183810aa5c225444eff25a8ae77da85056e5f9bade/cronsim-2.4.1.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [pictl]: Downloading https://files.pythonhosted.org/packages/13/bc/8f60cdafb47957424a77b37c2e5d8e972f418fcac80517e254047fc74d1b/pictl-0.2.0.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [datasmoothie-tally-client]: Downloading https://files.pythonhosted.org/packages/d7/68/356105358bdff146d508e5d4c1de9d38ace265bcd0df216d183416365909/datasmoothie-tally-client-0.8.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/3d/63/1a42ac39a97b4721727d6b73e4feeeadb28e870e40ff5e593d1744b4ad15/tf_nightly_cpu-2.14.0.dev20230630-cp39-cp39-win_amd64.whl
+[2023-07-01 09:54:44] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/4c/78/8ab58c56cfe1209c4dfa5e6b1972a4a0f1542d559799cf01456bba80e2ed/lyrics_transcriber-0.3.0.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/e3/8a/a4933d040a1976d90d66a8b5e3ad191952a65ea823e4ef7bc24e87b28739/sweepai-0.1.2.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/7c/95/06bb3a2af1abd17c5ae52c1057846f707ce455150ee4e25a413685619837/nics-2.1.2.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/a6/77/272245981bac651eded712bf3b32205aedf4553339499f8c64d213b6fe10/nanorequests-0.9.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [ssh-terminal-manager]: Downloading https://files.pythonhosted.org/packages/7e/0b/7771e2e1ebf7025b440b35f5e11e3a76c4199b56d94c474ccb269c85ceef/ssh_terminal_manager-0.0.2.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [cronsim]: Downloading https://files.pythonhosted.org/packages/05/b7/6f1f1e50d98ad5c7e4a4c9710ab6cadf7e785ba4013215ccf696cd99e708/cronsim-2.5.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.1.tar.gz tmp/sweepai-0.1.2.tar.gz --markdown 20230701/s/sweepai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.2.0.tar.gz tmp/lyrics_transcriber-0.3.0.tar.gz --markdown 20230701/l/lyrics-transcriber/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.8.tar.gz tmp/nanorequests-0.9.tar.gz --markdown 20230701/n/nanorequests/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [pictl]: Downloading https://files.pythonhosted.org/packages/bf/07/88c0cfd54ac5124385e99f893a8bb2001420fd8262bb5ee992de48e70d76/pictl-0.3.0.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [ssh-terminal-manager]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [ssh-terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_terminal_manager-0.0.1.tar.gz tmp/ssh_terminal_manager-0.0.2.tar.gz --markdown 20230701/s/ssh-terminal-manager/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230701/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ec/ae/99c9ad2254320cb3da3df9a0530bbf00a68de4adb4343a8458e5e2f0043b/tf_nightly_cpu-2.14.0.dev20230701-cp39-cp39-win_amd64.whl
+[2023-07-01 09:54:44] INFO root fetch - processPackages [cronsim]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [cronsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cronsim-2.4.1.tar.gz tmp/cronsim-2.5.tar.gz --markdown 20230701/c/cronsim/2.4.1-2.5/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.1.1.tar.gz tmp/nics-2.1.2.tar.gz --markdown 20230701/n/nics/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [datasmoothie-tally-client]: Downloading https://files.pythonhosted.org/packages/23/7f/f7ea96b8935288b32cccb162f69cb0fc463b4de937b3332214fa3eedc892/datasmoothie-tally-client-0.9.tar.gz
+[2023-07-01 09:54:44] INFO root fetch - processPackages [pictl]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [pictl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pictl-0.2.0.tar.gz tmp/pictl-0.3.0.tar.gz --markdown 20230701/p/pictl/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 09:54:44] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-07-01 09:54:44] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230630-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230701-cp39-cp39-win_amd64.whl.zip --markdown 20230701/t/tf-nightly-cpu/2.14.0.dev20230630-2.14.0.dev20230701/diff.md --exclude *.pyd
+[2023-07-01 09:54:45] INFO root fetch - processPackages [datasmoothie-tally-client]: executing diffoscope
+[2023-07-01 09:54:45] INFO root fetch - processPackages [datasmoothie-tally-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasmoothie-tally-client-0.8.tar.gz tmp/datasmoothie-tally-client-0.9.tar.gz --markdown 20230701/d/datasmoothie-tally-client/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-01 09:54:45] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.2.0.tar.gz]
+[2023-07-01 09:54:45] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.3.0.tar.gz]
+[2023-07-01 09:54:45] INFO root fetch - processPackages [lyrics-transcriber]: Start processing: Navix
+[2023-07-01 09:54:45] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.8.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.9.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [Navix]: New version: [0.3.5] Old Version: [0.2.1]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [cronsim]: Remove: archive file [/home/abi/fetcher/tmp/cronsim-2.4.1.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [cronsim]: Remove: archive file [/home/abi/fetcher/tmp/cronsim-2.5.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [cronsim]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230630-cp39-cp39-win_amd64.whl.zip]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230701-cp39-cp39-win_amd64.whl.zip]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.0.1.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [ssh-terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/ssh_terminal_manager-0.0.2.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [ssh-terminal-manager]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/aa/8b/56a4e3579d81be361f03ba7305631944b324eca56e144dc0a8ba7e8a8aa2/Navix-0.2.1.tar.gz
+[2023-07-01 09:54:46] INFO root fetch - processPackages [pictl]: Remove: archive file [/home/abi/fetcher/tmp/pictl-0.2.0.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [pictl]: Remove: archive file [/home/abi/fetcher/tmp/pictl-0.3.0.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [pictl]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [datasmoothie-tally-client]: Remove: archive file [/home/abi/fetcher/tmp/datasmoothie-tally-client-0.8.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [datasmoothie-tally-client]: Remove: archive file [/home/abi/fetcher/tmp/datasmoothie-tally-client-0.9.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [datasmoothie-tally-client]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [Navix]: Downloading https://files.pythonhosted.org/packages/b7/c7/6d56ec16264cb393b28723297067242cca06d109684a2fe751b7caeefd2c/Navix-0.3.5.tar.gz
+[2023-07-01 09:54:46] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.1.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.2.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-01 09:54:46] INFO root fetch - processPackages [Navix]: executing diffoscope
+[2023-07-01 09:54:46] INFO root fetch - processPackages [Navix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Navix-0.2.1.tar.gz tmp/Navix-0.3.5.tar.gz --markdown 20230701/N/Navix/0.2.1-0.3.5/diff.md --exclude *.pyd
+[2023-07-01 09:54:46] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.1.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.2.tar.gz]
+[2023-07-01 09:54:46] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 09:54:47] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.2.1.tar.gz]
+[2023-07-01 09:54:47] INFO root fetch - processPackages [Navix]: Remove: archive file [/home/abi/fetcher/tmp/Navix-0.3.5.tar.gz]
+[2023-07-01 09:54:47] INFO root fetch - main [MainThread]: End processing [Navix]: success
+[2023-07-01 09:54:47] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-07-01 09:54:47] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-07-01 09:54:47] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-01 09:54:47] INFO root fetch - main [MainThread]: Store serial: [18720513]
