@@ -18405,3 +18405,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:20:30] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.1.tar.gz]
 [2023-07-01 20:20:30] INFO root fetch - main [MainThread]: End processing [types-redis]: success
 [2023-07-01 20:20:30] INFO root fetch - main [MainThread]: Store serial: [18723967]
+[2023-07-01 20:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723967]
+[2023-07-01 20:25:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wom-py
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudmesh-gpu
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haven-spc
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osu
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py_canoe
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scriptl
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nics
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: herdmod
+[2023-07-01 20:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unitsnet-py
+[2023-07-01 20:25:40] INFO root fetch - processPackages [wom-py]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-01 20:25:40] INFO root fetch - processPackages [herdmod]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 20:25:40] INFO root fetch - processPackages [haven-spc]: New version: [23.7.1] Old Version: [0.1.0]
+[2023-07-01 20:25:40] WARNING root fetch - processPackages [scriptl]: Skipping, unable to determine old version
+[2023-07-01 20:25:40] INFO root fetch - processPackages [py_canoe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 20:25:40] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-07-01 20:25:40] INFO root fetch - main [MainThread]: End processing [scriptl] error
+[2023-07-01 20:25:40] WARNING root fetch - processPackages [osu]: Skipping, unable to determine old version
+[2023-07-01 20:25:40] INFO root fetch - processPackages [cloudmesh-gpu]: New version: [4.3.9] Old Version: [4.3.8]
+[2023-07-01 20:25:40] INFO root fetch - processPackages [nics]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-07-01 20:25:40] INFO root fetch - main [MainThread]: End processing [osu] error
+[2023-07-01 20:25:40] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/1f/ea/e7a9583596bb17f0a2306f48b0868bd8946a11f61d061689a4bb644f6b8b/nics-2.5.0.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [haven-spc]: Downloading https://files.pythonhosted.org/packages/f0/79/26c0ed073bbefa2ed513e3dc4df962ce81284c068f15183c35ce03b9c067/haven-spc-0.1.0.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/54/83/5c13358c2cd48120c489c37e53073776d56f5d70203275d8799e2b359773/wom_py-0.4.2.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/30/12/eb6100c8ba3e3ec0d20156a358c16006b28a815e6f1f67210c3343a87e8e/herdmod-0.1.1.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [py_canoe]: Downloading https://files.pythonhosted.org/packages/a4/58/1cdf45e427169ae16d9cc1cdda0d4229623de9101019bdc915f276a0f021/py_canoe-0.1.1.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [cloudmesh-gpu]: Downloading https://files.pythonhosted.org/packages/e2/14/f349fbe4d3d606d409ee21bb50de0e7a9159ca50f06e4e5b84dfc6294a31/cloudmesh-gpu-4.3.8.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/68/e3/308ea1592d344b067d77cdb362bcf0203ddde3f657a8b09228664a4badbc/unitsnet-py-0.1.41.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/16/3f/88c89ab0f385d4670e110aa5225601288de9d1b61e3c9e5f966462477b43/nics-2.5.1.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [haven-spc]: Downloading https://files.pythonhosted.org/packages/6f/41/485b58a129291a4a172640c02965cbbf16e82ff78b8405f59fd49b6dc429/haven-spc-23.7.1.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [herdmod]: Downloading https://files.pythonhosted.org/packages/14/c0/1037477e73b83f8c04a2207039528ecdda712b0d5264509dc09bdaa01bb2/herdmod-0.1.2.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [wom-py]: Downloading https://files.pythonhosted.org/packages/fb/c5/bb5fba15bbc06dc40ff314e60dbdb38367011151a04bea9bf4d57e37683d/wom_py-0.5.0.tar.gz
+[2023-07-01 20:25:40] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 20:25:40] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.5.0.tar.gz tmp/nics-2.5.1.tar.gz --markdown 20230701/n/nics/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-07-01 20:25:41] INFO root fetch - processPackages [herdmod]: executing diffoscope
+[2023-07-01 20:25:41] INFO root fetch - processPackages [herdmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herdmod-0.1.1.tar.gz tmp/herdmod-0.1.2.tar.gz --markdown 20230701/h/herdmod/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 20:25:41] INFO root fetch - processPackages [wom-py]: executing diffoscope
+[2023-07-01 20:25:41] INFO root fetch - processPackages [wom-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wom_py-0.4.2.tar.gz tmp/wom_py-0.5.0.tar.gz --markdown 20230701/w/wom-py/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 20:25:41] INFO root fetch - processPackages [haven-spc]: executing diffoscope
+[2023-07-01 20:25:41] INFO root fetch - processPackages [haven-spc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haven-spc-0.1.0.tar.gz tmp/haven-spc-23.7.1.tar.gz --markdown 20230701/h/haven-spc/0.1.0-23.7.1/diff.md --exclude *.pyd
+[2023-07-01 20:25:41] INFO root fetch - processPackages [py_canoe]: Downloading https://files.pythonhosted.org/packages/9c/cf/0f39110323bb3262fd43285a2b4de9b80e4752e9b21f84c0ce8636b97de5/py_canoe-0.1.2.tar.gz
+[2023-07-01 20:25:41] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/06/4c/773109d60eb1b4256a4568b5c76293ed8f29bc7449279a6c42a19a809115/unitsnet-py-0.1.42.tar.gz
+[2023-07-01 20:25:41] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-07-01 20:25:41] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.41.tar.gz tmp/unitsnet-py-0.1.42.tar.gz --markdown 20230701/u/unitsnet-py/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-07-01 20:25:41] INFO root fetch - processPackages [cloudmesh-gpu]: Downloading https://files.pythonhosted.org/packages/ce/11/e8b38cda2cbf2c3296f8e20319978a7581028a270741cecfcbb18c9a10bd/cloudmesh-gpu-4.3.9.tar.gz
+[2023-07-01 20:25:41] INFO root fetch - processPackages [py_canoe]: executing diffoscope
+[2023-07-01 20:25:41] INFO root fetch - processPackages [py_canoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_canoe-0.1.1.tar.gz tmp/py_canoe-0.1.2.tar.gz --markdown 20230701/p/py_canoe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 20:25:41] INFO root fetch - processPackages [cloudmesh-gpu]: executing diffoscope
+[2023-07-01 20:25:41] INFO root fetch - processPackages [cloudmesh-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudmesh-gpu-4.3.8.tar.gz tmp/cloudmesh-gpu-4.3.9.tar.gz --markdown 20230701/c/cloudmesh-gpu/4.3.8-4.3.9/diff.md --exclude *.pyd
+[2023-07-01 20:25:42] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.1.1.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - processPackages [herdmod]: Remove: archive file [/home/abi/fetcher/tmp/herdmod-0.1.2.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - main [MainThread]: End processing [herdmod]: success
+[2023-07-01 20:25:42] INFO root fetch - processPackages [py_canoe]: Remove: archive file [/home/abi/fetcher/tmp/py_canoe-0.1.1.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - processPackages [py_canoe]: Remove: archive file [/home/abi/fetcher/tmp/py_canoe-0.1.2.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - main [MainThread]: End processing [py_canoe]: success
+[2023-07-01 20:25:42] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.4.2.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - processPackages [wom-py]: Remove: archive file [/home/abi/fetcher/tmp/wom_py-0.5.0.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - main [MainThread]: End processing [wom-py]: success
+[2023-07-01 20:25:42] INFO root fetch - processPackages [cloudmesh-gpu]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-gpu-4.3.8.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - processPackages [cloudmesh-gpu]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-gpu-4.3.9.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - main [MainThread]: End processing [cloudmesh-gpu]: success
+[2023-07-01 20:25:42] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.0.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.1.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 20:25:42] INFO root fetch - processPackages [haven-spc]: Remove: archive file [/home/abi/fetcher/tmp/haven-spc-0.1.0.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - processPackages [haven-spc]: Remove: archive file [/home/abi/fetcher/tmp/haven-spc-23.7.1.tar.gz]
+[2023-07-01 20:25:42] INFO root fetch - main [MainThread]: End processing [haven-spc]: success
+[2023-07-01 20:25:43] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.41.tar.gz]
+[2023-07-01 20:25:43] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.42.tar.gz]
+[2023-07-01 20:25:43] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-07-01 20:25:43] INFO root fetch - main [MainThread]: Store serial: [18723998]
