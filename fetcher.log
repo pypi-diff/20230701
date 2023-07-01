@@ -19214,3 +19214,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:50:32] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.9.tar.gz]
 [2023-07-01 21:50:32] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-07-01 21:50:32] INFO root fetch - main [MainThread]: Store serial: [18724345]
+[2023-07-01 21:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724345]
+[2023-07-01 21:55:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 21:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dwave-cloud-client
+[2023-07-01 21:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ediri-scaleway
+[2023-07-01 21:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reasoner-validator
+[2023-07-01 21:55:41] INFO root fetch - processPackages [ediri-scaleway]: New version: [2.22.0] Old Version: [2.21.0]
+[2023-07-01 21:55:41] INFO root fetch - processPackages [dwave-cloud-client]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-01 21:55:41] INFO root fetch - processPackages [reasoner-validator]: New version: [3.6.4] Old Version: [3.6.2]
+[2023-07-01 21:55:41] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/b5/0e/6b0f15fa4bf48760546f0611e5b9a42b0d83c3dee70035248399d1710211/ediri_scaleway-2.21.0.tar.gz
+[2023-07-01 21:55:41] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/22/cb/f4008f488674ef90ae67c3d8c00019d23f4fab957bd4043cc24b474e8f62/reasoner_validator-3.6.2.tar.gz
+[2023-07-01 21:55:41] INFO root fetch - processPackages [dwave-cloud-client]: Downloading https://files.pythonhosted.org/packages/00/28/73df40c7c455d27936fb674b3d16bed8b2ee6215d77478adfc2adc81a2e8/dwave-cloud-client-0.9.4.tar.gz
+[2023-07-01 21:55:42] INFO root fetch - processPackages [ediri-scaleway]: Downloading https://files.pythonhosted.org/packages/85/51/a4f6044d61f5cef10237a25a2eaf5acd95277f4fda7bb32bd343f56785e0/ediri_scaleway-2.22.0.tar.gz
+[2023-07-01 21:55:42] INFO root fetch - processPackages [reasoner-validator]: Downloading https://files.pythonhosted.org/packages/d6/98/05195e20b05b2835d2a70ad033a4c1d9713375f6c85b363f2aab71313670/reasoner_validator-3.6.4.tar.gz
+[2023-07-01 21:55:42] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-07-01 21:55:42] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.6.2.tar.gz tmp/reasoner_validator-3.6.4.tar.gz --markdown 20230701/r/reasoner-validator/3.6.2-3.6.4/diff.md --exclude *.pyd
+[2023-07-01 21:55:42] INFO root fetch - processPackages [ediri-scaleway]: executing diffoscope
+[2023-07-01 21:55:42] INFO root fetch - processPackages [ediri-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_scaleway-2.21.0.tar.gz tmp/ediri_scaleway-2.22.0.tar.gz --markdown 20230701/e/ediri-scaleway/2.21.0-2.22.0/diff.md --exclude *.pyd
+[2023-07-01 21:55:42] INFO root fetch - processPackages [dwave-cloud-client]: Downloading https://files.pythonhosted.org/packages/05/8e/4b2082d60832fd2a1697a9f7ad08eed7488d1f195836abb2fd0f0308a555/dwave-cloud-client-0.9.5.tar.gz
+[2023-07-01 21:55:42] INFO root fetch - processPackages [dwave-cloud-client]: executing diffoscope
+[2023-07-01 21:55:42] INFO root fetch - processPackages [dwave-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave-cloud-client-0.9.4.tar.gz tmp/dwave-cloud-client-0.9.5.tar.gz --markdown 20230701/d/dwave-cloud-client/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-01 21:55:43] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.2.tar.gz]
+[2023-07-01 21:55:43] INFO root fetch - processPackages [reasoner-validator]: Remove: archive file [/home/abi/fetcher/tmp/reasoner_validator-3.6.4.tar.gz]
+[2023-07-01 21:55:43] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-07-01 21:55:43] INFO root fetch - processPackages [dwave-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/dwave-cloud-client-0.9.4.tar.gz]
+[2023-07-01 21:55:43] INFO root fetch - processPackages [dwave-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/dwave-cloud-client-0.9.5.tar.gz]
+[2023-07-01 21:55:43] INFO root fetch - main [MainThread]: End processing [dwave-cloud-client]: success
+[2023-07-01 21:55:46] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.21.0.tar.gz]
+[2023-07-01 21:55:46] INFO root fetch - processPackages [ediri-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/ediri_scaleway-2.22.0.tar.gz]
+[2023-07-01 21:55:46] INFO root fetch - main [MainThread]: End processing [ediri-scaleway]: success
+[2023-07-01 21:55:46] INFO root fetch - main [MainThread]: Store serial: [18724353]
