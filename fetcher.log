@@ -9128,3 +9128,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:49:31] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.99.tar.gz]
 [2023-07-01 06:49:31] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-07-01 06:49:31] INFO root fetch - main [MainThread]: Store serial: [18719857]
+[2023-07-01 06:54:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719857]
+[2023-07-01 06:54:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airball
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macdocpy
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcan
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagrid
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logrich
+[2023-07-01 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BeeDrive
+[2023-07-01 06:54:39] INFO root fetch - processPackages [logrich]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-01 06:54:39] INFO root fetch - processPackages [airball]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-01 06:54:40] WARNING root fetch - processPackages [macdocpy]: Skipping, unable to determine old version
+[2023-07-01 06:54:40] INFO root fetch - main [MainThread]: End processing [macdocpy] error
+[2023-07-01 06:54:40] INFO root fetch - processPackages [arcan]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-01 06:54:40] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 06:54:40] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a2] Old Version: [6.0.0a1]
+[2023-07-01 06:54:40] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/cb/4d/71b217ffa76349bc6dfe750451addec15e5a2936f12c72bdc65e6f905da0/pulumi_aws-6.0.0a1.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [BeeDrive]: New version: [0.4.0.0] Old Version: [0.3.7.1]
+[2023-07-01 06:54:40] INFO root fetch - processPackages [logrich]: Downloading https://files.pythonhosted.org/packages/85/0d/5b876c91d072dc145020aca3e94767b001e0c2289c109ef1089b92f50008/logrich-0.7.3.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/6a/df/0bb2bdb7c4f9b00622f576d5bfa3e64bc9fc4125e30758180c5f6fbaf8c6/arcan-1.3.2.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/aa/82/3708a9537a92d2a6e8e719070f2fdfa8d302627aa34d8e0364761c85c556/airball-0.4.2.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [BeeDrive]: Downloading https://files.pythonhosted.org/packages/a2/cb/42f8b980de6e42a220f194824cfdce16d451f015945f903ccee14fddce0a/BeeDrive-0.3.7.1.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-07-01 06:54:40] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230701/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 06:54:40] INFO root fetch - processPackages [arcan]: Downloading https://files.pythonhosted.org/packages/af/36/6514216ce7a0fdd995766f355a34273c05523589e7f5b3f8d9601bebc969/arcan-1.3.3.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [arcan]: executing diffoscope
+[2023-07-01 06:54:40] INFO root fetch - processPackages [arcan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcan-1.3.2.tar.gz tmp/arcan-1.3.3.tar.gz --markdown 20230701/a/arcan/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-01 06:54:40] INFO root fetch - processPackages [BeeDrive]: Downloading https://files.pythonhosted.org/packages/1f/17/d15bfc9f52a40996fe937dbbc9aa44dd5a445b092ff92c5da6e0ef90d549/BeeDrive-0.4.0.0.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/c1/e0/3301415e6673a3ca90b1b33968bc8018662de35dd80aec8e92f93264a460/pulumi_aws-6.0.0a2.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [logrich]: Downloading https://files.pythonhosted.org/packages/07/9d/d6ee3b8067956bb3cdf9a82ca3484b8564e6c7e14a301293edfec028374e/logrich-0.7.4.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [airball]: Downloading https://files.pythonhosted.org/packages/c0/3b/3d0d192cf689594762ca6e9cd99ee1648c75194982aab891f68de5065b25/airball-0.4.3.tar.gz
+[2023-07-01 06:54:40] INFO root fetch - processPackages [airball]: executing diffoscope
+[2023-07-01 06:54:40] INFO root fetch - processPackages [airball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airball-0.4.2.tar.gz tmp/airball-0.4.3.tar.gz --markdown 20230701/a/airball/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-01 06:54:40] INFO root fetch - processPackages [logrich]: executing diffoscope
+[2023-07-01 06:54:40] INFO root fetch - processPackages [logrich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logrich-0.7.3.tar.gz tmp/logrich-0.7.4.tar.gz --markdown 20230701/l/logrich/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-01 06:54:40] INFO root fetch - processPackages [BeeDrive]: executing diffoscope
+[2023-07-01 06:54:40] INFO root fetch - processPackages [BeeDrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeeDrive-0.3.7.1.tar.gz tmp/BeeDrive-0.4.0.0.tar.gz --markdown 20230701/B/BeeDrive/0.3.7.1-0.4.0.0/diff.md --exclude *.pyd
+[2023-07-01 06:54:40] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-07-01 06:54:40] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a1.tar.gz tmp/pulumi_aws-6.0.0a2.tar.gz --markdown 20230701/p/pulumi-aws/6.0.0a1-6.0.0a2/diff.md --exclude *.pyd
+[2023-07-01 06:54:41] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.2.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - processPackages [arcan]: Remove: archive file [/home/abi/fetcher/tmp/arcan-1.3.3.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - main [MainThread]: End processing [arcan]: success
+[2023-07-01 06:54:41] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-07-01 06:54:41] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.2.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - processPackages [airball]: Remove: archive file [/home/abi/fetcher/tmp/airball-0.4.3.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - main [MainThread]: End processing [airball]: success
+[2023-07-01 06:54:41] INFO root fetch - processPackages [logrich]: Remove: archive file [/home/abi/fetcher/tmp/logrich-0.7.3.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - processPackages [logrich]: Remove: archive file [/home/abi/fetcher/tmp/logrich-0.7.4.tar.gz]
+[2023-07-01 06:54:41] INFO root fetch - main [MainThread]: End processing [logrich]: success
+[2023-07-01 06:54:42] INFO root fetch - processPackages [BeeDrive]: Remove: archive file [/home/abi/fetcher/tmp/BeeDrive-0.3.7.1.tar.gz]
+[2023-07-01 06:54:42] INFO root fetch - processPackages [BeeDrive]: Remove: archive file [/home/abi/fetcher/tmp/BeeDrive-0.4.0.0.tar.gz]
+[2023-07-01 06:54:42] INFO root fetch - main [MainThread]: End processing [BeeDrive]: success
+[2023-07-01 06:55:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a1.tar.gz]
+[2023-07-01 06:55:37] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a2.tar.gz]
+[2023-07-01 06:55:37] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-07-01 06:55:37] INFO root fetch - main [MainThread]: Store serial: [18719879]
