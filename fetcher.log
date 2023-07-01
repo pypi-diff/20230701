@@ -19412,3 +19412,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:11:51] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a3.tar.gz]
 [2023-07-01 22:11:51] INFO root fetch - main [MainThread]: End processing [zfit]: success
 [2023-07-01 22:11:51] INFO root fetch - main [MainThread]: Store serial: [18724412]
+[2023-07-01 22:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724412]
+[2023-07-01 22:17:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 22:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotify-recommender-api
+[2023-07-01 22:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgBench
+[2023-07-01 22:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaogmaneo
+[2023-07-01 22:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdsetup
+[2023-07-01 22:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mltrainer
+[2023-07-01 22:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neuralpit
+[2023-07-01 22:17:00] INFO root fetch - processPackages [AlgBench]: New version: [2.0.0] Old Version: [1.1.0]
+[2023-07-01 22:17:00] WARNING root fetch - processPackages [mdsetup]: Skipping, unable to determine old version
+[2023-07-01 22:17:00] INFO root fetch - processPackages [mltrainer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 22:17:00] INFO root fetch - main [MainThread]: End processing [mdsetup] error
+[2023-07-01 22:17:00] INFO root fetch - processPackages [neuralpit]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-01 22:17:00] INFO root fetch - processPackages [pyaogmaneo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-01 22:17:00] INFO root fetch - processPackages [spotify-recommender-api]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-07-01 22:17:00] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/96/10/edbafdd4ea9a05e0c1971852570fd4761746b2517138e8e1cb9be66406e6/mltrainer-0.1.5.tar.gz
+[2023-07-01 22:17:00] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/f2/16/7b7e38ce8a1984b81c2f483fee83dc49c6b2d0ac8aad716b99feb0d8102c/spotify_recommender_api-4.4.0-py3-none-any.whl
+[2023-07-01 22:17:01] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/be/e0/e478b309add6911888faad2f1cc1705afc7b3c7877f707a5faa7c65a13a0/neuralpit-2.0.0.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [AlgBench]: Downloading https://files.pythonhosted.org/packages/1e/05/c11b47f76772906902ed6f2a57ede4472c329cb8e269d72abf33eb6bf830/AlgBench-1.1.0.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/e5/bb/dba82cc77f3d646616d4da6b3256795d1e483b80c24a13cef7591b874d71/pyaogmaneo-2.0.8.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [mltrainer]: Downloading https://files.pythonhosted.org/packages/05/db/81dcd1d80cfd5fb3ede90c74f678e3cc8100207cf60f4ac7602de4500987/mltrainer-0.1.6.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/31/b1/6adccb42e4cb1b8d778b156815c259dfffa625b1cc76a3c5986a59cc255e/spotify_recommender_api-4.4.1-py3-none-any.whl
+[2023-07-01 22:17:01] INFO root fetch - processPackages [mltrainer]: executing diffoscope
+[2023-07-01 22:17:01] INFO root fetch - processPackages [mltrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltrainer-0.1.5.tar.gz tmp/mltrainer-0.1.6.tar.gz --markdown 20230701/m/mltrainer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 22:17:01] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-07-01 22:17:01] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-4.4.0-py3-none-any.whl.zip tmp/spotify_recommender_api-4.4.1-py3-none-any.whl.zip --markdown 20230701/s/spotify-recommender-api/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-07-01 22:17:01] INFO root fetch - processPackages [neuralpit]: Downloading https://files.pythonhosted.org/packages/6c/bc/0af9a0732e0ec760fbd435521adcc7ecfa818c7b682904705b6d5233907e/neuralpit-2.0.1.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [AlgBench]: Downloading https://files.pythonhosted.org/packages/a6/3c/7bcb84d075fbd05b6a447d8de237fea76868e3f5e707f89dfe943bdb47b4/AlgBench-2.0.0.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [neuralpit]: executing diffoscope
+[2023-07-01 22:17:01] INFO root fetch - processPackages [neuralpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuralpit-2.0.0.tar.gz tmp/neuralpit-2.0.1.tar.gz --markdown 20230701/n/neuralpit/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-01 22:17:01] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/3f/3f/ea733b01e121216157c9e34e2d6c90487d3643fd59e9d82976ea79e6676b/pyaogmaneo-2.0.9.tar.gz
+[2023-07-01 22:17:01] INFO root fetch - processPackages [pyaogmaneo]: executing diffoscope
+[2023-07-01 22:17:01] INFO root fetch - processPackages [pyaogmaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaogmaneo-2.0.8.tar.gz tmp/pyaogmaneo-2.0.9.tar.gz --markdown 20230701/p/pyaogmaneo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-01 22:17:01] INFO root fetch - processPackages [AlgBench]: executing diffoscope
+[2023-07-01 22:17:01] INFO root fetch - processPackages [AlgBench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgBench-1.1.0.tar.gz tmp/AlgBench-2.0.0.tar.gz --markdown 20230701/A/AlgBench/1.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-01 22:17:02] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.5.tar.gz]
+[2023-07-01 22:17:02] INFO root fetch - processPackages [mltrainer]: Remove: archive file [/home/abi/fetcher/tmp/mltrainer-0.1.6.tar.gz]
+[2023-07-01 22:17:02] INFO root fetch - main [MainThread]: End processing [mltrainer]: success
+[2023-07-01 22:17:02] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.0.tar.gz]
+[2023-07-01 22:17:02] INFO root fetch - processPackages [neuralpit]: Remove: archive file [/home/abi/fetcher/tmp/neuralpit-2.0.1.tar.gz]
+[2023-07-01 22:17:02] INFO root fetch - main [MainThread]: End processing [neuralpit]: success
+[2023-07-01 22:17:02] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.4.0-py3-none-any.whl.zip]
+[2023-07-01 22:17:02] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.4.1-py3-none-any.whl.zip]
+[2023-07-01 22:17:02] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-07-01 22:17:02] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.0.8.tar.gz]
+[2023-07-01 22:17:02] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.0.9.tar.gz]
+[2023-07-01 22:17:02] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
+[2023-07-01 22:17:03] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-1.1.0.tar.gz]
+[2023-07-01 22:17:03] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-2.0.0.tar.gz]
+[2023-07-01 22:17:03] INFO root fetch - main [MainThread]: End processing [AlgBench]: success
+[2023-07-01 22:17:03] INFO root fetch - main [MainThread]: Store serial: [18724431]
