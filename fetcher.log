@@ -15808,3 +15808,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
 [2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
 [2023-07-01 17:30:03] INFO root fetch - main [MainThread]: Store serial: [18722818]
+[2023-07-01 17:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722818]
+[2023-07-01 17:35:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ErwannCacaSurEvann
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyon
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dark-gateway
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyNyaaTa
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lokzzpylibrary
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reflex-debounce-input
+[2023-07-01 17:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oexp
+[2023-07-01 17:35:14] ERROR root fetch - processPackages [ErwannCacaSurEvann]: Unable to get metadata: No such project 'ErwannCacaSurEvann'
+[2023-07-01 17:35:14] INFO root fetch - main [MainThread]: End processing [ErwannCacaSurEvann] error
+[2023-07-01 17:35:14] INFO root fetch - processPackages [dark-gateway]: New version: [0.0.1rc0] Old Version: [0.0.1a0]
+[2023-07-01 17:35:14] INFO root fetch - processPackages [anyon]: New version: [3.5.2] Old Version: [3.4.7]
+[2023-07-01 17:35:14] INFO root fetch - processPackages [lokzzpylibrary]: New version: [0.1.dev17] Old Version: [0.1.dev16]
+[2023-07-01 17:35:14] INFO root fetch - processPackages [oexp]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-07-01 17:35:14] INFO root fetch - processPackages [PyNyaaTa]: New version: [202307011532] Old Version: [202307011515]
+[2023-07-01 17:35:14] WARNING root fetch - processPackages [reflex-debounce-input]: Skipping, unable to determine old version
+[2023-07-01 17:35:14] INFO root fetch - main [MainThread]: End processing [reflex-debounce-input] error
+[2023-07-01 17:35:14] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/0b/75/a457e775bc9c43f52d54f103bec2789c336c6f7e59961b04ab603f9c6d59/PyNyaaTa-202307011515.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/85/4c/bde62c7c187f4ca63e5947fe17cae936a6b9dd01e8afe47026f824763809/oexp-0.8.5.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/73/b3/e4a3b435274f542ba42b7b623ef63fa69d968475316303fa7c51154db57d/lokzzpylibrary-0.1.dev16.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/a1/58/ea6a6f99ff8e30866c1a96571a9280f82e1306dfc634248407be70cbbb89/dark-gateway-0.0.1a0.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/cb/0a/03a46f130d204fecaf242e9a0aa8a5125b4f23aa610db3b1ed598c23fd24/anyon-3.4.7-cp311-none-win_amd64.whl
+[2023-07-01 17:35:14] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/a8/31/f4f8c82d93f79a2969ce1e754a862acf207431d0f462f085d4b44a8d2ffb/oexp-0.9.0.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-07-01 17:35:14] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.8.5.tar.gz tmp/oexp-0.9.0.tar.gz --markdown 20230701/o/oexp/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 17:35:14] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/45/33/f69515fdb0d829d16367d1cbbe5ff1d270186bc83cf52335b8dbdb03abbc/lokzzpylibrary-0.1.dev17.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [dark-gateway]: Downloading https://files.pythonhosted.org/packages/80/98/06b26f0bb751a0e267656d4269cecb66fe8101a5a4b1c9a5947d602dd1ad/dark-gateway-0.0.1rc0.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/4a/89/fac35e898c9ed4baf3e2f94e6e20499c448289b454d7f85f00a6637b04a1/anyon-3.5.2-cp311-none-win_amd64.whl
+[2023-07-01 17:35:14] INFO root fetch - processPackages [PyNyaaTa]: Downloading https://files.pythonhosted.org/packages/1c/80/13794b11aa5b4f7089eff03a716a44a5978f32955d0af8a527e358187184/PyNyaaTa-202307011532.tar.gz
+[2023-07-01 17:35:14] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-07-01 17:35:14] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.4.7-cp311-none-win_amd64.whl.zip tmp/anyon-3.5.2-cp311-none-win_amd64.whl.zip --markdown 20230701/a/anyon/3.4.7-3.5.2/diff.md --exclude *.pyd
+[2023-07-01 17:35:15] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-07-01 17:35:15] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202307011515.tar.gz tmp/PyNyaaTa-202307011532.tar.gz --markdown 20230701/P/PyNyaaTa/202307011515-202307011532/diff.md --exclude *.pyd
+[2023-07-01 17:35:15] INFO root fetch - processPackages [lokzzpylibrary]: executing diffoscope
+[2023-07-01 17:35:15] INFO root fetch - processPackages [lokzzpylibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylibrary-0.1.dev16.tar.gz tmp/lokzzpylibrary-0.1.dev17.tar.gz --markdown 20230701/l/lokzzpylibrary/0.1.dev16-0.1.dev17/diff.md --exclude *.pyd
+[2023-07-01 17:35:15] INFO root fetch - processPackages [dark-gateway]: executing diffoscope
+[2023-07-01 17:35:15] INFO root fetch - processPackages [dark-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-gateway-0.0.1a0.tar.gz tmp/dark-gateway-0.0.1rc0.tar.gz --markdown 20230701/d/dark-gateway/0.0.1a0-0.0.1rc0/diff.md --exclude *.pyd
+[2023-07-01 17:35:15] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.8.5.tar.gz]
+[2023-07-01 17:35:15] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.9.0.tar.gz]
+[2023-07-01 17:35:15] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-07-01 17:35:15] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.4.7-cp311-none-win_amd64.whl.zip]
+[2023-07-01 17:35:15] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.5.2-cp311-none-win_amd64.whl.zip]
+[2023-07-01 17:35:15] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-07-01 17:35:16] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev16.tar.gz]
+[2023-07-01 17:35:16] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev17.tar.gz]
+[2023-07-01 17:35:16] INFO root fetch - main [MainThread]: End processing [lokzzpylibrary]: success
+[2023-07-01 17:35:16] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.1a0.tar.gz]
+[2023-07-01 17:35:16] INFO root fetch - processPackages [dark-gateway]: Remove: archive file [/home/abi/fetcher/tmp/dark-gateway-0.0.1rc0.tar.gz]
+[2023-07-01 17:35:16] INFO root fetch - main [MainThread]: End processing [dark-gateway]: success
+[2023-07-01 17:35:16] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307011515.tar.gz]
+[2023-07-01 17:35:16] INFO root fetch - processPackages [PyNyaaTa]: Remove: archive file [/home/abi/fetcher/tmp/PyNyaaTa-202307011532.tar.gz]
+[2023-07-01 17:35:16] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-07-01 17:35:16] INFO root fetch - main [MainThread]: Store serial: [18722848]
