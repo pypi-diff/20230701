@@ -10441,3 +10441,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:23:27] INFO root fetch - processPackages [verse-core]: Remove: archive file [/home/abi/fetcher/tmp/verse-core-0.0.9.tar.gz]
 [2023-07-01 09:23:27] INFO root fetch - main [MainThread]: End processing [verse-core]: success
 [2023-07-01 09:23:27] INFO root fetch - main [MainThread]: Store serial: [18720366]
+[2023-07-01 09:28:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720366]
+[2023-07-01 09:28:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stability-matrix-tools
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xklb
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frequenz-repo-config
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpru
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stability-matrix-tools
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pip-tools
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telegramweb
+[2023-07-01 09:28:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: statute-utils
+[2023-07-01 09:28:36] INFO root fetch - processPackages [statute-utils]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [gpru]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [frequenz-repo-config]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [telegramweb]: New version: [5.3] Old Version: [5.2]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [pip-tools]: New version: [6.9.0] Old Version: [6.8.0]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-07-01 09:28:36] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/28/91/cef90e95861c19efecdc5d9514e52229ab3420a0899253795badc268b2b9/statute_utils-0.5.0.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/6f/0a/506c057df09f073e805ca5ec6a9d079b08d3dc68f1880b94adad1a323e5f/stability_matrix_tools-0.1.5.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/6f/0a/506c057df09f073e805ca5ec6a9d079b08d3dc68f1880b94adad1a323e5f/stability_matrix_tools-0.1.5.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/88/92/6432e3685bc538be4c99378b80413b9ed925b90fef9e4eed87ca235c9093/statute_utils-0.5.1.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [gpru]: Downloading https://files.pythonhosted.org/packages/46/ca/616d5726c0b6eb39e51fc7cb587ee66c0e885b3fd61815404cab89a1a7aa/gpru-0.0.3.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/e0/f4/3721bbed67243e27b1c38cfce9c82e53495ae9a8e19c8ea7395af1dfd705/telegramweb-5.2.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [frequenz-repo-config]: Downloading https://files.pythonhosted.org/packages/e9/25/dc56157d8daba235a068b0e9068c3e1d2e654a409054f585edd0c5349921/frequenz-repo-config-0.2.0.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [pip-tools]: Downloading https://files.pythonhosted.org/packages/1f/79/1a4eee18c8ab0afc3b8f39460684951769053a0eda7d4d319af965e5701a/pip-tools-6.8.0.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-01 09:28:36] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.5.0.tar.gz tmp/statute_utils-0.5.1.tar.gz --markdown 20230701/s/statute-utils/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-01 09:28:36] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/8b/19/0227338a69dde33bf8affe6502e0c36315d203525d351429735cee8cfb25/stability_matrix_tools-0.1.6.tar.gz
+[2023-07-01 09:28:36] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/8b/19/0227338a69dde33bf8affe6502e0c36315d203525d351429735cee8cfb25/stability_matrix_tools-0.1.6.tar.gz
+[2023-07-01 09:28:37] INFO root fetch - processPackages [gpru]: Downloading https://files.pythonhosted.org/packages/f4/c0/b8d22566179fa0b7ff06b4942451355348524ecf48b5ba95f6fe5d1c314f/gpru-0.1.0.tar.gz
+[2023-07-01 09:28:37] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.1.5.tar.gz tmp/stability_matrix_tools-0.1.6.tar.gz --markdown 20230701/s/stability-matrix-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 09:28:37] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.1.5.tar.gz tmp/stability_matrix_tools-0.1.6.tar.gz --markdown 20230701/s/stability-matrix-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 09:28:37] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/14/4c/9e0a9118dcbe2c2fd5d202e1864c3f426efaa3df0a8d3da54df3177b3478/telegramweb-5.3.tar.gz
+[2023-07-01 09:28:37] INFO root fetch - processPackages [frequenz-repo-config]: Downloading https://files.pythonhosted.org/packages/8a/01/953ecc8c7882e796a210a11a08eadd593e9b8b5965e3caa63c170e845d49/frequenz-repo-config-0.3.0.tar.gz
+[2023-07-01 09:28:37] INFO root fetch - processPackages [gpru]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [gpru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpru-0.0.3.tar.gz tmp/gpru-0.1.0.tar.gz --markdown 20230701/g/gpru/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-01 09:28:37] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-5.2.tar.gz tmp/telegramweb-5.3.tar.gz --markdown 20230701/t/telegramweb/5.2-5.3/diff.md --exclude *.pyd
+[2023-07-01 09:28:37] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-07-01 09:28:37] INFO root fetch - processPackages [pip-tools]: Downloading https://files.pythonhosted.org/packages/cc/1c/dadd465f327dbe49d77d8d3bcd651607d3169a04ce06c7bf86fec8005425/pip-tools-6.9.0.tar.gz
+[2023-07-01 09:28:37] INFO root fetch - processPackages [frequenz-repo-config]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [frequenz-repo-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-repo-config-0.2.0.tar.gz tmp/frequenz-repo-config-0.3.0.tar.gz --markdown 20230701/f/frequenz-repo-config/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 09:28:37] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230701/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-07-01 09:28:37] INFO root fetch - processPackages [pip-tools]: executing diffoscope
+[2023-07-01 09:28:37] INFO root fetch - processPackages [pip-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-tools-6.8.0.tar.gz tmp/pip-tools-6.9.0.tar.gz --markdown 20230701/p/pip-tools/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2023-07-01 09:28:38] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.0.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.1.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-01 09:28:38] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.2.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-5.3.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-01 09:28:38] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.5.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.6.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-01 09:28:38] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-01 09:28:38] INFO root fetch - processPackages [frequenz-repo-config]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-repo-config-0.2.0.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - processPackages [frequenz-repo-config]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-repo-config-0.3.0.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - main [MainThread]: End processing [frequenz-repo-config]: success
+[2023-07-01 09:28:38] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-07-01 09:28:38] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-07-01 09:28:39] INFO root fetch - processPackages [gpru]: Remove: archive file [/home/abi/fetcher/tmp/gpru-0.0.3.tar.gz]
+[2023-07-01 09:28:39] INFO root fetch - processPackages [gpru]: Remove: archive file [/home/abi/fetcher/tmp/gpru-0.1.0.tar.gz]
+[2023-07-01 09:28:39] INFO root fetch - main [MainThread]: End processing [gpru]: success
+[2023-07-01 09:28:39] INFO root fetch - processPackages [pip-tools]: Remove: archive file [/home/abi/fetcher/tmp/pip-tools-6.8.0.tar.gz]
+[2023-07-01 09:28:39] INFO root fetch - processPackages [pip-tools]: Remove: archive file [/home/abi/fetcher/tmp/pip-tools-6.9.0.tar.gz]
+[2023-07-01 09:28:39] INFO root fetch - main [MainThread]: End processing [pip-tools]: success
+[2023-07-01 09:28:39] INFO root fetch - main [MainThread]: Store serial: [18720390]
