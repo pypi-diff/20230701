@@ -10946,3 +10946,102 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:05:22] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2023.7.0.tar.gz]
 [2023-07-01 10:05:22] INFO root fetch - main [MainThread]: End processing [posuto]: success
 [2023-07-01 10:05:22] INFO root fetch - main [MainThread]: Store serial: [18720547]
+[2023-07-01 10:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720547]
+[2023-07-01 10:10:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyrics-transcriber
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymultithreading
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FiveMCipherFinder
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidypath
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stravalib
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrepresent
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backup-warden
+[2023-07-01 10:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sweepai
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pymultithreading]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [tidypath]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230701] Old Version: [0.3.1.dev20230630]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [lyrics-transcriber]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pyrepresent]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [FiveMCipherFinder]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [stravalib]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-01 10:10:31] ERROR root fetch - processPackages [backup-warden]: Unable to get metadata: No such project 'backup-warden'
+[2023-07-01 10:10:31] INFO root fetch - processPackages [backup-warden]: Start processing: pyspark-ai
+[2023-07-01 10:10:31] INFO root fetch - main [MainThread]: End processing [backup-warden] error
+[2023-07-01 10:10:31] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [sweepai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/27/15/46966817c2f63577929d7bf6f1340d559a535c5609a0b91519d0b22891de/pymultithreading-0.2.4.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pyspark-ai]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-01 10:10:31] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/21/75/1844a43e43f2f6f1e18a5ddae7cb54a1dee02c3bdae3b55fef24e85babf0/tidypath-1.1.6.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/fe/fa/a89d80c14609624056e11c3b68dcc5d7ecf1d4583546f722123ac0e101ac/pyrepresent-0.1.3.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/11/a6/8d598e8f62c3160f08b32de27cd4b782b676e9cb304ddd3467469ce79c2e/sweepai-0.1.1.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/47/ba/60d333367d5234644117c852350b81c9f7068958610116eca77a51b83d9c/pyglove-0.3.1.dev20230630.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/b1/45/f5651f1a88da9cf0132dafcc90924da99789a314f9fe908564b4ea1d3eb1/pyspark_ai-0.1.6.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/4c/78/8ab58c56cfe1209c4dfa5e6b1972a4a0f1542d559799cf01456bba80e2ed/lyrics_transcriber-0.3.0.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/97/62/aedaf5b0ea5725a6f5275f22ed6571ad1f9d53511b6b1c71046e73b6862f/Denoising_Diffusion_Probabilistic_Models-1.0.1-py3-none-any.whl
+[2023-07-01 10:10:31] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/e3/8a/a4933d040a1976d90d66a8b5e3ad191952a65ea823e4ef7bc24e87b28739/sweepai-0.1.2.tar.gz
+[2023-07-01 10:10:31] INFO root fetch - processPackages [stravalib]: Downloading https://files.pythonhosted.org/packages/18/68/a7026f18f1d77b782ef93ed263a26e26c8ca9b3cf2ffa68dad872d82f017/stravalib-1.3.1.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/01/36/86a8a8e16624b1ed164976a48fb28dc61fa6250c12c0f3f9c3604db7ffcf/FiveMCipherFinder-1.7.0.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/70/49/3f78f163668df5587f95eaf33275930fa491420e3b53105cc39cddfc8b0d/pyspark_ai-0.1.7.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/49/05/7f1287fedd815b6a676d3e43176d56893ab71b30db8d51a9ef2be2c55162/pyrepresent-0.1.4.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pymultithreading]: Downloading https://files.pythonhosted.org/packages/7b/8c/c7c9d0e0d361be69d3043aaab9f66e20106cad88527e8d835156e10b8442/pymultithreading-0.2.5.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.1.tar.gz tmp/sweepai-0.1.2.tar.gz --markdown 20230701/s/sweepai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/62/42/7d01132c2b002b5d9076d7401567adbee2b51897ed93f5c3ab890aa7620f/pyglove-0.3.1.dev20230701.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/7d/02/296c62305110edd263e94a9abbff545efd2d37ef6cb02153739345fe630e/tidypath-1.1.7.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyspark-ai]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyspark-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_ai-0.1.6.tar.gz tmp/pyspark_ai-0.1.7.tar.gz --markdown 20230701/p/pyspark-ai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.1.3.tar.gz tmp/pyrepresent-0.1.4.tar.gz --markdown 20230701/p/pyrepresent/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [lyrics-transcriber]: Downloading https://files.pythonhosted.org/packages/4d/60/9c7f47597001194e2570f52b4451d7c64a5ca48663ab3cf852a708442a05/lyrics_transcriber-0.3.1.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pymultithreading]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pymultithreading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultithreading-0.2.4.tar.gz tmp/pymultithreading-0.2.5.tar.gz --markdown 20230701/p/pymultithreading/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.1.6.tar.gz tmp/tidypath-1.1.7.tar.gz --markdown 20230701/t/tidypath/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230630.tar.gz tmp/pyglove-0.3.1.dev20230701.tar.gz --markdown 20230701/p/pyglove/0.3.1.dev20230630-0.3.1.dev20230701/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/39/41/24c8540844caa435e92fb0bf650945b77b7ca66aff8daef009510a183f6a/Denoising_Diffusion_Probabilistic_Models-1.0.2-py3-none-any.whl
+[2023-07-01 10:10:32] INFO root fetch - processPackages [stravalib]: Downloading https://files.pythonhosted.org/packages/85/61/bda22df50ec0e39f3fca569940ca41819338ffe2a30ed18335da5ed028df/stravalib-1.3.2.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [FiveMCipherFinder]: Downloading https://files.pythonhosted.org/packages/72/b7/32fa7ee900d04e357f0e76a96a5b574be8053371d30e4af05c4bf51f46d9/FiveMCipherFinder-1.9.0.tar.gz
+[2023-07-01 10:10:32] INFO root fetch - processPackages [lyrics-transcriber]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [lyrics-transcriber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_transcriber-0.3.0.tar.gz tmp/lyrics_transcriber-0.3.1.tar.gz --markdown 20230701/l/lyrics-transcriber/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-1.0.1-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-1.0.2-py3-none-any.whl.zip --markdown 20230701/D/Denoising-Diffusion-Probabilistic-Models/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [FiveMCipherFinder]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [FiveMCipherFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiveMCipherFinder-1.7.0.tar.gz tmp/FiveMCipherFinder-1.9.0.tar.gz --markdown 20230701/F/FiveMCipherFinder/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-01 10:10:32] INFO root fetch - processPackages [stravalib]: executing diffoscope
+[2023-07-01 10:10:32] INFO root fetch - processPackages [stravalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stravalib-1.3.1.tar.gz tmp/stravalib-1.3.2.tar.gz --markdown 20230701/s/stravalib/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-01 10:10:33] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.6.tar.gz]
+[2023-07-01 10:10:33] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.7.tar.gz]
+[2023-07-01 10:10:33] INFO root fetch - processPackages [pyspark-ai]: Start processing: aunly-captcha-infer
+[2023-07-01 10:10:33] INFO root fetch - main [MainThread]: End processing [pyspark-ai]: success
+[2023-07-01 10:10:33] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.3.0.tar.gz]
+[2023-07-01 10:10:33] INFO root fetch - processPackages [lyrics-transcriber]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_transcriber-0.3.1.tar.gz]
+[2023-07-01 10:10:33] INFO root fetch - main [MainThread]: End processing [lyrics-transcriber]: success
+[2023-07-01 10:10:33] WARNING root fetch - processPackages [aunly-captcha-infer]: Skipping, unable to determine old version
+[2023-07-01 10:10:33] INFO root fetch - main [MainThread]: End processing [aunly-captcha-infer] error
+[2023-07-01 10:10:33] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-1.0.1-py3-none-any.whl.zip]
+[2023-07-01 10:10:33] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-1.0.2-py3-none-any.whl.zip]
+[2023-07-01 10:10:33] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-07-01 10:10:33] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.1.3.tar.gz]
+[2023-07-01 10:10:33] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.1.4.tar.gz]
+[2023-07-01 10:10:33] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-07-01 10:10:34] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-1.7.0.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - processPackages [FiveMCipherFinder]: Remove: archive file [/home/abi/fetcher/tmp/FiveMCipherFinder-1.9.0.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - main [MainThread]: End processing [FiveMCipherFinder]: success
+[2023-07-01 10:10:34] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.1.6.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.1.7.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2023-07-01 10:10:34] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.1.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.2.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-01 10:10:34] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.2.4.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - processPackages [pymultithreading]: Remove: archive file [/home/abi/fetcher/tmp/pymultithreading-0.2.5.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - main [MainThread]: End processing [pymultithreading]: success
+[2023-07-01 10:10:34] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230630.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230701.tar.gz]
+[2023-07-01 10:10:34] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-01 10:10:36] INFO root fetch - processPackages [stravalib]: Remove: archive file [/home/abi/fetcher/tmp/stravalib-1.3.1.tar.gz]
+[2023-07-01 10:10:36] INFO root fetch - processPackages [stravalib]: Remove: archive file [/home/abi/fetcher/tmp/stravalib-1.3.2.tar.gz]
+[2023-07-01 10:10:36] INFO root fetch - main [MainThread]: End processing [stravalib]: success
+[2023-07-01 10:10:36] INFO root fetch - main [MainThread]: Store serial: [18720583]
