@@ -11315,3 +11315,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:41:51] INFO root fetch - processPackages [guniflask]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-0.9.2.tar.gz]
 [2023-07-01 10:41:51] INFO root fetch - main [MainThread]: End processing [guniflask]: success
 [2023-07-01 10:41:51] INFO root fetch - main [MainThread]: Store serial: [18720702]
+[2023-07-01 10:46:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720702]
+[2023-07-01 10:46:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spinneroo
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toolcat
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sockets-communication
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talos-install
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gnssrefl
+[2023-07-01 10:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfp-nightly
+[2023-07-01 10:46:59] INFO root fetch - processPackages [sockets-communication]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-01 10:46:59] INFO root fetch - processPackages [toolcat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 10:46:59] INFO root fetch - processPackages [talos-install]: New version: [0.2.0.dev368] Old Version: [0.2.0.dev367]
+[2023-07-01 10:47:00] INFO root fetch - processPackages [gnssrefl]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-07-01 10:47:00] INFO root fetch - processPackages [spinneroo]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-01 10:47:00] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-01 10:47:00] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230701] Old Version: [0.0.1.dev20230630]
+[2023-07-01 10:47:00] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-01 10:47:00] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/7d/3b/56f7374e84ff0497b0fd377277056ce54796ff5d85e237c4d9f680f6e2ba/spinneroo-1.0.1.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [toolcat]: Downloading https://files.pythonhosted.org/packages/60/e0/d787485ec1f21441b9e162276b5fe008ac64afb0e96f0cdb82d77b6e7154/toolcat-0.0.4.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/50/f5/91e4649e461909f4389834491d1892ad595a652554f952ef6eb23b219e10/talos_install-0.2.0.dev367.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/a4/5c/f49ad56cf2935d22d1328bf9170ea052b2eef9de33ec9d65022e09364bfd/gnssrefl-1.3.7.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [sockets-communication]: Downloading https://files.pythonhosted.org/packages/65/f8/4019fe12848517c75a29d73b6734e51fa2047977bf24171b6f4a32cf872f/sockets-communication-1.1.1.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/97/f2/e843bb763439ff322ae421e7f2c3f8ef1db1002ac466829dced69e966734/tff_nightly-0.0.1.dev20230630-py2.py3-none-any.whl
+[2023-07-01 10:47:00] INFO root fetch - processPackages [sockets-communication]: executing diffoscope
+[2023-07-01 10:47:00] INFO root fetch - processPackages [sockets-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sockets-communication-1.1.0.tar.gz tmp/sockets-communication-1.1.1.tar.gz --markdown 20230701/s/sockets-communication/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-01 10:47:00] INFO root fetch - processPackages [toolcat]: Downloading https://files.pythonhosted.org/packages/b4/ee/b26a5afbdbb612808327d853251b7de261f92e123326e172f345766cc964/toolcat-0.0.5.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [spinneroo]: Downloading https://files.pythonhosted.org/packages/72/84/47083d43a4ab9572bd628ef7a715e1c2ef642e81f6920c12bc8f51674fe0/spinneroo-1.1.0.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [talos-install]: Downloading https://files.pythonhosted.org/packages/bd/17/cbfe552e5209799a5037edaf3250ff1b75b48c9b604d3fad132c923c75da/talos_install-0.2.0.dev368.tar.gz
+[2023-07-01 10:47:00] INFO root fetch - processPackages [spinneroo]: executing diffoscope
+[2023-07-01 10:47:00] INFO root fetch - processPackages [spinneroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinneroo-1.0.1.tar.gz tmp/spinneroo-1.1.0.tar.gz --markdown 20230701/s/spinneroo/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 10:47:00] INFO root fetch - processPackages [toolcat]: executing diffoscope
+[2023-07-01 10:47:00] INFO root fetch - processPackages [toolcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolcat-0.0.4.tar.gz tmp/toolcat-0.0.5.tar.gz --markdown 20230701/t/toolcat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 10:47:00] INFO root fetch - processPackages [talos-install]: executing diffoscope
+[2023-07-01 10:47:00] INFO root fetch - processPackages [talos-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talos_install-0.2.0.dev367.tar.gz tmp/talos_install-0.2.0.dev368.tar.gz --markdown 20230701/t/talos-install/0.2.0.dev367-0.2.0.dev368/diff.md --exclude *.pyd
+[2023-07-01 10:47:00] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/cf/6d/85a58a33baecda9f92882447ff497070236d5dd3eb19cd5c1eea6e24bf83/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl
+[2023-07-01 10:47:01] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-01 10:47:01] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230630-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl.zip --markdown 20230701/t/tff-nightly/0.0.1.dev20230630-0.0.1.dev20230701/diff.md --exclude *.pyd
+[2023-07-01 10:47:01] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.1.0.tar.gz]
+[2023-07-01 10:47:01] INFO root fetch - processPackages [sockets-communication]: Remove: archive file [/home/abi/fetcher/tmp/sockets-communication-1.1.1.tar.gz]
+[2023-07-01 10:47:01] INFO root fetch - main [MainThread]: End processing [sockets-communication]: success
+[2023-07-01 10:47:01] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-01 10:47:01] INFO root fetch - processPackages [gnssrefl]: Downloading https://files.pythonhosted.org/packages/58/ca/e783ec5ced96c271dfccce3e4af083e94ee3baec149a1e2374beb8c43fdf/gnssrefl-1.3.8.tar.gz
+[2023-07-01 10:47:01] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.0.1.tar.gz]
+[2023-07-01 10:47:01] INFO root fetch - processPackages [spinneroo]: Remove: archive file [/home/abi/fetcher/tmp/spinneroo-1.1.0.tar.gz]
+[2023-07-01 10:47:01] INFO root fetch - main [MainThread]: End processing [spinneroo]: success
+[2023-07-01 10:47:01] INFO root fetch - processPackages [toolcat]: Remove: archive file [/home/abi/fetcher/tmp/toolcat-0.0.4.tar.gz]
+[2023-07-01 10:47:01] INFO root fetch - processPackages [toolcat]: Remove: archive file [/home/abi/fetcher/tmp/toolcat-0.0.5.tar.gz]
+[2023-07-01 10:47:01] INFO root fetch - main [MainThread]: End processing [toolcat]: success
+[2023-07-01 10:47:02] INFO root fetch - processPackages [talos-install]: Remove: archive file [/home/abi/fetcher/tmp/talos_install-0.2.0.dev367.tar.gz]
+[2023-07-01 10:47:02] INFO root fetch - processPackages [talos-install]: Remove: archive file [/home/abi/fetcher/tmp/talos_install-0.2.0.dev368.tar.gz]
+[2023-07-01 10:47:02] INFO root fetch - main [MainThread]: End processing [talos-install]: success
+[2023-07-01 10:47:02] INFO root fetch - processPackages [gnssrefl]: executing diffoscope
+[2023-07-01 10:47:02] INFO root fetch - processPackages [gnssrefl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssrefl-1.3.7.tar.gz tmp/gnssrefl-1.3.8.tar.gz --markdown 20230701/g/gnssrefl/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-07-01 10:47:02] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-01 10:47:02] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230701/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-01 10:47:04] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230630-py2.py3-none-any.whl.zip]
+[2023-07-01 10:47:04] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230701-py2.py3-none-any.whl.zip]
+[2023-07-01 10:47:04] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-01 10:47:06] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.7.tar.gz]
+[2023-07-01 10:47:06] INFO root fetch - processPackages [gnssrefl]: Remove: archive file [/home/abi/fetcher/tmp/gnssrefl-1.3.8.tar.gz]
+[2023-07-01 10:47:06] INFO root fetch - main [MainThread]: End processing [gnssrefl]: success
+[2023-07-01 10:47:17] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-01 10:47:17] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-01 10:47:17] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-01 10:47:17] INFO root fetch - main [MainThread]: Store serial: [18720718]
