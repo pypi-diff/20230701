@@ -17167,3 +17167,68 @@ EOFError: EOF read where object expected
 [2023-07-01 19:17:41] INFO root fetch - processPackages [dlplan]: Remove: archive file [/home/abi/fetcher/tmp/dlplan-0.2.9.tar.gz]
 [2023-07-01 19:17:41] INFO root fetch - main [MainThread]: End processing [dlplan]: success
 [2023-07-01 19:17:41] INFO root fetch - main [MainThread]: Store serial: [18723331]
+[2023-07-01 19:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723331]
+[2023-07-01 19:22:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymplog
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dark-matter
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-webflow
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmrsim
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydatawork
+[2023-07-01 19:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-07-01 19:22:50] INFO root fetch - processPackages [dark-matter]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-01 19:22:50] INFO root fetch - processPackages [cmrsim]: New version: [0.27] Old Version: [0.26]
+[2023-07-01 19:22:50] WARNING root fetch - processPackages [pymplog]: Skipping, unable to determine old version
+[2023-07-01 19:22:50] INFO root fetch - main [MainThread]: End processing [pymplog] error
+[2023-07-01 19:22:50] INFO root fetch - processPackages [pydatawork]: New version: [0.17.1.2] Old Version: [0.17.1.1]
+[2023-07-01 19:22:50] INFO root fetch - processPackages [pydatawork]: New version: [0.17.1.2] Old Version: [0.17.1.1]
+[2023-07-01 19:22:50] INFO root fetch - processPackages [fast-webflow]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 19:22:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 19:22:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 19:22:50] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/b9/d2/2e18229949be3e12a54c6880d9292eae1b6d10ec48a4b33d95753bf1f852/dark-matter-4.0.8.tar.gz
+[2023-07-01 19:22:50] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/5d/8d/a523fd69d449170f3d5c6cb2992bc162337eafedda95e6323b8faf292895/cmrsim-0.26-py3-none-any.whl
+[2023-07-01 19:22:50] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/05/14/2ca85f7705da1c116a6b139ff943528a767956ccb3b59cc65fe13c5e4564/fast-webflow-0.2.0.tar.gz
+[2023-07-01 19:22:50] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/af/a6/453446e167d2417fb1fd1f468029d4711f2af3359a98cc228da99124161f/pydatawork-0.17.1.1.tar.gz
+[2023-07-01 19:22:50] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/af/a6/453446e167d2417fb1fd1f468029d4711f2af3359a98cc228da99124161f/pydatawork-0.17.1.1.tar.gz
+[2023-07-01 19:22:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 19:22:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 19:22:51] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/c6/c4/c2c71901fcfdbd470fc910f3892534b45e200325b5fe1178fa88899ada5b/cmrsim-0.27-py3-none-any.whl
+[2023-07-01 19:22:51] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1d/7c/6d24606edb9d3bfdf91639db1a165de4d596d6f081a7fd3ca2817bb9368c/pydatawork-0.17.1.2.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1d/7c/6d24606edb9d3bfdf91639db1a165de4d596d6f081a7fd3ca2817bb9368c/pydatawork-0.17.1.2.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 19:22:51] INFO root fetch - processPackages [dark-matter]: Downloading https://files.pythonhosted.org/packages/c3/ec/2598bd337fd9f176a9b456b4915afd25b446ddb15e6e6b0f772ea1457b6b/dark-matter-4.0.9.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [cmrsim]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [cmrsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmrsim-0.26-py3-none-any.whl.zip tmp/cmrsim-0.27-py3-none-any.whl.zip --markdown 20230701/c/cmrsim/0.26-0.27/diff.md --exclude *.pyd
+[2023-07-01 19:22:51] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.1.1.tar.gz tmp/pydatawork-0.17.1.2.tar.gz --markdown 20230701/p/pydatawork/0.17.1.1-0.17.1.2/diff.md --exclude *.pyd
+[2023-07-01 19:22:51] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.1.1.tar.gz tmp/pydatawork-0.17.1.2.tar.gz --markdown 20230701/p/pydatawork/0.17.1.1-0.17.1.2/diff.md --exclude *.pyd
+[2023-07-01 19:22:51] INFO root fetch - processPackages [fast-webflow]: Downloading https://files.pythonhosted.org/packages/ab/b1/1f3537db1aea80e4a07035e5c35604a690adacfd24c2aed596d6b417e01b/fast-webflow-0.2.1.tar.gz
+[2023-07-01 19:22:51] INFO root fetch - processPackages [dark-matter]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [dark-matter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dark-matter-4.0.8.tar.gz tmp/dark-matter-4.0.9.tar.gz --markdown 20230701/d/dark-matter/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:22:51] INFO root fetch - processPackages [fast-webflow]: executing diffoscope
+[2023-07-01 19:22:51] INFO root fetch - processPackages [fast-webflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-webflow-0.2.0.tar.gz tmp/fast-webflow-0.2.1.tar.gz --markdown 20230701/f/fast-webflow/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 19:22:52] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.1.1.tar.gz]
+[2023-07-01 19:22:52] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.1.2.tar.gz]
+[2023-07-01 19:22:52] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-01 19:22:52] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-01 19:22:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-01 19:22:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-01 19:22:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 19:22:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 19:22:52] INFO root fetch - processPackages [cmrsim]: Remove: archive file [/home/abi/fetcher/tmp/cmrsim-0.26-py3-none-any.whl.zip]
+[2023-07-01 19:22:52] INFO root fetch - processPackages [cmrsim]: Remove: archive file [/home/abi/fetcher/tmp/cmrsim-0.27-py3-none-any.whl.zip]
+[2023-07-01 19:22:52] INFO root fetch - main [MainThread]: End processing [cmrsim]: success
+[2023-07-01 19:22:53] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.2.0.tar.gz]
+[2023-07-01 19:22:53] INFO root fetch - processPackages [fast-webflow]: Remove: archive file [/home/abi/fetcher/tmp/fast-webflow-0.2.1.tar.gz]
+[2023-07-01 19:22:53] INFO root fetch - main [MainThread]: End processing [fast-webflow]: success
+[2023-07-01 19:22:53] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.8.tar.gz]
+[2023-07-01 19:22:53] INFO root fetch - processPackages [dark-matter]: Remove: archive file [/home/abi/fetcher/tmp/dark-matter-4.0.9.tar.gz]
+[2023-07-01 19:22:53] INFO root fetch - main [MainThread]: End processing [dark-matter]: success
+[2023-07-01 19:22:53] INFO root fetch - main [MainThread]: Store serial: [18723350]
