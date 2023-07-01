@@ -19463,3 +19463,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:17:03] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-2.0.0.tar.gz]
 [2023-07-01 22:17:03] INFO root fetch - main [MainThread]: End processing [AlgBench]: success
 [2023-07-01 22:17:03] INFO root fetch - main [MainThread]: Store serial: [18724431]
+[2023-07-01 22:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724431]
+[2023-07-01 22:22:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 22:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-ocr-cloud
+[2023-07-01 22:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2023-07-01 22:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irc-api
+[2023-07-01 22:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cachefunc
+[2023-07-01 22:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-redis-aiogram
+[2023-07-01 22:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-robocopy
+[2023-07-01 22:22:12] INFO root fetch - processPackages [py-robocopy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 22:22:12] INFO root fetch - processPackages [langflow]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-01 22:22:12] INFO root fetch - processPackages [aspose-ocr-cloud]: New version: [23.6.0.2] Old Version: [23.6.0.1]
+[2023-07-01 22:22:12] INFO root fetch - processPackages [cachefunc]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 22:22:12] INFO root fetch - processPackages [irc-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 22:22:12] INFO root fetch - processPackages [django-redis-aiogram]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 22:22:12] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/8c/bb/df0397c690142374fe5cc52134d7e4461b82626db9823c3d3baca67c4495/langflow-0.2.8.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/4d/11/5ad693d7239c774cbd02749eb874f888c418885ba0b057e6282bf8ba8978/cachefunc-0.2.0.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/66/ea/9ee232f8850e3ac647a3c8d05d0c9cc9b47a2844c8c6a61227081a4f1c3d/irc_api-0.0.8.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [django-redis-aiogram]: Downloading https://files.pythonhosted.org/packages/7a/a2/762f5dc50e47d06d4a6234a82a3b930b1a9a3d5b68389f47058ff7b8915c/django-redis-aiogram-1.0.1.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [py-robocopy]: Downloading https://files.pythonhosted.org/packages/41/f0/47de929b9da72c0cf7f4b6bdbe552f5ab344c7cabf0bd1c5205874bf9a64/py-robocopy-0.0.1.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [aspose-ocr-cloud]: Downloading https://files.pythonhosted.org/packages/b5/67/e8a38d55880a0a4ed30beebc472c084842147833bcca9121371ef57e694a/aspose-ocr-cloud-23.6.0.1.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/08/a8/b7023e44d8be8d1c885fde686c8dac151027089f7419dde947f6b7f98533/langflow-0.2.9.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/78/bd/17fbb6a5aa23c20ca3c0cd548046fec95f8ddff95a524cdb849acee573d8/cachefunc-0.2.1.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/c7/72/38d77564ad1b943d1a5109f2e8b8c49081e84167264f5dff3db40e58eecd/irc_api-0.0.9.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [django-redis-aiogram]: Downloading https://files.pythonhosted.org/packages/c3/01/afc5e92088e8ac5f2f68d843c8d6b65fc637e168e3047242a53d2b8d1c31/django-redis-aiogram-1.0.2.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [py-robocopy]: Downloading https://files.pythonhosted.org/packages/2f/34/9391dc924396760ddb06d240906b488c2bb0f098da5cb52873b90ca98ab6/py-robocopy-0.0.2.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [aspose-ocr-cloud]: Downloading https://files.pythonhosted.org/packages/6b/6c/728dc283c46ce723c9af8f3f4f79c58141450b85d4aab72ab6741e6790a9/aspose-ocr-cloud-23.6.0.2.tar.gz
+[2023-07-01 22:22:12] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-07-01 22:22:12] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.2.8.tar.gz tmp/langflow-0.2.9.tar.gz --markdown 20230701/l/langflow/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 22:22:12] INFO root fetch - processPackages [py-robocopy]: executing diffoscope
+[2023-07-01 22:22:12] INFO root fetch - processPackages [py-robocopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-robocopy-0.0.1.tar.gz tmp/py-robocopy-0.0.2.tar.gz --markdown 20230701/p/py-robocopy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 22:22:12] INFO root fetch - processPackages [cachefunc]: executing diffoscope
+[2023-07-01 22:22:12] INFO root fetch - processPackages [cachefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachefunc-0.2.0.tar.gz tmp/cachefunc-0.2.1.tar.gz --markdown 20230701/c/cachefunc/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 22:22:12] INFO root fetch - processPackages [aspose-ocr-cloud]: executing diffoscope
+[2023-07-01 22:22:12] INFO root fetch - processPackages [aspose-ocr-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-ocr-cloud-23.6.0.1.tar.gz tmp/aspose-ocr-cloud-23.6.0.2.tar.gz --markdown 20230701/a/aspose-ocr-cloud/23.6.0.1-23.6.0.2/diff.md --exclude *.pyd
+[2023-07-01 22:22:12] INFO root fetch - processPackages [django-redis-aiogram]: executing diffoscope
+[2023-07-01 22:22:12] INFO root fetch - processPackages [django-redis-aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-redis-aiogram-1.0.1.tar.gz tmp/django-redis-aiogram-1.0.2.tar.gz --markdown 20230701/d/django-redis-aiogram/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 22:22:12] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-01 22:22:12] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-0.0.8.tar.gz tmp/irc_api-0.0.9.tar.gz --markdown 20230701/i/irc-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 22:22:14] INFO root fetch - processPackages [py-robocopy]: Remove: archive file [/home/abi/fetcher/tmp/py-robocopy-0.0.1.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - processPackages [py-robocopy]: Remove: archive file [/home/abi/fetcher/tmp/py-robocopy-0.0.2.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - main [MainThread]: End processing [py-robocopy]: success
+[2023-07-01 22:22:14] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.0.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.1.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - main [MainThread]: End processing [cachefunc]: success
+[2023-07-01 22:22:14] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.8.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.9.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-01 22:22:14] INFO root fetch - processPackages [django-redis-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/django-redis-aiogram-1.0.1.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - processPackages [django-redis-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/django-redis-aiogram-1.0.2.tar.gz]
+[2023-07-01 22:22:14] INFO root fetch - main [MainThread]: End processing [django-redis-aiogram]: success
+[2023-07-01 22:22:15] INFO root fetch - processPackages [aspose-ocr-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-ocr-cloud-23.6.0.1.tar.gz]
+[2023-07-01 22:22:15] INFO root fetch - processPackages [aspose-ocr-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-ocr-cloud-23.6.0.2.tar.gz]
+[2023-07-01 22:22:15] INFO root fetch - main [MainThread]: End processing [aspose-ocr-cloud]: success
+[2023-07-01 22:22:38] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.8.tar.gz]
+[2023-07-01 22:22:38] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
+[2023-07-01 22:22:38] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-07-01 22:22:38] INFO root fetch - main [MainThread]: Store serial: [18724449]
