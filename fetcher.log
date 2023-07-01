@@ -20008,3 +20008,110 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:16:02] INFO root fetch - processPackages [py3dns]: Remove: archive file [/home/abi/fetcher/tmp/py3dns-4.0.0.tar.gz]
 [2023-07-01 23:16:02] INFO root fetch - main [MainThread]: End processing [py3dns]: success
 [2023-07-01 23:16:02] INFO root fetch - main [MainThread]: Store serial: [18724673]
+[2023-07-01 23:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724673]
+[2023-07-01 23:21:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sage-conf
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sage-docbuild
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sage-setup
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sage-sws2rst
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sagemath-categories
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemath-environment
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sagemath-objects
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemath-repl
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sagemath-standard
+[2023-07-01 23:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: owe-python-sdk
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sage-conf]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sage-setup]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-environment]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sage-sws2rst]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-repl]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-standard]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sage-docbuild]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-objects]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-categories]: New version: [9.8rc0] Old Version: [9.8b7]
+[2023-07-01 23:21:11] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/42/8c/14251d0cfee9f88b0aa01df316d5bf26dcb0ade874f449a2523aeb0f4cb1/owe_python_sdk-0.0.1a2.tar.gz
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/a4/e3/3abe6fb13b6aec05d433260a637c57426bc40016a26515ce1de2f6ccb547/sagemath-repl-9.8b7.tar.gz
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/87/21/012f950f98f90bb49afff7f0aa106a1d0f3f83f7686b6c7639257300de07/sage-conf-9.8b7.tar.gz
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/63/7d/1a322711621a03371daf041779f473d569145e98561ddd9039e79a30255e/sagemath-environment-9.8b7.tar.gz
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/c7/9a/24d44916ef366f957e246ba99527efc0b4893673067aa991646a73886e88/sage-sws2rst-9.8b7.tar.gz
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/fe/5b4220d8485b9b1ea1e00d27d4033da6b77ab9bb3d90f96c2b0f69915cd9/sagemath-categories-9.8b7.tar.gz
+[2023-07-01 23:21:11] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/4c/41/42559ab77e0184ee4c3cc7719ba4348e5aa1307506fab7a306aa4a483214/sagemath-objects-9.8b7.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-standard]: Downloading https://files.pythonhosted.org/packages/ca/44/3341aa128d2058989dc35be67a94f004ad9873fc2cece58881abf81f3091/sagemath-standard-9.8b7.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/bb/16/bd3221dd969ef83cdb78698299f6e3cfa8be59d749daa81b4dc97f6d24ed/sage-setup-9.8b7.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/68/e5/530ac4d218aa81bb055436ab8553554b883e0e460c773cbd530d7442463a/sage-docbuild-9.8b7.tar.gz
+[2023-07-01 23:21:12] WARNING root fetch - processPackages [sagemath-standard]: Skipping package: exceeds size limit 18194906>=10485760
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-standard]: Start processing: dxsp
+[2023-07-01 23:21:12] INFO root fetch - main [MainThread]: End processing [sagemath-standard] error
+[2023-07-01 23:21:12] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/fc/03/f3204c9a66882703d10deccc927b5ab8776e5ad4634c788fe8fa5ceff4e2/owe_python_sdk-0.0.1a3.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [dxsp]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-environment]: Downloading https://files.pythonhosted.org/packages/25/81/ca7c2bcc4784c3075bcbf1849d48cee85027d56bdb107f8a0bf943b919ad/sagemath-environment-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-sws2rst]: Downloading https://files.pythonhosted.org/packages/e2/13/be8c4c1c6ddab4fd81239014b8596bd4a65576cb4ec8fd36b8295e719cd8/sage-sws2rst-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-objects]: Downloading https://files.pythonhosted.org/packages/3e/ec/de38e0fcc76454c395321b4d2989ffe5f56e6334e310d1d9c6ad53f991f4/sagemath-objects-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/bf/54/db5e7bdb130e91068dbe60b56eea2cd529371bca4cb93b7741e7ffd1596c/dxsp-3.0.1.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a2.tar.gz tmp/owe_python_sdk-0.0.1a3.tar.gz --markdown 20230701/o/owe-python-sdk/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-repl]: Downloading https://files.pythonhosted.org/packages/fb/3c/6493d3c2a0f3a5c6276a510bac2fc348d682e8e826d3565dfc4f047ed8a2/sagemath-repl-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-categories]: Downloading https://files.pythonhosted.org/packages/91/dd/0daa405ce2567bb39e004c123601d2ec55ede2bc549eb306d07ba35eb456/sagemath-categories-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-objects]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-objects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-objects-9.8b7.tar.gz tmp/sagemath-objects-9.8rc0.tar.gz --markdown 20230701/s/sagemath-objects/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-setup]: Downloading https://files.pythonhosted.org/packages/aa/ea/ed314950f3374f03b1417e552a4f31d8618f2811e6eacf3fe3332268f07c/sage-setup-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-docbuild]: Downloading https://files.pythonhosted.org/packages/83/bc/944e941625ce0a283b49b178d1b3dc9b9c8af78512a7f2fd8ec2c617e1eb/sage-docbuild-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-environment]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-environment-9.8b7.tar.gz tmp/sagemath-environment-9.8rc0.tar.gz --markdown 20230701/s/sagemath-environment/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-repl]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-repl-9.8b7.tar.gz tmp/sagemath-repl-9.8rc0.tar.gz --markdown 20230701/s/sagemath-repl/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-sws2rst]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-sws2rst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-sws2rst-9.8b7.tar.gz tmp/sage-sws2rst-9.8rc0.tar.gz --markdown 20230701/s/sage-sws2rst/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-categories]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sagemath-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemath-categories-9.8b7.tar.gz tmp/sagemath-categories-9.8rc0.tar.gz --markdown 20230701/s/sagemath-categories/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/49/97/20237a3358dbf59c441232caa9a454a2864cbd557bf46db8853b234ae49b/dxsp-3.0.2.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-setup]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-setup-9.8b7.tar.gz tmp/sage-setup-9.8rc0.tar.gz --markdown 20230701/s/sage-setup/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-docbuild]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-docbuild-9.8b7.tar.gz tmp/sage-docbuild-9.8rc0.tar.gz --markdown 20230701/s/sage-docbuild/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:12] INFO root fetch - processPackages [sage-conf]: Downloading https://files.pythonhosted.org/packages/e9/96/cd18c202ff97cf2010773c4ddf2e91c5e8ec79bf2dd6466b16139b499233/sage-conf-9.8rc0.tar.gz
+[2023-07-01 23:21:12] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-01 23:21:12] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.0.1.tar.gz tmp/dxsp-3.0.2.tar.gz --markdown 20230701/d/dxsp/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-01 23:21:13] INFO root fetch - processPackages [sage-conf]: executing diffoscope
+[2023-07-01 23:21:13] INFO root fetch - processPackages [sage-conf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage-conf-9.8b7.tar.gz tmp/sage-conf-9.8rc0.tar.gz --markdown 20230701/s/sage-conf/9.8b7-9.8rc0/diff.md --exclude *.pyd
+[2023-07-01 23:21:13] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a2.tar.gz]
+[2023-07-01 23:21:13] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a3.tar.gz]
+[2023-07-01 23:21:13] INFO root fetch - processPackages [owe-python-sdk]: Start processing: pyassist
+[2023-07-01 23:21:13] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-01 23:21:13] INFO root fetch - processPackages [pyassist]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-01 23:21:14] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8b7.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - processPackages [sage-sws2rst]: Remove: archive file [/home/abi/fetcher/tmp/sage-sws2rst-9.8rc0.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - main [MainThread]: End processing [sage-sws2rst]: success
+[2023-07-01 23:21:14] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/3e/5d/6691dc93224cbf57399529e1e3c06abc0585a19523e03bb2ce18bee9d50a/pyassist-0.2.tar.gz
+[2023-07-01 23:21:14] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8b7.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - processPackages [sage-docbuild]: Remove: archive file [/home/abi/fetcher/tmp/sage-docbuild-9.8rc0.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - main [MainThread]: End processing [sage-docbuild]: success
+[2023-07-01 23:21:14] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.1.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.2.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-01 23:21:14] INFO root fetch - processPackages [pyassist]: Downloading https://files.pythonhosted.org/packages/82/0b/19ba2323dedb1068cbef17e1ffac2c0a42ea7bcfb7d31362cfdc285b9be4/pyassist-0.2.1.tar.gz
+[2023-07-01 23:21:14] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8b7.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - processPackages [sage-setup]: Remove: archive file [/home/abi/fetcher/tmp/sage-setup-9.8rc0.tar.gz]
+[2023-07-01 23:21:14] INFO root fetch - main [MainThread]: End processing [sage-setup]: success
+[2023-07-01 23:21:14] INFO root fetch - processPackages [pyassist]: executing diffoscope
+[2023-07-01 23:21:14] INFO root fetch - processPackages [pyassist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyassist-0.2.tar.gz tmp/pyassist-0.2.1.tar.gz --markdown 20230701/p/pyassist/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 23:21:15] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8b7.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - processPackages [sagemath-objects]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-objects-9.8rc0.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - main [MainThread]: End processing [sagemath-objects]: success
+[2023-07-01 23:21:15] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - processPackages [pyassist]: Remove: archive file [/home/abi/fetcher/tmp/pyassist-0.2.1.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - main [MainThread]: End processing [pyassist]: success
+[2023-07-01 23:21:15] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8b7.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - processPackages [sagemath-environment]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-environment-9.8rc0.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - main [MainThread]: End processing [sagemath-environment]: success
+[2023-07-01 23:21:15] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8b7.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - processPackages [sagemath-categories]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-categories-9.8rc0.tar.gz]
+[2023-07-01 23:21:15] INFO root fetch - main [MainThread]: End processing [sagemath-categories]: success
+[2023-07-01 23:21:17] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8b7.tar.gz]
+[2023-07-01 23:21:17] INFO root fetch - processPackages [sagemath-repl]: Remove: archive file [/home/abi/fetcher/tmp/sagemath-repl-9.8rc0.tar.gz]
+[2023-07-01 23:21:17] INFO root fetch - main [MainThread]: End processing [sagemath-repl]: success
+[2023-07-01 23:24:11] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8b7.tar.gz]
+[2023-07-01 23:24:11] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
+[2023-07-01 23:24:11] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
+[2023-07-01 23:24:11] INFO root fetch - main [MainThread]: Store serial: [18724702]
