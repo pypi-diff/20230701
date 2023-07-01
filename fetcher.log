@@ -13558,3 +13558,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:21:40] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
 [2023-07-01 14:21:40] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
 [2023-07-01 14:21:40] INFO root fetch - main [MainThread]: Store serial: [18721740]
+[2023-07-01 14:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721740]
+[2023-07-01 14:26:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 14:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kayle
+[2023-07-01 14:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vollseg
+[2023-07-01 14:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elasticai-creator
+[2023-07-01 14:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: combidata
+[2023-07-01 14:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linfa-vi
+[2023-07-01 14:26:50] WARNING root fetch - processPackages [linfa-vi]: Skipping, unable to determine old version
+[2023-07-01 14:26:50] INFO root fetch - main [MainThread]: End processing [linfa-vi] error
+[2023-07-01 14:26:50] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-01 14:26:50] INFO root fetch - processPackages [combidata]: New version: [0.2.1.1] Old Version: [0.2.1]
+[2023-07-01 14:26:50] INFO root fetch - processPackages [kayle]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-01 14:26:50] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-07-01 14:26:50] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-01 14:26:50] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/91/53/2305502f1e6b46808a8dea0be653b3d7bf7fa1ab0a8e27b082b2961b8a76/kayle-0.5.8-py3-none-any.whl
+[2023-07-01 14:26:50] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/8c/d8/f7a052ef7a32684c660f3397bd9379924162f2227f6965206de1564c3f47/combidata-0.2.1.tar.gz
+[2023-07-01 14:26:50] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-01 14:26:50] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-01 14:26:50] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-07-01 14:26:50] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/53/0a/d428491d9c47c3d70c6e36d95bb7d75a5dc4e8e40bcc979d4d8fd678b885/kayle-0.5.9-py3-none-any.whl
+[2023-07-01 14:26:51] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/ca/aa/4f00fbf24fce1398f68e5ad8019ed79c4b5662c765c044eae7cf1d0ad76b/combidata-0.2.1.1.tar.gz
+[2023-07-01 14:26:51] INFO root fetch - processPackages [kayle]: executing diffoscope
+[2023-07-01 14:26:51] INFO root fetch - processPackages [kayle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayle-0.5.8-py3-none-any.whl.zip tmp/kayle-0.5.9-py3-none-any.whl.zip --markdown 20230701/k/kayle/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-01 14:26:51] INFO root fetch - processPackages [combidata]: executing diffoscope
+[2023-07-01 14:26:51] INFO root fetch - processPackages [combidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combidata-0.2.1.tar.gz tmp/combidata-0.2.1.1.tar.gz --markdown 20230701/c/combidata/0.2.1-0.2.1.1/diff.md --exclude *.pyd
+[2023-07-01 14:26:51] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-07-01 14:26:51] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-07-01 14:26:51] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230701/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 14:26:52] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.8-py3-none-any.whl.zip]
+[2023-07-01 14:26:52] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.9-py3-none-any.whl.zip]
+[2023-07-01 14:26:52] INFO root fetch - main [MainThread]: End processing [kayle]: success
+[2023-07-01 14:26:52] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.1.tar.gz]
+[2023-07-01 14:26:52] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.1.1.tar.gz]
+[2023-07-01 14:26:52] INFO root fetch - main [MainThread]: End processing [combidata]: success
+[2023-07-01 14:26:53] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-07-01 14:26:53] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-07-01 14:26:53] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-07-01 14:26:53] INFO root fetch - main [MainThread]: Store serial: [18721767]
