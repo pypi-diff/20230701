@@ -18535,3 +18535,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:30:55] INFO root fetch - processPackages [dofusdude]: Remove: archive file [/home/abi/fetcher/tmp/dofusdude-0.7.2.tar.gz]
 [2023-07-01 20:30:55] INFO root fetch - main [MainThread]: End processing [dofusdude]: success
 [2023-07-01 20:30:55] INFO root fetch - main [MainThread]: Store serial: [18724024]
+[2023-07-01 20:35:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724024]
+[2023-07-01 20:36:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nics
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmlib-mark-watson
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zundamonai-streamer
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: querysource
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raspberry-sensors
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu121
+[2023-07-01 20:36:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu118
+[2023-07-01 20:36:04] WARNING root fetch - processPackages [zundamonai-streamer]: Skipping, unable to determine old version
+[2023-07-01 20:36:04] INFO root fetch - main [MainThread]: End processing [zundamonai-streamer] error
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nics]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-07-01 20:36:04] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-07-01 20:36:04] INFO root fetch - processPackages [raspberry-sensors]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-01 20:36:04] WARNING root fetch - processPackages [llmlib-mark-watson]: Skipping, unable to determine old version
+[2023-07-01 20:36:04] INFO root fetch - main [MainThread]: End processing [llmlib-mark-watson] error
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/16/3f/88c89ab0f385d4670e110aa5225601288de9d1b61e3c9e5f966462477b43/nics-2.5.1.tar.gz
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-07-01 20:36:04] INFO root fetch - processPackages [raspberry-sensors]: Downloading https://files.pythonhosted.org/packages/24/e7/3f17be4d59743f17b2eb4598002ac01a6d9afe946c4acc70cb994e0567a9/raspberry-sensors-0.2.4.tar.gz
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 20:36:04] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/f4/0f/56fc59bb89b92d63c1a1da03d3844e3fdf945c04254b41b1a729d6176fdd/nics-2.5.2.tar.gz
+[2023-07-01 20:36:04] INFO root fetch - processPackages [raspberry-sensors]: Downloading https://files.pythonhosted.org/packages/4e/a5/6ca026e88f118a9fb14b1641e9bf33369f76fd2e7e53181c001e6c8d3b52/raspberry-sensors-0.2.5.tar.gz
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 20:36:04] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.5.1.tar.gz tmp/nics-2.5.2.tar.gz --markdown 20230701/n/nics/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-07-01 20:36:05] INFO root fetch - processPackages [raspberry-sensors]: executing diffoscope
+[2023-07-01 20:36:05] INFO root fetch - processPackages [raspberry-sensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspberry-sensors-0.2.4.tar.gz tmp/raspberry-sensors-0.2.5.tar.gz --markdown 20230701/r/raspberry-sensors/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 20:36:05] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 20:36:05] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-07-01 20:36:05] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-07-01 20:36:05] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 20:36:05] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 20:36:05] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-07-01 20:36:05] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-01 20:36:05] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-07-01 20:36:05] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-07-01 20:36:06] INFO root fetch - processPackages [raspberry-sensors]: Remove: archive file [/home/abi/fetcher/tmp/raspberry-sensors-0.2.4.tar.gz]
+[2023-07-01 20:36:06] INFO root fetch - processPackages [raspberry-sensors]: Remove: archive file [/home/abi/fetcher/tmp/raspberry-sensors-0.2.5.tar.gz]
+[2023-07-01 20:36:06] INFO root fetch - main [MainThread]: End processing [raspberry-sensors]: success
+[2023-07-01 20:36:06] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.1.tar.gz]
+[2023-07-01 20:36:06] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.2.tar.gz]
+[2023-07-01 20:36:06] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 20:36:07] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 20:36:07] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 20:36:07] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-07-01 20:36:07] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 20:36:07] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 20:36:07] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-07-01 20:36:07] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 20:36:07] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 20:36:07] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-07-01 20:36:07] INFO root fetch - main [MainThread]: Store serial: [18724050]
