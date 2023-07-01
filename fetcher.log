@@ -16796,3 +16796,103 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 18:56:47] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
 [2023-07-01 18:56:48] INFO root fetch - main [MainThread]: End processing [EventHandler-Edog0049a]: success
 [2023-07-01 18:56:48] INFO root fetch - main [MainThread]: Store serial: [18723208]
+[2023-07-01 19:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723208]
+[2023-07-01 19:01:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: samp-query
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-harness
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: burnman
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellworld
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawhispers
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dockery
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cellworld
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: icloudpd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fullask-rest-framework
+[2023-07-01 19:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iza
+[2023-07-01 19:01:57] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: New version: [0.0.6a1688229249] Old Version: [0.0.5]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [datawhispers]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [icloudpd]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [dockery]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [iza]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [burnman]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [samp-query]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 19:01:57] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/5a/19/ce1b823f8027da656922d1f590dc75a293ce0387049067f2128a38ae86ad/datawhispers-0.2.6.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/bb/e4/7d82bd9ca82b19d78408f21a9c4b4a304c1fc9f662e06c2faec83efe0979/iza-0.0.7.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/10/eb/c544aebdfbb4da4b9b929b6408716704ba294bd2f6bf779c78a2b9098139/samp_query-0.4.0.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/5b/48/37c208bf9f17c56f039db252d8343184a4a55191496e7d6fc9880261bc31/cellworld-0.0.98.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [burnman]: Downloading https://files.pythonhosted.org/packages/bd/11/46762796c0de978ac2e86b666a63d414205eca2c998e941e2cd24e610199/burnman-1.1.0.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Downloading https://files.pythonhosted.org/packages/82/15/290f21af55779c95570c676d1f11130446c56b08a0990b003a816872bdeb/lbrlabs_pulumi_harness-0.0.5.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/15/3d/2b45d3f102f808c15140c532b4e29644fbfec8d129d2d880de34fe727113/dockery-0.5.0.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/9f/ea/45e8f08e51a779e0524355ec978edcaa8d446b3301ec6642f122e3440f65/fullask_rest_framework-0.3.1.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: Downloading https://files.pythonhosted.org/packages/ef/23/3c6f38892cfa3ebc3c34a2cf3e74549ede81266641f0969285913d8e199b/cellworld-0.0.99.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/51/5d/1f1e447501b790f1082e506da57a315aeda5268be4c23f0027804937436a/icloudpd-1.8.1-py2.py3-none-any.whl
+[2023-07-01 19:01:57] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/b2/f2/355d1f92c35825cdd60b9bb28bc405dabc58e55f50d1513b2fe3f6083f09/datawhispers-0.2.7.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230701/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [cellworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellworld-0.0.98.tar.gz tmp/cellworld-0.0.99.tar.gz --markdown 20230701/c/cellworld/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/2b/bb/55693d4b7f188a834a12b293cab7a59013e40fc9347ffe3ef758d257b633/samp_query-0.5.0.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/56/45/c6f3c48f703c21cd01145c663486f051f3d98b12a1dd86e8b022af78f343/iza-0.0.8.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [samp-query]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [samp-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samp_query-0.4.0.tar.gz tmp/samp_query-0.5.0.tar.gz --markdown 20230701/s/samp-query/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.7.tar.gz tmp/iza-0.0.8.tar.gz --markdown 20230701/i/iza/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.6.tar.gz tmp/datawhispers-0.2.7.tar.gz --markdown 20230701/d/datawhispers/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Downloading https://files.pythonhosted.org/packages/c2/2f/49d31c0e7f48e152560ba4ec35afa42316f92015599ea76964c91cabd22f/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/ae/c6/e83d705f80226e56c44ab64c3546556d64389c9329285c2ab8217cfed500/dockery-0.5.1.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/e5/3e/db2a125cce02bd0f2be6247fed52d06b16fd0f6c97263a18c4a71b35b118/fullask_rest_framework-0.4.0.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_harness-0.0.5.tar.gz tmp/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz --markdown 20230701/l/lbrlabs-pulumi-harness/0.0.5-0.0.6a1688229249/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.5.0.tar.gz tmp/dockery-0.5.1.tar.gz --markdown 20230701/d/dockery/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [burnman]: Downloading https://files.pythonhosted.org/packages/2b/1d/e38b803bc188350813ca7c3491cdadad7270739397c396657da13f6427ea/burnman-1.2.0.tar.gz
+[2023-07-01 19:01:57] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask_rest_framework-0.3.1.tar.gz tmp/fullask_rest_framework-0.4.0.tar.gz --markdown 20230701/f/fullask-rest-framework/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 19:01:57] INFO root fetch - processPackages [burnman]: executing diffoscope
+[2023-07-01 19:01:57] INFO root fetch - processPackages [burnman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burnman-1.1.0.tar.gz tmp/burnman-1.2.0.tar.gz --markdown 20230701/b/burnman/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-01 19:01:58] INFO root fetch - processPackages [icloudpd]: Downloading https://files.pythonhosted.org/packages/62/71/4d2c70cdcacbafa12d0d59f0a600a1d90223aeb131739c382716470d6320/icloudpd-1.9.0-py2.py3-none-any.whl
+[2023-07-01 19:01:58] INFO root fetch - processPackages [icloudpd]: executing diffoscope
+[2023-07-01 19:01:58] INFO root fetch - processPackages [icloudpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip --markdown 20230701/i/icloudpd/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-01 19:01:58] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.98.tar.gz]
+[2023-07-01 19:01:58] INFO root fetch - processPackages [cellworld]: Remove: archive file [/home/abi/fetcher/tmp/cellworld-0.0.99.tar.gz]
+[2023-07-01 19:01:58] INFO root fetch - processPackages [cellworld]: Start processing: cullinan
+[2023-07-01 19:01:58] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-01 19:01:58] INFO root fetch - processPackages [cullinan]: New version: [0.54a2] Old Version: [0.54a1]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.4.0.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.5.0.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [samp-query]: success
+[2023-07-01 19:01:59] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/10/0d/46c12a6e8e9ae1b0d931054befd6351517a1ca3b6c9e717eda98eecdeed4/cullinan-0.54a1.tar.gz
+[2023-07-01 19:01:59] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.7.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.8.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-07-01 19:01:59] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.6.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.7.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [cellworld]: success
+[2023-07-01 19:01:59] INFO root fetch - processPackages [cullinan]: Downloading https://files.pythonhosted.org/packages/c2/12/47a9fe538a82a47888f4db66bf1e328e1efcddcf1d055acedf591c5974e4/cullinan-0.54a2.tar.gz
+[2023-07-01 19:01:59] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.5.0.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.5.1.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-07-01 19:01:59] INFO root fetch - processPackages [cullinan]: executing diffoscope
+[2023-07-01 19:01:59] INFO root fetch - processPackages [cullinan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cullinan-0.54a1.tar.gz tmp/cullinan-0.54a2.tar.gz --markdown 20230701/c/cullinan/0.54a1-0.54a2/diff.md --exclude *.pyd
+[2023-07-01 19:01:59] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.3.1.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.4.0.tar.gz]
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-07-01 19:01:59] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.8.1-py2.py3-none-any.whl.zip]
+[2023-07-01 19:01:59] INFO root fetch - processPackages [icloudpd]: Remove: archive file [/home/abi/fetcher/tmp/icloudpd-1.9.0-py2.py3-none-any.whl.zip]
+[2023-07-01 19:01:59] INFO root fetch - main [MainThread]: End processing [icloudpd]: success
+[2023-07-01 19:02:00] INFO root fetch - processPackages [cullinan]: Remove: archive file [/home/abi/fetcher/tmp/cullinan-0.54a1.tar.gz]
+[2023-07-01 19:02:00] INFO root fetch - processPackages [cullinan]: Remove: archive file [/home/abi/fetcher/tmp/cullinan-0.54a2.tar.gz]
+[2023-07-01 19:02:00] INFO root fetch - main [MainThread]: End processing [cullinan]: success
+[2023-07-01 19:02:02] INFO root fetch - processPackages [burnman]: Remove: archive file [/home/abi/fetcher/tmp/burnman-1.1.0.tar.gz]
+[2023-07-01 19:02:02] INFO root fetch - processPackages [burnman]: Remove: archive file [/home/abi/fetcher/tmp/burnman-1.2.0.tar.gz]
+[2023-07-01 19:02:02] INFO root fetch - main [MainThread]: End processing [burnman]: success
+[2023-07-01 19:02:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_harness-0.0.5.tar.gz]
+[2023-07-01 19:02:03] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz]
+[2023-07-01 19:02:03] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-harness]: success
+[2023-07-01 19:02:03] INFO root fetch - main [MainThread]: Store serial: [18723241]
