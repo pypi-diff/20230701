@@ -11491,3 +11491,46 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:58:34] INFO root fetch - processPackages [igraph]: Remove: archive file [/home/abi/fetcher/tmp/igraph-0.9.9.tar.gz]
 [2023-07-01 10:58:34] INFO root fetch - main [MainThread]: End processing [igraph]: success
 [2023-07-01 10:58:34] INFO root fetch - main [MainThread]: Store serial: [18720789]
+[2023-07-01 11:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720789]
+[2023-07-01 11:03:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aramgg-poro
+[2023-07-01 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inels-mqtt-new
+[2023-07-01 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cernrequests
+[2023-07-01 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inels-mqtt-new
+[2023-07-01 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aramgg-poro
+[2023-07-01 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.common
+[2023-07-01 11:03:43] INFO root fetch - processPackages [cernrequests]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-01 11:03:43] WARNING root fetch - processPackages [aramgg-poro]: Skipping, unable to determine old version
+[2023-07-01 11:03:43] INFO root fetch - main [MainThread]: End processing [aramgg-poro] error
+[2023-07-01 11:03:43] WARNING root fetch - processPackages [aramgg-poro]: Skipping, unable to determine old version
+[2023-07-01 11:03:43] INFO root fetch - main [MainThread]: End processing [aramgg-poro] error
+[2023-07-01 11:03:43] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-07-01 11:03:43] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.2] Old Version: [0.8.1b20230630]
+[2023-07-01 11:03:43] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-07-01 11:03:43] INFO root fetch - processPackages [cernrequests]: Downloading https://files.pythonhosted.org/packages/0e/5b/da30aa3b599567057afd9370a803275724adfe95091814ad5199202606ca/cernrequests-0.4.0.tar.gz
+[2023-07-01 11:03:43] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/b3/d6/117e6b92e5bd10a06ddfd487930401109f4fe0d4452eb793ed58dc116114/autogluon.common-0.8.1b20230630.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/f3/b4/aad26ab80dde8799302dbe662e01e1fe40a55a40eba4691be5a5ebcc58a7/inels-mqtt-new-0.2.9a1.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/f3/b4/aad26ab80dde8799302dbe662e01e1fe40a55a40eba4691be5a5ebcc58a7/inels-mqtt-new-0.2.9a1.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/6f/dc/d8616cfa58465498bef83dd940335b3dc05c64749944e9f06404a6005e78/autogluon.common-0.8.2.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [cernrequests]: Downloading https://files.pythonhosted.org/packages/1c/15/8e678c6de9254fc4d6168ec7f54344aca2d486faf0251b19c2c0782842ce/cernrequests-0.4.1.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-07-01 11:03:44] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.1b20230630.tar.gz tmp/autogluon.common-0.8.2.tar.gz --markdown 20230701/a/autogluon.common/0.8.1b20230630-0.8.2/diff.md --exclude *.pyd
+[2023-07-01 11:03:44] INFO root fetch - processPackages [cernrequests]: executing diffoscope
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/a6/7a/baead4901c82cd855d0c5606eadd3c032b5e97b8d81da9cd7c40919e99f4/inels-mqtt-new-0.2.9a2.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [cernrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cernrequests-0.4.0.tar.gz tmp/cernrequests-0.4.1.tar.gz --markdown 20230701/c/cernrequests/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/a6/7a/baead4901c82cd855d0c5606eadd3c032b5e97b8d81da9cd7c40919e99f4/inels-mqtt-new-0.2.9a2.tar.gz
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230701/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-07-01 11:03:44] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230701/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-07-01 11:03:45] INFO root fetch - processPackages [cernrequests]: Remove: archive file [/home/abi/fetcher/tmp/cernrequests-0.4.0.tar.gz]
+[2023-07-01 11:03:45] INFO root fetch - processPackages [cernrequests]: Remove: archive file [/home/abi/fetcher/tmp/cernrequests-0.4.1.tar.gz]
+[2023-07-01 11:03:45] INFO root fetch - main [MainThread]: End processing [cernrequests]: success
+[2023-07-01 11:03:45] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.1b20230630.tar.gz]
+[2023-07-01 11:03:45] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.2.tar.gz]
+[2023-07-01 11:03:45] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-07-01 11:03:45] INFO root fetch - processPackages [inels-mqtt-new]: Remove: archive file [/home/abi/fetcher/tmp/inels-mqtt-new-0.2.9a1.tar.gz]
+[2023-07-01 11:03:45] INFO root fetch - processPackages [inels-mqtt-new]: Remove: archive file [/home/abi/fetcher/tmp/inels-mqtt-new-0.2.9a2.tar.gz]
+[2023-07-01 11:03:45] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-07-01 11:04:39] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-07-01 11:04:39] INFO root fetch - main [MainThread]: Store serial: [18720817]
