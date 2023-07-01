@@ -19745,3 +19745,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:43:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307012041-py3-none-any.whl.zip]
 [2023-07-01 22:43:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-01 22:43:32] INFO root fetch - main [MainThread]: Store serial: [18724554]
+[2023-07-01 22:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724554]
+[2023-07-01 22:48:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: functionlayer
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devd
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphscope
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphscope-client
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-apps
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-coordinator
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-engine
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-include
+[2023-07-01 22:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: policyengine-us
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230630] Old Version: [0.23.0a20230629]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230701] Old Version: [0.23.0a20230630]
+[2023-07-01 22:48:41] WARNING root fetch - processPackages [devd]: Skipping, unable to determine old version
+[2023-07-01 22:48:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202307012044] Old Version: [99.0.202306301712]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [devd]: Start processing: y2mate-api
+[2023-07-01 22:48:41] INFO root fetch - processPackages [functionlayer]: New version: [0.1] Old Version: [0.0]
+[2023-07-01 22:48:41] INFO root fetch - main [MainThread]: End processing [devd] error
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-include]: New version: [0.23.0a20230630] Old Version: [0.23.0a20230629]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230701] Old Version: [0.23.0a20230630]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230701] Old Version: [0.23.0a20230630]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230701] Old Version: [0.23.0a20230630]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [policyengine-us]: New version: [0.346.1] Old Version: [0.346.0]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/c4/32/d7b50606c3b02223d2d46cc1ae549ff13fdb673c4e6ef787a478b0581067/gs_engine-0.23.0a20230629-py2.py3-none-any.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/58/ec/635a7d21fd9e4c57de31eda5189e27a99665ef972b15aff00c3f30cde1dc/policyengine-us-0.346.0.tar.gz
+[2023-07-01 22:48:41] INFO root fetch - processPackages [y2mate-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 22:48:41] INFO root fetch - processPackages [functionlayer]: Downloading https://files.pythonhosted.org/packages/c4/13/a2ee7af4210705fa0a67e3398c23a0b1c4a372b38a87da3564fdddd45c76/functionlayer-0.0.tar.gz
+[2023-07-01 22:48:41] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2b/21/717c817691bba3eb2c1e5ce85f54df72156726efc32066c877bdf4b9efd8/kfish-99.0.202306301712-py3-none-any.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/b6/24/5e53a85e359f5de31cd3f419afc11d4bbb06846846434ee518ca91b22028/gs_include-0.23.0a20230629-py2.py3-none-any.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/8c/66/ad186764cc40534c76b603a6d38cae2840ab50efe977426cf70a7cd78836/policyengine-us-0.346.1.tar.gz
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/23/84/73e4a15bffccadefba02b25c027bc290af52f5cef63f5af35f53cf6e34a2/gs_apps-0.23.0a20230630-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/18/5a/d68d4b7ee9f713d079e438e7c0d2330797dee9adeff0dec60495a6683e4c/graphscope_client-0.23.0a20230630-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/46/be/8f379ed528615c98251e5e0b2e44e9d386cb0b5b742ff65cdc2d3661b4bb/gs_coordinator-0.23.0a20230630-py2.py3-none-any.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/6c/29/5fd3683c42d56a1c43edbadce76e55132200912b5e460e5923bd5fdb72e5/graphscope-0.23.0a20230630-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 22:48:41] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/d7/df/ac52f7471923fa69ef7ebd48b9ab0c1dae619af04d9bb49536ed6c636e49/y2mate-api-0.0.8.tar.gz
+[2023-07-01 22:48:42] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 27683677>=10485760
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-include]: Start processing: pulumiverse-exoscale
+[2023-07-01 22:48:42] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-07-01 22:48:42] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.346.0.tar.gz tmp/policyengine-us-0.346.1.tar.gz --markdown 20230701/p/policyengine-us/0.346.0-0.346.1/diff.md --exclude *.pyd
+[2023-07-01 22:48:42] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64485259>=10485760
+[2023-07-01 22:48:42] INFO root fetch - processPackages [graphscope-client]: Start processing: kermit-sdr
+[2023-07-01 22:48:42] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-07-01 22:48:42] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47184747>=10485760
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-apps]: Start processing: py-robocopy
+[2023-07-01 22:48:42] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-07-01 22:48:42] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211428321>=10485760
+[2023-07-01 22:48:42] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-07-01 22:48:42] INFO root fetch - processPackages [functionlayer]: Downloading https://files.pythonhosted.org/packages/2c/7e/a331d5e2f864617eb5e79c5c4b46eea2fd3f7d0d069267e6f34fc3875573/functionlayer-0.1.tar.gz
+[2023-07-01 22:48:42] WARNING root fetch - processPackages [py-robocopy]: Skipping, unable to determine old version
+[2023-07-01 22:48:42] INFO root fetch - main [MainThread]: End processing [py-robocopy] error
+[2023-07-01 22:48:42] INFO root fetch - processPackages [pulumiverse-exoscale]: New version: [0.50.0] Old Version: [0.49.0]
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/01/70/2b2c313b573bc65a837d8546bea7cf3b0e2e271bd47b315c36879ea0b970/gs_engine-0.23.0a20230630-py2.py3-none-any.whl
+[2023-07-01 22:48:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cf/24/8e26379a896b0339710e7d37e4b8308e8e8e427918063cf48e10df918d65/kfish-99.0.202307012044-py3-none-any.whl
+[2023-07-01 22:48:42] WARNING root fetch - processPackages [kermit-sdr]: Skipping, unable to determine old version
+[2023-07-01 22:48:42] INFO root fetch - main [MainThread]: End processing [kermit-sdr] error
+[2023-07-01 22:48:42] INFO root fetch - processPackages [y2mate-api]: Downloading https://files.pythonhosted.org/packages/e5/a5/093219d00b2e8b19fabfd95bc33a18a4411f0af964ef8bae89465bfe6e1e/y2mate-api-0.0.9.tar.gz
+[2023-07-01 22:48:42] INFO root fetch - processPackages [functionlayer]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [functionlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functionlayer-0.0.tar.gz tmp/functionlayer-0.1.tar.gz --markdown 20230701/f/functionlayer/0.0-0.1/diff.md --exclude *.pyd
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230629-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230630-py2.py3-none-any.whl.zip --markdown 20230701/g/gs-engine/0.23.0a20230629-0.23.0a20230630/diff.md --exclude *.pyd
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/0c/b3/04cb5354fb784542de26bb5d20fd0ad63cd7def655795bad63164bfb0461/gs_coordinator-0.23.0a20230701-py2.py3-none-any.whl
+[2023-07-01 22:48:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306301712-py3-none-any.whl.zip tmp/kfish-99.0.202307012044-py3-none-any.whl.zip --markdown 20230701/k/kfish/99.0.202306301712-99.0.202307012044/diff.md --exclude *.pyd
+[2023-07-01 22:48:42] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/e3/e1/ee5011760d0dd54dfe7741565d77441021c3fe8b7ffce804219ea01d80b4/pulumiverse_exoscale-0.49.0.tar.gz
+[2023-07-01 22:48:42] INFO root fetch - processPackages [y2mate-api]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [y2mate-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y2mate-api-0.0.8.tar.gz tmp/y2mate-api-0.0.9.tar.gz --markdown 20230701/y/y2mate-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230630-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230701-py2.py3-none-any.whl.zip --markdown 20230701/g/gs-coordinator/0.23.0a20230630-0.23.0a20230701/diff.md --exclude *.pyd
+[2023-07-01 22:48:42] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/6d/b1/380116ac36a7267b0db20bf3c5e7ed9119123487d319f16f2172aeff8a93/pulumiverse_exoscale-0.50.0.tar.gz
+[2023-07-01 22:48:42] INFO root fetch - processPackages [pulumiverse-exoscale]: executing diffoscope
+[2023-07-01 22:48:42] INFO root fetch - processPackages [pulumiverse-exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_exoscale-0.49.0.tar.gz tmp/pulumiverse_exoscale-0.50.0.tar.gz --markdown 20230701/p/pulumiverse-exoscale/0.49.0-0.50.0/diff.md --exclude *.pyd
+[2023-07-01 22:48:43] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230629-py2.py3-none-any.whl.zip]
+[2023-07-01 22:48:43] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230630-py2.py3-none-any.whl.zip]
+[2023-07-01 22:48:43] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-07-01 22:48:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306301712-py3-none-any.whl.zip]
+[2023-07-01 22:48:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307012044-py3-none-any.whl.zip]
+[2023-07-01 22:48:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-01 22:48:43] INFO root fetch - processPackages [functionlayer]: Remove: archive file [/home/abi/fetcher/tmp/functionlayer-0.0.tar.gz]
+[2023-07-01 22:48:43] INFO root fetch - processPackages [functionlayer]: Remove: archive file [/home/abi/fetcher/tmp/functionlayer-0.1.tar.gz]
+[2023-07-01 22:48:43] INFO root fetch - main [MainThread]: End processing [functionlayer]: success
+[2023-07-01 22:48:43] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230630-py2.py3-none-any.whl.zip]
+[2023-07-01 22:48:43] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230701-py2.py3-none-any.whl.zip]
+[2023-07-01 22:48:43] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-07-01 22:48:44] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.8.tar.gz]
+[2023-07-01 22:48:44] INFO root fetch - processPackages [y2mate-api]: Remove: archive file [/home/abi/fetcher/tmp/y2mate-api-0.0.9.tar.gz]
+[2023-07-01 22:48:44] INFO root fetch - main [MainThread]: End processing [y2mate-api]: success
+[2023-07-01 22:48:45] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.49.0.tar.gz]
+[2023-07-01 22:48:45] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.50.0.tar.gz]
+[2023-07-01 22:48:45] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
+[2023-07-01 22:50:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.0.tar.gz]
+[2023-07-01 22:50:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.346.1.tar.gz]
+[2023-07-01 22:50:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-01 22:50:02] INFO root fetch - main [MainThread]: Store serial: [18724595]
