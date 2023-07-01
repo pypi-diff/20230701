@@ -15151,3 +15151,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:48:15] INFO root fetch - processPackages [edgetest]: Remove: archive file [/home/abi/fetcher/tmp/edgetest-2023.6.1.tar.gz]
 [2023-07-01 16:48:15] INFO root fetch - main [MainThread]: End processing [edgetest]: success
 [2023-07-01 16:48:15] INFO root fetch - main [MainThread]: Store serial: [18722479]
+[2023-07-01 16:53:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722479]
+[2023-07-01 16:53:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: couchbed
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dinov2-retrieval
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: non-local-detector
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epc-api-python
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-luke
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qado-lib
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lokzzpylibrary
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-bibtex
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-bibtex
+[2023-07-01 16:53:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypipr
+[2023-07-01 16:53:24] INFO root fetch - processPackages [couchbed]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 16:53:24] INFO root fetch - processPackages [py-luke]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2023-07-01 16:53:24] WARNING root fetch - processPackages [lokzzpylibrary]: Skipping, unable to determine old version
+[2023-07-01 16:53:24] INFO root fetch - main [MainThread]: End processing [lokzzpylibrary] error
+[2023-07-01 16:53:24] WARNING root fetch - processPackages [non-local-detector]: Skipping, unable to determine old version
+[2023-07-01 16:53:24] INFO root fetch - processPackages [dinov2-retrieval]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 16:53:24] INFO root fetch - main [MainThread]: End processing [non-local-detector] error
+[2023-07-01 16:53:24] WARNING root fetch - processPackages [qado-lib]: Skipping, unable to determine old version
+[2023-07-01 16:53:24] INFO root fetch - main [MainThread]: End processing [qado-lib] error
+[2023-07-01 16:53:24] INFO root fetch - processPackages [mkdocs-bibtex]: New version: [2.9.0] Old Version: [2.8.9]
+[2023-07-01 16:53:24] INFO root fetch - processPackages [epc-api-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 16:53:24] INFO root fetch - processPackages [mkdocs-bibtex]: New version: [2.9.0] Old Version: [2.8.9]
+[2023-07-01 16:53:25] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 16:53:25] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/2a/a7/ce9259097c574395f214840357a1a6ad173b7331ee8e01731e1cb9315cc0/couchbed-0.1.1.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [dinov2-retrieval]: Downloading https://files.pythonhosted.org/packages/d3/3a/4f18f460722c63939d00bbaa8f91dc8c7711259cc8edd5c09042d1df1619/dinov2_retrieval-0.0.1.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [epc-api-python]: Downloading https://files.pythonhosted.org/packages/11/6a/5e78c48b2d1da1982bd265379e110f61b56df7f59c898ed3a764c95fdf68/epc-api-python-1.0.1.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/89/38/add60c2ab123f43e47511fab2b1c62ff400bc057f4022e8ee09b1d2b04d3/mkdocs-bibtex-2.8.9.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/89/38/add60c2ab123f43e47511fab2b1c62ff400bc057f4022e8ee09b1d2b04d3/mkdocs-bibtex-2.8.9.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [py-luke]: Downloading https://files.pythonhosted.org/packages/83/8d/c6b552976af87e621f94daa7cc2018f069f1aeeaa78c68bab5fa79f3b60d/py_luke-0.0.1.dev0.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/62/43/627fdeb9e6c4bd587045bb14dec1a3f6d898b4dfe66b4cba5c7644b138b3/couchbed-0.1.2.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [dinov2-retrieval]: Downloading https://files.pythonhosted.org/packages/ac/c2/6a15d84e9c652c78b378196d599adf82a22faf0b74f7ea1ae53b37c6decb/dinov2_retrieval-0.0.2.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [epc-api-python]: Downloading https://files.pythonhosted.org/packages/91/c9/192c02e9c301374046e9ddfbac2302f7200a246b5a55c5ff2572027ec4a9/epc-api-python-1.0.2.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [py-luke]: Downloading https://files.pythonhosted.org/packages/57/67/5c27ba21c7d9a5d90d45ec1b2f342b472b4c120a9baf351bf7b47f6c86e5/py_luke-0.0.1.dev1.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [couchbed]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [couchbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchbed-0.1.1.tar.gz tmp/couchbed-0.1.2.tar.gz --markdown 20230701/c/couchbed/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 16:53:25] INFO root fetch - processPackages [epc-api-python]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [epc-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epc-api-python-1.0.1.tar.gz tmp/epc-api-python-1.0.2.tar.gz --markdown 20230701/e/epc-api-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/45/ce/ced07dc0831f7673c1b875eab10064ac756bd5f216b9ef03690dd0fa2466/mkdocs-bibtex-2.9.0.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/45/ce/ced07dc0831f7673c1b875eab10064ac756bd5f216b9ef03690dd0fa2466/mkdocs-bibtex-2.9.0.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [dinov2-retrieval]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [dinov2-retrieval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinov2_retrieval-0.0.1.tar.gz tmp/dinov2_retrieval-0.0.2.tar.gz --markdown 20230701/d/dinov2-retrieval/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 16:53:25] INFO root fetch - processPackages [py-luke]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [py-luke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_luke-0.0.1.dev0.tar.gz tmp/py_luke-0.0.1.dev1.tar.gz --markdown 20230701/p/py-luke/0.0.1.dev0-0.0.1.dev1/diff.md --exclude *.pyd
+[2023-07-01 16:53:25] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-bibtex-2.8.9.tar.gz tmp/mkdocs-bibtex-2.9.0.tar.gz --markdown 20230701/m/mkdocs-bibtex/2.8.9-2.9.0/diff.md --exclude *.pyd
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [mkdocs-bibtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-bibtex-2.8.9.tar.gz tmp/mkdocs-bibtex-2.9.0.tar.gz --markdown 20230701/m/mkdocs-bibtex/2.8.9-2.9.0/diff.md --exclude *.pyd
+[2023-07-01 16:53:25] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-07-01 16:53:25] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20230701/p/pypipr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 16:53:26] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.1.tar.gz]
+[2023-07-01 16:53:26] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.2.tar.gz]
+[2023-07-01 16:53:26] INFO root fetch - main [MainThread]: End processing [couchbed]: success
+[2023-07-01 16:53:26] INFO root fetch - processPackages [epc-api-python]: Remove: archive file [/home/abi/fetcher/tmp/epc-api-python-1.0.1.tar.gz]
+[2023-07-01 16:53:26] INFO root fetch - processPackages [epc-api-python]: Remove: archive file [/home/abi/fetcher/tmp/epc-api-python-1.0.2.tar.gz]
+[2023-07-01 16:53:26] INFO root fetch - main [MainThread]: End processing [epc-api-python]: success
+[2023-07-01 16:53:26] INFO root fetch - processPackages [dinov2-retrieval]: Remove: archive file [/home/abi/fetcher/tmp/dinov2_retrieval-0.0.1.tar.gz]
+[2023-07-01 16:53:26] INFO root fetch - processPackages [dinov2-retrieval]: Remove: archive file [/home/abi/fetcher/tmp/dinov2_retrieval-0.0.2.tar.gz]
+[2023-07-01 16:53:26] INFO root fetch - main [MainThread]: End processing [dinov2-retrieval]: success
+[2023-07-01 16:53:27] INFO root fetch - processPackages [mkdocs-bibtex]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-bibtex-2.8.9.tar.gz]
+[2023-07-01 16:53:27] INFO root fetch - processPackages [mkdocs-bibtex]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-bibtex-2.9.0.tar.gz]
+[2023-07-01 16:53:27] INFO root fetch - main [MainThread]: End processing [mkdocs-bibtex]: success
+[2023-07-01 16:53:27] INFO root fetch - processPackages [py-luke]: Remove: archive file [/home/abi/fetcher/tmp/py_luke-0.0.1.dev0.tar.gz]
+[2023-07-01 16:53:27] INFO root fetch - processPackages [py-luke]: Remove: archive file [/home/abi/fetcher/tmp/py_luke-0.0.1.dev1.tar.gz]
+[2023-07-01 16:53:27] INFO root fetch - main [MainThread]: End processing [py-luke]: success
+[2023-07-01 16:53:27] INFO root fetch - main [MainThread]: End processing [mkdocs-bibtex]: success
+[2023-07-01 16:53:27] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2023-07-01 16:53:27] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2023-07-01 16:53:27] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-07-01 16:53:27] INFO root fetch - main [MainThread]: Store serial: [18722512]
