@@ -9040,3 +9040,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:43:52] INFO root fetch - processPackages [py4macro]: Remove: archive file [/home/abi/fetcher/tmp/py4macro-0.8.6.tar.gz]
 [2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [py4macro]: success
 [2023-07-01 06:43:52] INFO root fetch - main [MainThread]: Store serial: [18719826]
+[2023-07-01 06:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719826]
+[2023-07-01 06:49:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: not1mm
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-export-async
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-queue
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptconsole
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: translucenttb
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mage-ai
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pfacbuilder
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hay-say-common
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gptconsole
+[2023-07-01 06:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hugchat-api
+[2023-07-01 06:49:01] INFO root fetch - processPackages [odoo-addons-oca-queue]: New version: [16.0.20230628.0] Old Version: [16.0.20230220.0]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [hay-say-common]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [odoo-addon-base-export-async]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-07-01 06:49:01] WARNING root fetch - processPackages [pfacbuilder]: Skipping, unable to determine old version
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: New version: [0.9] Old Version: [0.8]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [pfacbuilder]: Start processing: ximilar-client-new
+[2023-07-01 06:49:01] INFO root fetch - main [MainThread]: End processing [pfacbuilder] error
+[2023-07-01 06:49:01] INFO root fetch - processPackages [not1mm]: New version: [23.6.30.1] Old Version: [23.6.30]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [translucenttb]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: New version: [0.9] Old Version: [0.8]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [mage-ai]: New version: [0.8.99] Old Version: [0.8.98]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/86/fd/882be7e80a0e36bb23cfbea6f0b6aaf0b2dd3cb81fdb0d6a98de31f67c74/gptconsole-0.8.tar.gz
+[2023-07-01 06:49:01] WARNING root fetch - processPackages [ximilar-client-new]: Skipping, unable to determine old version
+[2023-07-01 06:49:01] INFO root fetch - main [MainThread]: End processing [ximilar-client-new] error
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/86/fd/882be7e80a0e36bb23cfbea6f0b6aaf0b2dd3cb81fdb0d6a98de31f67c74/gptconsole-0.8.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [hugchat-api]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-07-01 06:49:01] INFO root fetch - processPackages [translucenttb]: Downloading https://files.pythonhosted.org/packages/21/8e/67eaa4a31171a3167621e8b95c0d8a8db7c0197bc9e4ef750db071caeb36/translucenttb-0.0.2.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/3b/64/d12f6dec4d159baee47d3a99128b905ef8636232033b6f981a3c90daaba5/not1mm-23.6.30.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [hay-say-common]: Downloading https://files.pythonhosted.org/packages/8a/2e/0c7645c642ceafdb6dd6949740586c04e245f1058fac0f442529669ffa6c/hay_say_common-0.1.1.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/7b/b9/68ed0db6c379a5dd548bab31dd612a5476fb6f8b9df41c2340c6e114b5c3/gptconsole-0.9.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/7b/b9/68ed0db6c379a5dd548bab31dd612a5476fb6f8b9df41c2340c6e114b5c3/gptconsole-0.9.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [odoo-addon-base-export-async]: Downloading https://files.pythonhosted.org/packages/ec/f7/10e942204b35859ae8ff589854028caa0c393e61f41aae471b8101a380e9/odoo_addon_base_export_async-15.0.1.0.0.3-py3-none-any.whl
+[2023-07-01 06:49:01] INFO root fetch - processPackages [odoo-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/18/f3/55ae23a09d8aa3835b3e10a2e076e071459d4530ddbe0cda3f1e76c73d3f/odoo_addons_oca_queue-16.0.20230220.0-py3-none-any.whl
+[2023-07-01 06:49:01] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/0a/30/b2974b3572c6d5e838d1d5c3ec21228ee5095fcd9c9208385cb759902232/mage-ai-0.8.98.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: executing diffoscope
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptconsole-0.8.tar.gz tmp/gptconsole-0.9.tar.gz --markdown 20230701/g/gptconsole/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: executing diffoscope
+[2023-07-01 06:49:01] INFO root fetch - processPackages [gptconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptconsole-0.8.tar.gz tmp/gptconsole-0.9.tar.gz --markdown 20230701/g/gptconsole/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-01 06:49:01] INFO root fetch - processPackages [hugchat-api]: Downloading https://files.pythonhosted.org/packages/b2/6c/1766dc92c696ccea884b7ccf695cc84cc2eec0804353c6780720ab66b5c8/hugchat_api-0.0.1.2.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [translucenttb]: Downloading https://files.pythonhosted.org/packages/85/ce/d7851b9ceb099c63a5ea44ceb9707373d8e906bbbf1bd46bc0c884d62e45/translucenttb-0.0.3.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [odoo-addon-base-export-async]: Downloading https://files.pythonhosted.org/packages/01/d7/aaafed16277245ce4679be54e01b38008a37c24e79a2612a8bdf1843789f/odoo_addon_base_export_async-15.0.1.0.0.4-py3-none-any.whl
+[2023-07-01 06:49:01] INFO root fetch - processPackages [hay-say-common]: Downloading https://files.pythonhosted.org/packages/84/9a/ea6dc5b97f122f405119b7d4d1c3ce9ae8f15e844c36673e49045a028b1f/hay_say_common-0.1.2.tar.gz
+[2023-07-01 06:49:01] INFO root fetch - processPackages [translucenttb]: executing diffoscope
+[2023-07-01 06:49:01] INFO root fetch - processPackages [translucenttb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translucenttb-0.0.2.tar.gz tmp/translucenttb-0.0.3.tar.gz --markdown 20230701/t/translucenttb/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 06:49:01] INFO root fetch - processPackages [odoo-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/89/77/63fa8183b3dbddf4b45a5add6e0adc2c3b984f2642f006906eeb5d18049e/odoo_addons_oca_queue-16.0.20230628.0-py3-none-any.whl
+[2023-07-01 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-queue]: executing diffoscope
+[2023-07-01 06:49:02] INFO root fetch - processPackages [odoo-addons-oca-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_queue-16.0.20230220.0-py3-none-any.whl.zip tmp/odoo_addons_oca_queue-16.0.20230628.0-py3-none-any.whl.zip --markdown 20230701/o/odoo-addons-oca-queue/16.0.20230220.0-16.0.20230628.0/diff.md --exclude *.pyd
+[2023-07-01 06:49:02] INFO root fetch - processPackages [odoo-addon-base-export-async]: executing diffoscope
+[2023-07-01 06:49:02] INFO root fetch - processPackages [odoo-addon-base-export-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_export_async-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_export_async-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-base-export-async/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-01 06:49:02] INFO root fetch - processPackages [hugchat-api]: Downloading https://files.pythonhosted.org/packages/19/88/687d753347d1d31c4d4c9c6c2331367ab1b70f8bd2ef1fdeb054485e0f01/hugchat_api-0.0.1.3.tar.gz
+[2023-07-01 06:49:02] INFO root fetch - processPackages [hay-say-common]: executing diffoscope
+[2023-07-01 06:49:02] INFO root fetch - processPackages [hay-say-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hay_say_common-0.1.1.tar.gz tmp/hay_say_common-0.1.2.tar.gz --markdown 20230701/h/hay-say-common/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 06:49:02] INFO root fetch - processPackages [hugchat-api]: executing diffoscope
+[2023-07-01 06:49:02] INFO root fetch - processPackages [hugchat-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat_api-0.0.1.2.tar.gz tmp/hugchat_api-0.0.1.3.tar.gz --markdown 20230701/h/hugchat-api/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-07-01 06:49:02] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/39/b4/b09a593316da0078fe3150a7c78e127b57cf2b1cc033843c1eb410f70a26/not1mm-23.6.30.1.tar.gz
+[2023-07-01 06:49:02] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-07-01 06:49:02] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.6.30.tar.gz tmp/not1mm-23.6.30.1.tar.gz --markdown 20230701/n/not1mm/23.6.30-23.6.30.1/diff.md --exclude *.pyd
+[2023-07-01 06:49:02] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.8.tar.gz]
+[2023-07-01 06:49:02] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.9.tar.gz]
+[2023-07-01 06:49:02] INFO root fetch - main [MainThread]: End processing [gptconsole]: success
+[2023-07-01 06:49:02] INFO root fetch - main [MainThread]: End processing [gptconsole]: success
+[2023-07-01 06:49:03] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/48/3d/275cee98ee6cf65f2e9990c372923001afa95a61cb121a2bf54f23c5b0be/mage-ai-0.8.99.tar.gz
+[2023-07-01 06:49:03] INFO root fetch - processPackages [translucenttb]: Remove: archive file [/home/abi/fetcher/tmp/translucenttb-0.0.2.tar.gz]
+[2023-07-01 06:49:03] INFO root fetch - processPackages [translucenttb]: Remove: archive file [/home/abi/fetcher/tmp/translucenttb-0.0.3.tar.gz]
+[2023-07-01 06:49:03] INFO root fetch - main [MainThread]: End processing [translucenttb]: success
+[2023-07-01 06:49:03] INFO root fetch - processPackages [odoo-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_queue-16.0.20230220.0-py3-none-any.whl.zip]
+[2023-07-01 06:49:03] INFO root fetch - processPackages [odoo-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_queue-16.0.20230628.0-py3-none-any.whl.zip]
+[2023-07-01 06:49:03] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-queue]: success
+[2023-07-01 06:49:03] INFO root fetch - processPackages [hay-say-common]: Remove: archive file [/home/abi/fetcher/tmp/hay_say_common-0.1.1.tar.gz]
+[2023-07-01 06:49:03] INFO root fetch - processPackages [hay-say-common]: Remove: archive file [/home/abi/fetcher/tmp/hay_say_common-0.1.2.tar.gz]
+[2023-07-01 06:49:03] INFO root fetch - main [MainThread]: End processing [hay-say-common]: success
+[2023-07-01 06:49:03] INFO root fetch - processPackages [hugchat-api]: Remove: archive file [/home/abi/fetcher/tmp/hugchat_api-0.0.1.2.tar.gz]
+[2023-07-01 06:49:03] INFO root fetch - processPackages [hugchat-api]: Remove: archive file [/home/abi/fetcher/tmp/hugchat_api-0.0.1.3.tar.gz]
+[2023-07-01 06:49:03] INFO root fetch - main [MainThread]: End processing [hugchat-api]: success
+[2023-07-01 06:49:03] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-01 06:49:03] INFO root fetch - processPackages [odoo-addon-base-export-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_export_async-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-01 06:49:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-export-async]: success
+[2023-07-01 06:49:03] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-07-01 06:49:03] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.98.tar.gz tmp/mage-ai-0.8.99.tar.gz --markdown 20230701/m/mage-ai/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2023-07-01 06:49:05] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.30.tar.gz]
+[2023-07-01 06:49:05] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-23.6.30.1.tar.gz]
+[2023-07-01 06:49:05] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-07-01 06:49:31] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.98.tar.gz]
+[2023-07-01 06:49:31] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.99.tar.gz]
+[2023-07-01 06:49:31] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-07-01 06:49:31] INFO root fetch - main [MainThread]: Store serial: [18719857]
