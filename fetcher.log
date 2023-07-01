@@ -9718,3 +9718,34 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:14:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2527-py3-none-any.whl.zip]
 [2023-07-01 08:14:06] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-07-01 08:14:06] INFO root fetch - main [MainThread]: Store serial: [18720098]
+[2023-07-01 08:19:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720098]
+[2023-07-01 08:19:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topologicpy
+[2023-07-01 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-07-01 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: get-eyedata
+[2023-07-01 08:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-ocgbot-v2
+[2023-07-01 08:19:15] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-01 08:19:15] INFO root fetch - processPackages [get-eyedata]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-01 08:19:15] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-01 08:19:15] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230701] Old Version: [1.6.1.dev20230630]
+[2023-07-01 08:19:15] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/15/c0/54ed20dfb6ad14b098fc31234ae13883d2654004731a172dfbe7eac715d1/pretext-1.6.1.dev20230630.tar.gz
+[2023-07-01 08:19:15] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/80/4e/92c2f55deabe4d5bc51f729b4fdaa3e5e9aca37774e1d57d6cde7a2047da/get_eyedata-1.3.0-py3-none-any.whl
+[2023-07-01 08:19:15] INFO root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Downloading https://files.pythonhosted.org/packages/c4/06/5fc076223d5fe6a1397c76ca666f567f0c2f802bef1efb17f5221ee0b474/nonebot_plugin_ocgbot_v2-0.2.2.tar.gz
+[2023-07-01 08:19:15] WARNING root fetch - processPackages [nonebot-plugin-ocgbot-v2]: Skipping package: exceeds size limit 18806510>=10485760
+[2023-07-01 08:19:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ocgbot-v2] error
+[2023-07-01 08:19:16] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-07-01 08:19:16] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cd/62/9b3a1e87c1937e561bf9e73af35f1c026edeccf665b650fd51be5407dd7b/pretext-1.6.1.dev20230701.tar.gz
+[2023-07-01 08:19:16] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-07-01 08:19:16] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-07-01 08:19:16] INFO root fetch - processPackages [get-eyedata]: Downloading https://files.pythonhosted.org/packages/01/df/2938d65fb6fe70b619f4ef56f28615fc1bbdf6dd3eed4c10f2c4f8ac0bb1/get_eyedata-1.3.1-py3-none-any.whl
+[2023-07-01 08:19:16] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-07-01 08:19:16] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230630.tar.gz tmp/pretext-1.6.1.dev20230701.tar.gz --markdown 20230701/p/pretext/1.6.1.dev20230630-1.6.1.dev20230701/diff.md --exclude *.pyd
+[2023-07-01 08:19:16] INFO root fetch - processPackages [get-eyedata]: executing diffoscope
+[2023-07-01 08:19:16] INFO root fetch - processPackages [get-eyedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_eyedata-1.3.0-py3-none-any.whl.zip tmp/get_eyedata-1.3.1-py3-none-any.whl.zip --markdown 20230701/g/get-eyedata/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-01 08:19:17] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.0-py3-none-any.whl.zip]
+[2023-07-01 08:19:17] INFO root fetch - processPackages [get-eyedata]: Remove: archive file [/home/abi/fetcher/tmp/get_eyedata-1.3.1-py3-none-any.whl.zip]
+[2023-07-01 08:19:17] INFO root fetch - main [MainThread]: End processing [get-eyedata]: success
+[2023-07-01 08:19:20] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230630.tar.gz]
+[2023-07-01 08:19:20] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230701.tar.gz]
+[2023-07-01 08:19:20] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-07-01 08:19:20] INFO root fetch - main [MainThread]: Store serial: [18720110]

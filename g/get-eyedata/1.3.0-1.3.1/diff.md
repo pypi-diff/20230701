@@ -1,0 +1,354 @@
+# Comparing `tmp/get_eyedata-1.3.0-py3-none-any.whl.zip` & `tmp/get_eyedata-1.3.1-py3-none-any.whl.zip`
+
+## zipinfo {}
+
+```diff
+@@ -1,11 +1,11 @@
+-Zip file size: 6441 bytes, number of entries: 9
++Zip file size: 8165 bytes, number of entries: 9
+ -rw-rw-rw-  2.0 fat        6 b- defN 23-Jun-05 08:24 get_eyedata/__init__.py
+ -rw-rw-rw-  2.0 fat     2340 b- defN 23-Jun-30 06:07 get_eyedata/frame_utils.py
+--rw-rw-rw-  2.0 fat        0 b- defN 23-Jun-05 08:24 get_eyedata/ow2.py
++-rw-rw-rw-  2.0 fat     4216 b- defN 23-Jul-01 06:06 get_eyedata/ow2.py
+ -rw-rw-rw-  2.0 fat     5284 b- defN 23-Jun-30 06:28 get_eyedata/valo.py
+--rw-rw-rw-  2.0 fat     1091 b- defN 23-Jun-30 06:35 get_eyedata-1.3.0.dist-info/LICENCE
+--rw-rw-rw-  2.0 fat     1869 b- defN 23-Jun-30 06:35 get_eyedata-1.3.0.dist-info/METADATA
+--rw-rw-rw-  2.0 fat       92 b- defN 23-Jun-30 06:35 get_eyedata-1.3.0.dist-info/WHEEL
+--rw-rw-rw-  2.0 fat       12 b- defN 23-Jun-30 06:35 get_eyedata-1.3.0.dist-info/top_level.txt
+-?rw-rw-r--  2.0 fat      714 b- defN 23-Jun-30 06:35 get_eyedata-1.3.0.dist-info/RECORD
+-9 files, 11408 bytes uncompressed, 5205 bytes compressed:  54.4%
++-rw-rw-rw-  2.0 fat     1091 b- defN 23-Jul-01 06:09 get_eyedata-1.3.1.dist-info/LICENCE
++-rw-rw-rw-  2.0 fat     1869 b- defN 23-Jul-01 06:09 get_eyedata-1.3.1.dist-info/METADATA
++-rw-rw-rw-  2.0 fat       92 b- defN 23-Jul-01 06:09 get_eyedata-1.3.1.dist-info/WHEEL
++-rw-rw-rw-  2.0 fat       12 b- defN 23-Jul-01 06:09 get_eyedata-1.3.1.dist-info/top_level.txt
++?rw-rw-r--  2.0 fat      717 b- defN 23-Jul-01 06:09 get_eyedata-1.3.1.dist-info/RECORD
++9 files, 15627 bytes uncompressed, 6929 bytes compressed:  55.7%
+```
+
+## zipnote {}
+
+```diff
+@@ -6,23 +6,23 @@
+ 
+ Filename: get_eyedata/ow2.py
+ Comment: 
+ 
+ Filename: get_eyedata/valo.py
+ Comment: 
+ 
+-Filename: get_eyedata-1.3.0.dist-info/LICENCE
++Filename: get_eyedata-1.3.1.dist-info/LICENCE
+ Comment: 
+ 
+-Filename: get_eyedata-1.3.0.dist-info/METADATA
++Filename: get_eyedata-1.3.1.dist-info/METADATA
+ Comment: 
+ 
+-Filename: get_eyedata-1.3.0.dist-info/WHEEL
++Filename: get_eyedata-1.3.1.dist-info/WHEEL
+ Comment: 
+ 
+-Filename: get_eyedata-1.3.0.dist-info/top_level.txt
++Filename: get_eyedata-1.3.1.dist-info/top_level.txt
+ Comment: 
+ 
+-Filename: get_eyedata-1.3.0.dist-info/RECORD
++Filename: get_eyedata-1.3.1.dist-info/RECORD
+ Comment: 
+ 
+ Zip file comment:
+```
+
+## get_eyedata/ow2.py
+
+```diff
+@@ -0,0 +1,264 @@
++00000000: 6672 6f6d 202e 6672 616d 655f 7574 696c  from .frame_util
++00000010: 7320 696d 706f 7274 2063 6f67 2c20 7365  s import cog, se
++00000020: 705f 792c 2062 696e 6172 697a 655f 696d  p_y, binarize_im
++00000030: 6167 652c 206d 616b 655f 6469 7370 6c61  age, make_displa
++00000040: 796f 6e6c 795f 7669 6465 6f0d 0a69 6d70  yonly_video..imp
++00000050: 6f72 7420 6376 320d 0a69 6d70 6f72 7420  ort cv2..import 
++00000060: 6e75 6d70 7920 6173 206e 700d 0a69 6d70  numpy as np..imp
++00000070: 6f72 7420 7061 6e64 6173 2061 7320 7064  ort pandas as pd
++00000080: 0d0a 6672 6f6d 2064 6174 6163 6c61 7373  ..from dataclass
++00000090: 6573 2069 6d70 6f72 7420 6461 7461 636c  es import datacl
++000000a0: 6173 730d 0a66 726f 6d20 7175 6575 6520  ass..from queue 
++000000b0: 696d 706f 7274 2051 7565 7565 0d0a 6672  import Queue..fr
++000000c0: 6f6d 2074 6872 6561 6469 6e67 2069 6d70  om threading imp
++000000d0: 6f72 7420 5468 7265 6164 0d0a 6672 6f6d  ort Thread..from
++000000e0: 2063 6f6e 6375 7272 656e 742e 6675 7475   concurrent.futu
++000000f0: 7265 7320 696d 706f 7274 2050 726f 6365  res import Proce
++00000100: 7373 506f 6f6c 4578 6563 7574 6f72 2c20  ssPoolExecutor, 
++00000110: 6173 5f63 6f6d 706c 6574 6564 0d0a 6672  as_completed..fr
++00000120: 6f6d 2074 7164 6d20 696d 706f 7274 2074  om tqdm import t
++00000130: 7164 6d0d 0a69 6d70 6f72 7420 6f73 0d0a  qdm..import os..
++00000140: 0d0a 4064 6174 6163 6c61 7373 0d0a 636c  ..@dataclass..cl
++00000150: 6173 7320 4172 6561 3a0d 0a20 2020 206e  ass Area:..    n
++00000160: 616d 653a 2073 7472 0d0a 2020 2020 746f  ame: str..    to
++00000170: 705f 783a 2069 6e74 0d0a 2020 2020 746f  p_x: int..    to
++00000180: 705f 793a 2069 6e74 0d0a 2020 2020 626f  p_y: int..    bo
++00000190: 7474 6f6d 5f78 3a20 696e 740d 0a20 2020  ttom_x: int..   
++000001a0: 2062 6f74 746f 6d5f 793a 2069 6e74 0d0a   bottom_y: int..
++000001b0: 2020 2020 6365 6e74 6572 5f78 3a20 696e      center_x: in
++000001c0: 7420 3d20 4e6f 6e65 0d0a 2020 2020 6365  t = None..    ce
++000001d0: 6e74 6572 5f79 3a20 696e 7420 3d20 4e6f  nter_y: int = No
++000001e0: 6e65 0d0a 2020 2020 7261 6469 7573 3a20  ne..    radius: 
++000001f0: 696e 7420 3d20 4e6f 6e65 0d0a 0d0a 6172  int = None....ar
++00000200: 6561 7320 3d20 5b0d 0a20 2020 2041 7265  eas = [..    Are
++00000210: 6128 2763 656e 7465 7227 2c20 3936 302c  a('center', 960,
++00000220: 2035 3430 2c20 3936 302c 2035 3430 2c20   540, 960, 540, 
++00000230: 3132 3529 2c0d 0a20 2020 2041 7265 6128  125),..    Area(
++00000240: 2768 7027 2c20 3530 2c20 3530 2c20 3530  'hp', 50, 50, 50
++00000250: 302c 2032 3530 292c 0d0a 2020 2020 4172  0, 250),..    Ar
++00000260: 6561 2827 6368 6174 272c 2035 302c 2033  ea('chat', 50, 3
++00000270: 3330 2c20 3530 302c 2035 3030 292c 0d0a  30, 500, 500),..
++00000280: 2020 2020 4172 6561 2827 756c 7427 2c20      Area('ult', 
++00000290: 3838 302c 2035 302c 2031 3034 302c 2032  880, 50, 1040, 2
++000002a0: 3230 292c 0d0a 2020 2020 4172 6561 2827  20),..    Area('
++000002b0: 6d79 5f73 7461 7475 7327 2c20 3134 3530  my_status', 1450
++000002c0: 2c20 3530 2c20 3139 3030 2c20 3238 3029  , 50, 1900, 280)
++000002d0: 2c0d 0a20 2020 2041 7265 6128 276d 6174  ,..    Area('mat
++000002e0: 6368 5f73 7461 7475 7327 2c20 3635 302c  ch_status', 650,
++000002f0: 2038 3830 2c20 3133 3030 2c20 3130 3830   880, 1300, 1080
++00000300: 292c 0d0a 2020 2020 4172 6561 2827 6b69  ),..    Area('ki
++00000310: 6c6c 5f6c 6f67 272c 2031 3435 302c 2038  ll_log', 1450, 8
++00000320: 3830 2c20 3139 3230 2c20 3130 3830 290d  80, 1920, 1080).
++00000330: 0a5d 0d0a 0d0a 6465 6620 6765 745f 726f  .]....def get_ro
++00000340: 6928 782c 2079 293a 0d0a 2020 2020 666f  i(x, y):..    fo
++00000350: 7220 6172 6561 2069 6e20 6172 6561 733a  r area in areas:
++00000360: 0d0a 2020 2020 2020 2020 6966 2061 7265  ..        if are
++00000370: 612e 6e61 6d65 203d 3d20 2763 656e 7465  a.name == 'cente
++00000380: 7227 2061 6e64 2061 7265 612e 6365 6e74  r' and area.cent
++00000390: 6572 5f78 2061 6e64 2061 7265 612e 6365  er_x and area.ce
++000003a0: 6e74 6572 5f79 2061 6e64 2061 7265 612e  nter_y and area.
++000003b0: 7261 6469 7573 3a0d 0a20 2020 2020 2020  radius:..       
++000003c0: 2020 2020 2069 6620 2828 7820 2d20 6172       if ((x - ar
++000003d0: 6561 2e63 656e 7465 725f 7829 202a 2a20  ea.center_x) ** 
++000003e0: 3220 2b20 2879 202d 2061 7265 612e 6365  2 + (y - area.ce
++000003f0: 6e74 6572 5f79 2920 2a2a 2032 2920 3c3d  nter_y) ** 2) <=
++00000400: 2061 7265 612e 7261 6469 7573 202a 2a20   area.radius ** 
++00000410: 323a 0d0a 2020 2020 2020 2020 2020 2020  2:..            
++00000420: 2020 2020 7265 7475 726e 2061 7265 612e      return area.
++00000430: 6e61 6d65 0d0a 2020 2020 2020 2020 656c  name..        el
++00000440: 6966 2061 7265 612e 746f 705f 7820 3c3d  if area.top_x <=
++00000450: 2078 203c 3d20 6172 6561 2e62 6f74 746f   x <= area.botto
++00000460: 6d5f 7820 616e 6420 6172 6561 2e74 6f70  m_x and area.top
++00000470: 5f79 203c 3d20 7920 3c3d 2061 7265 612e  _y <= y <= area.
++00000480: 626f 7474 6f6d 5f79 3a0d 0a20 2020 2020  bottom_y:..     
++00000490: 2020 2020 2020 2072 6574 7572 6e20 6172         return ar
++000004a0: 6561 2e6e 616d 650d 0a20 2020 2072 6574  ea.name..    ret
++000004b0: 7572 6e20 276f 7468 6572 270d 0a0d 0a0d  urn 'other'.....
++000004c0: 0a0d 0a64 6566 2063 6865 636b 2866 696c  ...def check(fil
++000004d0: 655f 7061 7468 3a73 7472 293a 0d0a 2020  e_path:str):..  
++000004e0: 2020 6966 206f 732e 7061 7468 2e65 7869    if os.path.exi
++000004f0: 7374 7328 6669 6c65 5f70 6174 6829 3a0d  sts(file_path):.
++00000500: 0a20 2020 2020 2020 2072 6574 7572 6e20  .        return 
++00000510: 5472 7565 0d0a 2020 2020 656c 7365 3a0d  True..    else:.
++00000520: 0a20 2020 2020 2020 2070 7269 6e74 2827  .        print('
++00000530: 4669 6c65 4e6f 7446 6f75 6e64 4572 726f  FileNotFoundErro
++00000540: 7227 290d 0a20 2020 2020 2020 2072 6574  r')..        ret
++00000550: 7572 6e20 4661 6c73 650d 0a0d 0a23 e383  urn False....#..
++00000560: 95e3 83ac e383 bce3 83a0 e381 aee8 aaad  ................
++00000570: e381 bfe8 bebc e381 bfe3 81a8 e794 bbe5  ................
++00000580: 838f e587 a6e7 9086 e381 aee4 b8a6 e588  ................
++00000590: 97e5 8c96 0d0a 6465 6620 6672 616d 655f  ......def frame_
++000005a0: 7265 6164 6572 2863 6170 2c20 7175 6575  reader(cap, queu
++000005b0: 6529 3a0d 0a20 2020 2077 6869 6c65 2054  e):..    while T
++000005c0: 7275 653a 0d0a 2020 2020 2020 2020 7265  rue:..        re
++000005d0: 742c 2066 7261 6d65 203d 2063 6170 2e72  t, frame = cap.r
++000005e0: 6561 6428 290d 0a20 2020 2020 2020 2069  ead()..        i
++000005f0: 6620 6e6f 7420 7265 743a 0d0a 2020 2020  f not ret:..    
++00000600: 2020 2020 2020 2020 7072 696e 7428 2772          print('r
++00000610: 6574 2069 7320 4661 6c73 6527 290d 0a20  et is False').. 
++00000620: 2020 2020 2020 2020 2020 2062 7265 616b             break
++00000630: 0d0a 2020 2020 2020 2020 7175 6575 652e  ..        queue.
++00000640: 7075 7428 6672 616d 6529 0d0a 2020 2020  put(frame)..    
++00000650: 7175 6575 652e 7075 7428 4e6f 6e65 2920  queue.put(None) 
++00000660: 2023 2073 6967 6e61 6c20 7468 6174 2061   # signal that a
++00000670: 6c6c 2066 7261 6d65 7320 6861 7665 2062  ll frames have b
++00000680: 6565 6e20 7265 6164 0d0a 0d0a 6465 6620  een read....def 
++00000690: 6d61 6b65 5f64 6174 6173 6574 2876 6964  make_dataset(vid
++000006a0: 656f 5f70 6174 683a 7374 722c 2073 6176  eo_path:str, sav
++000006b0: 653a 626f 6f6c 203d 2054 7275 652c 2067  e:bool = True, g
++000006c0: 6574 5f64 6973 706c 6179 3a62 6f6f 6c20  et_display:bool 
++000006d0: 3d20 5472 7565 293a 0d0a 2020 2020 23e5  = True):..    #.
++000006e0: 8b95 e794 bbe3 81ae e8aa ade3 81bf e8be  ................
++000006f0: bce3 81bf 0d0a 2020 2020 6d6f 765f 6669  ......    mov_fi
++00000700: 6c65 203d 206f 732e 7061 7468 2e6e 6f72  le = os.path.nor
++00000710: 6d70 6174 6828 7669 6465 6f5f 7061 7468  mpath(video_path
++00000720: 290d 0a20 2020 2063 6865 636b 286d 6f76  )..    check(mov
++00000730: 5f66 696c 6529 0d0a 2020 2020 6361 7020  _file)..    cap 
++00000740: 3d20 6376 322e 5669 6465 6f43 6170 7475  = cv2.VideoCaptu
++00000750: 7265 286d 6f76 5f66 696c 6529 0d0a 2020  re(mov_file)..  
++00000760: 2020 746f 7461 6c5f 6672 616d 6573 203d    total_frames =
++00000770: 2069 6e74 2863 6170 2e67 6574 2863 7632   int(cap.get(cv2
++00000780: 2e43 4150 5f50 524f 505f 4652 414d 455f  .CAP_PROP_FRAME_
++00000790: 434f 554e 5429 290d 0a20 2020 2070 7269  COUNT))..    pri
++000007a0: 6e74 2866 2774 6f74 616c 5f66 7261 6d65  nt(f'total_frame
++000007b0: 733a 7b74 6f74 616c 5f66 7261 6d65 737d  s:{total_frames}
++000007c0: 2729 0d0a 2020 2020 23e4 b8ad e5bf 83e5  ')..    #.......
++000007d0: baa7 e6a8 99e3 8292 e6a0 bce7 b48d e381  ................
++000007e0: 99e3 828b e383 aae3 82b9 e383 880d 0a20  ............... 
++000007f0: 2020 2066 7261 6d65 5f69 6473 203d 205b     frame_ids = [
++00000800: 5d0d 0a20 2020 2065 7965 5f78 203d 205b  ]..    eye_x = [
++00000810: 5d0d 0a20 2020 2065 7965 5f79 203d 205b  ]..    eye_y = [
++00000820: 5d0d 0a20 2020 2072 6f69 7320 3d20 5b5d  ]..    rois = []
++00000830: 0d0a 2020 2020 696d 6167 6573 203d 205b  ..    images = [
++00000840: 5d0d 0a20 2020 2023 e383 a1e3 82a4 e383  ]..    #........
++00000850: b3e3 83ab e383 bce3 8397 e382 b9e3 82bf  ................
++00000860: e383 bce3 8388 0d0a 2020 2020 6361 702e  ........    cap.
++00000870: 7365 7428 6376 322e 4341 505f 5052 4f50  set(cv2.CAP_PROP
++00000880: 5f50 4f53 5f46 5241 4d45 532c 2030 290d  _POS_FRAMES, 0).
++00000890: 0a20 2020 2066 6f72 2066 7261 6d65 5f69  .    for frame_i
++000008a0: 6420 696e 2074 7164 6d28 7261 6e67 6528  d in tqdm(range(
++000008b0: 302c 746f 7461 6c5f 6672 616d 6573 2929  0,total_frames))
++000008c0: 3a0d 0a20 2020 2020 2020 2023 e383 95e3  :..        #....
++000008d0: 83ac e383 bce3 83a0 e382 92e5 8f96 e5be  ................
++000008e0: 970d 0a20 2020 2020 2020 2072 6574 2c20  ...        ret, 
++000008f0: 6672 616d 6520 3d20 6361 702e 7265 6164  frame = cap.read
++00000900: 2829 0d0a 2020 2020 2020 2020 6966 2072  ()..        if r
++00000910: 6574 3a0d 0a20 2020 2020 2020 2020 2020  et:..           
++00000920: 2023 6765 7420 6269 6e61 7269 7a65 6420   #get binarized 
++00000930: 6961 6d67 6520 0d0a 2020 2020 2020 2020  iamge ..        
++00000940: 2020 2020 6966 2066 7261 6d65 2e73 6861      if frame.sha
++00000950: 7065 5b30 5d20 213d 2031 3038 303a 0d0a  pe[0] != 1080:..
++00000960: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000970: 6761 6d65 2c65 7965 203d 2073 6570 5f79  game,eye = sep_y
++00000980: 2866 7261 6d65 290d 0a20 2020 2020 2020  (frame)..       
++00000990: 2020 2020 2065 6c73 653a 0d0a 2020 2020       else:..    
++000009a0: 2020 2020 2020 2020 2020 2020 6579 6520              eye 
++000009b0: 3d20 6672 616d 650d 0a20 2020 2020 2020  = frame..       
++000009c0: 2020 2020 2062 696e 5f69 6d61 6765 203d       bin_image =
++000009d0: 2062 696e 6172 697a 655f 696d 6167 6528   binarize_image(
++000009e0: 6579 6529 0d0a 2020 2020 2020 2020 2020  eye)..          
++000009f0: 2020 2367 6574 2063 656e 7465 7220 6f66    #get center of
++00000a00: 2062 6967 6765 7374 206f 626a 6563 740d   biggest object.
++00000a10: 0a20 2020 2020 2020 2020 2020 2078 2c79  .            x,y
++00000a20: 203d 2063 6f67 2862 696e 5f69 6d61 6765   = cog(bin_image
++00000a30: 2e61 7374 7970 6528 6e70 2e75 696e 7438  .astype(np.uint8
++00000a40: 2929 0d0a 2020 2020 2020 2020 2020 2020  ))..            
++00000a50: 726f 6920 3d20 6765 745f 726f 6928 782c  roi = get_roi(x,
++00000a60: 7929 0d0a 2020 2020 2020 2020 2020 2020  y)..            
++00000a70: 6579 655f 782e 6170 7065 6e64 2878 290d  eye_x.append(x).
++00000a80: 0a20 2020 2020 2020 2020 2020 2065 7965  .            eye
++00000a90: 5f79 2e61 7070 656e 6428 7929 0d0a 2020  _y.append(y)..  
++00000aa0: 2020 2020 2020 2020 2020 726f 6973 2e61            rois.a
++00000ab0: 7070 656e 6428 726f 6929 0d0a 2020 2020  ppend(roi)..    
++00000ac0: 2020 2020 2020 2020 6672 616d 655f 6964          frame_id
++00000ad0: 732e 6170 7065 6e64 2866 7261 6d65 5f69  s.append(frame_i
++00000ae0: 6429 0d0a 2020 2020 2020 2020 656c 7365  d)..        else
++00000af0: 3a0d 0a20 2020 2020 2020 2020 2020 2070  :..            p
++00000b00: 7269 6e74 2866 2765 7272 6f72 206f 6363  rint(f'error occ
++00000b10: 7572 6420 6174 2066 7261 6d65 7b66 7261  urd at frame{fra
++00000b20: 6d65 5f69 647d 2729 0d0a 2020 2020 2020  me_id}')..      
++00000b30: 2020 2020 2020 6272 6561 6b20 2020 0d0a        break   ..
++00000b40: 2020 2020 6361 702e 7265 6c65 6173 6528      cap.release(
++00000b50: 290d 0a20 2020 2064 6620 3d20 7064 2e44  )..    df = pd.D
++00000b60: 6174 6146 7261 6d65 287b 2766 7261 6d65  ataFrame({'frame
++00000b70: 5f69 6473 273a 6672 616d 655f 6964 732c  _ids':frame_ids,
++00000b80: 2778 273a 6579 655f 782c 2779 273a 6579  'x':eye_x,'y':ey
++00000b90: 655f 792c 2772 6f69 273a 726f 6973 7d29  e_y,'roi':rois})
++00000ba0: 0d0a 2020 2020 6966 2073 6176 653a 0d0a  ..    if save:..
++00000bb0: 2020 2020 2020 2020 2320 4765 7420 7468          # Get th
++00000bc0: 6520 6261 7365 206e 616d 6520 6f66 2074  e base name of t
++00000bd0: 6865 2076 6964 656f 2066 696c 6520 616e  he video file an
++00000be0: 6420 7573 6520 6974 2074 6f20 6372 6561  d use it to crea
++00000bf0: 7465 2063 7376 2066 696c 656e 616d 650d  te csv filename.
++00000c00: 0a20 2020 2020 2020 2062 6173 655f 6e61  .        base_na
++00000c10: 6d65 203d 206f 732e 7061 7468 2e62 6173  me = os.path.bas
++00000c20: 656e 616d 6528 7669 6465 6f5f 7061 7468  ename(video_path
++00000c30: 290d 0a20 2020 2020 2020 2066 696c 655f  )..        file_
++00000c40: 6e61 6d65 2c20 5f20 3d20 6f73 2e70 6174  name, _ = os.pat
++00000c50: 682e 7370 6c69 7465 7874 2862 6173 655f  h.splitext(base_
++00000c60: 6e61 6d65 290d 0a20 2020 2020 2020 2064  name)..        d
++00000c70: 662e 746f 5f63 7376 2866 277b 6669 6c65  f.to_csv(f'{file
++00000c80: 5f6e 616d 657d 2e63 7376 272c 696e 6465  _name}.csv',inde
++00000c90: 783d 4661 6c73 6529 0d0a 2020 2020 6966  x=False)..    if
++00000ca0: 2067 6574 5f64 6973 706c 6179 3a0d 0a20   get_display:.. 
++00000cb0: 2020 2020 2020 206d 616b 655f 6469 7370         make_disp
++00000cc0: 6c61 796f 6e6c 795f 7669 6465 6f28 7669  layonly_video(vi
++00000cd0: 6465 6f5f 7061 7468 290d 0a20 2020 2072  deo_path)..    r
++00000ce0: 6574 7572 6e20 6466 0d0a 0d0a 6465 6620  eturn df....def 
++00000cf0: 6d61 6b65 5f64 6174 6173 6574 5f66 726f  make_dataset_fro
++00000d00: 6d5f 666f 6c64 6572 2866 6f6c 6465 725f  m_folder(folder_
++00000d10: 7061 7468 3a73 7472 2c20 6d61 785f 776f  path:str, max_wo
++00000d20: 726b 6572 733a 696e 7420 3d20 342c 2073  rkers:int = 4, s
++00000d30: 6176 653a 626f 6f6c 203d 2054 7275 652c  ave:bool = True,
++00000d40: 2067 6574 5f64 6973 706c 6179 3a62 6f6f   get_display:boo
++00000d50: 6c20 3d20 5472 7565 293a 0d0a 2020 2020  l = True):..    
++00000d60: 2320 4765 7420 6120 6c69 7374 206f 6620  # Get a list of 
++00000d70: 616c 6c20 7669 6465 6f20 6669 6c65 7320  all video files 
++00000d80: 696e 2074 6865 2066 6f6c 6465 720d 0a20  in the folder.. 
++00000d90: 2020 2076 6964 656f 5f66 696c 6573 203d     video_files =
++00000da0: 205b 6620 666f 7220 6620 696e 206f 732e   [f for f in os.
++00000db0: 6c69 7374 6469 7228 666f 6c64 6572 5f70  listdir(folder_p
++00000dc0: 6174 6829 2069 6620 662e 656e 6473 7769  ath) if f.endswi
++00000dd0: 7468 2827 2e6d 7034 2729 206f 7220 662e  th('.mp4') or f.
++00000de0: 656e 6473 7769 7468 2827 2e6d 6b76 2729  endswith('.mkv')
++00000df0: 5d0d 0a0d 0a20 2020 2076 6964 656f 5f66  ]....    video_f
++00000e00: 696c 6573 203d 205b 6f73 2e70 6174 682e  iles = [os.path.
++00000e10: 6a6f 696e 2866 6f6c 6465 725f 7061 7468  join(folder_path
++00000e20: 2c20 6629 2066 6f72 2066 2069 6e20 7669  , f) for f in vi
++00000e30: 6465 6f5f 6669 6c65 735d 0d0a 0d0a 2020  deo_files]....  
++00000e40: 2020 7769 7468 2050 726f 6365 7373 506f    with ProcessPo
++00000e50: 6f6c 4578 6563 7574 6f72 286d 6178 5f77  olExecutor(max_w
++00000e60: 6f72 6b65 7273 3d6d 6178 5f77 6f72 6b65  orkers=max_worke
++00000e70: 7273 2920 6173 2065 7865 6375 746f 723a  rs) as executor:
++00000e80: 0d0a 2020 2020 2020 2020 2320 4372 6561  ..        # Crea
++00000e90: 7465 2061 206c 6973 7420 746f 2068 6f6c  te a list to hol
++00000ea0: 6420 7468 6520 4675 7475 7265 206f 626a  d the Future obj
++00000eb0: 6563 7473 0d0a 2020 2020 2020 2020 6675  ects..        fu
++00000ec0: 7475 7265 7320 3d20 5b65 7865 6375 746f  tures = [executo
++00000ed0: 722e 7375 626d 6974 286d 616b 655f 6461  r.submit(make_da
++00000ee0: 7461 7365 742c 2076 6964 656f 5f66 696c  taset, video_fil
++00000ef0: 652c 2073 6176 652c 2067 6574 5f64 6973  e, save, get_dis
++00000f00: 706c 6179 2920 666f 7220 7669 6465 6f5f  play) for video_
++00000f10: 6669 6c65 2069 6e20 7669 6465 6f5f 6669  file in video_fi
++00000f20: 6c65 735d 0d0a 0d0a 2020 2020 2020 2020  les]....        
++00000f30: 2320 5573 6520 7471 646d 2066 6f72 2070  # Use tqdm for p
++00000f40: 726f 6772 6573 7320 6261 720d 0a20 2020  rogress bar..   
++00000f50: 2020 2020 2066 6f72 2066 7574 7572 6520       for future 
++00000f60: 696e 2074 7164 6d28 6173 5f63 6f6d 706c  in tqdm(as_compl
++00000f70: 6574 6564 2866 7574 7572 6573 292c 2074  eted(futures), t
++00000f80: 6f74 616c 3d6c 656e 2866 7574 7572 6573  otal=len(futures
++00000f90: 2929 3a0d 0a20 2020 2020 2020 2020 2020  )):..           
++00000fa0: 2023 2052 6573 756c 7473 2061 7265 2072   # Results are r
++00000fb0: 6561 6479 206f 6e6c 7920 7768 656e 2070  eady only when p
++00000fc0: 726f 6365 7373 696e 6720 6973 2063 6f6d  rocessing is com
++00000fd0: 706c 6574 652c 2073 6f20 7765 2064 6f6e  plete, so we don
++00000fe0: 2774 206e 6565 6420 746f 2064 6f20 616e  't need to do an
++00000ff0: 7974 6869 6e67 2068 6572 650d 0a20 2020  ything here..   
++00001000: 2020 2020 2020 2020 2070 6173 730d 0a69           pass..i
++00001010: 6620 5f5f 6e61 6d65 5f5f 203d 3d20 225f  f __name__ == "_
++00001020: 5f6d 6169 6e5f 5f22 3a0d 0a20 2020 2064  _main__":..    d
++00001030: 6620 3d20 6d61 6b65 5f64 6174 6173 6574  f = make_dataset
++00001040: 2827 463a 5c67 6974 2d72 6570 6f5c 6765  ('F:\git-repo\ge
++00001050: 745f 6579 6564 6174 615c 6461 7461 5c74  t_eyedata\data\t
++00001060: 6573 742e 6d6b 7627 290d 0a20 2020 2070  est.mkv')..    p
++00001070: 7269 6e74 2864 6629                      rint(df)
+```
+
+## Comparing `get_eyedata-1.3.0.dist-info/LICENCE` & `get_eyedata-1.3.1.dist-info/LICENCE`
+
+ * *Files identical despite different names*
+
+## Comparing `get_eyedata-1.3.0.dist-info/METADATA` & `get_eyedata-1.3.1.dist-info/METADATA`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: get-eyedata
+-Version: 1.3.0
++Version: 1.3.1
+ Summary: gat gaze data form record.
+ Home-page: https://github.com/ikrfun/get_eyedata
+ Download-URL: https://github.com/ikrfun/get_eyedata
+ Author: ikrfun
+ Author-email: t.nobuto130625@gmail.com
+ Maintainer: ikrfun
+ Maintainer-email: t.nobuto130625@gmail.com
+```
+
