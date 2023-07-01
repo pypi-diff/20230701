@@ -3205,3 +3205,20 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 02:49:14] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306300045.tar.gz]
 [2023-07-01 02:49:14] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-07-01 02:49:14] INFO root fetch - main [MainThread]: Store serial: [18717776]
+[2023-07-01 02:54:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717776]
+[2023-07-01 02:54:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 02:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oidc-drf
+[2023-07-01 02:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: an-website
+[2023-07-01 02:54:23] INFO root fetch - processPackages [oidc-drf]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-01 02:54:23] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/11/43/72313db1ad4e6a883faa43d55de2d2c932b43c72818fc5d585d51ac2462a/oidc_drf-1.0.5.tar.gz
+[2023-07-01 02:54:23] INFO root fetch - processPackages [an-website]: New version: [23.7] Old Version: [23.6]
+[2023-07-01 02:54:23] INFO root fetch - processPackages [oidc-drf]: Downloading https://files.pythonhosted.org/packages/7a/1a/80530a35ec277200d65bf481a48392e325e0355b71ed166a29062f9bf3fb/oidc_drf-1.0.6.tar.gz
+[2023-07-01 02:54:23] INFO root fetch - processPackages [oidc-drf]: executing diffoscope
+[2023-07-01 02:54:23] INFO root fetch - processPackages [oidc-drf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oidc_drf-1.0.5.tar.gz tmp/oidc_drf-1.0.6.tar.gz --markdown 20230701/o/oidc-drf/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-01 02:54:23] INFO root fetch - processPackages [an-website]: Downloading https://files.pythonhosted.org/packages/a5/6e/01c9e3c4978bf32201724481f388963101df4d8992ef8d608ecfa55464f8/an-website-23.6.tar.gz
+[2023-07-01 02:54:23] WARNING root fetch - processPackages [an-website]: Skipping package: exceeds size limit 28223849>=10485760
+[2023-07-01 02:54:23] INFO root fetch - main [MainThread]: End processing [an-website] error
+[2023-07-01 02:54:24] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.5.tar.gz]
+[2023-07-01 02:54:24] INFO root fetch - processPackages [oidc-drf]: Remove: archive file [/home/abi/fetcher/tmp/oidc_drf-1.0.6.tar.gz]
+[2023-07-01 02:54:24] INFO root fetch - main [MainThread]: End processing [oidc-drf]: success
+[2023-07-01 02:54:24] INFO root fetch - main [MainThread]: Store serial: [18717781]
