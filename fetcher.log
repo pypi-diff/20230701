@@ -18904,3 +18904,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:14:07] INFO root fetch - processPackages [77tool]: Remove: archive file [/home/abi/fetcher/tmp/77tool-1.1.2-py3-none-any.whl.zip]
 [2023-07-01 21:14:07] INFO root fetch - main [MainThread]: End processing [77tool]: success
 [2023-07-01 21:14:07] INFO root fetch - main [MainThread]: Store serial: [18724209]
+[2023-07-01 21:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724209]
+[2023-07-01 21:19:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambda-handler
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databutton
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scandeval
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: 77tool
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LxmlSoup
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ra2mix
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aspose-ocr-cloud
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ra2mix]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 21:19:16] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-01 21:19:16] WARNING root fetch - processPackages [77tool]: Skipping, unable to determine old version
+[2023-07-01 21:19:16] INFO root fetch - processPackages [lambda-handler]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-01 21:19:16] INFO root fetch - main [MainThread]: End processing [77tool] error
+[2023-07-01 21:19:16] INFO root fetch - processPackages [scandeval]: New version: [7.1.1] Old Version: [7.1.0]
+[2023-07-01 21:19:16] INFO root fetch - processPackages [aspose-ocr-cloud]: New version: [22.12.0.1] Old Version: [22.12.0]
+[2023-07-01 21:19:16] WARNING root fetch - processPackages [LxmlSoup]: Skipping, unable to determine old version
+[2023-07-01 21:19:16] INFO root fetch - main [MainThread]: End processing [LxmlSoup] error
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/23/64/c87b017b181e9ca3bba1ba37cf392e86484f11897c46374d8575d6cf5d46/ra2mix-0.0.1.tar.gz
+[2023-07-01 21:19:16] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2023-07-01 21:19:16] INFO root fetch - processPackages [aspose-ocr-cloud]: Downloading https://files.pythonhosted.org/packages/dd/99/e66f90f81eab01f60af91e28e2ee741854c413670180f9b9c12547698a68/aspose_ocr_cloud-22.12.0-py3-none-any.whl
+[2023-07-01 21:19:16] INFO root fetch - processPackages [scandeval]: Downloading https://files.pythonhosted.org/packages/75/8a/620a7348fc38299dcb2ee61ee29654c94ef7dc57dd7f40ffa4330d45f7a8/ScandEval-7.1.0.tar.gz
+[2023-07-01 21:19:16] INFO root fetch - processPackages [ra2mix]: Downloading https://files.pythonhosted.org/packages/10/a0/84da7dd305849657aecb3404764f9fc8249c84c2690a6b6b06a05500bef2/ra2mix-0.0.2.tar.gz
+[2023-07-01 21:19:16] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2023-07-01 21:19:16] INFO root fetch - processPackages [scandeval]: Downloading https://files.pythonhosted.org/packages/da/4a/0fcfaf89382c6292d24aab043839e7a7999e42c2782ab9efbd512fc0e93b/scandeval-7.1.1.tar.gz
+[2023-07-01 21:19:17] INFO root fetch - processPackages [aspose-ocr-cloud]: Downloading https://files.pythonhosted.org/packages/20/42/aa08124d4a18a76461043cdd67be5df0d37972f6a0753a0b92b102c277f4/aspose_ocr_cloud-22.12.0.1-py3-none-any.whl
+[2023-07-01 21:19:17] INFO root fetch - processPackages [ra2mix]: executing diffoscope
+[2023-07-01 21:19:17] INFO root fetch - processPackages [ra2mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra2mix-0.0.1.tar.gz tmp/ra2mix-0.0.2.tar.gz --markdown 20230701/r/ra2mix/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 21:19:17] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2023-07-01 21:19:17] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20230701/d/databutton/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-01 21:19:17] INFO root fetch - processPackages [scandeval]: executing diffoscope
+[2023-07-01 21:19:17] INFO root fetch - processPackages [scandeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScandEval-7.1.0.tar.gz tmp/scandeval-7.1.1.tar.gz --markdown 20230701/s/scandeval/7.1.0-7.1.1/diff.md --exclude *.pyd
+[2023-07-01 21:19:17] INFO root fetch - processPackages [aspose-ocr-cloud]: executing diffoscope
+[2023-07-01 21:19:17] INFO root fetch - processPackages [aspose-ocr-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose_ocr_cloud-22.12.0-py3-none-any.whl.zip tmp/aspose_ocr_cloud-22.12.0.1-py3-none-any.whl.zip --markdown 20230701/a/aspose-ocr-cloud/22.12.0-22.12.0.1/diff.md --exclude *.pyd
+[2023-07-01 21:19:17] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/d1/b0/ecd3b3046f22f4416372543acc68a79b765177fd8af302776a0bdb925dcd/lambda-handler-1.0.1.tar.gz
+[2023-07-01 21:19:17] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/1e/3c/2c682bf23018333925f014b0c0851464ace9dcbc4eb932740c9d762ed6bf/lambda_handler-1.1.0.tar.gz
+[2023-07-01 21:19:17] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-01 21:19:17] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda-handler-1.0.1.tar.gz tmp/lambda_handler-1.1.0.tar.gz --markdown 20230701/l/lambda-handler/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 21:19:18] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.1.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - processPackages [ra2mix]: Remove: archive file [/home/abi/fetcher/tmp/ra2mix-0.0.2.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - main [MainThread]: End processing [ra2mix]: success
+[2023-07-01 21:19:18] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.1.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.2.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2023-07-01 21:19:18] INFO root fetch - processPackages [scandeval]: Remove: archive file [/home/abi/fetcher/tmp/ScandEval-7.1.0.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - processPackages [scandeval]: Remove: archive file [/home/abi/fetcher/tmp/scandeval-7.1.1.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - main [MainThread]: End processing [scandeval]: success
+[2023-07-01 21:19:18] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda-handler-1.0.1.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-1.1.0.tar.gz]
+[2023-07-01 21:19:18] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-01 21:19:18] INFO root fetch - processPackages [aspose-ocr-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose_ocr_cloud-22.12.0-py3-none-any.whl.zip]
+[2023-07-01 21:19:18] INFO root fetch - processPackages [aspose-ocr-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose_ocr_cloud-22.12.0.1-py3-none-any.whl.zip]
+[2023-07-01 21:19:18] INFO root fetch - main [MainThread]: End processing [aspose-ocr-cloud]: success
+[2023-07-01 21:19:18] INFO root fetch - main [MainThread]: Store serial: [18724247]
