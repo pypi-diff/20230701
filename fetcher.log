@@ -8963,3 +8963,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:38:41] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
 [2023-07-01 06:38:41] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-07-01 06:38:41] INFO root fetch - main [MainThread]: Store serial: [18719793]
+[2023-07-01 06:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719793]
+[2023-07-01 06:43:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cool-gpt
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-learngual
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linki
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-purchase-request-tier-validation
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py4macro
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptconsole
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-purchase-tier-validation
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pfacbuilder
+[2023-07-01 06:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensorlearn
+[2023-07-01 06:43:50] INFO root fetch - processPackages [django-learngual]: New version: [0.13] Old Version: [0.12]
+[2023-07-01 06:43:50] INFO root fetch - processPackages [py4macro]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-01 06:43:50] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-07-01 06:43:50] WARNING root fetch - processPackages [pfacbuilder]: Skipping, unable to determine old version
+[2023-07-01 06:43:50] INFO root fetch - processPackages [gptconsole]: New version: [0.9] Old Version: [0.8]
+[2023-07-01 06:43:50] INFO root fetch - main [MainThread]: End processing [pfacbuilder] error
+[2023-07-01 06:43:50] INFO root fetch - processPackages [linki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 06:43:50] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230629] Old Version: [2.14.0.dev20230628]
+[2023-07-01 06:43:50] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: New version: [13.0.1.1.1.dev8] Old Version: [13.0.1.1.1.dev7]
+[2023-07-01 06:43:50] INFO root fetch - processPackages [tensorlearn]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-01 06:43:50] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/54/3d/7549c12a7fcbe7109f85901470b39877a0dca15692742897c753102d2c37/django-learngual-0.12.tar.gz
+[2023-07-01 06:43:50] WARNING root fetch - processPackages [cool-gpt]: Skipping, unable to determine old version
+[2023-07-01 06:43:50] INFO root fetch - main [MainThread]: End processing [cool-gpt] error
+[2023-07-01 06:43:50] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/ec/c3/ad2c46cf4b038d6b3f07f3c73aa97acbf94424fd2c9619d6544b15828a5c/tf_nightly_macos-2.14.0.dev20230628-cp39-cp39-macosx_12_0_arm64.whl
+[2023-07-01 06:43:50] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199282419>=10485760
+[2023-07-01 06:43:50] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-07-01 06:43:50] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/86/fd/882be7e80a0e36bb23cfbea6f0b6aaf0b2dd3cb81fdb0d6a98de31f67c74/gptconsole-0.8.tar.gz
+[2023-07-01 06:43:50] INFO root fetch - processPackages [py4macro]: Downloading https://files.pythonhosted.org/packages/15/ad/17eed70577e6ec92ad761dea59997e92a56cfdb090e50f774958fff47fc9/py4macro-0.8.5.tar.gz
+[2023-07-01 06:43:50] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: Downloading https://files.pythonhosted.org/packages/f9/24/bc3517477587317d7b71744864813b59fc104231408df9dce97e08d74b69/odoo13_addon_purchase_request_tier_validation-13.0.1.1.1.dev7-py3-none-any.whl
+[2023-07-01 06:43:50] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: Downloading https://files.pythonhosted.org/packages/3e/af/8350817dd65fceb2d2b3d9520ee248b235b1b5ec540dbafd5bb1a58c5a2a/odoo14_addon_purchase_tier_validation-14.0.2.0.2.dev8-py3-none-any.whl
+[2023-07-01 06:43:50] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/1f/85/5cc91e9ba525e91d9979fdf45309b1dc543c1583960a1f3826269d8c2e78/linki-0.0.8.tar.gz
+[2023-07-01 06:43:50] INFO root fetch - processPackages [tensorlearn]: Downloading https://files.pythonhosted.org/packages/3b/0b/9e67ad4c0bd26a99d673cf8b60a17faa881c7766fde6c555a8bb1d44d267/tensorlearn-1.1.8.tar.gz
+[2023-07-01 06:43:50] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/f2/66/f348a5011925c1184d84c090ae2828dbc10fdaae6969c1bd9d55d670713c/django-learngual-0.13.tar.gz
+[2023-07-01 06:43:51] INFO root fetch - processPackages [django-learngual]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [django-learngual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-learngual-0.12.tar.gz tmp/django-learngual-0.13.tar.gz --markdown 20230701/d/django-learngual/0.12-0.13/diff.md --exclude *.pyd
+[2023-07-01 06:43:51] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/7b/b9/68ed0db6c379a5dd548bab31dd612a5476fb6f8b9df41c2340c6e114b5c3/gptconsole-0.9.tar.gz
+[2023-07-01 06:43:51] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: Downloading https://files.pythonhosted.org/packages/08/3a/abc21a85e84a4da17a9e54e0a82eaef552ae36ec45384b59415525914175/odoo13_addon_purchase_request_tier_validation-13.0.1.1.1.dev8-py3-none-any.whl
+[2023-07-01 06:43:51] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: Downloading https://files.pythonhosted.org/packages/a6/a7/f657fcf7c41e7f4fcfec2ebc8dd9f65f555ee52687726b6a13368cd655a2/odoo14_addon_purchase_tier_validation-14.0.2.0.2.dev9-py3-none-any.whl
+[2023-07-01 06:43:51] INFO root fetch - processPackages [py4macro]: Downloading https://files.pythonhosted.org/packages/24/52/5815597efc631fa41f1a63bb06961b6e3f5bf570833298ac5524e8f72f71/py4macro-0.8.6.tar.gz
+[2023-07-01 06:43:51] INFO root fetch - processPackages [tensorlearn]: Downloading https://files.pythonhosted.org/packages/b6/81/870386f7a1bd0d75d7f5902baf76a707632fbe645ab7a0488522c643d7fe/tensorlearn-1.1.9.tar.gz
+[2023-07-01 06:43:51] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/77/c3/ace975f260cef9236206242f89437c9d83bbafcd4ab12e568c92d930794e/linki-0.0.9.tar.gz
+[2023-07-01 06:43:51] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_purchase_request_tier_validation-13.0.1.1.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_purchase_request_tier_validation-13.0.1.1.1.dev8-py3-none-any.whl.zip --markdown 20230701/o/odoo13-addon-purchase-request-tier-validation/13.0.1.1.1.dev7-13.0.1.1.1.dev8/diff.md --exclude *.pyd
+[2023-07-01 06:43:51] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_tier_validation-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_purchase_tier_validation-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230701/o/odoo14-addon-purchase-tier-validation/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-07-01 06:43:51] INFO root fetch - processPackages [tensorlearn]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [tensorlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorlearn-1.1.8.tar.gz tmp/tensorlearn-1.1.9.tar.gz --markdown 20230701/t/tensorlearn/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-01 06:43:51] INFO root fetch - processPackages [gptconsole]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [gptconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptconsole-0.8.tar.gz tmp/gptconsole-0.9.tar.gz --markdown 20230701/g/gptconsole/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-01 06:43:51] INFO root fetch - processPackages [py4macro]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [py4macro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4macro-0.8.5.tar.gz tmp/py4macro-0.8.6.tar.gz --markdown 20230701/p/py4macro/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-01 06:43:51] INFO root fetch - processPackages [linki]: executing diffoscope
+[2023-07-01 06:43:51] INFO root fetch - processPackages [linki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linki-0.0.8.tar.gz tmp/linki-0.0.9.tar.gz --markdown 20230701/l/linki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 06:43:52] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.8.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.9.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [gptconsole]: success
+[2023-07-01 06:43:52] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_request_tier_validation-13.0.1.1.1.dev7-py3-none-any.whl.zip]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [odoo13-addon-purchase-request-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_purchase_request_tier_validation-13.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-purchase-request-tier-validation]: success
+[2023-07-01 06:43:52] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_tier_validation-14.0.2.0.2.dev8-py3-none-any.whl.zip]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [odoo14-addon-purchase-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_tier_validation-14.0.2.0.2.dev9-py3-none-any.whl.zip]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-tier-validation]: success
+[2023-07-01 06:43:52] INFO root fetch - processPackages [tensorlearn]: Remove: archive file [/home/abi/fetcher/tmp/tensorlearn-1.1.8.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [tensorlearn]: Remove: archive file [/home/abi/fetcher/tmp/tensorlearn-1.1.9.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [tensorlearn]: success
+[2023-07-01 06:43:52] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.12.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [django-learngual]: success
+[2023-07-01 06:43:52] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.8.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.9.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [linki]: success
+[2023-07-01 06:43:52] INFO root fetch - processPackages [py4macro]: Remove: archive file [/home/abi/fetcher/tmp/py4macro-0.8.5.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - processPackages [py4macro]: Remove: archive file [/home/abi/fetcher/tmp/py4macro-0.8.6.tar.gz]
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: End processing [py4macro]: success
+[2023-07-01 06:43:52] INFO root fetch - main [MainThread]: Store serial: [18719826]
