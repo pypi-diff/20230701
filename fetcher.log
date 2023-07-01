@@ -3467,3 +3467,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 03:22:34] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-07-01 03:22:34] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-07-01 03:22:34] INFO root fetch - main [MainThread]: Store serial: [18717893]
+[2023-07-01 03:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717893]
+[2023-07-01 03:27:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superpowered-sdk
+[2023-07-01 03:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydwm1001
+[2023-07-01 03:27:43] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 03:27:43] INFO root fetch - processPackages [pydwm1001]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-01 03:27:43] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/cc/cb/314d931ed149cd85c7d9a9b9b326231027a0450e6659dbe780d5ef39d54d/pydwm1001-0.7.0.tar.gz
+[2023-07-01 03:27:43] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/42/73/ac56626bf302fe1ce198c2ed99003cbf37551b848d4a50db54fbc2acbc93/superpowered-sdk-0.1.8.tar.gz
+[2023-07-01 03:27:43] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/b5/4e/1d63519bf9de35706bda532be3b524597fb67d236d41d73bd145c737e1fc/superpowered-sdk-0.1.9.tar.gz
+[2023-07-01 03:27:43] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/fb/1e/1b0a4aba4499bdc0e15999f2a678b266ae64111927e65a22c08785aaae46/pydwm1001-0.8.0.tar.gz
+[2023-07-01 03:27:43] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-07-01 03:27:43] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.8.tar.gz tmp/superpowered-sdk-0.1.9.tar.gz --markdown 20230701/s/superpowered-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 03:27:43] INFO root fetch - processPackages [pydwm1001]: executing diffoscope
+[2023-07-01 03:27:43] INFO root fetch - processPackages [pydwm1001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwm1001-0.7.0.tar.gz tmp/pydwm1001-0.8.0.tar.gz --markdown 20230701/p/pydwm1001/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-01 03:27:44] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.8.tar.gz]
+[2023-07-01 03:27:44] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.9.tar.gz]
+[2023-07-01 03:27:44] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-07-01 03:27:44] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.7.0.tar.gz]
+[2023-07-01 03:27:44] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.8.0.tar.gz]
+[2023-07-01 03:27:44] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
+[2023-07-01 03:27:44] INFO root fetch - main [MainThread]: Store serial: [18717899]
