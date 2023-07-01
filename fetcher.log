@@ -13614,3 +13614,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:32:03] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.5.tar.gz]
 [2023-07-01 14:32:03] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
 [2023-07-01 14:32:03] INFO root fetch - main [MainThread]: Store serial: [18721785]
+[2023-07-01 14:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721785]
+[2023-07-01 14:37:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bose
+[2023-07-01 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-07-01 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-01 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lycoris-lora
+[2023-07-01 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deezer-downloader
+[2023-07-01 14:37:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 14:37:12] INFO root fetch - processPackages [lycoris-lora]: New version: [1.8.0.dev5] Old Version: [1.8.0.dev4]
+[2023-07-01 14:37:12] INFO root fetch - processPackages [bose]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-01 14:37:12] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-01 14:37:12] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/76/b7/96b6b75bdfc27446c4164237d730983299cdd474e865c51ab2da25903797/lycoris_lora-1.8.0.dev4.tar.gz
+[2023-07-01 14:37:12] INFO root fetch - processPackages [deezer-downloader]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-01 14:37:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-01 14:37:12] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/41/85/df393c9c4e8a5ef13b017fa4bb59a813ebbacf05372495e498665a75d359/nonebot_plugin_spark_gpt-1.0.2.tar.gz
+[2023-07-01 14:37:12] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/5b/83/f7c5f508113800534f90576e2fa96d626483dfdbef224553fa10c0210681/bose-2.0.0.tar.gz
+[2023-07-01 14:37:12] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11135073>=10485760
+[2023-07-01 14:37:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-01 14:37:13] INFO root fetch - processPackages [deezer-downloader]: Downloading https://files.pythonhosted.org/packages/17/a0/804e6431fa13a65673994ed94a6db42ca77d93ecd747d340059bd9fb58b4/deezer_downloader-2.0.4.tar.gz
+[2023-07-01 14:37:13] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/ad/49/74947c115ce7823820820f70f9192505d38b66ad10546411fd46843b3ebd/lycoris_lora-1.8.0.dev5.tar.gz
+[2023-07-01 14:37:13] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-01 14:37:13] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/a2/1f/a83179351e2ad14fd70b30ced5fdc7d6931b72a07e4aff219bb32760927a/bose-2.0.1.tar.gz
+[2023-07-01 14:37:13] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-07-01 14:37:13] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-2.0.0.tar.gz tmp/bose-2.0.1.tar.gz --markdown 20230701/b/bose/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-01 14:37:13] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-01 14:37:13] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230701/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-01 14:37:13] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-07-01 14:37:13] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.0.dev4.tar.gz tmp/lycoris_lora-1.8.0.dev5.tar.gz --markdown 20230701/l/lycoris-lora/1.8.0.dev4-1.8.0.dev5/diff.md --exclude *.pyd
+[2023-07-01 14:37:13] INFO root fetch - processPackages [deezer-downloader]: Downloading https://files.pythonhosted.org/packages/31/17/ea960b0e0c04cfadc894a36ab4a787fc6fecabacc22dc473da9e09b80e04/deezer_downloader-2.0.5.tar.gz
+[2023-07-01 14:37:13] INFO root fetch - processPackages [deezer-downloader]: executing diffoscope
+[2023-07-01 14:37:13] INFO root fetch - processPackages [deezer-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_downloader-2.0.4.tar.gz tmp/deezer_downloader-2.0.5.tar.gz --markdown 20230701/d/deezer-downloader/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-01 14:37:14] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev4.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.0.dev5.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-07-01 14:37:14] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.0.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.1.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-07-01 14:37:14] INFO root fetch - processPackages [deezer-downloader]: Remove: archive file [/home/abi/fetcher/tmp/deezer_downloader-2.0.4.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - processPackages [deezer-downloader]: Remove: archive file [/home/abi/fetcher/tmp/deezer_downloader-2.0.5.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - main [MainThread]: End processing [deezer-downloader]: success
+[2023-07-01 14:37:14] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-01 14:37:14] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-01 14:37:14] INFO root fetch - main [MainThread]: Store serial: [18721798]
