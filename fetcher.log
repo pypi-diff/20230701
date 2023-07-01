@@ -8459,3 +8459,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 05:38:30] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
 [2023-07-01 05:38:30] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
 [2023-07-01 05:38:30] INFO root fetch - main [MainThread]: Store serial: [18719604]
+[2023-07-01 05:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719604]
+[2023-07-01 05:43:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptconsole
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monstermash
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-br-zip
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-learngual
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gptconsole
+[2023-07-01 05:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyQt-Fluent-Widgets
+[2023-07-01 05:43:39] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: New version: [16.0.2.0.0.4] Old Version: [16.0.2.0.0.3]
+[2023-07-01 05:43:39] INFO root fetch - processPackages [gptconsole]: New version: [0.5] Old Version: [0.4]
+[2023-07-01 05:43:39] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 05:43:39] INFO root fetch - processPackages [monstermash]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-07-01 05:43:39] INFO root fetch - processPackages [django-learngual]: New version: [0.12] Old Version: [0.11]
+[2023-07-01 05:43:39] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev98] Old Version: [0.6.3.dev97]
+[2023-07-01 05:43:39] INFO root fetch - processPackages [gptconsole]: New version: [0.5] Old Version: [0.4]
+[2023-07-01 05:43:40] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/53/37/250e3b7c6924b1820280fbc8769b464ab4639954f58015fbe5a6c8cfc43b/odoo_addon_l10n_br_zip-16.0.2.0.0.3-py3-none-any.whl
+[2023-07-01 05:43:40] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/56/88/078001a8936d792257444e372de0292f27f80594c5680cb75804ab4fcc5e/monstermash-1.7.0.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/75/ab/fb8ec363c2d8bb02706af80dda6d7beb3959316e8509f2de4931cbcd6cc3/django-learngual-0.11.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/52/3e/00e8a7320c4f8c9c3debe4b1423c02ef13f01f377e74630e1cc35e085a3a/khoj_assistant-0.6.3.dev97.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/4e/20/e3e8c697158db28ebd6af6d449929134d64e26d8363c1ba19839f19b2f2c/gptconsole-0.4.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/4e/20/e3e8c697158db28ebd6af6d449929134d64e26d8363c1ba19839f19b2f2c/gptconsole-0.4.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0d/30/629d83990b4cd4b5d547fa7142fee045a55e0efd28d6a75da7341c8d7aa2/PyQt-Fluent-Widgets-0.9.8.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/54/3d/7549c12a7fcbe7109f85901470b39877a0dca15692742897c753102d2c37/django-learngual-0.12.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Downloading https://files.pythonhosted.org/packages/70/c3/5e2b4575bf8ac9c206cb855e7e413cc479bfb202ce86b9bdcf8b01ebdefe/odoo_addon_l10n_br_zip-16.0.2.0.0.4-py3-none-any.whl
+[2023-07-01 05:43:40] INFO root fetch - processPackages [monstermash]: Downloading https://files.pythonhosted.org/packages/b9/ff/1ed69d40ed79975c50c3a416ce3ce32c979dac241812f69983c7e83869b2/monstermash-1.7.1.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/81/aa/95d62361f7a6f2bf3c4576ee2c39e283fefd0273c7859052553df1f8e7ea/gptconsole-0.5.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: Downloading https://files.pythonhosted.org/packages/81/aa/95d62361f7a6f2bf3c4576ee2c39e283fefd0273c7859052553df1f8e7ea/gptconsole-0.5.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [django-learngual]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [django-learngual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-learngual-0.11.tar.gz tmp/django-learngual-0.12.tar.gz --markdown 20230701/d/django-learngual/0.11-0.12/diff.md --exclude *.pyd
+[2023-07-01 05:43:40] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/9d/ff/7cbd5090c4832c8d2352fba09f03c093a4d17e209c1cf794a07d2b16b554/khoj_assistant-0.6.3.dev98.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/45/99/a53cc088804e0ed85b809c5b42b2034e732e7a4299763ed6c8e1fad1f470/PyQt-Fluent-Widgets-0.9.9.tar.gz
+[2023-07-01 05:43:40] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.4-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-l10n-br-zip/16.0.2.0.0.3-16.0.2.0.0.4/diff.md --exclude *.pyd
+[2023-07-01 05:43:40] INFO root fetch - processPackages [monstermash]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [monstermash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstermash-1.7.0.tar.gz tmp/monstermash-1.7.1.tar.gz --markdown 20230701/m/monstermash/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptconsole-0.4.tar.gz tmp/gptconsole-0.5.tar.gz --markdown 20230701/g/gptconsole/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [gptconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptconsole-0.4.tar.gz tmp/gptconsole-0.5.tar.gz --markdown 20230701/g/gptconsole/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-01 05:43:40] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev97.tar.gz tmp/khoj_assistant-0.6.3.dev98.tar.gz --markdown 20230701/k/khoj-assistant/0.6.3.dev97-0.6.3.dev98/diff.md --exclude *.pyd
+[2023-07-01 05:43:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-07-01 05:43:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz --markdown 20230701/P/PyQt-Fluent-Widgets/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 05:43:41] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.4.tar.gz]
+[2023-07-01 05:43:41] INFO root fetch - processPackages [gptconsole]: Remove: archive file [/home/abi/fetcher/tmp/gptconsole-0.5.tar.gz]
+[2023-07-01 05:43:41] INFO root fetch - main [MainThread]: End processing [gptconsole]: success
+[2023-07-01 05:43:41] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.7.0.tar.gz]
+[2023-07-01 05:43:41] INFO root fetch - processPackages [monstermash]: Remove: archive file [/home/abi/fetcher/tmp/monstermash-1.7.1.tar.gz]
+[2023-07-01 05:43:41] INFO root fetch - main [MainThread]: End processing [monstermash]: success
+[2023-07-01 05:43:42] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.11.tar.gz]
+[2023-07-01 05:43:42] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.12.tar.gz]
+[2023-07-01 05:43:42] INFO root fetch - main [MainThread]: End processing [django-learngual]: success
+[2023-07-01 05:43:42] INFO root fetch - main [MainThread]: End processing [gptconsole]: success
+[2023-07-01 05:43:42] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2023-07-01 05:43:42] INFO root fetch - processPackages [odoo-addon-l10n-br-zip]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_zip-16.0.2.0.0.4-py3-none-any.whl.zip]
+[2023-07-01 05:43:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-zip]: success
+[2023-07-01 05:43:42] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev97.tar.gz]
+[2023-07-01 05:43:42] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
+[2023-07-01 05:43:42] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-01 05:43:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.8.tar.gz]
+[2023-07-01 05:43:42] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.9.tar.gz]
+[2023-07-01 05:43:42] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-07-01 05:43:42] INFO root fetch - main [MainThread]: Store serial: [18719623]
