@@ -9749,3 +9749,58 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:19:20] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230701.tar.gz]
 [2023-07-01 08:19:20] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-07-01 08:19:20] INFO root fetch - main [MainThread]: Store serial: [18720110]
+[2023-07-01 08:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720110]
+[2023-07-01 08:24:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redashsync
+[2023-07-01 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-random-useragent
+[2023-07-01 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numgrids
+[2023-07-01 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deairequest
+[2023-07-01 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-random-useragent
+[2023-07-01 08:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanorequests
+[2023-07-01 08:24:29] INFO root fetch - processPackages [nanorequests]: New version: [0.2] Old Version: [0.1]
+[2023-07-01 08:24:29] INFO root fetch - processPackages [py-random-useragent]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 08:24:29] INFO root fetch - processPackages [deairequest]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 08:24:29] INFO root fetch - processPackages [numgrids]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 08:24:29] INFO root fetch - processPackages [py-random-useragent]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 08:24:29] INFO root fetch - processPackages [redashsync]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 08:24:29] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/07/7f/5b12f92bac7ee92cd30fcd49dba0cb1635996c65e61caec58d72f913a5f1/nanorequests-0.1.tar.gz
+[2023-07-01 08:24:29] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/4f/d1/a50721c3d01c9cdf356b48174ff2d99ac5e2467c8322602b6ec14247b382/deairequest-0.0.7.tar.gz
+[2023-07-01 08:24:29] INFO root fetch - processPackages [py-random-useragent]: Downloading https://files.pythonhosted.org/packages/43/c1/40386ef7530ae390edc53446c638921bae3f9bde2e846fbb7261650184da/py_random_useragent-0.1.2.tar.gz
+[2023-07-01 08:24:29] INFO root fetch - processPackages [py-random-useragent]: Downloading https://files.pythonhosted.org/packages/43/c1/40386ef7530ae390edc53446c638921bae3f9bde2e846fbb7261650184da/py_random_useragent-0.1.2.tar.gz
+[2023-07-01 08:24:29] INFO root fetch - processPackages [redashsync]: Downloading https://files.pythonhosted.org/packages/c4/c2/3486945c32f30cbb345409e21d0d9fec6278df695677c6ecf22ff72111da/redashsync-0.0.7.tar.gz
+[2023-07-01 08:24:29] INFO root fetch - processPackages [numgrids]: Downloading https://files.pythonhosted.org/packages/88/88/8c1667591a04b51650acb9db779183073dff557894a80aaae354755d8d3d/numgrids-0.2.0.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/9b/82/0eb40cb08024a59203701079609400feca16ce5fb8e2032d04aa6e1570b8/nanorequests-0.2.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [py-random-useragent]: Downloading https://files.pythonhosted.org/packages/d5/51/197cf69c8eb692ea39b21621b1905bee83aeaa8a7eeb3c0ebc6b4256d002/py_random_useragent-0.1.3.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [py-random-useragent]: Downloading https://files.pythonhosted.org/packages/d5/51/197cf69c8eb692ea39b21621b1905bee83aeaa8a7eeb3c0ebc6b4256d002/py_random_useragent-0.1.3.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 08:24:30] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-0.1.tar.gz tmp/nanorequests-0.2.tar.gz --markdown 20230701/n/nanorequests/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-01 08:24:30] INFO root fetch - processPackages [redashsync]: Downloading https://files.pythonhosted.org/packages/7d/27/5cafe235744f9b48c169e610cb96ea53f8f954f178b813ee036886f93074/redashsync-0.0.8.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [deairequest]: Downloading https://files.pythonhosted.org/packages/ba/1e/a7357f1ee6c0887a4a42e530b6861aeb02a0f6ca848a1e74f3ffbad7b0dc/deairequest-0.0.8.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [py-random-useragent]: executing diffoscope
+[2023-07-01 08:24:30] INFO root fetch - processPackages [py-random-useragent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_random_useragent-0.1.2.tar.gz tmp/py_random_useragent-0.1.3.tar.gz --markdown 20230701/p/py-random-useragent/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 08:24:30] INFO root fetch - processPackages [py-random-useragent]: executing diffoscope
+[2023-07-01 08:24:30] INFO root fetch - processPackages [py-random-useragent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_random_useragent-0.1.2.tar.gz tmp/py_random_useragent-0.1.3.tar.gz --markdown 20230701/p/py-random-useragent/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 08:24:30] INFO root fetch - processPackages [redashsync]: executing diffoscope
+[2023-07-01 08:24:30] INFO root fetch - processPackages [redashsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redashsync-0.0.7.tar.gz tmp/redashsync-0.0.8.tar.gz --markdown 20230701/r/redashsync/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 08:24:30] INFO root fetch - processPackages [deairequest]: executing diffoscope
+[2023-07-01 08:24:30] INFO root fetch - processPackages [deairequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deairequest-0.0.7.tar.gz tmp/deairequest-0.0.8.tar.gz --markdown 20230701/d/deairequest/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 08:24:30] INFO root fetch - processPackages [numgrids]: Downloading https://files.pythonhosted.org/packages/14/5f/375538efaff60b7d15563d86b4831a4be7d37f34974a224d1540724af008/numgrids-0.2.1.tar.gz
+[2023-07-01 08:24:30] INFO root fetch - processPackages [numgrids]: executing diffoscope
+[2023-07-01 08:24:30] INFO root fetch - processPackages [numgrids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numgrids-0.2.0.tar.gz tmp/numgrids-0.2.1.tar.gz --markdown 20230701/n/numgrids/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 08:24:31] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.1.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-0.2.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 08:24:31] INFO root fetch - processPackages [py-random-useragent]: Remove: archive file [/home/abi/fetcher/tmp/py_random_useragent-0.1.2.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - processPackages [py-random-useragent]: Remove: archive file [/home/abi/fetcher/tmp/py_random_useragent-0.1.3.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [py-random-useragent]: success
+[2023-07-01 08:24:31] INFO root fetch - processPackages [redashsync]: Remove: archive file [/home/abi/fetcher/tmp/redashsync-0.0.7.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - processPackages [redashsync]: Remove: archive file [/home/abi/fetcher/tmp/redashsync-0.0.8.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [redashsync]: success
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [py-random-useragent]: success
+[2023-07-01 08:24:31] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.7.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - processPackages [deairequest]: Remove: archive file [/home/abi/fetcher/tmp/deairequest-0.0.8.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [deairequest]: success
+[2023-07-01 08:24:31] INFO root fetch - processPackages [numgrids]: Remove: archive file [/home/abi/fetcher/tmp/numgrids-0.2.0.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - processPackages [numgrids]: Remove: archive file [/home/abi/fetcher/tmp/numgrids-0.2.1.tar.gz]
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: End processing [numgrids]: success
+[2023-07-01 08:24:31] INFO root fetch - main [MainThread]: Store serial: [18720127]
