@@ -19939,3 +19939,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:00:28] INFO root fetch - processPackages [crochet]: Remove: archive file [/home/abi/fetcher/tmp/crochet-2.1.1.tar.gz]
 [2023-07-01 23:00:28] INFO root fetch - main [MainThread]: End processing [crochet]: success
 [2023-07-01 23:00:28] INFO root fetch - main [MainThread]: Store serial: [18724643]
+[2023-07-01 23:05:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724643]
+[2023-07-01 23:05:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 23:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openabc
+[2023-07-01 23:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datascience-cookiecutter
+[2023-07-01 23:05:37] INFO root fetch - processPackages [openabc]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 23:05:37] WARNING root fetch - processPackages [datascience-cookiecutter]: Skipping, unable to determine old version
+[2023-07-01 23:05:37] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter] error
+[2023-07-01 23:05:37] INFO root fetch - processPackages [openabc]: Downloading https://files.pythonhosted.org/packages/41/f8/17fa7df8f8484551a45836f1a6e1ec7bf48d58cf503d1eedfb4b2b6cc81a/openabc-1.0.3.tar.gz
+[2023-07-01 23:05:38] INFO root fetch - processPackages [openabc]: Downloading https://files.pythonhosted.org/packages/90/cc/f508acad5ea3c32adb4d8618cc7dec3d60df0b23928113d6bf8d79faf1f8/openabc-1.0.4.tar.gz
+[2023-07-01 23:05:38] INFO root fetch - processPackages [openabc]: executing diffoscope
+[2023-07-01 23:05:38] INFO root fetch - processPackages [openabc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openabc-1.0.3.tar.gz tmp/openabc-1.0.4.tar.gz --markdown 20230701/o/openabc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 23:05:39] INFO root fetch - processPackages [openabc]: Remove: archive file [/home/abi/fetcher/tmp/openabc-1.0.3.tar.gz]
+[2023-07-01 23:05:39] INFO root fetch - processPackages [openabc]: Remove: archive file [/home/abi/fetcher/tmp/openabc-1.0.4.tar.gz]
+[2023-07-01 23:05:39] INFO root fetch - main [MainThread]: End processing [openabc]: success
+[2023-07-01 23:05:39] INFO root fetch - main [MainThread]: Store serial: [18724652]
