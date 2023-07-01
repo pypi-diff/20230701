@@ -8805,3 +8805,71 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:28:18] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.9.tar.gz]
 [2023-07-01 06:28:18] INFO root fetch - main [MainThread]: End processing [linki]: success
 [2023-07-01 06:28:18] INFO root fetch - main [MainThread]: Store serial: [18719727]
+[2023-07-01 06:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719727]
+[2023-07-01 06:33:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-c-autodoc
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: functions.MVO.ITA.mahmud
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDhelper
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: count-tokens
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffmpeg-python-utils
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tecton-runtime
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neuroimager
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sesg
+[2023-07-01 06:33:26] INFO root fetch - processPackages [sphinx-c-autodoc]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-01 06:33:26] INFO root fetch - processPackages [TDhelper]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-07-01 06:33:26] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 06:33:26] INFO root fetch - processPackages [ffmpeg-python-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 06:33:26] INFO root fetch - processPackages [count-tokens]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-01 06:33:26] WARNING root fetch - processPackages [tecton-runtime]: Skipping, unable to determine old version
+[2023-07-01 06:33:26] INFO root fetch - main [MainThread]: End processing [tecton-runtime] error
+[2023-07-01 06:33:26] WARNING root fetch - processPackages [functions.MVO.ITA.mahmud]: Skipping, unable to determine old version
+[2023-07-01 06:33:26] INFO root fetch - main [MainThread]: End processing [functions.MVO.ITA.mahmud] error
+[2023-07-01 06:33:26] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-07-01 06:33:26] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-07-01 06:33:26] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/e6/60/6eb7ba678cb7ba060f25458457806f51e5bb6800bd672860753806860b44/TDhelper-2.6.2.tar.gz
+[2023-07-01 06:33:26] INFO root fetch - processPackages [neuroimager]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sphinx-c-autodoc]: Downloading https://files.pythonhosted.org/packages/f9/e2/c14c74d5b53ce346c3b9c4937428ed14e31d7f907da7a96d7a8b91c07d4b/sphinx_c_autodoc-1.2.1.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [count-tokens]: Downloading https://files.pythonhosted.org/packages/a2/f8/0afe5b2ebd8f0af2726570a97ac84206885b6274e5401179a86c2d5aa3df/count_tokens-0.3.0.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/f0/3f/2aef922485ebec25427323476fc695976eb4c4867214d421f18755528498/cdktf-cdktf-provider-azurerm-9.0.1.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [ffmpeg-python-utils]: Downloading https://files.pythonhosted.org/packages/5a/fc/703089514f5aab04082dd95ff30234fedfcb202d853114abd680dafaf5be/ffmpeg_python_utils-0.0.5.tar.gz
+[2023-07-01 06:33:27] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 30871375>=10485760
+[2023-07-01 06:33:27] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-07-01 06:33:27] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/b1/fb/3eb8d6543570a2863329d2820088a6178d49ab1969a160f88379325fae49/TDhelper-2.6.3.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/d5/19/61854741477c13268496c873d71513e7f35d16b676cc5d69056fb9f945a2/neuroimager-0.0.6.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230701/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sphinx-c-autodoc]: Downloading https://files.pythonhosted.org/packages/cb/04/fdc922d6d924340345ffb93cc666000a250306849224824f498c8590854f/sphinx_c_autodoc-1.2.2.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [ffmpeg-python-utils]: Downloading https://files.pythonhosted.org/packages/56/78/6d2d7c5396c7fbeb81dc877516ce08544b0b9dde9007335eafc8996feb06/ffmpeg_python_utils-0.0.6.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [count-tokens]: Downloading https://files.pythonhosted.org/packages/e5/5d/c4e8fe21ed44f8c9c7cde6d9c10b28fa4bc7b82187675a85d667bf943b01/count_tokens-0.4.0.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-07-01 06:33:27] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.2.tar.gz tmp/TDhelper-2.6.3.tar.gz --markdown 20230701/T/TDhelper/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sphinx-c-autodoc]: executing diffoscope
+[2023-07-01 06:33:27] INFO root fetch - processPackages [sphinx-c-autodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_c_autodoc-1.2.1.tar.gz tmp/sphinx_c_autodoc-1.2.2.tar.gz --markdown 20230701/s/sphinx-c-autodoc/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-01 06:33:27] INFO root fetch - processPackages [ffmpeg-python-utils]: executing diffoscope
+[2023-07-01 06:33:27] INFO root fetch - processPackages [ffmpeg-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_python_utils-0.0.5.tar.gz tmp/ffmpeg_python_utils-0.0.6.tar.gz --markdown 20230701/f/ffmpeg-python-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 06:33:27] INFO root fetch - processPackages [count-tokens]: executing diffoscope
+[2023-07-01 06:33:27] INFO root fetch - processPackages [count-tokens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/count_tokens-0.3.0.tar.gz tmp/count_tokens-0.4.0.tar.gz --markdown 20230701/c/count-tokens/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 06:33:27] INFO root fetch - processPackages [neuroimager]: Downloading https://files.pythonhosted.org/packages/c6/90/af8b74b560532519ae11ccf201c8ba04aa0ef20190067779e18671ead354/neuroimager-0.0.7.tar.gz
+[2023-07-01 06:33:27] INFO root fetch - processPackages [neuroimager]: executing diffoscope
+[2023-07-01 06:33:27] INFO root fetch - processPackages [neuroimager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroimager-0.0.6.tar.gz tmp/neuroimager-0.0.7.tar.gz --markdown 20230701/n/neuroimager/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 06:33:28] INFO root fetch - processPackages [count-tokens]: Remove: archive file [/home/abi/fetcher/tmp/count_tokens-0.3.0.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - processPackages [count-tokens]: Remove: archive file [/home/abi/fetcher/tmp/count_tokens-0.4.0.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - main [MainThread]: End processing [count-tokens]: success
+[2023-07-01 06:33:28] INFO root fetch - processPackages [sphinx-c-autodoc]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_c_autodoc-1.2.1.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - processPackages [sphinx-c-autodoc]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_c_autodoc-1.2.2.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - main [MainThread]: End processing [sphinx-c-autodoc]: success
+[2023-07-01 06:33:28] INFO root fetch - processPackages [ffmpeg-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_python_utils-0.0.5.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - processPackages [ffmpeg-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_python_utils-0.0.6.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - main [MainThread]: End processing [ffmpeg-python-utils]: success
+[2023-07-01 06:33:28] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.8.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.9.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-07-01 06:33:28] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.6.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - processPackages [neuroimager]: Remove: archive file [/home/abi/fetcher/tmp/neuroimager-0.0.7.tar.gz]
+[2023-07-01 06:33:28] INFO root fetch - main [MainThread]: End processing [neuroimager]: success
+[2023-07-01 06:33:29] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.2.tar.gz]
+[2023-07-01 06:33:29] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.3.tar.gz]
+[2023-07-01 06:33:29] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-07-01 06:33:29] INFO root fetch - main [MainThread]: Store serial: [18719761]
