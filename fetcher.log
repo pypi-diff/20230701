@@ -12412,3 +12412,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:40:07] INFO root fetch - processPackages [prolog-primitives]: Remove: archive file [/home/abi/fetcher/tmp/prolog_primitives-0.4.1.tar.gz]
 [2023-07-01 12:40:07] INFO root fetch - main [MainThread]: End processing [prolog-primitives]: success
 [2023-07-01 12:40:07] INFO root fetch - main [MainThread]: Store serial: [18721286]
+[2023-07-01 12:45:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721286]
+[2023-07-01 12:45:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-beta
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erscipcard
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talos-linux-api-v1-4-0
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cuallee
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unrollcuda
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pgschemas
+[2023-07-01 12:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: md2site
+[2023-07-01 12:45:17] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-07-01 12:45:17] INFO root fetch - processPackages [md2site]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 12:45:17] INFO root fetch - processPackages [django-pgschemas]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-01 12:45:17] INFO root fetch - processPackages [erscipcard]: New version: [1.19] Old Version: [1.18.99]
+[2023-07-01 12:45:17] WARNING root fetch - processPackages [talos-linux-api-v1-4-0]: Skipping, unable to determine old version
+[2023-07-01 12:45:17] INFO root fetch - main [MainThread]: End processing [talos-linux-api-v1-4-0] error
+[2023-07-01 12:45:17] INFO root fetch - processPackages [unrollcuda]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 12:45:17] INFO root fetch - processPackages [cuallee]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-07-01 12:45:17] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/1d/da/141ee282148a410da0967567bb71c63ecc6475b9a43d6116e527ef217c6b/erscipcard-1.18.99.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/ce/5d/1fbeeb517377698098232b0a72f8246f8da2bc146ef9d53c16dbca81f5d4/md2site-0.0.2.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/c8/a8/6338015f56035edff970b034271b6ee3fa9dab3bc9e1dbdeb6f512104e80/certora-cli-beta-4.3.1.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [django-pgschemas]: Downloading https://files.pythonhosted.org/packages/8a/ad/4738292bd432347fc1381a3563c87a06b93e5993b94a6aeef2f18b335433/django-pgschemas-0.8.0.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [cuallee]: Downloading https://files.pythonhosted.org/packages/67/4c/b8a1beb917cf29f87ed15d883cf4dbfd5cb5d78a5198447afc050afbcd89/cuallee-0.4.5.tar.gz
+[2023-07-01 12:45:17] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 37099089>=10485760
+[2023-07-01 12:45:17] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-07-01 12:45:17] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/2c/d3/2c381c5cebeb70ce73746e283ef80ee5f18987cced193ea6316ccd15a2e9/unrollcuda-0.0.6.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/ec/69/b4a4917b28bafdee23fcb26fdabde06973904dadecd85b40504affd24e83/md2site-0.0.3.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/fc/61/5589c691557954d76916b82b0c931b7092ff82cd6af56540d2841b22fd4b/erscipcard-1.19.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [md2site]: executing diffoscope
+[2023-07-01 12:45:17] INFO root fetch - processPackages [md2site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2site-0.0.2.tar.gz tmp/md2site-0.0.3.tar.gz --markdown 20230701/m/md2site/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 12:45:17] INFO root fetch - processPackages [cuallee]: Downloading https://files.pythonhosted.org/packages/0c/92/d5dd6e77446375306e039af5452c03e9da861d71b88781a619efd2abfa29/cuallee-0.4.6.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [unrollcuda]: Downloading https://files.pythonhosted.org/packages/ae/d8/4ac0f36053474c6ede07818928fa1eaf5d8a29342c84194cbcdbaf71ee08/unrollcuda-0.0.7.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [django-pgschemas]: Downloading https://files.pythonhosted.org/packages/c5/ce/597e07bcc5ddd4be343f7c6c8c708d2f7437d975ce8c63830e7ef960a3e9/django-pgschemas-0.9.0.tar.gz
+[2023-07-01 12:45:17] INFO root fetch - processPackages [cuallee]: executing diffoscope
+[2023-07-01 12:45:17] INFO root fetch - processPackages [cuallee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuallee-0.4.5.tar.gz tmp/cuallee-0.4.6.tar.gz --markdown 20230701/c/cuallee/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-07-01 12:45:17] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 12:45:17] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.99.tar.gz tmp/erscipcard-1.19.tar.gz --markdown 20230701/e/erscipcard/1.18.99-1.19/diff.md --exclude *.pyd
+[2023-07-01 12:45:18] INFO root fetch - processPackages [unrollcuda]: executing diffoscope
+[2023-07-01 12:45:18] INFO root fetch - processPackages [unrollcuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unrollcuda-0.0.6.tar.gz tmp/unrollcuda-0.0.7.tar.gz --markdown 20230701/u/unrollcuda/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 12:45:18] INFO root fetch - processPackages [django-pgschemas]: executing diffoscope
+[2023-07-01 12:45:18] INFO root fetch - processPackages [django-pgschemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgschemas-0.8.0.tar.gz tmp/django-pgschemas-0.9.0.tar.gz --markdown 20230701/d/django-pgschemas/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 12:45:18] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.2.tar.gz]
+[2023-07-01 12:45:18] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.3.tar.gz]
+[2023-07-01 12:45:18] INFO root fetch - main [MainThread]: End processing [md2site]: success
+[2023-07-01 12:45:19] INFO root fetch - processPackages [cuallee]: Remove: archive file [/home/abi/fetcher/tmp/cuallee-0.4.5.tar.gz]
+[2023-07-01 12:45:19] INFO root fetch - processPackages [cuallee]: Remove: archive file [/home/abi/fetcher/tmp/cuallee-0.4.6.tar.gz]
+[2023-07-01 12:45:19] INFO root fetch - main [MainThread]: End processing [cuallee]: success
+[2023-07-01 12:45:19] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.99.tar.gz]
+[2023-07-01 12:45:19] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.19.tar.gz]
+[2023-07-01 12:45:19] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 12:45:19] INFO root fetch - processPackages [django-pgschemas]: Remove: archive file [/home/abi/fetcher/tmp/django-pgschemas-0.8.0.tar.gz]
+[2023-07-01 12:45:19] INFO root fetch - processPackages [django-pgschemas]: Remove: archive file [/home/abi/fetcher/tmp/django-pgschemas-0.9.0.tar.gz]
+[2023-07-01 12:45:19] INFO root fetch - main [MainThread]: End processing [django-pgschemas]: success
+[2023-07-01 12:45:20] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.6.tar.gz]
+[2023-07-01 12:45:20] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.7.tar.gz]
+[2023-07-01 12:45:20] INFO root fetch - main [MainThread]: End processing [unrollcuda]: success
+[2023-07-01 12:45:20] INFO root fetch - main [MainThread]: Store serial: [18721309]
