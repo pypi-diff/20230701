@@ -15717,3 +15717,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:24:51] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
 [2023-07-01 17:24:51] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
 [2023-07-01 17:24:51] INFO root fetch - main [MainThread]: Store serial: [18722775]
+[2023-07-01 17:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722775]
+[2023-07-01 17:30:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-recaptcha
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nics
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unbelievaboat
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unb-api-python
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-cpp
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cv2filters
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tiny-ai-helper
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dww-test
+[2023-07-01 17:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openplugincore
+[2023-07-01 17:30:01] WARNING root fetch - processPackages [unb-api-python]: Skipping, unable to determine old version
+[2023-07-01 17:30:01] INFO root fetch - processPackages [unb-api-python]: Start processing: yetl-framework
+[2023-07-01 17:30:01] INFO root fetch - main [MainThread]: End processing [unb-api-python] error
+[2023-07-01 17:30:01] INFO root fetch - processPackages [drf-recaptcha]: New version: [3.0.0] Old Version: [2.2.3]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [nics]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-01 17:30:01] WARNING root fetch - processPackages [openplugincore]: Skipping, unable to determine old version
+[2023-07-01 17:30:01] INFO root fetch - processPackages [dww-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [cv2filters]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [openplugincore]: Start processing: finops-crawler
+[2023-07-01 17:30:01] INFO root fetch - main [MainThread]: End processing [openplugincore] error
+[2023-07-01 17:30:01] INFO root fetch - processPackages [json-cpp]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-01 17:30:01] WARNING root fetch - processPackages [unbelievaboat]: Skipping, unable to determine old version
+[2023-07-01 17:30:01] INFO root fetch - main [MainThread]: End processing [unbelievaboat] error
+[2023-07-01 17:30:01] INFO root fetch - processPackages [tiny-ai-helper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.0.dev1] Old Version: [1.6.0]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.0.dev1] Old Version: [1.6.0]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [finops-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 17:30:01] INFO root fetch - processPackages [json-cpp]: Downloading https://files.pythonhosted.org/packages/cb/f5/92823a56ede4b83f5a18a5d3e5c6f9b62e59e09b6a0733b3c5bf34472010/json-cpp-1.0.7.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/da/f0/06b9fcce1952f03a2d0f6e2d36354d0625b40b69391b72931125d0b205b3/dww_test-0.0.2-py3-none-any.whl
+[2023-07-01 17:30:01] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/64/8d/5452bdfbadded54a549aafca457d3d02e5524667cbee6b9e2fffc0a7fe3b/nics-2.3.0.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [drf-recaptcha]: Downloading https://files.pythonhosted.org/packages/95/9b/b603c9ca547d185911131e528a946701a89554a355b67ff6fea9715b2f2c/drf-recaptcha-2.2.3.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [cv2filters]: Downloading https://files.pythonhosted.org/packages/76/f9/8e04b328dc621edd84b1da16ec8217e6646c28fd1c48cd5f5ac9ee87380d/cv2filters-0.1.1.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/78/ab/f21b48d04516b3a558bdf333fed0ed3aa1ab8495a48f4dd6bb3669b65e1d/yetl-framework-1.6.0.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/78/ab/f21b48d04516b3a558bdf333fed0ed3aa1ab8495a48f4dd6bb3669b65e1d/yetl-framework-1.6.0.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/d3/95/00247286a992fc1af24f53d5284af83117e1413da5d181b0b91cdd659bdf/finops_crawler-0.1.8.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [tiny-ai-helper]: Downloading https://files.pythonhosted.org/packages/ca/f2/26b5e3978ce7e839be8e5b2a8fe6b0a580b6f5d67a36a7977c1e73a4ef30/tiny_ai_helper-0.1.8.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [json-cpp]: Downloading https://files.pythonhosted.org/packages/f2/05/01011fd6b9ebb4f197425c4bbd2fff63845ebccf46b5236d5f8e7f8792ee/json-cpp-1.0.9.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [dww-test]: Downloading https://files.pythonhosted.org/packages/5a/18/c6cb4477bd5f9bf1f554d8331de257bc0c2562760d160c4498a603c1003f/dww_test-0.0.3-py3-none-any.whl
+[2023-07-01 17:30:01] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/e0/80/9477aeaae7ad2a31a9b3ac43852a91c65271573db4aea57d25b5cd6d4901/nics-2.4.0.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [dww-test]: executing diffoscope
+[2023-07-01 17:30:01] INFO root fetch - processPackages [dww-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dww_test-0.0.2-py3-none-any.whl.zip tmp/dww_test-0.0.3-py3-none-any.whl.zip --markdown 20230701/d/dww-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 17:30:01] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 17:30:01] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.3.0.tar.gz tmp/nics-2.4.0.tar.gz --markdown 20230701/n/nics/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-01 17:30:01] INFO root fetch - processPackages [drf-recaptcha]: Downloading https://files.pythonhosted.org/packages/1c/76/79d58c1846e5858ac5c7ffa4b447f20705fcd392187a494770dbe5b4de91/drf-recaptcha-3.0.0.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [cv2filters]: Downloading https://files.pythonhosted.org/packages/5b/bf/42d3eaaa85a18f1df6de64a06fd45f5ad37e3374f7628e29d97de826d72c/cv2filters-0.1.2.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [json-cpp]: executing diffoscope
+[2023-07-01 17:30:01] INFO root fetch - processPackages [json-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-cpp-1.0.7.tar.gz tmp/json-cpp-1.0.9.tar.gz --markdown 20230701/j/json-cpp/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 17:30:01] INFO root fetch - processPackages [cv2filters]: executing diffoscope
+[2023-07-01 17:30:01] INFO root fetch - processPackages [cv2filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cv2filters-0.1.1.tar.gz tmp/cv2filters-0.1.2.tar.gz --markdown 20230701/c/cv2filters/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 17:30:01] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/12/50/db4a72412012348fe9e84b6b3d094d6e26608d00df27006ab5018b1d9a21/yetl-framework-1.6.0.dev1.tar.gz
+[2023-07-01 17:30:01] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/12/50/db4a72412012348fe9e84b6b3d094d6e26608d00df27006ab5018b1d9a21/yetl-framework-1.6.0.dev1.tar.gz
+[2023-07-01 17:30:02] INFO root fetch - processPackages [finops-crawler]: Downloading https://files.pythonhosted.org/packages/8a/b2/3e8965ddcac739e11e0312223e45b23542832f881b1ca99124abf471b30c/finops_crawler-0.1.9.tar.gz
+[2023-07-01 17:30:02] INFO root fetch - processPackages [drf-recaptcha]: executing diffoscope
+[2023-07-01 17:30:02] INFO root fetch - processPackages [drf-recaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-recaptcha-2.2.3.tar.gz tmp/drf-recaptcha-3.0.0.tar.gz --markdown 20230701/d/drf-recaptcha/2.2.3-3.0.0/diff.md --exclude *.pyd
+[2023-07-01 17:30:02] INFO root fetch - processPackages [tiny-ai-helper]: Downloading https://files.pythonhosted.org/packages/67/b9/a8002bd44df5647c2e404e47cfd82abedb51ae58382a4ac06333e91f80b1/tiny_ai_helper-0.1.9.tar.gz
+[2023-07-01 17:30:02] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-01 17:30:02] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.0.tar.gz tmp/yetl-framework-1.6.0.dev1.tar.gz --markdown 20230701/y/yetl-framework/1.6.0-1.6.0.dev1/diff.md --exclude *.pyd
+[2023-07-01 17:30:02] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-01 17:30:02] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.0.tar.gz tmp/yetl-framework-1.6.0.dev1.tar.gz --markdown 20230701/y/yetl-framework/1.6.0-1.6.0.dev1/diff.md --exclude *.pyd
+[2023-07-01 17:30:02] INFO root fetch - processPackages [finops-crawler]: executing diffoscope
+[2023-07-01 17:30:02] INFO root fetch - processPackages [finops-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finops_crawler-0.1.8.tar.gz tmp/finops_crawler-0.1.9.tar.gz --markdown 20230701/f/finops-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 17:30:02] INFO root fetch - processPackages [tiny-ai-helper]: executing diffoscope
+[2023-07-01 17:30:02] INFO root fetch - processPackages [tiny-ai-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_ai_helper-0.1.8.tar.gz tmp/tiny_ai_helper-0.1.9.tar.gz --markdown 20230701/t/tiny-ai-helper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 17:30:03] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.2-py3-none-any.whl.zip]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [dww-test]: Remove: archive file [/home/abi/fetcher/tmp/dww_test-0.0.3-py3-none-any.whl.zip]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [dww-test]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.3.0.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.4.0.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [json-cpp]: Remove: archive file [/home/abi/fetcher/tmp/json-cpp-1.0.7.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [json-cpp]: Remove: archive file [/home/abi/fetcher/tmp/json-cpp-1.0.9.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [json-cpp]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [cv2filters]: Remove: archive file [/home/abi/fetcher/tmp/cv2filters-0.1.1.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [cv2filters]: Remove: archive file [/home/abi/fetcher/tmp/cv2filters-0.1.2.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [cv2filters]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [tiny-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/tiny_ai_helper-0.1.8.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [tiny-ai-helper]: Remove: archive file [/home/abi/fetcher/tmp/tiny_ai_helper-0.1.9.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [tiny-ai-helper]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [drf-recaptcha]: Remove: archive file [/home/abi/fetcher/tmp/drf-recaptcha-2.2.3.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [drf-recaptcha]: Remove: archive file [/home/abi/fetcher/tmp/drf-recaptcha-3.0.0.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [drf-recaptcha]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.8.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [finops-crawler]: Remove: archive file [/home/abi/fetcher/tmp/finops_crawler-0.1.9.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [finops-crawler]: success
+[2023-07-01 17:30:03] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.0.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.0.dev1.tar.gz]
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-01 17:30:03] INFO root fetch - main [MainThread]: Store serial: [18722818]
