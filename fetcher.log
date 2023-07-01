@@ -10838,3 +10838,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:54:47] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev98.tar.gz]
 [2023-07-01 09:54:47] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-01 09:54:47] INFO root fetch - main [MainThread]: Store serial: [18720513]
+[2023-07-01 09:59:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720513]
+[2023-07-01 09:59:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 09:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo
+[2023-07-01 09:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterhub-naasauthenticator
+[2023-07-01 09:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astrolight
+[2023-07-01 09:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robert
+[2023-07-01 09:59:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bk-iam
+[2023-07-01 09:59:56] INFO root fetch - processPackages [bk-iam]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-01 09:59:56] INFO root fetch - processPackages [astrolight]: New version: [0.3] Old Version: [0.1]
+[2023-07-01 09:59:56] INFO root fetch - processPackages [robert]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-01 09:59:56] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: New version: [0.8.3] Old Version: [0.7.2]
+[2023-07-01 09:59:56] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-07-01 09:59:56] INFO root fetch - processPackages [robert]: Downloading https://files.pythonhosted.org/packages/74/1d/7764e79fc5757376a7ed0ed6be1abe957879e8ce99828157c4476cfa70f2/robert-1.0.0.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [astrolight]: Downloading https://files.pythonhosted.org/packages/c4/73/09e953b1ef2a5a6f4fc84097c239f6f995c4ac925fa8311fc1f7898446b4/astrolight-0.1-py3-none-any.whl
+[2023-07-01 09:59:57] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/49/dc/6600aec1fcadd141f22429aaebfb3e3547302f7e915f4ad28512cd2fac66/bk-iam-1.3.3.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: Downloading https://files.pythonhosted.org/packages/0d/24/5a0f17f8f57d7c24989901a7279a98c717669e91fc170f8573e5109e4a94/jupyterhub-naasauthenticator-0.7.2.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [robert]: Downloading https://files.pythonhosted.org/packages/3e/8a/9243ca571738a321a7a3631b3dea5cc3fc574063f52cc50ffe935e285837/robert-1.0.1.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [astrolight]: Downloading https://files.pythonhosted.org/packages/5d/f8/e97038912c98a70b7061e8a6e8fd8f941a9ccdbd10fa198842056a180e8b/astrolight-0.3-py3-none-any.whl
+[2023-07-01 09:59:57] INFO root fetch - processPackages [robert]: executing diffoscope
+[2023-07-01 09:59:57] INFO root fetch - processPackages [robert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robert-1.0.0.tar.gz tmp/robert-1.0.1.tar.gz --markdown 20230701/r/robert/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-01 09:59:57] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/95/d6/0122067441176a0e6cf6bef13527439d4adc4b83600c12068f2a154713ba/bk-iam-1.3.4.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [astrolight]: executing diffoscope
+[2023-07-01 09:59:57] INFO root fetch - processPackages [astrolight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrolight-0.1-py3-none-any.whl.zip tmp/astrolight-0.3-py3-none-any.whl.zip --markdown 20230701/a/astrolight/0.1-0.3/diff.md --exclude *.pyd
+[2023-07-01 09:59:57] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: Downloading https://files.pythonhosted.org/packages/5d/41/955c02b5bf34a2a20026ed249b582a184cdb8e274507da54c35c089ae5dd/jupyterhub-naasauthenticator-0.8.3.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-07-01 09:59:57] INFO root fetch - processPackages [bk-iam]: executing diffoscope
+[2023-07-01 09:59:57] INFO root fetch - processPackages [bk-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-iam-1.3.3.tar.gz tmp/bk-iam-1.3.4.tar.gz --markdown 20230701/b/bk-iam/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-01 09:59:57] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: executing diffoscope
+[2023-07-01 09:59:57] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-naasauthenticator-0.7.2.tar.gz tmp/jupyterhub-naasauthenticator-0.8.3.tar.gz --markdown 20230701/j/jupyterhub-naasauthenticator/0.7.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-01 09:59:57] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-07-01 09:59:57] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230701/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-07-01 09:59:58] INFO root fetch - processPackages [astrolight]: Remove: archive file [/home/abi/fetcher/tmp/astrolight-0.1-py3-none-any.whl.zip]
+[2023-07-01 09:59:58] INFO root fetch - processPackages [astrolight]: Remove: archive file [/home/abi/fetcher/tmp/astrolight-0.3-py3-none-any.whl.zip]
+[2023-07-01 09:59:58] INFO root fetch - main [MainThread]: End processing [astrolight]: success
+[2023-07-01 09:59:58] INFO root fetch - processPackages [robert]: Remove: archive file [/home/abi/fetcher/tmp/robert-1.0.0.tar.gz]
+[2023-07-01 09:59:58] INFO root fetch - processPackages [robert]: Remove: archive file [/home/abi/fetcher/tmp/robert-1.0.1.tar.gz]
+[2023-07-01 09:59:58] INFO root fetch - main [MainThread]: End processing [robert]: success
+[2023-07-01 09:59:58] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-07-01 09:59:58] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-07-01 09:59:58] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-07-01 09:59:58] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.3.tar.gz]
+[2023-07-01 09:59:58] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.4.tar.gz]
+[2023-07-01 09:59:58] INFO root fetch - main [MainThread]: End processing [bk-iam]: success
+[2023-07-01 09:59:59] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-naasauthenticator-0.7.2.tar.gz]
+[2023-07-01 09:59:59] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-naasauthenticator-0.8.3.tar.gz]
+[2023-07-01 09:59:59] INFO root fetch - main [MainThread]: End processing [jupyterhub-naasauthenticator]: success
+[2023-07-01 09:59:59] INFO root fetch - main [MainThread]: Store serial: [18720524]
