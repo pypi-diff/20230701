@@ -2910,3 +2910,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 02:27:26] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
 [2023-07-01 02:27:26] INFO root fetch - main [MainThread]: End processing [increase]: success
 [2023-07-01 02:27:26] INFO root fetch - main [MainThread]: Store serial: [18717643]
+[2023-07-01 02:32:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717643]
+[2023-07-01 02:32:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: symbolicai
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitmproxy2swagger
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-docker-image-deployment
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inels-mqtt-new
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Leonardo-Ai-SDK
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-redis
+[2023-07-01 02:32:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-serverless-clamscan
+[2023-07-01 02:32:35] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [mitmproxy2swagger]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk8s]: New version: [2.7.90] Old Version: [2.7.9]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/f3/b4/aad26ab80dde8799302dbe662e01e1fe40a55a40eba4691be5a5ebcc58a7/inels-mqtt-new-0.2.9a1.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/f1/94/234c7859ea38bf3bfd719842cb9ba335317746c85e3d6ea2c21db624c3c9/cdk-serverless-clamscan-2.5.8.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-07-01 02:32:35] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/a5/6f/b7be7ec3d6b9736dd159cd4041eec1cdeaf5820d2de8432f6c2b4485b427/Leonardo-Ai-SDK-1.2.0.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [mitmproxy2swagger]: Downloading https://files.pythonhosted.org/packages/ae/d4/9b90cb1d434d3d1b19bc78dfff263cb67b96ad775ef432ce1b5a2080bd28/mitmproxy2swagger-0.8.2.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [inels-mqtt-new]: Downloading https://files.pythonhosted.org/packages/a6/7a/baead4901c82cd855d0c5606eadd3c032b5e97b8d81da9cd7c40919e99f4/inels-mqtt-new-0.2.9a2.tar.gz
+[2023-07-01 02:32:35] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/b2/d4/9cf2b2666ac68550b4581f7a82e94c22342df025cc5076ea72b6f13cd23d/cdk8s-2.7.90.tar.gz
+[2023-07-01 02:32:36] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230701/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.9.tar.gz tmp/cdk8s-2.7.90.tar.gz --markdown 20230701/c/cdk8s/2.7.9-2.7.90/diff.md --exclude *.pyd
+[2023-07-01 02:32:36] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/04/ef/9815937ecaa67ce825e56c3f788f44ce752be286fd0035868bef9441b8c7/Leonardo-Ai-SDK-1.3.0.tar.gz
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/28/a2/7652c50d98b37eb12999dac92423c2e06eb02ce205876482c411d4948af3/cdk-serverless-clamscan-2.5.9.tar.gz
+[2023-07-01 02:32:36] INFO root fetch - processPackages [mitmproxy2swagger]: Downloading https://files.pythonhosted.org/packages/e6/c6/305a4bd276e70544277e661267892502b38651a292b4d6b8b49a09065e7a/mitmproxy2swagger-0.9.0.tar.gz
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230701/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-01 02:32:36] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-1.2.0.tar.gz tmp/Leonardo-Ai-SDK-1.3.0.tar.gz --markdown 20230701/L/Leonardo-Ai-SDK/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-07-01 02:32:36] INFO root fetch - processPackages [mitmproxy2swagger]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [mitmproxy2swagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitmproxy2swagger-0.8.2.tar.gz tmp/mitmproxy2swagger-0.9.0.tar.gz --markdown 20230701/m/mitmproxy2swagger/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.5.8.tar.gz tmp/cdk-serverless-clamscan-2.5.9.tar.gz --markdown 20230701/c/cdk-serverless-clamscan/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2023-07-01 02:32:36] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-07-01 02:32:36] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230701/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 02:32:37] INFO root fetch - processPackages [mitmproxy2swagger]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy2swagger-0.8.2.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - processPackages [mitmproxy2swagger]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy2swagger-0.9.0.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - main [MainThread]: End processing [mitmproxy2swagger]: success
+[2023-07-01 02:32:37] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-07-01 02:32:37] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.2.0.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.3.0.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2023-07-01 02:32:37] INFO root fetch - processPackages [inels-mqtt-new]: Remove: archive file [/home/abi/fetcher/tmp/inels-mqtt-new-0.2.9a1.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - processPackages [inels-mqtt-new]: Remove: archive file [/home/abi/fetcher/tmp/inels-mqtt-new-0.2.9a2.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-07-01 02:32:37] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-07-01 02:32:37] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230701/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 02:32:37] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.8.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.9.tar.gz]
+[2023-07-01 02:32:37] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-07-01 02:32:38] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-07-01 02:32:38] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-07-01 02:32:38] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-07-01 02:32:39] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.7-py3-none-any.whl.zip]
+[2023-07-01 02:32:39] INFO root fetch - processPackages [symbolicai]: Remove: archive file [/home/abi/fetcher/tmp/symbolicai-0.2.9-py3-none-any.whl.zip]
+[2023-07-01 02:32:39] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-07-01 02:32:39] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-07-01 02:32:39] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.90.tar.gz]
+[2023-07-01 02:32:39] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-07-01 02:32:39] INFO root fetch - main [MainThread]: Store serial: [18717669]
