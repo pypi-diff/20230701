@@ -14854,3 +14854,79 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:22:18] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.9.tar.gz]
 [2023-07-01 16:22:18] INFO root fetch - main [MainThread]: End processing [pyasd]: success
 [2023-07-01 16:22:18] INFO root fetch - main [MainThread]: Store serial: [18722341]
+[2023-07-01 16:27:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722341]
+[2023-07-01 16:27:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samp-query
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dark-gateway
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unigui
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: philbot-voice
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctd-python
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: desim-tool
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotify-recommender-api
+[2023-07-01 16:27:26] INFO root fetch - processPackages [samp-query]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-01 16:27:26] WARNING root fetch - processPackages [dark-gateway]: Skipping, unable to determine old version
+[2023-07-01 16:27:26] INFO root fetch - main [MainThread]: End processing [dark-gateway] error
+[2023-07-01 16:27:26] INFO root fetch - processPackages [unigui]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-07-01 16:27:26] INFO root fetch - processPackages [ctd-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 16:27:26] INFO root fetch - processPackages [philbot-voice]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 16:27:27] INFO root fetch - processPackages [desim-tool]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spotify-recommender-api]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-07-01 16:27:27] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/05/bb/01605bb60fce0733760899cdc771b31c44c401248bd2c28398c5ce9e9df5/philbot_voice-1.9.8.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/c9/f0/b8b651feb4e849e9a30765e5cd26c2830510c0691512048ba744d06597a1/ctd-python-0.1.2.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/f9/07/258755930eaeba70c41d9cf3dfee8a283e89677385695719b61e1cff338c/samp_query-0.2.0.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/fb/6d/654c5748ef67bf5e381a08bfbeced502ad9cdaf178cbb51596b91d5cc639/unigui-1.5.3.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/3b/76/86eaf3b69ce49150b3425dd737feed6606720037521534360114160f1bb6/spotify_recommender_api-4.3.1-py3-none-any.whl
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [desim-tool]: Downloading https://files.pythonhosted.org/packages/2b/78/60f3e3489b4117ea0d07da33c1e633dd9552e67c4f09f0fac2399ac092a7/desim-tool-0.3.3.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [philbot-voice]: Downloading https://files.pythonhosted.org/packages/3b/a7/1895e6c9d15fef6a2e8afcf48baeacca3915011fbe849f600b6b3dac7afb/philbot_voice-1.9.9.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [philbot-voice]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [philbot-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philbot_voice-1.9.8.tar.gz tmp/philbot_voice-1.9.9.tar.gz --markdown 20230701/p/philbot-voice/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [ctd-python]: Downloading https://files.pythonhosted.org/packages/ca/e3/44d69b67ce272fc21dcd1f8ceb3a81914c80dd1683facf38dddc869436da/ctd-python-0.1.3.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/21/fa/dc5b68383664e3bfdcc7c8fb68b8dc4cd14a0c0afc11d3c92ed79cb3a174/samp_query-0.3.0.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [ctd-python]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [ctd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctd-python-0.1.2.tar.gz tmp/ctd-python-0.1.3.tar.gz --markdown 20230701/c/ctd-python/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spotify-recommender-api]: Downloading https://files.pythonhosted.org/packages/f2/16/7b7e38ce8a1984b81c2f483fee83dc49c6b2d0ac8aad716b99feb0d8102c/spotify_recommender_api-4.4.0-py3-none-any.whl
+[2023-07-01 16:27:27] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/4c/69/cfaa9b0462dfaa5482d13c3f613e7582574b25c779f4b5db98998025a386/unigui-1.5.4.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [desim-tool]: Downloading https://files.pythonhosted.org/packages/4c/fb/64e0e074c853f197c05c9d8f5ef919728ea49576e64a710920237b6e81b9/desim-tool-0.4.0.tar.gz
+[2023-07-01 16:27:27] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.5.3.tar.gz tmp/unigui-1.5.4.tar.gz --markdown 20230701/u/unigui/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [samp-query]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [samp-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samp_query-0.2.0.tar.gz tmp/samp_query-0.3.0.tar.gz --markdown 20230701/s/samp-query/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spotify-recommender-api]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [spotify-recommender-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_recommender_api-4.3.1-py3-none-any.whl.zip tmp/spotify_recommender_api-4.4.0-py3-none-any.whl.zip --markdown 20230701/s/spotify-recommender-api/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-07-01 16:27:27] INFO root fetch - processPackages [desim-tool]: executing diffoscope
+[2023-07-01 16:27:27] INFO root fetch - processPackages [desim-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desim-tool-0.3.3.tar.gz tmp/desim-tool-0.4.0.tar.gz --markdown 20230701/d/desim-tool/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 16:27:28] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.8.tar.gz]
+[2023-07-01 16:27:28] INFO root fetch - processPackages [philbot-voice]: Remove: archive file [/home/abi/fetcher/tmp/philbot_voice-1.9.9.tar.gz]
+[2023-07-01 16:27:28] INFO root fetch - main [MainThread]: End processing [philbot-voice]: success
+[2023-07-01 16:27:29] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 16:27:29] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.1.2.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - processPackages [ctd-python]: Remove: archive file [/home/abi/fetcher/tmp/ctd-python-0.1.3.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [ctd-python]: success
+[2023-07-01 16:27:29] INFO root fetch - processPackages [desim-tool]: Remove: archive file [/home/abi/fetcher/tmp/desim-tool-0.3.3.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - processPackages [desim-tool]: Remove: archive file [/home/abi/fetcher/tmp/desim-tool-0.4.0.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [desim-tool]: success
+[2023-07-01 16:27:29] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.2.0.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.3.0.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [samp-query]: success
+[2023-07-01 16:27:29] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.3.1-py3-none-any.whl.zip]
+[2023-07-01 16:27:29] INFO root fetch - processPackages [spotify-recommender-api]: Remove: archive file [/home/abi/fetcher/tmp/spotify_recommender_api-4.4.0-py3-none-any.whl.zip]
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [spotify-recommender-api]: success
+[2023-07-01 16:27:29] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.3.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.4.tar.gz]
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-07-01 16:27:29] INFO root fetch - main [MainThread]: Store serial: [18722368]
