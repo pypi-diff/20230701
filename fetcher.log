@@ -8873,3 +8873,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:33:29] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.3.tar.gz]
 [2023-07-01 06:33:29] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
 [2023-07-01 06:33:29] INFO root fetch - main [MainThread]: Store serial: [18719761]
+[2023-07-01 06:38:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719761]
+[2023-07-01 06:38:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ape-dasy
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addons-oca-product-pack
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stability-matrix-tools
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ITAfunctionsMVO41
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fileaccess
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhenglin
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osom-work
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyfi
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: statute-utils
+[2023-07-01 06:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colcon-lint
+[2023-07-01 06:38:38] INFO root fetch - processPackages [osom-work]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [ape-dasy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [colcon-lint]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [fileaccess]: New version: [0.2.17] Old Version: [0.2.16]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [statute-utils]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [zhenglin]: New version: [0.13.3] Old Version: [0.13.2]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [stability-matrix-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: New version: [13.0.20230630.0] Old Version: [13.0.20211102.0]
+[2023-07-01 06:38:38] WARNING root fetch - processPackages [ITAfunctionsMVO41]: Skipping, unable to determine old version
+[2023-07-01 06:38:38] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-01 06:38:38] INFO root fetch - processPackages [ITAfunctionsMVO41]: Start processing: pfacbuilder
+[2023-07-01 06:38:38] INFO root fetch - main [MainThread]: End processing [ITAfunctionsMVO41] error
+[2023-07-01 06:38:38] INFO root fetch - processPackages [fileaccess]: Downloading https://files.pythonhosted.org/packages/0c/39/2f720fd0b688f9933574a436dfdebd96955e41388cc6ff2e0ee712a3be21/fileaccess-0.2.16.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/af/b1/9a999fc7e6fd64346b0132d3f854c701ce0cc2abfcc80beb44e00a1b2f14/stability_matrix_tools-0.1.2.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/27/48/38fda385c28d3b4a38fbef4d6bf7dba31db95b93f900a538b7c18365572b/zhenglin-0.13.2.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [ape-dasy]: Downloading https://files.pythonhosted.org/packages/2d/32/9add11fdc013cb6f50fafa84e54425a3e39530af4d7466e3a3eff742feaa/ape_dasy-0.1.1.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: Downloading https://files.pythonhosted.org/packages/e0/d1/a3a1e65082dd3106299d3d8d9641dbe80fc0fc9d01443f7a27ed7f10c130/odoo13_addons_oca_product_pack-13.0.20211102.0-py3-none-any.whl
+[2023-07-01 06:38:38] WARNING root fetch - processPackages [pfacbuilder]: Skipping, unable to determine old version
+[2023-07-01 06:38:38] INFO root fetch - main [MainThread]: End processing [pfacbuilder] error
+[2023-07-01 06:38:38] INFO root fetch - processPackages [osom-work]: Downloading https://files.pythonhosted.org/packages/65/1d/af80c74d11086cd3e193c3e5b2c723fba99a47073942a428c8f8b72a777b/osom_work-0.0.1-py3-none-any.whl
+[2023-07-01 06:38:38] INFO root fetch - processPackages [colcon-lint]: Downloading https://files.pythonhosted.org/packages/83/54/b61ce6a8eb29a2c0ea95f98f9be62502eb2348af63ad9a2220501ce37635/colcon-lint-0.2.0.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/51/2a/ba764b51d61316c3f68acd3f1d228ff55f39f3b6da76592903db6a4eaeb5/statute_utils-0.4.2.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [fileaccess]: Downloading https://files.pythonhosted.org/packages/8b/16/410f7b0a6e8025b1324c902cc3896db7bbf29a597a58b93d523ddc6379bf/fileaccess-0.2.17.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [stability-matrix-tools]: Downloading https://files.pythonhosted.org/packages/65/6b/4f8383d7a2151e3c535e60e5ce8f18668b746628c837b9f3a4d556300d0b/stability_matrix_tools-0.1.3.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230701/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/53/20/c902939b1762fcc252c2f6060636d5ca5a98e0805e110c27c07beb7dcc2d/zhenglin-0.13.3.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [ape-dasy]: Downloading https://files.pythonhosted.org/packages/e0/0d/84dcd23584a6595a0ae3908147aa6106b6ae4b11b7e8a0dde8cdfcc33803/ape_dasy-0.1.2.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: Downloading https://files.pythonhosted.org/packages/1a/de/26823e8e60070c32d9e97c81b53b4a27ebd1c07319f187a5929f7ab7a228/odoo13_addons_oca_product_pack-13.0.20230630.0-py3-none-any.whl
+[2023-07-01 06:38:38] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/28/91/cef90e95861c19efecdc5d9514e52229ab3420a0899253795badc268b2b9/statute_utils-0.5.0.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [osom-work]: Downloading https://files.pythonhosted.org/packages/10/d6/4ac0e038e1eb955b2c7dd3aeadaeed2103a0aff1d8bbadbe23360f3a0111/osom_work-0.0.2-py3-none-any.whl
+[2023-07-01 06:38:38] INFO root fetch - processPackages [ape-dasy]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [ape-dasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape_dasy-0.1.1.tar.gz tmp/ape_dasy-0.1.2.tar.gz --markdown 20230701/a/ape-dasy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.13.2.tar.gz tmp/zhenglin-0.13.3.tar.gz --markdown 20230701/z/zhenglin/0.13.2-0.13.3/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [stability-matrix-tools]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [stability-matrix-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability_matrix_tools-0.1.2.tar.gz tmp/stability_matrix_tools-0.1.3.tar.gz --markdown 20230701/s/stability-matrix-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [fileaccess]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [fileaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileaccess-0.2.16.tar.gz tmp/fileaccess-0.2.17.tar.gz --markdown 20230701/f/fileaccess/0.2.16-0.2.17/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [colcon-lint]: Downloading https://files.pythonhosted.org/packages/6a/cb/90fcd28fccb64923986d613d0204cc4d2c807f394e5a93eac4b8100da689/colcon-lint-0.2.1.tar.gz
+[2023-07-01 06:38:38] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_product_pack-13.0.20211102.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_product_pack-13.0.20230630.0-py3-none-any.whl.zip --markdown 20230701/o/odoo13-addons-oca-product-pack/13.0.20211102.0-13.0.20230630.0/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [osom-work]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [osom-work]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osom_work-0.0.1-py3-none-any.whl.zip tmp/osom_work-0.0.2-py3-none-any.whl.zip --markdown 20230701/o/osom-work/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.4.2.tar.gz tmp/statute_utils-0.5.0.tar.gz --markdown 20230701/s/statute-utils/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 06:38:38] INFO root fetch - processPackages [colcon-lint]: executing diffoscope
+[2023-07-01 06:38:38] INFO root fetch - processPackages [colcon-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colcon-lint-0.2.0.tar.gz tmp/colcon-lint-0.2.1.tar.gz --markdown 20230701/c/colcon-lint/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 06:38:39] INFO root fetch - processPackages [fileaccess]: Remove: archive file [/home/abi/fetcher/tmp/fileaccess-0.2.16.tar.gz]
+[2023-07-01 06:38:39] INFO root fetch - processPackages [fileaccess]: Remove: archive file [/home/abi/fetcher/tmp/fileaccess-0.2.17.tar.gz]
+[2023-07-01 06:38:39] INFO root fetch - main [MainThread]: End processing [fileaccess]: success
+[2023-07-01 06:38:39] INFO root fetch - processPackages [ape-dasy]: Remove: archive file [/home/abi/fetcher/tmp/ape_dasy-0.1.1.tar.gz]
+[2023-07-01 06:38:39] INFO root fetch - processPackages [ape-dasy]: Remove: archive file [/home/abi/fetcher/tmp/ape_dasy-0.1.2.tar.gz]
+[2023-07-01 06:38:39] INFO root fetch - main [MainThread]: End processing [ape-dasy]: success
+[2023-07-01 06:38:40] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_product_pack-13.0.20211102.0-py3-none-any.whl.zip]
+[2023-07-01 06:38:40] INFO root fetch - processPackages [odoo13-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_product_pack-13.0.20230630.0-py3-none-any.whl.zip]
+[2023-07-01 06:38:40] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-product-pack]: success
+[2023-07-01 06:38:40] INFO root fetch - processPackages [osom-work]: Remove: archive file [/home/abi/fetcher/tmp/osom_work-0.0.1-py3-none-any.whl.zip]
+[2023-07-01 06:38:40] INFO root fetch - processPackages [osom-work]: Remove: archive file [/home/abi/fetcher/tmp/osom_work-0.0.2-py3-none-any.whl.zip]
+[2023-07-01 06:38:40] INFO root fetch - main [MainThread]: End processing [osom-work]: success
+[2023-07-01 06:38:40] INFO root fetch - processPackages [colcon-lint]: Remove: archive file [/home/abi/fetcher/tmp/colcon-lint-0.2.0.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - processPackages [colcon-lint]: Remove: archive file [/home/abi/fetcher/tmp/colcon-lint-0.2.1.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - main [MainThread]: End processing [colcon-lint]: success
+[2023-07-01 06:38:40] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.2.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - processPackages [stability-matrix-tools]: Remove: archive file [/home/abi/fetcher/tmp/stability_matrix_tools-0.1.3.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - main [MainThread]: End processing [stability-matrix-tools]: success
+[2023-07-01 06:38:40] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.4.2.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.5.0.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-07-01 06:38:40] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.2.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.3.tar.gz]
+[2023-07-01 06:38:40] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-07-01 06:38:41] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-07-01 06:38:41] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-07-01 06:38:41] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-07-01 06:38:41] INFO root fetch - main [MainThread]: Store serial: [18719793]
