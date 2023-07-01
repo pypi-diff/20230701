@@ -14124,3 +14124,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:16:45] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
 [2023-07-01 15:16:45] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-07-01 15:16:45] INFO root fetch - main [MainThread]: Store serial: [18721993]
+[2023-07-01 15:21:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721993]
+[2023-07-01 15:21:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crispr-ambiguous-mapping
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-django
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-redis-aiogram
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pput
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-apl
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datawhispers
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tkintertools
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpilib
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TonTools
+[2023-07-01 15:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: expert-intelligence-toolbox
+[2023-07-01 15:21:54] WARNING root fetch - processPackages [django-redis-aiogram]: Skipping, unable to determine old version
+[2023-07-01 15:21:54] INFO root fetch - main [MainThread]: End processing [django-redis-aiogram] error
+[2023-07-01 15:21:54] WARNING root fetch - processPackages [pput]: Skipping, unable to determine old version
+[2023-07-01 15:21:54] INFO root fetch - main [MainThread]: End processing [pput] error
+[2023-07-01 15:21:54] INFO root fetch - processPackages [TonTools]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [crispr-ambiguous-mapping]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [datawhispers]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [cpilib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [tkintertools]: New version: [2.6.6.dev0] Old Version: [2.6.6]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.868] Old Version: [0.0.867]
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/72/cd/b6d5db5dcf3fac0adc2f8d0e9635adaf77bcc718146f0d638e36fa9b7972/nbdev-apl-0.0.867.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/6b/0c/3769bafa68690d1e6edffb5e959b25c818d89bccc859016e68d5e7b1b1ea/datawhispers-0.2.3.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/7f/d4/002fed1658e0d56dc3fa80981526d68f97be345ecbdd83f09eaf5a284648/tkintertools-2.6.6.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/33/f0/eeedf68707b0c5f37e5db7c9be8e0558d96fd8b7a8f5e8165e85b8de51cc/cpilib-0.2.0.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [TonTools]: Downloading https://files.pythonhosted.org/packages/df/f6/1cc88b08faad5650d6d9df8499cac990de5392926d6269f996e1e4478918/TonTools-2.1.0.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/c2/09/66b00f57ef670638d2c1a5dc2ba908461bc84ca275a9a7b647733dfddbde/expert_intelligence_toolbox-0.0.8.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/12/ad/f34d1f237b39929980cd5deecc3b434c716acb36e405f9fbe4b7821237b2/crispr_ambiguous_mapping-0.0.8.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/fa/4c/c1ed42111047ca7092351231955eae77f9ddffabe721a7dc5b9c4877c776/datawhispers-0.2.4.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/de/02/ee3b1f5e7acbc8d1d958ec9960528e5a4f1bd71d137bc08565f236f8acb0/nbdev-apl-0.0.868.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230701/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:21:54] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 15:21:54] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.3.tar.gz tmp/datawhispers-0.2.4.tar.gz --markdown 20230701/d/datawhispers/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-01 15:21:54] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.867.tar.gz tmp/nbdev-apl-0.0.868.tar.gz --markdown 20230701/n/nbdev-apl/0.0.867-0.0.868/diff.md --exclude *.pyd
+[2023-07-01 15:21:54] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/7e/d2/2e3699126ee073e3e07b1af98540fd47e5f4d46a4eb52c96cd9a782307b1/cpilib-0.2.1.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/ae/3c/c4e8ab0343f975d457b78e49e5a7f6dc1db3876a77bbf3df8c1eec104861/tkintertools-2.6.6.dev0.tar.gz
+[2023-07-01 15:21:54] INFO root fetch - processPackages [cpilib]: executing diffoscope
+[2023-07-01 15:21:54] INFO root fetch - processPackages [cpilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpilib-0.2.0.tar.gz tmp/cpilib-0.2.1.tar.gz --markdown 20230701/c/cpilib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-01 15:21:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/46/e2/4def802230d4aa4c0d061d772b56289603de0b800f0614d2fb1e2912255a/expert_intelligence_toolbox-0.0.9.tar.gz
+[2023-07-01 15:21:55] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Downloading https://files.pythonhosted.org/packages/8c/37/7c922970e1637790fde9b16efadc57abfe5445977e8938dc8e695aeca492/crispr_ambiguous_mapping-0.0.9.tar.gz
+[2023-07-01 15:21:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-07-01 15:21:55] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.8.tar.gz tmp/expert_intelligence_toolbox-0.0.9.tar.gz --markdown 20230701/e/expert-intelligence-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 15:21:55] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-07-01 15:21:55] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.6.tar.gz tmp/tkintertools-2.6.6.dev0.tar.gz --markdown 20230701/t/tkintertools/2.6.6-2.6.6.dev0/diff.md --exclude *.pyd
+[2023-07-01 15:21:55] INFO root fetch - processPackages [crispr-ambiguous-mapping]: executing diffoscope
+[2023-07-01 15:21:55] INFO root fetch - processPackages [crispr-ambiguous-mapping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crispr_ambiguous_mapping-0.0.8.tar.gz tmp/crispr_ambiguous_mapping-0.0.9.tar.gz --markdown 20230701/c/crispr-ambiguous-mapping/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 15:21:55] INFO root fetch - processPackages [TonTools]: Downloading https://files.pythonhosted.org/packages/1b/2f/0e366cd029c8f027652bfabf7492e0df25c5025429e861f178e1f5b76601/TonTools-2.1.1.tar.gz
+[2023-07-01 15:21:55] INFO root fetch - processPackages [TonTools]: executing diffoscope
+[2023-07-01 15:21:55] INFO root fetch - processPackages [TonTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TonTools-2.1.0.tar.gz tmp/TonTools-2.1.1.tar.gz --markdown 20230701/T/TonTools/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-01 15:21:56] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.3.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.4.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 15:21:56] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.867.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.868.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-01 15:21:56] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.2.0.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.2.1.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [cpilib]: success
+[2023-07-01 15:21:56] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.8.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.9.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-07-01 15:21:56] INFO root fetch - processPackages [TonTools]: Remove: archive file [/home/abi/fetcher/tmp/TonTools-2.1.0.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [TonTools]: Remove: archive file [/home/abi/fetcher/tmp/TonTools-2.1.1.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [TonTools]: success
+[2023-07-01 15:21:56] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.8.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [crispr-ambiguous-mapping]: Remove: archive file [/home/abi/fetcher/tmp/crispr_ambiguous_mapping-0.0.9.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [crispr-ambiguous-mapping]: success
+[2023-07-01 15:21:56] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.6.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.6.dev0.tar.gz]
+[2023-07-01 15:21:56] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-07-01 15:21:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-01 15:21:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-01 15:21:57] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-01 15:21:57] INFO root fetch - main [MainThread]: Store serial: [18722025]
