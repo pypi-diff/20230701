@@ -11084,3 +11084,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:15:47] INFO root fetch - processPackages [suitesparse-graphblas]: Remove: archive file [/home/abi/fetcher/tmp/suitesparse-graphblas-8.0.2.1.tar.gz]
 [2023-07-01 10:15:47] INFO root fetch - main [MainThread]: End processing [suitesparse-graphblas]: success
 [2023-07-01 10:15:47] INFO root fetch - main [MainThread]: Store serial: [18720628]
+[2023-07-01 10:20:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720628]
+[2023-07-01 10:20:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluxoperator
+[2023-07-01 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erscipcard
+[2023-07-01 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymasmovil
+[2023-07-01 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystatic-language
+[2023-07-01 10:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-marshmallow-openapi
+[2023-07-01 10:20:55] INFO root fetch - processPackages [erscipcard]: New version: [1.18.93] Old Version: [1.18.92]
+[2023-07-01 10:20:55] INFO root fetch - processPackages [pymasmovil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 10:20:55] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/74/e7/60bc2e1dcea62dba66c763d1a3f50f9ce6e3ce4e1ab3e643cfaa1f456bf2/erscipcard-1.18.92.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pystatic-language]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pymasmovil]: Downloading https://files.pythonhosted.org/packages/0d/02/53655f5483ce277110577dff569dfd42ea712e347462adc1fbdb5dac2876/pymasmovil-0.0.8.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [flask-marshmallow-openapi]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-07-01 10:20:56] INFO root fetch - processPackages [fluxoperator]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-07-01 10:20:56] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/8c/06/ddc49f0b5d1f88d16fcbfbc5ffc418831ed0fd79b057d404c8b65f26b87a/erscipcard-1.18.93.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/0a/db/506d117b4d158a795a647221c182687e936f6de7517d15ac6f5ca97c3316/pystatic-language-1.1.0.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pymasmovil]: Downloading https://files.pythonhosted.org/packages/88/47/23deff68a5c8564e6fd7ac172979cc214067a970f9f22187e04595bbfc04/pymasmovil-0.0.9.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/93/b8/6107961b1b00fa4756a6a44e4486269502e2d9d84023e58e687a4bf54aa1/flask-marshmallow-openapi-0.3.1.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/d5/c5/d82032ef5f1378a6c026e0818fc9ee94540a859c0d134f3411dde3619a19/fluxoperator-0.0.3.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 10:20:56] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.92.tar.gz tmp/erscipcard-1.18.93.tar.gz --markdown 20230701/e/erscipcard/1.18.92-1.18.93/diff.md --exclude *.pyd
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pymasmovil]: executing diffoscope
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pymasmovil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymasmovil-0.0.8.tar.gz tmp/pymasmovil-0.0.9.tar.gz --markdown 20230701/p/pymasmovil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pystatic-language]: Downloading https://files.pythonhosted.org/packages/12/01/950514a278c7ae3a5c2509364a2f275cf295f69142f0366d37cdbad3ed1e/pystatic-language-1.1.1.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [flask-marshmallow-openapi]: Downloading https://files.pythonhosted.org/packages/af/b2/1d5ddf655c4fd666db65819383e4e373d49f634130277d7856235679290b/flask-marshmallow-openapi-0.4.0.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/5c/7e/15f3260af47b02435cb0b0b34995fe53d979fd5375536360ecb3d703c448/fluxoperator-0.0.31.tar.gz
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pystatic-language]: executing diffoscope
+[2023-07-01 10:20:56] INFO root fetch - processPackages [pystatic-language]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystatic-language-1.1.0.tar.gz tmp/pystatic-language-1.1.1.tar.gz --markdown 20230701/p/pystatic-language/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-01 10:20:56] INFO root fetch - processPackages [fluxoperator]: executing diffoscope
+[2023-07-01 10:20:56] INFO root fetch - processPackages [fluxoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxoperator-0.0.3.tar.gz tmp/fluxoperator-0.0.31.tar.gz --markdown 20230701/f/fluxoperator/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-07-01 10:20:56] INFO root fetch - processPackages [flask-marshmallow-openapi]: executing diffoscope
+[2023-07-01 10:20:56] INFO root fetch - processPackages [flask-marshmallow-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-marshmallow-openapi-0.3.1.tar.gz tmp/flask-marshmallow-openapi-0.4.0.tar.gz --markdown 20230701/f/flask-marshmallow-openapi/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 10:20:57] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.8.tar.gz]
+[2023-07-01 10:20:57] INFO root fetch - processPackages [pymasmovil]: Remove: archive file [/home/abi/fetcher/tmp/pymasmovil-0.0.9.tar.gz]
+[2023-07-01 10:20:57] INFO root fetch - main [MainThread]: End processing [pymasmovil]: success
+[2023-07-01 10:20:57] INFO root fetch - processPackages [pystatic-language]: Remove: archive file [/home/abi/fetcher/tmp/pystatic-language-1.1.0.tar.gz]
+[2023-07-01 10:20:57] INFO root fetch - processPackages [pystatic-language]: Remove: archive file [/home/abi/fetcher/tmp/pystatic-language-1.1.1.tar.gz]
+[2023-07-01 10:20:57] INFO root fetch - main [MainThread]: End processing [pystatic-language]: success
+[2023-07-01 10:20:57] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.92.tar.gz]
+[2023-07-01 10:20:57] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.93.tar.gz]
+[2023-07-01 10:20:57] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 10:20:58] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.3.tar.gz]
+[2023-07-01 10:20:58] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.31.tar.gz]
+[2023-07-01 10:20:58] INFO root fetch - main [MainThread]: End processing [fluxoperator]: success
+[2023-07-01 10:20:58] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.3.1.tar.gz]
+[2023-07-01 10:20:58] INFO root fetch - processPackages [flask-marshmallow-openapi]: Remove: archive file [/home/abi/fetcher/tmp/flask-marshmallow-openapi-0.4.0.tar.gz]
+[2023-07-01 10:20:58] INFO root fetch - main [MainThread]: End processing [flask-marshmallow-openapi]: success
+[2023-07-01 10:20:58] INFO root fetch - main [MainThread]: Store serial: [18720640]
