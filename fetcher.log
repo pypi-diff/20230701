@@ -19590,3 +19590,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [AlgBench]: success
 [2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-07-01 22:27:49] INFO root fetch - main [MainThread]: Store serial: [18724487]
+[2023-07-01 22:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724487]
+[2023-07-01 22:32:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-01 22:32:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opshin
+[2023-07-01 22:32:59] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2023-07-01 22:32:59] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2023-07-01 22:32:59] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2023-07-01 22:32:59] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2023-07-01 22:32:59] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20230701/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2023-07-01 22:33:01] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.14.tar.gz]
+[2023-07-01 22:33:01] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
+[2023-07-01 22:33:01] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2023-07-01 22:33:01] INFO root fetch - main [MainThread]: Store serial: [18724491]
