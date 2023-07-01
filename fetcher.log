@@ -18063,3 +18063,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:04:35] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.1.2.tar.gz]
 [2023-07-01 20:04:35] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
 [2023-07-01 20:04:35] INFO root fetch - main [MainThread]: Store serial: [18723746]
+[2023-07-01 20:09:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723746]
+[2023-07-01 20:09:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-logger
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyezviz
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-logger-pubsub
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openplugincore
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-mail-sender
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-login-flask
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-pusher
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: 314165
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-models
+[2023-07-01 20:09:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-sendinblue
+[2023-07-01 20:09:44] INFO root fetch - processPackages [openplugincore]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-pusher]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 20:09:44] WARNING root fetch - processPackages [314165]: Skipping, unable to determine old version
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-logger-pubsub]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [314165]: Start processing: xia-pusher-flask
+[2023-07-01 20:09:44] INFO root fetch - main [MainThread]: End processing [314165] error
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-login-flask]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-mail-sender]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-sendinblue]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-models]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-logger]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-pusher-flask]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [pyezviz]: New version: [0.2.1.7] Old Version: [0.2.1.6]
+[2023-07-01 20:09:44] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/00/0c/092952414893b715f2fea855ffb91b912fa1810575eeb40e4fd0fe3abaa2/openplugincore-0.3.1.tar.gz
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/be/38/af11d600eb14078abc4114aeb98b6d057234feebffcc2ddb578fe2bbc81e/xia_pusher_flask-0.0.12-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-logger-pubsub]: Downloading https://files.pythonhosted.org/packages/df/97/556024a954e6f80dcd726ceda94fed1578bd8eef1eaa8ec6b677ce1a14e8/xia_logger_pubsub-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-mail-sender]: Downloading https://files.pythonhosted.org/packages/e3/04/1fda4b935747ec5a461953755a5d0b1476f78a20a723f5bf9fdfb1d36079/xia_mail_sender-0.1.2-cp39-none-win_amd64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-pusher]: Downloading https://files.pythonhosted.org/packages/ed/55/3ad8fc1eb2f14e1c1adcbd1f9a2575507e883332b1bec1d631042a3c87c2/xia_pusher-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/53/62/263e9f22448d3998efb735b029b2c9651f5a29057029fd974e6638b83d24/xia_login_flask-0.2.8-cp39-none-win_amd64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/bd/29/90a1f9a48ddd7500bfdec6a1e7110cb97e399d1dd40f08ddf405b26b2fb4/pyezviz-0.2.1.6.tar.gz
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-logger]: Downloading https://files.pythonhosted.org/packages/b4/a0/d9f5164bcdb15edaeff864ae411cb360a101db5133146ae93d69d4d6bb3b/xia_logger-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-models]: Downloading https://files.pythonhosted.org/packages/fc/6a/8f0db15376e63f734e5f6e43c726457c0466a5682e905c06bce186494f0b/xia_models-0.1.8-cp39-none-win_amd64.whl
+[2023-07-01 20:09:44] INFO root fetch - processPackages [xia-sendinblue]: Downloading https://files.pythonhosted.org/packages/27/38/a25937107306762dc487fa6586f22a3540e114d883ad38b32dc31b5b2c89/xia_sendinblue-0.0.8-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [openplugincore]: Downloading https://files.pythonhosted.org/packages/fa/2c/2fc89fc1fe5881464dc066a596d3cc948977887523a812832ac1881eb198/openplugincore-0.3.2.tar.gz
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-logger-pubsub]: Downloading https://files.pythonhosted.org/packages/69/96/8ffc053c442768e64290f06a7d95be641dd496134d7618137fc9296a1a76/xia_logger_pubsub-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/65/04/dcee95a35d1f921d186bba679f9662ef276072580e8a3c11426df352397c/xia_pusher_flask-0.0.9-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [openplugincore]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [openplugincore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugincore-0.3.1.tar.gz tmp/openplugincore-0.3.2.tar.gz --markdown 20230701/o/openplugincore/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-logger]: Downloading https://files.pythonhosted.org/packages/c5/fe/3ffc1edf5db68cc95b389341efc133eb0e34ec5cc0ff7fb06b2d5ff19e81/xia_logger-0.1.5-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/dd/d0/3253c629accb065c53f0ab1d29d076ed405891927b328e0ddb801850f588/xia_login_flask-0.2.9-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-models]: Downloading https://files.pythonhosted.org/packages/cf/c7/e62d07f7694b12d7979b26e2312f120f95c21e04c4ef1cef12ded616b908/xia_models-0.1.9-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-logger-pubsub]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-logger-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger_pubsub-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_logger_pubsub-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-logger-pubsub/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-pusher-flask]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-pusher-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher_flask-0.0.12-cp39-none-macosx_11_0_x86_64.whl.zip tmp/xia_pusher_flask-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-pusher-flask/0.0.12-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-mail-sender]: Downloading https://files.pythonhosted.org/packages/f4/22/3251693d0653dcfa2b52d2fd8c52e53a0d997cfd6a94f274d994a75d4832/xia_mail_sender-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [pyezviz]: Downloading https://files.pythonhosted.org/packages/c4/a7/6227d8302dbe3b0dd2859c3d278a03e6819a522c9fc7bcb1d1c121f59478/pyezviz-0.2.1.7.tar.gz
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-login-flask]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-login-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_login_flask-0.2.8-cp39-none-win_amd64.whl.zip tmp/xia_login_flask-0.2.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-login-flask/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-mail-sender]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-mail-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_mail_sender-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_mail_sender-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-mail-sender/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-sendinblue]: Downloading https://files.pythonhosted.org/packages/33/78/dab39108034f0ef25a673071a26e559011f34cd8592d606a4564801d0a80/xia_sendinblue-0.0.9-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-logger]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_logger-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-logger/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-models]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_models-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_models-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-models/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-pusher]: Downloading https://files.pythonhosted.org/packages/39/5f/091db3278bbb24519290f02fe37af115658147e8ab7813fa1c0872dbbb96/xia_pusher-0.1.4-cp39-none-win_amd64.whl
+[2023-07-01 20:09:45] INFO root fetch - processPackages [pyezviz]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [pyezviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyezviz-0.2.1.6.tar.gz tmp/pyezviz-0.2.1.7.tar.gz --markdown 20230701/p/pyezviz/0.2.1.6-0.2.1.7/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-pusher]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_pusher-0.1.4-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-pusher/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-sendinblue]: executing diffoscope
+[2023-07-01 20:09:45] INFO root fetch - processPackages [xia-sendinblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_sendinblue-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_sendinblue-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-sendinblue/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 20:09:46] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.1.tar.gz]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [openplugincore]: Remove: archive file [/home/abi/fetcher/tmp/openplugincore-0.3.2.tar.gz]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [openplugincore]: Start processing: xia-service-cloudflare
+[2023-07-01 20:09:46] INFO root fetch - main [MainThread]: End processing [openplugincore]: success
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-mail-sender]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail_sender-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-mail-sender]: Remove: archive file [/home/abi/fetcher/tmp/xia_mail_sender-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - main [MainThread]: End processing [xia-mail-sender]: success
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-service-cloudflare]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-logger-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_pubsub-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-logger-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger_pubsub-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - main [MainThread]: End processing [xia-logger-pubsub]: success
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-pusher-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher_flask-0.0.12-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-pusher-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher_flask-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - main [MainThread]: End processing [xia-pusher-flask]: success
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:46] INFO root fetch - main [MainThread]: End processing [xia-login-flask]: success
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-logger]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-logger]: Remove: archive file [/home/abi/fetcher/tmp/xia_logger-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - main [MainThread]: End processing [xia-logger]: success
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-service-cloudflare]: Downloading https://files.pythonhosted.org/packages/de/37/37ca408046daa12c8ca4e25e5a2db5e7d4674a15d55db60e94278e0b9664/xia_service_cloudflare-0.0.5-cp39-none-win_amd64.whl
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-sendinblue]: Remove: archive file [/home/abi/fetcher/tmp/xia_sendinblue-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-sendinblue]: Remove: archive file [/home/abi/fetcher/tmp/xia_sendinblue-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - main [MainThread]: End processing [xia-sendinblue]: success
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-pusher]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-pusher]: Remove: archive file [/home/abi/fetcher/tmp/xia_pusher-0.1.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - main [MainThread]: End processing [xia-pusher]: success
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-models]: Remove: archive file [/home/abi/fetcher/tmp/xia_models-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-models]: Remove: archive file [/home/abi/fetcher/tmp/xia_models-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:47] INFO root fetch - main [MainThread]: End processing [xia-models]: success
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-service-cloudflare]: Downloading https://files.pythonhosted.org/packages/22/69/3e5e9e9e6a9300befd900617ca1b5a7ea0cd0979a1ddef0e097bead6aa4d/xia_service_cloudflare-0.0.6-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 20:09:47] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.6.tar.gz]
+[2023-07-01 20:09:47] INFO root fetch - processPackages [pyezviz]: Remove: archive file [/home/abi/fetcher/tmp/pyezviz-0.2.1.7.tar.gz]
+[2023-07-01 20:09:47] INFO root fetch - main [MainThread]: End processing [pyezviz]: success
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-service-cloudflare]: executing diffoscope
+[2023-07-01 20:09:47] INFO root fetch - processPackages [xia-service-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_service_cloudflare-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_service_cloudflare-0.0.6-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-service-cloudflare/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 20:09:48] INFO root fetch - processPackages [xia-service-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/xia_service_cloudflare-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:09:48] INFO root fetch - processPackages [xia-service-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/xia_service_cloudflare-0.0.6-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 20:09:48] INFO root fetch - main [MainThread]: End processing [xia-service-cloudflare]: success
+[2023-07-01 20:09:48] INFO root fetch - main [MainThread]: Store serial: [18723817]
