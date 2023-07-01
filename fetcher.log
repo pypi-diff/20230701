@@ -10033,3 +10033,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:40:20] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
 [2023-07-01 08:40:20] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
 [2023-07-01 08:40:20] INFO root fetch - main [MainThread]: Store serial: [18720225]
+[2023-07-01 08:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720225]
+[2023-07-01 08:45:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 08:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotstree
+[2023-07-01 08:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verusdb
+[2023-07-01 08:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: f-dpi
+[2023-07-01 08:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bbrl-gymnasium
+[2023-07-01 08:45:29] INFO root fetch - processPackages [f-dpi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 08:45:29] INFO root fetch - processPackages [verusdb]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-01 08:45:29] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 08:45:29] INFO root fetch - processPackages [dotstree]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 08:45:29] INFO root fetch - processPackages [f-dpi]: Downloading https://files.pythonhosted.org/packages/69/e8/3cb005ddacf13c1c988b9a42c109ddc96bb8c26539b83d6502fa725eb0c4/f_dpi-0.0.2.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [dotstree]: Downloading https://files.pythonhosted.org/packages/96/15/90ab4a6b517400e6d2ff852763d8638b5140cb456af6835545825ed51853/dotstree-0.1.5.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/6e/21/4305a278968abc10ed7f88c6b74aa999dd0129bf5c034dacf1b1ef724543/bbrl_gymnasium-0.1.4.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [verusdb]: Downloading https://files.pythonhosted.org/packages/19/a9/d29d9ef7a6d2418e14986eb3e88782152ba2a469f3f55ffc2eab8b9b3b86/verusdb-0.0.0.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [dotstree]: Downloading https://files.pythonhosted.org/packages/78/46/14d8adeba3258a22aa61faebcf0f431ddb736f36da8f478ae65bc33198bf/dotstree-0.1.6.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [f-dpi]: Downloading https://files.pythonhosted.org/packages/50/5f/b3ac51c285588d1e2811ad5cecd10cb7be3995aeaa60c62410ff814b20c1/f_dpi-0.0.3.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [dotstree]: executing diffoscope
+[2023-07-01 08:45:30] INFO root fetch - processPackages [dotstree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotstree-0.1.5.tar.gz tmp/dotstree-0.1.6.tar.gz --markdown 20230701/d/dotstree/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 08:45:30] INFO root fetch - processPackages [f-dpi]: executing diffoscope
+[2023-07-01 08:45:30] INFO root fetch - processPackages [f-dpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_dpi-0.0.2.tar.gz tmp/f_dpi-0.0.3.tar.gz --markdown 20230701/f/f-dpi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 08:45:30] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/02/85/96d6b8f5cc3c3d2a1d295a2798185df1e7432006b1fe803226accf68a531/bbrl_gymnasium-0.1.5.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [verusdb]: Downloading https://files.pythonhosted.org/packages/bd/33/c6469fefb7257493bb1af1b67e85cbfb4e2c2c0a0f9a969eaad72072ea9b/verusdb-0.0.1.tar.gz
+[2023-07-01 08:45:30] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-01 08:45:30] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.4.tar.gz tmp/bbrl_gymnasium-0.1.5.tar.gz --markdown 20230701/b/bbrl-gymnasium/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 08:45:30] INFO root fetch - processPackages [verusdb]: executing diffoscope
+[2023-07-01 08:45:30] INFO root fetch - processPackages [verusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verusdb-0.0.0.tar.gz tmp/verusdb-0.0.1.tar.gz --markdown 20230701/v/verusdb/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-01 08:45:31] INFO root fetch - processPackages [f-dpi]: Remove: archive file [/home/abi/fetcher/tmp/f_dpi-0.0.2.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - processPackages [f-dpi]: Remove: archive file [/home/abi/fetcher/tmp/f_dpi-0.0.3.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - main [MainThread]: End processing [f-dpi]: success
+[2023-07-01 08:45:31] INFO root fetch - processPackages [dotstree]: Remove: archive file [/home/abi/fetcher/tmp/dotstree-0.1.5.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - processPackages [dotstree]: Remove: archive file [/home/abi/fetcher/tmp/dotstree-0.1.6.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - main [MainThread]: End processing [dotstree]: success
+[2023-07-01 08:45:31] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.4.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.5.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-01 08:45:31] INFO root fetch - processPackages [verusdb]: Remove: archive file [/home/abi/fetcher/tmp/verusdb-0.0.0.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - processPackages [verusdb]: Remove: archive file [/home/abi/fetcher/tmp/verusdb-0.0.1.tar.gz]
+[2023-07-01 08:45:31] INFO root fetch - main [MainThread]: End processing [verusdb]: success
+[2023-07-01 08:45:31] INFO root fetch - main [MainThread]: Store serial: [18720237]
