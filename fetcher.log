@@ -7264,3 +7264,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:24:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b3.tar.gz]
 [2023-07-01 04:24:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-07-01 04:24:55] INFO root fetch - main [MainThread]: Store serial: [18719243]
+[2023-07-01 04:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719243]
+[2023-07-01 04:30:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 04:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asgihandler
+[2023-07-01 04:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beam-postgres-connector
+[2023-07-01 04:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsds
+[2023-07-01 04:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor
+[2023-07-01 04:30:05] INFO root fetch - processPackages [beam-postgres-connector]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-01 04:30:05] INFO root fetch - processPackages [asgihandler]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-01 04:30:05] INFO root fetch - processPackages [dsds]: New version: [0.0.15] Old Version: [0.0.1]
+[2023-07-01 04:30:05] INFO root fetch - processPackages [pyarmor]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-07-01 04:30:05] INFO root fetch - processPackages [beam-postgres-connector]: Downloading https://files.pythonhosted.org/packages/59/d0/e774fa3625fc1815c49966bbd1c80dd4f16d00f78c7d26fc8257ef60b28f/beam_postgres_connector-0.1.0.tar.gz
+[2023-07-01 04:30:05] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/bc/5b/0ad9aeab7b5ac633afc586c476c77964e16c1cb0205296f2c4639d50d952/asgihandler-0.4.9.tar.gz
+[2023-07-01 04:30:06] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/b0/29/123c5615eb92e4cb88540b210b683ca9e6497b9abb4d636b7fb505af0385/dsds-0.0.1.tar.gz
+[2023-07-01 04:30:06] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/96/1b/288b5edb2e942102823ed6f5d76b16985b19fc91a1bcb12b2269e6f87467/pyarmor-8.2.dev1.zip
+[2023-07-01 04:30:06] INFO root fetch - processPackages [beam-postgres-connector]: Downloading https://files.pythonhosted.org/packages/a2/15/7cc53f2b81025cda0e4e6de9e0b657164dc7a1ebec5360ec0af86938fe9c/beam_postgres_connector-0.1.2.tar.gz
+[2023-07-01 04:30:06] INFO root fetch - processPackages [beam-postgres-connector]: executing diffoscope
+[2023-07-01 04:30:06] INFO root fetch - processPackages [beam-postgres-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_postgres_connector-0.1.0.tar.gz tmp/beam_postgres_connector-0.1.2.tar.gz --markdown 20230701/b/beam-postgres-connector/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 04:30:06] INFO root fetch - processPackages [asgihandler]: Downloading https://files.pythonhosted.org/packages/d3/d2/823618f9e17b6592678ba72d5a46a207eb373dd64b4c44a61b4efef19c0d/asgihandler-0.5.0.tar.gz
+[2023-07-01 04:30:06] INFO root fetch - processPackages [dsds]: Downloading https://files.pythonhosted.org/packages/07/b7/ffebe6232c4cf24b8fb6b02d9dd099adc658fca25fb45d0286004cb6e0b0/dsds-0.0.15.tar.gz
+[2023-07-01 04:30:06] INFO root fetch - processPackages [asgihandler]: executing diffoscope
+[2023-07-01 04:30:06] INFO root fetch - processPackages [asgihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgihandler-0.4.9.tar.gz tmp/asgihandler-0.5.0.tar.gz --markdown 20230701/a/asgihandler/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 04:30:06] INFO root fetch - processPackages [dsds]: executing diffoscope
+[2023-07-01 04:30:06] INFO root fetch - processPackages [dsds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsds-0.0.1.tar.gz tmp/dsds-0.0.15.tar.gz --markdown 20230701/d/dsds/0.0.1-0.0.15/diff.md --exclude *.pyd
+[2023-07-01 04:30:07] INFO root fetch - processPackages [beam-postgres-connector]: Remove: archive file [/home/abi/fetcher/tmp/beam_postgres_connector-0.1.0.tar.gz]
+[2023-07-01 04:30:07] INFO root fetch - processPackages [beam-postgres-connector]: Remove: archive file [/home/abi/fetcher/tmp/beam_postgres_connector-0.1.2.tar.gz]
+[2023-07-01 04:30:07] INFO root fetch - main [MainThread]: End processing [beam-postgres-connector]: success
+[2023-07-01 04:30:07] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.1.tar.gz]
+[2023-07-01 04:30:07] INFO root fetch - processPackages [dsds]: Remove: archive file [/home/abi/fetcher/tmp/dsds-0.0.15.tar.gz]
+[2023-07-01 04:30:07] INFO root fetch - main [MainThread]: End processing [dsds]: success
+[2023-07-01 04:30:07] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.4.9.tar.gz]
+[2023-07-01 04:30:07] INFO root fetch - processPackages [asgihandler]: Remove: archive file [/home/abi/fetcher/tmp/asgihandler-0.5.0.tar.gz]
+[2023-07-01 04:30:07] INFO root fetch - main [MainThread]: End processing [asgihandler]: success
+[2023-07-01 04:30:08] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/32/cb/ab0b2546de84f234426daaf0c25fc6f42e8534f2b48f2a77db88903e3fd3/pyarmor-8.2.dev2.zip
+[2023-07-01 04:30:09] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-07-01 04:30:09] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.2.dev1.zip tmp/pyarmor-8.2.dev2.zip --markdown 20230701/p/pyarmor/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-07-01 04:30:12] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev1.zip]
+[2023-07-01 04:30:12] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev2.zip]
+[2023-07-01 04:30:12] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-07-01 04:30:12] INFO root fetch - main [MainThread]: Store serial: [18719258]
