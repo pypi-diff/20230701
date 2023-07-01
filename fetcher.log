@@ -11971,3 +11971,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 11:51:36] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.2.tar.gz]
 [2023-07-01 11:51:36] INFO root fetch - main [MainThread]: End processing [md2site]: success
 [2023-07-01 11:51:36] INFO root fetch - main [MainThread]: Store serial: [18721088]
+[2023-07-01 11:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721088]
+[2023-07-01 11:56:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mafese
+[2023-07-01 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PointBlaster
+[2023-07-01 11:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ensemble-regressor
+[2023-07-01 11:56:45] INFO root fetch - processPackages [PointBlaster]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 11:56:45] INFO root fetch - processPackages [mafese]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 11:56:45] WARNING root fetch - processPackages [ensemble-regressor]: Skipping, unable to determine old version
+[2023-07-01 11:56:45] INFO root fetch - main [MainThread]: End processing [ensemble-regressor] error
+[2023-07-01 11:56:46] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/2a/d4/f9c73c0bd8fc57ac9e2c0101554481aad449839e598ffaafc0e23d4f0ea8/PointBlaster-0.2.1.tar.gz
+[2023-07-01 11:56:46] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/3b/15/1d48f8f8a3148aeece876185b208c6b5d458754e1543fa15e5d8ac5d31cc/mafese-0.1.5.tar.gz
+[2023-07-01 11:56:46] INFO root fetch - processPackages [PointBlaster]: Downloading https://files.pythonhosted.org/packages/ea/76/cad6c4ea9f0911a946c0fd85681d87a86fb6a1493ccb8cd63eb2909e55b9/PointBlaster-0.2.2.tar.gz
+[2023-07-01 11:56:46] INFO root fetch - processPackages [mafese]: Downloading https://files.pythonhosted.org/packages/28/36/7c4d9db03b1f1952b17355593976748af32e28ec11a504a9ffc8c8ca2d4f/mafese-0.1.6.tar.gz
+[2023-07-01 11:56:46] INFO root fetch - processPackages [mafese]: executing diffoscope
+[2023-07-01 11:56:46] INFO root fetch - processPackages [mafese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafese-0.1.5.tar.gz tmp/mafese-0.1.6.tar.gz --markdown 20230701/m/mafese/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 11:56:46] INFO root fetch - processPackages [PointBlaster]: executing diffoscope
+[2023-07-01 11:56:46] INFO root fetch - processPackages [PointBlaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PointBlaster-0.2.1.tar.gz tmp/PointBlaster-0.2.2.tar.gz --markdown 20230701/P/PointBlaster/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 11:56:47] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.5.tar.gz]
+[2023-07-01 11:56:47] INFO root fetch - processPackages [mafese]: Remove: archive file [/home/abi/fetcher/tmp/mafese-0.1.6.tar.gz]
+[2023-07-01 11:56:47] INFO root fetch - main [MainThread]: End processing [mafese]: success
+[2023-07-01 11:56:48] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.2.1.tar.gz]
+[2023-07-01 11:56:48] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.2.2.tar.gz]
+[2023-07-01 11:56:48] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
+[2023-07-01 11:56:48] INFO root fetch - main [MainThread]: Store serial: [18721104]
