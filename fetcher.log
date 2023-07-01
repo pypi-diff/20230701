@@ -16750,3 +16750,49 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 18:51:35] INFO root fetch - processPackages [scikit-rt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rt-0.5.9.tar.gz]
 [2023-07-01 18:51:35] INFO root fetch - main [MainThread]: End processing [scikit-rt]: success
 [2023-07-01 18:51:35] INFO root fetch - main [MainThread]: Store serial: [18723194]
+[2023-07-01 18:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723194]
+[2023-07-01 18:56:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 18:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EventHandler-Edog0049a
+[2023-07-01 18:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samp-query
+[2023-07-01 18:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snort-web-master
+[2023-07-01 18:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwasopt
+[2023-07-01 18:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EventHandler-Edog0049a
+[2023-07-01 18:56:45] INFO root fetch - processPackages [EventHandler-Edog0049a]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 18:56:45] INFO root fetch - processPackages [pwasopt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 18:56:45] INFO root fetch - processPackages [samp-query]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-01 18:56:45] INFO root fetch - processPackages [EventHandler-Edog0049a]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 18:56:45] INFO root fetch - processPackages [snort-web-master]: New version: [1.0.0.5] Old Version: [1.0.0.4]
+[2023-07-01 18:56:45] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/ea/28/8ee208c4f3205afb8953507e97ed1a2f570d5266937427dc0de4a49fdaf9/snort_web_master-1.0.0.4-py3-none-any.whl
+[2023-07-01 18:56:45] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/7d/e9/27907eca1d8edc2fa74d3969ec9e7010e7c02a53dd3388c716eae004cf98/pwasopt-0.0.3.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/21/fa/dc5b68383664e3bfdcc7c8fb68b8dc4cd14a0c0afc11d3c92ed79cb3a174/samp_query-0.3.0.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/78/67/56f7341e7bcbcc67bbb6f45de4185ec11177c6da1df570f5f56e14f733ba/eventhandler_edog0049a-0.1.5.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/78/67/56f7341e7bcbcc67bbb6f45de4185ec11177c6da1df570f5f56e14f733ba/eventhandler_edog0049a-0.1.5.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [samp-query]: Downloading https://files.pythonhosted.org/packages/10/eb/c544aebdfbb4da4b9b929b6408716704ba294bd2f6bf779c78a2b9098139/samp_query-0.4.0.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/1f/66/ea00c855419ade7d72c4622eaddcc8f3d1b3edd8bfcb052cacb51b70ceba/pwasopt-0.0.4.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/c6/f9/dbddba68ef6bc79e18f324bd11ce6dd5715d6c37c1d05d96a2a6ad0f3984/eventhandler_edog0049a-0.1.6.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [samp-query]: executing diffoscope
+[2023-07-01 18:56:45] INFO root fetch - processPackages [samp-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samp_query-0.3.0.tar.gz tmp/samp_query-0.4.0.tar.gz --markdown 20230701/s/samp-query/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 18:56:45] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/c6/f9/dbddba68ef6bc79e18f324bd11ce6dd5715d6c37c1d05d96a2a6ad0f3984/eventhandler_edog0049a-0.1.6.tar.gz
+[2023-07-01 18:56:45] INFO root fetch - processPackages [snort-web-master]: Downloading https://files.pythonhosted.org/packages/b1/17/3a29d6796adc7ad5efa0fe06e1c8dc4cac9b318efe4591325ee7a84c0e95/snort_web_master-1.0.0.5-py3-none-any.whl
+[2023-07-01 18:56:46] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-01 18:56:46] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.3.tar.gz tmp/pwasopt-0.0.4.tar.gz --markdown 20230701/p/pwasopt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 18:56:46] INFO root fetch - processPackages [snort-web-master]: executing diffoscope
+[2023-07-01 18:56:46] INFO root fetch - processPackages [snort-web-master]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snort_web_master-1.0.0.4-py3-none-any.whl.zip tmp/snort_web_master-1.0.0.5-py3-none-any.whl.zip --markdown 20230701/s/snort-web-master/1.0.0.4-1.0.0.5/diff.md --exclude *.pyd
+[2023-07-01 18:56:46] INFO root fetch - processPackages [EventHandler-Edog0049a]: executing diffoscope
+[2023-07-01 18:56:46] INFO root fetch - processPackages [EventHandler-Edog0049a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventhandler_edog0049a-0.1.5.tar.gz tmp/eventhandler_edog0049a-0.1.6.tar.gz --markdown 20230701/E/EventHandler-Edog0049a/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 18:56:46] INFO root fetch - processPackages [EventHandler-Edog0049a]: executing diffoscope
+[2023-07-01 18:56:46] INFO root fetch - processPackages [EventHandler-Edog0049a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventhandler_edog0049a-0.1.5.tar.gz tmp/eventhandler_edog0049a-0.1.6.tar.gz --markdown 20230701/E/EventHandler-Edog0049a/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 18:56:47] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.3.0.tar.gz]
+[2023-07-01 18:56:47] INFO root fetch - processPackages [samp-query]: Remove: archive file [/home/abi/fetcher/tmp/samp_query-0.4.0.tar.gz]
+[2023-07-01 18:56:47] INFO root fetch - main [MainThread]: End processing [samp-query]: success
+[2023-07-01 18:56:47] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.3.tar.gz]
+[2023-07-01 18:56:47] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.4.tar.gz]
+[2023-07-01 18:56:47] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-01 18:56:47] INFO root fetch - processPackages [EventHandler-Edog0049a]: Remove: archive file [/home/abi/fetcher/tmp/eventhandler_edog0049a-0.1.5.tar.gz]
+[2023-07-01 18:56:47] INFO root fetch - processPackages [EventHandler-Edog0049a]: Remove: archive file [/home/abi/fetcher/tmp/eventhandler_edog0049a-0.1.6.tar.gz]
+[2023-07-01 18:56:47] INFO root fetch - main [MainThread]: End processing [EventHandler-Edog0049a]: success
+[2023-07-01 18:56:47] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.4-py3-none-any.whl.zip]
+[2023-07-01 18:56:47] INFO root fetch - processPackages [snort-web-master]: Remove: archive file [/home/abi/fetcher/tmp/snort_web_master-1.0.0.5-py3-none-any.whl.zip]
+[2023-07-01 18:56:47] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
+[2023-07-01 18:56:48] INFO root fetch - main [MainThread]: End processing [EventHandler-Edog0049a]: success
+[2023-07-01 18:56:48] INFO root fetch - main [MainThread]: Store serial: [18723208]
