@@ -18168,3 +18168,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 20:09:48] INFO root fetch - processPackages [xia-service-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/xia_service_cloudflare-0.0.6-cp39-none-macosx_11_0_x86_64.whl.zip]
 [2023-07-01 20:09:48] INFO root fetch - main [MainThread]: End processing [xia-service-cloudflare]: success
 [2023-07-01 20:09:48] INFO root fetch - main [MainThread]: Store serial: [18723817]
+[2023-07-01 20:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723817]
+[2023-07-01 20:14:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-service
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fullask-rest-framework
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-sso-flask
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-storer-gcs
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-user
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amqp-client-python
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foursight-core
+[2023-07-01 20:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-compiler-python
+[2023-07-01 20:14:57] INFO root fetch - processPackages [amqp-client-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-service]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-sso-flask]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-storer-gcs]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-compiler-python]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-user]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [nics]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [dxsp]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [foursight-core]: New version: [4.3.0.2b1] Old Version: [4.3.0.1b9]
+[2023-07-01 20:14:57] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/a2/9a/2ac054cd22d203b7a602bec11c0bb395d51fa3923e7bb876418a88978b3c/fullask_rest_framework-0.5.0.tar.gz
+[2023-07-01 20:14:57] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/42/74/2cd761d59a9ba5a4402fb94e12690017cab0481dda559c5a7ee6f87bdd47/dxsp-3.0.0.tar.gz
+[2023-07-01 20:14:57] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/7d/f0/6b0653248b96934eca3587b0930337d277e4f9469aa5bf4ff6e08ab1b168/nics-2.4.1.tar.gz
+[2023-07-01 20:14:57] INFO root fetch - processPackages [amqp-client-python]: Downloading https://files.pythonhosted.org/packages/bd/98/21a0962f9c2e9ff545ef3748fe9c6422053896a85f2e727cfdc37f6807b5/amqp_client_python-0.1.8.tar.gz
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-service]: Downloading https://files.pythonhosted.org/packages/b8/74/c76c1dbb4accb878dce421fb41c98fc454e69192b4b1577f12135ec14b18/xia_service-0.0.5-cp39-none-win_amd64.whl
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-sso-flask]: Downloading https://files.pythonhosted.org/packages/cd/8c/e5d6fab4bb020402d436d86dc39f10e084c1e312798ef5a545b0c2ac0def/xia_sso_flask-0.1.22-cp39-none-win_amd64.whl
+[2023-07-01 20:14:57] INFO root fetch - processPackages [xia-storer-gcs]: Downloading https://files.pythonhosted.org/packages/0d/23/541f2ab3c184fea34836b4cbf38b2dc0eff7cd530a232fd3b4ce0d1433fa/xia_storer_gcs-0.0.5-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/1b/ff/0884903082e239e3d49ded143bc1c9b92e9725598e9292012ed3d874a249/xia_user-0.1.31-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/35/ec/238f36ca7035bc965d1716f96c1e2caafc6d31b3ab9a2475f36b2bffa6f3/foursight_core-4.3.0.1b9.tar.gz
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/09/ae/f4825c3604d18a02d51d33c43c8a40aa5384134bf49a3d2041539c4229bf/xia_compiler_python-0.1.6-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/c0/5f/33d726e29c387567ab936c227d70b993647a3c510f1970738edf7174f24b/fullask_rest_framework-0.5.1.tar.gz
+[2023-07-01 20:14:58] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/bf/54/db5e7bdb130e91068dbe60b56eea2cd529371bca4cb93b7741e7ffd1596c/dxsp-3.0.1.tar.gz
+[2023-07-01 20:14:58] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/1f/ea/e7a9583596bb17f0a2306f48b0868bd8946a11f61d061689a4bb644f6b8b/nics-2.5.0.tar.gz
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-storer-gcs]: Downloading https://files.pythonhosted.org/packages/36/fa/4e4b33ae985246c64654e197ded37304ec5a62d3bc493026edbb06bf3586/xia_storer_gcs-0.0.6-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-service]: Downloading https://files.pythonhosted.org/packages/cb/6f/d4d9a555abb396fe66c31be9116e2751d6880bbd48306bd268aeeb1a9bdd/xia_service-0.0.6-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-sso-flask]: Downloading https://files.pythonhosted.org/packages/17/55/c288c9e6d49872108e30d2c682f2df8b24642188fc866fa58a6be4447437/xia_sso_flask-0.1.23-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-user]: Downloading https://files.pythonhosted.org/packages/a4/2b/a5a2363243e02baecad9d8eca94209b1c942572223d831ef4a69e644b387/xia_user-0.1.32-cp39-none-win_amd64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-3.0.0.tar.gz tmp/dxsp-3.0.1.tar.gz --markdown 20230701/d/dxsp/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask_rest_framework-0.5.0.tar.gz tmp/fullask_rest_framework-0.5.1.tar.gz --markdown 20230701/f/fullask-rest-framework/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [amqp-client-python]: Downloading https://files.pythonhosted.org/packages/50/c5/1e112675c023385e1223ce4d99520577980127285deff0d342fa7b0c6f4f/amqp_client_python-0.1.9.tar.gz
+[2023-07-01 20:14:58] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/c7/84/25974d8e89997fb940e592d886dc02f56342fe085e1ffcb21f2f119c5f7a/foursight_core-4.3.0.2b1.tar.gz
+[2023-07-01 20:14:58] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.4.1.tar.gz tmp/nics-2.5.0.tar.gz --markdown 20230701/n/nics/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-compiler-python]: Downloading https://files.pythonhosted.org/packages/d4/b1/181b61fe07053c117e2894a55f5e23edd524350e902d3c6a062b0a5e8d88/xia_compiler_python-0.1.7-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-storer-gcs]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-storer-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_storer_gcs-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_storer_gcs-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-storer-gcs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-service]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_service-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_service-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-service/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [amqp-client-python]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [amqp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_client_python-0.1.8.tar.gz tmp/amqp_client_python-0.1.9.tar.gz --markdown 20230701/a/amqp-client-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-sso-flask]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-sso-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_sso_flask-0.1.22-cp39-none-win_amd64.whl.zip tmp/xia_sso_flask-0.1.23-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-sso-flask/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.3.0.1b9.tar.gz tmp/foursight_core-4.3.0.2b1.tar.gz --markdown 20230701/f/foursight-core/4.3.0.1b9-4.3.0.2b1/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-user]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_user-0.1.31-cp39-none-win_amd64.whl.zip tmp/xia_user-0.1.32-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-user/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-compiler-python]: executing diffoscope
+[2023-07-01 20:14:58] INFO root fetch - processPackages [xia-compiler-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_compiler_python-0.1.6-cp39-none-win_amd64.whl.zip tmp/xia_compiler_python-0.1.7-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-compiler-python/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-01 20:14:59] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.0.tar.gz]
+[2023-07-01 20:14:59] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.1.tar.gz]
+[2023-07-01 20:14:59] INFO root fetch - processPackages [dxsp]: Start processing: xia-engine-bigquery
+[2023-07-01 20:14:59] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-01 20:14:59] INFO root fetch - processPackages [xia-engine-bigquery]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-storer-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer_gcs-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-storer-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_storer_gcs-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-storer-gcs]: Start processing: hydrusvideodeduplicator
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [xia-storer-gcs]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/9e/7f/1ca7710c3caf8882500c947a59c6bc3a5ff3e3fef62ac8eee55ede556403/hydrusvideodeduplicator-0.1.8.tar.gz
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-sso-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_sso_flask-0.1.22-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-sso-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_sso_flask-0.1.23-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-sso-flask]: Start processing: tickerdax
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [xia-sso-flask]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-engine-bigquery]: Downloading https://files.pythonhosted.org/packages/f0/df/7d47eb1b4b791bf0e8dd47214d3a01258f70160bf7189d4af3ade11bce00/xia_engine_bigquery-0.1.13-cp39-none-win_amd64.whl
+[2023-07-01 20:15:00] INFO root fetch - processPackages [tickerdax]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [amqp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/amqp_client_python-0.1.8.tar.gz]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [amqp-client-python]: Remove: archive file [/home/abi/fetcher/tmp/amqp_client_python-0.1.9.tar.gz]
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [amqp-client-python]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [tickerdax]: Downloading https://files.pythonhosted.org/packages/bf/a4/e93db1fd0e990844b7853507fdf1a37d5700e60e92b8272c402d4f1460df/tickerdax-0.0.8.tar.gz
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-service]: Remove: archive file [/home/abi/fetcher/tmp/xia_service-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-service]: Remove: archive file [/home/abi/fetcher/tmp/xia_service-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [xia-service]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.4.1.tar.gz]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.5.0.tar.gz]
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-compiler-python]: Remove: archive file [/home/abi/fetcher/tmp/xia_compiler_python-0.1.7-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [xia-compiler-python]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [tickerdax]: Downloading https://files.pythonhosted.org/packages/b6/3e/5a2e3bdd965ef662360d9b0773087a609383929a671f7a7e65bd9345df79/tickerdax-0.0.9.tar.gz
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-engine-bigquery]: Downloading https://files.pythonhosted.org/packages/a4/57/2bc2a4fc58c90aca297c2576b9b58988bac4931bf6172b812fe9914010b7/xia_engine_bigquery-0.1.14-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 20:15:00] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.5.0.tar.gz]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.5.1.tar.gz]
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-user]: Remove: archive file [/home/abi/fetcher/tmp/xia_user-0.1.31-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-user]: Remove: archive file [/home/abi/fetcher/tmp/xia_user-0.1.32-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:00] INFO root fetch - main [MainThread]: End processing [xia-user]: success
+[2023-07-01 20:15:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/26/b1/81e3c94beedc0ef950c2eaf14a3f18e55b160a9eb15647a97fbea97f60b7/hydrusvideodeduplicator-0.1.9.tar.gz
+[2023-07-01 20:15:00] INFO root fetch - processPackages [tickerdax]: executing diffoscope
+[2023-07-01 20:15:00] INFO root fetch - processPackages [tickerdax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickerdax-0.0.8.tar.gz tmp/tickerdax-0.0.9.tar.gz --markdown 20230701/t/tickerdax/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 20:15:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-01 20:15:00] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.8.tar.gz tmp/hydrusvideodeduplicator-0.1.9.tar.gz --markdown 20230701/h/hydrusvideodeduplicator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-engine-bigquery]: executing diffoscope
+[2023-07-01 20:15:00] INFO root fetch - processPackages [xia-engine-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_bigquery-0.1.13-cp39-none-win_amd64.whl.zip tmp/xia_engine_bigquery-0.1.14-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-engine-bigquery/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-07-01 20:15:01] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.8.tar.gz]
+[2023-07-01 20:15:01] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.9.tar.gz]
+[2023-07-01 20:15:01] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-01 20:15:01] INFO root fetch - processPackages [tickerdax]: Remove: archive file [/home/abi/fetcher/tmp/tickerdax-0.0.8.tar.gz]
+[2023-07-01 20:15:01] INFO root fetch - processPackages [tickerdax]: Remove: archive file [/home/abi/fetcher/tmp/tickerdax-0.0.9.tar.gz]
+[2023-07-01 20:15:01] INFO root fetch - main [MainThread]: End processing [tickerdax]: success
+[2023-07-01 20:15:01] INFO root fetch - processPackages [xia-engine-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_bigquery-0.1.13-cp39-none-win_amd64.whl.zip]
+[2023-07-01 20:15:01] INFO root fetch - processPackages [xia-engine-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_bigquery-0.1.14-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 20:15:01] INFO root fetch - main [MainThread]: End processing [xia-engine-bigquery]: success
+[2023-07-01 20:15:15] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.1b9.tar.gz]
+[2023-07-01 20:15:15] INFO root fetch - processPackages [foursight-core]: Remove: archive file [/home/abi/fetcher/tmp/foursight_core-4.3.0.2b1.tar.gz]
+[2023-07-01 20:15:15] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-07-01 20:15:15] INFO root fetch - main [MainThread]: Store serial: [18723889]
