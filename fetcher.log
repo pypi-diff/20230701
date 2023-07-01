@@ -19286,3 +19286,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:00:58] INFO root fetch - processPackages [splut]: Remove: archive file [/home/abi/fetcher/tmp/splut-8.tar.gz]
 [2023-07-01 22:00:58] INFO root fetch - main [MainThread]: End processing [splut]: success
 [2023-07-01 22:00:58] INFO root fetch - main [MainThread]: Store serial: [18724371]
+[2023-07-01 22:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724371]
+[2023-07-01 22:06:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cachefunc
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-redis-aiogram
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irc-api
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-functions
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Office365-REST-Python-Client
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cwsgiutils
+[2023-07-01 22:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mpservice
+[2023-07-01 22:06:07] INFO root fetch - processPackages [cachefunc]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-01 22:06:07] INFO root fetch - processPackages [Office365-REST-Python-Client]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-07-01 22:06:07] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev96] Old Version: [6.0.0.dev95]
+[2023-07-01 22:06:07] INFO root fetch - processPackages [django-redis-aiogram]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-01 22:06:07] INFO root fetch - processPackages [irc-api]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-01 22:06:07] INFO root fetch - processPackages [openai-functions]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-01 22:06:07] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/ae/17726bb9acfa6658ad2d727bd763eb8444a9ef9e0f1f69aa755a18fabcaa/c2cwsgiutils-6.0.0.dev95.tar.gz
+[2023-07-01 22:06:07] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/5a/1d/3afdbd9f2d0525a363ac955fd91a5197ab7b864cd15465d5a18adda289c9/openai_functions-0.6.3.tar.gz
+[2023-07-01 22:06:07] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/a6/08/227d31c150c6bb7c6bc7ba2ca8f8eaccb2ca0ef722da1112989df2bdebde/irc_api-0.0.5.tar.gz
+[2023-07-01 22:06:07] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/4b/fe/28f505b9c6d5503d015ce8ac1bd0009f8694ab562e0d1584314b656cbd93/cachefunc-0.1.0.tar.gz
+[2023-07-01 22:06:07] INFO root fetch - processPackages [django-redis-aiogram]: Downloading https://files.pythonhosted.org/packages/ea/c9/75ba008b849289dba1784adc9c291e5c076111db92b13722f9c118e23c86/django-redis-aiogram-1.0.0.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-01 22:06:08] INFO root fetch - processPackages [Office365-REST-Python-Client]: Downloading https://files.pythonhosted.org/packages/40/36/654255a941246916a91887a14b8f34d1c5249e3a67c80f390d8eabf320d6/Office365-REST-Python-Client-2.4.1.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/49/e5/bc302974c9850a47ba547103c609f8cfd390eb1ed8eea767c55357965119/openai_functions-0.6.4.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/a6/7c/dabb9fae8c37c2446a519ab94d39ee721aa90970af9dd12a7b8d380bc1ee/irc_api-0.0.7.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.6.3.tar.gz tmp/openai_functions-0.6.4.tar.gz --markdown 20230701/o/openai-functions/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-01 22:06:08] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/82/69/0096a2aad270c6978e8b4f740c28a597ebc3898508936600960d135c2a44/c2cwsgiutils-6.0.0.dev96.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-0.0.5.tar.gz tmp/irc_api-0.0.7.tar.gz --markdown 20230701/i/irc-api/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 22:06:08] INFO root fetch - processPackages [django-redis-aiogram]: Downloading https://files.pythonhosted.org/packages/7a/a2/762f5dc50e47d06d4a6234a82a3b930b1a9a3d5b68389f47058ff7b8915c/django-redis-aiogram-1.0.1.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/4d/11/5ad693d7239c774cbd02749eb874f888c418885ba0b057e6282bf8ba8978/cachefunc-0.2.0.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230701/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-01 22:06:08] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev95.tar.gz tmp/c2cwsgiutils-6.0.0.dev96.tar.gz --markdown 20230701/c/c2cwsgiutils/6.0.0.dev95-6.0.0.dev96/diff.md --exclude *.pyd
+[2023-07-01 22:06:08] INFO root fetch - processPackages [django-redis-aiogram]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [django-redis-aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-redis-aiogram-1.0.0.tar.gz tmp/django-redis-aiogram-1.0.1.tar.gz --markdown 20230701/d/django-redis-aiogram/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-01 22:06:08] INFO root fetch - processPackages [cachefunc]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [cachefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachefunc-0.1.0.tar.gz tmp/cachefunc-0.2.0.tar.gz --markdown 20230701/c/cachefunc/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 22:06:08] INFO root fetch - processPackages [Office365-REST-Python-Client]: Downloading https://files.pythonhosted.org/packages/f7/38/17fc7389fe701007d0d4eeb6b971486c269069f5d6cb3234ae97a294c0f1/Office365-REST-Python-Client-2.4.2.tar.gz
+[2023-07-01 22:06:08] INFO root fetch - processPackages [Office365-REST-Python-Client]: executing diffoscope
+[2023-07-01 22:06:08] INFO root fetch - processPackages [Office365-REST-Python-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Office365-REST-Python-Client-2.4.1.tar.gz tmp/Office365-REST-Python-Client-2.4.2.tar.gz --markdown 20230701/O/Office365-REST-Python-Client/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-07-01 22:06:09] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.5.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.7.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-01 22:06:09] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-01 22:06:09] INFO root fetch - processPackages [django-redis-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/django-redis-aiogram-1.0.0.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - processPackages [django-redis-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/django-redis-aiogram-1.0.1.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - main [MainThread]: End processing [django-redis-aiogram]: success
+[2023-07-01 22:06:09] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.1.0.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.0.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - main [MainThread]: End processing [cachefunc]: success
+[2023-07-01 22:06:09] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.3.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.4.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-07-01 22:06:09] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev95.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev96.tar.gz]
+[2023-07-01 22:06:09] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-01 22:06:32] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.4.1.tar.gz]
+[2023-07-01 22:06:32] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.4.2.tar.gz]
+[2023-07-01 22:06:32] INFO root fetch - main [MainThread]: End processing [Office365-REST-Python-Client]: success
+[2023-07-01 22:06:32] INFO root fetch - main [MainThread]: Store serial: [18724392]
