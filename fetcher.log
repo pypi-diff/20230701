@@ -15224,3 +15224,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:53:27] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
 [2023-07-01 16:53:27] INFO root fetch - main [MainThread]: End processing [pypipr]: success
 [2023-07-01 16:53:27] INFO root fetch - main [MainThread]: Store serial: [18722512]
+[2023-07-01 16:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722512]
+[2023-07-01 16:58:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lcmtools
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iza
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywhu3d
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pillow
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deviceID
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-webflow
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnivoreql
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gemini-public-api
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pywhu3d
+[2023-07-01 16:58:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: absl-extra
+[2023-07-01 16:58:35] INFO root fetch - processPackages [lcmtools]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [iza]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [absl-extra]: New version: [0.0.2.dev4] Old Version: [0.0.2.dev3]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [deviceID]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [pywhu3d]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [gemini-public-api]: New version: [0.9.0] Old Version: [0.10.0]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [pywhu3d]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [Pillow]: New version: [9.5.0] Old Version: [9.4.0]
+[2023-07-01 16:58:35] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/33/88/ae9bdd214508f750140c55366da2e53c35db2fe759cdfc62b40d867781e9/absl_extra-0.0.2.dev3.tar.gz
+[2023-07-01 16:58:35] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/d3/cc/bf7610b920ed4db61fe58b4708aaa8f85332ddc0ff00a01bcff23ad12744/pywhu3d-0.2.5-py3-none-any.whl
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/d3/cc/bf7610b920ed4db61fe58b4708aaa8f85332ddc0ff00a01bcff23ad12744/pywhu3d-0.2.5-py3-none-any.whl
+[2023-07-01 16:58:36] INFO root fetch - processPackages [gemini-public-api]: Downloading https://files.pythonhosted.org/packages/a5/93/0d595c5562d563cd8068684b3f91ff976ff161dd0c9da899050f7e96b6de/gemini_public_api-0.10.0.tar.gz
+[2023-07-01 16:58:36] WARNING root fetch - processPackages [fast-webflow]: Skipping, unable to determine old version
+[2023-07-01 16:58:36] INFO root fetch - main [MainThread]: End processing [fast-webflow] error
+[2023-07-01 16:58:36] WARNING root fetch - processPackages [omnivoreql]: Skipping, unable to determine old version
+[2023-07-01 16:58:36] INFO root fetch - main [MainThread]: End processing [omnivoreql] error
+[2023-07-01 16:58:36] INFO root fetch - processPackages [lcmtools]: Downloading https://files.pythonhosted.org/packages/f3/63/22b516efa9d881043bfcd057d15bf300a1cc6c32260769784ac9bdd14542/lcmtools-0.1.3.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/07/81/8ac5e8d864d6c09ba1351b68562b7e33c73d5f1f5b071c5a73aecdc95efa/iza-0.0.6.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/e2/7b/05bbda942ac14b87e90640ca466f733bbaa4ad5530fc8e566cc609ad5a35/absl_extra-0.0.2.dev4.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [Pillow]: Downloading https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/df/a7/4e30c4d8aaa23d12c5492f71cdd899d1c04f14940307c514401ec451154e/pywhu3d-0.2.6-py3-none-any.whl
+[2023-07-01 16:58:36] WARNING root fetch - processPackages [Pillow]: Skipping package: exceeds size limit 50403076>=10485760
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/df/a7/4e30c4d8aaa23d12c5492f71cdd899d1c04f14940307c514401ec451154e/pywhu3d-0.2.6-py3-none-any.whl
+[2023-07-01 16:58:36] INFO root fetch - main [MainThread]: End processing [Pillow] error
+[2023-07-01 16:58:36] INFO root fetch - processPackages [deviceID]: Downloading https://files.pythonhosted.org/packages/1c/5b/69de509c95a8f6f30408658bd06d91fefe072997a5ae12ac148ac19ea6d9/deviceID-0.1.4.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [gemini-public-api]: Downloading https://files.pythonhosted.org/packages/f1/fd/5b19788ccbd3578ad1066f9471bab05621ee7c6325a00f0974f070af64be/gemini_public_api-0.9.0.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.2.dev3.tar.gz tmp/absl_extra-0.0.2.dev4.tar.gz --markdown 20230701/a/absl-extra/0.0.2.dev3-0.0.2.dev4/diff.md --exclude *.pyd
+[2023-07-01 16:58:36] INFO root fetch - processPackages [lcmtools]: Downloading https://files.pythonhosted.org/packages/7d/1a/c9ca65142be3fde4dc4ee39671d023577e738a56fced715fea077070c855/lcmtools-0.1.5.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhu3d-0.2.5-py3-none-any.whl.zip tmp/pywhu3d-0.2.6-py3-none-any.whl.zip --markdown 20230701/p/pywhu3d/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [pywhu3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhu3d-0.2.5-py3-none-any.whl.zip tmp/pywhu3d-0.2.6-py3-none-any.whl.zip --markdown 20230701/p/pywhu3d/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-01 16:58:36] INFO root fetch - processPackages [iza]: Downloading https://files.pythonhosted.org/packages/bb/e4/7d82bd9ca82b19d78408f21a9c4b4a304c1fc9f662e06c2faec83efe0979/iza-0.0.7.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [gemini-public-api]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [gemini-public-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemini_public_api-0.10.0.tar.gz tmp/gemini_public_api-0.9.0.tar.gz --markdown 20230701/g/gemini-public-api/0.10.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 16:58:36] INFO root fetch - processPackages [lcmtools]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [lcmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcmtools-0.1.3.tar.gz tmp/lcmtools-0.1.5.tar.gz --markdown 20230701/l/lcmtools/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 16:58:36] INFO root fetch - processPackages [iza]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [iza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iza-0.0.6.tar.gz tmp/iza-0.0.7.tar.gz --markdown 20230701/i/iza/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 16:58:36] INFO root fetch - processPackages [deviceID]: Downloading https://files.pythonhosted.org/packages/f7/e1/f2897ed589f628cb4813fe90c8bd69ad073ce53892a4bc4193a3fbd82daf/deviceID-0.1.5.tar.gz
+[2023-07-01 16:58:36] INFO root fetch - processPackages [deviceID]: executing diffoscope
+[2023-07-01 16:58:36] INFO root fetch - processPackages [deviceID]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deviceID-0.1.4.tar.gz tmp/deviceID-0.1.5.tar.gz --markdown 20230701/d/deviceID/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 16:58:37] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev3.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.2.dev4.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-07-01 16:58:37] INFO root fetch - processPackages [gemini-public-api]: Remove: archive file [/home/abi/fetcher/tmp/gemini_public_api-0.10.0.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - processPackages [gemini-public-api]: Remove: archive file [/home/abi/fetcher/tmp/gemini_public_api-0.9.0.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [gemini-public-api]: success
+[2023-07-01 16:58:37] INFO root fetch - processPackages [pywhu3d]: Remove: archive file [/home/abi/fetcher/tmp/pywhu3d-0.2.5-py3-none-any.whl.zip]
+[2023-07-01 16:58:37] INFO root fetch - processPackages [pywhu3d]: Remove: archive file [/home/abi/fetcher/tmp/pywhu3d-0.2.6-py3-none-any.whl.zip]
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [pywhu3d]: success
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [pywhu3d]: success
+[2023-07-01 16:58:37] INFO root fetch - processPackages [lcmtools]: Remove: archive file [/home/abi/fetcher/tmp/lcmtools-0.1.3.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - processPackages [lcmtools]: Remove: archive file [/home/abi/fetcher/tmp/lcmtools-0.1.5.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [lcmtools]: success
+[2023-07-01 16:58:37] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.6.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - processPackages [iza]: Remove: archive file [/home/abi/fetcher/tmp/iza-0.0.7.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [iza]: success
+[2023-07-01 16:58:37] INFO root fetch - processPackages [deviceID]: Remove: archive file [/home/abi/fetcher/tmp/deviceID-0.1.4.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - processPackages [deviceID]: Remove: archive file [/home/abi/fetcher/tmp/deviceID-0.1.5.tar.gz]
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: End processing [deviceID]: success
+[2023-07-01 16:58:37] INFO root fetch - main [MainThread]: Store serial: [18722579]
