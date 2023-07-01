@@ -13157,3 +13157,53 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:50:23] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
 [2023-07-01 13:50:23] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-07-01 13:50:23] INFO root fetch - main [MainThread]: Store serial: [18721576]
+[2023-07-01 13:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721576]
+[2023-07-01 13:55:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chat-box-streamlit
+[2023-07-01 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgeobjects
+[2023-07-01 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md-plot
+[2023-07-01 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj-stripe
+[2023-07-01 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sympy-plot-backends
+[2023-07-01 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jo3util
+[2023-07-01 13:55:32] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-07-01 13:55:32] INFO root fetch - processPackages [bridgeobjects]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 13:55:32] INFO root fetch - processPackages [sympy-plot-backends]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-01 13:55:32] INFO root fetch - processPackages [md-plot]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-01 13:55:32] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/2e/33/7eed1a885e82e384d2f8233c03647631716a048d24632084c37467127fa7/chat-box-streamlit-0.0.94.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/35/34/74fcf3191c963d861b5c1ad1759cdf7681aa57d1c70132c9b048c71f09e5/sympy_plot_backends-2.3.0.tar.gz
+[2023-07-01 13:55:32] WARNING root fetch - processPackages [jo3util]: Skipping, unable to determine old version
+[2023-07-01 13:55:32] INFO root fetch - main [MainThread]: End processing [jo3util] error
+[2023-07-01 13:55:32] INFO root fetch - processPackages [dj-stripe]: New version: [2.8.1] Old Version: [2.8.0a3]
+[2023-07-01 13:55:32] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/fd/6a/0c207f0ded01e7a40f725f054939cf230697a9698c97059317f2a46db05c/bridgeobjects-0.1.8.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [md-plot]: Downloading https://files.pythonhosted.org/packages/b1/d1/d8ee4f18257bcb10a50d5447617ab9acc95aab7fbc42d849fcffc9ff226e/md_plot-0.1.9.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [sympy-plot-backends]: Downloading https://files.pythonhosted.org/packages/80/1e/5957bfc58c334ff2bfa53620b5e64bce69e096a3d26410b2a132170b4d98/sympy_plot_backends-2.4.0.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/43/dc/90f98de366c9e28628bdcd06a0b4f687eb85815c7ed3cd7a30da4fa4850f/chat-box-streamlit-0.0.95.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [sympy-plot-backends]: executing diffoscope
+[2023-07-01 13:55:32] INFO root fetch - processPackages [sympy-plot-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympy_plot_backends-2.3.0.tar.gz tmp/sympy_plot_backends-2.4.0.tar.gz --markdown 20230701/s/sympy-plot-backends/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-01 13:55:32] INFO root fetch - processPackages [dj-stripe]: Downloading https://files.pythonhosted.org/packages/ff/aa/25769078c496c990d9a26a0ec1deb69e0adc38549c2596480d9baf190b17/dj_stripe-2.8.1.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-07-01 13:55:32] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.94.tar.gz tmp/chat-box-streamlit-0.0.95.tar.gz --markdown 20230701/c/chat-box-streamlit/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-07-01 13:55:32] INFO root fetch - processPackages [dj-stripe]: executing diffoscope
+[2023-07-01 13:55:32] INFO root fetch - processPackages [dj-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_stripe-2.8.0a3.tar.gz tmp/dj_stripe-2.8.1.tar.gz --markdown 20230701/d/dj-stripe/2.8.0a3-2.8.1/diff.md --exclude *.pyd
+[2023-07-01 13:55:32] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/38/2f/5b27e39a9ed23770138c49305229e8819df09644dc9ad82aebc0cceeb86c/bridgeobjects-0.1.9.tar.gz
+[2023-07-01 13:55:32] INFO root fetch - processPackages [bridgeobjects]: executing diffoscope
+[2023-07-01 13:55:32] INFO root fetch - processPackages [bridgeobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeobjects-0.1.8.tar.gz tmp/bridgeobjects-0.1.9.tar.gz --markdown 20230701/b/bridgeobjects/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 13:55:32] INFO root fetch - processPackages [md-plot]: Downloading https://files.pythonhosted.org/packages/28/b5/70202062b3451d856d948c5a6a69b942bb620b361920d0ff6c1adc8b6897/md_plot-0.2.0.tar.gz
+[2023-07-01 13:55:33] INFO root fetch - processPackages [md-plot]: executing diffoscope
+[2023-07-01 13:55:33] INFO root fetch - processPackages [md-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md_plot-0.1.9.tar.gz tmp/md_plot-0.2.0.tar.gz --markdown 20230701/m/md-plot/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 13:55:33] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.94.tar.gz]
+[2023-07-01 13:55:33] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.95.tar.gz]
+[2023-07-01 13:55:33] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-07-01 13:55:33] INFO root fetch - processPackages [dj-stripe]: Remove: archive file [/home/abi/fetcher/tmp/dj_stripe-2.8.0a3.tar.gz]
+[2023-07-01 13:55:33] INFO root fetch - processPackages [dj-stripe]: Remove: archive file [/home/abi/fetcher/tmp/dj_stripe-2.8.1.tar.gz]
+[2023-07-01 13:55:33] INFO root fetch - main [MainThread]: End processing [dj-stripe]: success
+[2023-07-01 13:55:34] INFO root fetch - processPackages [md-plot]: Remove: archive file [/home/abi/fetcher/tmp/md_plot-0.1.9.tar.gz]
+[2023-07-01 13:55:34] INFO root fetch - processPackages [md-plot]: Remove: archive file [/home/abi/fetcher/tmp/md_plot-0.2.0.tar.gz]
+[2023-07-01 13:55:34] INFO root fetch - main [MainThread]: End processing [md-plot]: success
+[2023-07-01 13:55:34] INFO root fetch - processPackages [bridgeobjects]: Remove: archive file [/home/abi/fetcher/tmp/bridgeobjects-0.1.8.tar.gz]
+[2023-07-01 13:55:34] INFO root fetch - processPackages [bridgeobjects]: Remove: archive file [/home/abi/fetcher/tmp/bridgeobjects-0.1.9.tar.gz]
+[2023-07-01 13:55:34] INFO root fetch - main [MainThread]: End processing [bridgeobjects]: success
+[2023-07-01 13:55:35] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.3.0.tar.gz]
+[2023-07-01 13:55:35] INFO root fetch - processPackages [sympy-plot-backends]: Remove: archive file [/home/abi/fetcher/tmp/sympy_plot_backends-2.4.0.tar.gz]
+[2023-07-01 13:55:35] INFO root fetch - main [MainThread]: End processing [sympy-plot-backends]: success
+[2023-07-01 13:55:35] INFO root fetch - main [MainThread]: Store serial: [18721596]
