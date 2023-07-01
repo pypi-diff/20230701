@@ -20322,3 +20322,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:45:05] INFO root fetch - processPackages [pytao]: Remove: archive file [/home/abi/fetcher/tmp/pytao-0.2.4.tar.gz]
 [2023-07-01 23:45:05] INFO root fetch - main [MainThread]: End processing [pytao]: success
 [2023-07-01 23:45:05] INFO root fetch - main [MainThread]: Store serial: [18724770]
+[2023-07-01 23:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724770]
+[2023-07-01 23:50:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 23:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyavb
+[2023-07-01 23:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: couchbed
+[2023-07-01 23:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascience-cookiecutter
+[2023-07-01 23:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easier
+[2023-07-01 23:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orso
+[2023-07-01 23:50:14] INFO root fetch - processPackages [couchbed]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 23:50:14] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 23:50:14] INFO root fetch - processPackages [easier]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-01 23:50:14] INFO root fetch - processPackages [pyavb]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-01 23:50:14] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/0d/6c/7b7b5b09e02931fd4a8d2d2634f0cea571a42020662324cff54700da1a00/datascience_cookiecutter-0.1.2.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/fa/20/36117de5a84966167f5fd03bebbbecac8b2d8228484ebc40a1477e06b652/couchbed-0.1.4.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [orso]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 23:50:14] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/44/45/4354d575f85dccad1d403257c158fb185f0414feb36cc5f4f226a2521563/easier-1.3.2.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [pyavb]: Downloading https://files.pythonhosted.org/packages/ce/cd/abe4602d042b2c9b7e84d9e4f8a37cc914307446798dcfca90e0cf651772/pyavb-1.3.0.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [couchbed]: Downloading https://files.pythonhosted.org/packages/69/1e/20111ede26b69657f0be68297c2ce283aab2d28e7a60b98801c72b2ca5c7/couchbed-0.1.5.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/0c/9b/fe8f4ddb5231f9de1e44317beafe496328a0baeb6d6a849475d9848111e3/datascience_cookiecutter-0.1.3.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/1c/66/5aad0089df0da0e221630da2c585677459a251fa6db22921c5846de42924/orso-0.0.8.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [couchbed]: executing diffoscope
+[2023-07-01 23:50:14] INFO root fetch - processPackages [couchbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchbed-0.1.4.tar.gz tmp/couchbed-0.1.5.tar.gz --markdown 20230701/c/couchbed/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 23:50:14] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/7c/b7/755d3f3d2817b197b18331e43c6ce33ce7b3046639f7d6293f2058bfb837/easier-1.3.3.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-01 23:50:14] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.1.2.tar.gz tmp/datascience_cookiecutter-0.1.3.tar.gz --markdown 20230701/d/datascience-cookiecutter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 23:50:14] INFO root fetch - processPackages [pyavb]: Downloading https://files.pythonhosted.org/packages/41/73/d8005d6c3023e428d16af335eacf0bc417fe0117aed1f36d655f66d20f37/pyavb-1.4.0.tar.gz
+[2023-07-01 23:50:14] INFO root fetch - processPackages [easier]: executing diffoscope
+[2023-07-01 23:50:14] INFO root fetch - processPackages [easier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easier-1.3.2.tar.gz tmp/easier-1.3.3.tar.gz --markdown 20230701/e/easier/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-01 23:50:14] INFO root fetch - processPackages [pyavb]: executing diffoscope
+[2023-07-01 23:50:14] INFO root fetch - processPackages [pyavb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyavb-1.3.0.tar.gz tmp/pyavb-1.4.0.tar.gz --markdown 20230701/p/pyavb/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-01 23:50:14] INFO root fetch - processPackages [orso]: Downloading https://files.pythonhosted.org/packages/d0/a6/e427d299b4d15d22164372c94c2665865951bb26973a967eca19d3d2493c/orso-0.0.9.tar.gz
+[2023-07-01 23:50:15] INFO root fetch - processPackages [orso]: executing diffoscope
+[2023-07-01 23:50:15] INFO root fetch - processPackages [orso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orso-0.0.8.tar.gz tmp/orso-0.0.9.tar.gz --markdown 20230701/o/orso/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 23:50:15] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.2.tar.gz]
+[2023-07-01 23:50:15] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.3.tar.gz]
+[2023-07-01 23:50:15] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-01 23:50:15] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.4.tar.gz]
+[2023-07-01 23:50:15] INFO root fetch - processPackages [couchbed]: Remove: archive file [/home/abi/fetcher/tmp/couchbed-0.1.5.tar.gz]
+[2023-07-01 23:50:15] INFO root fetch - main [MainThread]: End processing [couchbed]: success
+[2023-07-01 23:50:16] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.2.tar.gz]
+[2023-07-01 23:50:16] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.3.tar.gz]
+[2023-07-01 23:50:16] INFO root fetch - main [MainThread]: End processing [easier]: success
+[2023-07-01 23:50:16] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.8.tar.gz]
+[2023-07-01 23:50:16] INFO root fetch - processPackages [orso]: Remove: archive file [/home/abi/fetcher/tmp/orso-0.0.9.tar.gz]
+[2023-07-01 23:50:16] INFO root fetch - main [MainThread]: End processing [orso]: success
+[2023-07-01 23:50:16] INFO root fetch - processPackages [pyavb]: Remove: archive file [/home/abi/fetcher/tmp/pyavb-1.3.0.tar.gz]
+[2023-07-01 23:50:16] INFO root fetch - processPackages [pyavb]: Remove: archive file [/home/abi/fetcher/tmp/pyavb-1.4.0.tar.gz]
+[2023-07-01 23:50:16] INFO root fetch - main [MainThread]: End processing [pyavb]: success
+[2023-07-01 23:50:16] INFO root fetch - main [MainThread]: Store serial: [18724829]
