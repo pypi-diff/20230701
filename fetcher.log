@@ -7112,3 +7112,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:08:29] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-01 04:08:29] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
 [2023-07-01 04:08:29] INFO root fetch - main [MainThread]: Store serial: [18719119]
+[2023-07-01 04:13:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719119]
+[2023-07-01 04:13:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 04:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qworker
+[2023-07-01 04:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli.core
+[2023-07-01 04:13:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybrick
+[2023-07-01 04:13:42] INFO root fetch - processPackages [qworker]: New version: [1.9.0] Old Version: [1.8.8]
+[2023-07-01 04:13:42] INFO root fetch - processPackages [pybrick]: New version: [0.2.96] Old Version: [0.2.95]
+[2023-07-01 04:13:42] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-07-01 04:13:42] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/72/82/3f70f5e67e163363ef714d9ef0b8b657571b9ceae09eec7149bb905f6ab7/qworker-1.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:13:42] INFO root fetch - processPackages [pybrick]: Downloading https://files.pythonhosted.org/packages/77/53/16501d622917865c1a3d49a1431276fc586a32f1913b76f61ac9747d73e4/pybrick-0.2.95-py3-none-any.whl
+[2023-07-01 04:13:42] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-07-01 04:13:43] INFO root fetch - processPackages [pybrick]: Downloading https://files.pythonhosted.org/packages/e3/66/713efe23ac0b0adf152e26bbe37ff59f379b146a1bd8f86811285de4853c/pybrick-0.2.96-py3-none-any.whl
+[2023-07-01 04:13:43] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/35/49/d3bb8868e8e64074479bdf6a269f0a084474687fadcbeb3e4410f13baca9/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:13:43] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-07-01 04:13:43] INFO root fetch - processPackages [pybrick]: executing diffoscope
+[2023-07-01 04:13:43] INFO root fetch - processPackages [pybrick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrick-0.2.95-py3-none-any.whl.zip tmp/pybrick-0.2.96-py3-none-any.whl.zip --markdown 20230701/p/pybrick/0.2.95-0.2.96/diff.md --exclude *.pyd
+[2023-07-01 04:13:43] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-01 04:13:43] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/q/qworker/1.8.8-1.9.0/diff.md --exclude *.pyd
+[2023-07-01 04:13:43] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-07-01 04:13:43] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230701/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-07-01 04:13:44] INFO root fetch - processPackages [pybrick]: Remove: archive file [/home/abi/fetcher/tmp/pybrick-0.2.95-py3-none-any.whl.zip]
+[2023-07-01 04:13:44] INFO root fetch - processPackages [pybrick]: Remove: archive file [/home/abi/fetcher/tmp/pybrick-0.2.96-py3-none-any.whl.zip]
+[2023-07-01 04:13:44] INFO root fetch - main [MainThread]: End processing [pybrick]: success
+[2023-07-01 04:13:44] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip]
+[2023-07-01 04:13:44] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip]
+[2023-07-01 04:13:44] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-07-01 04:13:44] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.8.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:13:44] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:13:44] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-01 04:13:44] INFO root fetch - main [MainThread]: Store serial: [18719149]
