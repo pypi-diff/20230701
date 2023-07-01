@@ -11240,3 +11240,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:31:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-07-01 10:31:28] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-01 10:31:28] INFO root fetch - main [MainThread]: Store serial: [18720673]
+[2023-07-01 10:36:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720673]
+[2023-07-01 10:36:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 10:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-subscriptions-rt
+[2023-07-01 10:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openneuro-py
+[2023-07-01 10:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guniflask-cli
+[2023-07-01 10:36:37] INFO root fetch - processPackages [django-subscriptions-rt]: New version: [1.0.2] Old Version: [0.0.1]
+[2023-07-01 10:36:37] INFO root fetch - processPackages [openneuro-py]: New version: [2023.1.0] Old Version: [2022.4.0]
+[2023-07-01 10:36:37] INFO root fetch - processPackages [django-subscriptions-rt]: Downloading https://files.pythonhosted.org/packages/c6/de/4061a36c0a18c9064a29dfabe40a7a8342b4ec43fb44c83fb82a19bc3300/django_subscriptions_rt-0.0.1-py3-none-any.whl
+[2023-07-01 10:36:37] INFO root fetch - processPackages [guniflask-cli]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-01 10:36:37] INFO root fetch - processPackages [guniflask-cli]: Downloading https://files.pythonhosted.org/packages/75/4e/eafaa8b0a955d29d7079dcb32028c70e2cf3afdcbc679ba9cd09a8e23e0a/guniflask-cli-0.9.1.tar.gz
+[2023-07-01 10:36:37] INFO root fetch - processPackages [django-subscriptions-rt]: Downloading https://files.pythonhosted.org/packages/ff/cf/39acfe3dd6748e4e9d554cf6fccc25e56d3193c9759d3f3441170402d794/django_subscriptions_rt-1.0.2-py3-none-any.whl
+[2023-07-01 10:36:37] INFO root fetch - processPackages [openneuro-py]: Downloading https://files.pythonhosted.org/packages/ba/58/de1deb31c1a04a24defc672b313306de3c179018c77bdd16e8ed11dfafce/openneuro-py-2022.4.0.tar.gz
+[2023-07-01 10:36:37] INFO root fetch - processPackages [django-subscriptions-rt]: executing diffoscope
+[2023-07-01 10:36:37] INFO root fetch - processPackages [django-subscriptions-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_subscriptions_rt-0.0.1-py3-none-any.whl.zip tmp/django_subscriptions_rt-1.0.2-py3-none-any.whl.zip --markdown 20230701/d/django-subscriptions-rt/0.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 10:36:38] INFO root fetch - processPackages [guniflask-cli]: Downloading https://files.pythonhosted.org/packages/a4/90/1d8a6003df261120759454830b9600c09c55f537a514b1772280aab13108/guniflask-cli-0.9.2.tar.gz
+[2023-07-01 10:36:38] INFO root fetch - processPackages [openneuro-py]: Downloading https://files.pythonhosted.org/packages/d0/87/8260b96ba837b33681c9b748b2f1da1af3a642cbe1e838935b8c663a6c49/openneuro-py-2023.1.0.tar.gz
+[2023-07-01 10:36:38] INFO root fetch - processPackages [openneuro-py]: executing diffoscope
+[2023-07-01 10:36:38] INFO root fetch - processPackages [openneuro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openneuro-py-2022.4.0.tar.gz tmp/openneuro-py-2023.1.0.tar.gz --markdown 20230701/o/openneuro-py/2022.4.0-2023.1.0/diff.md --exclude *.pyd
+[2023-07-01 10:36:38] INFO root fetch - processPackages [guniflask-cli]: executing diffoscope
+[2023-07-01 10:36:38] INFO root fetch - processPackages [guniflask-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guniflask-cli-0.9.1.tar.gz tmp/guniflask-cli-0.9.2.tar.gz --markdown 20230701/g/guniflask-cli/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-01 10:36:39] INFO root fetch - processPackages [django-subscriptions-rt]: Remove: archive file [/home/abi/fetcher/tmp/django_subscriptions_rt-0.0.1-py3-none-any.whl.zip]
+[2023-07-01 10:36:39] INFO root fetch - processPackages [django-subscriptions-rt]: Remove: archive file [/home/abi/fetcher/tmp/django_subscriptions_rt-1.0.2-py3-none-any.whl.zip]
+[2023-07-01 10:36:39] INFO root fetch - main [MainThread]: End processing [django-subscriptions-rt]: success
+[2023-07-01 10:36:39] INFO root fetch - processPackages [guniflask-cli]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-cli-0.9.1.tar.gz]
+[2023-07-01 10:36:39] INFO root fetch - processPackages [guniflask-cli]: Remove: archive file [/home/abi/fetcher/tmp/guniflask-cli-0.9.2.tar.gz]
+[2023-07-01 10:36:39] INFO root fetch - main [MainThread]: End processing [guniflask-cli]: success
+[2023-07-01 10:36:39] INFO root fetch - processPackages [openneuro-py]: Remove: archive file [/home/abi/fetcher/tmp/openneuro-py-2022.4.0.tar.gz]
+[2023-07-01 10:36:39] INFO root fetch - processPackages [openneuro-py]: Remove: archive file [/home/abi/fetcher/tmp/openneuro-py-2023.1.0.tar.gz]
+[2023-07-01 10:36:39] INFO root fetch - main [MainThread]: End processing [openneuro-py]: success
+[2023-07-01 10:36:39] INFO root fetch - main [MainThread]: Store serial: [18720680]
