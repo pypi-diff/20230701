@@ -7054,3 +7054,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:03:12] INFO root fetch - processPackages [botocore-a-la-carte]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-1.29.99.tar.gz]
 [2023-07-01 04:03:12] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte]: success
 [2023-07-01 04:03:12] INFO root fetch - main [MainThread]: Store serial: [18718995]
+[2023-07-01 04:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18718995]
+[2023-07-01 04:08:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-wordpress
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vsc-solvers
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sscred-fork
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exoplasim
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-my-plugin
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zuspec-arl-eval
+[2023-07-01 04:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vollseg
+[2023-07-01 04:08:22] INFO root fetch - processPackages [sscred-fork]: New version: [0.2.12] Old Version: [0.2.11]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vsc-solvers]: New version: [0.0.1.5428504260] Old Version: [0.0.1.5428463540]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [zuspec-arl-eval]: New version: [0.0.1.5428510212] Old Version: [0.0.1.5237104080]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [exoplasim]: New version: [3.2.3] Old Version: [3.2.2]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [hatch-my-plugin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-01 04:08:22] INFO root fetch - processPackages [sscred-fork]: Downloading https://files.pythonhosted.org/packages/37/90/5db507bd3000fe04e489e9701219d7191d3efead856e848f7fd23f1b6da3/sscred_fork-0.2.11.tar.gz
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vsc-solvers]: Downloading https://files.pythonhosted.org/packages/04/f3/110346ed75ec2b07ce54f98fa498b7c0216253938c73cb68918263950e7d/vsc_solvers-0.0.1.5428463540-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-01 04:08:22] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-01 04:08:22] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-01 04:08:22] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/0c/ab/376f741ff17c3bb1eb6210353539f9b4e40e0174eb0c93dd902629217e8b/zuspec_arl_eval-0.0.1.5237104080-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:08:22] INFO root fetch - processPackages [exoplasim]: Downloading https://files.pythonhosted.org/packages/4c/99/87cc075650bf94b8e7045edbcb2fd222db7ce2e8eeac19ccbcbe3203c910/exoplasim-3.2.2.tar.gz
+[2023-07-01 04:08:22] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-01 04:08:22] INFO root fetch - processPackages [hatch-my-plugin]: Downloading https://files.pythonhosted.org/packages/79/d7/86238e185d24be193e5ce1f0a76c8bae2a3a9d4e68e2901f46b7447af824/hatch_my_plugin-0.0.5.tar.gz
+[2023-07-01 04:08:22] INFO root fetch - processPackages [sscred-fork]: Downloading https://files.pythonhosted.org/packages/ad/3f/3f73249e64e547b0c8f7c9ae30ce77a45a8ebe460999f22eac315ce3e192/sscred_fork-0.2.12.tar.gz
+[2023-07-01 04:08:22] WARNING root fetch - processPackages [exoplasim]: Skipping package: exceeds size limit 21828884>=10485760
+[2023-07-01 04:08:22] INFO root fetch - main [MainThread]: End processing [exoplasim] error
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vsc-solvers]: Downloading https://files.pythonhosted.org/packages/68/eb/89d81d2127910fd7bea8c5f2a9987196a0ff599a71006171e956e25d02c2/vsc_solvers-0.0.1.5428504260-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:08:22] INFO root fetch - processPackages [sscred-fork]: executing diffoscope
+[2023-07-01 04:08:22] INFO root fetch - processPackages [sscred-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sscred_fork-0.2.11.tar.gz tmp/sscred_fork-0.2.12.tar.gz --markdown 20230701/s/sscred-fork/0.2.11-0.2.12/diff.md --exclude *.pyd
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vsc-solvers]: executing diffoscope
+[2023-07-01 04:08:22] INFO root fetch - processPackages [vsc-solvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsc_solvers-0.0.1.5428463540-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/vsc_solvers-0.0.1.5428504260-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/v/vsc-solvers/0.0.1.5428463540-0.0.1.5428504260/diff.md --exclude *.pyd
+[2023-07-01 04:08:22] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/6f/b7/fed2cdab674ef329efc16b7f86cb377da05c7a2d0556d439c0a1b60068d6/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:08:22] INFO root fetch - processPackages [hatch-my-plugin]: Downloading https://files.pythonhosted.org/packages/cd/08/39f040e0e8fcfb08ddd070d88ff7cbafcabbc90f2eae8b0fb919a2c9f82f/hatch_my_plugin-0.0.6.tar.gz
+[2023-07-01 04:08:22] INFO root fetch - processPackages [zuspec-arl-eval]: executing diffoscope
+[2023-07-01 04:08:22] INFO root fetch - processPackages [zuspec-arl-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_arl_eval-0.0.1.5237104080-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/z/zuspec-arl-eval/0.0.1.5237104080-0.0.1.5428510212/diff.md --exclude *.pyd
+[2023-07-01 04:08:22] INFO root fetch - processPackages [hatch-my-plugin]: executing diffoscope
+[2023-07-01 04:08:22] INFO root fetch - processPackages [hatch-my-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_my_plugin-0.0.5.tar.gz tmp/hatch_my_plugin-0.0.6.tar.gz --markdown 20230701/h/hatch-my-plugin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 04:08:23] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-01 04:08:23] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-01 04:08:23] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230701/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 04:08:23] INFO root fetch - processPackages [sscred-fork]: Remove: archive file [/home/abi/fetcher/tmp/sscred_fork-0.2.11.tar.gz]
+[2023-07-01 04:08:23] INFO root fetch - processPackages [vsc-solvers]: Remove: archive file [/home/abi/fetcher/tmp/vsc_solvers-0.0.1.5428463540-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:08:23] INFO root fetch - processPackages [sscred-fork]: Remove: archive file [/home/abi/fetcher/tmp/sscred_fork-0.2.12.tar.gz]
+[2023-07-01 04:08:23] INFO root fetch - processPackages [vsc-solvers]: Remove: archive file [/home/abi/fetcher/tmp/vsc_solvers-0.0.1.5428504260-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:08:23] INFO root fetch - main [MainThread]: End processing [sscred-fork]: success
+[2023-07-01 04:08:23] INFO root fetch - main [MainThread]: End processing [vsc-solvers]: success
+[2023-07-01 04:08:23] INFO root fetch - processPackages [hatch-my-plugin]: Remove: archive file [/home/abi/fetcher/tmp/hatch_my_plugin-0.0.5.tar.gz]
+[2023-07-01 04:08:23] INFO root fetch - processPackages [hatch-my-plugin]: Remove: archive file [/home/abi/fetcher/tmp/hatch_my_plugin-0.0.6.tar.gz]
+[2023-07-01 04:08:23] INFO root fetch - main [MainThread]: End processing [hatch-my-plugin]: success
+[2023-07-01 04:08:24] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-01 04:08:24] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-01 04:08:24] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-01 04:08:29] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5237104080-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:08:29] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5428510212-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:08:29] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
+[2023-07-01 04:08:29] INFO root fetch - main [MainThread]: Store serial: [18719119]
