@@ -13017,3 +13017,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:34:47] INFO root fetch - processPackages [tendril-filestore]: Remove: archive file [/home/abi/fetcher/tmp/tendril-filestore-0.2.9.tar.gz]
 [2023-07-01 13:34:47] INFO root fetch - main [MainThread]: End processing [tendril-filestore]: success
 [2023-07-01 13:34:47] INFO root fetch - main [MainThread]: Store serial: [18721524]
+[2023-07-01 13:39:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721524]
+[2023-07-01 13:39:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archtool
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betabageldb
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-spider-tool
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beku-stackabletech
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyre-check-nightly
+[2023-07-01 13:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kas
+[2023-07-01 13:39:58] INFO root fetch - processPackages [kas]: New version: [4.0] Old Version: [3.3]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.1] Old Version: [0.4.1]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [betabageldb]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [easy-spider-tool]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [archtool]: New version: [0.1.5] Old Version: [0.1.0]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [beku-stackabletech]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/44/cc/31b422a8582ae19eddffa7fdf9049bc4bb9f8f55edf72074e27e2c167c91/easy_spider_tool-1.0.5.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101688209909] Old Version: [0.0.101688123538]
+[2023-07-01 13:39:58] INFO root fetch - processPackages [kas]: Downloading https://files.pythonhosted.org/packages/24/32/efb0575124a3f95ff966f46ab3e231020f73fa038901d24970d376071474/kas-3.3.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [beku-stackabletech]: Downloading https://files.pythonhosted.org/packages/2d/a7/f23fcca65f7dc126b98db245e3df135d48084e631d7418f23d416c89d25b/beku_stackabletech-0.0.7-py3-none-any.whl
+[2023-07-01 13:39:58] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/59/ae/cc41b5a5c0cc9a811174029ad5f3a771c934a2c79eb4a21bed8e8d55199a/nonebot_plugin_spark_gpt-0.4.1.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [archtool]: Downloading https://files.pythonhosted.org/packages/2d/6a/2976cb6483da0c1014bd6f0ece99d830c7658bf2e784a7270b3b22d78b55/archtool-0.1.0.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/53/af/f8f2b654d5a30da2d55bd6100cee99fcb923ff900621049443e6e9176b83/betabageldb-0.1.0.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [easy-spider-tool]: Downloading https://files.pythonhosted.org/packages/67/ce/fd82aaf42b8a6692c8a3ef8dc1b4427682fc1ad9a2bf39129e31de469836/easy_spider_tool-1.0.6.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/c0/50/e3857ac561ece5f121163cf5c29eb1eaf5b307e0126e866bae4e754c67ba/pyre-check-nightly-0.0.101688123538.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [easy-spider-tool]: executing diffoscope
+[2023-07-01 13:39:58] INFO root fetch - processPackages [easy-spider-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_spider_tool-1.0.5.tar.gz tmp/easy_spider_tool-1.0.6.tar.gz --markdown 20230701/e/easy-spider-tool/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-01 13:39:58] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11188233>=10485760
+[2023-07-01 13:39:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-01 13:39:58] INFO root fetch - processPackages [beku-stackabletech]: Downloading https://files.pythonhosted.org/packages/53/10/5444ca23bef9443bffe26c3aacf91d59105ee2463236fbfa0c794bade250/beku_stackabletech-0.0.8-py3-none-any.whl
+[2023-07-01 13:39:58] INFO root fetch - processPackages [kas]: Downloading https://files.pythonhosted.org/packages/14/75/869357f51d6b5eae00f334f93f46a12bd54c362a50f7236a167e9fb0c97c/kas-4.0.tar.gz
+[2023-07-01 13:39:58] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23758220>=10485760
+[2023-07-01 13:39:58] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-01 13:39:58] INFO root fetch - processPackages [betabageldb]: Downloading https://files.pythonhosted.org/packages/b8/22/779ca4b95cec3e253166bebcf1414bae579dc004d9615877bb5d1f71193e/betabageldb-0.1.1.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [beku-stackabletech]: executing diffoscope
+[2023-07-01 13:39:58] INFO root fetch - processPackages [beku-stackabletech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beku_stackabletech-0.0.7-py3-none-any.whl.zip tmp/beku_stackabletech-0.0.8-py3-none-any.whl.zip --markdown 20230701/b/beku-stackabletech/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 13:39:58] INFO root fetch - processPackages [betabageldb]: executing diffoscope
+[2023-07-01 13:39:58] INFO root fetch - processPackages [betabageldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betabageldb-0.1.0.tar.gz tmp/betabageldb-0.1.1.tar.gz --markdown 20230701/b/betabageldb/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 13:39:58] INFO root fetch - processPackages [archtool]: Downloading https://files.pythonhosted.org/packages/5f/0a/34801e67e726261f3d0d3ac607b47f71359336d8a351b9afa417494a8baf/archtool-0.1.5.tar.gz
+[2023-07-01 13:39:58] INFO root fetch - processPackages [archtool]: executing diffoscope
+[2023-07-01 13:39:58] INFO root fetch - processPackages [archtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archtool-0.1.0.tar.gz tmp/archtool-0.1.5.tar.gz --markdown 20230701/a/archtool/0.1.0-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 13:39:58] INFO root fetch - processPackages [kas]: executing diffoscope
+[2023-07-01 13:39:58] INFO root fetch - processPackages [kas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kas-3.3.tar.gz tmp/kas-4.0.tar.gz --markdown 20230701/k/kas/3.3-4.0/diff.md --exclude *.pyd
+[2023-07-01 13:39:59] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-1.0.5.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - processPackages [easy-spider-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_spider_tool-1.0.6.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - main [MainThread]: End processing [easy-spider-tool]: success
+[2023-07-01 13:39:59] INFO root fetch - processPackages [beku-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/beku_stackabletech-0.0.7-py3-none-any.whl.zip]
+[2023-07-01 13:39:59] INFO root fetch - processPackages [beku-stackabletech]: Remove: archive file [/home/abi/fetcher/tmp/beku_stackabletech-0.0.8-py3-none-any.whl.zip]
+[2023-07-01 13:39:59] INFO root fetch - main [MainThread]: End processing [beku-stackabletech]: success
+[2023-07-01 13:39:59] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.0.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - processPackages [betabageldb]: Remove: archive file [/home/abi/fetcher/tmp/betabageldb-0.1.1.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - main [MainThread]: End processing [betabageldb]: success
+[2023-07-01 13:39:59] INFO root fetch - processPackages [archtool]: Remove: archive file [/home/abi/fetcher/tmp/archtool-0.1.0.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - processPackages [archtool]: Remove: archive file [/home/abi/fetcher/tmp/archtool-0.1.5.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - main [MainThread]: End processing [archtool]: success
+[2023-07-01 13:39:59] INFO root fetch - processPackages [kas]: Remove: archive file [/home/abi/fetcher/tmp/kas-3.3.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - processPackages [kas]: Remove: archive file [/home/abi/fetcher/tmp/kas-4.0.tar.gz]
+[2023-07-01 13:39:59] INFO root fetch - main [MainThread]: End processing [kas]: success
+[2023-07-01 13:39:59] INFO root fetch - main [MainThread]: Store serial: [18721543]
