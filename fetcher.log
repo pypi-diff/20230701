@@ -9655,3 +9655,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 08:03:40] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-0.9.9.tar.gz]
 [2023-07-01 08:03:40] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-07-01 08:03:40] INFO root fetch - main [MainThread]: Store serial: [18720075]
+[2023-07-01 08:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720075]
+[2023-07-01 08:08:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 08:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mfhpo-simulator
+[2023-07-01 08:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cursesdict
+[2023-07-01 08:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lokzz-pylibrary
+[2023-07-01 08:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-07-01 08:08:49] INFO root fetch - processPackages [mfhpo-simulator]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-01 08:08:49] WARNING root fetch - processPackages [lokzz-pylibrary]: Skipping, unable to determine old version
+[2023-07-01 08:08:49] INFO root fetch - main [MainThread]: End processing [lokzz-pylibrary] error
+[2023-07-01 08:08:49] INFO root fetch - processPackages [cursesdict]: New version: [0.12] Old Version: [0.11]
+[2023-07-01 08:08:49] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230630] Old Version: [2.4.0.dev20230629]
+[2023-07-01 08:08:49] INFO root fetch - processPackages [cursesdict]: Downloading https://files.pythonhosted.org/packages/3d/23/a955cffb165d85a56a49f09ce13e41662783e00482d35eda87b0089a77f1/cursesdict-0.11.tar.gz
+[2023-07-01 08:08:49] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e7/4f/01dd6a2ef27a68a11ce25ebaf7fa7c32619e47274a032ce4052198df5409/pyg_nightly-2.4.0.dev20230629.tar.gz
+[2023-07-01 08:08:49] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/36/26/25899ee29818784522a5f16cfdc98aef38419d56b9c3f064fab057548a2a/mfhpo_simulator-1.2.0-py3-none-any.whl
+[2023-07-01 08:08:50] INFO root fetch - processPackages [cursesdict]: Downloading https://files.pythonhosted.org/packages/1c/1c/63aac8aa74a7012933ee844ae487b522a76475f37e55e50486735c9e6bea/cursesdict-0.12.tar.gz
+[2023-07-01 08:08:50] INFO root fetch - processPackages [mfhpo-simulator]: Downloading https://files.pythonhosted.org/packages/5b/d3/ec674d3acb47d9468beea81ef7906c0cfeb2ffdca96194b0a45b8bfeeea1/mfhpo_simulator-1.2.1-py3-none-any.whl
+[2023-07-01 08:08:50] INFO root fetch - processPackages [cursesdict]: executing diffoscope
+[2023-07-01 08:08:50] INFO root fetch - processPackages [cursesdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesdict-0.11.tar.gz tmp/cursesdict-0.12.tar.gz --markdown 20230701/c/cursesdict/0.11-0.12/diff.md --exclude *.pyd
+[2023-07-01 08:08:50] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/49/d5/4d77fde4651795c04cc15aa24c852abf9851dc23201d63ed6830e7e05162/pyg_nightly-2.4.0.dev20230630.tar.gz
+[2023-07-01 08:08:50] INFO root fetch - processPackages [mfhpo-simulator]: executing diffoscope
+[2023-07-01 08:08:50] INFO root fetch - processPackages [mfhpo-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_simulator-1.2.0-py3-none-any.whl.zip tmp/mfhpo_simulator-1.2.1-py3-none-any.whl.zip --markdown 20230701/m/mfhpo-simulator/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-01 08:08:50] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-07-01 08:08:50] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230629.tar.gz tmp/pyg_nightly-2.4.0.dev20230630.tar.gz --markdown 20230701/p/pyg-nightly/2.4.0.dev20230629-2.4.0.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 08:08:51] INFO root fetch - processPackages [cursesdict]: Remove: archive file [/home/abi/fetcher/tmp/cursesdict-0.11.tar.gz]
+[2023-07-01 08:08:51] INFO root fetch - processPackages [cursesdict]: Remove: archive file [/home/abi/fetcher/tmp/cursesdict-0.12.tar.gz]
+[2023-07-01 08:08:51] INFO root fetch - main [MainThread]: End processing [cursesdict]: success
+[2023-07-01 08:08:51] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.0-py3-none-any.whl.zip]
+[2023-07-01 08:08:51] INFO root fetch - processPackages [mfhpo-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_simulator-1.2.1-py3-none-any.whl.zip]
+[2023-07-01 08:08:51] INFO root fetch - main [MainThread]: End processing [mfhpo-simulator]: success
+[2023-07-01 08:08:55] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230629.tar.gz]
+[2023-07-01 08:08:55] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230630.tar.gz]
+[2023-07-01 08:08:55] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-07-01 08:08:55] INFO root fetch - main [MainThread]: Store serial: [18720091]
