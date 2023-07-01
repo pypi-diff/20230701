@@ -8667,3 +8667,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 06:07:27] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
 [2023-07-01 06:07:27] INFO root fetch - main [MainThread]: End processing [netron] error
 [2023-07-01 06:07:27] INFO root fetch - main [MainThread]: Store serial: [18719669]
+[2023-07-01 06:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719669]
+[2023-07-01 06:12:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 06:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netron
+[2023-07-01 06:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-universal
+[2023-07-01 06:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-maintenance-plan
+[2023-07-01 06:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhenglin
+[2023-07-01 06:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: functions-MVO-mahmudT24
+[2023-07-01 06:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idaes-examples
+[2023-07-01 06:12:36] INFO root fetch - processPackages [netron]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-07-01 06:12:36] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: New version: [15.0.1.7.0.4] Old Version: [15.0.1.7.0.3]
+[2023-07-01 06:12:36] WARNING root fetch - processPackages [functions-MVO-mahmudT24]: Skipping, unable to determine old version
+[2023-07-01 06:12:36] INFO root fetch - processPackages [idaes-examples]: New version: [2.1.0rc0] Old Version: [2.1.0]
+[2023-07-01 06:12:36] INFO root fetch - main [MainThread]: End processing [functions-MVO-mahmudT24] error
+[2023-07-01 06:12:36] INFO root fetch - processPackages [zhenglin]: New version: [0.13.2] Old Version: [0.13.1]
+[2023-07-01 06:12:36] INFO root fetch - processPackages [core-universal]: New version: [3.4.0] Old Version: [3.2.1]
+[2023-07-01 06:12:36] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/81/7c/8875b89c7e5f1d13a82611c466dc1b05c4a3adb2b2d3b1b21f8b7c6ccbd2/zhenglin-0.13.1.tar.gz
+[2023-07-01 06:12:36] INFO root fetch - processPackages [idaes-examples]: Downloading https://files.pythonhosted.org/packages/a7/f8/4c30e927c02fca658330f83a6e63a8b7bab1cb344255039ee3e0d8a66fcb/idaes-examples-2.1.0.tar.gz
+[2023-07-01 06:12:36] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/bd/58/bca373ac91aa60f71e04cc8f66ca5e57c3110225a23535646337d4987fe9/odoo_addon_maintenance_plan-15.0.1.7.0.3-py3-none-any.whl
+[2023-07-01 06:12:36] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/84/99/10990144d1521e5042a911b377d9a0b32968224a8d6863b935e9a7f0bbe2/core_universal-3.2.1-py2.py3-none-win_amd64.whl
+[2023-07-01 06:12:36] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 24640655>=10485760
+[2023-07-01 06:12:36] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2023-07-01 06:12:36] WARNING root fetch - processPackages [idaes-examples]: Skipping package: exceeds size limit 38510294>=10485760
+[2023-07-01 06:12:36] INFO root fetch - main [MainThread]: End processing [idaes-examples] error
+[2023-07-01 06:12:36] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/fd/18/fdb037aea96c531530a30601d155d289e33f845b9538debea34f8d82f94b/netron-7.0.2-py3-none-any.whl
+[2023-07-01 06:12:36] INFO root fetch - processPackages [zhenglin]: Downloading https://files.pythonhosted.org/packages/27/48/38fda385c28d3b4a38fbef4d6bf7dba31db95b93f900a538b7c18365572b/zhenglin-0.13.2.tar.gz
+[2023-07-01 06:12:36] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-07-01 06:12:36] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.0.1-py3-none-any.whl.zip tmp/netron-7.0.2-py3-none-any.whl.zip --markdown 20230701/n/netron/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-07-01 06:12:36] INFO root fetch - processPackages [zhenglin]: executing diffoscope
+[2023-07-01 06:12:36] INFO root fetch - processPackages [zhenglin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhenglin-0.13.1.tar.gz tmp/zhenglin-0.13.2.tar.gz --markdown 20230701/z/zhenglin/0.13.1-0.13.2/diff.md --exclude *.pyd
+[2023-07-01 06:12:37] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Downloading https://files.pythonhosted.org/packages/18/09/61b1a92920c9d939b2332d1543f06f025bed153d5cfa0a6be331c765210c/odoo_addon_maintenance_plan-15.0.1.7.0.4-py3-none-any.whl
+[2023-07-01 06:12:37] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: executing diffoscope
+[2023-07-01 06:12:37] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_plan-15.0.1.7.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_plan-15.0.1.7.0.4-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-maintenance-plan/15.0.1.7.0.3-15.0.1.7.0.4/diff.md --exclude *.pyd
+[2023-07-01 06:12:38] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.1.tar.gz]
+[2023-07-01 06:12:38] INFO root fetch - processPackages [zhenglin]: Remove: archive file [/home/abi/fetcher/tmp/zhenglin-0.13.2.tar.gz]
+[2023-07-01 06:12:38] INFO root fetch - main [MainThread]: End processing [zhenglin]: success
+[2023-07-01 06:12:38] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_plan-15.0.1.7.0.3-py3-none-any.whl.zip]
+[2023-07-01 06:12:38] INFO root fetch - processPackages [odoo-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_plan-15.0.1.7.0.4-py3-none-any.whl.zip]
+[2023-07-01 06:12:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-plan]: success
+[2023-07-01 06:12:39] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.1-py3-none-any.whl.zip]
+[2023-07-01 06:12:39] INFO root fetch - processPackages [netron]: Remove: archive file [/home/abi/fetcher/tmp/netron-7.0.2-py3-none-any.whl.zip]
+[2023-07-01 06:12:39] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-07-01 06:12:39] INFO root fetch - main [MainThread]: Store serial: [18719693]
