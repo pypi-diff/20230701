@@ -16235,3 +16235,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 18:15:13] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
 [2023-07-01 18:15:13] INFO root fetch - main [MainThread]: End processing [frictionless]: success
 [2023-07-01 18:15:13] INFO root fetch - main [MainThread]: Store serial: [18723005]
+[2023-07-01 18:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723005]
+[2023-07-01 18:20:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vit-l32-keras
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtorrent-rpc
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indexify
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lokzzpylib
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scikit-gbm
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-learngual
+[2023-07-01 18:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-jacc
+[2023-07-01 18:20:22] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 18:20:22] WARNING root fetch - processPackages [vit-l32-keras]: Skipping, unable to determine old version
+[2023-07-01 18:20:22] INFO root fetch - main [MainThread]: End processing [vit-l32-keras] error
+[2023-07-01 18:20:22] INFO root fetch - processPackages [scikit-gbm]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-01 18:20:22] WARNING root fetch - processPackages [lokzzpylib]: Skipping, unable to determine old version
+[2023-07-01 18:20:22] INFO root fetch - processPackages [indexify]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 18:20:22] INFO root fetch - main [MainThread]: End processing [lokzzpylib] error
+[2023-07-01 18:20:22] INFO root fetch - processPackages [rtorrent-rpc]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-learngual]: New version: [0.13.1] Old Version: [0.13]
+[2023-07-01 18:20:22] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/f2/66/f348a5011925c1184d84c090ae2828dbc10fdaae6969c1bd9d55d670713c/django-learngual-0.13.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-jacc]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-07-01 18:20:22] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/a4/ce/1891cab800fed694b4b7b09a1f1d8db1fe608844e80240674ee31a89d9c6/rtorrent_rpc-0.0.5.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-learngual]: Downloading https://files.pythonhosted.org/packages/26/54/0491da0c60f9d8447d874e128427df934272f88d08069f478a4529db1a7c/django-learngual-0.13.1.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [scikit-gbm]: Downloading https://files.pythonhosted.org/packages/58/f2/c4493d6ea6a49f921b9d64ae877529a91a389b8850c3ae9f4cca6f02c2e5/scikit-gbm-0.1.1.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-01 18:20:22] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/37/c0/e56e7a088e9663eb134029e5b24743fe805e8ad15b8fe56d1f983ca268f7/indexify-0.0.1.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-learngual]: executing diffoscope
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-learngual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-learngual-0.13.tar.gz tmp/django-learngual-0.13.1.tar.gz --markdown 20230701/d/django-learngual/0.13-0.13.1/diff.md --exclude *.pyd
+[2023-07-01 18:20:22] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-01 18:20:22] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230701/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 18:20:22] INFO root fetch - processPackages [django-jacc]: Downloading https://files.pythonhosted.org/packages/0c/21/831f15116bf7a834bc72192a85b961f2c86ba6f701e1363f7501e72c537f/django-jacc-3.9.4.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [rtorrent-rpc]: Downloading https://files.pythonhosted.org/packages/6f/e1/b7513eb63f94e17dbbc4b0737ee0d0ff1e3139214f9920331a616fe2b6e8/rtorrent_rpc-0.0.6.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [rtorrent-rpc]: executing diffoscope
+[2023-07-01 18:20:22] INFO root fetch - processPackages [rtorrent-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtorrent_rpc-0.0.5.tar.gz tmp/rtorrent_rpc-0.0.6.tar.gz --markdown 20230701/r/rtorrent-rpc/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 18:20:22] INFO root fetch - processPackages [scikit-gbm]: Downloading https://files.pythonhosted.org/packages/bd/62/591c322ff80b947fcf70c3dffeb15fafe2901ff0eaa31bf055a848fa5992/scikit-gbm-0.2.0.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/4f/db/2a97d28efe4244157cfb2cbfeb78d69fead7cd57e676064631c22d972da5/indexify-0.0.2.tar.gz
+[2023-07-01 18:20:22] INFO root fetch - processPackages [indexify]: executing diffoscope
+[2023-07-01 18:20:22] INFO root fetch - processPackages [indexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-0.0.1.tar.gz tmp/indexify-0.0.2.tar.gz --markdown 20230701/i/indexify/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 18:20:22] INFO root fetch - processPackages [scikit-gbm]: executing diffoscope
+[2023-07-01 18:20:22] INFO root fetch - processPackages [scikit-gbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-gbm-0.1.1.tar.gz tmp/scikit-gbm-0.2.0.tar.gz --markdown 20230701/s/scikit-gbm/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 18:20:23] INFO root fetch - processPackages [django-jacc]: Downloading https://files.pythonhosted.org/packages/25/e4/f995861511ca26ae4758c592155788cff5fa8ae37266bafa13bd4a155d7c/django-jacc-3.9.5.tar.gz
+[2023-07-01 18:20:23] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.5.tar.gz]
+[2023-07-01 18:20:23] INFO root fetch - processPackages [rtorrent-rpc]: Remove: archive file [/home/abi/fetcher/tmp/rtorrent_rpc-0.0.6.tar.gz]
+[2023-07-01 18:20:23] INFO root fetch - main [MainThread]: End processing [rtorrent-rpc]: success
+[2023-07-01 18:20:23] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.tar.gz]
+[2023-07-01 18:20:23] INFO root fetch - processPackages [django-learngual]: Remove: archive file [/home/abi/fetcher/tmp/django-learngual-0.13.1.tar.gz]
+[2023-07-01 18:20:23] INFO root fetch - main [MainThread]: End processing [django-learngual]: success
+[2023-07-01 18:20:23] INFO root fetch - processPackages [django-jacc]: executing diffoscope
+[2023-07-01 18:20:23] INFO root fetch - processPackages [django-jacc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jacc-3.9.4.tar.gz tmp/django-jacc-3.9.5.tar.gz --markdown 20230701/d/django-jacc/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-07-01 18:20:23] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-01 18:20:23] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-01 18:20:23] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-01 18:20:23] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.1.tar.gz]
+[2023-07-01 18:20:23] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.2.tar.gz]
+[2023-07-01 18:20:23] INFO root fetch - main [MainThread]: End processing [indexify]: success
+[2023-07-01 18:20:24] INFO root fetch - processPackages [scikit-gbm]: Remove: archive file [/home/abi/fetcher/tmp/scikit-gbm-0.1.1.tar.gz]
+[2023-07-01 18:20:24] INFO root fetch - processPackages [scikit-gbm]: Remove: archive file [/home/abi/fetcher/tmp/scikit-gbm-0.2.0.tar.gz]
+[2023-07-01 18:20:24] INFO root fetch - main [MainThread]: End processing [scikit-gbm]: success
+[2023-07-01 18:20:25] INFO root fetch - processPackages [django-jacc]: Remove: archive file [/home/abi/fetcher/tmp/django-jacc-3.9.4.tar.gz]
+[2023-07-01 18:20:25] INFO root fetch - processPackages [django-jacc]: Remove: archive file [/home/abi/fetcher/tmp/django-jacc-3.9.5.tar.gz]
+[2023-07-01 18:20:25] INFO root fetch - main [MainThread]: End processing [django-jacc]: success
+[2023-07-01 18:20:25] INFO root fetch - main [MainThread]: Store serial: [18723030]
