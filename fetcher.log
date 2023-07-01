@@ -18850,3 +18850,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:03:43] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.9.0.tar.gz]
 [2023-07-01 21:03:43] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
 [2023-07-01 21:03:43] INFO root fetch - main [MainThread]: Store serial: [18724172]
+[2023-07-01 21:08:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724172]
+[2023-07-01 21:08:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 21:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydwm1001
+[2023-07-01 21:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LxmlSoup
+[2023-07-01 21:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: granny-pliers
+[2023-07-01 21:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yfinance-cache
+[2023-07-01 21:08:53] INFO root fetch - processPackages [granny-pliers]: New version: [0.0.9] Old Version: [0.0.14]
+[2023-07-01 21:08:53] INFO root fetch - processPackages [pydwm1001]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-01 21:08:53] INFO root fetch - processPackages [yfinance-cache]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-01 21:08:53] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/fb/1e/1b0a4aba4499bdc0e15999f2a678b266ae64111927e65a22c08785aaae46/pydwm1001-0.8.0.tar.gz
+[2023-07-01 21:08:53] WARNING root fetch - processPackages [LxmlSoup]: Skipping, unable to determine old version
+[2023-07-01 21:08:53] INFO root fetch - main [MainThread]: End processing [LxmlSoup] error
+[2023-07-01 21:08:53] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/0c/80/57b3344522c2f69cc0c88912fdd7ef20dc5446a0eda296d518e94eae2e38/granny-pliers-0.0.14.tar.gz
+[2023-07-01 21:08:53] INFO root fetch - processPackages [yfinance-cache]: Downloading https://files.pythonhosted.org/packages/50/81/0acebcd806a07d2e78201218f4701687af20ee344824ec03ff7edc5641e7/yfinance-cache-0.4.3.tar.gz
+[2023-07-01 21:08:54] INFO root fetch - processPackages [pydwm1001]: Downloading https://files.pythonhosted.org/packages/79/63/570a1874310ed0391afe36f62c27a79cff711273ec9fa3bda10bb9bd5424/pydwm1001-0.9.0.tar.gz
+[2023-07-01 21:08:54] INFO root fetch - processPackages [granny-pliers]: Downloading https://files.pythonhosted.org/packages/20/f0/37fcc81ed273742c6409ea0c1d18a3553183ccb9578c1da42344c98289ad/granny-pliers-0.0.9.tar.gz
+[2023-07-01 21:08:54] INFO root fetch - processPackages [pydwm1001]: executing diffoscope
+[2023-07-01 21:08:54] INFO root fetch - processPackages [pydwm1001]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydwm1001-0.8.0.tar.gz tmp/pydwm1001-0.9.0.tar.gz --markdown 20230701/p/pydwm1001/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 21:08:54] INFO root fetch - processPackages [granny-pliers]: executing diffoscope
+[2023-07-01 21:08:54] INFO root fetch - processPackages [granny-pliers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granny-pliers-0.0.14.tar.gz tmp/granny-pliers-0.0.9.tar.gz --markdown 20230701/g/granny-pliers/0.0.14-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 21:08:54] INFO root fetch - processPackages [yfinance-cache]: Downloading https://files.pythonhosted.org/packages/2a/c7/2d4ca69c523c1cec8ab0b5aebf9c054ee72c263c9132af1da1e891fbe72a/yfinance-cache-0.4.4.tar.gz
+[2023-07-01 21:08:54] INFO root fetch - processPackages [yfinance-cache]: executing diffoscope
+[2023-07-01 21:08:54] INFO root fetch - processPackages [yfinance-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfinance-cache-0.4.3.tar.gz tmp/yfinance-cache-0.4.4.tar.gz --markdown 20230701/y/yfinance-cache/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-01 21:08:55] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.8.0.tar.gz]
+[2023-07-01 21:08:55] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.9.0.tar.gz]
+[2023-07-01 21:08:55] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
+[2023-07-01 21:08:55] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.14.tar.gz]
+[2023-07-01 21:08:55] INFO root fetch - processPackages [granny-pliers]: Remove: archive file [/home/abi/fetcher/tmp/granny-pliers-0.0.9.tar.gz]
+[2023-07-01 21:08:55] INFO root fetch - main [MainThread]: End processing [granny-pliers]: success
+[2023-07-01 21:08:56] INFO root fetch - processPackages [yfinance-cache]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-cache-0.4.3.tar.gz]
+[2023-07-01 21:08:56] INFO root fetch - processPackages [yfinance-cache]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-cache-0.4.4.tar.gz]
+[2023-07-01 21:08:56] INFO root fetch - main [MainThread]: End processing [yfinance-cache]: success
+[2023-07-01 21:08:56] INFO root fetch - main [MainThread]: Store serial: [18724199]
