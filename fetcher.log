@@ -15005,3 +15005,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:32:43] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.0a0-py3-none-any.whl.zip]
 [2023-07-01 16:32:43] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
 [2023-07-01 16:32:43] INFO root fetch - main [MainThread]: Store serial: [18722403]
+[2023-07-01 16:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722403]
+[2023-07-01 16:37:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 16:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lokzz-pylibrary
+[2023-07-01 16:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhOn
+[2023-07-01 16:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrimLog
+[2023-07-01 16:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wks
+[2023-07-01 16:37:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maroon
+[2023-07-01 16:37:52] WARNING root fetch - processPackages [lokzz-pylibrary]: Skipping, unable to determine old version
+[2023-07-01 16:37:52] INFO root fetch - main [MainThread]: End processing [lokzz-pylibrary] error
+[2023-07-01 16:37:52] INFO root fetch - processPackages [pyhOn]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-01 16:37:52] INFO root fetch - processPackages [wks]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-01 16:37:52] INFO root fetch - processPackages [maroon]: New version: [0.1.44] Old Version: [0.1.42]
+[2023-07-01 16:37:52] INFO root fetch - processPackages [TrimLog]: New version: [0.8.1] Old Version: [0.8.0.1]
+[2023-07-01 16:37:52] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/6c/72/36da1246fb49d43333501af660e158f2ee343025f8a0482c8cb0329a1af9/maroon-0.1.42.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/ea/21/a02ec05f27736d84fc536a77e7d8d4bff64042649263f7f166eb347f645e/pyhOn-0.9.0.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/6c/5c/39a111f1a929b0be03d8f2d168ea7e6b4b659b2e62e8f7fcd6aff1217232/wks-0.3.0.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [TrimLog]: Downloading https://files.pythonhosted.org/packages/d6/f9/334a0d15e28f641ad2db6151370977dc0ae504a8650738f4719af35fdf9f/TrimLog-0.8.0.1.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/32/d4/74c78a713d69dbd63fa0c083e97884577f0a0963624ea2ebd4cdc4a4b31b/maroon-0.1.44.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [wks]: Downloading https://files.pythonhosted.org/packages/a0/02/fd289fbc978395b00e5a44a7a70dd34be19cbf8e9c554e1fdd6e31b7f47e/wks-0.3.1.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [maroon]: executing diffoscope
+[2023-07-01 16:37:52] INFO root fetch - processPackages [maroon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maroon-0.1.42.tar.gz tmp/maroon-0.1.44.tar.gz --markdown 20230701/m/maroon/0.1.42-0.1.44/diff.md --exclude *.pyd
+[2023-07-01 16:37:52] INFO root fetch - processPackages [TrimLog]: Downloading https://files.pythonhosted.org/packages/13/64/0f5abd5cc17c0a8393cb79a1a4f21f6cd68589066dca34e7f47a2a0f8737/TrimLog-0.8.1.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [pyhOn]: Downloading https://files.pythonhosted.org/packages/bd/8e/c3ca4f478da222a67df9747f74292644f871e32df734b2eaaef829814af5/pyhOn-0.9.1.tar.gz
+[2023-07-01 16:37:52] INFO root fetch - processPackages [wks]: executing diffoscope
+[2023-07-01 16:37:52] INFO root fetch - processPackages [wks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wks-0.3.0.tar.gz tmp/wks-0.3.1.tar.gz --markdown 20230701/w/wks/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-01 16:37:52] INFO root fetch - processPackages [TrimLog]: executing diffoscope
+[2023-07-01 16:37:52] INFO root fetch - processPackages [TrimLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimLog-0.8.0.1.tar.gz tmp/TrimLog-0.8.1.tar.gz --markdown 20230701/T/TrimLog/0.8.0.1-0.8.1/diff.md --exclude *.pyd
+[2023-07-01 16:37:52] INFO root fetch - processPackages [pyhOn]: executing diffoscope
+[2023-07-01 16:37:52] INFO root fetch - processPackages [pyhOn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhOn-0.9.0.tar.gz tmp/pyhOn-0.9.1.tar.gz --markdown 20230701/p/pyhOn/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 16:37:53] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.42.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.44.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - main [MainThread]: End processing [maroon]: success
+[2023-07-01 16:37:53] INFO root fetch - processPackages [wks]: Remove: archive file [/home/abi/fetcher/tmp/wks-0.3.0.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - processPackages [wks]: Remove: archive file [/home/abi/fetcher/tmp/wks-0.3.1.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - main [MainThread]: End processing [wks]: success
+[2023-07-01 16:37:53] INFO root fetch - processPackages [TrimLog]: Remove: archive file [/home/abi/fetcher/tmp/TrimLog-0.8.0.1.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - processPackages [TrimLog]: Remove: archive file [/home/abi/fetcher/tmp/TrimLog-0.8.1.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - main [MainThread]: End processing [TrimLog]: success
+[2023-07-01 16:37:53] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.0.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - processPackages [pyhOn]: Remove: archive file [/home/abi/fetcher/tmp/pyhOn-0.9.1.tar.gz]
+[2023-07-01 16:37:53] INFO root fetch - main [MainThread]: End processing [pyhOn]: success
+[2023-07-01 16:37:53] INFO root fetch - main [MainThread]: Store serial: [18722423]
