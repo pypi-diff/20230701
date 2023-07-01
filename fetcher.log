@@ -7475,3 +7475,238 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:46:10] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.1.0.tar.gz]
 [2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [cloci]: success
 [2023-07-01 04:46:10] INFO root fetch - main [MainThread]: Store serial: [18719318]
+[2023-07-01 04:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719318]
+[2023-07-01 04:51:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloci
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercury-sync
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloci
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trongrid-extractor
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fern-moneykit
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo11-addon-account-payment-order
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-cdd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2023-07-01 04:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-payment-partner
+[2023-07-01 04:51:19] INFO root fetch - processPackages [trongrid-extractor]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [fern-moneykit]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: New version: [16.0.1.2.1.1] Old Version: [16.0.1.2.1]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [python-cdd]: New version: [0.0.99rc5] Old Version: [0.0.99rc4]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: New version: [11.0.1.4.0.99.dev7] Old Version: [11.0.1.4.0.99.dev6]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/de/79/9220b744ac31d1332b2f52f244d134edce6b3500aa73a8ff6802f448b905/odoo_addon_account_payment_partner-16.0.1.2.1-py3-none-any.whl
+[2023-07-01 04:51:19] INFO root fetch - processPackages [fern-moneykit]: Downloading https://files.pythonhosted.org/packages/74/bb/f9a00240f0e5916c614c049d5feda681b341f196729c5c4c62bf7623c0c9/fern_moneykit-0.0.6.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/8b/1b/dcdf336b2af065a95c7f87939a1c50e28939f7e37a9ae70a69b12e5f5530/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/71/29/6699be8b8292201c20fe4a2ea3069f9a2691787193dd72d07af283f5c270/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev6-py2.py3-none-any.whl
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/3e/ae/c1cafe14ffbce76a4bcb09d8c45108194a9e56720db348085d635df8377a/cloci-0.1.1.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/7e/aa/481bbc97ab165d2e80432fb4d7527f64d73db81af67abdc544189ab64d69/trongrid_extractor-0.3.8.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/3e/ae/c1cafe14ffbce76a4bcb09d8c45108194a9e56720db348085d635df8377a/cloci-0.1.1.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [python-cdd]: Downloading https://files.pythonhosted.org/packages/aa/55/b3fc359cfc7c52355660d3b4b6a11a18d2ea22b43b113d9e57ec393a15f7/python-cdd-0.0.99rc4.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/12/80/0c1aad3e5c09eb460521c5a9e8e680676ebe09dcfdd90684459c6e5a70f4/odoo_addon_account_payment_partner-16.0.1.2.1.1-py3-none-any.whl
+[2023-07-01 04:51:19] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/c4/67/87fd9b51bdd554263d32edfefab3ec0b23602673b0783de9f1c53d72aca9/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [fern-moneykit]: Downloading https://files.pythonhosted.org/packages/2b/d2/7cbedb7ac6888ab50be27d2dcfaef9c1417b260fbadeccd83808b0af0a12/fern_moneykit-0.0.8.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230701/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_partner-16.0.1.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_partner-16.0.1.2.1.1-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-account-payment-partner/16.0.1.2.1-16.0.1.2.1.1/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-account-banking-sepa-direct-debit/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [fern-moneykit]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [fern-moneykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_moneykit-0.0.6.tar.gz tmp/fern_moneykit-0.0.8.tar.gz --markdown 20230701/f/fern-moneykit/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230701/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/4b/70/b0a9af5f6226a7b4f9b0a1798d4d65fb67823d8ce6388d71ec123fdc29d6/cloci-0.1.2.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/4b/70/b0a9af5f6226a7b4f9b0a1798d4d65fb67823d8ce6388d71ec123fdc29d6/cloci-0.1.2.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [python-cdd]: Downloading https://files.pythonhosted.org/packages/cb/56/ad218530a39e131a9a23e2fae4fff2ac6a0af71dfc827b23533b8206a860/python-cdd-0.0.99rc5.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [trongrid-extractor]: Downloading https://files.pythonhosted.org/packages/a5/62/ba802bdb2fef932f68b775f46a022ff2e73259d0eddc2ce5743f6314c9d0/trongrid_extractor-0.3.9.tar.gz
+[2023-07-01 04:51:19] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Downloading https://files.pythonhosted.org/packages/02/b4/d587f410c8acb7b8c6634e3ddebd6106f106b1dd3f825b8fffc5251586a2/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev7-py2.py3-none-any.whl
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloci-0.1.1.tar.gz tmp/cloci-0.1.2.tar.gz --markdown 20230701/c/cloci/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [cloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloci-0.1.1.tar.gz tmp/cloci-0.1.2.tar.gz --markdown 20230701/c/cloci/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 04:51:19] INFO root fetch - processPackages [python-cdd]: executing diffoscope
+[2023-07-01 04:51:19] INFO root fetch - processPackages [python-cdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-cdd-0.0.99rc4.tar.gz tmp/python-cdd-0.0.99rc5.tar.gz --markdown 20230701/p/python-cdd/0.0.99rc4-0.0.99rc5/diff.md --exclude *.pyd
+[2023-07-01 04:51:20] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: executing diffoscope
+[2023-07-01 04:51:20] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230701/o/odoo11-addon-account-payment-order/11.0.1.4.0.99.dev6-11.0.1.4.0.99.dev7/diff.md --exclude *.pyd
+[2023-07-01 04:51:20] INFO root fetch - processPackages [trongrid-extractor]: executing diffoscope
+[2023-07-01 04:51:20] INFO root fetch - processPackages [trongrid-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trongrid_extractor-0.3.8.tar.gz tmp/trongrid_extractor-0.3.9.tar.gz --markdown 20230701/t/trongrid-extractor/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-01 04:51:21] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [mercury-sync]: Start processing: odoo-addon-account-banking-pain-base
+[2023-07-01 04:51:21] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_partner-16.0.1.2.1-py3-none-any.whl.zip]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_partner-16.0.1.2.1.1-py3-none-any.whl.zip]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Start processing: odoo-addon-account-payment-purchase-stock
+[2023-07-01 04:51:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-partner]: success
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/77/cc/d40ec922ef963f78582b431a8d67117571ca492f12667a963600688aaf15/odoo_addon_account_banking_pain_base-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: Downloading https://files.pythonhosted.org/packages/6c/88/9ec1c6b2ae44201674454823a18e4113175122fcefe510bc82d89865f7a1/odoo_addon_account_payment_purchase_stock-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Start processing: odoo-addon-account-banking-mandate
+[2023-07-01 04:51:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.2.8] Old Version: [16.0.1.0.2.7]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/eb/c1/ec17b3175233569ea443f3943d8e2d10ebd5fdbadafbc5275710e6fd6ff5/odoo_addon_account_banking_mandate-16.0.1.0.2.7-py3-none-any.whl
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/b1/41/3a30fb9c90e95c974aa027f97a615c579742ff99b5a43d386697fd710658/odoo_addon_account_banking_pain_base-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: Downloading https://files.pythonhosted.org/packages/3b/e7/dc63db0d5628a6e1e1cd062ba39e248b235651693bb33f2da6f4b320b1cd/odoo_addon_account_payment_purchase_stock-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: executing diffoscope
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_pain_base-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_banking_pain_base-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-account-banking-pain-base/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/ee/c8/6f943f32624d131567e2560891cb1ab135f515c02dfce1a981529fe788aa/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: executing diffoscope
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_purchase_stock-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_purchase_stock-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-account-payment-purchase-stock/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-01 04:51:21] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.8.tar.gz]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [trongrid-extractor]: Remove: archive file [/home/abi/fetcher/tmp/trongrid_extractor-0.3.9.tar.gz]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [trongrid-extractor]: Start processing: odoo-addon-account-payment-order-grouped-output
+[2023-07-01 04:51:21] INFO root fetch - main [MainThread]: End processing [trongrid-extractor]: success
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.4]
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-account-banking-mandate/16.0.1.0.2.7-16.0.1.0.2.8/diff.md --exclude *.pyd
+[2023-07-01 04:51:21] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/1d/9d/0290eeb1c40f5389c221484fdd57e1987816b8df72d3bc21e6800268ab8c/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.4-py3-none-any.whl
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/aa/be/ce1cae8e65ac4af7eb9034dd18d9cce66cb86c93df1ec446e77e379d19e0/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.6-py3-none-any.whl
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: executing diffoscope
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230701/o/odoo-addon-account-payment-order-grouped-output/16.0.1.0.1.4-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_payment_order-11.0.1.4.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo11-addon-account-payment-order]: Start processing: perky
+[2023-07-01 04:51:22] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-payment-order]: success
+[2023-07-01 04:51:22] INFO root fetch - processPackages [perky]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase_stock-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase_stock-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-payment-purchase-stock]: Start processing: naif-eop-high-prec
+[2023-07-01 04:51:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase-stock]: success
+[2023-07-01 04:51:22] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/b4/1a/d87de762491b1538102164fefa7f2f3e6dc0c37b4b1c1ad411c48f5778dd/perky-0.8.1.tar.gz
+[2023-07-01 04:51:22] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.1] Old Version: [2023.6.9]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_pain_base-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_pain_base-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-01 04:51:22] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Start processing: SecureMessaging
+[2023-07-01 04:51:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-pain-base]: success
+[2023-07-01 04:51:22] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-07-01 04:51:22] ERROR root fetch - processPackages [SecureMessaging]: Unable to get metadata: No such project 'SecureMessaging'
+[2023-07-01 04:51:22] INFO root fetch - main [MainThread]: End processing [SecureMessaging] error
+[2023-07-01 04:51:23] INFO root fetch - processPackages [perky]: Downloading https://files.pythonhosted.org/packages/5a/f8/6ca5d83a4d7a4e20a428e24d4637e4172508c4b1f5042a6db92f4d7cf210/perky-0.8.2.tar.gz
+[2023-07-01 04:51:23] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.1.1.tar.gz]
+[2023-07-01 04:51:23] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.1.2.tar.gz]
+[2023-07-01 04:51:23] INFO root fetch - main [MainThread]: End processing [cloci]: success
+[2023-07-01 04:51:23] INFO root fetch - processPackages [perky]: executing diffoscope
+[2023-07-01 04:51:23] INFO root fetch - processPackages [perky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perky-0.8.1.tar.gz tmp/perky-0.8.2.tar.gz --markdown 20230701/p/perky/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-01 04:51:23] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-07-01 04:51:23] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate-16.0.1.0.2.8-py3-none-any.whl.zip]
+[2023-07-01 04:51:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-07-01 04:51:23] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-07-01 04:51:23] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-01 04:51:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-grouped-output]: success
+[2023-07-01 04:51:23] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/cb/3b/1a56894beca28d25bea06446664c669924eaf5c4041d52f442aeb7e864eb/naif_eop_high_prec-2023.7.1.tar.gz
+[2023-07-01 04:51:23] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-01 04:51:23] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.9.tar.gz tmp/naif_eop_high_prec-2023.7.1.tar.gz --markdown 20230701/n/naif-eop-high-prec/2023.6.9-2023.7.1/diff.md --exclude *.pyd
+[2023-07-01 04:51:23] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.6.tar.gz]
+[2023-07-01 04:51:23] INFO root fetch - processPackages [fern-moneykit]: Remove: archive file [/home/abi/fetcher/tmp/fern_moneykit-0.0.8.tar.gz]
+[2023-07-01 04:51:23] INFO root fetch - main [MainThread]: End processing [fern-moneykit]: success
+[2023-07-01 04:51:23] ERROR root fetch - processPackages [cloci]: Diffoscope failed: gzip: tmp/cloci-0.1.2.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/cloci-0.1.2.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-07-01 04:51:23] INFO root fetch - main [MainThread]: End processing [cloci] error
+[2023-07-01 04:51:24] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.8.1.tar.gz]
+[2023-07-01 04:51:24] INFO root fetch - processPackages [perky]: Remove: archive file [/home/abi/fetcher/tmp/perky-0.8.2.tar.gz]
+[2023-07-01 04:51:24] INFO root fetch - main [MainThread]: End processing [perky]: success
+[2023-07-01 04:51:25] INFO root fetch - processPackages [python-cdd]: Remove: archive file [/home/abi/fetcher/tmp/python-cdd-0.0.99rc4.tar.gz]
+[2023-07-01 04:51:25] INFO root fetch - processPackages [python-cdd]: Remove: archive file [/home/abi/fetcher/tmp/python-cdd-0.0.99rc5.tar.gz]
+[2023-07-01 04:51:25] INFO root fetch - main [MainThread]: End processing [python-cdd]: success
+[2023-07-01 04:51:25] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-07-01 04:51:25] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-01 04:51:25] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-01 04:51:27] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-07-01 04:51:27] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.1.tar.gz]
+[2023-07-01 04:51:27] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-01 04:51:27] INFO root fetch - main [MainThread]: Store serial: [18719364]
