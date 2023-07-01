@@ -7400,3 +7400,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:40:58] INFO root fetch - processPackages [odoo-addon-account-product-fiscal-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_product_fiscal_classification-16.0.1.0.2.8-py3-none-any.whl.zip]
 [2023-07-01 04:40:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-product-fiscal-classification]: success
 [2023-07-01 04:40:58] INFO root fetch - main [MainThread]: Store serial: [18719292]
+[2023-07-01 04:46:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719292]
+[2023-07-01 04:46:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitcoll
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-plus-24
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qworker
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-diana-utils
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-passage-identity
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SecureMessaging
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloci
+[2023-07-01 04:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-25
+[2023-07-01 04:46:08] INFO root fetch - processPackages [gitcoll]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [drf-passage-identity]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [SecureMessaging]: New version: [3.8.9] Old Version: [3.8.8]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cloci]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [qworker]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [neon-diana-utils]: New version: [0.0.6a4] Old Version: [0.0.6a3]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-01 04:46:08] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/73/10/a9896c6bbdca0cf9ac7843d7f7c27011b399f84fd4ff3fa98046fc0cdfc8/SecureMessaging-3.8.8.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/35/49/d3bb8868e8e64074479bdf6a269f0a084474687fadcbeb3e4410f13baca9/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:46:08] INFO root fetch - processPackages [neon-diana-utils]: Downloading https://files.pythonhosted.org/packages/64/24/4790ac8ff4d56921ffedd892da3a1bfc8eee6808aa4e86bbf6f319de627e/neon_diana_utils-0.0.6a3-py3-none-any.whl
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/1e/5d/5a865f92f0321edaff1cf0d3892eb6031b0de03e10795a9daa9950c0e30b/gitcoll-0.0.17.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [drf-passage-identity]: Downloading https://files.pythonhosted.org/packages/2f/56/d20a819fb1abbab7dcd277b9bbbc7062def222b6b9e50751711c1ede1f64/drf-passage-identity-0.0.2.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/b3/30/534091a16ad6fbdec08d920b15429451ad66c4c803b1cf9f58035160bc7b/cloci-0.0.9.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [neon-diana-utils]: Downloading https://files.pythonhosted.org/packages/71/c7/fb781895f66bb3f26d95a3c967c040747be83d52ffb972594a6e8b95d110/neon_diana_utils-0.0.6a4-py3-none-any.whl
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/ba/d2/fb4c2067799bbadd50502731c5d6b1d2438e2a47150d0917f886b5a815f2/SecureMessaging-3.8.9.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/9b/67/1209f6e42b440d42baac45302a76d99da5b7b66846f124ab25595741b6ea/qworker-1.9.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [neon-diana-utils]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [neon-diana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_diana_utils-0.0.6a3-py3-none-any.whl.zip tmp/neon_diana_utils-0.0.6a4-py3-none-any.whl.zip --markdown 20230701/n/neon-diana-utils/0.0.6a3-0.0.6a4/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230701/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [SecureMessaging]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [SecureMessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecureMessaging-3.8.8.tar.gz tmp/SecureMessaging-3.8.9.tar.gz --markdown 20230701/S/SecureMessaging/3.8.8-3.8.9/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [drf-passage-identity]: Downloading https://files.pythonhosted.org/packages/de/e8/82c108efc313c184bcc17514b07dfe7ba04b68373ef5a10fc93f82412670/drf-passage-identity-0.0.3.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [gitcoll]: Downloading https://files.pythonhosted.org/packages/1a/72/d40e5891f173b39f17cd147fd5433ca75e79e27a7b2b3009ffbef6c89902/gitcoll-0.0.18.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230701/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cloci]: Downloading https://files.pythonhosted.org/packages/0d/72/754e92676e051e0562a22efb3515d149d025f0963e56fdaf7cd63db241ce/cloci-0.1.0.tar.gz
+[2023-07-01 04:46:08] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/q/qworker/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [drf-passage-identity]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [drf-passage-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-passage-identity-0.0.2.tar.gz tmp/drf-passage-identity-0.0.3.tar.gz --markdown 20230701/d/drf-passage-identity/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [gitcoll]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [gitcoll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitcoll-0.0.17.tar.gz tmp/gitcoll-0.0.18.tar.gz --markdown 20230701/g/gitcoll/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cloci]: executing diffoscope
+[2023-07-01 04:46:08] INFO root fetch - processPackages [cloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloci-0.0.9.tar.gz tmp/cloci-0.1.0.tar.gz --markdown 20230701/c/cloci/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-01 04:46:09] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-3.8.8.tar.gz]
+[2023-07-01 04:46:09] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-3.8.9.tar.gz]
+[2023-07-01 04:46:09] INFO root fetch - main [MainThread]: End processing [SecureMessaging]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [neon-diana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_diana_utils-0.0.6a3-py3-none-any.whl.zip]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [neon-diana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon_diana_utils-0.0.6a4-py3-none-any.whl.zip]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [neon-diana-utils]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [drf-passage-identity]: Remove: archive file [/home/abi/fetcher/tmp/drf-passage-identity-0.0.2.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [drf-passage-identity]: Remove: archive file [/home/abi/fetcher/tmp/drf-passage-identity-0.0.3.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [drf-passage-identity]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.17.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [gitcoll]: Remove: archive file [/home/abi/fetcher/tmp/gitcoll-0.0.18.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [gitcoll]: success
+[2023-07-01 04:46:10] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.0.9.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - processPackages [cloci]: Remove: archive file [/home/abi/fetcher/tmp/cloci-0.1.0.tar.gz]
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: End processing [cloci]: success
+[2023-07-01 04:46:10] INFO root fetch - main [MainThread]: Store serial: [18719318]
