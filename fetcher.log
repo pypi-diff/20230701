@@ -14026,3 +14026,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:11:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.30-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-01 15:11:04] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-07-01 15:11:04] INFO root fetch - main [MainThread]: Store serial: [18721957]
+[2023-07-01 15:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721957]
+[2023-07-01 15:16:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-pandas
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: season
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycramfs
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-pytorch
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datawhispers
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-puller
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-07-01 15:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-bili-push
+[2023-07-01 15:16:19] INFO root fetch - processPackages [pycramfs]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [langflow]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [xia-puller]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [datawhispers]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [season]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/8c/bb/df0397c690142374fe5cc52134d7e4461b82626db9823c3d3baca67c4495/langflow-0.2.8.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/ff/c0/ceae42c9248e6c2b60f56d2ed27e9685c62c5b4083307ef441a62f14251b/season-2.3.8-py3-none-any.whl
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/79/d3/5d8f07d29b8d1478b93343eadea2c3c7de270b76ea30099781a1b6babcda/datawhispers-0.2.2.tar.gz
+[2023-07-01 15:16:19] WARNING root fetch - processPackages [season]: Skipping package: exceeds size limit 13772906>=10485760
+[2023-07-01 15:16:19] INFO root fetch - processPackages [season]: Start processing: PyroFork-dev
+[2023-07-01 15:16:19] INFO root fetch - main [MainThread]: End processing [season] error
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.3.dev202306301317] Old Version: [2.2.3.dev202306270958]
+[2023-07-01 15:16:19] INFO root fetch - processPackages [pycramfs]: Downloading https://files.pythonhosted.org/packages/57/01/bc036b907609967ed810552c91827b2dbafc4408d8690d7495c6a2f3732e/pycramfs-1.0.0.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/f4/20/2c0e4c6f0de33d0b4bb089855ac9daaf1ce5536dc80182f193e9ac0cc14c/xia_puller-0.0.19-cp39-none-win_amd64.whl
+[2023-07-01 15:16:19] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/5c/8c/1cd925ce2e835f679a08dc2621c9da5c48c1440fb401fa276b1a8dea1294/PyroFork-dev-2.2.3.dev202306270958.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230701/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230701/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230701/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230701/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/08/a8/b7023e44d8be8d1c885fde686c8dac151027089f7419dde947f6b7f98533/langflow-0.2.9.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/0a/f4/6a91131e697405cce726149d6ffc61e08fb1e8a7c4e10c943764f31d33c9/PyroFork-dev-2.2.3.dev202306301317.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/6b/0c/3769bafa68690d1e6edffb5e959b25c818d89bccc859016e68d5e7b1b1ea/datawhispers-0.2.3.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.3.dev202306270958.tar.gz tmp/PyroFork-dev-2.2.3.dev202306301317.tar.gz --markdown 20230701/P/PyroFork-dev/2.2.3.dev202306270958-2.2.3.dev202306301317/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.2.8.tar.gz tmp/langflow-0.2.9.tar.gz --markdown 20230701/l/langflow/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.2.tar.gz tmp/datawhispers-0.2.3.tar.gz --markdown 20230701/d/datawhispers/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/7a/de/eb6aaa4df9bfca89e16091310ba9209ee5026d1ad5eaaaa17aa8e4121daf/nonebot_plugin_bili_push-0.1.9.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [pycramfs]: Downloading https://files.pythonhosted.org/packages/c0/c3/2267655bc9a03f8e6c4248d42ebab724760f94e46324e7f6331f01b24359/pycramfs-1.1.0.tar.gz
+[2023-07-01 15:16:19] INFO root fetch - processPackages [pycramfs]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [pycramfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycramfs-1.0.0.tar.gz tmp/pycramfs-1.1.0.tar.gz --markdown 20230701/p/pycramfs/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [xia-puller]: Downloading https://files.pythonhosted.org/packages/32/b8/fe1615f53cc1c40aa19be303c3d93b898d8729b5ba04b1756c67a092fa63/xia_puller-0.0.20-cp39-none-win_amd64.whl
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.8.tar.gz tmp/nonebot_plugin_bili_push-0.1.9.tar.gz --markdown 20230701/n/nonebot-plugin-bili-push/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 15:16:19] INFO root fetch - processPackages [xia-puller]: executing diffoscope
+[2023-07-01 15:16:19] INFO root fetch - processPackages [xia-puller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_puller-0.0.19-cp39-none-win_amd64.whl.zip tmp/xia_puller-0.0.20-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-puller/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-07-01 15:16:20] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-01 15:16:20] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-01 15:16:20] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-01 15:16:20] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-01 15:16:20] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-01 15:16:20] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-01 15:16:21] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-01 15:16:21] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.9.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-07-01 15:16:21] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.2.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.3.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 15:16:21] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.19-cp39-none-win_amd64.whl.zip]
+[2023-07-01 15:16:21] INFO root fetch - processPackages [xia-puller]: Remove: archive file [/home/abi/fetcher/tmp/xia_puller-0.0.20-cp39-none-win_amd64.whl.zip]
+[2023-07-01 15:16:21] INFO root fetch - main [MainThread]: End processing [xia-puller]: success
+[2023-07-01 15:16:21] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-01 15:16:21] INFO root fetch - processPackages [pycramfs]: Remove: archive file [/home/abi/fetcher/tmp/pycramfs-1.0.0.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - processPackages [pycramfs]: Remove: archive file [/home/abi/fetcher/tmp/pycramfs-1.1.0.tar.gz]
+[2023-07-01 15:16:21] INFO root fetch - main [MainThread]: End processing [pycramfs]: success
+[2023-07-01 15:16:25] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306270958.tar.gz]
+[2023-07-01 15:16:25] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.3.dev202306301317.tar.gz]
+[2023-07-01 15:16:25] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-07-01 15:16:45] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.8.tar.gz]
+[2023-07-01 15:16:45] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
+[2023-07-01 15:16:45] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-07-01 15:16:45] INFO root fetch - main [MainThread]: Store serial: [18721993]
