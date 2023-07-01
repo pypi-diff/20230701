@@ -20265,3 +20265,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:39:52] INFO root fetch - processPackages [zundamonai-streamer]: Remove: archive file [/home/abi/fetcher/tmp/zundamonai-streamer-2.0.1.tar.gz]
 [2023-07-01 23:39:52] INFO root fetch - main [MainThread]: End processing [zundamonai-streamer]: success
 [2023-07-01 23:39:52] INFO root fetch - main [MainThread]: Store serial: [18724755]
+[2023-07-01 23:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724755]
+[2023-07-01 23:45:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 23:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enigmacrypt
+[2023-07-01 23:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-quality-rules-tools
+[2023-07-01 23:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytao
+[2023-07-01 23:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shaho
+[2023-07-01 23:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tweet-capture
+[2023-07-01 23:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tja2fumen
+[2023-07-01 23:45:03] INFO root fetch - processPackages [shaho]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tweet-capture]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-01 23:45:03] INFO root fetch - processPackages [enigmacrypt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 23:45:03] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tja2fumen]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-01 23:45:03] INFO root fetch - processPackages [pytao]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 23:45:03] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/c5/e5/a294a27913597ba1c093563520b2bd6629dc2b5c9182b87affb4a8e192b0/spark_quality_rules_tools-0.3.5.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [shaho]: Downloading https://files.pythonhosted.org/packages/c2/0e/dbf470fd7eeae6b3fee74a381654abbffacb8753b7aecebd9f5d6f309753/shaho-1.0.0.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [enigmacrypt]: Downloading https://files.pythonhosted.org/packages/44/5d/fdd57e8bcd7c2585e44af406ba492763095712ea3faf468b14d9841b4aea/enigmacrypt-0.0.4.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tweet-capture]: Downloading https://files.pythonhosted.org/packages/92/fc/5a51006c2a97e5785524995048884ddcbe9fc67807f06fc87da1c779ec1a/tweet-capture-0.1.9.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/5c/cf/8cf5146e8314a3021145a591b1b0014ade3125322b8c0e7d34628fa7bc7b/tja2fumen-0.1.1.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [pytao]: Downloading https://files.pythonhosted.org/packages/0d/e0/6770ba48482752a80997e2b7b6f5f9236353c59f01cc4f5f908d438a1688/pytao-0.2.3.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/ed/b7/bdd23ec657577661e87cd54a8fc90086f9f64e444219e44342c1c9c81717/spark_quality_rules_tools-0.3.6.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [shaho]: Downloading https://files.pythonhosted.org/packages/58/cd/ddab95bf01109d8ac3bb0cac9b1f3b3d2c8d5c9a18a922bddf4dad9d4e28/shaho-2.0.0.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [enigmacrypt]: Downloading https://files.pythonhosted.org/packages/40/7c/1b8683ae815a1c1422d998cd6553414c130e81fc836c70b5cbe8939bd7a0/enigmacrypt-0.0.5.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-01 23:45:03] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.3.5.tar.gz tmp/spark_quality_rules_tools-0.3.6.tar.gz --markdown 20230701/s/spark-quality-rules-tools/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-01 23:45:03] INFO root fetch - processPackages [shaho]: executing diffoscope
+[2023-07-01 23:45:03] INFO root fetch - processPackages [shaho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaho-1.0.0.tar.gz tmp/shaho-2.0.0.tar.gz --markdown 20230701/s/shaho/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/e1/0c/face35eca4643d3b5d0b51dd0954836369db97c71e07b39e2c815512b626/tja2fumen-0.2.0.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [enigmacrypt]: executing diffoscope
+[2023-07-01 23:45:03] INFO root fetch - processPackages [enigmacrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigmacrypt-0.0.4.tar.gz tmp/enigmacrypt-0.0.5.tar.gz --markdown 20230701/e/enigmacrypt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 23:45:03] INFO root fetch - processPackages [pytao]: Downloading https://files.pythonhosted.org/packages/8c/77/6bc99e6729d5b104b32b5912f439f0ee62a86f4ee15a86ba5e2fbd3d06be/pytao-0.2.4.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.1.1.tar.gz tmp/tja2fumen-0.2.0.tar.gz --markdown 20230701/t/tja2fumen/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 23:45:03] INFO root fetch - processPackages [pytao]: executing diffoscope
+[2023-07-01 23:45:03] INFO root fetch - processPackages [pytao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytao-0.2.3.tar.gz tmp/pytao-0.2.4.tar.gz --markdown 20230701/p/pytao/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tweet-capture]: Downloading https://files.pythonhosted.org/packages/98/99/80963c9fdd91e078fb656591948d013264ae49d4eee47ca927a7b0555677/tweet-capture-0.2.0.tar.gz
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tweet-capture]: executing diffoscope
+[2023-07-01 23:45:03] INFO root fetch - processPackages [tweet-capture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweet-capture-0.1.9.tar.gz tmp/tweet-capture-0.2.0.tar.gz --markdown 20230701/t/tweet-capture/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 23:45:04] INFO root fetch - processPackages [shaho]: Remove: archive file [/home/abi/fetcher/tmp/shaho-1.0.0.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - processPackages [shaho]: Remove: archive file [/home/abi/fetcher/tmp/shaho-2.0.0.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - main [MainThread]: End processing [shaho]: success
+[2023-07-01 23:45:04] INFO root fetch - processPackages [enigmacrypt]: Remove: archive file [/home/abi/fetcher/tmp/enigmacrypt-0.0.4.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - processPackages [enigmacrypt]: Remove: archive file [/home/abi/fetcher/tmp/enigmacrypt-0.0.5.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - main [MainThread]: End processing [enigmacrypt]: success
+[2023-07-01 23:45:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.5.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.6.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-01 23:45:04] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.1.1.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.2.0.tar.gz]
+[2023-07-01 23:45:04] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-07-01 23:45:05] INFO root fetch - processPackages [tweet-capture]: Remove: archive file [/home/abi/fetcher/tmp/tweet-capture-0.1.9.tar.gz]
+[2023-07-01 23:45:05] INFO root fetch - processPackages [tweet-capture]: Remove: archive file [/home/abi/fetcher/tmp/tweet-capture-0.2.0.tar.gz]
+[2023-07-01 23:45:05] INFO root fetch - main [MainThread]: End processing [tweet-capture]: success
+[2023-07-01 23:45:05] INFO root fetch - processPackages [pytao]: Remove: archive file [/home/abi/fetcher/tmp/pytao-0.2.3.tar.gz]
+[2023-07-01 23:45:05] INFO root fetch - processPackages [pytao]: Remove: archive file [/home/abi/fetcher/tmp/pytao-0.2.4.tar.gz]
+[2023-07-01 23:45:05] INFO root fetch - main [MainThread]: End processing [pytao]: success
+[2023-07-01 23:45:05] INFO root fetch - main [MainThread]: Store serial: [18724770]
