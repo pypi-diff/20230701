@@ -13432,3 +13432,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:11:18] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-07-01 14:11:18] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-07-01 14:11:18] INFO root fetch - main [MainThread]: Store serial: [18721675]
+[2023-07-01 14:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721675]
+[2023-07-01 14:16:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 14:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homewizard-climate-ws
+[2023-07-01 14:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hamed
+[2023-07-01 14:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-email-accounts
+[2023-07-01 14:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kayle
+[2023-07-01 14:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aplr
+[2023-07-01 14:16:27] INFO root fetch - processPackages [homewizard-climate-ws]: New version: [0.0.9] Old Version: [0.0.22]
+[2023-07-01 14:16:27] INFO root fetch - processPackages [kayle]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-01 14:16:27] WARNING root fetch - processPackages [hamed]: Skipping, unable to determine old version
+[2023-07-01 14:16:27] INFO root fetch - main [MainThread]: End processing [hamed] error
+[2023-07-01 14:16:27] INFO root fetch - processPackages [django-email-accounts]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-01 14:16:27] INFO root fetch - processPackages [aplr]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-01 14:16:27] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/91/53/2305502f1e6b46808a8dea0be653b3d7bf7fa1ab0a8e27b082b2961b8a76/kayle-0.5.8-py3-none-any.whl
+[2023-07-01 14:16:27] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/95/d2/5e71c83ef7837bf609034553d2edfbf4308ee130a7e9bcc30cf048187ca8/aplr-6.0.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-01 14:16:27] INFO root fetch - processPackages [homewizard-climate-ws]: Downloading https://files.pythonhosted.org/packages/d2/07/8c667c23ab5866969917fd71a528f603ac6fc252252d3d878ec9f4d16029/homewizard_climate_ws-0.0.22.tar.gz
+[2023-07-01 14:16:27] INFO root fetch - processPackages [django-email-accounts]: Downloading https://files.pythonhosted.org/packages/f0/60/4a6a7f4a0ef3489b4eb04d88c4511a31dd60a269bc725bda514d2611b268/django-email-accounts-0.2.0.tar.gz
+[2023-07-01 14:16:27] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/53/0a/d428491d9c47c3d70c6e36d95bb7d75a5dc4e8e40bcc979d4d8fd678b885/kayle-0.5.9-py3-none-any.whl
+[2023-07-01 14:16:27] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/53/1e/090de9a93759ee9a8ae4c89153e12961ae89227d76e49c3e319644d4c617/aplr-6.1.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-07-01 14:16:27] INFO root fetch - processPackages [homewizard-climate-ws]: Downloading https://files.pythonhosted.org/packages/79/8f/3bbd7f985f8504a9d180fdd7893b148fa4a4b73cdbe0efb972f24ac5ec5b/homewizard_climate_ws-0.0.9.tar.gz
+[2023-07-01 14:16:27] INFO root fetch - processPackages [aplr]: executing diffoscope
+[2023-07-01 14:16:27] INFO root fetch - processPackages [aplr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplr-6.0.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aplr-6.1.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230701/a/aplr/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-01 14:16:27] INFO root fetch - processPackages [django-email-accounts]: Downloading https://files.pythonhosted.org/packages/00/30/a382eb6f9689cd6cb796d34c9046d5357c37ee274945f00aaef14c663a85/django-email-accounts-0.3.0.tar.gz
+[2023-07-01 14:16:27] INFO root fetch - processPackages [kayle]: executing diffoscope
+[2023-07-01 14:16:27] INFO root fetch - processPackages [kayle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayle-0.5.8-py3-none-any.whl.zip tmp/kayle-0.5.9-py3-none-any.whl.zip --markdown 20230701/k/kayle/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-01 14:16:27] INFO root fetch - processPackages [django-email-accounts]: executing diffoscope
+[2023-07-01 14:16:27] INFO root fetch - processPackages [django-email-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-email-accounts-0.2.0.tar.gz tmp/django-email-accounts-0.3.0.tar.gz --markdown 20230701/d/django-email-accounts/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 14:16:27] INFO root fetch - processPackages [homewizard-climate-ws]: executing diffoscope
+[2023-07-01 14:16:27] INFO root fetch - processPackages [homewizard-climate-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homewizard_climate_ws-0.0.22.tar.gz tmp/homewizard_climate_ws-0.0.9.tar.gz --markdown 20230701/h/homewizard-climate-ws/0.0.22-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 14:16:28] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-6.0.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-01 14:16:28] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-6.1.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-07-01 14:16:28] INFO root fetch - main [MainThread]: End processing [aplr]: success
+[2023-07-01 14:16:28] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.8-py3-none-any.whl.zip]
+[2023-07-01 14:16:28] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.9-py3-none-any.whl.zip]
+[2023-07-01 14:16:28] INFO root fetch - main [MainThread]: End processing [kayle]: success
+[2023-07-01 14:16:29] INFO root fetch - processPackages [django-email-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django-email-accounts-0.2.0.tar.gz]
+[2023-07-01 14:16:29] INFO root fetch - processPackages [django-email-accounts]: Remove: archive file [/home/abi/fetcher/tmp/django-email-accounts-0.3.0.tar.gz]
+[2023-07-01 14:16:29] INFO root fetch - main [MainThread]: End processing [django-email-accounts]: success
+[2023-07-01 14:16:29] INFO root fetch - processPackages [homewizard-climate-ws]: Remove: archive file [/home/abi/fetcher/tmp/homewizard_climate_ws-0.0.22.tar.gz]
+[2023-07-01 14:16:29] INFO root fetch - processPackages [homewizard-climate-ws]: Remove: archive file [/home/abi/fetcher/tmp/homewizard_climate_ws-0.0.9.tar.gz]
+[2023-07-01 14:16:29] INFO root fetch - main [MainThread]: End processing [homewizard-climate-ws]: success
+[2023-07-01 14:16:29] INFO root fetch - main [MainThread]: Store serial: [18721693]
