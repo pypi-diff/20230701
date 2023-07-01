@@ -14447,3 +14447,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 15:45:25] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
 [2023-07-01 15:45:25] INFO root fetch - main [MainThread]: End processing [headless]: success
 [2023-07-01 15:45:25] INFO root fetch - main [MainThread]: Store serial: [18722134]
+[2023-07-01 15:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722134]
+[2023-07-01 15:50:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autobean-refactor
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transformers-supporter
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: serenity.sdk.python
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fogLedger
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrumit
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: npn
+[2023-07-01 15:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: copula-wrapper
+[2023-07-01 15:50:34] INFO root fetch - processPackages [autobean-refactor]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 15:50:34] WARNING root fetch - processPackages [fogLedger]: Skipping, unable to determine old version
+[2023-07-01 15:50:34] INFO root fetch - main [MainThread]: End processing [fogLedger] error
+[2023-07-01 15:50:34] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 15:50:34] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 15:50:34] INFO root fetch - processPackages [scrumit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 15:50:34] INFO root fetch - processPackages [copula-wrapper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 15:50:34] INFO root fetch - processPackages [serenity.sdk.python]: New version: [0.8.8] Old Version: [0.8.44]
+[2023-07-01 15:50:34] WARNING root fetch - processPackages [npn]: Skipping, unable to determine old version
+[2023-07-01 15:50:34] INFO root fetch - main [MainThread]: End processing [npn] error
+[2023-07-01 15:50:34] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/f0/9e/b18b7ffc849d15952f6a519c6312803671f4b8cedf0126d660ce5fdb4c9b/nonebot_plugin_spark_gpt-1.0.3.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [autobean-refactor]: Downloading https://files.pythonhosted.org/packages/2c/9f/ba9e07de71a5ccc6c4eb2989b29b843b266677ca1bc1e30653c89443310f/autobean-refactor-0.2.3.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [scrumit]: Downloading https://files.pythonhosted.org/packages/75/73/cdd6ad998cb4bbbd28c6464c3c8c1443a1cda54ff34609d0beccde2d0bad/scrumit-0.0.2.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [serenity.sdk.python]: Downloading https://files.pythonhosted.org/packages/b5/87/5aebfaf90c57437d29781bf29c88c688f0d7709b1e8a203adbbed230a845/serenity.sdk.python-0.8.44.tar.gz
+[2023-07-01 15:50:35] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11134327>=10485760
+[2023-07-01 15:50:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-01 15:50:35] INFO root fetch - processPackages [copula-wrapper]: Downloading https://files.pythonhosted.org/packages/e4/1e/04ab3946ae0ff8c4d87933fccd26af5916c9878d1bcf5bc4a6ad6b2499b7/copula_wrapper-0.1.4.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [serenity.sdk.python]: Downloading https://files.pythonhosted.org/packages/dc/6c/161562d7a4f262384d6d4b1d3c9c2fa2840e4fc06db18ccd55bec414475c/serenity.sdk.python-0.8.8.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [copula-wrapper]: Downloading https://files.pythonhosted.org/packages/8b/3c/827b26241c2eb2d6d66c7bb8941c8250256a23210f376b10df8bde8a8336/copula_wrapper-0.1.5.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [copula-wrapper]: executing diffoscope
+[2023-07-01 15:50:35] INFO root fetch - processPackages [scrumit]: Downloading https://files.pythonhosted.org/packages/43/18/3b6a44ba4bff51781c877d2044e7e08da82c39da496a33f2e3055a5f7e1b/scrumit-0.0.3.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [copula-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copula_wrapper-0.1.4.tar.gz tmp/copula_wrapper-0.1.5.tar.gz --markdown 20230701/c/copula-wrapper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 15:50:35] INFO root fetch - processPackages [serenity.sdk.python]: executing diffoscope
+[2023-07-01 15:50:35] INFO root fetch - processPackages [serenity.sdk.python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serenity.sdk.python-0.8.44.tar.gz tmp/serenity.sdk.python-0.8.8.tar.gz --markdown 20230701/s/serenity.sdk.python/0.8.44-0.8.8/diff.md --exclude *.pyd
+[2023-07-01 15:50:35] INFO root fetch - processPackages [autobean-refactor]: Downloading https://files.pythonhosted.org/packages/ee/fe/37e9ce6bc723b39da3cf0056a309a7223a603ced8b9b0ca34b8cd737e5f1/autobean-refactor-0.2.4.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-07-01 15:50:35] INFO root fetch - processPackages [scrumit]: executing diffoscope
+[2023-07-01 15:50:35] INFO root fetch - processPackages [scrumit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrumit-0.0.2.tar.gz tmp/scrumit-0.0.3.tar.gz --markdown 20230701/s/scrumit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 15:50:35] INFO root fetch - processPackages [autobean-refactor]: executing diffoscope
+[2023-07-01 15:50:35] INFO root fetch - processPackages [autobean-refactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobean-refactor-0.2.3.tar.gz tmp/autobean-refactor-0.2.4.tar.gz --markdown 20230701/a/autobean-refactor/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 15:50:35] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-07-01 15:50:35] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230701/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 15:50:36] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.44.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.8.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - main [MainThread]: End processing [serenity.sdk.python]: success
+[2023-07-01 15:50:36] INFO root fetch - processPackages [copula-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/copula_wrapper-0.1.4.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - processPackages [copula-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/copula_wrapper-0.1.5.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - main [MainThread]: End processing [copula-wrapper]: success
+[2023-07-01 15:50:36] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-07-01 15:50:36] INFO root fetch - processPackages [scrumit]: Remove: archive file [/home/abi/fetcher/tmp/scrumit-0.0.2.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - processPackages [scrumit]: Remove: archive file [/home/abi/fetcher/tmp/scrumit-0.0.3.tar.gz]
+[2023-07-01 15:50:36] INFO root fetch - main [MainThread]: End processing [scrumit]: success
+[2023-07-01 15:50:37] INFO root fetch - processPackages [autobean-refactor]: Remove: archive file [/home/abi/fetcher/tmp/autobean-refactor-0.2.3.tar.gz]
+[2023-07-01 15:50:37] INFO root fetch - processPackages [autobean-refactor]: Remove: archive file [/home/abi/fetcher/tmp/autobean-refactor-0.2.4.tar.gz]
+[2023-07-01 15:50:37] INFO root fetch - main [MainThread]: End processing [autobean-refactor]: success
+[2023-07-01 15:50:37] INFO root fetch - main [MainThread]: Store serial: [18722163]
