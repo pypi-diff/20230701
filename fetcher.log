@@ -12468,3 +12468,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:45:20] INFO root fetch - processPackages [unrollcuda]: Remove: archive file [/home/abi/fetcher/tmp/unrollcuda-0.0.7.tar.gz]
 [2023-07-01 12:45:20] INFO root fetch - main [MainThread]: End processing [unrollcuda]: success
 [2023-07-01 12:45:20] INFO root fetch - main [MainThread]: Store serial: [18721309]
+[2023-07-01 12:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721309]
+[2023-07-01 12:50:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hostb-client
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ambrosio
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-hep
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywhu3d
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RandomNameGenerator-RememberThisUser
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: play2048
+[2023-07-01 12:50:30] INFO root fetch - processPackages [hostb-client]: New version: [9] Old Version: [7]
+[2023-07-01 12:50:30] INFO root fetch - processPackages [scikit-hep]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-07-01 12:50:30] INFO root fetch - processPackages [pywhu3d]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 12:50:30] WARNING root fetch - processPackages [RandomNameGenerator-RememberThisUser]: Skipping, unable to determine old version
+[2023-07-01 12:50:30] INFO root fetch - main [MainThread]: End processing [RandomNameGenerator-RememberThisUser] error
+[2023-07-01 12:50:30] INFO root fetch - processPackages [play2048]: New version: [5.0] Old Version: [4.0]
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ambrosio]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ambrosio]: Downloading https://files.pythonhosted.org/packages/62/06/bb79576c1a7de6ddb8ad634c099fc044a91138c4a4add8346097d9ec4df4/ambrosio-0.0.2.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [hostb-client]: Downloading https://files.pythonhosted.org/packages/78/57/269550fde4f547c78af0ec3ac1833d6d30567cad46217b8e160a0d4f81e6/hostb_client-7.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [scikit-hep]: Downloading https://files.pythonhosted.org/packages/70/fb/af7ec0763785d092869449c83a3e92c5b4050b1ec410a2fb208b08337254/scikit-hep-5.1.0.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [play2048]: Downloading https://files.pythonhosted.org/packages/5e/3c/d9b29b4332c8e0fbcbe839f135154bbf298f65f6cfc8641177fe5ebad45d/play2048-4.0.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/9b/da/3b5585c96bfa354dba45d9557e3bf92ca77ded42fe015cc0ac2c8433b3f0/pywhu3d-0.2.3-py3-none-any.whl
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ambrosio]: Downloading https://files.pythonhosted.org/packages/8d/51/c581b403828f81f032b2f857bd288bf28d58c533c6ec0a6a99a78afbf451/ambrosio-0.0.3.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [hostb-client]: Downloading https://files.pythonhosted.org/packages/ca/de/edf158caaa3fe37238d0d0b25d90d992f11d804724dcb2dce7da550cf187/hostb_client-9.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ambrosio]: executing diffoscope
+[2023-07-01 12:50:30] INFO root fetch - processPackages [ambrosio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambrosio-0.0.2.tar.gz tmp/ambrosio-0.0.3.tar.gz --markdown 20230701/a/ambrosio/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 12:50:30] INFO root fetch - processPackages [play2048]: Downloading https://files.pythonhosted.org/packages/2d/ae/16371ee8aef3abb38157912414389fc5087c3077b72a7210d92b8c6d4c23/play2048-5.0.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/2e/14/6a333d8d26eecabab3e9cc64dacb65cc1fd1e15d6beecc6b0a144f4f9dc4/pywhu3d-0.2.4-py3-none-any.whl
+[2023-07-01 12:50:30] INFO root fetch - processPackages [scikit-hep]: Downloading https://files.pythonhosted.org/packages/9e/0f/926fdaaa1b993888d9d8ca8fa54297f5644336e278bcd28e16a08bfcbe2c/scikit-hep-5.1.1.tar.gz
+[2023-07-01 12:50:30] INFO root fetch - processPackages [pywhu3d]: executing diffoscope
+[2023-07-01 12:50:30] INFO root fetch - processPackages [pywhu3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhu3d-0.2.3-py3-none-any.whl.zip tmp/pywhu3d-0.2.4-py3-none-any.whl.zip --markdown 20230701/p/pywhu3d/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 12:50:30] INFO root fetch - processPackages [play2048]: executing diffoscope
+[2023-07-01 12:50:30] INFO root fetch - processPackages [play2048]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/play2048-4.0.tar.gz tmp/play2048-5.0.tar.gz --markdown 20230701/p/play2048/4.0-5.0/diff.md --exclude *.pyd
+[2023-07-01 12:50:30] INFO root fetch - processPackages [hostb-client]: executing diffoscope
+[2023-07-01 12:50:30] INFO root fetch - processPackages [hostb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostb_client-7.tar.gz tmp/hostb_client-9.tar.gz --markdown 20230701/h/hostb-client/7-9/diff.md --exclude *.pyd
+[2023-07-01 12:50:31] INFO root fetch - processPackages [scikit-hep]: executing diffoscope
+[2023-07-01 12:50:31] INFO root fetch - processPackages [scikit-hep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-hep-5.1.0.tar.gz tmp/scikit-hep-5.1.1.tar.gz --markdown 20230701/s/scikit-hep/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-07-01 12:50:31] INFO root fetch - processPackages [ambrosio]: Remove: archive file [/home/abi/fetcher/tmp/ambrosio-0.0.2.tar.gz]
+[2023-07-01 12:50:31] INFO root fetch - processPackages [ambrosio]: Remove: archive file [/home/abi/fetcher/tmp/ambrosio-0.0.3.tar.gz]
+[2023-07-01 12:50:31] INFO root fetch - main [MainThread]: End processing [ambrosio]: success
+[2023-07-01 12:50:32] INFO root fetch - processPackages [play2048]: Remove: archive file [/home/abi/fetcher/tmp/play2048-4.0.tar.gz]
+[2023-07-01 12:50:32] INFO root fetch - processPackages [play2048]: Remove: archive file [/home/abi/fetcher/tmp/play2048-5.0.tar.gz]
+[2023-07-01 12:50:32] INFO root fetch - main [MainThread]: End processing [play2048]: success
+[2023-07-01 12:50:32] INFO root fetch - processPackages [hostb-client]: Remove: archive file [/home/abi/fetcher/tmp/hostb_client-7.tar.gz]
+[2023-07-01 12:50:32] INFO root fetch - processPackages [hostb-client]: Remove: archive file [/home/abi/fetcher/tmp/hostb_client-9.tar.gz]
+[2023-07-01 12:50:32] INFO root fetch - main [MainThread]: End processing [hostb-client]: success
+[2023-07-01 12:50:32] INFO root fetch - processPackages [pywhu3d]: Remove: archive file [/home/abi/fetcher/tmp/pywhu3d-0.2.3-py3-none-any.whl.zip]
+[2023-07-01 12:50:32] INFO root fetch - processPackages [pywhu3d]: Remove: archive file [/home/abi/fetcher/tmp/pywhu3d-0.2.4-py3-none-any.whl.zip]
+[2023-07-01 12:50:32] INFO root fetch - main [MainThread]: End processing [pywhu3d]: success
+[2023-07-01 12:50:32] INFO root fetch - processPackages [scikit-hep]: Remove: archive file [/home/abi/fetcher/tmp/scikit-hep-5.1.0.tar.gz]
+[2023-07-01 12:50:32] INFO root fetch - processPackages [scikit-hep]: Remove: archive file [/home/abi/fetcher/tmp/scikit-hep-5.1.1.tar.gz]
+[2023-07-01 12:50:32] INFO root fetch - main [MainThread]: End processing [scikit-hep]: success
+[2023-07-01 12:50:32] INFO root fetch - main [MainThread]: Store serial: [18721328]
