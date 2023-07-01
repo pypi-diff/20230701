@@ -19954,3 +19954,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:05:39] INFO root fetch - processPackages [openabc]: Remove: archive file [/home/abi/fetcher/tmp/openabc-1.0.4.tar.gz]
 [2023-07-01 23:05:39] INFO root fetch - main [MainThread]: End processing [openabc]: success
 [2023-07-01 23:05:39] INFO root fetch - main [MainThread]: Store serial: [18724652]
+[2023-07-01 23:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724652]
+[2023-07-01 23:10:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 23:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flook
+[2023-07-01 23:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irc-api
+[2023-07-01 23:10:48] INFO root fetch - processPackages [irc-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 23:10:48] INFO root fetch - processPackages [flook]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-07-01 23:10:48] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/66/ea/9ee232f8850e3ac647a3c8d05d0c9cc9b47a2844c8c6a61227081a4f1c3d/irc_api-0.0.8.tar.gz
+[2023-07-01 23:10:49] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/18/17/6e0250efad39f43d24a4b14403da3dabbc123947fb959a5bc061e252a43b/flook-0.3.7.tar.gz
+[2023-07-01 23:10:49] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/c7/72/38d77564ad1b943d1a5109f2e8b8c49081e84167264f5dff3db40e58eecd/irc_api-0.0.9.tar.gz
+[2023-07-01 23:10:49] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-01 23:10:49] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-0.0.8.tar.gz tmp/irc_api-0.0.9.tar.gz --markdown 20230701/i/irc-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 23:10:49] INFO root fetch - processPackages [flook]: Downloading https://files.pythonhosted.org/packages/b5/36/70c037790cf1a59d8a417dbd1f7952c3928bf02e497c285740fa5ef9ea7f/flook-0.4.0.tar.gz
+[2023-07-01 23:10:49] INFO root fetch - processPackages [flook]: executing diffoscope
+[2023-07-01 23:10:49] INFO root fetch - processPackages [flook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flook-0.3.7.tar.gz tmp/flook-0.4.0.tar.gz --markdown 20230701/f/flook/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 23:10:50] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.8.tar.gz]
+[2023-07-01 23:10:50] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.9.tar.gz]
+[2023-07-01 23:10:50] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-01 23:10:50] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.3.7.tar.gz]
+[2023-07-01 23:10:50] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.4.0.tar.gz]
+[2023-07-01 23:10:50] INFO root fetch - main [MainThread]: End processing [flook]: success
+[2023-07-01 23:10:50] INFO root fetch - main [MainThread]: Store serial: [18724658]
