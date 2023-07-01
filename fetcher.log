@@ -19661,3 +19661,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:38:13] INFO root fetch - processPackages [TheengsDecoder]: Remove: archive file [/home/abi/fetcher/tmp/TheengsDecoder-1.5.7.tar.gz]
 [2023-07-01 22:38:13] INFO root fetch - main [MainThread]: End processing [TheengsDecoder]: success
 [2023-07-01 22:38:13] INFO root fetch - main [MainThread]: Store serial: [18724518]
+[2023-07-01 22:43:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724518]
+[2023-07-01 22:43:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prettyqt
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SafoneAPI
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ofscraper
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b2sim
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: functionlayer
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cachefunc
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linfa-vi
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyHershey-9000
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nibiru-proto
+[2023-07-01 22:43:21] WARNING root fetch - processPackages [functionlayer]: Skipping, unable to determine old version
+[2023-07-01 22:43:21] INFO root fetch - processPackages [functionlayer]: Start processing: knowledgelayer
+[2023-07-01 22:43:21] INFO root fetch - main [MainThread]: End processing [functionlayer] error
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ofscraper]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-07-01 22:43:21] INFO root fetch - processPackages [linfa-vi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-01 22:43:21] INFO root fetch - processPackages [cachefunc]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 22:43:21] INFO root fetch - processPackages [b2sim]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 22:43:21] INFO root fetch - processPackages [SafoneAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 22:43:21] INFO root fetch - processPackages [nibiru-proto]: New version: [0.21.3b1] Old Version: [0.20.0rc1]
+[2023-07-01 22:43:21] WARNING root fetch - processPackages [PyHershey-9000]: Skipping, unable to determine old version
+[2023-07-01 22:43:21] INFO root fetch - main [MainThread]: End processing [PyHershey-9000] error
+[2023-07-01 22:43:21] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-01 22:43:21] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/79/5a/487f63a0398656bf8b5042f5b5d83e6339b5d0933f5248449e5c0f4ec31b/b2sim-1.0.2.tar.gz
+[2023-07-01 22:43:21] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/de/bb/6dd4035b01c6e85d72e77b1c5ee7744515bf98b9af3a033c6aa7d38db233/ofscraper-2.6.3.tar.gz
+[2023-07-01 22:43:21] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/c9/b7/5c7071547a3cc864efccc1b68781333122766e6ec5a649666ea32624c700/cachefunc-0.2.3.tar.gz
+[2023-07-01 22:43:21] INFO root fetch - processPackages [kcli]: New version: [99.0.202307012041] Old Version: [99.0.202306301710]
+[2023-07-01 22:43:21] WARNING root fetch - processPackages [knowledgelayer]: Skipping, unable to determine old version
+[2023-07-01 22:43:21] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/74/80/2a2206ad9d3b8abe4db8ff4463fd028209750bee0ef6ce6a12ab4a5dba34/linfa_vi-1.0.4.tar.gz
+[2023-07-01 22:43:21] INFO root fetch - main [MainThread]: End processing [knowledgelayer] error
+[2023-07-01 22:43:21] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/05/5b/6debdbcdd53ce135c4e113b78435b46e93776d7acde62ea667cb6c60df79/nibiru_proto-0.20.0rc1.tar.gz
+[2023-07-01 22:43:21] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/14/60/100f541b0714ea50eafd168a2e695f6bcf173e50ce02cdcbd13db7f6a192/SafoneAPI-1.0.8.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [nibiru-proto]: Downloading https://files.pythonhosted.org/packages/19/0f/d18f4b7c483deb605bdc8f910267f2ba127ee6ad0b0be1dea95170365b9b/nibiru_proto-0.21.3b1.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/31/00/5f8bc1ef62192d1a9decc041609238bf52c3595d29c58bac5312a8d5ad61/kcli-99.0.202306301710-py3-none-any.whl
+[2023-07-01 22:43:22] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/bf/30/f43d9d1f33753e7e2c4d9cde63ff1c97080690e953388e542b608fcbb90d/cachefunc-0.2.4.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/10/22/cdf4cd9bb6d80a04618ab0d4b05f106941aacea4f0dc7c4c61529b59eaa2/b2sim-1.0.3.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [linfa-vi]: Downloading https://files.pythonhosted.org/packages/39/2e/9154f58b810c9bc67bc3d3ad080c963a50a11d00a2282108dfe56f74dc91/linfa_vi-1.0.5.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/3a/b2/9367dce2f0620794b2656819934fd7f20cbe4882082935859906ab8ffe9e/ofscraper-2.6.4.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [cachefunc]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [cachefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachefunc-0.2.3.tar.gz tmp/cachefunc-0.2.4.tar.gz --markdown 20230701/c/cachefunc/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [nibiru-proto]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [nibiru-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibiru_proto-0.20.0rc1.tar.gz tmp/nibiru_proto-0.21.3b1.tar.gz --markdown 20230701/n/nibiru-proto/0.20.0rc1-0.21.3b1/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.2.tar.gz tmp/b2sim-1.0.3.tar.gz --markdown 20230701/b/b2sim/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [linfa-vi]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [linfa-vi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linfa_vi-1.0.4.tar.gz tmp/linfa_vi-1.0.5.tar.gz --markdown 20230701/l/linfa-vi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.6.3.tar.gz tmp/ofscraper-2.6.4.tar.gz --markdown 20230701/o/ofscraper/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f3/53/824f6c7b9e977ea469c5c91d59fa06abf554439785ff5ae29dda9f64dff0/kcli-99.0.202307012041-py3-none-any.whl
+[2023-07-01 22:43:22] INFO root fetch - processPackages [SafoneAPI]: Downloading https://files.pythonhosted.org/packages/46/96/ce59fca22c5f72595a3481a42b0fbbb9592bb412f7b0916fbee2e6fb8c5b/SafoneAPI-1.0.9.tar.gz
+[2023-07-01 22:43:22] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306301710-py3-none-any.whl.zip tmp/kcli-99.0.202307012041-py3-none-any.whl.zip --markdown 20230701/k/kcli/99.0.202306301710-99.0.202307012041/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [SafoneAPI]: executing diffoscope
+[2023-07-01 22:43:22] INFO root fetch - processPackages [SafoneAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SafoneAPI-1.0.8.tar.gz tmp/SafoneAPI-1.0.9.tar.gz --markdown 20230701/S/SafoneAPI/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 22:43:22] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-07-01 22:43:23] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.3.tar.gz]
+[2023-07-01 22:43:23] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.4.tar.gz]
+[2023-07-01 22:43:23] INFO root fetch - main [MainThread]: End processing [cachefunc]: success
+[2023-07-01 22:43:23] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-07-01 22:43:23] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230701/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-01 22:43:23] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.2.tar.gz]
+[2023-07-01 22:43:23] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.3.tar.gz]
+[2023-07-01 22:43:23] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-01 22:43:23] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.3.tar.gz]
+[2023-07-01 22:43:23] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.6.4.tar.gz]
+[2023-07-01 22:43:23] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-07-01 22:43:24] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.0.4.tar.gz]
+[2023-07-01 22:43:24] INFO root fetch - processPackages [linfa-vi]: Remove: archive file [/home/abi/fetcher/tmp/linfa_vi-1.0.5.tar.gz]
+[2023-07-01 22:43:24] INFO root fetch - main [MainThread]: End processing [linfa-vi]: success
+[2023-07-01 22:43:24] INFO root fetch - processPackages [SafoneAPI]: Remove: archive file [/home/abi/fetcher/tmp/SafoneAPI-1.0.8.tar.gz]
+[2023-07-01 22:43:24] INFO root fetch - processPackages [SafoneAPI]: Remove: archive file [/home/abi/fetcher/tmp/SafoneAPI-1.0.9.tar.gz]
+[2023-07-01 22:43:24] INFO root fetch - main [MainThread]: End processing [SafoneAPI]: success
+[2023-07-01 22:43:25] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.20.0rc1.tar.gz]
+[2023-07-01 22:43:25] INFO root fetch - processPackages [nibiru-proto]: Remove: archive file [/home/abi/fetcher/tmp/nibiru_proto-0.21.3b1.tar.gz]
+[2023-07-01 22:43:25] INFO root fetch - main [MainThread]: End processing [nibiru-proto]: success
+[2023-07-01 22:43:30] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-07-01 22:43:30] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-07-01 22:43:30] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-07-01 22:43:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306301710-py3-none-any.whl.zip]
+[2023-07-01 22:43:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307012041-py3-none-any.whl.zip]
+[2023-07-01 22:43:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-01 22:43:32] INFO root fetch - main [MainThread]: Store serial: [18724554]
