@@ -12739,3 +12739,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:11:21] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
 [2023-07-01 13:11:21] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
 [2023-07-01 13:11:21] INFO root fetch - main [MainThread]: Store serial: [18721424]
+[2023-07-01 13:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721424]
+[2023-07-01 13:16:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycatalicism
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colt
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-numba
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssapi
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: canarypy
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoyt
+[2023-07-01 13:16:29] INFO root fetch - processPackages [colt]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-01 13:16:29] INFO root fetch - processPackages [ssapi]: New version: [0.9.1] Old Version: [0.4.2]
+[2023-07-01 13:16:29] INFO root fetch - processPackages [pycatalicism]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-01 13:16:29] INFO root fetch - processPackages [flake8-numba]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-01 13:16:29] INFO root fetch - processPackages [canarypy]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-01 13:16:30] WARNING root fetch - processPackages [autoyt]: Skipping, unable to determine old version
+[2023-07-01 13:16:30] INFO root fetch - main [MainThread]: End processing [autoyt] error
+[2023-07-01 13:16:30] INFO root fetch - processPackages [colt]: Downloading https://files.pythonhosted.org/packages/36/ca/96996917dc3d8a739948f1131a4a9bb2bdb795df4b7113b87ffa6c7c5575/colt-0.9.2.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [canarypy]: Downloading https://files.pythonhosted.org/packages/d1/27/53f9af4ad2132d68d67fd434b2dcd72a94115faab3914e39f6211e8be25a/canarypy-0.0.11-py3-none-any.whl
+[2023-07-01 13:16:30] INFO root fetch - processPackages [pycatalicism]: Downloading https://files.pythonhosted.org/packages/f0/6c/100e4b15e167e5938ff6087a0fb9b497e75405eb2e017b49f381f796da4d/pycatalicism-2.0.1.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/ad/14/fa4f269622fd07a2e862d78d4d28a88f402a4f406825f18167ed89ff42e1/ssapi-0.4.2.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [flake8-numba]: Downloading https://files.pythonhosted.org/packages/62/bc/9bfc9234dbd760afce3fef4f8fab1648920c90f593d48202c725a17ee6cf/flake8_numba-0.1.0.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [colt]: Downloading https://files.pythonhosted.org/packages/fb/8f/dfa8977d73d35b6bd615bcd525646456d72a46c119737c74395eaae9c2df/colt-0.9.3.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [colt]: executing diffoscope
+[2023-07-01 13:16:30] INFO root fetch - processPackages [colt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colt-0.9.2.tar.gz tmp/colt-0.9.3.tar.gz --markdown 20230701/c/colt/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-01 13:16:30] INFO root fetch - processPackages [canarypy]: Downloading https://files.pythonhosted.org/packages/24/70/e8430b1c2f5f0132b46609b6c8c05b34fc84d3b767995212c1dc994f8a36/canarypy-0.0.12-py3-none-any.whl
+[2023-07-01 13:16:30] INFO root fetch - processPackages [ssapi]: Downloading https://files.pythonhosted.org/packages/06/12/287b59e9246e5f57c2a4acfbe5074b435c5a84d24f4ccef8b87620be708c/ssapi-0.9.1.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [pycatalicism]: Downloading https://files.pythonhosted.org/packages/79/8d/8e729eb261ca16c78e8b0546c4f77fa6cc4a8c6fce32520354b568b53b9e/pycatalicism-2.0.2.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [canarypy]: executing diffoscope
+[2023-07-01 13:16:30] INFO root fetch - processPackages [canarypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canarypy-0.0.11-py3-none-any.whl.zip tmp/canarypy-0.0.12-py3-none-any.whl.zip --markdown 20230701/c/canarypy/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-01 13:16:30] INFO root fetch - processPackages [ssapi]: executing diffoscope
+[2023-07-01 13:16:30] INFO root fetch - processPackages [ssapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssapi-0.4.2.tar.gz tmp/ssapi-0.9.1.tar.gz --markdown 20230701/s/ssapi/0.4.2-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 13:16:30] INFO root fetch - processPackages [flake8-numba]: Downloading https://files.pythonhosted.org/packages/ff/19/e319cca95aca6af4ebc8482855df5290eea91062e9d82bb8dc0ef7acd7ab/flake8_numba-0.2.0.tar.gz
+[2023-07-01 13:16:30] INFO root fetch - processPackages [pycatalicism]: executing diffoscope
+[2023-07-01 13:16:30] INFO root fetch - processPackages [pycatalicism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatalicism-2.0.1.tar.gz tmp/pycatalicism-2.0.2.tar.gz --markdown 20230701/p/pycatalicism/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-01 13:16:30] INFO root fetch - processPackages [flake8-numba]: executing diffoscope
+[2023-07-01 13:16:30] INFO root fetch - processPackages [flake8-numba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_numba-0.1.0.tar.gz tmp/flake8_numba-0.2.0.tar.gz --markdown 20230701/f/flake8-numba/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-01 13:16:31] INFO root fetch - processPackages [colt]: Remove: archive file [/home/abi/fetcher/tmp/colt-0.9.2.tar.gz]
+[2023-07-01 13:16:31] INFO root fetch - processPackages [colt]: Remove: archive file [/home/abi/fetcher/tmp/colt-0.9.3.tar.gz]
+[2023-07-01 13:16:31] INFO root fetch - main [MainThread]: End processing [colt]: success
+[2023-07-01 13:16:31] INFO root fetch - processPackages [ssapi]: Remove: archive file [/home/abi/fetcher/tmp/ssapi-0.4.2.tar.gz]
+[2023-07-01 13:16:31] INFO root fetch - processPackages [ssapi]: Remove: archive file [/home/abi/fetcher/tmp/ssapi-0.9.1.tar.gz]
+[2023-07-01 13:16:31] INFO root fetch - main [MainThread]: End processing [ssapi]: success
+[2023-07-01 13:16:31] INFO root fetch - processPackages [flake8-numba]: Remove: archive file [/home/abi/fetcher/tmp/flake8_numba-0.1.0.tar.gz]
+[2023-07-01 13:16:31] INFO root fetch - processPackages [flake8-numba]: Remove: archive file [/home/abi/fetcher/tmp/flake8_numba-0.2.0.tar.gz]
+[2023-07-01 13:16:31] INFO root fetch - main [MainThread]: End processing [flake8-numba]: success
+[2023-07-01 13:16:31] INFO root fetch - processPackages [canarypy]: Remove: archive file [/home/abi/fetcher/tmp/canarypy-0.0.11-py3-none-any.whl.zip]
+[2023-07-01 13:16:31] INFO root fetch - processPackages [canarypy]: Remove: archive file [/home/abi/fetcher/tmp/canarypy-0.0.12-py3-none-any.whl.zip]
+[2023-07-01 13:16:31] INFO root fetch - main [MainThread]: End processing [canarypy]: success
+[2023-07-01 13:16:32] INFO root fetch - processPackages [pycatalicism]: Remove: archive file [/home/abi/fetcher/tmp/pycatalicism-2.0.1.tar.gz]
+[2023-07-01 13:16:32] INFO root fetch - processPackages [pycatalicism]: Remove: archive file [/home/abi/fetcher/tmp/pycatalicism-2.0.2.tar.gz]
+[2023-07-01 13:16:32] INFO root fetch - main [MainThread]: End processing [pycatalicism]: success
+[2023-07-01 13:16:32] INFO root fetch - main [MainThread]: Store serial: [18721443]
