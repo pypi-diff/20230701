@@ -11417,3 +11417,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 10:52:28] INFO root fetch - processPackages [tc-messageBroker]: Remove: archive file [/home/abi/fetcher/tmp/tc-messageBroker-1.3.0.tar.gz]
 [2023-07-01 10:52:28] INFO root fetch - main [MainThread]: End processing [tc-messageBroker]: success
 [2023-07-01 10:52:28] INFO root fetch - main [MainThread]: Store serial: [18720727]
+[2023-07-01 10:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720727]
+[2023-07-01 10:57:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanorequests
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stravalib
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: igraph
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: id-translation
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gdsfactory
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pswgen
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-advert-framework
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sweepai
+[2023-07-01 10:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: visionmetrics
+[2023-07-01 10:57:37] INFO root fetch - processPackages [id-translation]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [stravalib]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [igraph]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [sweepai]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [nanorequests]: New version: [1.0.1] Old Version: [1.0]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.9.0.3] Old Version: [2.8.4]
+[2023-07-01 10:57:37] WARNING root fetch - processPackages [pswgen]: Skipping, unable to determine old version
+[2023-07-01 10:57:37] INFO root fetch - main [MainThread]: End processing [pswgen] error
+[2023-07-01 10:57:37] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [stravalib]: Downloading https://files.pythonhosted.org/packages/85/61/bda22df50ec0e39f3fca569940ca41819338ffe2a30ed18335da5ed028df/stravalib-1.3.2.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/8a/89/8f005b87fd8839d451dfed2f537936d72f289a63a18ebd5237c5b1953969/sweepai-0.1.5.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [visionmetrics]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 10:57:37] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/6a/84/fe0f44a05ff45176d8e040126bed654999c659f38f299db336218f8f623e/nanorequests-1.0.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/32/68/f231f4118db57b07dab22c1dd1f916f283bdccdc07901cbe801427ec51cd/discord-advert-framework-2.8.4.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [id-translation]: Downloading https://files.pythonhosted.org/packages/93/4b/970380ad0289a855b03ebb03cc82cb6025c100a1a58f3bc82011bfa871af/id_translation-0.5.0.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [igraph]: Downloading https://files.pythonhosted.org/packages/f5/4b/987ea321e6522420094f4897dab09a2e56ab834ec4faa5cab49d92de50a0/igraph-0.9.8.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-07-01 10:57:37] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 18344561>=10485760
+[2023-07-01 10:57:37] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-07-01 10:57:37] INFO root fetch - processPackages [visionmetrics]: Downloading https://files.pythonhosted.org/packages/22/24/1ea7e91f8f76991bbc98a368dbc6eb5a7bf66dcdf652eb31016e96bca03c/visionmetrics-0.0.1.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [sweepai]: Downloading https://files.pythonhosted.org/packages/84/eb/ce46899366fae0c1d479183e24ece09065869dcab4287d5b26fcbf11b8ae/sweepai-0.1.7.tar.gz
+[2023-07-01 10:57:37] INFO root fetch - processPackages [stravalib]: Downloading https://files.pythonhosted.org/packages/ce/4b/d957a3bf938b3d082c7ce1880b56616f79a9dec0a3303a0fbd41abac8fe5/stravalib-1.3.3.tar.gz
+[2023-07-01 10:57:38] INFO root fetch - processPackages [nanorequests]: Downloading https://files.pythonhosted.org/packages/f5/8f/60891462ab49ee3a09b48213337e4c6a00eabf33823ca61deb463f755484/nanorequests-1.0.1.tar.gz
+[2023-07-01 10:57:38] INFO root fetch - processPackages [sweepai]: executing diffoscope
+[2023-07-01 10:57:38] INFO root fetch - processPackages [sweepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweepai-0.1.5.tar.gz tmp/sweepai-0.1.7.tar.gz --markdown 20230701/s/sweepai/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-07-01 10:57:38] INFO root fetch - processPackages [id-translation]: Downloading https://files.pythonhosted.org/packages/80/cc/036d710c208894b4a0b84209f534cd67f6aa52e38062d6e757a6c0200805/id_translation-0.5.1.tar.gz
+[2023-07-01 10:57:38] INFO root fetch - processPackages [stravalib]: executing diffoscope
+[2023-07-01 10:57:38] INFO root fetch - processPackages [stravalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stravalib-1.3.2.tar.gz tmp/stravalib-1.3.3.tar.gz --markdown 20230701/s/stravalib/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-01 10:57:38] INFO root fetch - processPackages [nanorequests]: executing diffoscope
+[2023-07-01 10:57:38] INFO root fetch - processPackages [nanorequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanorequests-1.0.tar.gz tmp/nanorequests-1.0.1.tar.gz --markdown 20230701/n/nanorequests/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-01 10:57:38] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-07-01 10:57:38] INFO root fetch - processPackages [id-translation]: executing diffoscope
+[2023-07-01 10:57:38] INFO root fetch - processPackages [id-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/id_translation-0.5.0.tar.gz tmp/id_translation-0.5.1.tar.gz --markdown 20230701/i/id-translation/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-01 10:57:38] INFO root fetch - processPackages [igraph]: Downloading https://files.pythonhosted.org/packages/2d/f4/e57c245478270d7af770601ac87776dfe9d6866cd96e2d770328f216a11a/igraph-0.9.9.tar.gz
+[2023-07-01 10:57:38] INFO root fetch - processPackages [visionmetrics]: Downloading https://files.pythonhosted.org/packages/7e/44/265f212a7b878c56a6c4bb928c80d466ca494b549d69fbd622d056e5aabc/visionmetrics-0.0.2.tar.gz
+[2023-07-01 10:57:38] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-07-01 10:57:38] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230701/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-07-01 10:57:38] INFO root fetch - processPackages [visionmetrics]: executing diffoscope
+[2023-07-01 10:57:38] INFO root fetch - processPackages [visionmetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionmetrics-0.0.1.tar.gz tmp/visionmetrics-0.0.2.tar.gz --markdown 20230701/v/visionmetrics/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 10:57:39] INFO root fetch - processPackages [igraph]: executing diffoscope
+[2023-07-01 10:57:39] INFO root fetch - processPackages [igraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igraph-0.9.8.tar.gz tmp/igraph-0.9.9.tar.gz --markdown 20230701/i/igraph/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-01 10:57:39] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-1.0.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - processPackages [nanorequests]: Remove: archive file [/home/abi/fetcher/tmp/nanorequests-1.0.1.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - main [MainThread]: End processing [nanorequests]: success
+[2023-07-01 10:57:39] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.5.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - processPackages [sweepai]: Remove: archive file [/home/abi/fetcher/tmp/sweepai-0.1.7.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - main [MainThread]: End processing [sweepai]: success
+[2023-07-01 10:57:39] INFO root fetch - processPackages [visionmetrics]: Remove: archive file [/home/abi/fetcher/tmp/visionmetrics-0.0.1.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - processPackages [visionmetrics]: Remove: archive file [/home/abi/fetcher/tmp/visionmetrics-0.0.2.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - main [MainThread]: End processing [visionmetrics]: success
+[2023-07-01 10:57:39] INFO root fetch - processPackages [id-translation]: Remove: archive file [/home/abi/fetcher/tmp/id_translation-0.5.0.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - processPackages [id-translation]: Remove: archive file [/home/abi/fetcher/tmp/id_translation-0.5.1.tar.gz]
+[2023-07-01 10:57:39] INFO root fetch - main [MainThread]: End processing [id-translation]: success
+[2023-07-01 10:57:41] INFO root fetch - processPackages [stravalib]: Remove: archive file [/home/abi/fetcher/tmp/stravalib-1.3.2.tar.gz]
+[2023-07-01 10:57:41] INFO root fetch - processPackages [stravalib]: Remove: archive file [/home/abi/fetcher/tmp/stravalib-1.3.3.tar.gz]
+[2023-07-01 10:57:41] INFO root fetch - main [MainThread]: End processing [stravalib]: success
+[2023-07-01 10:57:45] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-07-01 10:57:45] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-07-01 10:57:45] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-07-01 10:58:34] INFO root fetch - processPackages [igraph]: Remove: archive file [/home/abi/fetcher/tmp/igraph-0.9.8.tar.gz]
+[2023-07-01 10:58:34] INFO root fetch - processPackages [igraph]: Remove: archive file [/home/abi/fetcher/tmp/igraph-0.9.9.tar.gz]
+[2023-07-01 10:58:34] INFO root fetch - main [MainThread]: End processing [igraph]: success
+[2023-07-01 10:58:34] INFO root fetch - main [MainThread]: Store serial: [18720789]
