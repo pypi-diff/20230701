@@ -12244,3 +12244,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:18:25] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-01 12:18:25] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-07-01 12:18:25] INFO root fetch - main [MainThread]: Store serial: [18721208]
+[2023-07-01 12:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721208]
+[2023-07-01 12:23:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeugvars
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddb-single
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maplerad-python
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frictionless
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: demoparser2
+[2023-07-01 12:23:34] INFO root fetch - processPackages [zeugvars]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ddb-single]: New version: [0.4.0] Old Version: [0.3.8.1]
+[2023-07-01 12:23:34] WARNING root fetch - processPackages [maplerad-python]: Skipping, unable to determine old version
+[2023-07-01 12:23:34] INFO root fetch - main [MainThread]: End processing [maplerad-python] error
+[2023-07-01 12:23:34] INFO root fetch - processPackages [frictionless]: New version: [5.8.3] Old Version: [5.8.2]
+[2023-07-01 12:23:34] INFO root fetch - processPackages [demoparser2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 12:23:34] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/f3/92/4591fee9a75d28c54575357db5260780c2f20daae42a9a64ed4ac933f25e/zeugvars-0.1.0.tar.gz
+[2023-07-01 12:23:34] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/c4/f6/6be941fd648f63f209346221525e0a4a5bba07cd717e5f0dddff77d28517/ddb_single-0.3.8.1.zip
+[2023-07-01 12:23:34] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/ad/b9/ca3813365c61c35596435d238b28912c5a4ac05d739b728d027d276a5817/demoparser2-0.1.0-cp39-none-win_amd64.whl
+[2023-07-01 12:23:35] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/64/ee/14733c5b1fcd9a121c750af080aa978bfe1e801a9de882afa8cfe53382a6/frictionless-5.8.2.tar.gz
+[2023-07-01 12:23:35] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/1b/ca/7f36db99d43ae1c8e62b448963ae104c51227ce7fe7917e1b0b6737bb0cb/zeugvars-0.1.1.tar.gz
+[2023-07-01 12:23:35] INFO root fetch - processPackages [ddb-single]: Downloading https://files.pythonhosted.org/packages/13/28/b29f33c8f1abd6e1bd897d648eb617b55ce820866f65aa2aef734bd87e10/ddb_single-0.4.0.zip
+[2023-07-01 12:23:35] INFO root fetch - processPackages [zeugvars]: executing diffoscope
+[2023-07-01 12:23:35] INFO root fetch - processPackages [zeugvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeugvars-0.1.0.tar.gz tmp/zeugvars-0.1.1.tar.gz --markdown 20230701/z/zeugvars/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 12:23:35] INFO root fetch - processPackages [ddb-single]: executing diffoscope
+[2023-07-01 12:23:35] INFO root fetch - processPackages [ddb-single]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddb_single-0.3.8.1.zip tmp/ddb_single-0.4.0.zip --markdown 20230701/d/ddb-single/0.3.8.1-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 12:23:35] INFO root fetch - processPackages [frictionless]: Downloading https://files.pythonhosted.org/packages/90/d2/f85c7cedee239a748294362c4c36984bc70e846a057ecc7f4ed136298a34/frictionless-5.8.3.tar.gz
+[2023-07-01 12:23:35] INFO root fetch - processPackages [frictionless]: executing diffoscope
+[2023-07-01 12:23:35] INFO root fetch - processPackages [frictionless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frictionless-5.8.2.tar.gz tmp/frictionless-5.8.3.tar.gz --markdown 20230701/f/frictionless/5.8.2-5.8.3/diff.md --exclude *.pyd
+[2023-07-01 12:23:36] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.1.0.tar.gz]
+[2023-07-01 12:23:36] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.1.1.tar.gz]
+[2023-07-01 12:23:36] INFO root fetch - main [MainThread]: End processing [zeugvars]: success
+[2023-07-01 12:23:36] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.3.8.1.zip]
+[2023-07-01 12:23:36] INFO root fetch - processPackages [ddb-single]: Remove: archive file [/home/abi/fetcher/tmp/ddb_single-0.4.0.zip]
+[2023-07-01 12:23:36] INFO root fetch - main [MainThread]: End processing [ddb-single]: success
+[2023-07-01 12:23:38] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/a1/4e/b51f6e20d3076c00c246c6fd16a32bd28a49852179080fd90d47a0abd43d/demoparser2-0.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 12:23:39] INFO root fetch - processPackages [demoparser2]: executing diffoscope
+[2023-07-01 12:23:39] INFO root fetch - processPackages [demoparser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser2-0.1.0-cp39-none-win_amd64.whl.zip tmp/demoparser2-0.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/d/demoparser2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 12:23:40] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.2.tar.gz]
+[2023-07-01 12:23:40] INFO root fetch - processPackages [frictionless]: Remove: archive file [/home/abi/fetcher/tmp/frictionless-5.8.3.tar.gz]
+[2023-07-01 12:23:40] INFO root fetch - main [MainThread]: End processing [frictionless]: success
+[2023-07-01 12:23:40] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.1.0-cp39-none-win_amd64.whl.zip]
+[2023-07-01 12:23:40] INFO root fetch - processPackages [demoparser2]: Remove: archive file [/home/abi/fetcher/tmp/demoparser2-0.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 12:23:40] INFO root fetch - main [MainThread]: End processing [demoparser2]: success
+[2023-07-01 12:23:40] INFO root fetch - main [MainThread]: Store serial: [18721220]
