@@ -17404,3 +17404,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:28:06] INFO root fetch - processPackages [lbrlabs-pulumi-harness]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_harness-0.0.6a1688229249.tar.gz]
 [2023-07-01 19:28:06] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-harness]: success
 [2023-07-01 19:28:06] INFO root fetch - main [MainThread]: Store serial: [18723379]
+[2023-07-01 19:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723379]
+[2023-07-01 19:33:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 19:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wsuks
+[2023-07-01 19:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yetl-framework
+[2023-07-01 19:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vlab-prepro
+[2023-07-01 19:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-07-01 19:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-functions
+[2023-07-01 19:33:15] WARNING root fetch - processPackages [wsuks]: Skipping, unable to determine old version
+[2023-07-01 19:33:15] INFO root fetch - main [MainThread]: End processing [wsuks] error
+[2023-07-01 19:33:15] INFO root fetch - processPackages [vlab-prepro]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-07-01 19:33:15] INFO root fetch - processPackages [openai-functions]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-01 19:33:15] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.1] Old Version: [1.6.0.dev1]
+[2023-07-01 19:33:15] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.2.0] Old Version: [2023.7.1.1]
+[2023-07-01 19:33:16] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/12/50/db4a72412012348fe9e84b6b3d094d6e26608d00df27006ab5018b1d9a21/yetl-framework-1.6.0.dev1.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/7c/14/5355ab74cb4529f408b117fd17b69355d4399ff832d874935587d64069ba/crazy-thursday-2023.7.1.1.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [vlab-prepro]: Downloading https://files.pythonhosted.org/packages/03/74/35133b55a4f1f7f6f12394827592fa6a98acbbc3ac62ca01f29318dbe145/vlab_prepro-0.3.5.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/1d/67/4adebe64db16d23832bae895fd128d43f548dcdaf52466477381142002d8/openai_functions-0.6.2.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/61/d8/b664907848f7a957b123f69769455781759376a7a34df6f50842102303e9/crazy-thursday-2023.7.2.0.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/fc/0e/5a8f85658e7a94a50517b30ebc35f51ecb39863b6344e970e4579aec4a87/yetl-framework-1.6.1.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/5a/1d/3afdbd9f2d0525a363ac955fd91a5197ab7b864cd15465d5a18adda289c9/openai_functions-0.6.3.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [vlab-prepro]: Downloading https://files.pythonhosted.org/packages/ab/30/0ad3d319f70eb5bbf13c0ad8e2864a3e01c70c4fd4387604ac91b5f36062/vlab_prepro-0.4.0.tar.gz
+[2023-07-01 19:33:16] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-01 19:33:16] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.0.dev1.tar.gz tmp/yetl-framework-1.6.1.tar.gz --markdown 20230701/y/yetl-framework/1.6.0.dev1-1.6.1/diff.md --exclude *.pyd
+[2023-07-01 19:33:16] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-01 19:33:16] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.1.1.tar.gz tmp/crazy-thursday-2023.7.2.0.tar.gz --markdown 20230701/c/crazy-thursday/2023.7.1.1-2023.7.2.0/diff.md --exclude *.pyd
+[2023-07-01 19:33:16] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-07-01 19:33:16] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.6.2.tar.gz tmp/openai_functions-0.6.3.tar.gz --markdown 20230701/o/openai-functions/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-01 19:33:16] INFO root fetch - processPackages [vlab-prepro]: executing diffoscope
+[2023-07-01 19:33:16] INFO root fetch - processPackages [vlab-prepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlab_prepro-0.3.5.tar.gz tmp/vlab_prepro-0.4.0.tar.gz --markdown 20230701/v/vlab-prepro/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 19:33:17] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.1.1.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.2.0.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-01 19:33:17] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.0.dev1.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.1.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-01 19:33:17] INFO root fetch - processPackages [vlab-prepro]: Remove: archive file [/home/abi/fetcher/tmp/vlab_prepro-0.3.5.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - processPackages [vlab-prepro]: Remove: archive file [/home/abi/fetcher/tmp/vlab_prepro-0.4.0.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - main [MainThread]: End processing [vlab-prepro]: success
+[2023-07-01 19:33:17] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.2.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.6.3.tar.gz]
+[2023-07-01 19:33:17] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-07-01 19:33:17] INFO root fetch - main [MainThread]: Store serial: [18723400]
