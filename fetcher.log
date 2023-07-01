@@ -19975,3 +19975,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:10:50] INFO root fetch - processPackages [flook]: Remove: archive file [/home/abi/fetcher/tmp/flook-0.4.0.tar.gz]
 [2023-07-01 23:10:50] INFO root fetch - main [MainThread]: End processing [flook]: success
 [2023-07-01 23:10:50] INFO root fetch - main [MainThread]: Store serial: [18724658]
+[2023-07-01 23:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724658]
+[2023-07-01 23:16:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 23:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QualysPy
+[2023-07-01 23:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3dns
+[2023-07-01 23:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-source-insights-api
+[2023-07-01 23:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gatoeda2
+[2023-07-01 23:16:00] INFO root fetch - processPackages [open-source-insights-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 23:16:00] INFO root fetch - processPackages [py3dns]: New version: [4.0.0] Old Version: [3.2.1]
+[2023-07-01 23:16:00] WARNING root fetch - processPackages [gatoeda2]: Skipping, unable to determine old version
+[2023-07-01 23:16:00] INFO root fetch - main [MainThread]: End processing [gatoeda2] error
+[2023-07-01 23:16:00] INFO root fetch - processPackages [QualysPy]: New version: [0.3.9.0] Old Version: [0.3.6]
+[2023-07-01 23:16:00] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/b8/7c/c0e5917911fa2e06f82490eeb54e7823dd8b37f4dd592c758091c9bb41f4/qualyspy-0.3.6.tar.gz
+[2023-07-01 23:16:00] INFO root fetch - processPackages [open-source-insights-api]: Downloading https://files.pythonhosted.org/packages/d4/fc/5e4e9f2163f8eaa1761c835eb4ad19f64993cec1e0088887e556e0b1f38f/open_source_insights_api-0.1.8.tar.gz
+[2023-07-01 23:16:00] INFO root fetch - processPackages [py3dns]: Downloading https://files.pythonhosted.org/packages/8a/b7/bd0fca1b330527ccf5f47a586900797dd1e054909f7d4c5e287de8b3fe59/py3dns-3.2.1.tar.gz
+[2023-07-01 23:16:00] INFO root fetch - processPackages [QualysPy]: Downloading https://files.pythonhosted.org/packages/4d/f0/d9128be5a2bc391cb5a10370e31b093e73ba449deac8d381cc07fdc5a82b/qualyspy-0.3.9.0.tar.gz
+[2023-07-01 23:16:01] INFO root fetch - processPackages [open-source-insights-api]: Downloading https://files.pythonhosted.org/packages/17/70/8d791907f72bc75dadeb2078c74b34a40c2081eabbe88b9ab8ba22b6032a/open_source_insights_api-0.1.9.tar.gz
+[2023-07-01 23:16:01] INFO root fetch - processPackages [py3dns]: Downloading https://files.pythonhosted.org/packages/ce/46/5fe65e2d914ae7c46cae498269166c36adfd90624574bab12a05927ee0ec/py3dns-4.0.0.tar.gz
+[2023-07-01 23:16:01] INFO root fetch - processPackages [QualysPy]: executing diffoscope
+[2023-07-01 23:16:01] INFO root fetch - processPackages [QualysPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualyspy-0.3.6.tar.gz tmp/qualyspy-0.3.9.0.tar.gz --markdown 20230701/Q/QualysPy/0.3.6-0.3.9.0/diff.md --exclude *.pyd
+[2023-07-01 23:16:01] INFO root fetch - processPackages [open-source-insights-api]: executing diffoscope
+[2023-07-01 23:16:01] INFO root fetch - processPackages [open-source-insights-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_source_insights_api-0.1.8.tar.gz tmp/open_source_insights_api-0.1.9.tar.gz --markdown 20230701/o/open-source-insights-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 23:16:01] INFO root fetch - processPackages [py3dns]: executing diffoscope
+[2023-07-01 23:16:01] INFO root fetch - processPackages [py3dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3dns-3.2.1.tar.gz tmp/py3dns-4.0.0.tar.gz --markdown 20230701/p/py3dns/3.2.1-4.0.0/diff.md --exclude *.pyd
+[2023-07-01 23:16:02] INFO root fetch - processPackages [open-source-insights-api]: Remove: archive file [/home/abi/fetcher/tmp/open_source_insights_api-0.1.8.tar.gz]
+[2023-07-01 23:16:02] INFO root fetch - processPackages [open-source-insights-api]: Remove: archive file [/home/abi/fetcher/tmp/open_source_insights_api-0.1.9.tar.gz]
+[2023-07-01 23:16:02] INFO root fetch - main [MainThread]: End processing [open-source-insights-api]: success
+[2023-07-01 23:16:02] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.6.tar.gz]
+[2023-07-01 23:16:02] INFO root fetch - processPackages [QualysPy]: Remove: archive file [/home/abi/fetcher/tmp/qualyspy-0.3.9.0.tar.gz]
+[2023-07-01 23:16:02] INFO root fetch - main [MainThread]: End processing [QualysPy]: success
+[2023-07-01 23:16:02] INFO root fetch - processPackages [py3dns]: Remove: archive file [/home/abi/fetcher/tmp/py3dns-3.2.1.tar.gz]
+[2023-07-01 23:16:02] INFO root fetch - processPackages [py3dns]: Remove: archive file [/home/abi/fetcher/tmp/py3dns-4.0.0.tar.gz]
+[2023-07-01 23:16:02] INFO root fetch - main [MainThread]: End processing [py3dns]: success
+[2023-07-01 23:16:02] INFO root fetch - main [MainThread]: Store serial: [18724673]
