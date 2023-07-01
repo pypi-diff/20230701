@@ -9363,3 +9363,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 07:16:54] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230629-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-07-01 07:16:54] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-07-01 07:16:54] INFO root fetch - main [MainThread]: Store serial: [18719944]
+[2023-07-01 07:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719944]
+[2023-07-01 07:22:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 07:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bambooai
+[2023-07-01 07:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skypilot
+[2023-07-01 07:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irdap
+[2023-07-01 07:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nics
+[2023-07-01 07:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: erscipcard
+[2023-07-01 07:22:06] INFO root fetch - processPackages [bambooai]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-01 07:22:06] INFO root fetch - processPackages [skypilot]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-01 07:22:06] INFO root fetch - processPackages [irdap]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-01 07:22:06] INFO root fetch - processPackages [erscipcard]: New version: [1.18.92] Old Version: [1.18.91]
+[2023-07-01 07:22:06] INFO root fetch - processPackages [nics]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-01 07:22:06] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/36/99/a092a41e93af98f0302719252a0c7e0931c45f2f54e9421f7b79e901cd5d/nics-2.0.0.tar.gz
+[2023-07-01 07:22:06] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/6c/93/7ce11ddd583d1dde938bc587e803aee2648ac0b2bb1a6d5c2bfae5a5e7a6/erscipcard-1.18.91.tar.gz
+[2023-07-01 07:22:06] INFO root fetch - processPackages [irdap]: Downloading https://files.pythonhosted.org/packages/17/a8/0ff08c39f52f6f81696fa5236f88f14494754281fe02d641f06dcea5199c/irdap-1.3.4.tar.gz
+[2023-07-01 07:22:06] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/01/b5/86426470ad3a8c592ab041f173c0f705536732edf69206d2128e3b6c9a84/skypilot-0.3.1.tar.gz
+[2023-07-01 07:22:06] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/73/d9/d94b8f6796952207404ae0d0121cf78f317953a96c5c2da97633dc158e64/bambooai-0.3.7.tar.gz
+[2023-07-01 07:22:06] WARNING root fetch - processPackages [irdap]: Skipping package: exceeds size limit 27470001>=10485760
+[2023-07-01 07:22:06] INFO root fetch - main [MainThread]: End processing [irdap] error
+[2023-07-01 07:22:06] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/10/26/7beee3126079b48f59bb337d5246a5abf5717dfb497c7e11c8e2a9b3b0ba/nics-2.1.0.tar.gz
+[2023-07-01 07:22:07] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 07:22:07] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.0.0.tar.gz tmp/nics-2.1.0.tar.gz --markdown 20230701/n/nics/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-01 07:22:07] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2023-07-01 07:22:07] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-07-01 07:22:07] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.7.tar.gz tmp/bambooai-0.3.8.tar.gz --markdown 20230701/b/bambooai/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-01 07:22:07] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/c5/63/e9f1a7be25aa636b982ca85d65d10f1b5bcd6fb070bd7ace9b95d9a2fe9d/skypilot-0.3.2.tar.gz
+[2023-07-01 07:22:07] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/74/e7/60bc2e1dcea62dba66c763d1a3f50f9ce6e3ce4e1ab3e643cfaa1f456bf2/erscipcard-1.18.92.tar.gz
+[2023-07-01 07:22:07] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 07:22:07] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.91.tar.gz tmp/erscipcard-1.18.92.tar.gz --markdown 20230701/e/erscipcard/1.18.91-1.18.92/diff.md --exclude *.pyd
+[2023-07-01 07:22:07] INFO root fetch - processPackages [skypilot]: executing diffoscope
+[2023-07-01 07:22:07] INFO root fetch - processPackages [skypilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-0.3.1.tar.gz tmp/skypilot-0.3.2.tar.gz --markdown 20230701/s/skypilot/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-01 07:22:08] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.7.tar.gz]
+[2023-07-01 07:22:08] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2023-07-01 07:22:08] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-07-01 07:22:08] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.0.0.tar.gz]
+[2023-07-01 07:22:08] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.0.tar.gz]
+[2023-07-01 07:22:08] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 07:22:08] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.91.tar.gz]
+[2023-07-01 07:22:08] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.92.tar.gz]
+[2023-07-01 07:22:08] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 07:22:11] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.3.1.tar.gz]
+[2023-07-01 07:22:11] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.3.2.tar.gz]
+[2023-07-01 07:22:11] INFO root fetch - main [MainThread]: End processing [skypilot]: success
+[2023-07-01 07:22:11] INFO root fetch - main [MainThread]: Store serial: [18719958]
