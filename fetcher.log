@@ -17553,3 +17553,156 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:43:40] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-3.0.0.tar.gz]
 [2023-07-01 19:43:40] INFO root fetch - main [MainThread]: End processing [dxsp]: success
 [2023-07-01 19:43:40] INFO root fetch - main [MainThread]: Store serial: [18723445]
+[2023-07-01 19:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723445]
+[2023-07-01 19:48:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yetl-framework
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: canvaslms
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-agent-flask
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncdb
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lcmtools
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-analytics
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SecureMessaging
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-agent
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-analytics-sql
+[2023-07-01 19:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybiolib
+[2023-07-01 19:48:48] INFO root fetch - processPackages [lcmtools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [canvaslms]: New version: [2.9] Old Version: [2.8]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [xia-agent-flask]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [xia-analytics]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [SecureMessaging]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [xia-analytics-sql]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [xia-agent]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [asyncdb]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-01 19:48:48] INFO root fetch - processPackages [lcmtools]: Downloading https://files.pythonhosted.org/packages/7d/1a/c9ca65142be3fde4dc4ee39671d023577e738a56fced715fea077070c855/lcmtools-0.1.5.tar.gz
+[2023-07-01 19:48:48] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/fc/0e/5a8f85658e7a94a50517b30ebc35f51ecb39863b6344e970e4579aec4a87/yetl-framework-1.6.1.tar.gz
+[2023-07-01 19:48:49] INFO root fetch - processPackages [SecureMessaging]: Downloading https://files.pythonhosted.org/packages/36/2c/d75508fefd833e2f3447d1f0805b0f74444fe90b8d93c774ca11c07a6a85/SecureMessaging-1.0.4-py3-none-any.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/81/2d/5f5c4ae7528e3920c82ecd40f1b8a175a343644ac12a5394aecece983ecc/xia_agent-0.1.5-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics]: Downloading https://files.pythonhosted.org/packages/c7/e9/916da3d5f55e79f5fae681d0ef762217fb2afb5460de216dae1162fc73c6/xia_analytics-0.0.6-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics-sql]: Downloading https://files.pythonhosted.org/packages/03/d5/144c7de05d9dfd587940dc60410e18d947cce2974e5df30a1d2131485d84/xia_analytics_sql-0.0.4-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent-flask]: Downloading https://files.pythonhosted.org/packages/86/a4/76569d179ac847650c686f7a2e9865c424b08bad09b330dbf85bbf93b1d7/xia_agent_flask-0.0.8-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2023-07-01 19:48:49] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/ae/eb/aa0e60fb319fdfd11b8f20e9c579bbec4705131955949a7897fecd6b6854/yetl-framework-1.6.2.tar.gz
+[2023-07-01 19:48:49] INFO root fetch - processPackages [canvaslms]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [canvaslms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canvaslms-2.8.tar.gz tmp/canvaslms-2.9.tar.gz --markdown 20230701/c/canvaslms/2.8-2.9/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [lcmtools]: Downloading https://files.pythonhosted.org/packages/d7/9e/9b972a2dbee0bf5ef72c0ab32b19857acac32738abb165f03d643ade4948/lcmtools-0.1.6.tar.gz
+[2023-07-01 19:48:49] INFO root fetch - processPackages [SecureMessaging]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [SecureMessaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecureMessaging-1.0.2-py3-none-any.whl.zip tmp/SecureMessaging-1.0.4-py3-none-any.whl.zip --markdown 20230701/S/SecureMessaging/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.1.tar.gz tmp/yetl-framework-1.6.2.tar.gz --markdown 20230701/y/yetl-framework/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/ab/5f/fdaf19be0fff9f5d0e0cf8b2a09d2550ddb7e64f0cb01225fb4c504d6268/xia_agent-0.1.6-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_agent-0.1.5-cp39-none-win_amd64.whl.zip tmp/xia_agent-0.1.6-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-agent/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics-sql]: Downloading https://files.pythonhosted.org/packages/b3/d9/6c3ec485172028296a0d341630890810f24f6cc9107740338bb1b42f36e3/xia_analytics_sql-0.0.5-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics]: Downloading https://files.pythonhosted.org/packages/98/f6/4efe01b231a3092b6fc2ced5278d8d6d8832ed200888df1dbcb3e5168c51/xia_analytics-0.0.7-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent-flask]: Downloading https://files.pythonhosted.org/packages/1f/1a/3fe7b489a3c08578325e6da9f135633dbce0bfb911b81dd0d4dccd4a0b53/xia_agent_flask-0.0.9-cp39-none-win_amd64.whl
+[2023-07-01 19:48:49] INFO root fetch - processPackages [lcmtools]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [lcmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcmtools-0.1.5.tar.gz tmp/lcmtools-0.1.6.tar.gz --markdown 20230701/l/lcmtools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_analytics-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_analytics-0.0.7-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-analytics/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics-sql]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-analytics-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_analytics_sql-0.0.4-cp39-none-win_amd64.whl.zip tmp/xia_analytics_sql-0.0.5-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-analytics-sql/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent-flask]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [xia-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_agent_flask-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_agent_flask-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-agent-flask/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2023-07-01 19:48:49] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20230701/p/pybiolib/1.1.997-1.1.999/diff.md --exclude *.pyd
+[2023-07-01 19:48:49] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/d2/ab/1a157aa7ec80c38649be0ad373a58182f49387c27c8efbaaeb995e7c81b7/asyncdb-2.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 19:48:50] INFO root fetch - processPackages [asyncdb]: Downloading https://files.pythonhosted.org/packages/be/8b/4d1beb7aca09a5ed1383647222a3b89c3ced663a7083cf113c89cc942361/asyncdb-2.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 19:48:50] INFO root fetch - processPackages [asyncdb]: executing diffoscope
+[2023-07-01 19:48:50] INFO root fetch - processPackages [asyncdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncdb-2.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/asyncdb-2.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/a/asyncdb/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-01 19:48:50] INFO root fetch - processPackages [canvaslms]: Remove: archive file [/home/abi/fetcher/tmp/canvaslms-2.8.tar.gz]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [canvaslms]: Remove: archive file [/home/abi/fetcher/tmp/canvaslms-2.9.tar.gz]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [canvaslms]: Start processing: qworker
+[2023-07-01 19:48:50] INFO root fetch - main [MainThread]: End processing [canvaslms]: success
+[2023-07-01 19:48:50] INFO root fetch - processPackages [qworker]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/6b/10/48d3f87cc519f85468085965992aaab123785328d3b86e93c4d234ecaf72/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 19:48:50] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.2-py3-none-any.whl.zip]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [SecureMessaging]: Remove: archive file [/home/abi/fetcher/tmp/SecureMessaging-1.0.4-py3-none-any.whl.zip]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [SecureMessaging]: Start processing: Lopster
+[2023-07-01 19:48:50] INFO root fetch - main [MainThread]: End processing [SecureMessaging]: success
+[2023-07-01 19:48:50] INFO root fetch - processPackages [Lopster]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/af/f5/c167c2837c947af2931192962485c19a41e07a21a4a03ad9b157af250cb0/qworker-1.9.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 19:48:50] INFO root fetch - processPackages [xia-agent]: Remove: archive file [/home/abi/fetcher/tmp/xia_agent-0.1.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [xia-agent]: Remove: archive file [/home/abi/fetcher/tmp/xia_agent-0.1.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [xia-agent]: Start processing: xia-api
+[2023-07-01 19:48:50] INFO root fetch - main [MainThread]: End processing [xia-agent]: success
+[2023-07-01 19:48:50] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-01 19:48:50] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/q/qworker/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-01 19:48:50] INFO root fetch - processPackages [xia-api]: New version: [0.1.23] Old Version: [0.1.22]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/af/c3/69c0bb1b37ae6bbb683afec43081086471fcf67ae56289b5fa118f57cfc4/Lopster-0.1.4.tar.gz
+[2023-07-01 19:48:50] INFO root fetch - processPackages [xia-analytics]: Remove: archive file [/home/abi/fetcher/tmp/xia_analytics-0.0.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:50] INFO root fetch - processPackages [xia-analytics]: Remove: archive file [/home/abi/fetcher/tmp/xia_analytics-0.0.7-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-analytics]: Start processing: xia-api-flask
+[2023-07-01 19:48:51] INFO root fetch - main [MainThread]: End processing [xia-analytics]: success
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api]: Downloading https://files.pythonhosted.org/packages/2e/d0/87a087e5b0a3503dada36b51086012684ced03ac53a1fed71a6ac74d782c/xia_api-0.1.22-cp39-none-win_amd64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api-flask]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [lcmtools]: Remove: archive file [/home/abi/fetcher/tmp/lcmtools-0.1.5.tar.gz]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [lcmtools]: Remove: archive file [/home/abi/fetcher/tmp/lcmtools-0.1.6.tar.gz]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [lcmtools]: Start processing: xia-broadcast
+[2023-07-01 19:48:51] INFO root fetch - main [MainThread]: End processing [lcmtools]: success
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_agent_flask-0.0.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-agent-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_agent_flask-0.0.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-agent-flask]: Start processing: setup-cfg-fmt
+[2023-07-01 19:48:51] INFO root fetch - main [MainThread]: End processing [xia-agent-flask]: success
+[2023-07-01 19:48:51] INFO root fetch - processPackages [Lopster]: Downloading https://files.pythonhosted.org/packages/ab/15/cd6bce601b1efa2b08946613ee80b323505cff29b0780063b9cc9def6ae8/Lopster-0.1.5.tar.gz
+[2023-07-01 19:48:51] INFO root fetch - processPackages [Lopster]: executing diffoscope
+[2023-07-01 19:48:51] INFO root fetch - processPackages [Lopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lopster-0.1.4.tar.gz tmp/Lopster-0.1.5.tar.gz --markdown 20230701/L/Lopster/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [setup-cfg-fmt]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-analytics-sql]: Remove: archive file [/home/abi/fetcher/tmp/xia_analytics_sql-0.0.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-analytics-sql]: Remove: archive file [/home/abi/fetcher/tmp/xia_analytics_sql-0.0.5-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-analytics-sql]: Start processing: xia-broadcast-fastapi
+[2023-07-01 19:48:51] INFO root fetch - main [MainThread]: End processing [xia-analytics-sql]: success
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api]: Downloading https://files.pythonhosted.org/packages/f5/f4/3e0555c722cfb20e69cd8cf8cdc63681f6f44e6f8274eeb2af414518affc/xia_api-0.1.23-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api-flask]: Downloading https://files.pythonhosted.org/packages/cb/19/28d97ff300bc82e0b2f31f7bf69a4db8b9d2a7256b5ae4e6150e8207257a/xia_api_flask-0.1.18-cp39-none-win_amd64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api]: executing diffoscope
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_api-0.1.22-cp39-none-win_amd64.whl.zip tmp/xia_api-0.1.23-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-api/0.1.22-0.1.23/diff.md --exclude *.pyd
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast]: Downloading https://files.pythonhosted.org/packages/8f/a0/6933e1716e346b9d336d11219785bab5fc999f5d22ef0481b219b2e76f78/xia_broadcast-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast-fastapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [setup-cfg-fmt]: Downloading https://files.pythonhosted.org/packages/80/48/71c607ab047895f76a200ddf6c2ecd1ecb4231aed3a127821c34b45748b3/setup_cfg_fmt-2.3.0.tar.gz
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api-flask]: Downloading https://files.pythonhosted.org/packages/60/80/48c0a3eb153aeb39109d5df4376c91c4d8a5cd9bcfd53996a9e9f603e6fb/xia_api_flask-0.1.19-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast]: Downloading https://files.pythonhosted.org/packages/0b/6e/cb6158cbf226d146b7086b601ce82f15c8f5f29e2b9c5a45e09608525e7e/xia_broadcast-0.1.4-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast-fastapi]: Downloading https://files.pythonhosted.org/packages/d3/93/1080ebad0fbc08d7c976a0787bf7ef40cdadcec64236cb4f5abff1f8de16/xia_broadcast_fastapi-0.1.2-cp39-none-win_amd64.whl
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api-flask]: executing diffoscope
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-api-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_api_flask-0.1.18-cp39-none-win_amd64.whl.zip tmp/xia_api_flask-0.1.19-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-api-flask/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-01 19:48:51] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.1.tar.gz]
+[2023-07-01 19:48:51] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.2.tar.gz]
+[2023-07-01 19:48:51] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-01 19:48:51] INFO root fetch - processPackages [setup-cfg-fmt]: Downloading https://files.pythonhosted.org/packages/26/cc/d74752915edcbb87f955c7d8bd759b8148fcf39b2ab4f2c3fa584b9952a0/setup_cfg_fmt-2.4.0.tar.gz
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast]: executing diffoscope
+[2023-07-01 19:48:51] INFO root fetch - processPackages [xia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_broadcast-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_broadcast-0.1.4-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-broadcast/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 19:48:51] INFO root fetch - processPackages [setup-cfg-fmt]: executing diffoscope
+[2023-07-01 19:48:51] INFO root fetch - processPackages [setup-cfg-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup_cfg_fmt-2.3.0.tar.gz tmp/setup_cfg_fmt-2.4.0.tar.gz --markdown 20230701/s/setup-cfg-fmt/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-07-01 19:48:52] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - processPackages [asyncdb]: Remove: archive file [/home/abi/fetcher/tmp/asyncdb-2.3.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - main [MainThread]: End processing [asyncdb]: success
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-broadcast-fastapi]: Downloading https://files.pythonhosted.org/packages/f6/4f/a12e56345a06135c2e8e18accce4debce21320d257498c42948a73cb8b95/xia_broadcast_fastapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-broadcast-fastapi]: executing diffoscope
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-broadcast-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_broadcast_fastapi-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_broadcast_fastapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-broadcast-fastapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 19:48:52] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-01 19:48:52] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.4.tar.gz]
+[2023-07-01 19:48:52] INFO root fetch - processPackages [Lopster]: Remove: archive file [/home/abi/fetcher/tmp/Lopster-0.1.5.tar.gz]
+[2023-07-01 19:48:52] INFO root fetch - main [MainThread]: End processing [Lopster]: success
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-api]: Remove: archive file [/home/abi/fetcher/tmp/xia_api-0.1.22-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-api]: Remove: archive file [/home/abi/fetcher/tmp/xia_api-0.1.23-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - main [MainThread]: End processing [xia-api]: success
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-api-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_api_flask-0.1.18-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - processPackages [xia-api-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_api_flask-0.1.19-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:48:52] INFO root fetch - main [MainThread]: End processing [xia-api-flask]: success
+[2023-07-01 19:48:53] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2023-07-01 19:48:53] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2023-07-01 19:48:53] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2023-07-01 19:48:53] INFO root fetch - processPackages [xia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:53] INFO root fetch - processPackages [xia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast-0.1.4-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:48:53] INFO root fetch - main [MainThread]: End processing [xia-broadcast]: success
+[2023-07-01 19:48:53] INFO root fetch - processPackages [xia-broadcast-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast_fastapi-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:48:53] INFO root fetch - processPackages [xia-broadcast-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/xia_broadcast_fastapi-0.1.3-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:48:53] INFO root fetch - main [MainThread]: End processing [xia-broadcast-fastapi]: success
+[2023-07-01 19:48:53] INFO root fetch - processPackages [setup-cfg-fmt]: Remove: archive file [/home/abi/fetcher/tmp/setup_cfg_fmt-2.3.0.tar.gz]
+[2023-07-01 19:48:53] INFO root fetch - processPackages [setup-cfg-fmt]: Remove: archive file [/home/abi/fetcher/tmp/setup_cfg_fmt-2.4.0.tar.gz]
+[2023-07-01 19:48:53] INFO root fetch - main [MainThread]: End processing [setup-cfg-fmt]: success
+[2023-07-01 19:48:53] INFO root fetch - main [MainThread]: Store serial: [18723518]
