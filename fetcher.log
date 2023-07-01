@@ -18883,3 +18883,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:08:56] INFO root fetch - processPackages [yfinance-cache]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-cache-0.4.4.tar.gz]
 [2023-07-01 21:08:56] INFO root fetch - main [MainThread]: End processing [yfinance-cache]: success
 [2023-07-01 21:08:56] INFO root fetch - main [MainThread]: Store serial: [18724199]
+[2023-07-01 21:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724199]
+[2023-07-01 21:14:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 21:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osu
+[2023-07-01 21:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 77tool
+[2023-07-01 21:14:05] INFO root fetch - processPackages [osu]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 21:14:05] INFO root fetch - processPackages [77tool]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-01 21:14:05] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/ca/a3/8ac7a8c212b9f06c64939d578e01820b7ef16b23a3fdd2cb01e050f58999/osu-1.0.2.tar.gz
+[2023-07-01 21:14:06] INFO root fetch - processPackages [77tool]: Downloading https://files.pythonhosted.org/packages/e9/bc/ab1658768f9bd5e3c2b04574016cd15c8a00728984992596df5d4fcae77f/77tool-1.1.1.tar.gz
+[2023-07-01 21:14:06] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/8f/d1/71ac3ac2f0af4bdb636ae91e0afd4122cbd29cf5354b30a24551082f4fab/osu-1.0.3.tar.gz
+[2023-07-01 21:14:06] INFO root fetch - processPackages [77tool]: Downloading https://files.pythonhosted.org/packages/68/3a/04e73651c9ebc19819522d928b46ca65a1790b0ca129414d99864e806c5e/77tool-1.1.2-py3-none-any.whl
+[2023-07-01 21:14:06] INFO root fetch - processPackages [osu]: executing diffoscope
+[2023-07-01 21:14:06] INFO root fetch - processPackages [osu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu-1.0.2.tar.gz tmp/osu-1.0.3.tar.gz --markdown 20230701/o/osu/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 21:14:06] INFO root fetch - processPackages [77tool]: executing diffoscope
+[2023-07-01 21:14:06] INFO root fetch - processPackages [77tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/77tool-1.1.1.tar.gz tmp/77tool-1.1.2-py3-none-any.whl.zip --markdown 20230701/7/77tool/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 21:14:07] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.0.2.tar.gz]
+[2023-07-01 21:14:07] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.0.3.tar.gz]
+[2023-07-01 21:14:07] INFO root fetch - main [MainThread]: End processing [osu]: success
+[2023-07-01 21:14:07] INFO root fetch - processPackages [77tool]: Remove: archive file [/home/abi/fetcher/tmp/77tool-1.1.1.tar.gz]
+[2023-07-01 21:14:07] INFO root fetch - processPackages [77tool]: Remove: archive file [/home/abi/fetcher/tmp/77tool-1.1.2-py3-none-any.whl.zip]
+[2023-07-01 21:14:07] INFO root fetch - main [MainThread]: End processing [77tool]: success
+[2023-07-01 21:14:07] INFO root fetch - main [MainThread]: Store serial: [18724209]
