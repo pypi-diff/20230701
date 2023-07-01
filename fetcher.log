@@ -12112,3 +12112,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:07:11] INFO root fetch - processPackages [blockchain-apis]: Remove: archive file [/home/abi/fetcher/tmp/blockchain-apis-0.2.1.tar.gz]
 [2023-07-01 12:07:11] INFO root fetch - main [MainThread]: End processing [blockchain-apis]: success
 [2023-07-01 12:07:11] INFO root fetch - main [MainThread]: Store serial: [18721141]
+[2023-07-01 12:12:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721141]
+[2023-07-01 12:12:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-cpu-aws
+[2023-07-01 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erscipcard
+[2023-07-01 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threed-optix
+[2023-07-01 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timetrack-odoo
+[2023-07-01 12:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datawhsipers
+[2023-07-01 12:12:20] INFO root fetch - processPackages [erscipcard]: New version: [1.18.98] Old Version: [1.18.97]
+[2023-07-01 12:12:20] INFO root fetch - processPackages [timetrack-odoo]: New version: [1.0.2266] Old Version: [1.0.2102]
+[2023-07-01 12:12:20] INFO root fetch - processPackages [threed-optix]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 12:12:20] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230701] Old Version: [2.14.0.dev20230629]
+[2023-07-01 12:12:20] WARNING root fetch - processPackages [datawhsipers]: Skipping, unable to determine old version
+[2023-07-01 12:12:20] INFO root fetch - main [MainThread]: End processing [datawhsipers] error
+[2023-07-01 12:12:20] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/8d/53/a4b9208b332389be4a708a0b72bbd3502fe0b9ac7724f8af4c2fd0d7f302/erscipcard-1.18.97.tar.gz
+[2023-07-01 12:12:20] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/76/08/53fb65924660a9630e007901aacc1abbf5d5bffd5c8b35ec37a0e0044d9a/threed_optix-1.0.2.tar.gz
+[2023-07-01 12:12:20] INFO root fetch - processPackages [timetrack-odoo]: Downloading https://files.pythonhosted.org/packages/da/47/e4a8611817b1466b761a055e9d9d308170a228e60916f376f110ed6e6790/timetrack-odoo-1.0.2102.tar.gz
+[2023-07-01 12:12:20] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/43/e7/d4429bd74a078d682eb454902cdee3a3b4c2d985e49bc15e8e2bcd482f98/tf_nightly_cpu_aws-2.14.0.dev20230629-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-01 12:12:20] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 261956932>=10485760
+[2023-07-01 12:12:20] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-07-01 12:12:20] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/61/3a/e68e3ea3a082db8e6fe204e94b7e2278ba172a8616e1fca10798914a9bc6/threed_optix-1.0.3.tar.gz
+[2023-07-01 12:12:20] INFO root fetch - processPackages [timetrack-odoo]: Downloading https://files.pythonhosted.org/packages/cc/a1/89ff885d3f6658f17088174276df79ee15932ad805327899349af9dfebee/timetrack-odoo-1.0.2266.tar.gz
+[2023-07-01 12:12:21] INFO root fetch - processPackages [timetrack-odoo]: executing diffoscope
+[2023-07-01 12:12:21] INFO root fetch - processPackages [timetrack-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetrack-odoo-1.0.2102.tar.gz tmp/timetrack-odoo-1.0.2266.tar.gz --markdown 20230701/t/timetrack-odoo/1.0.2102-1.0.2266/diff.md --exclude *.pyd
+[2023-07-01 12:12:21] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2023-07-01 12:12:21] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-1.0.2.tar.gz tmp/threed_optix-1.0.3.tar.gz --markdown 20230701/t/threed-optix/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 12:12:21] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/76/6c/9f5828eed9e53454794aad636e32aa19c091d071483a6b45f110ae49dfde/erscipcard-1.18.98.tar.gz
+[2023-07-01 12:12:21] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-07-01 12:12:21] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.97.tar.gz tmp/erscipcard-1.18.98.tar.gz --markdown 20230701/e/erscipcard/1.18.97-1.18.98/diff.md --exclude *.pyd
+[2023-07-01 12:12:22] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-1.0.2.tar.gz]
+[2023-07-01 12:12:22] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-1.0.3.tar.gz]
+[2023-07-01 12:12:22] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2023-07-01 12:12:22] INFO root fetch - processPackages [timetrack-odoo]: Remove: archive file [/home/abi/fetcher/tmp/timetrack-odoo-1.0.2102.tar.gz]
+[2023-07-01 12:12:22] INFO root fetch - processPackages [timetrack-odoo]: Remove: archive file [/home/abi/fetcher/tmp/timetrack-odoo-1.0.2266.tar.gz]
+[2023-07-01 12:12:22] INFO root fetch - main [MainThread]: End processing [timetrack-odoo]: success
+[2023-07-01 12:12:22] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.97.tar.gz]
+[2023-07-01 12:12:22] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.98.tar.gz]
+[2023-07-01 12:12:22] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-07-01 12:12:22] INFO root fetch - main [MainThread]: Store serial: [18721156]
