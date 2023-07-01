@@ -19602,3 +19602,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:33:01] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
 [2023-07-01 22:33:01] INFO root fetch - main [MainThread]: End processing [opshin]: success
 [2023-07-01 22:33:01] INFO root fetch - main [MainThread]: Store serial: [18724491]
+[2023-07-01 22:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724491]
+[2023-07-01 22:38:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AlgBench
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cachefunc
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VeloWeb
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waivek
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EclipsingBinaries
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheengsDecoder
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: objectory
+[2023-07-01 22:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agentlayer
+[2023-07-01 22:38:10] INFO root fetch - processPackages [TheengsDecoder]: New version: [1.5.7] Old Version: [1.5.5]
+[2023-07-01 22:38:10] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.1.8a5] Old Version: [3.1.8a4]
+[2023-07-01 22:38:10] INFO root fetch - processPackages [cachefunc]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-01 22:38:10] WARNING root fetch - processPackages [VeloWeb]: Skipping, unable to determine old version
+[2023-07-01 22:38:10] INFO root fetch - main [MainThread]: End processing [VeloWeb] error
+[2023-07-01 22:38:10] INFO root fetch - processPackages [AlgBench]: New version: [2.0.2] Old Version: [2.0.1b0]
+[2023-07-01 22:38:10] ERROR root fetch - processPackages [agentlayer]: Unable to get metadata: No such project 'agentlayer'
+[2023-07-01 22:38:10] INFO root fetch - main [MainThread]: End processing [agentlayer] error
+[2023-07-01 22:38:10] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 22:38:10] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/56/4f/51dc295ccd6704c6a0ff23fe746a5058b061e10f9182af61e98fd4f8992a/EclipsingBinaries-3.1.8a4.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [objectory]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-01 22:38:10] WARNING root fetch - processPackages [EclipsingBinaries]: Skipping package: exceeds size limit 52742321>=10485760
+[2023-07-01 22:38:10] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries] error
+[2023-07-01 22:38:10] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/b3/39/cf6bb92ac48f64a2e85f413c929b6fc27c2d2c7748b02522505616929ccd/cachefunc-0.2.2.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [AlgBench]: Downloading https://files.pythonhosted.org/packages/6a/e6/2c31b90fc49e7adb1edfe190cbe8c976a9fac0ca5082b136158cb79150dd/AlgBench-2.0.1b0.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [TheengsDecoder]: Downloading https://files.pythonhosted.org/packages/8a/c9/70052c4fbdc8b2f0de175ffc450e86c0a6d848027cf211ce79ad7d5303e0/TheengsDecoder-1.5.5.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [objectory]: Downloading https://files.pythonhosted.org/packages/31/20/dee42c556d113bacb0b4e6f672d82aa0e53afdfd6688dc0396def6b0e32d/objectory-0.0.3.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/c9/b7/5c7071547a3cc864efccc1b68781333122766e6ec5a649666ea32624c700/cachefunc-0.2.3.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2023-07-01 22:38:10] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20230701/w/waivek/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 22:38:10] INFO root fetch - processPackages [AlgBench]: Downloading https://files.pythonhosted.org/packages/e6/71/2b57b8a07bf33ef18ec7805a07061c1c679a1687d841ed8792de06853e4a/AlgBench-2.0.2.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [TheengsDecoder]: Downloading https://files.pythonhosted.org/packages/db/2b/da1d980cc2306ed4423998201c7f026c4af29a8acb236e6e18073936e61c/TheengsDecoder-1.5.7.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [cachefunc]: executing diffoscope
+[2023-07-01 22:38:10] INFO root fetch - processPackages [cachefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachefunc-0.2.2.tar.gz tmp/cachefunc-0.2.3.tar.gz --markdown 20230701/c/cachefunc/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-01 22:38:10] INFO root fetch - processPackages [objectory]: Downloading https://files.pythonhosted.org/packages/d3/73/618cbd88654bab7c8583f298a6970d13066f7c3bd71f78213d9a3740c4fc/objectory-0.0.4.tar.gz
+[2023-07-01 22:38:10] INFO root fetch - processPackages [AlgBench]: executing diffoscope
+[2023-07-01 22:38:10] INFO root fetch - processPackages [AlgBench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgBench-2.0.1b0.tar.gz tmp/AlgBench-2.0.2.tar.gz --markdown 20230701/A/AlgBench/2.0.1b0-2.0.2/diff.md --exclude *.pyd
+[2023-07-01 22:38:10] INFO root fetch - processPackages [TheengsDecoder]: executing diffoscope
+[2023-07-01 22:38:10] INFO root fetch - processPackages [TheengsDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheengsDecoder-1.5.5.tar.gz tmp/TheengsDecoder-1.5.7.tar.gz --markdown 20230701/T/TheengsDecoder/1.5.5-1.5.7/diff.md --exclude *.pyd
+[2023-07-01 22:38:10] INFO root fetch - processPackages [objectory]: executing diffoscope
+[2023-07-01 22:38:10] INFO root fetch - processPackages [objectory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectory-0.0.3.tar.gz tmp/objectory-0.0.4.tar.gz --markdown 20230701/o/objectory/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-01 22:38:11] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2023-07-01 22:38:11] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2023-07-01 22:38:11] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2023-07-01 22:38:11] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.2.tar.gz]
+[2023-07-01 22:38:11] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.3.tar.gz]
+[2023-07-01 22:38:11] INFO root fetch - main [MainThread]: End processing [cachefunc]: success
+[2023-07-01 22:38:11] INFO root fetch - processPackages [objectory]: Remove: archive file [/home/abi/fetcher/tmp/objectory-0.0.3.tar.gz]
+[2023-07-01 22:38:11] INFO root fetch - processPackages [objectory]: Remove: archive file [/home/abi/fetcher/tmp/objectory-0.0.4.tar.gz]
+[2023-07-01 22:38:11] INFO root fetch - main [MainThread]: End processing [objectory]: success
+[2023-07-01 22:38:12] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-2.0.1b0.tar.gz]
+[2023-07-01 22:38:12] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-2.0.2.tar.gz]
+[2023-07-01 22:38:12] INFO root fetch - main [MainThread]: End processing [AlgBench]: success
+[2023-07-01 22:38:13] INFO root fetch - processPackages [TheengsDecoder]: Remove: archive file [/home/abi/fetcher/tmp/TheengsDecoder-1.5.5.tar.gz]
+[2023-07-01 22:38:13] INFO root fetch - processPackages [TheengsDecoder]: Remove: archive file [/home/abi/fetcher/tmp/TheengsDecoder-1.5.7.tar.gz]
+[2023-07-01 22:38:13] INFO root fetch - main [MainThread]: End processing [TheengsDecoder]: success
+[2023-07-01 22:38:13] INFO root fetch - main [MainThread]: Store serial: [18724518]
