@@ -7163,3 +7163,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:18:58] INFO root fetch - processPackages [idem-aws]: Remove: archive file [/home/abi/fetcher/tmp/idem-aws-3.0.0.tar.gz]
 [2023-07-01 04:18:58] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
 [2023-07-01 04:18:58] INFO root fetch - main [MainThread]: Store serial: [18719180]
+[2023-07-01 04:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719180]
+[2023-07-01 04:24:07] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant-stubs
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli.core.alpine
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core.android
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor.cli.core.darwin
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core.freebsd
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cleanlab-studio
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.core.linux
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core.themida
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyarmor.cli.core.windows
+[2023-07-01 04:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redash-echo
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [redash-echo]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.7.0b3] Old Version: [2023.7.0b2]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [redash-echo]: Downloading https://files.pythonhosted.org/packages/b8/1a/0f901189ada1a3f5fa13465d4c2808b517b94b96c8d970426417eb3b1986/redash-echo-0.0.2.tar.gz
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/87/58/8e600c7e3f2abf61a8a9346bbd4c1a7b3fb5b8aa28201d6cddde15f33b04/pyarmor.cli.core.android-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/27/bf/aae62921c324812ca628ef479901c50af455761f170685afc10baa15668c/pyarmor.cli.core.darwin-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/4a/e9/0417f67ffd4e835d0886a1c8397778b0069ed00c7dab709478d35ff191d6/pyarmor.cli.core.linux-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/ad/a8/a0a4993939fe6e419a30fcfd56feb358f644b911713286d8b929eb3d6a90/pyarmor.cli.core.themida-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/91/75/27cd67fb14eb2ebc61d61097ce46fb8aa2ce2876d5f301be6566b09b40cd/pyarmor.cli.core.freebsd-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/53/6b/1895dc158cb47a814351a6812b0efcc04635f8ec3601a8637909598b4722/homeassistant_stubs-2023.7.0b2.tar.gz
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/75/eb/acbe38d51eafce25a466712d549b1141b6d73774230a2d141d0093b4bef3/pyarmor.cli.core.windows-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/eb/0e/c12a2ce4f9876b07ff77b367a018025495674a258d19f2188e65f655d352/cleanlab-studio-1.0.8.tar.gz
+[2023-07-01 04:24:07] INFO root fetch - processPackages [redash-echo]: Downloading https://files.pythonhosted.org/packages/14/ee/9bc4d504046d36a3b2dd3cca1529dd45795255a91f65f4e1af296c6ff746/redash-echo-0.0.3.tar.gz
+[2023-07-01 04:24:07] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping package: exceeds size limit 12519064>=10485760
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: pyarmor.cli
+[2023-07-01 04:24:07] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/4f/d5/3600d615ca5179384861c77a1952b1f7957c0193665e23cbae1ba7942973/pyarmor.cli.core.alpine-3.2.8-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [redash-echo]: executing diffoscope
+[2023-07-01 04:24:07] INFO root fetch - processPackages [redash-echo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redash-echo-0.0.2.tar.gz tmp/redash-echo-0.0.3.tar.gz --markdown 20230701/r/redash-echo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-07-01 04:24:07] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/be/11/47542f5db93fb74eb934d6acde9b9940dcd35b009f29cf37821523039a49/homeassistant_stubs-2023.7.0b3.tar.gz
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/6f/fa/a98c2d86d0c2d56193e17ba60ef652be47751532a772279685ccf964eefe/pyarmor.cli.core.freebsd-3.2.9-cp39-none-any.whl
+[2023-07-01 04:24:07] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/d7/70/9bf521fb2f4058d7e80948ec8b2c8646034a36b02c1dfe3aa7abfedd005e/pyarmor.cli.core.darwin-3.2.9-cp39-none-any.whl
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/16/a5/4072c136091c636b41e19e77997027cd60aa089a9015d15962c9a043e5f8/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-3.2.8-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-3.2.9-cp39-none-any.whl.zip --markdown 20230701/p/pyarmor.cli.core.freebsd/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-3.2.8-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-3.2.9-cp39-none-any.whl.zip --markdown 20230701/p/pyarmor.cli.core.darwin/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:08] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-07-01 04:24:08] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.7.0b2.tar.gz tmp/homeassistant_stubs-2023.7.0b3.tar.gz --markdown 20230701/h/homeassistant-stubs/2023.7.0b2-2023.7.0b3/diff.md --exclude *.pyd
+[2023-07-01 04:24:08] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/ae/39/22640d9d32e28918b21d4c882a1fa692bc08fb6fa199085a1432593f580e/cleanlab-studio-1.0.9.tar.gz
+[2023-07-01 04:24:08] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-07-01 04:24:08] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-1.0.8.tar.gz tmp/cleanlab-studio-1.0.9.tar.gz --markdown 20230701/c/cleanlab-studio/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/e5/e9/542d127ef31e79fecc5a362765b864b9b3bf7e7607b57cf31bafbaea754e/pyarmor.cli.core.windows-3.2.9-cp39-none-any.whl
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/58/d6/ac109f3c3337cabe88f01410b858a2020a8f962d90fff6c3cb4d659dab24/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/b1/36/28905a13e43a6f586c2d92ea4eb872629023b75eac829715ad273d16bace/pyarmor.cli.core.alpine-3.2.9-cp39-none-any.whl
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-3.2.8-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-3.2.9-cp39-none-any.whl.zip --markdown 20230701/p/pyarmor.cli.core.alpine/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-07-01 04:24:08] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-3.2.8-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-3.2.9-cp39-none-any.whl.zip --markdown 20230701/p/pyarmor.cli.core.windows/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/c7/62/cc3793f1a7c8bfa7f0d26c95e56f11b5f8bd57b02f7e4c131df2a6b91f54/pyarmor.cli.core.linux-3.2.9-cp39-none-any.whl
+[2023-07-01 04:24:09] INFO root fetch - processPackages [redash-echo]: Remove: archive file [/home/abi/fetcher/tmp/redash-echo-0.0.2.tar.gz]
+[2023-07-01 04:24:09] INFO root fetch - processPackages [redash-echo]: Remove: archive file [/home/abi/fetcher/tmp/redash-echo-0.0.3.tar.gz]
+[2023-07-01 04:24:09] INFO root fetch - processPackages [redash-echo]: Start processing: tsuki
+[2023-07-01 04:24:09] INFO root fetch - main [MainThread]: End processing [redash-echo]: success
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-3.2.8-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-3.2.9-cp39-none-any.whl.zip --markdown 20230701/p/pyarmor.cli.core.linux/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:09] WARNING root fetch - processPackages [tsuki]: Skipping, unable to determine old version
+[2023-07-01 04:24:09] INFO root fetch - main [MainThread]: End processing [tsuki] error
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip --markdown 20230701/p/pyarmor.cli/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-07-01 04:24:09] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.8.tar.gz]
+[2023-07-01 04:24:09] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab-studio-1.0.9.tar.gz]
+[2023-07-01 04:24:09] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.8-cp39-none-any.whl.zip]
+[2023-07-01 04:24:09] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-3.2.9-cp39-none-any.whl.zip]
+[2023-07-01 04:24:09] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-07-01 04:24:10] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/c7/7f/d1bb578b8a695cae84bbb2a2b207602fc25fc42fb4a0311fbc965074db12/pyarmor.cli.core.themida-3.2.9-cp39-none-any.whl
+[2023-07-01 04:24:10] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-07-01 04:24:10] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-3.2.8-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-3.2.9-cp39-none-any.whl.zip --markdown 20230701/p/pyarmor.cli.core.themida/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-01 04:24:10] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip]
+[2023-07-01 04:24:10] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip]
+[2023-07-01 04:24:10] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-07-01 04:24:11] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.8-cp39-none-any.whl.zip]
+[2023-07-01 04:24:11] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-3.2.9-cp39-none-any.whl.zip]
+[2023-07-01 04:24:11] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-07-01 04:24:13] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.8-cp39-none-any.whl.zip]
+[2023-07-01 04:24:13] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.9-cp39-none-any.whl.zip]
+[2023-07-01 04:24:13] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-07-01 04:24:13] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.8-cp39-none-any.whl.zip]
+[2023-07-01 04:24:13] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-3.2.9-cp39-none-any.whl.zip]
+[2023-07-01 04:24:13] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-07-01 04:24:15] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.8-cp39-none-any.whl.zip]
+[2023-07-01 04:24:15] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-3.2.9-cp39-none-any.whl.zip]
+[2023-07-01 04:24:15] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-07-01 04:24:23] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.8-cp39-none-any.whl.zip]
+[2023-07-01 04:24:23] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-3.2.9-cp39-none-any.whl.zip]
+[2023-07-01 04:24:23] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-07-01 04:24:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b2.tar.gz]
+[2023-07-01 04:24:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.7.0b3.tar.gz]
+[2023-07-01 04:24:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-07-01 04:24:55] INFO root fetch - main [MainThread]: Store serial: [18719243]
