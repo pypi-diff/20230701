@@ -12349,3 +12349,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:28:52] INFO root fetch - processPackages [erscipcard]: Remove: archive file [/home/abi/fetcher/tmp/erscipcard-1.18.99.tar.gz]
 [2023-07-01 12:28:52] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2023-07-01 12:28:52] INFO root fetch - main [MainThread]: Store serial: [18721256]
+[2023-07-01 12:33:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721256]
+[2023-07-01 12:34:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 12:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeugvars
+[2023-07-01 12:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md2site
+[2023-07-01 12:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-box-streamlit
+[2023-07-01 12:34:02] INFO root fetch - processPackages [md2site]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 12:34:02] INFO root fetch - processPackages [zeugvars]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 12:34:02] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-07-01 12:34:02] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/ce/5d/1fbeeb517377698098232b0a72f8246f8da2bc146ef9d53c16dbca81f5d4/md2site-0.0.2.tar.gz
+[2023-07-01 12:34:02] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/df/a4/b1ea8f89bf1edf8a5789208dbda5d4436c717d492c629ea13f92e8134765/chat-box-streamlit-0.0.91.tar.gz
+[2023-07-01 12:34:02] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/1b/ca/7f36db99d43ae1c8e62b448963ae104c51227ce7fe7917e1b0b6737bb0cb/zeugvars-0.1.1.tar.gz
+[2023-07-01 12:34:02] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/9f/ad/3891227185e90029fcd433d84f2ac71f0f11fb22ee61e7f8a102cbae090a/chat-box-streamlit-0.0.92.tar.gz
+[2023-07-01 12:34:02] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-07-01 12:34:02] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.91.tar.gz tmp/chat-box-streamlit-0.0.92.tar.gz --markdown 20230701/c/chat-box-streamlit/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-07-01 12:34:02] INFO root fetch - processPackages [md2site]: Downloading https://files.pythonhosted.org/packages/ec/69/b4a4917b28bafdee23fcb26fdabde06973904dadecd85b40504affd24e83/md2site-0.0.3.tar.gz
+[2023-07-01 12:34:02] INFO root fetch - processPackages [zeugvars]: Downloading https://files.pythonhosted.org/packages/ab/d8/471dbbffcf747126e140e6fa1cd4527d555b8b8fbc94d4740c45c5896136/zeugvars-0.1.2.tar.gz
+[2023-07-01 12:34:02] INFO root fetch - processPackages [md2site]: executing diffoscope
+[2023-07-01 12:34:02] INFO root fetch - processPackages [md2site]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2site-0.0.2.tar.gz tmp/md2site-0.0.3.tar.gz --markdown 20230701/m/md2site/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 12:34:02] INFO root fetch - processPackages [zeugvars]: executing diffoscope
+[2023-07-01 12:34:02] INFO root fetch - processPackages [zeugvars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeugvars-0.1.1.tar.gz tmp/zeugvars-0.1.2.tar.gz --markdown 20230701/z/zeugvars/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 12:34:03] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.1.1.tar.gz]
+[2023-07-01 12:34:03] INFO root fetch - processPackages [zeugvars]: Remove: archive file [/home/abi/fetcher/tmp/zeugvars-0.1.2.tar.gz]
+[2023-07-01 12:34:03] INFO root fetch - main [MainThread]: End processing [zeugvars]: success
+[2023-07-01 12:34:03] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.2.tar.gz]
+[2023-07-01 12:34:03] INFO root fetch - processPackages [md2site]: Remove: archive file [/home/abi/fetcher/tmp/md2site-0.0.3.tar.gz]
+[2023-07-01 12:34:03] INFO root fetch - main [MainThread]: End processing [md2site]: success
+[2023-07-01 12:34:56] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.91.tar.gz]
+[2023-07-01 12:34:56] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.92.tar.gz]
+[2023-07-01 12:34:56] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-07-01 12:34:56] INFO root fetch - main [MainThread]: Store serial: [18721270]
