@@ -7303,3 +7303,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:30:12] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev2.zip]
 [2023-07-01 04:30:12] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
 [2023-07-01 04:30:12] INFO root fetch - main [MainThread]: Store serial: [18719258]
+[2023-07-01 04:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719258]
+[2023-07-01 04:35:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-01 04:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.range
+[2023-07-01 04:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-cognitiveservices-speech
+[2023-07-01 04:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-ai-vision
+[2023-07-01 04:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissist
+[2023-07-01 04:35:20] INFO root fetch - processPackages [cs.range]: New version: [20230701] Old Version: [20230619]
+[2023-07-01 04:35:20] INFO root fetch - processPackages [azure-ai-vision]: New version: [0.9.0b1] Old Version: [0.8.1b1]
+[2023-07-01 04:35:20] INFO root fetch - processPackages [azure-cognitiveservices-speech]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-01 04:35:21] INFO root fetch - processPackages [aissist]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 04:35:21] INFO root fetch - processPackages [cs.range]: Downloading https://files.pythonhosted.org/packages/2c/2f/699f536de8e135addf8b1e68e7b3beaf9c0584e2e8f49a693544216bc014/cs.range-20230619.tar.gz
+[2023-07-01 04:35:21] INFO root fetch - processPackages [azure-ai-vision]: Downloading https://files.pythonhosted.org/packages/23/0e/882e7f18cfde6c89bf1b429897cd0684c089498a14bb07d43b0978340b0e/azure_ai_vision-0.8.1b1-py3-none-win_amd64.whl
+[2023-07-01 04:35:21] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Downloading https://files.pythonhosted.org/packages/03/0d/5aebb4bc61da6868d4a3c38d3042a793dcf1584988c56641de8acf4cc950/azure_cognitiveservices_speech-1.8.0-cp37-cp37m-win_amd64.whl
+[2023-07-01 04:35:21] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/89/06/e4e31b255b127dbba68ed67200f4ada2bf5b60e6265b49dbbdeb22a0b7f2/aissist-0.0.8.tar.gz
+[2023-07-01 04:35:21] INFO root fetch - processPackages [cs.range]: Downloading https://files.pythonhosted.org/packages/7f/72/25c249904759e529c47aab5d3c822ce342afad46ab914c8ef18f4f1d17ac/cs.range-20230701.tar.gz
+[2023-07-01 04:35:21] INFO root fetch - processPackages [cs.range]: executing diffoscope
+[2023-07-01 04:35:21] INFO root fetch - processPackages [cs.range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.range-20230619.tar.gz tmp/cs.range-20230701.tar.gz --markdown 20230701/c/cs.range/20230619-20230701/diff.md --exclude *.pyd
+[2023-07-01 04:35:21] INFO root fetch - processPackages [azure-ai-vision]: Downloading https://files.pythonhosted.org/packages/f4/8e/f76abdb3a6ed4cf8e692359fd3fa5e628f78016c18b27d9f04b2c59830e9/azure_ai_vision-0.9.0b1-py3-none-win_amd64.whl
+[2023-07-01 04:35:21] INFO root fetch - processPackages [aissist]: Downloading https://files.pythonhosted.org/packages/5f/1c/b57ef29948798393bad8be66d70d3e9bb9fc0a0ec7ce111a7715d76f96d5/aissist-0.0.9.tar.gz
+[2023-07-01 04:35:21] INFO root fetch - processPackages [aissist]: executing diffoscope
+[2023-07-01 04:35:21] INFO root fetch - processPackages [aissist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissist-0.0.8.tar.gz tmp/aissist-0.0.9.tar.gz --markdown 20230701/a/aissist/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 04:35:21] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Downloading https://files.pythonhosted.org/packages/6d/82/318d687feb5fc7c0fa949ac1385bee683d52398dbd253ef6c185135a0c2a/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl
+[2023-07-01 04:35:22] INFO root fetch - processPackages [azure-ai-vision]: executing diffoscope
+[2023-07-01 04:35:22] INFO root fetch - processPackages [azure-ai-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_ai_vision-0.8.1b1-py3-none-win_amd64.whl.zip tmp/azure_ai_vision-0.9.0b1-py3-none-win_amd64.whl.zip --markdown 20230701/a/azure-ai-vision/0.8.1b1-0.9.0b1/diff.md --exclude *.pyd
+[2023-07-01 04:35:22] INFO root fetch - processPackages [azure-cognitiveservices-speech]: executing diffoscope
+[2023-07-01 04:35:22] INFO root fetch - processPackages [azure-cognitiveservices-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_cognitiveservices_speech-1.8.0-cp37-cp37m-win_amd64.whl.zip tmp/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl.zip --markdown 20230701/a/azure-cognitiveservices-speech/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-01 04:35:22] INFO root fetch - processPackages [cs.range]: Remove: archive file [/home/abi/fetcher/tmp/cs.range-20230619.tar.gz]
+[2023-07-01 04:35:22] INFO root fetch - processPackages [cs.range]: Remove: archive file [/home/abi/fetcher/tmp/cs.range-20230701.tar.gz]
+[2023-07-01 04:35:22] INFO root fetch - main [MainThread]: End processing [cs.range]: success
+[2023-07-01 04:35:23] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.8.tar.gz]
+[2023-07-01 04:35:23] INFO root fetch - processPackages [aissist]: Remove: archive file [/home/abi/fetcher/tmp/aissist-0.0.9.tar.gz]
+[2023-07-01 04:35:23] INFO root fetch - main [MainThread]: End processing [aissist]: success
+[2023-07-01 04:35:36] INFO root fetch - processPackages [azure-ai-vision]: Remove: archive file [/home/abi/fetcher/tmp/azure_ai_vision-0.8.1b1-py3-none-win_amd64.whl.zip]
+[2023-07-01 04:35:36] INFO root fetch - processPackages [azure-ai-vision]: Remove: archive file [/home/abi/fetcher/tmp/azure_ai_vision-0.9.0b1-py3-none-win_amd64.whl.zip]
+[2023-07-01 04:35:36] INFO root fetch - main [MainThread]: End processing [azure-ai-vision]: success
+[2023-07-01 04:35:39] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Remove: archive file [/home/abi/fetcher/tmp/azure_cognitiveservices_speech-1.8.0-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-01 04:35:39] INFO root fetch - processPackages [azure-cognitiveservices-speech]: Remove: archive file [/home/abi/fetcher/tmp/azure_cognitiveservices_speech-1.9.0-cp37-cp37m-win_amd64.whl.zip]
+[2023-07-01 04:35:39] INFO root fetch - main [MainThread]: End processing [azure-cognitiveservices-speech]: success
+[2023-07-01 04:35:39] INFO root fetch - main [MainThread]: Store serial: [18719274]
