@@ -11995,3 +11995,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 11:56:48] INFO root fetch - processPackages [PointBlaster]: Remove: archive file [/home/abi/fetcher/tmp/PointBlaster-0.2.2.tar.gz]
 [2023-07-01 11:56:48] INFO root fetch - main [MainThread]: End processing [PointBlaster]: success
 [2023-07-01 11:56:48] INFO root fetch - main [MainThread]: Store serial: [18721104]
+[2023-07-01 12:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721104]
+[2023-07-01 12:01:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbrl-gymnasium
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repid
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanoget
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-bdd-ng
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prisma
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wizzi-utils
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llvd
+[2023-07-01 12:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbrl-gymnasium
+[2023-07-01 12:01:56] INFO root fetch - processPackages [prisma]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-01 12:01:56] INFO root fetch - processPackages [repid]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-01 12:01:56] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 12:01:56] INFO root fetch - processPackages [pytest-bdd-ng]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-01 12:01:56] INFO root fetch - processPackages [wizzi-utils]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-07-01 12:01:56] INFO root fetch - processPackages [llvd]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-07-01 12:01:56] INFO root fetch - processPackages [bbrl-gymnasium]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 12:01:57] INFO root fetch - processPackages [nanoget]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-01 12:01:57] INFO root fetch - processPackages [llvd]: Downloading https://files.pythonhosted.org/packages/5b/a4/3d1adbb840c7fcd48cacfd36bee12ddf8801383105168fee43cd9c973aa6/llvd-3.0.5.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/02/85/96d6b8f5cc3c3d2a1d295a2798185df1e7432006b1fe803226accf68a531/bbrl_gymnasium-0.1.5.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/02/85/96d6b8f5cc3c3d2a1d295a2798185df1e7432006b1fe803226accf68a531/bbrl_gymnasium-0.1.5.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/19/ea/25467f4130ab04433ca55d66bcf3972a2bf0c6fc918ae338ffd864c3377d/repid-1.4.0.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [wizzi-utils]: Downloading https://files.pythonhosted.org/packages/61/61/6eb1032f5459ba4cd90ba2837871dc2c0533918e1a6739fdad2698cceaa4/wizzi_utils-8.0.5.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [nanoget]: Downloading https://files.pythonhosted.org/packages/81/f4/002b21821c93c1b3d614e749287784f7d7803b30bdde924df0f0002fbf6f/nanoget-1.9.0.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [pytest-bdd-ng]: Downloading https://files.pythonhosted.org/packages/63/ef/f29a6c8e24a73690b004e76adfb6f42b01fc23160bfa29ba2fce058e5dc0/pytest-bdd-ng-2.0.0.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [llvd]: Downloading https://files.pythonhosted.org/packages/8f/de/a15629e38468339fcb1ae0ce006d83b39f5d3b51baa7bf24252217ed7123/llvd-3.0.6.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [prisma]: Downloading https://files.pythonhosted.org/packages/0f/a0/2129b9f9aa661ec7ea147f4d770ccd0a3e68a8bea8e4cbca53fcebf345d8/prisma-0.9.0.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/28/24/f46a5bacc53d27fcf8ec94fb547d43456826678108a7728b5e702c396d82/bbrl_gymnasium-0.1.6.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/11/e7/0078516ad8beb55ddfbc243607a44ccdd9eae04d3503f72e03e58675224c/repid-1.4.1.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: Downloading https://files.pythonhosted.org/packages/28/24/f46a5bacc53d27fcf8ec94fb547d43456826678108a7728b5e702c396d82/bbrl_gymnasium-0.1.6.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [wizzi-utils]: Downloading https://files.pythonhosted.org/packages/ba/47/245715c89705365bbdae3a14d0a3d1a1a702cd4bc1a99320a022be032497/wizzi_utils-8.0.6.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [repid]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [repid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repid-1.4.0.tar.gz tmp/repid-1.4.1.tar.gz --markdown 20230701/r/repid/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [llvd]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [llvd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llvd-3.0.5.tar.gz tmp/llvd-3.0.6.tar.gz --markdown 20230701/l/llvd/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.5.tar.gz tmp/bbrl_gymnasium-0.1.6.tar.gz --markdown 20230701/b/bbrl-gymnasium/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [bbrl-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbrl_gymnasium-0.1.5.tar.gz tmp/bbrl_gymnasium-0.1.6.tar.gz --markdown 20230701/b/bbrl-gymnasium/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [nanoget]: Downloading https://files.pythonhosted.org/packages/d1/e6/c55de1f493de5db9bf31c16b8bd96d23db290290b0eea31b8a7978ab4fe4/nanoget-1.9.1.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [pytest-bdd-ng]: Downloading https://files.pythonhosted.org/packages/5d/d4/91159d7d054e1ce82a864757ddb5aed26cb80e90fce337185df396d791df/pytest-bdd-ng-2.0.1.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [prisma]: Downloading https://files.pythonhosted.org/packages/21/5c/82e5dee4b498389ac21338b16544e3a1877abbc91c47bf7df0d9e2fe1a25/prisma-0.9.1.tar.gz
+[2023-07-01 12:01:57] INFO root fetch - processPackages [wizzi-utils]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [wizzi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizzi_utils-8.0.5.tar.gz tmp/wizzi_utils-8.0.6.tar.gz --markdown 20230701/w/wizzi-utils/8.0.5-8.0.6/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [nanoget]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [nanoget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoget-1.9.0.tar.gz tmp/nanoget-1.9.1.tar.gz --markdown 20230701/n/nanoget/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [pytest-bdd-ng]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [pytest-bdd-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-bdd-ng-2.0.0.tar.gz tmp/pytest-bdd-ng-2.0.1.tar.gz --markdown 20230701/p/pytest-bdd-ng/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-01 12:01:57] INFO root fetch - processPackages [prisma]: executing diffoscope
+[2023-07-01 12:01:57] INFO root fetch - processPackages [prisma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prisma-0.9.0.tar.gz tmp/prisma-0.9.1.tar.gz --markdown 20230701/p/prisma/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-01 12:01:58] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.5.tar.gz]
+[2023-07-01 12:01:58] INFO root fetch - processPackages [bbrl-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/bbrl_gymnasium-0.1.6.tar.gz]
+[2023-07-01 12:01:58] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-01 12:01:58] INFO root fetch - processPackages [llvd]: Remove: archive file [/home/abi/fetcher/tmp/llvd-3.0.5.tar.gz]
+[2023-07-01 12:01:58] INFO root fetch - processPackages [llvd]: Remove: archive file [/home/abi/fetcher/tmp/llvd-3.0.6.tar.gz]
+[2023-07-01 12:01:58] INFO root fetch - main [MainThread]: End processing [llvd]: success
+[2023-07-01 12:01:59] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.4.0.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.4.1.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - main [MainThread]: End processing [repid]: success
+[2023-07-01 12:01:59] INFO root fetch - processPackages [nanoget]: Remove: archive file [/home/abi/fetcher/tmp/nanoget-1.9.0.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - processPackages [nanoget]: Remove: archive file [/home/abi/fetcher/tmp/nanoget-1.9.1.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - main [MainThread]: End processing [nanoget]: success
+[2023-07-01 12:01:59] INFO root fetch - processPackages [wizzi-utils]: Remove: archive file [/home/abi/fetcher/tmp/wizzi_utils-8.0.5.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - processPackages [wizzi-utils]: Remove: archive file [/home/abi/fetcher/tmp/wizzi_utils-8.0.6.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - main [MainThread]: End processing [wizzi-utils]: success
+[2023-07-01 12:01:59] INFO root fetch - main [MainThread]: End processing [bbrl-gymnasium]: success
+[2023-07-01 12:01:59] INFO root fetch - processPackages [prisma]: Remove: archive file [/home/abi/fetcher/tmp/prisma-0.9.0.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - processPackages [prisma]: Remove: archive file [/home/abi/fetcher/tmp/prisma-0.9.1.tar.gz]
+[2023-07-01 12:01:59] INFO root fetch - main [MainThread]: End processing [prisma]: success
+[2023-07-01 12:02:00] INFO root fetch - processPackages [pytest-bdd-ng]: Remove: archive file [/home/abi/fetcher/tmp/pytest-bdd-ng-2.0.0.tar.gz]
+[2023-07-01 12:02:00] INFO root fetch - processPackages [pytest-bdd-ng]: Remove: archive file [/home/abi/fetcher/tmp/pytest-bdd-ng-2.0.1.tar.gz]
+[2023-07-01 12:02:00] INFO root fetch - main [MainThread]: End processing [pytest-bdd-ng]: success
+[2023-07-01 12:02:00] INFO root fetch - main [MainThread]: Store serial: [18721123]
