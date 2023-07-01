@@ -3134,3 +3134,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 02:43:54] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/everdrop-aws-cdk-constructs-0.0.99.tar.gz]
 [2023-07-01 02:43:54] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
 [2023-07-01 02:43:54] INFO root fetch - main [MainThread]: Store serial: [18717751]
+[2023-07-01 02:48:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717751]
+[2023-07-01 02:49:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-25
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kord
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: state-machine-semaphore
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moesifapi
+[2023-07-01 02:49:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kubric-nightly
+[2023-07-01 02:49:02] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306300045] Old Version: [4.9.2.dev202306290045]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [moesifapi]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [kord]: New version: [3.6] Old Version: [3.5]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-01 02:49:02] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-07-01 02:49:02] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-01 02:49:02] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-07-01 02:49:02] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-01 02:49:02] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-01 02:49:02] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/98/5e/d10fbfda72d744bf513c0870fbdcdb8314be85b8816728fa46747d781413/tfds-nightly-4.9.2.dev202306290045.tar.gz
+[2023-07-01 02:49:02] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-07-01 02:49:02] INFO root fetch - processPackages [kord]: Downloading https://files.pythonhosted.org/packages/6a/a4/7a299c006b57889279e165be8a57991e61a8ac2417b3507e6ba08bbbba5a/kord-3.5.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/24/07/db31c2a7027c61bb935a54e6925421080e748ad0b0caa3d98dbd2b4c05e7/moesifapi-1.4.0.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-01 02:49:03] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230701/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-01 02:49:03] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/39/5a/49a7ed34be7909c520abf8d10a91fc78a8dc6917515a2c049ac49bd331b4/tfds-nightly-4.9.2.dev202306300045.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-07-01 02:49:03] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230701/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-07-01 02:49:03] INFO root fetch - processPackages [kord]: Downloading https://files.pythonhosted.org/packages/e0/1f/2b6b3dd7b15071f585832c95f2a9980a32a54573f0ecd21928ef5047ed47/kord-3.6.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-07-01 02:49:03] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230701/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-01 02:49:03] INFO root fetch - processPackages [moesifapi]: Downloading https://files.pythonhosted.org/packages/7e/b2/7b06a16fb8f0d1968da245042d8c22138081a86076ea1c1949d9b322d8cd/moesifapi-1.4.1.tar.gz
+[2023-07-01 02:49:03] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-07-01 02:49:03] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306290045.tar.gz tmp/tfds-nightly-4.9.2.dev202306300045.tar.gz --markdown 20230701/t/tfds-nightly/4.9.2.dev202306290045-4.9.2.dev202306300045/diff.md --exclude *.pyd
+[2023-07-01 02:49:03] INFO root fetch - processPackages [kord]: executing diffoscope
+[2023-07-01 02:49:03] INFO root fetch - processPackages [kord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kord-3.5.tar.gz tmp/kord-3.6.tar.gz --markdown 20230701/k/kord/3.5-3.6/diff.md --exclude *.pyd
+[2023-07-01 02:49:03] INFO root fetch - processPackages [moesifapi]: executing diffoscope
+[2023-07-01 02:49:03] INFO root fetch - processPackages [moesifapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moesifapi-1.4.0.tar.gz tmp/moesifapi-1.4.1.tar.gz --markdown 20230701/m/moesifapi/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-01 02:49:04] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-07-01 02:49:04] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-07-01 02:49:04] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-07-01 02:49:04] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-07-01 02:49:04] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-01 02:49:04] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-01 02:49:04] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-07-01 02:49:04] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-07-01 02:49:04] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-07-01 02:49:05] INFO root fetch - processPackages [kord]: Remove: archive file [/home/abi/fetcher/tmp/kord-3.5.tar.gz]
+[2023-07-01 02:49:05] INFO root fetch - processPackages [kord]: Remove: archive file [/home/abi/fetcher/tmp/kord-3.6.tar.gz]
+[2023-07-01 02:49:05] INFO root fetch - main [MainThread]: End processing [kord]: success
+[2023-07-01 02:49:05] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.0.tar.gz]
+[2023-07-01 02:49:05] INFO root fetch - processPackages [moesifapi]: Remove: archive file [/home/abi/fetcher/tmp/moesifapi-1.4.1.tar.gz]
+[2023-07-01 02:49:05] INFO root fetch - main [MainThread]: End processing [moesifapi]: success
+[2023-07-01 02:49:05] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-07-01 02:49:08] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-07-01 02:49:08] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230701/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 02:49:10] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-07-01 02:49:10] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-07-01 02:49:10] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-07-01 02:49:14] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306290045.tar.gz]
+[2023-07-01 02:49:14] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306300045.tar.gz]
+[2023-07-01 02:49:14] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-07-01 02:49:14] INFO root fetch - main [MainThread]: Store serial: [18717776]
