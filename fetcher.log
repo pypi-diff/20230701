@@ -15938,3 +15938,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 17:48:38] ERROR root fetch - processPackages [PyMCTranslate]: Timeout during execution of pkgdiff
 [2023-07-01 17:48:38] INFO root fetch - main [MainThread]: End processing [PyMCTranslate] error
 [2023-07-01 17:48:38] INFO root fetch - main [MainThread]: Store serial: [18722883]
+[2023-07-01 17:53:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722883]
+[2023-07-01 17:53:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 17:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: umap-project
+[2023-07-01 17:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lokzzpylibrary
+[2023-07-01 17:53:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lbrlabs-pulumi-scaleway
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lokzzpylibrary]: New version: [0.1.dev18] Old Version: [0.1.dev17]
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/45/33/f69515fdb0d829d16367d1cbbe5ff1d270186bc83cf52335b8dbdb03abbc/lokzzpylibrary-0.1.dev17.tar.gz
+[2023-07-01 17:53:48] INFO root fetch - processPackages [umap-project]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: New version: [1.9.0a1687207630] Old Version: [1.9.0a1681291877]
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Downloading https://files.pythonhosted.org/packages/ec/89/14e4684e3661747998014e4e5deedfe1569b0713798ab43cad85d8715f43/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lokzzpylibrary]: Downloading https://files.pythonhosted.org/packages/fd/94/e1a2ccfbadbfbd0fd49864036f3467f65bb15e401afff466054dc6baf5d0/lokzzpylibrary-0.1.dev18.tar.gz
+[2023-07-01 17:53:48] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/e4/f6/9185187e5029259d150a70fa60b89169359b704af7509964dc60ce93c51e/umap_project-1.3.5.tar.gz
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lokzzpylibrary]: executing diffoscope
+[2023-07-01 17:53:48] INFO root fetch - processPackages [lokzzpylibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylibrary-0.1.dev17.tar.gz tmp/lokzzpylibrary-0.1.dev18.tar.gz --markdown 20230701/l/lokzzpylibrary/0.1.dev17-0.1.dev18/diff.md --exclude *.pyd
+[2023-07-01 17:53:49] INFO root fetch - processPackages [umap-project]: Downloading https://files.pythonhosted.org/packages/25/13/6a3f48333260762a1b9a6d9e46af2bc23377afdaafff92f2f73f6e974915/umap_project-1.3.6.tar.gz
+[2023-07-01 17:53:49] INFO root fetch - processPackages [umap-project]: executing diffoscope
+[2023-07-01 17:53:49] INFO root fetch - processPackages [umap-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umap_project-1.3.5.tar.gz tmp/umap_project-1.3.6.tar.gz --markdown 20230701/u/umap-project/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-01 17:53:49] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Downloading https://files.pythonhosted.org/packages/bd/a6/6aa4a1cb1f745faaad77bf484b29be6117a2956a32e9ff045c9f7b276a6f/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz
+[2023-07-01 17:53:49] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: executing diffoscope
+[2023-07-01 17:53:49] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz tmp/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz --markdown 20230701/l/lbrlabs-pulumi-scaleway/1.9.0a1681291877-1.9.0a1687207630/diff.md --exclude *.pyd
+[2023-07-01 17:53:50] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev17.tar.gz]
+[2023-07-01 17:53:50] INFO root fetch - processPackages [lokzzpylibrary]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylibrary-0.1.dev18.tar.gz]
+[2023-07-01 17:53:50] INFO root fetch - main [MainThread]: End processing [lokzzpylibrary]: success
+[2023-07-01 17:53:55] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_scaleway-1.9.0a1681291877.tar.gz]
+[2023-07-01 17:53:55] INFO root fetch - processPackages [lbrlabs-pulumi-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_scaleway-1.9.0a1687207630.tar.gz]
+[2023-07-01 17:53:55] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-scaleway]: success
+[2023-07-01 17:54:01] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.3.5.tar.gz]
+[2023-07-01 17:54:01] INFO root fetch - processPackages [umap-project]: Remove: archive file [/home/abi/fetcher/tmp/umap_project-1.3.6.tar.gz]
+[2023-07-01 17:54:01] INFO root fetch - main [MainThread]: End processing [umap-project]: success
+[2023-07-01 17:54:01] INFO root fetch - main [MainThread]: Store serial: [18722898]
