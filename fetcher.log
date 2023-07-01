@@ -19891,3 +19891,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:55:16] INFO root fetch - processPackages [redun]: Remove: archive file [/home/abi/fetcher/tmp/redun-0.8.9.tar.gz]
 [2023-07-01 22:55:16] INFO root fetch - main [MainThread]: End processing [redun]: success
 [2023-07-01 22:55:16] INFO root fetch - main [MainThread]: Store serial: [18724615]
+[2023-07-01 23:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724615]
+[2023-07-01 23:00:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dotdotfarm
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opshin
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crochet
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: davis-rig-parser
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: brkraw
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dark-gateway
+[2023-07-01 23:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-quality-rules-tools
+[2023-07-01 23:00:26] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2023-07-01 23:00:26] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-01 23:00:26] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/fd/44/4d122d325845e5e16cfc37128d0ed275d6fd49a3f3bd067d4bcca820e6ea/spark_quality_rules_tools-0.3.3.tar.gz
+[2023-07-01 23:00:26] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2023-07-01 23:00:26] WARNING root fetch - processPackages [dotdotfarm]: Skipping, unable to determine old version
+[2023-07-01 23:00:26] INFO root fetch - main [MainThread]: End processing [dotdotfarm] error
+[2023-07-01 23:00:26] INFO root fetch - processPackages [crochet]: New version: [2.1.1] Old Version: [2.0.0]
+[2023-07-01 23:00:26] WARNING root fetch - processPackages [dark-gateway]: Skipping, unable to determine old version
+[2023-07-01 23:00:26] INFO root fetch - main [MainThread]: End processing [dark-gateway] error
+[2023-07-01 23:00:26] INFO root fetch - processPackages [davis-rig-parser]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 23:00:26] WARNING root fetch - processPackages [brkraw]: Skipping, unable to determine old version
+[2023-07-01 23:00:26] INFO root fetch - main [MainThread]: End processing [brkraw] error
+[2023-07-01 23:00:27] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/78/9d/8ee700b2f0fd702780008e788ee2b4937dd4c18fee9364969fabf2688893/spark_quality_rules_tools-0.3.4.tar.gz
+[2023-07-01 23:00:27] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2023-07-01 23:00:27] INFO root fetch - processPackages [crochet]: Downloading https://files.pythonhosted.org/packages/ca/c0/76c9e9031a33ed2ebb80c06a4c6cbb5cee637a23d68f15b207842fb411a9/crochet-2.0.0.tar.gz
+[2023-07-01 23:00:27] INFO root fetch - processPackages [davis-rig-parser]: Downloading https://files.pythonhosted.org/packages/c6/9b/20c542230d13cd85551f72ee3f628a1ff3582759caebd391034046c2df37/davis_rig_parser-0.1.3.tar.gz
+[2023-07-01 23:00:27] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-01 23:00:27] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.3.3.tar.gz tmp/spark_quality_rules_tools-0.3.4.tar.gz --markdown 20230701/s/spark-quality-rules-tools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-01 23:00:27] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2023-07-01 23:00:27] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20230701/o/opshin/0.9.14-0.9.15/diff.md --exclude *.pyd
+[2023-07-01 23:00:27] INFO root fetch - processPackages [davis-rig-parser]: Downloading https://files.pythonhosted.org/packages/86/ba/9a2245ea0fa96b30d72b2f0f15ab0c8ca63d440752cf7a42f2413d4b895d/davis_rig_parser-0.1.4.tar.gz
+[2023-07-01 23:00:27] INFO root fetch - processPackages [crochet]: Downloading https://files.pythonhosted.org/packages/be/38/80218110ea772b52a217fe423786b2a91771466ce3f2284b080950fd72a6/crochet-2.1.1.tar.gz
+[2023-07-01 23:00:27] INFO root fetch - processPackages [davis-rig-parser]: executing diffoscope
+[2023-07-01 23:00:27] INFO root fetch - processPackages [davis-rig-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davis_rig_parser-0.1.3.tar.gz tmp/davis_rig_parser-0.1.4.tar.gz --markdown 20230701/d/davis-rig-parser/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 23:00:27] INFO root fetch - processPackages [crochet]: executing diffoscope
+[2023-07-01 23:00:27] INFO root fetch - processPackages [crochet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crochet-2.0.0.tar.gz tmp/crochet-2.1.1.tar.gz --markdown 20230701/c/crochet/2.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-01 23:00:28] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.3.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.3.4.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-01 23:00:28] INFO root fetch - processPackages [davis-rig-parser]: Remove: archive file [/home/abi/fetcher/tmp/davis_rig_parser-0.1.3.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - processPackages [davis-rig-parser]: Remove: archive file [/home/abi/fetcher/tmp/davis_rig_parser-0.1.4.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - main [MainThread]: End processing [davis-rig-parser]: success
+[2023-07-01 23:00:28] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.14.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2023-07-01 23:00:28] INFO root fetch - processPackages [crochet]: Remove: archive file [/home/abi/fetcher/tmp/crochet-2.0.0.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - processPackages [crochet]: Remove: archive file [/home/abi/fetcher/tmp/crochet-2.1.1.tar.gz]
+[2023-07-01 23:00:28] INFO root fetch - main [MainThread]: End processing [crochet]: success
+[2023-07-01 23:00:28] INFO root fetch - main [MainThread]: Store serial: [18724643]
