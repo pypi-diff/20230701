@@ -3488,3 +3488,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 03:27:44] INFO root fetch - processPackages [pydwm1001]: Remove: archive file [/home/abi/fetcher/tmp/pydwm1001-0.8.0.tar.gz]
 [2023-07-01 03:27:44] INFO root fetch - main [MainThread]: End processing [pydwm1001]: success
 [2023-07-01 03:27:44] INFO root fetch - main [MainThread]: Store serial: [18717899]
+[2023-07-01 03:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717899]
+[2023-07-01 03:32:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 03:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-01 03:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex
+[2023-07-01 03:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuspec-fe-parser
+[2023-07-01 03:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zuspec-parser
+[2023-07-01 03:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-07-01 03:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-07-01 03:32:53] INFO root fetch - processPackages [zuspec-fe-parser]: New version: [0.0.1.5428346090] Old Version: [0.0.1.5402178205]
+[2023-07-01 03:32:53] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-07-01 03:32:53] INFO root fetch - processPackages [reflex]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-07-01 03:32:53] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-01 03:32:53] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.5428347672] Old Version: [0.0.1.5402177201]
+[2023-07-01 03:32:53] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 03:32:53] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-07-01 03:32:53] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/af/4c/db17385714ddfe7fef5a4501a762f7ba87b022b5db385b779eb1ea40c71f/reflex-0.2.0a1.tar.gz
+[2023-07-01 03:32:53] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-07-01 03:32:53] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-07-01 03:32:53] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-01 03:32:53] INFO root fetch - processPackages [zuspec-fe-parser]: Downloading https://files.pythonhosted.org/packages/4a/8a/f513bccc322d5f71511e4702199d110f9601bef5e07a108f34a95b2131c0/zuspec_fe_parser-0.0.1.5402178205-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 03:32:53] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/2b/4e/d1f66567bfa376c7b5c74a11eda629c2b5686f38f7197084146b4ae5b1bf/zuspec_parser-0.0.1.5402177201-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 03:32:53] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-01 03:32:53] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/e9/cd/a4fb186f89d66d7d5389ff2fced21d64108e91dc92f9420a69c4a6231d94/reflex-0.2.0a2.tar.gz
+[2023-07-01 03:32:53] INFO root fetch - processPackages [zuspec-fe-parser]: Downloading https://files.pythonhosted.org/packages/e5/4d/4c8f92a86c2b02beb94d910280108870362e325b53fbd1e4717123e1d3ca/zuspec_fe_parser-0.0.1.5428346090-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 03:32:53] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-01 03:32:53] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.0a1.tar.gz tmp/reflex-0.2.0a2.tar.gz --markdown 20230701/r/reflex/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-07-01 03:32:53] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-01 03:32:54] INFO root fetch - processPackages [zuspec-fe-parser]: executing diffoscope
+[2023-07-01 03:32:54] INFO root fetch - processPackages [zuspec-fe-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_fe_parser-0.0.1.5402178205-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_fe_parser-0.0.1.5428346090-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/z/zuspec-fe-parser/0.0.1.5402178205-0.0.1.5428346090/diff.md --exclude *.pyd
+[2023-07-01 03:32:54] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-01 03:32:54] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230701/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:32:54] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/b6/3e/a7aa35f1f632bb2157f5f114a9073e9d3480dc0c594e7e6afe8b86ac5b24/zuspec_parser-0.0.1.5428347672-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-01 03:32:54] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2023-07-01 03:32:54] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.5402177201-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.5428347672-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230701/z/zuspec-parser/0.0.1.5402177201-0.0.1.5428347672/diff.md --exclude *.pyd
+[2023-07-01 03:32:54] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-01 03:32:54] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-01 03:32:54] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-01 03:32:54] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-01 03:32:55] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-01 03:32:55] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230701/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-01 03:32:55] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.0a1.tar.gz]
+[2023-07-01 03:32:55] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.0a2.tar.gz]
+[2023-07-01 03:32:55] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-01 03:32:56] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-01 03:32:56] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-01 03:32:56] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-01 03:33:01] INFO root fetch - processPackages [zuspec-fe-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_fe_parser-0.0.1.5402178205-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 03:33:01] INFO root fetch - processPackages [zuspec-fe-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_fe_parser-0.0.1.5428346090-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 03:33:01] INFO root fetch - main [MainThread]: End processing [zuspec-fe-parser]: success
+[2023-07-01 03:34:16] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.5402177201-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 03:34:16] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.5428347672-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-01 03:34:16] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2023-07-01 03:34:16] INFO root fetch - main [MainThread]: Store serial: [18717920]
