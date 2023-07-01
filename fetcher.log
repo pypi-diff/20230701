@@ -3604,3 +3604,136 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 03:40:14] INFO root fetch - main [MainThread]: End processing [vsc-dm]: success
 [2023-07-01 03:40:32] INFO root fetch - main [MainThread]: End processing [opvious]: success
 [2023-07-01 03:40:32] INFO root fetch - main [MainThread]: Store serial: [18717952]
+[2023-07-01 03:45:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18717952]
+[2023-07-01 03:45:48] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upstash-ratelimit
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: watertap
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dispatches
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beam-postgres-connector
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdxpy
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-sphinx
+[2023-07-01 03:45:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive-jupyter-kernel
+[2023-07-01 03:45:48] INFO root fetch - processPackages [upstash-ratelimit]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [dispatches]: New version: [1.3.0rc0] Old Version: [1.2.0rc1]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [watertap]: New version: [0.9.0rc0] Old Version: [0.8.0rc2]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [beam-postgres-connector]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [tdxpy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 03:45:48] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/ef/ed/f6845c0452a20a811f02fb422b4424808fceb8db08f5a0c816a37f979ca0/tdxpy-0.2.2.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-01 03:45:48] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-07-01 03:45:48] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [watertap]: Downloading https://files.pythonhosted.org/packages/48/f0/5b77feeffddc4ebae8f5b0ad3a3b9143f0a66627589883f2f9cc50c782ea/watertap-0.8.0rc2.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/6d/78/8da4a265c42c2a36c50fe5fa7f28ef28c855e4411e352980319505c79bb3/upstash_ratelimit-0.2.0.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [dispatches]: Downloading https://files.pythonhosted.org/packages/f6/1c/ac47d75f97f97ec3700e791df751e3c7a00fdef09ade8e0749030749461a/dispatches-1.2.0rc1.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [beam-postgres-connector]: Downloading https://files.pythonhosted.org/packages/59/d0/e774fa3625fc1815c49966bbd1c80dd4f16d00f78c7d26fc8257ef60b28f/beam_postgres_connector-0.1.0.tar.gz
+[2023-07-01 03:45:48] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-07-01 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230701/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:45:49] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-01 03:45:49] INFO root fetch - processPackages [proactive]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-01 03:45:49] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-07-01 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-07-01 03:45:49] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230701/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-07-01 03:45:49] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/bf/6c/dca2a53299c9ce62fb2b5c06c7b1815c1a4251b223377accd0738653e758/tdxpy-0.2.3.tar.gz
+[2023-07-01 03:45:49] INFO root fetch - processPackages [beam-postgres-connector]: Downloading https://files.pythonhosted.org/packages/9e/b7/1024b0ee79c697de5f5e5b22c2d02d344663ed6f2038323045e5b9ff2c0b/beam_postgres_connector-0.1.1.tar.gz
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230701/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.28.0.dev20230630] Old Version: [1.28.0.dev20230628]
+[2023-07-01 03:45:49] INFO root fetch - processPackages [tdxpy]: executing diffoscope
+[2023-07-01 03:45:49] INFO root fetch - processPackages [tdxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdxpy-0.2.2.tar.gz tmp/tdxpy-0.2.3.tar.gz --markdown 20230701/t/tdxpy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-01 03:45:49] INFO root fetch - processPackages [beam-postgres-connector]: executing diffoscope
+[2023-07-01 03:45:49] INFO root fetch - processPackages [beam-postgres-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_postgres_connector-0.1.0.tar.gz tmp/beam_postgres_connector-0.1.1.tar.gz --markdown 20230701/b/beam-postgres-connector/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 03:45:49] INFO root fetch - processPackages [upstash-ratelimit]: Downloading https://files.pythonhosted.org/packages/74/52/29f2c96307d791c5023800d68d6fc0468190a0a26830ed2d7ec5a75ffdb9/upstash_ratelimit-0.3.0.tar.gz
+[2023-07-01 03:45:49] INFO root fetch - processPackages [upstash-ratelimit]: executing diffoscope
+[2023-07-01 03:45:49] INFO root fetch - processPackages [upstash-ratelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit-0.2.0.tar.gz tmp/upstash_ratelimit-0.3.0.tar.gz --markdown 20230701/u/upstash-ratelimit/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-01 03:45:49] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/0d/7f/950499175aba724580b7f436fe26004c7a74c2b8a94a78db429143c2487b/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230628.tar.gz
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230701/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/b8/45/b6e775868753a9b7c1a1b77f1326be1fe52f566c8f1482b05f04694b3646/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230630.tar.gz
+[2023-07-01 03:45:50] INFO root fetch - processPackages [dispatches]: Downloading https://files.pythonhosted.org/packages/7f/80/9e0bf5f58604ff372cc9b4a40c83aa170a570e33f3b844b6ac6648a8073f/dispatches-1.3.0rc0.tar.gz
+[2023-07-01 03:45:50] INFO root fetch - processPackages [watertap]: Downloading https://files.pythonhosted.org/packages/25/ef/89d86a01df94da59b5b8a18ad0777c54dcfb3c1024c117b3b969b60a3d7a/watertap-0.9.0rc0.tar.gz
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230628.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230630.tar.gz --markdown 20230701/n/nvidia-dali-tf-plugin-nightly-cuda110/1.28.0.dev20230628-1.28.0.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 03:45:50] INFO root fetch - processPackages [watertap]: executing diffoscope
+[2023-07-01 03:45:50] INFO root fetch - processPackages [watertap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watertap-0.8.0rc2.tar.gz tmp/watertap-0.9.0rc0.tar.gz --markdown 20230701/w/watertap/0.8.0rc2-0.9.0rc0/diff.md --exclude *.pyd
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-07-01 03:45:50] INFO root fetch - processPackages [nbdev-scipy]: Start processing: urdfenvs
+[2023-07-01 03:45:50] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [urdfenvs]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [beam-postgres-connector]: Remove: archive file [/home/abi/fetcher/tmp/beam_postgres_connector-0.1.0.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [beam-postgres-connector]: Remove: archive file [/home/abi/fetcher/tmp/beam_postgres_connector-0.1.1.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [beam-postgres-connector]: Start processing: nbdev-django
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [beam-postgres-connector]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-01 03:45:51] INFO root fetch - processPackages [tdxpy]: Remove: archive file [/home/abi/fetcher/tmp/tdxpy-0.2.2.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [tdxpy]: Remove: archive file [/home/abi/fetcher/tmp/tdxpy-0.2.3.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [tdxpy]: Start processing: nbdev-apl
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [tdxpy]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [urdfenvs]: Downloading https://files.pythonhosted.org/packages/cd/ba/12f2d10fe529ebd56e264790902cd9b1a992570a68c76f3430ec4a4e2a65/urdfenvs-0.7.6.tar.gz
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.867] Old Version: [0.0.866]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [dispatches]: executing diffoscope
+[2023-07-01 03:45:51] INFO root fetch - processPackages [dispatches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispatches-1.2.0rc1.tar.gz tmp/dispatches-1.3.0rc0.tar.gz --markdown 20230701/d/dispatches/1.2.0rc1-1.3.0rc0/diff.md --exclude *.pyd
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/00/33/5d72afc29c6d8e17e4ebd30b9b8d98aab7e2022d098ee4945e03a3eb166a/nbdev-apl-0.0.866.tar.gz
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230701/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-01 03:45:51] WARNING root fetch - processPackages [urdfenvs]: Skipping package: exceeds size limit 21183053>=10485760
+[2023-07-01 03:45:51] INFO root fetch - processPackages [urdfenvs]: Start processing: nvidia-dali-nightly-cuda110
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [urdfenvs] error
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: asgi-proxy-lib
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.2.0.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [upstash-ratelimit]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit-0.3.0.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.28.0.dev20230630] Old Version: [1.28.0.dev20230628]
+[2023-07-01 03:45:51] WARNING root fetch - processPackages [asgi-proxy-lib]: Skipping, unable to determine old version
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [asgi-proxy-lib] error
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/72/cd/b6d5db5dcf3fac0adc2f8d0e9635adaf77bcc718146f0d638e36fa9b7972/nbdev-apl-0.0.867.tar.gz
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.866.tar.gz tmp/nbdev-apl-0.0.867.tar.gz --markdown 20230701/n/nbdev-apl/0.0.866-0.0.867/diff.md --exclude *.pyd
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230628.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.28.0.dev20230630.tar.gz]
+[2023-07-01 03:45:51] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-01 03:45:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/19/d2/249370739457f35ea583b256f8aea1f8167b2cf36671ed96569c2e0c744a/nvidia-dali-nightly-cuda110-1.28.0.dev20230628.tar.gz
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/0b/6b/b9d1b064ec9b88e1cb6412df7bc9529abbcedef288267d9c33e65e1129bf/nvidia-dali-nightly-cuda110-1.28.0.dev20230630.tar.gz
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230628.tar.gz tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230630.tar.gz --markdown 20230701/n/nvidia-dali-nightly-cuda110/1.28.0.dev20230628-1.28.0.dev20230630/diff.md --exclude *.pyd
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-01 03:45:52] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.866.tar.gz]
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.867.tar.gz]
+[2023-07-01 03:45:52] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-01 03:45:52] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-01 03:45:52] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-01 03:45:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230628.tar.gz]
+[2023-07-01 03:45:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda110-1.28.0.dev20230630.tar.gz]
+[2023-07-01 03:45:53] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2023-07-01 03:45:56] INFO root fetch - processPackages [dispatches]: Remove: archive file [/home/abi/fetcher/tmp/dispatches-1.2.0rc1.tar.gz]
+[2023-07-01 03:45:56] INFO root fetch - processPackages [dispatches]: Remove: archive file [/home/abi/fetcher/tmp/dispatches-1.3.0rc0.tar.gz]
+[2023-07-01 03:45:56] INFO root fetch - main [MainThread]: End processing [dispatches]: success
+[2023-07-01 03:46:03] INFO root fetch - processPackages [watertap]: Remove: archive file [/home/abi/fetcher/tmp/watertap-0.8.0rc2.tar.gz]
+[2023-07-01 03:46:03] INFO root fetch - processPackages [watertap]: Remove: archive file [/home/abi/fetcher/tmp/watertap-0.9.0rc0.tar.gz]
+[2023-07-01 03:46:03] INFO root fetch - main [MainThread]: End processing [watertap]: success
+[2023-07-01 03:46:03] INFO root fetch - main [MainThread]: Store serial: [18717999]
