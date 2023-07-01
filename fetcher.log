@@ -13884,3 +13884,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:59:25] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.7.0.tar.gz]
 [2023-07-01 14:59:25] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-07-01 14:59:25] INFO root fetch - main [MainThread]: Store serial: [18721905]
+[2023-07-01 15:04:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721905]
+[2023-07-01 15:04:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datawhispers
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggerflow
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kayle
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-mqtt
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wpdetect
+[2023-07-01 15:04:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brainflow
+[2023-07-01 15:04:35] INFO root fetch - processPackages [fastapi-mqtt]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [loggerflow]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [kayle]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [datawhispers]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [wpdetect]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [brainflow]: New version: [5.8.2] Old Version: [5.8.1]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/28/23/f21c7af91127a1f1852df1210f3033e1b2c4f3bc9ac44f4e67acec765885/fastapi_mqtt-1.1.0.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/91/53/2305502f1e6b46808a8dea0be653b3d7bf7fa1ab0a8e27b082b2961b8a76/kayle-0.5.8-py3-none-any.whl
+[2023-07-01 15:04:35] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/db/4e/bfd37d9c5b2399c32b0ada980cdf897fda22d0c232c041870534a841fe2e/wpdetect-1.3.9.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-01 15:04:35] INFO root fetch - processPackages [loggerflow]: Downloading https://files.pythonhosted.org/packages/1e/2b/6e5ca9a991b02f384222a541bd628fafcadb693beb557d884a5ecc9cd566/loggerflow-0.0.2.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/ae/08/482c1f8c94f0c70fac9d316084179473036196acaf371d46beb87215f711/datawhispers-0.2.1.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/53/0a/d428491d9c47c3d70c6e36d95bb7d75a5dc4e8e40bcc979d4d8fd678b885/kayle-0.5.9-py3-none-any.whl
+[2023-07-01 15:04:35] INFO root fetch - processPackages [brainflow]: Downloading https://files.pythonhosted.org/packages/aa/66/6bc6a5d86b899251b2647f0e7d5683f39a9558b15276f3b89bfdd0251d4b/brainflow-5.8.1-py3-none-any.whl
+[2023-07-01 15:04:35] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [kayle]: executing diffoscope
+[2023-07-01 15:04:35] INFO root fetch - processPackages [kayle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayle-0.5.8-py3-none-any.whl.zip tmp/kayle-0.5.9-py3-none-any.whl.zip --markdown 20230701/k/kayle/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-01 15:04:35] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/d5/37/34a0185ad43b4b2d294c86f968eb6f9d1fc07a0a3db44f2107b398867e27/fastapi_mqtt-1.1.1.tar.gz
+[2023-07-01 15:04:35] WARNING root fetch - processPackages [brainflow]: Skipping package: exceeds size limit 28600760>=10485760
+[2023-07-01 15:04:35] INFO root fetch - main [MainThread]: End processing [brainflow] error
+[2023-07-01 15:04:35] INFO root fetch - processPackages [fastapi-mqtt]: executing diffoscope
+[2023-07-01 15:04:35] INFO root fetch - processPackages [fastapi-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mqtt-1.1.0.tar.gz tmp/fastapi_mqtt-1.1.1.tar.gz --markdown 20230701/f/fastapi-mqtt/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-01 15:04:35] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/8c/1f/7105f92ce9f0d890c28b10d981a3e6a5243e4fabefda869f77478cf6c05a/wpdetect-1.4.0.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [loggerflow]: Downloading https://files.pythonhosted.org/packages/17/35/57e4c3ddad1624dc99657a5f1deab0b0f711c40412317896869b60e967a3/loggerflow-0.0.3.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [datawhispers]: Downloading https://files.pythonhosted.org/packages/79/d3/5d8f07d29b8d1478b93343eadea2c3c7de270b76ea30099781a1b6babcda/datawhispers-0.2.2.tar.gz
+[2023-07-01 15:04:35] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-07-01 15:04:35] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.3.9.tar.gz tmp/wpdetect-1.4.0.tar.gz --markdown 20230701/w/wpdetect/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-07-01 15:04:35] INFO root fetch - processPackages [loggerflow]: executing diffoscope
+[2023-07-01 15:04:35] INFO root fetch - processPackages [loggerflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerflow-0.0.2.tar.gz tmp/loggerflow-0.0.3.tar.gz --markdown 20230701/l/loggerflow/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-01 15:04:35] INFO root fetch - processPackages [datawhispers]: executing diffoscope
+[2023-07-01 15:04:35] INFO root fetch - processPackages [datawhispers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawhispers-0.2.1.tar.gz tmp/datawhispers-0.2.2.tar.gz --markdown 20230701/d/datawhispers/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 15:04:36] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-01 15:04:36] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-01 15:04:36] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.8-py3-none-any.whl.zip]
+[2023-07-01 15:04:36] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.9-py3-none-any.whl.zip]
+[2023-07-01 15:04:36] INFO root fetch - main [MainThread]: End processing [kayle]: success
+[2023-07-01 15:04:36] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.1.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - processPackages [datawhispers]: Remove: archive file [/home/abi/fetcher/tmp/datawhispers-0.2.2.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - main [MainThread]: End processing [datawhispers]: success
+[2023-07-01 15:04:36] INFO root fetch - processPackages [fastapi-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mqtt-1.1.0.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - processPackages [fastapi-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mqtt-1.1.1.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - main [MainThread]: End processing [fastapi-mqtt]: success
+[2023-07-01 15:04:36] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-01 15:04:36] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230701/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-01 15:04:36] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-01 15:04:36] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230701/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-01 15:04:36] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.3.9.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.4.0.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-07-01 15:04:36] INFO root fetch - processPackages [loggerflow]: Remove: archive file [/home/abi/fetcher/tmp/loggerflow-0.0.2.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - processPackages [loggerflow]: Remove: archive file [/home/abi/fetcher/tmp/loggerflow-0.0.3.tar.gz]
+[2023-07-01 15:04:36] INFO root fetch - main [MainThread]: End processing [loggerflow]: success
+[2023-07-01 15:05:09] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-01 15:05:09] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-01 15:05:09] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-01 15:05:10] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-01 15:05:10] INFO root fetch - main [MainThread]: Store serial: [18721927]
