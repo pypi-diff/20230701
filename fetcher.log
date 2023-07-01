@@ -20169,3 +20169,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:29:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307012127-py3-none-any.whl.zip]
 [2023-07-01 23:29:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-01 23:29:29] INFO root fetch - main [MainThread]: Store serial: [18724729]
+[2023-07-01 23:34:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724729]
+[2023-07-01 23:34:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 23:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-07-01 23:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: user-discord
+[2023-07-01 23:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datascience-cookiecutter
+[2023-07-01 23:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chroma-datasets
+[2023-07-01 23:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aioesphomeapi
+[2023-07-01 23:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pwasopt
+[2023-07-01 23:34:39] INFO root fetch - processPackages [user-discord]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-07-01 23:34:39] INFO root fetch - processPackages [chroma-datasets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 23:34:39] INFO root fetch - processPackages [pwasopt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 23:34:39] INFO root fetch - processPackages [datascience-cookiecutter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 23:34:39] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-01 23:34:39] INFO root fetch - processPackages [kfish]: New version: [99.0.202307012129] Old Version: [99.0.202307012044]
+[2023-07-01 23:34:39] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/1f/66/ea00c855419ade7d72c4622eaddcc8f3d1b3edd8bfcb052cacb51b70ceba/pwasopt-0.0.4.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/c3/d3/46c5a21bc2ef71bfc01843bf6398ad3e3241f906ce8a68b421e165fd9043/user_discord-1.3.6.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/cf/24/8e26379a896b0339710e7d37e4b8308e8e8e427918063cf48e10df918d65/kfish-99.0.202307012044-py3-none-any.whl
+[2023-07-01 23:34:39] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/3e/f7/7dd701389ee38035f08c21e3a61e671535d9555d9c52e8766e48a2525f6f/datascience_cookiecutter-0.1.0.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [chroma-datasets]: Downloading https://files.pythonhosted.org/packages/e6/6a/9d744aa258de48bcb76c28d3e7e295c1bcf49e984509c17012a8854268a1/chroma_datasets-0.1.1.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/d5/a3/d0f8d9db93a1413f4be047407a1ea833e5d11efa98c869176af7104357dc/user_discord-1.3.7.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [pwasopt]: Downloading https://files.pythonhosted.org/packages/66/c6/c2ade9229f13ed0fa25dcc62e483f1eea559d30088304446072616f1c788/pwasopt-0.0.5.tar.gz
+[2023-07-01 23:34:39] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-01 23:34:39] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b9/57/6cd18610496bef38bedbb3edfe92cade8cec45dcde00c31bfdd410172dbe/kfish-99.0.202307012129-py3-none-any.whl
+[2023-07-01 23:34:39] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230701/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-01 23:34:40] INFO root fetch - processPackages [datascience-cookiecutter]: Downloading https://files.pythonhosted.org/packages/da/e8/a74082528b1b1bc7264e2da04165c4c0d17a75814f6cdda92e099a39da6d/datascience_cookiecutter-0.1.1.tar.gz
+[2023-07-01 23:34:40] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-07-01 23:34:40] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.3.6.tar.gz tmp/user_discord-1.3.7.tar.gz --markdown 20230701/u/user-discord/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-07-01 23:34:40] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-01 23:34:40] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307012044-py3-none-any.whl.zip tmp/kfish-99.0.202307012129-py3-none-any.whl.zip --markdown 20230701/k/kfish/99.0.202307012044-99.0.202307012129/diff.md --exclude *.pyd
+[2023-07-01 23:34:40] INFO root fetch - processPackages [chroma-datasets]: Downloading https://files.pythonhosted.org/packages/bc/7c/508874446cbfd0675593beb0cf19a1827c92f7823d7ec928f839c7f5fe2a/chroma_datasets-0.1.2.tar.gz
+[2023-07-01 23:34:40] INFO root fetch - processPackages [pwasopt]: executing diffoscope
+[2023-07-01 23:34:40] INFO root fetch - processPackages [pwasopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwasopt-0.0.4.tar.gz tmp/pwasopt-0.0.5.tar.gz --markdown 20230701/p/pwasopt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 23:34:40] INFO root fetch - processPackages [datascience-cookiecutter]: executing diffoscope
+[2023-07-01 23:34:40] INFO root fetch - processPackages [datascience-cookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascience_cookiecutter-0.1.0.tar.gz tmp/datascience_cookiecutter-0.1.1.tar.gz --markdown 20230701/d/datascience-cookiecutter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 23:34:40] INFO root fetch - processPackages [chroma-datasets]: executing diffoscope
+[2023-07-01 23:34:40] INFO root fetch - processPackages [chroma-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroma_datasets-0.1.1.tar.gz tmp/chroma_datasets-0.1.2.tar.gz --markdown 20230701/c/chroma-datasets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 23:34:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307012044-py3-none-any.whl.zip]
+[2023-07-01 23:34:41] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307012129-py3-none-any.whl.zip]
+[2023-07-01 23:34:41] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-01 23:34:41] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.6.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.3.7.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-07-01 23:34:41] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.0.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - processPackages [datascience-cookiecutter]: Remove: archive file [/home/abi/fetcher/tmp/datascience_cookiecutter-0.1.1.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - main [MainThread]: End processing [datascience-cookiecutter]: success
+[2023-07-01 23:34:41] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.4.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - processPackages [pwasopt]: Remove: archive file [/home/abi/fetcher/tmp/pwasopt-0.0.5.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - main [MainThread]: End processing [pwasopt]: success
+[2023-07-01 23:34:41] INFO root fetch - processPackages [chroma-datasets]: Remove: archive file [/home/abi/fetcher/tmp/chroma_datasets-0.1.1.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - processPackages [chroma-datasets]: Remove: archive file [/home/abi/fetcher/tmp/chroma_datasets-0.1.2.tar.gz]
+[2023-07-01 23:34:41] INFO root fetch - main [MainThread]: End processing [chroma-datasets]: success
+[2023-07-01 23:34:42] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-01 23:34:42] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-01 23:34:42] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-01 23:34:42] INFO root fetch - main [MainThread]: Store serial: [18724745]
