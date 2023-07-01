@@ -13090,3 +13090,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 13:45:10] INFO root fetch - processPackages [tissue-tag]: Remove: archive file [/home/abi/fetcher/tmp/tissue-tag-0.1.1.tar.gz]
 [2023-07-01 13:45:10] INFO root fetch - main [MainThread]: End processing [tissue-tag]: success
 [2023-07-01 13:45:10] INFO root fetch - main [MainThread]: Store serial: [18721550]
+[2023-07-01 13:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721550]
+[2023-07-01 13:50:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark3
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca-spark3
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark3
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos-spark3
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark3
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dotenv-cli
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nics
+[2023-07-01 13:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cpilib
+[2023-07-01 13:50:20] INFO root fetch - processPackages [cpilib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230701] Old Version: [2.4.0b20230630]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [nics]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230630] Old Version: [2.4.0b20230629]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/7c/95/06bb3a2af1abd17c5ae52c1057846f707ce455150ee4e25a413685619837/nics-2.1.2.tar.gz
+[2023-07-01 13:50:20] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/f8/c3/2d147888c67c283e0f98dee14a462afc86d4d7dc4047c2bd750dc97282ea/cpilib-0.1.1.tar.gz
+[2023-07-01 13:50:20] INFO root fetch - processPackages [dotenv-cli]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-07-01 13:50:20] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/48/73/892f0735cc2a5fe988cc5fa84dcbb3ee30cdc9a2df9169829979ea695110/nics-2.2.0.tar.gz
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/55/b3/8586bf26ca1a3d9241f09103295edd7db8a9f281caa877c3d262ca940bb5/bigdl_orca_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/bd/fd/262367c3335bf7ac505af4d48007ec6193286e7f3b734ff88aa760293dae/bigdl-dllib-spark3-2.4.0b20230630.tar.gz
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/16/24/21060ee9da753e5e500fb1f1aab19ce16668994d136d462fcc0b03458117/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ee/f5/e3e949819f23d7b41dfaaaf3f19af07bfde73a540653991075da01183259/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:20] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b2/17/b4c0ddd8c365a8f19869cfd8e87964e5a73fc0c6a2d233d7da8f5c04c840/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:20] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 13:50:20] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.1.2.tar.gz tmp/nics-2.2.0.tar.gz --markdown 20230701/n/nics/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-07-01 13:50:20] INFO root fetch - processPackages [dotenv-cli]: Downloading https://files.pythonhosted.org/packages/06/2a/4d8197305e673134930f6df571f8b5de1968228d5e207bc67c52639b49cf/dotenv-cli-3.1.1.tar.gz
+[2023-07-01 13:50:20] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/51/18/ce792c0cf65e3a2c778fbafd43cdc3d767bd315362be6a3225ac4962b755/cpilib-0.1.2.tar.gz
+[2023-07-01 13:50:20] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328794>=10485760
+[2023-07-01 13:50:20] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207827>=10485760
+[2023-07-01 13:50:20] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-01 13:50:20] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-01 13:50:20] INFO root fetch - processPackages [cpilib]: executing diffoscope
+[2023-07-01 13:50:20] INFO root fetch - processPackages [cpilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpilib-0.1.1.tar.gz tmp/cpilib-0.1.2.tar.gz --markdown 20230701/c/cpilib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 13:50:21] INFO root fetch - processPackages [dotenv-cli]: Downloading https://files.pythonhosted.org/packages/67/76/5f727901a0517480df0e23c3af1dfc6c9f6768eaac4e468ebbab3641191c/dotenv-cli-3.2.0.tar.gz
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/92/90/7d51e35067cbd6347019f0be5b047894536684093749bc57737470bcbf3e/bigdl_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/e8/6f/6e1d8cd9e48feb8ac972c2e7a642bbad20f1afddc053afd522eac2de85c4/bigdl_friesian_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/6e/2e/4617a2a61043a65c358616355dbfdce72336e00a13d826e121c438b1a454/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl
+[2023-07-01 13:50:21] INFO root fetch - processPackages [dotenv-cli]: executing diffoscope
+[2023-07-01 13:50:21] INFO root fetch - processPackages [dotenv-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotenv-cli-3.1.1.tar.gz tmp/dotenv-cli-3.2.0.tar.gz --markdown 20230701/d/dotenv-cli/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230701/b/bigdl-spark3/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230701/b/bigdl-friesian-spark3/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-01 13:50:21] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip --markdown 20230701/b/bigdl-chronos-spark3/2.4.0b20230629-2.4.0b20230630/diff.md --exclude *.pyd
+[2023-07-01 13:50:21] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.2.tar.gz]
+[2023-07-01 13:50:21] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.2.0.tar.gz]
+[2023-07-01 13:50:21] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 13:50:21] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.1.1.tar.gz]
+[2023-07-01 13:50:21] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.1.2.tar.gz]
+[2023-07-01 13:50:21] INFO root fetch - main [MainThread]: End processing [cpilib]: success
+[2023-07-01 13:50:22] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-01 13:50:22] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-01 13:50:22] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-01 13:50:22] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-01 13:50:22] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-01 13:50:22] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-01 13:50:22] INFO root fetch - processPackages [dotenv-cli]: Remove: archive file [/home/abi/fetcher/tmp/dotenv-cli-3.1.1.tar.gz]
+[2023-07-01 13:50:22] INFO root fetch - processPackages [dotenv-cli]: Remove: archive file [/home/abi/fetcher/tmp/dotenv-cli-3.2.0.tar.gz]
+[2023-07-01 13:50:22] INFO root fetch - main [MainThread]: End processing [dotenv-cli]: success
+[2023-07-01 13:50:23] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230629-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-01 13:50:23] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230630-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-01 13:50:23] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-01 13:50:23] INFO root fetch - main [MainThread]: Store serial: [18721576]
