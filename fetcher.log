@@ -17838,3 +17838,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 19:54:07] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.9.1.tar.gz]
 [2023-07-01 19:54:07] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
 [2023-07-01 19:54:07] INFO root fetch - main [MainThread]: Store serial: [18723604]
+[2023-07-01 19:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723604]
+[2023-07-01 19:59:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: igem-uploads
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fullask-rest-framework
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haven-spc
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: igorwriter
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-engine-mysql
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: add-trailing-comma
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-engine-firestore
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-engine-sql
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xia-engine-rest
+[2023-07-01 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: filmweb
+[2023-07-01 19:59:16] WARNING root fetch - processPackages [igem-uploads]: Skipping, unable to determine old version
+[2023-07-01 19:59:16] INFO root fetch - processPackages [igem-uploads]: Start processing: fa-models
+[2023-07-01 19:59:16] INFO root fetch - main [MainThread]: End processing [igem-uploads] error
+[2023-07-01 19:59:16] WARNING root fetch - processPackages [haven-spc]: Skipping, unable to determine old version
+[2023-07-01 19:59:16] INFO root fetch - processPackages [haven-spc]: Start processing: xia-engine-terraform-gcs
+[2023-07-01 19:59:16] INFO root fetch - main [MainThread]: End processing [haven-spc] error
+[2023-07-01 19:59:16] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [igorwriter]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-firestore]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-rest]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [add-trailing-comma]: New version: [3.0.0] Old Version: [2.5.1]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [filmweb]: New version: [0.8] Old Version: [0.7]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-sql]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-mysql]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [fa-models]: New version: [1.0.66] Old Version: [1.0.65]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/e5/3e/db2a125cce02bd0f2be6247fed52d06b16fd0f6c97263a18c4a71b35b118/fullask_rest_framework-0.4.0.tar.gz
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-terraform-gcs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-rest]: Downloading https://files.pythonhosted.org/packages/ea/22/6d42e5e265f691da212c88ba80b06a8ce26e69523d3111d416292875011d/xia_engine_rest-0.1.13-cp39-none-win_amd64.whl
+[2023-07-01 19:59:16] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/a7/eb/fec8a2855d59a1ec4eec5bdfc511f5b1db63a32b3d33ed205b4cd94e8a1f/add_trailing_comma-2.5.1.tar.gz
+[2023-07-01 19:59:16] INFO root fetch - processPackages [filmweb]: Downloading https://files.pythonhosted.org/packages/6e/14/e51a90f2acae2de9fe248f6787d2ac9bee34b08ce327639a6bc8893abf36/filmweb-0.7.tar.gz
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-mysql]: Downloading https://files.pythonhosted.org/packages/96/e7/ec1c593199901b5b9e573dd54ede6aff837cb9d7dd13f082da2f6b4e0595/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-sql]: Downloading https://files.pythonhosted.org/packages/73/ae/ae544229699a12a060f8a1b674ab90b21193806c34140167a7a12bb00c71/xia_engine_sql-0.2.3-cp39-none-win_amd64.whl
+[2023-07-01 19:59:16] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/ba/ba/37d954cfcab6bae261211de6786b4f6dd36e1806bdc760ceeb0e402ebbbc/xia_engine_firestore-0.3.6-cp39-none-win_amd64.whl
+[2023-07-01 19:59:16] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/c2/a1/15eec8f0526ca7dd67a36eda6c10e6574f66524e93690ee6bb10e89f0275/fa-models-1.0.65.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/bf/47/64921372c9aa75757571aa5649b90c59396cc8924a3ece8d46b126d6fc8d/igorwriter-0.3.0.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Downloading https://files.pythonhosted.org/packages/13/f2/2e022582d516236e878e34aa9c2e42238626e7e7215d69544a5a67fd4bd2/xia_engine_terraform_gcs-0.1.3-cp39-none-win_amd64.whl
+[2023-07-01 19:59:17] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/a2/9a/2ac054cd22d203b7a602bec11c0bb395d51fa3923e7bb876418a88978b3c/fullask_rest_framework-0.5.0.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask_rest_framework-0.4.0.tar.gz tmp/fullask_rest_framework-0.5.0.tar.gz --markdown 20230701/f/fullask-rest-framework/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-rest]: Downloading https://files.pythonhosted.org/packages/c1/f3/e787cccb7ad77af37a1deecfa61d26207aa75bbd59d97d28381c7ce33b83/xia_engine_rest-0.1.14-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:59:17] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/11/ca/86e6097b5a678a6468551763572b1cf9f41b70bb0fb7b7d5a55188eed3b7/fa-models-1.0.66.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-firestore]: Downloading https://files.pythonhosted.org/packages/d2/2c/f5b743dedd7a591bf3933825aebb193066786b369f78354cff7b92948db5/xia_engine_firestore-0.3.7-cp39-none-win_amd64.whl
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-mysql]: Downloading https://files.pythonhosted.org/packages/14/60/dc91b0cfadf2282a12239fb219bdca0b5b392301b613e8f336ac35bc89b5/xia_engine_mysql-0.1.9-cp39-none-win_amd64.whl
+[2023-07-01 19:59:17] INFO root fetch - processPackages [filmweb]: Downloading https://files.pythonhosted.org/packages/1e/00/871c0035798c1e2a860534f0e3210d6703a37c09bea178f957a95a13d4cc/filmweb-0.8.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [add-trailing-comma]: Downloading https://files.pythonhosted.org/packages/9b/ce/a502ad2690d79a80b8c51b9ed6a0e409c5afbac06ce7ee77ca73f2a5daa7/add_trailing_comma-3.0.0.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [igorwriter]: Downloading https://files.pythonhosted.org/packages/81/5a/8a12e2f3bbedd69d2bf687ef34c8e5b737e04dd698c1134dcfc8b90170ba/igorwriter-0.4.0.tar.gz
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-sql]: Downloading https://files.pythonhosted.org/packages/8c/74/3c02b238bbd3147c8dd875c57ca0b59363ea6d168773226e9f6a3d5d15a6/xia_engine_sql-0.2.4-cp39-none-win_amd64.whl
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Downloading https://files.pythonhosted.org/packages/60/92/d434dbe03ac326e01f6accd7a1794cca2dc808b5c5619ce5ad673f32ca2c/xia_engine_terraform_gcs-0.1.4-cp39-none-macosx_11_0_x86_64.whl
+[2023-07-01 19:59:17] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.65.tar.gz tmp/fa-models-1.0.66.tar.gz --markdown 20230701/f/fa-models/1.0.65-1.0.66/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-mysql]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_engine_mysql-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-engine-mysql/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [filmweb]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [filmweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filmweb-0.7.tar.gz tmp/filmweb-0.8.tar.gz --markdown 20230701/f/filmweb/0.7-0.8/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [igorwriter]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [igorwriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igorwriter-0.3.0.tar.gz tmp/igorwriter-0.4.0.tar.gz --markdown 20230701/i/igorwriter/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-rest]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_rest-0.1.13-cp39-none-win_amd64.whl.zip tmp/xia_engine_rest-0.1.14-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-engine-rest/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-firestore]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-firestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_firestore-0.3.6-cp39-none-win_amd64.whl.zip tmp/xia_engine_firestore-0.3.7-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-engine-firestore/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [add-trailing-comma]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [add-trailing-comma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/add_trailing_comma-2.5.1.tar.gz tmp/add_trailing_comma-3.0.0.tar.gz --markdown 20230701/a/add-trailing-comma/2.5.1-3.0.0/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-terraform-gcs]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-terraform-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform_gcs-0.1.3-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform_gcs-0.1.4-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230701/x/xia-engine-terraform-gcs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-sql]: executing diffoscope
+[2023-07-01 19:59:17] INFO root fetch - processPackages [xia-engine-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_sql-0.2.3-cp39-none-win_amd64.whl.zip tmp/xia_engine_sql-0.2.4-cp39-none-win_amd64.whl.zip --markdown 20230701/x/xia-engine-sql/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-01 19:59:18] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.4.0.tar.gz]
+[2023-07-01 19:59:18] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask_rest_framework-0.5.0.tar.gz]
+[2023-07-01 19:59:18] INFO root fetch - processPackages [fullask-rest-framework]: Start processing: bacpypes3
+[2023-07-01 19:59:18] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-07-01 19:59:18] INFO root fetch - processPackages [bacpypes3]: New version: [0.0.77] Old Version: [0.0.73]
+[2023-07-01 19:59:18] INFO root fetch - processPackages [xia-engine-mysql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_mysql-0.1.8-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:18] INFO root fetch - processPackages [xia-engine-mysql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_mysql-0.1.9-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:18] INFO root fetch - main [MainThread]: End processing [xia-engine-mysql]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/2e/d6/0f81185d1eb6299adc7b4702684bb3a60efaa51258ddd74a80a1b5e82463/bacpypes3-0.0.73.tar.gz
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-rest]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_rest-0.1.13-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-rest]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_rest-0.1.14-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [xia-engine-rest]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.6-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-firestore]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_firestore-0.3.7-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [xia-engine-firestore]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.65.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.66.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.3.0.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [igorwriter]: Remove: archive file [/home/abi/fetcher/tmp/igorwriter-0.4.0.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [igorwriter]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [filmweb]: Remove: archive file [/home/abi/fetcher/tmp/filmweb-0.7.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [filmweb]: Remove: archive file [/home/abi/fetcher/tmp/filmweb-0.8.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [filmweb]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform_gcs-0.1.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_terraform_gcs-0.1.4-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform-gcs]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/5f/53/8891c25b4d375542efeb61cfc28b03041ce76a1c97963b740cd7d4884f1d/bacpypes3-0.0.77.tar.gz
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-sql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_sql-0.2.3-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [xia-engine-sql]: Remove: archive file [/home/abi/fetcher/tmp/xia_engine_sql-0.2.4-cp39-none-win_amd64.whl.zip]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [xia-engine-sql]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-2.5.1.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - processPackages [add-trailing-comma]: Remove: archive file [/home/abi/fetcher/tmp/add_trailing_comma-3.0.0.tar.gz]
+[2023-07-01 19:59:19] INFO root fetch - main [MainThread]: End processing [add-trailing-comma]: success
+[2023-07-01 19:59:19] INFO root fetch - processPackages [bacpypes3]: executing diffoscope
+[2023-07-01 19:59:19] INFO root fetch - processPackages [bacpypes3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacpypes3-0.0.73.tar.gz tmp/bacpypes3-0.0.77.tar.gz --markdown 20230701/b/bacpypes3/0.0.73-0.0.77/diff.md --exclude *.pyd
+[2023-07-01 19:59:21] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.73.tar.gz]
+[2023-07-01 19:59:21] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.77.tar.gz]
+[2023-07-01 19:59:21] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
+[2023-07-01 19:59:21] INFO root fetch - main [MainThread]: Store serial: [18723662]
