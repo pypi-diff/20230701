@@ -13718,3 +13718,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:43:19] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
 [2023-07-01 14:43:19] INFO root fetch - main [MainThread]: End processing [aihandler]: success
 [2023-07-01 14:43:19] INFO root fetch - main [MainThread]: Store serial: [18721820]
+[2023-07-01 14:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721820]
+[2023-07-01 14:48:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cwsgiutils
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venv-pack2
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homopy
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serenity.sdk.python
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk-preview
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bycon
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-sdk
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-mqtt
+[2023-07-01 14:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manticore
+[2023-07-01 14:48:30] INFO root fetch - processPackages [homopy]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [venv-pack2]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [serenity.sdk.python]: New version: [0.8.8] Old Version: [0.8.43]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev95] Old Version: [6.0.0.dev93]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230630] Old Version: [0.3.8.dev230629]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [fastapi-mqtt]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/9a/b5/4b87676c98a2d0d6f941f87e9b541a72789a238e565ebdee760b8ccb6b63/manticore-0.3.8.dev230629.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [serenity.sdk.python]: Downloading https://files.pythonhosted.org/packages/4d/5d/1a3a7ab0482c020d1e3afd69583772d311e84765f6f39195b77f7e754667/serenity.sdk.python-0.8.43.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [venv-pack2]: Downloading https://files.pythonhosted.org/packages/08/7d/cb27461f3076fcd608c8e7a183e284ef1858043d1f7bfb549f64ce3dc673/venv_pack2-0.6.1-py3-none-any.whl
+[2023-07-01 14:48:30] INFO root fetch - processPackages [homopy]: Downloading https://files.pythonhosted.org/packages/54/e2/44949784903e5eb07f36af8734c4c85a30d4993fcef42d753c0484abf0d2/homopy-1.0.9-py3-none-any.whl
+[2023-07-01 14:48:30] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/03/e0/d26bf8a5cf86e8de8f003a03136215fdb6133b4d1f3da79729a03726c809/c2cwsgiutils-6.0.0.dev93.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-07-01 14:48:30] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/f1/d5/7786fee0f73ae576ddba4e6713cc32635295d6ecb92b7325f485936ba922/fastapi_mqtt-1.0.9.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/3b/96/aa0b5b7b27adc21fc7443f93e2230e370179dce5f8ddb42c83185d2799ec/manticore-0.3.8.dev230630.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-01 14:48:30] INFO root fetch - processPackages [venv-pack2]: Downloading https://files.pythonhosted.org/packages/e4/20/48fb3ea5d676e850437d2e8254497bd793f7d9ec2226ef50b86e600c8a8d/venv_pack2-0.6.2-py3-none-any.whl
+[2023-07-01 14:48:30] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-01 14:48:30] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230701/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230629.tar.gz tmp/manticore-0.3.8.dev230630.tar.gz --markdown 20230701/m/manticore/0.3.8.dev230629-0.3.8.dev230630/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [homopy]: Downloading https://files.pythonhosted.org/packages/19/d8/ef51b4ff6bccac0ac8c9db20aea68acd69e8ea90fd2432ef279e4f97f723/homopy-1.1.0-py3-none-any.whl
+[2023-07-01 14:48:31] INFO root fetch - processPackages [serenity.sdk.python]: Downloading https://files.pythonhosted.org/packages/dc/6c/161562d7a4f262384d6d4b1d3c9c2fa2840e4fc06db18ccd55bec414475c/serenity.sdk.python-0.8.8.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/ae/17726bb9acfa6658ad2d727bd763eb8444a9ef9e0f1f69aa755a18fabcaa/c2cwsgiutils-6.0.0.dev95.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [venv-pack2]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [venv-pack2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv_pack2-0.6.1-py3-none-any.whl.zip tmp/venv_pack2-0.6.2-py3-none-any.whl.zip --markdown 20230701/v/venv-pack2/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/28/23/f21c7af91127a1f1852df1210f3033e1b2c4f3bc9ac44f4e67acec765885/fastapi_mqtt-1.1.0.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [homopy]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [serenity.sdk.python]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [homopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homopy-1.0.9-py3-none-any.whl.zip tmp/homopy-1.1.0-py3-none-any.whl.zip --markdown 20230701/h/homopy/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [serenity.sdk.python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serenity.sdk.python-0.8.43.tar.gz tmp/serenity.sdk.python-0.8.8.tar.gz --markdown 20230701/s/serenity.sdk.python/0.8.43-0.8.8/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev93.tar.gz tmp/c2cwsgiutils-6.0.0.dev95.tar.gz --markdown 20230701/c/c2cwsgiutils/6.0.0.dev93-6.0.0.dev95/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230701/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [fastapi-mqtt]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [fastapi-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mqtt-1.0.9.tar.gz tmp/fastapi_mqtt-1.1.0.tar.gz --markdown 20230701/f/fastapi-mqtt/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230701/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-01 14:48:31] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-07-01 14:48:31] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-07-01 14:48:31] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230701/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-07-01 14:48:32] INFO root fetch - processPackages [venv-pack2]: Remove: archive file [/home/abi/fetcher/tmp/venv_pack2-0.6.1-py3-none-any.whl.zip]
+[2023-07-01 14:48:32] INFO root fetch - processPackages [venv-pack2]: Remove: archive file [/home/abi/fetcher/tmp/venv_pack2-0.6.2-py3-none-any.whl.zip]
+[2023-07-01 14:48:32] INFO root fetch - main [MainThread]: End processing [venv-pack2]: success
+[2023-07-01 14:48:32] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.43.tar.gz]
+[2023-07-01 14:48:32] INFO root fetch - processPackages [serenity.sdk.python]: Remove: archive file [/home/abi/fetcher/tmp/serenity.sdk.python-0.8.8.tar.gz]
+[2023-07-01 14:48:32] INFO root fetch - main [MainThread]: End processing [serenity.sdk.python]: success
+[2023-07-01 14:48:32] INFO root fetch - processPackages [homopy]: Remove: archive file [/home/abi/fetcher/tmp/homopy-1.0.9-py3-none-any.whl.zip]
+[2023-07-01 14:48:32] INFO root fetch - processPackages [homopy]: Remove: archive file [/home/abi/fetcher/tmp/homopy-1.1.0-py3-none-any.whl.zip]
+[2023-07-01 14:48:32] INFO root fetch - main [MainThread]: End processing [homopy]: success
+[2023-07-01 14:48:32] INFO root fetch - processPackages [fastapi-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mqtt-1.0.9.tar.gz]
+[2023-07-01 14:48:32] INFO root fetch - processPackages [fastapi-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mqtt-1.1.0.tar.gz]
+[2023-07-01 14:48:32] INFO root fetch - main [MainThread]: End processing [fastapi-mqtt]: success
+[2023-07-01 14:48:32] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev93.tar.gz]
+[2023-07-01 14:48:32] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev95.tar.gz]
+[2023-07-01 14:48:32] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-07-01 14:48:33] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-07-01 14:48:33] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-07-01 14:48:33] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-07-01 14:48:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230629.tar.gz]
+[2023-07-01 14:48:34] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230630.tar.gz]
+[2023-07-01 14:48:34] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-01 14:48:38] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-01 14:48:38] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-01 14:48:38] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-01 14:48:49] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-01 14:48:49] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-01 14:48:49] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-01 14:49:02] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-01 14:49:02] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-01 14:49:02] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-01 14:49:02] INFO root fetch - main [MainThread]: Store serial: [18721847]
