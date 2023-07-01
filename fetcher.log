@@ -18958,3 +18958,31 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 21:19:18] INFO root fetch - processPackages [aspose-ocr-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose_ocr_cloud-22.12.0.1-py3-none-any.whl.zip]
 [2023-07-01 21:19:18] INFO root fetch - main [MainThread]: End processing [aspose-ocr-cloud]: success
 [2023-07-01 21:19:18] INFO root fetch - main [MainThread]: Store serial: [18724247]
+[2023-07-01 21:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724247]
+[2023-07-01 21:24:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 21:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambda-handler
+[2023-07-01 21:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiscordself
+[2023-07-01 21:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambda-handler
+[2023-07-01 21:24:27] INFO root fetch - processPackages [lambda-handler]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-01 21:24:27] INFO root fetch - processPackages [lambda-handler]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-01 21:24:27] INFO root fetch - processPackages [pydiscordself]: New version: [0.2] Old Version: [0.1]
+[2023-07-01 21:24:27] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/05/34/e944e50cd67764aa5f9e0260e0b9d92b398954d96431eed49b9cd6477324/lambda-handler-1.1.1.tar.gz
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/05/34/e944e50cd67764aa5f9e0260e0b9d92b398954d96431eed49b9cd6477324/lambda-handler-1.1.1.tar.gz
+[2023-07-01 21:24:28] INFO root fetch - processPackages [pydiscordself]: Downloading https://files.pythonhosted.org/packages/53/82/25957f602efa6eaccca03ff894ea1108ba784d7af51141f484a4f0b5b768/pydiscordself-0.1.0000.tar.gz
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/42/17/15b368c8cce6ce62ef1525dabb6910315b5f7c94027d24e68d98085abf87/lambda_handler-1.1.2.tar.gz
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: Downloading https://files.pythonhosted.org/packages/42/17/15b368c8cce6ce62ef1525dabb6910315b5f7c94027d24e68d98085abf87/lambda_handler-1.1.2.tar.gz
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda-handler-1.1.1.tar.gz tmp/lambda_handler-1.1.2.tar.gz --markdown 20230701/l/lambda-handler/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: executing diffoscope
+[2023-07-01 21:24:28] INFO root fetch - processPackages [lambda-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda-handler-1.1.1.tar.gz tmp/lambda_handler-1.1.2.tar.gz --markdown 20230701/l/lambda-handler/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-01 21:24:28] INFO root fetch - processPackages [pydiscordself]: Downloading https://files.pythonhosted.org/packages/06/93/fade72e4882e86fb8690cba41a435c8783e2065a81bafaebfe8488b5dbb3/pydiscordself-0.2-py3.11.egg
+[2023-07-01 21:24:28] INFO root fetch - processPackages [pydiscordself]: executing diffoscope
+[2023-07-01 21:24:28] INFO root fetch - processPackages [pydiscordself]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiscordself-0.1.0000.tar.gz tmp/pydiscordself-0.2-py3.11.egg --markdown 20230701/p/pydiscordself/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-01 21:24:29] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda-handler-1.1.1.tar.gz]
+[2023-07-01 21:24:29] INFO root fetch - processPackages [lambda-handler]: Remove: archive file [/home/abi/fetcher/tmp/lambda_handler-1.1.2.tar.gz]
+[2023-07-01 21:24:29] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-01 21:24:29] INFO root fetch - main [MainThread]: End processing [lambda-handler]: success
+[2023-07-01 21:24:29] INFO root fetch - processPackages [pydiscordself]: Remove: archive file [/home/abi/fetcher/tmp/pydiscordself-0.1.0000.tar.gz]
+[2023-07-01 21:24:29] INFO root fetch - processPackages [pydiscordself]: Remove: archive file [/home/abi/fetcher/tmp/pydiscordself-0.2-py3.11.egg]
+[2023-07-01 21:24:29] INFO root fetch - main [MainThread]: End processing [pydiscordself]: success
+[2023-07-01 21:24:29] INFO root fetch - main [MainThread]: Store serial: [18724255]
