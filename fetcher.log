@@ -7142,3 +7142,24 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 04:13:44] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-01 04:13:44] INFO root fetch - main [MainThread]: End processing [qworker]: success
 [2023-07-01 04:13:44] INFO root fetch - main [MainThread]: Store serial: [18719149]
+[2023-07-01 04:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18719149]
+[2023-07-01 04:18:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 04:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raspi-gpio
+[2023-07-01 04:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idem-aws
+[2023-07-01 04:18:53] INFO root fetch - processPackages [raspi-gpio]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-01 04:18:53] INFO root fetch - processPackages [idem-aws]: New version: [3.0.0] Old Version: [2.1.2]
+[2023-07-01 04:18:53] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/f1/18/fcc2d39ea3d8303f8406358fa28660b5f5ed21f306acbc72989514f29355/raspi_gpio-0.1.4.tar.gz
+[2023-07-01 04:18:53] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/24/0e/76334dd5b7367e1301ea43a545fb7cd1c767f37528ac4b8bebf72d9e0f7d/idem-aws-2.1.2.tar.gz
+[2023-07-01 04:18:53] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/47/8b/d2dd93926174053aa01915281b4a98738b7b2ea1ad52c6f6b7dbbb35dbe1/raspi_gpio-0.1.5.tar.gz
+[2023-07-01 04:18:53] INFO root fetch - processPackages [raspi-gpio]: executing diffoscope
+[2023-07-01 04:18:53] INFO root fetch - processPackages [raspi-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspi_gpio-0.1.4.tar.gz tmp/raspi_gpio-0.1.5.tar.gz --markdown 20230701/r/raspi-gpio/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-01 04:18:53] INFO root fetch - processPackages [idem-aws]: Downloading https://files.pythonhosted.org/packages/45/89/98f40f1ed7fd487df3d3a91fe8a14b0bc2534932cae01a9b4f26aeb9296b/idem-aws-3.0.0.tar.gz
+[2023-07-01 04:18:53] INFO root fetch - processPackages [idem-aws]: executing diffoscope
+[2023-07-01 04:18:53] INFO root fetch - processPackages [idem-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-aws-2.1.2.tar.gz tmp/idem-aws-3.0.0.tar.gz --markdown 20230701/i/idem-aws/2.1.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-01 04:18:54] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.4.tar.gz]
+[2023-07-01 04:18:54] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.5.tar.gz]
+[2023-07-01 04:18:54] INFO root fetch - main [MainThread]: End processing [raspi-gpio]: success
+[2023-07-01 04:18:58] INFO root fetch - processPackages [idem-aws]: Remove: archive file [/home/abi/fetcher/tmp/idem-aws-2.1.2.tar.gz]
+[2023-07-01 04:18:58] INFO root fetch - processPackages [idem-aws]: Remove: archive file [/home/abi/fetcher/tmp/idem-aws-3.0.0.tar.gz]
+[2023-07-01 04:18:58] INFO root fetch - main [MainThread]: End processing [idem-aws]: success
+[2023-07-01 04:18:58] INFO root fetch - main [MainThread]: Store serial: [18719180]
