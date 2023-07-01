@@ -20115,3 +20115,57 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 23:24:11] INFO root fetch - processPackages [sage-conf]: Remove: archive file [/home/abi/fetcher/tmp/sage-conf-9.8rc0.tar.gz]
 [2023-07-01 23:24:11] INFO root fetch - main [MainThread]: End processing [sage-conf]: success
 [2023-07-01 23:24:11] INFO root fetch - main [MainThread]: Store serial: [18724702]
+[2023-07-01 23:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724702]
+[2023-07-01 23:29:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truera
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwf-wrangler
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmeel-mpc
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owe-python-sdk
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bman
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-07-01 23:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bmsdna-lakeapi
+[2023-07-01 23:29:20] INFO root fetch - processPackages [owe-python-sdk]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-07-01 23:29:21] INFO root fetch - processPackages [gwf-wrangler]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 23:29:21] WARNING root fetch - processPackages [cmeel-mpc]: Skipping, unable to determine old version
+[2023-07-01 23:29:21] INFO root fetch - main [MainThread]: End processing [cmeel-mpc] error
+[2023-07-01 23:29:21] INFO root fetch - processPackages [truera]: New version: [9.9.0] Old Version: [9.8.2]
+[2023-07-01 23:29:21] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.0] Old Version: [0.8.4]
+[2023-07-01 23:29:21] INFO root fetch - processPackages [kcli]: New version: [99.0.202307012127] Old Version: [99.0.202307012041]
+[2023-07-01 23:29:21] WARNING root fetch - processPackages [bman]: Skipping, unable to determine old version
+[2023-07-01 23:29:21] INFO root fetch - main [MainThread]: End processing [bman] error
+[2023-07-01 23:29:21] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/fc/03/f3204c9a66882703d10deccc927b5ab8776e5ad4634c788fe8fa5ceff4e2/owe_python_sdk-0.0.1a3.tar.gz
+[2023-07-01 23:29:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f3/53/824f6c7b9e977ea469c5c91d59fa06abf554439785ff5ae29dda9f64dff0/kcli-99.0.202307012041-py3-none-any.whl
+[2023-07-01 23:29:21] INFO root fetch - processPackages [gwf-wrangler]: Downloading https://files.pythonhosted.org/packages/58/86/e628bcdb678285486b2ca6ef69cdfd1f08545b2a5dcda25d46c91932de48/gwf_wrangler-0.0.1.tar.gz
+[2023-07-01 23:29:21] INFO root fetch - processPackages [truera]: Downloading https://files.pythonhosted.org/packages/dd/55/b3b828a4152d8509dde06e7e6b13009dd7e66cba7cac92d46474789d7c21/truera-9.8.2-py3-none-any.whl
+[2023-07-01 23:29:21] INFO root fetch - processPackages [owe-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/88/58179a0b3faa546bc96f945a743c689b4e9ab029d6e1d316a898dacfbe0f/owe_python_sdk-0.0.1a4.tar.gz
+[2023-07-01 23:29:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/98/b1/72297bce736b942de7971c207fb584643089eff196137bd924392f130722/kcli-99.0.202307012127-py3-none-any.whl
+[2023-07-01 23:29:21] INFO root fetch - processPackages [gwf-wrangler]: Downloading https://files.pythonhosted.org/packages/6e/50/87e9dbefa8fb35ad98c34ecf647a04bb1be2bc212fddb3f571902c77e4a7/gwf_wrangler-0.0.2.tar.gz
+[2023-07-01 23:29:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-01 23:29:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307012041-py3-none-any.whl.zip tmp/kcli-99.0.202307012127-py3-none-any.whl.zip --markdown 20230701/k/kcli/99.0.202307012041-99.0.202307012127/diff.md --exclude *.pyd
+[2023-07-01 23:29:21] INFO root fetch - processPackages [owe-python-sdk]: executing diffoscope
+[2023-07-01 23:29:21] INFO root fetch - processPackages [owe-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owe_python_sdk-0.0.1a3.tar.gz tmp/owe_python_sdk-0.0.1a4.tar.gz --markdown 20230701/o/owe-python-sdk/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-07-01 23:29:21] INFO root fetch - processPackages [gwf-wrangler]: executing diffoscope
+[2023-07-01 23:29:21] INFO root fetch - processPackages [gwf-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwf_wrangler-0.0.1.tar.gz tmp/gwf_wrangler-0.0.2.tar.gz --markdown 20230701/g/gwf-wrangler/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 23:29:21] INFO root fetch - processPackages [truera]: Downloading https://files.pythonhosted.org/packages/da/5c/46e66b4a298d0c50335401afc22a359b87ea349f143c05316973514d60fa/truera-9.9.0-py3-none-any.whl
+[2023-07-01 23:29:21] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/80/4e/72d92d1d8a5b9b6ee6f02b65e60a46afaacd4f099178013a89582db1bc5d/bmsdna_lakeapi-0.8.4.tar.gz
+[2023-07-01 23:29:21] INFO root fetch - processPackages [truera]: executing diffoscope
+[2023-07-01 23:29:21] INFO root fetch - processPackages [truera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truera-9.8.2-py3-none-any.whl.zip tmp/truera-9.9.0-py3-none-any.whl.zip --markdown 20230701/t/truera/9.8.2-9.9.0/diff.md --exclude *.pyd
+[2023-07-01 23:29:22] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/fc/ba/224c4f8093f1c21d350a4ff9e09c544d7aa215bd376194230526a7cd1566/bmsdna_lakeapi-0.9.0.tar.gz
+[2023-07-01 23:29:22] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-07-01 23:29:22] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.8.4.tar.gz tmp/bmsdna_lakeapi-0.9.0.tar.gz --markdown 20230701/b/bmsdna-lakeapi/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2023-07-01 23:29:22] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a3.tar.gz]
+[2023-07-01 23:29:22] INFO root fetch - processPackages [owe-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/owe_python_sdk-0.0.1a4.tar.gz]
+[2023-07-01 23:29:22] INFO root fetch - main [MainThread]: End processing [owe-python-sdk]: success
+[2023-07-01 23:29:22] INFO root fetch - processPackages [gwf-wrangler]: Remove: archive file [/home/abi/fetcher/tmp/gwf_wrangler-0.0.1.tar.gz]
+[2023-07-01 23:29:22] INFO root fetch - processPackages [gwf-wrangler]: Remove: archive file [/home/abi/fetcher/tmp/gwf_wrangler-0.0.2.tar.gz]
+[2023-07-01 23:29:22] INFO root fetch - main [MainThread]: End processing [gwf-wrangler]: success
+[2023-07-01 23:29:23] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.4.tar.gz]
+[2023-07-01 23:29:23] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.0.tar.gz]
+[2023-07-01 23:29:23] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-07-01 23:29:28] INFO root fetch - processPackages [truera]: Remove: archive file [/home/abi/fetcher/tmp/truera-9.8.2-py3-none-any.whl.zip]
+[2023-07-01 23:29:28] INFO root fetch - processPackages [truera]: Remove: archive file [/home/abi/fetcher/tmp/truera-9.9.0-py3-none-any.whl.zip]
+[2023-07-01 23:29:28] INFO root fetch - main [MainThread]: End processing [truera]: success
+[2023-07-01 23:29:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307012041-py3-none-any.whl.zip]
+[2023-07-01 23:29:29] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307012127-py3-none-any.whl.zip]
+[2023-07-01 23:29:29] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-01 23:29:29] INFO root fetch - main [MainThread]: Store serial: [18724729]
