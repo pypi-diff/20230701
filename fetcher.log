@@ -11871,3 +11871,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 11:36:03] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
 [2023-07-01 11:36:03] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-07-01 11:36:03] INFO root fetch - main [MainThread]: Store serial: [18721039]
+[2023-07-01 11:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721039]
+[2023-07-01 11:41:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-01 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baffled-v4
+[2023-07-01 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JestingLang
+[2023-07-01 11:41:12] INFO root fetch - processPackages [JestingLang]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-07-01 11:41:12] WARNING root fetch - processPackages [baffled-v4]: Skipping, unable to determine old version
+[2023-07-01 11:41:12] INFO root fetch - main [MainThread]: End processing [baffled-v4] error
+[2023-07-01 11:41:13] INFO root fetch - processPackages [JestingLang]: Downloading https://files.pythonhosted.org/packages/34/a7/cebba2e80185787725cf903081c9453bb2f2d067eade68adc72ae9e6c3c4/JestingLang-0.0.0a8.tar.gz
+[2023-07-01 11:41:13] INFO root fetch - processPackages [JestingLang]: Downloading https://files.pythonhosted.org/packages/f8/70/cd33b54096969a52fb7b5c6cf53982c3ba814e91cec7488d10803f547c2e/JestingLang-0.0.0a9.tar.gz
+[2023-07-01 11:41:13] INFO root fetch - processPackages [JestingLang]: executing diffoscope
+[2023-07-01 11:41:13] INFO root fetch - processPackages [JestingLang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JestingLang-0.0.0a8.tar.gz tmp/JestingLang-0.0.0a9.tar.gz --markdown 20230701/J/JestingLang/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-07-01 11:41:15] INFO root fetch - processPackages [JestingLang]: Remove: archive file [/home/abi/fetcher/tmp/JestingLang-0.0.0a8.tar.gz]
+[2023-07-01 11:41:15] INFO root fetch - processPackages [JestingLang]: Remove: archive file [/home/abi/fetcher/tmp/JestingLang-0.0.0a9.tar.gz]
+[2023-07-01 11:41:15] INFO root fetch - main [MainThread]: End processing [JestingLang]: success
+[2023-07-01 11:41:15] INFO root fetch - main [MainThread]: Store serial: [18721048]
