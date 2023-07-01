@@ -10886,3 +10886,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 09:59:59] INFO root fetch - processPackages [jupyterhub-naasauthenticator]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub-naasauthenticator-0.8.3.tar.gz]
 [2023-07-01 09:59:59] INFO root fetch - main [MainThread]: End processing [jupyterhub-naasauthenticator]: success
 [2023-07-01 09:59:59] INFO root fetch - main [MainThread]: Store serial: [18720524]
+[2023-07-01 10:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720524]
+[2023-07-01 10:05:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nicovideo.py
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: posuto
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backup-warden
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpilib
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidypath
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spectrochempy
+[2023-07-01 10:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spyprot
+[2023-07-01 10:05:08] INFO root fetch - processPackages [nicovideo.py]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-01 10:05:08] INFO root fetch - processPackages [cpilib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-01 10:05:08] INFO root fetch - processPackages [posuto]: New version: [2023.7.0] Old Version: [2023.6.1]
+[2023-07-01 10:05:08] INFO root fetch - processPackages [tidypath]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-01 10:05:08] WARNING root fetch - processPackages [backup-warden]: Skipping, unable to determine old version
+[2023-07-01 10:05:08] INFO root fetch - main [MainThread]: End processing [backup-warden] error
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spyprot]: New version: [0.8.2] Old Version: [0.8.0]
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spectrochempy]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-07-01 10:05:08] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/cf/30/25f93d1dd304f9c6b3c6136c937c08bd58d535f19f9fbf5306062544bbdc/tidypath-1.1.5.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/d7/6b/a776f0430185b64d22cc289611620d63a71a4b6a49835c72fa783b2d2bf4/nicovideo.py-0.0.5.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spyprot]: Downloading https://files.pythonhosted.org/packages/dc/dc/14f31fada1733db0667fe43860656d887a6476ed19f23ce636b050ef7433/spyprot-0.8.0-py3-none-any.whl
+[2023-07-01 10:05:08] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/f8/c3/2d147888c67c283e0f98dee14a462afc86d4d7dc4047c2bd750dc97282ea/cpilib-0.1.1.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/ad/61/351398b21fb92933a51fc3d99e55e93d11a57088948b8ba58a41baf7c954/posuto-2023.6.1.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spectrochempy]: Downloading https://files.pythonhosted.org/packages/55/38/f356a482e09bc054fdae588879b020c53e7ad6969a884ca7e637a1be241b/spectrochempy-0.6.6.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [nicovideo.py]: Downloading https://files.pythonhosted.org/packages/35/e7/55b9b6d88713ca53a811a7a79221100052cbad026e4441f27aee42f90341/nicovideo.py-0.0.6.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/21/75/1844a43e43f2f6f1e18a5ddae7cb54a1dee02c3bdae3b55fef24e85babf0/tidypath-1.1.6.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spyprot]: Downloading https://files.pythonhosted.org/packages/cd/fb/86503b0e99345a9fd9504f492fff1fa6b7db30282d13f58c59dde4735170/spyprot-0.8.2-py3-none-any.whl
+[2023-07-01 10:05:08] INFO root fetch - processPackages [nicovideo.py]: executing diffoscope
+[2023-07-01 10:05:08] INFO root fetch - processPackages [nicovideo.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicovideo.py-0.0.5.tar.gz tmp/nicovideo.py-0.0.6.tar.gz --markdown 20230701/n/nicovideo.py/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-01 10:05:08] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2023-07-01 10:05:08] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.1.5.tar.gz tmp/tidypath-1.1.6.tar.gz --markdown 20230701/t/tidypath/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spyprot]: executing diffoscope
+[2023-07-01 10:05:08] INFO root fetch - processPackages [spyprot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyprot-0.8.0-py3-none-any.whl.zip tmp/spyprot-0.8.2-py3-none-any.whl.zip --markdown 20230701/s/spyprot/0.8.0-0.8.2/diff.md --exclude *.pyd
+[2023-07-01 10:05:08] INFO root fetch - processPackages [cpilib]: Downloading https://files.pythonhosted.org/packages/51/18/ce792c0cf65e3a2c778fbafd43cdc3d767bd315362be6a3225ac4962b755/cpilib-0.1.2.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [posuto]: Downloading https://files.pythonhosted.org/packages/4c/bb/ee6e58848fa64c18b6db6f5ddb96fa2dceb80068bd604b399e3997a8bc58/posuto-2023.7.0.tar.gz
+[2023-07-01 10:05:08] INFO root fetch - processPackages [cpilib]: executing diffoscope
+[2023-07-01 10:05:08] INFO root fetch - processPackages [cpilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpilib-0.1.1.tar.gz tmp/cpilib-0.1.2.tar.gz --markdown 20230701/c/cpilib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-01 10:05:08] INFO root fetch - processPackages [posuto]: executing diffoscope
+[2023-07-01 10:05:08] INFO root fetch - processPackages [posuto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posuto-2023.6.1.tar.gz tmp/posuto-2023.7.0.tar.gz --markdown 20230701/p/posuto/2023.6.1-2023.7.0/diff.md --exclude *.pyd
+[2023-07-01 10:05:09] INFO root fetch - processPackages [spectrochempy]: Downloading https://files.pythonhosted.org/packages/d2/42/723014cef9ae53645972e0ac814050b80dd5cc02c982186fbfae0d2a6c52/spectrochempy-0.6.7.tar.gz
+[2023-07-01 10:05:09] INFO root fetch - processPackages [spectrochempy]: executing diffoscope
+[2023-07-01 10:05:09] INFO root fetch - processPackages [spectrochempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrochempy-0.6.6.tar.gz tmp/spectrochempy-0.6.7.tar.gz --markdown 20230701/s/spectrochempy/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-07-01 10:05:09] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.5.tar.gz]
+[2023-07-01 10:05:09] INFO root fetch - processPackages [nicovideo.py]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo.py-0.0.6.tar.gz]
+[2023-07-01 10:05:09] INFO root fetch - main [MainThread]: End processing [nicovideo.py]: success
+[2023-07-01 10:05:09] INFO root fetch - processPackages [spyprot]: Remove: archive file [/home/abi/fetcher/tmp/spyprot-0.8.0-py3-none-any.whl.zip]
+[2023-07-01 10:05:09] INFO root fetch - processPackages [spyprot]: Remove: archive file [/home/abi/fetcher/tmp/spyprot-0.8.2-py3-none-any.whl.zip]
+[2023-07-01 10:05:09] INFO root fetch - main [MainThread]: End processing [spyprot]: success
+[2023-07-01 10:05:09] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.1.5.tar.gz]
+[2023-07-01 10:05:09] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.1.6.tar.gz]
+[2023-07-01 10:05:09] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2023-07-01 10:05:09] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.1.1.tar.gz]
+[2023-07-01 10:05:09] INFO root fetch - processPackages [cpilib]: Remove: archive file [/home/abi/fetcher/tmp/cpilib-0.1.2.tar.gz]
+[2023-07-01 10:05:09] INFO root fetch - main [MainThread]: End processing [cpilib]: success
+[2023-07-01 10:05:13] INFO root fetch - processPackages [spectrochempy]: Remove: archive file [/home/abi/fetcher/tmp/spectrochempy-0.6.6.tar.gz]
+[2023-07-01 10:05:13] INFO root fetch - processPackages [spectrochempy]: Remove: archive file [/home/abi/fetcher/tmp/spectrochempy-0.6.7.tar.gz]
+[2023-07-01 10:05:13] INFO root fetch - main [MainThread]: End processing [spectrochempy]: success
+[2023-07-01 10:05:22] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2023.6.1.tar.gz]
+[2023-07-01 10:05:22] INFO root fetch - processPackages [posuto]: Remove: archive file [/home/abi/fetcher/tmp/posuto-2023.7.0.tar.gz]
+[2023-07-01 10:05:22] INFO root fetch - main [MainThread]: End processing [posuto]: success
+[2023-07-01 10:05:22] INFO root fetch - main [MainThread]: Store serial: [18720547]
