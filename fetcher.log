@@ -14732,3 +14732,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 16:11:53] INFO root fetch - processPackages [TrimMCStruct]: Remove: archive file [/home/abi/fetcher/tmp/TrimMCStruct-0.0.5.9.tar.gz]
 [2023-07-01 16:11:53] INFO root fetch - main [MainThread]: End processing [TrimMCStruct]: success
 [2023-07-01 16:11:53] INFO root fetch - main [MainThread]: Store serial: [18722273]
+[2023-07-01 16:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18722273]
+[2023-07-01 16:17:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-01 16:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spikeometric
+[2023-07-01 16:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lanablas
+[2023-07-01 16:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gd-py
+[2023-07-01 16:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: convocations
+[2023-07-01 16:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threed-optix
+[2023-07-01 16:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kayle
+[2023-07-01 16:17:01] INFO root fetch - processPackages [gd-py]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-07-01 16:17:01] INFO root fetch - processPackages [threed-optix]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-01 16:17:01] INFO root fetch - processPackages [lanablas]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-01 16:17:01] INFO root fetch - processPackages [convocations]: New version: [0.9] Old Version: [0.8]
+[2023-07-01 16:17:01] INFO root fetch - processPackages [kayle]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-01 16:17:01] INFO root fetch - processPackages [spikeometric]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 16:17:02] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/76/08/53fb65924660a9630e007901aacc1abbf5d5bffd5c8b35ec37a0e0044d9a/threed_optix-1.0.2.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/91/53/2305502f1e6b46808a8dea0be653b3d7bf7fa1ab0a8e27b082b2961b8a76/kayle-0.5.8-py3-none-any.whl
+[2023-07-01 16:17:02] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/3b/9c/bc617c68a9ec22967f5365d2c0f427e5f2e99da1cb682d40b8cb4189f74e/lanablas-0.1.5.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [gd-py]: Downloading https://files.pythonhosted.org/packages/f4/66/f422c0c64e096efe74601c345678bb5186cbf28368a9aa1212b26fbbf897/gd.py-0.9.6.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [spikeometric]: Downloading https://files.pythonhosted.org/packages/e4/3d/0ab7c961914a0b827a25c6b3cf38acd8b4bd80a5ab9ab4907f4f04c334fd/spikeometric-1.0.1.tar.gz
+[2023-07-01 16:17:02] WARNING root fetch - processPackages [lanablas]: Skipping package: exceeds size limit 71402294>=10485760
+[2023-07-01 16:17:02] INFO root fetch - main [MainThread]: End processing [lanablas] error
+[2023-07-01 16:17:02] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/89/ce/2d19543b26d195805bdab5420c20f93e8f3d5f6a9954648589996718fcb0/convocations-0.8.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [threed-optix]: Downloading https://files.pythonhosted.org/packages/61/3a/e68e3ea3a082db8e6fe204e94b7e2278ba172a8616e1fca10798914a9bc6/threed_optix-1.0.3.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [kayle]: Downloading https://files.pythonhosted.org/packages/53/0a/d428491d9c47c3d70c6e36d95bb7d75a5dc4e8e40bcc979d4d8fd678b885/kayle-0.5.9-py3-none-any.whl
+[2023-07-01 16:17:02] INFO root fetch - processPackages [threed-optix]: executing diffoscope
+[2023-07-01 16:17:02] INFO root fetch - processPackages [threed-optix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threed_optix-1.0.2.tar.gz tmp/threed_optix-1.0.3.tar.gz --markdown 20230701/t/threed-optix/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-01 16:17:02] INFO root fetch - processPackages [kayle]: executing diffoscope
+[2023-07-01 16:17:02] INFO root fetch - processPackages [kayle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayle-0.5.8-py3-none-any.whl.zip tmp/kayle-0.5.9-py3-none-any.whl.zip --markdown 20230701/k/kayle/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-01 16:17:02] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/90/d1/1369957dcb347a73705514eb53550d2f2c602373a0719cbd1796c4a74827/convocations-0.9.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [spikeometric]: Downloading https://files.pythonhosted.org/packages/ec/d7/99b0bebe68148dd19d4a7a243794662d447daa2257aa92ca9029295d8a66/spikeometric-1.0.2.tar.gz
+[2023-07-01 16:17:02] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2023-07-01 16:17:02] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-0.8.tar.gz tmp/convocations-0.9.tar.gz --markdown 20230701/c/convocations/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-01 16:17:02] INFO root fetch - processPackages [spikeometric]: executing diffoscope
+[2023-07-01 16:17:02] INFO root fetch - processPackages [spikeometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spikeometric-1.0.1.tar.gz tmp/spikeometric-1.0.2.tar.gz --markdown 20230701/s/spikeometric/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 16:17:02] INFO root fetch - processPackages [gd-py]: Downloading https://files.pythonhosted.org/packages/6a/51/460b6bd6cdbf2deb1afc12ee8975e39928c18f4aef8bee2e8f3782c4ae64/gd_py-1.0.0.tar.gz
+[2023-07-01 16:17:03] INFO root fetch - processPackages [gd-py]: executing diffoscope
+[2023-07-01 16:17:03] INFO root fetch - processPackages [gd-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gd.py-0.9.6.tar.gz tmp/gd_py-1.0.0.tar.gz --markdown 20230701/g/gd-py/0.9.6-1.0.0/diff.md --exclude *.pyd
+[2023-07-01 16:17:03] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-1.0.2.tar.gz]
+[2023-07-01 16:17:03] INFO root fetch - processPackages [threed-optix]: Remove: archive file [/home/abi/fetcher/tmp/threed_optix-1.0.3.tar.gz]
+[2023-07-01 16:17:03] INFO root fetch - main [MainThread]: End processing [threed-optix]: success
+[2023-07-01 16:17:03] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.8-py3-none-any.whl.zip]
+[2023-07-01 16:17:03] INFO root fetch - processPackages [kayle]: Remove: archive file [/home/abi/fetcher/tmp/kayle-0.5.9-py3-none-any.whl.zip]
+[2023-07-01 16:17:03] INFO root fetch - main [MainThread]: End processing [kayle]: success
+[2023-07-01 16:17:03] INFO root fetch - processPackages [spikeometric]: Remove: archive file [/home/abi/fetcher/tmp/spikeometric-1.0.1.tar.gz]
+[2023-07-01 16:17:03] INFO root fetch - processPackages [spikeometric]: Remove: archive file [/home/abi/fetcher/tmp/spikeometric-1.0.2.tar.gz]
+[2023-07-01 16:17:03] INFO root fetch - main [MainThread]: End processing [spikeometric]: success
+[2023-07-01 16:17:04] INFO root fetch - processPackages [gd-py]: Remove: archive file [/home/abi/fetcher/tmp/gd.py-0.9.6.tar.gz]
+[2023-07-01 16:17:04] INFO root fetch - processPackages [gd-py]: Remove: archive file [/home/abi/fetcher/tmp/gd_py-1.0.0.tar.gz]
+[2023-07-01 16:17:04] INFO root fetch - main [MainThread]: End processing [gd-py]: success
+[2023-07-01 16:17:05] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.8.tar.gz]
+[2023-07-01 16:17:05] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.9.tar.gz]
+[2023-07-01 16:17:05] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2023-07-01 16:17:05] INFO root fetch - main [MainThread]: Store serial: [18722297]
