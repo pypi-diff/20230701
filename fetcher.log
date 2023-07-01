@@ -16498,3 +16498,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-07-01 18:30:49] INFO root fetch - main [MainThread]: End processing [torchlights] error
 [2023-07-01 18:30:49] INFO root fetch - main [MainThread]: Store serial: [18723091]
+[2023-07-01 18:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18723091]
+[2023-07-01 18:35:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymudclient
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysigma-backend-cortexxdr
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mactemperatures
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spyx
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EventHandler-Edog0049a
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irc-api
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phable
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FunctionsITAMVO41Mahmud
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-static-wordpress
+[2023-07-01 18:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-better-repr
+[2023-07-01 18:35:58] INFO root fetch - processPackages [spyx]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 18:35:58] WARNING root fetch - processPackages [FunctionsITAMVO41Mahmud]: Skipping, unable to determine old version
+[2023-07-01 18:35:58] INFO root fetch - main [MainThread]: End processing [FunctionsITAMVO41Mahmud] error
+[2023-07-01 18:35:58] INFO root fetch - processPackages [irc-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-01 18:35:58] INFO root fetch - processPackages [django-better-repr]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-01 18:35:58] INFO root fetch - processPackages [phable]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 18:35:58] INFO root fetch - processPackages [pymudclient]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-01 18:35:58] INFO root fetch - processPackages [EventHandler-Edog0049a]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-01 18:35:58] INFO root fetch - processPackages [cdk-static-wordpress]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-01 18:35:58] WARNING root fetch - processPackages [pysigma-backend-cortexxdr]: Skipping, unable to determine old version
+[2023-07-01 18:35:58] INFO root fetch - main [MainThread]: End processing [pysigma-backend-cortexxdr] error
+[2023-07-01 18:35:58] INFO root fetch - processPackages [mactemperatures]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-01 18:35:58] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [django-better-repr]: Downloading https://files.pythonhosted.org/packages/bf/85/e0039f1208062964975da794382ca4ddab294e89085f337491a711bb4a75/django-better-repr-1.0.3.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/ce/97/9c8e7ee42d2a9692907917f8df0e8e58388d87fa19aa13493aa1c15207bd/irc_api-0.0.4.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/30/a6/d813ba5e7a51e15726c607daa98754b678ab982f0cb1628c2f85291c1ca8/phable-0.1.8.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [mactemperatures]: Downloading https://files.pythonhosted.org/packages/7f/8d/4a3675d43df1e67c2b75d76cc5990e14a8df52d2c86ed121b10688444206/mactemperatures-0.0.1.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/a7/99/b8a77f70c75aefd88596ef7f661ea3592244e14b6113bc7555bf11b97095/eventhandler_edog0049a-0.1.0.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/03/d3/7fb8e0ae16918d31936abec49e12b457a905c8e39fb1405a1236b7e03d85/spyx-0.0.9.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/84/38/85a5f4efa9c21bda0734ac58286214f4a4242baa963e51ff81196b19d3da/pymudclient-0.3.0.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/bb/be/d20322a6568a30a5861516b9a6f51c73a5d891fd8a4c8d6c2c51d153e31a/cdk-static-wordpress-0.1.8.tar.gz
+[2023-07-01 18:35:58] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-07-01 18:35:58] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.8.tar.gz tmp/spyx-0.0.9.tar.gz --markdown 20230701/s/spyx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 18:35:58] INFO root fetch - processPackages [django-better-repr]: Downloading https://files.pythonhosted.org/packages/db/76/800671a2f0072b27d4208e4f6151dda34f715ee6787fc4dfd0612388203f/django-better-repr-1.0.4.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/a6/08/227d31c150c6bb7c6bc7ba2ca8f8eaccb2ca0ef722da1112989df2bdebde/irc_api-0.0.5.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [django-better-repr]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [django-better-repr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-better-repr-1.0.3.tar.gz tmp/django-better-repr-1.0.4.tar.gz --markdown 20230701/d/django-better-repr/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-01 18:35:59] INFO root fetch - processPackages [pymudclient]: Downloading https://files.pythonhosted.org/packages/5d/e5/a02779ffab3c0504b6b8f752fa97e38245e3de765588630cf6310120212e/pymudclient-0.4.0.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-0.0.4.tar.gz tmp/irc_api-0.0.5.tar.gz --markdown 20230701/i/irc-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-01 18:35:59] INFO root fetch - processPackages [phable]: Downloading https://files.pythonhosted.org/packages/82/2d/3a8ea8a32a694519cacaa74de7d4d45ccd4f524e5eacdd1654370365bc85/phable-0.1.9.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [EventHandler-Edog0049a]: Downloading https://files.pythonhosted.org/packages/b0/ba/2b1c81d93c6d5d99ce60cb900b47c2b403f0bd49a0c3cf035666b8bfd3e0/eventhandler_edog0049a-0.1.1.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [mactemperatures]: Downloading https://files.pythonhosted.org/packages/7c/7d/f0d68219d085bf28017ca4f0a50237bd7106499e8aef1c9d1cf8e8af2684/mactemperatures-0.0.2.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [EventHandler-Edog0049a]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [EventHandler-Edog0049a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventhandler_edog0049a-0.1.0.tar.gz tmp/eventhandler_edog0049a-0.1.1.tar.gz --markdown 20230701/E/EventHandler-Edog0049a/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-01 18:35:59] INFO root fetch - processPackages [pymudclient]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [pymudclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymudclient-0.3.0.tar.gz tmp/pymudclient-0.4.0.tar.gz --markdown 20230701/p/pymudclient/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-01 18:35:59] INFO root fetch - processPackages [phable]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [phable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phable-0.1.8.tar.gz tmp/phable-0.1.9.tar.gz --markdown 20230701/p/phable/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 18:35:59] INFO root fetch - processPackages [mactemperatures]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [mactemperatures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mactemperatures-0.0.1.tar.gz tmp/mactemperatures-0.0.2.tar.gz --markdown 20230701/m/mactemperatures/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-01 18:35:59] INFO root fetch - processPackages [cdk-static-wordpress]: Downloading https://files.pythonhosted.org/packages/4c/f6/38d5e5ddf3370f56fb612ccbdf0c7b3a8aa587e85fd6eec51269f0e55a1c/cdk-static-wordpress-0.1.9.tar.gz
+[2023-07-01 18:35:59] INFO root fetch - processPackages [cdk-static-wordpress]: executing diffoscope
+[2023-07-01 18:35:59] INFO root fetch - processPackages [cdk-static-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-static-wordpress-0.1.8.tar.gz tmp/cdk-static-wordpress-0.1.9.tar.gz --markdown 20230701/c/cdk-static-wordpress/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-01 18:36:00] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.9.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-07-01 18:36:00] INFO root fetch - processPackages [mactemperatures]: Remove: archive file [/home/abi/fetcher/tmp/mactemperatures-0.0.1.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [mactemperatures]: Remove: archive file [/home/abi/fetcher/tmp/mactemperatures-0.0.2.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [mactemperatures]: success
+[2023-07-01 18:36:00] INFO root fetch - processPackages [django-better-repr]: Remove: archive file [/home/abi/fetcher/tmp/django-better-repr-1.0.3.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [django-better-repr]: Remove: archive file [/home/abi/fetcher/tmp/django-better-repr-1.0.4.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [django-better-repr]: success
+[2023-07-01 18:36:00] INFO root fetch - processPackages [EventHandler-Edog0049a]: Remove: archive file [/home/abi/fetcher/tmp/eventhandler_edog0049a-0.1.0.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [EventHandler-Edog0049a]: Remove: archive file [/home/abi/fetcher/tmp/eventhandler_edog0049a-0.1.1.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [EventHandler-Edog0049a]: success
+[2023-07-01 18:36:00] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.3.0.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [pymudclient]: Remove: archive file [/home/abi/fetcher/tmp/pymudclient-0.4.0.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [pymudclient]: success
+[2023-07-01 18:36:00] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.8.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [phable]: Remove: archive file [/home/abi/fetcher/tmp/phable-0.1.9.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [phable]: success
+[2023-07-01 18:36:00] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.4.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.5.tar.gz]
+[2023-07-01 18:36:00] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-01 18:36:01] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.8.tar.gz]
+[2023-07-01 18:36:01] INFO root fetch - processPackages [cdk-static-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-static-wordpress-0.1.9.tar.gz]
+[2023-07-01 18:36:01] INFO root fetch - main [MainThread]: End processing [cdk-static-wordpress]: success
+[2023-07-01 18:36:01] INFO root fetch - main [MainThread]: Store serial: [18723129]
