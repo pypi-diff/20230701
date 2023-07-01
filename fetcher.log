@@ -12601,3 +12601,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 12:55:44] INFO root fetch - processPackages [tpmstream]: Remove: archive file [/home/abi/fetcher/tmp/tpmstream-0.1.9-py3-none-any.whl.zip]
 [2023-07-01 12:55:44] INFO root fetch - main [MainThread]: End processing [tpmstream]: success
 [2023-07-01 12:55:44] INFO root fetch - main [MainThread]: Store serial: [18721357]
+[2023-07-01 13:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721357]
+[2023-07-01 13:00:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chat-box-streamlit
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-jquery-datatables
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: local-llm-function-calling
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: canarypy
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: endi-celery
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywhu3d
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RandomNameGenerator-RememberThisUser
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyClassCharts
+[2023-07-01 13:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nics
+[2023-07-01 13:00:55] INFO root fetch - processPackages [pywhu3d]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 13:00:55] WARNING root fetch - processPackages [django-jquery-datatables]: Skipping, unable to determine old version
+[2023-07-01 13:00:55] WARNING root fetch - processPackages [RandomNameGenerator-RememberThisUser]: Skipping, unable to determine old version
+[2023-07-01 13:00:55] INFO root fetch - main [MainThread]: End processing [django-jquery-datatables] error
+[2023-07-01 13:00:55] WARNING root fetch - processPackages [canarypy]: Skipping, unable to determine old version
+[2023-07-01 13:00:55] INFO root fetch - processPackages [local-llm-function-calling]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-01 13:00:55] INFO root fetch - main [MainThread]: End processing [RandomNameGenerator-RememberThisUser] error
+[2023-07-01 13:00:55] INFO root fetch - processPackages [chat-box-streamlit]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-07-01 13:00:55] INFO root fetch - main [MainThread]: End processing [canarypy] error
+[2023-07-01 13:00:55] INFO root fetch - processPackages [endi-celery]: New version: [6.6.6] Old Version: [6.6.5]
+[2023-07-01 13:00:55] INFO root fetch - processPackages [nics]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-07-01 13:00:55] WARNING root fetch - processPackages [PyClassCharts]: Skipping, unable to determine old version
+[2023-07-01 13:00:55] INFO root fetch - main [MainThread]: End processing [PyClassCharts] error
+[2023-07-01 13:00:55] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/2e/14/6a333d8d26eecabab3e9cc64dacb65cc1fd1e15d6beecc6b0a144f4f9dc4/pywhu3d-0.2.4-py3-none-any.whl
+[2023-07-01 13:00:55] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/7c/95/06bb3a2af1abd17c5ae52c1057846f707ce455150ee4e25a413685619837/nics-2.1.2.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/e5/61/b896b930d88771e1292dccbe1e556ef71aa235cf54822375d1d73f1001e6/chat-box-streamlit-0.0.93.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [local-llm-function-calling]: Downloading https://files.pythonhosted.org/packages/38/67/72c3acf6e43a4cd95825d911441f97de4655e67bdf57619adca6b94f70c4/local_llm_function_calling-0.1.2.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [endi-celery]: Downloading https://files.pythonhosted.org/packages/c3/08/50f6cdc109443e9ac587da0a1d11a4fd98f4e83dd051f316b18984704151/endi_celery-6.6.5.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [pywhu3d]: Downloading https://files.pythonhosted.org/packages/d3/cc/bf7610b920ed4db61fe58b4708aaa8f85332ddc0ff00a01bcff23ad12744/pywhu3d-0.2.5-py3-none-any.whl
+[2023-07-01 13:00:55] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/48/73/892f0735cc2a5fe988cc5fa84dcbb3ee30cdc9a2df9169829979ea695110/nics-2.2.0.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-07-01 13:00:55] INFO root fetch - processPackages [chat-box-streamlit]: Downloading https://files.pythonhosted.org/packages/2e/33/7eed1a885e82e384d2f8233c03647631716a048d24632084c37467127fa7/chat-box-streamlit-0.0.94.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-2.1.2.tar.gz tmp/nics-2.2.0.tar.gz --markdown 20230701/n/nics/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-07-01 13:00:55] INFO root fetch - processPackages [local-llm-function-calling]: Downloading https://files.pythonhosted.org/packages/8b/82/6000bd76f90eac24cdf569a072fce1a8984a2a1fab21074a324e3d7aa9d9/local_llm_function_calling-0.1.3.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [pywhu3d]: executing diffoscope
+[2023-07-01 13:00:55] INFO root fetch - processPackages [pywhu3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywhu3d-0.2.4-py3-none-any.whl.zip tmp/pywhu3d-0.2.5-py3-none-any.whl.zip --markdown 20230701/p/pywhu3d/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 13:00:55] INFO root fetch - processPackages [endi-celery]: Downloading https://files.pythonhosted.org/packages/a5/d5/d026a7b5ade56ec26bd977ce49ca07fd37a48a4563e8f2003de2a47349d0/endi_celery-6.6.6.tar.gz
+[2023-07-01 13:00:55] INFO root fetch - processPackages [chat-box-streamlit]: executing diffoscope
+[2023-07-01 13:00:55] INFO root fetch - processPackages [chat-box-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat-box-streamlit-0.0.93.tar.gz tmp/chat-box-streamlit-0.0.94.tar.gz --markdown 20230701/c/chat-box-streamlit/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-07-01 13:00:55] INFO root fetch - processPackages [local-llm-function-calling]: executing diffoscope
+[2023-07-01 13:00:55] INFO root fetch - processPackages [local-llm-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_llm_function_calling-0.1.2.tar.gz tmp/local_llm_function_calling-0.1.3.tar.gz --markdown 20230701/l/local-llm-function-calling/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-01 13:00:55] INFO root fetch - processPackages [endi-celery]: executing diffoscope
+[2023-07-01 13:00:55] INFO root fetch - processPackages [endi-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endi_celery-6.6.5.tar.gz tmp/endi_celery-6.6.6.tar.gz --markdown 20230701/e/endi-celery/6.6.5-6.6.6/diff.md --exclude *.pyd
+[2023-07-01 13:00:56] INFO root fetch - processPackages [pywhu3d]: Remove: archive file [/home/abi/fetcher/tmp/pywhu3d-0.2.4-py3-none-any.whl.zip]
+[2023-07-01 13:00:56] INFO root fetch - processPackages [pywhu3d]: Remove: archive file [/home/abi/fetcher/tmp/pywhu3d-0.2.5-py3-none-any.whl.zip]
+[2023-07-01 13:00:56] INFO root fetch - main [MainThread]: End processing [pywhu3d]: success
+[2023-07-01 13:00:56] INFO root fetch - processPackages [local-llm-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/local_llm_function_calling-0.1.2.tar.gz]
+[2023-07-01 13:00:56] INFO root fetch - processPackages [local-llm-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/local_llm_function_calling-0.1.3.tar.gz]
+[2023-07-01 13:00:56] INFO root fetch - main [MainThread]: End processing [local-llm-function-calling]: success
+[2023-07-01 13:00:56] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.93.tar.gz]
+[2023-07-01 13:00:56] INFO root fetch - processPackages [chat-box-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/chat-box-streamlit-0.0.94.tar.gz]
+[2023-07-01 13:00:56] INFO root fetch - main [MainThread]: End processing [chat-box-streamlit]: success
+[2023-07-01 13:00:57] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.1.2.tar.gz]
+[2023-07-01 13:00:57] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-2.2.0.tar.gz]
+[2023-07-01 13:00:57] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-07-01 13:00:57] INFO root fetch - processPackages [endi-celery]: Remove: archive file [/home/abi/fetcher/tmp/endi_celery-6.6.5.tar.gz]
+[2023-07-01 13:00:57] INFO root fetch - processPackages [endi-celery]: Remove: archive file [/home/abi/fetcher/tmp/endi_celery-6.6.6.tar.gz]
+[2023-07-01 13:00:57] INFO root fetch - main [MainThread]: End processing [endi-celery]: success
+[2023-07-01 13:00:57] INFO root fetch - main [MainThread]: Store serial: [18721391]
