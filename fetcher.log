@@ -11756,3 +11756,37 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 11:20:29] INFO root fetch - processPackages [shellserver]: Remove: archive file [/home/abi/fetcher/tmp/shellserver-0.0.9.tar.gz]
 [2023-07-01 11:20:29] INFO root fetch - main [MainThread]: End processing [shellserver]: success
 [2023-07-01 11:20:29] INFO root fetch - main [MainThread]: Store serial: [18720994]
+[2023-07-01 11:25:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18720994]
+[2023-07-01 11:25:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-01 11:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-07-01 11:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphdata
+[2023-07-01 11:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-01 11:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-07-01 11:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backup-warden
+[2023-07-01 11:25:38] WARNING root fetch - processPackages [backup-warden]: Skipping, unable to determine old version
+[2023-07-01 11:25:38] INFO root fetch - main [MainThread]: End processing [backup-warden] error
+[2023-07-01 11:25:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 11:25:38] WARNING root fetch - processPackages [graphdata]: Skipping, unable to determine old version
+[2023-07-01 11:25:38] INFO root fetch - main [MainThread]: End processing [graphdata] error
+[2023-07-01 11:25:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 11:25:38] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-01 11:25:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 11:25:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 11:25:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 11:25:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 11:25:39] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-01 11:25:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 11:25:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 11:25:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 11:25:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 11:25:39] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-01 11:25:39] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-01 11:25:39] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230701/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-01 11:25:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-01 11:25:40] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-01 11:25:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 11:25:40] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 11:25:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-01 11:25:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-01 11:25:42] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-01 11:25:42] INFO root fetch - main [MainThread]: Store serial: [18721010]
