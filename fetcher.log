@@ -19520,3 +19520,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 22:22:38] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.9.tar.gz]
 [2023-07-01 22:22:38] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-07-01 22:22:38] INFO root fetch - main [MainThread]: Store serial: [18724449]
+[2023-07-01 22:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18724449]
+[2023-07-01 22:27:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gato-eda
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AlgBench
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yetl-framework
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: b2sim
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irc-api
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cachefunc
+[2023-07-01 22:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agentlayer
+[2023-07-01 22:27:47] INFO root fetch - processPackages [AlgBench]: New version: [2.0.1b0] Old Version: [2.0.0]
+[2023-07-01 22:27:47] INFO root fetch - processPackages [irc-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-01 22:27:47] INFO root fetch - processPackages [b2sim]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-01 22:27:47] WARNING root fetch - processPackages [gato-eda]: Skipping, unable to determine old version
+[2023-07-01 22:27:47] INFO root fetch - main [MainThread]: End processing [gato-eda] error
+[2023-07-01 22:27:47] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-01 22:27:47] INFO root fetch - processPackages [cachefunc]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-01 22:27:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 22:27:47] WARNING root fetch - processPackages [agentlayer]: Skipping, unable to determine old version
+[2023-07-01 22:27:47] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/90/01/f94b44334b641d7dd7cd4b5a74be9416d47558e5d867e353d163f36c9f9a/yetl-framework-1.6.3.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - main [MainThread]: End processing [agentlayer] error
+[2023-07-01 22:27:47] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/66/ea/9ee232f8850e3ac647a3c8d05d0c9cc9b47a2844c8c6a61227081a4f1c3d/irc_api-0.0.8.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-01 22:27:47] INFO root fetch - processPackages [AlgBench]: Downloading https://files.pythonhosted.org/packages/a6/3c/7bcb84d075fbd05b6a447d8de237fea76868e3f5e707f89dfe943bdb47b4/AlgBench-2.0.0.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/41/33/8d8e64edbfded1bbbeb1822c0570ca4431a4a1441e17f1d28117016dc9c2/b2sim-1.0.1-py3.10.egg
+[2023-07-01 22:27:47] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/78/bd/17fbb6a5aa23c20ca3c0cd548046fec95f8ddff95a524cdb849acee573d8/cachefunc-0.2.1.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [irc-api]: Downloading https://files.pythonhosted.org/packages/c7/72/38d77564ad1b943d1a5109f2e8b8c49081e84167264f5dff3db40e58eecd/irc_api-0.0.9.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [irc-api]: executing diffoscope
+[2023-07-01 22:27:47] INFO root fetch - processPackages [irc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irc_api-0.0.8.tar.gz tmp/irc_api-0.0.9.tar.gz --markdown 20230701/i/irc-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-01 22:27:47] INFO root fetch - processPackages [cachefunc]: Downloading https://files.pythonhosted.org/packages/b3/39/cf6bb92ac48f64a2e85f413c929b6fc27c2d2c7748b02522505616929ccd/cachefunc-0.2.2.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/79/5a/487f63a0398656bf8b5042f5b5d83e6339b5d0933f5248449e5c0f4ec31b/b2sim-1.0.2.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [AlgBench]: Downloading https://files.pythonhosted.org/packages/6a/e6/2c31b90fc49e7adb1edfe190cbe8c976a9fac0ca5082b136158cb79150dd/AlgBench-2.0.1b0.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/f5/bc/a09663996d7eafeed83a31fbf225368c597cd1332403e9fbad199f1b5246/yetl-framework-1.6.4.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 22:27:47] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-01 22:27:48] INFO root fetch - processPackages [AlgBench]: executing diffoscope
+[2023-07-01 22:27:48] INFO root fetch - processPackages [AlgBench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgBench-2.0.0.tar.gz tmp/AlgBench-2.0.1b0.tar.gz --markdown 20230701/A/AlgBench/2.0.0-2.0.1b0/diff.md --exclude *.pyd
+[2023-07-01 22:27:48] INFO root fetch - processPackages [cachefunc]: executing diffoscope
+[2023-07-01 22:27:48] INFO root fetch - processPackages [cachefunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachefunc-0.2.1.tar.gz tmp/cachefunc-0.2.2.tar.gz --markdown 20230701/c/cachefunc/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-01 22:27:48] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-01 22:27:48] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.3.tar.gz tmp/yetl-framework-1.6.4.tar.gz --markdown 20230701/y/yetl-framework/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-01 22:27:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 22:27:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 22:27:48] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2023-07-01 22:27:48] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-1.0.1-py3.10.egg tmp/b2sim-1.0.2.tar.gz --markdown 20230701/b/b2sim/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-01 22:27:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-01 22:27:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230701/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-01 22:27:49] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.8.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - processPackages [irc-api]: Remove: archive file [/home/abi/fetcher/tmp/irc_api-0.0.9.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [irc-api]: success
+[2023-07-01 22:27:49] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.1.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - processPackages [cachefunc]: Remove: archive file [/home/abi/fetcher/tmp/cachefunc-0.2.2.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [cachefunc]: success
+[2023-07-01 22:27:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 22:27:49] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.1-py3.10.egg]
+[2023-07-01 22:27:49] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-1.0.2.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2023-07-01 22:27:49] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.3.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.4.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-01 22:27:49] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-2.0.0.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - processPackages [AlgBench]: Remove: archive file [/home/abi/fetcher/tmp/AlgBench-2.0.1b0.tar.gz]
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [AlgBench]: success
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-01 22:27:49] INFO root fetch - main [MainThread]: Store serial: [18724487]
