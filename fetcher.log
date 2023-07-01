@@ -13596,3 +13596,21 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-07-01 14:26:53] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
 [2023-07-01 14:26:53] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
 [2023-07-01 14:26:53] INFO root fetch - main [MainThread]: Store serial: [18721767]
+[2023-07-01 14:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18721767]
+[2023-07-01 14:32:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-01 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: letterboxd-stats
+[2023-07-01 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymlt
+[2023-07-01 14:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: singlecase
+[2023-07-01 14:32:02] WARNING root fetch - processPackages [pymlt]: Skipping, unable to determine old version
+[2023-07-01 14:32:02] INFO root fetch - main [MainThread]: End processing [pymlt] error
+[2023-07-01 14:32:02] INFO root fetch - processPackages [letterboxd-stats]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-01 14:32:02] WARNING root fetch - processPackages [singlecase]: Skipping, unable to determine old version
+[2023-07-01 14:32:02] INFO root fetch - main [MainThread]: End processing [singlecase] error
+[2023-07-01 14:32:02] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/0a/7f/9eb05519aaf3e0bd0c5c555615e7e2aff1e6dd57a87838d4bf8f7bba205b/letterboxd_stats-0.2.4.tar.gz
+[2023-07-01 14:32:02] INFO root fetch - processPackages [letterboxd-stats]: Downloading https://files.pythonhosted.org/packages/08/0c/b4fb1b4a6de94c433ff2deb8005fd42bef099afcf6972dd96ac60acd2076/letterboxd_stats-0.2.5.tar.gz
+[2023-07-01 14:32:02] INFO root fetch - processPackages [letterboxd-stats]: executing diffoscope
+[2023-07-01 14:32:02] INFO root fetch - processPackages [letterboxd-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230701:/home/abi/fetcher/20230701:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/letterboxd_stats-0.2.4.tar.gz tmp/letterboxd_stats-0.2.5.tar.gz --markdown 20230701/l/letterboxd-stats/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-01 14:32:03] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.4.tar.gz]
+[2023-07-01 14:32:03] INFO root fetch - processPackages [letterboxd-stats]: Remove: archive file [/home/abi/fetcher/tmp/letterboxd_stats-0.2.5.tar.gz]
+[2023-07-01 14:32:03] INFO root fetch - main [MainThread]: End processing [letterboxd-stats]: success
+[2023-07-01 14:32:03] INFO root fetch - main [MainThread]: Store serial: [18721785]
